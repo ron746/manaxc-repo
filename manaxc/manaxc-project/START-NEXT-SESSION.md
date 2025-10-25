@@ -5,15 +5,18 @@
 ### Quick Start Command
 ```
 I'm continuing the ManaXC project. The website is deployed at https://manaxc.com.
-Please read SESSION-SUMMARY-2025-10-25.md and this file to understand where we are.
+Please read SESSION-SUMMARY-2025-10-25.md, SESSION-UPDATE-2025-10-25-EVENING.md, and this file to understand where we are.
 ```
 
 ---
 
-## ✅ Current Status (As of October 25, 2025)
+## ✅ Current Status (As of October 25, 2025 - Evening)
 
 ### What's Working
 - ✅ **Website Live:** https://manaxc.com
+- ✅ **Official Logo:** Mana XC tribal runner logo added
+- ✅ **Hero Redesign:** Modern zinc/cyan color scheme
+- ✅ **New Tagline:** "The Finish Line Starts Here"
 - ✅ **GitHub Repo:** https://github.com/ron746/manaxc-website
 - ✅ **Database:** Supabase connected and working
 - ✅ **Deployments:** Automatic on git push to main
