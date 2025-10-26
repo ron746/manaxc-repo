@@ -1,0 +1,117 @@
+name,venue,distance_meters,distance_display,difficulty_rating
+"Track, 1 Mile",Track,1609, 1 Mile,1
+"Camden Invit, 1.75 Miles",Camden Invit,2816, 1.75 Miles,1.141848146
+"Vasona Park, 1.9 Miles",Vasona Park,3058, 1.9 Miles,1.130076516
+"Lynbrook High School, 1.9 Miles",Lynbrook High School,3058, 1.9 Miles,1.147733961
+"York School, 1.95 Miles",York School,3138, 1.95 Miles,1.288993526
+"Track, 1600m",Track,1600, 1600m,0.998351972
+"Sunnyvale High School, 2 Miles",Sunnyvale High School,3219, 2 Miles,1.065332549
+"Track, 2 Miles",Track,3219, 2 Miles,1.065450265
+"Elkhorn GC, 2 Miles",Elkhorn GC,3219, 2 Miles,1.086027075
+"Lynbrook High School, 2 Miles",Lynbrook High School,3219, 2 Miles,1.093878752
+"Newhall Park, 2 Miles",Newhall Park,3219, 2 Miles,1.104649794
+"Del Mar High School, 2 Miles",Del Mar High School,3219, 2 Miles,1.130076516
+"Vasona Park, 2 Miles",Vasona Park,3219, 2 Miles,1.135962331
+"Cupertino High School, 2 Miles",Cupertino High School,3219, 2 Miles,1.161918776
+"Soquel High School, 2 Miles",Soquel High School,3219, 2 Miles,1.177163037
+"Lagoon Valley Park, 2 Miles",Lagoon Valley Park,3219, 2 Miles,1.183048852
+"York School, 2 Miles",York School,3219, 2 Miles,1.267216009
+"Alum Rock Park, 2 Miles",Alum Rock Park,3219, 2 Miles,1.318422602
+"Coyote Park, 2.0 Miles",Coyote Park,3219, 2.0 Miles,1.246674514
+"Fremont HS, 2.05 Miles",Fremont HS,3299, 2.05 Miles,1.132984392
+"Golden Gate Park (Const), 2.08 Miles",Golden Gate Park (Const),3347, 2.08 Miles,1.067098293
+"Lynbrook High School, 2.1 Miles",Lynbrook High School,3380, 2.1 Miles,1.103001766
+"Del Mar High School, 2.1 Miles",Del Mar High School,3380, 2.1 Miles,1.118304885
+"Fremont High School, 2.1 Miles",Fremont High School,3380, 2.1 Miles,1.132984392
+"Hellyer Park, 2.1 Miles",Hellyer Park,3380, 2.1 Miles,1.153619776
+"Crystal Springs, 2.13 Miles",Crystal Springs,3428, 2.13 Miles,1.104178929
+"Golden Gate Park, 2.13 Miles",Golden Gate Park,3428, 2.13 Miles,1.124849912
+"Vasona Park, 2.15 Miles",Vasona Park,3460, 2.15 Miles,1.141848146
+"Vasona Park, 2.175 Miles",Vasona Park,3500, 2.175 Miles,1.103590347
+"Del Mar High School, 2.2 Miles",Del Mar High School,3541, 2.2 Miles,1.082989994
+"Lynbrook High School, 2.2 Miles",Lynbrook High School,3541, 2.2 Miles,1.103001766
+"Camden High School, 2.2 Miles",Camden High School,3541, 2.2 Miles,1.141848146
+"Crystal Springs, 2.25 Miles",Crystal Springs,3621, 2.25 Miles,1.097115951
+"Half Moon Bay HS , 2.25 Miles",Half Moon Bay HS ,3621, 2.25 Miles,1.175350782
+"Del Mar High School, 2.3 Miles",Del Mar High School,3701, 2.3 Miles,1.071218364
+"Alum Rock Park, 2.3 Miles",Alum Rock Park,3701, 2.3 Miles,1.132548558
+"Westmoor High (Const), 2.3 Miles",Westmoor High (Const),3701, 2.3 Miles,1.134582492
+"Central Park, 2.3 Miles",Central Park,3701, 2.3 Miles,1.137139494
+"Blackford High School, 2.3 Miles",Blackford High School,3701, 2.3 Miles,1.154796939
+"Camden High School, 2.35 Miles",Camden High School,3782, 2.35 Miles,1.071218364
+"Sunnyvale High School, 2.4 Miles",Sunnyvale High School,3862, 2.4 Miles,1.065332549
+"Alum Rock Park, 2.4 Miles",Alum Rock Park,3862, 2.4 Miles,1.133608005
+"Mt. Madonna Park, 2.4 Miles",Mt. Madonna Park,3862, 2.4 Miles,1.141848146
+"Westmoor High, 2.4 Miles",Westmoor High,3862, 2.4 Miles,1.163413773
+"Westmont High School, 2.5 Miles",Westmont High School,4023, 2.5 Miles,1.065332549
+"Golden Gate Park, 2.5 Miles",Golden Gate Park,4023, 2.5 Miles,1.113078281
+"Aptos High School, 2.5 Miles",Aptos High School,4023, 2.5 Miles,1.130076516
+"Soquel High School, 2.5 Miles",Soquel High School,4023, 2.5 Miles,1.130076516
+"Andrew Hill High School, 2.53 Miles",Andrew Hill High School,4072, 2.53 Miles,1.139258387
+"Hellyer Park, 2.55 Miles",Hellyer Park,4104, 2.55 Miles,1.118304885
+"Willow Glen High, 2.56 Miles",Willow Glen High,4120, 2.56 Miles,1.129958799
+"Mt. Madonna Park, 2.6 Miles",Mt. Madonna Park,4184, 2.6 Miles,1.084167157
+"Hellyer Park, 2.6 Miles",Hellyer Park,4184, 2.6 Miles,1.118304885
+"Camden High School, 2.65 Miles",Camden High School,4265, 2.65 Miles,0.94173043
+"Lynbrook High School, 2.65 Miles",Lynbrook High School,4265, 2.65 Miles,1.103001766
+"Coyote Park, 2.65 Miles",Coyote Park,4265, 2.65 Miles,1.12772219
+"Santa Teresa Park, 2.7 Miles",Santa Teresa Park,4345, 2.7 Miles,1.212477928
+"Montgomery Hill, 2.74 Miles",Montgomery Hill,4410, 2.74 Miles,1.205297234
+"Soquel High School, 2.75 Miles",Soquel High School,4426, 2.75 Miles,1.130076516
+"Pleasant Hills High School, 2.75 Miles",Pleasant Hills High School,4426, 2.75 Miles,1.141848146
+"Lake Cunningham Park, 2.75 Miles",Lake Cunningham Park,4426, 2.75 Miles,1.16656857
+"Foothill College, 2.75 Miles",Foothill College,4426, 2.75 Miles,1.19950261
+"Golden Gate Park (Const), 2.78 Miles",Golden Gate Park (Const),4474, 2.78 Miles,1.113078281
+"Hellyer Park, 2.8 Miles",Hellyer Park,4506, 2.8 Miles,1.065332549
+"Vasona Park, 2.85 Miles",Vasona Park,4587, 2.85 Miles,1.065332549
+"Alum Rock Park, 2.85 Miles",Alum Rock Park,4587, 2.85 Miles,1.133608005
+"Santa Teresa High School, 2.85 Miles",Santa Teresa High School,4587, 2.85 Miles,1.134785168
+"Hellyer Park, 2.85 Miles",Hellyer Park,4587, 2.85 Miles,1.153619776
+"Hellyer Park, 2.9 Miles",Hellyer Park,4667, 2.9 Miles,1.082989994
+"Alum Rock, 2.9 Miles",Alum Rock,4667, 2.9 Miles,1.140894644
+"Foothill College, 2.9 Miles",Foothill College,4667, 2.9 Miles,1.19950261
+"Golden Gate Park, 2.93 Miles",Golden Gate Park,4715, 2.93 Miles,1.147733961
+"Mt SAC, 2.93 Miles",Mt SAC,4715, 2.93 Miles,1.183637434
+"Alum Rock Park, 2.95 Miles",Alum Rock Park,4748, 2.95 Miles,1.133608005
+"Shadow Cliffs Regional Park, 2.95 Miles",Shadow Cliffs Regional Park,4748, 2.95 Miles,1.161859918
+"Crystal Springs, 2.95 Miles",Crystal Springs,4748, 2.95 Miles,1.177163037
+"Track, 3 Miles",Track,4828, 3 Miles,1.077104179
+"Newhall Park, 3 Miles",Newhall Park,4828, 3 Miles,1.114773396
+"College of San Mateo, 3 Miles",College of San Mateo,4828, 3 Miles,1.118304885
+"Stanford Golf Course, 3 Miles",Stanford Golf Course,4828, 3 Miles,1.135491466
+"Meadow Park, 3 Miles",Meadow Park,4828, 3 Miles,1.146109476
+"Sierra College, 3 Miles",Sierra College,4828, 3 Miles,1.173631548
+"Toro Park, 3 Miles",Toro Park,4828, 3 Miles,1.181212478
+"Lagoon Valley Park, 3 Miles",Lagoon Valley Park,4828, 3 Miles,1.183048852
+"Foothill College, 3 Miles",Foothill College,4828, 3 Miles,1.19950261
+"NMC High School, 3 Miles",NMC High School,4828, 3 Miles,1.224853686
+"Del Mar High School, 3 Miles",Del Mar High School,4828, 3 Miles,1.236021189
+"Golden Gate Park Polo, 3.03 miles",Golden Gate Park Polo,4876, 3.03 miles,1.1241907
+"Hooker Oak Park, 3.5 Kilometers",Hooker Oak Park,3500, 3.5 Kilometers,1.061094762
+"Woodward Park, 3.5 Kilometers",Woodward Park,3500, 3.5 Kilometers,1.071218364
+"Track, 3200m",Track,3200, 3200m,1.065332548
+"Mt SAC (Rain Course), 4.5 Kilometers",Mt SAC (Rain Course),4500, 4.5 Kilometers,1.134196586
+"Baylands Park, 5 Kilometers",Baylands Park,5000, 5 Kilometers,1.129841083
+"Stanford GC, 5 Kilometers",Stanford GC,5000, 5 Kilometers,1.135491466
+"Arcade Creek GC, 5 Kilometers",Arcade Creek GC,5000, 5 Kilometers,1.135962331
+"Mt SAC (Rain Course), 5 Kilometers",Mt SAC (Rain Course),5000, 5 Kilometers,1.135962331
+"Woodward Park, 5 Kilometers",Woodward Park,5000, 5 Kilometers,1.140294291
+"Hooker Oak Park, 5 Kilometers",Hooker Oak Park,5000, 5 Kilometers,1.144072984
+"Westmont High School, 5 Kilometers",Westmont High School,5000, 5 Kilometers,1.159505592
+"Elkhorn GC, 5 Kilometers",Elkhorn GC,5000, 5 Kilometers,1.167286639
+"Mt SAC, 5 Kilometers",Mt SAC,5000, 5 Kilometers,1.179988228
+"Toro Park, 5 Kilometers",Toro Park,5000, 5 Kilometers,1.181211961
+"La Rinconada Area, 5 Kilometers",La Rinconada Area,5000, 5 Kilometers,1.241907004
+"Track, 5000m",Track,5000, 5000m,1.111241907
+Zone 9,Road,1609,mile effort,0.711571513
+Zone 8,Road,1609,mile effort,0.759752796
+Zone 7,Road,1609,mile effort,0.841283108
+Zone 6,Road,1609,mile effort,0.959882284
+V02Max,Road,1609,mile effort,1.033785422
+Zone 5,Road,1609,mile effort,1.07848146
+Zone 4,Road,1609,mile effort,1.178540318
+Threshold,Road,1609,mile effort,1.181998386
+Zone 3,Road,1609,mile effort,1.289723367
+Zone 2,Road,1609,mile effort,1.441683343
+Zone 1,Road,1609,mile effort,1.641812831
+Cooper Test,Road,4763,mile effort,1.106533255

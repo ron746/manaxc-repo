@@ -1,0 +1,85 @@
+========================================================================================================================
+COURSE DIFFICULTY ANALYSIS SUMMARY
+========================================================================================================================
+
+## KEY FINDINGS
+
+### 1. Montgomery Hill 2.74 Mile
+
+Based on 67 athletes who ran both Montgomery Hill 2.74 and Crystal Springs 2.95:
+
+- **ESTIMATED DIFFICULTY: 1.208** (20.8% harder than flat track)
+- **CURRENT IN DATABASE**: "Montgomery Hill | 2.74 Miles" (NOT FOUND - needs difficulty rating)
+- **COMPARISON TO CRYSTAL SPRINGS**: Athletes run ~1:16 per mile SLOWER at Montgomery Hill vs Crystal Springs
+- **CONCLUSION**: Montgomery Hill is HARDER than Crystal Springs (1.208 vs 1.177)
+
+### 2. Baylands 4K (4,000 Meters = 2.485 miles)
+
+**DATA ISSUE**: Athletes show dramatically faster per-mile paces at Baylands compared to other courses
+
+Example - Takuto Sagara's progression:
+- Sep 11: Montgomery Hill 2.74 - 5:45/mile
+- Sep 13: Baylands 4K - 5:15/mile  (30 sec/mile FASTER!)
+- Sep 25: Montgomery Hill 2.74 - 5:39/mile
+- Oct 11: Crystal Springs 2.95 - 5:47/mile
+
+**POSSIBLE EXPLANATIONS**:
+
+A) **Baylands is much easier** (flat course, no hills)
+   - Estimated difficulty: ~1.10 (10% harder than track)
+   - Athletes run 30-40 seconds per mile faster there
+
+B) **Distance measurement error**
+   - If course is actually shorter than 4,000m, times would be faster
+   - Need to verify actual course distance
+
+C) **Different race effort**
+   - Early season race (Sep 13) vs championship races later
+   - Freshmen division vs Varsity competition
+
+D) **Altitude/weather factors**
+   - Baylands is at sea level, very flat
+   - Potentially favorable conditions
+
+**CURRENT IN DATABASE**:
+- "Baylands 5K" - difficulty = 3.0 (WRONG - placeholder value)
+- "Baylands Park | 5 Kilometers" - difficulty = 1.1298 (seems reasonable for 5K)
+- "Baylands Park | 4 Kilometers" - NOT FOUND (needs to be added)
+
+========================================================================================================================
+RECOMMENDATIONS
+========================================================================================================================
+
+1. **Add Montgomery Hill 2.74 Miles difficulty rating**:
+   - Course: "Montgomery Hill | 2.74 Miles"
+   - Suggested difficulty: 1.208
+
+2. **Add Baylands 4K course**:
+   - Course name: "Baylands Park | 4 Kilometers"
+   - Distance: 4000 meters
+   - Suggested difficulty: 1.10 (if truly easier) OR need to investigate why times are so fast
+
+3. **Fix incorrect difficulty ratings**:
+   - "Crystal Springs 5K" currently = 8.0 (should be ~1.2)
+   - "Baylands 5K" currently = 3.0 (should be ~1.1-1.2)
+   - "Toro Park 3 Mile" currently = 7.5 (should be ~1.2-1.3)
+
+4. **Verify Baylands 4K distance**:
+   - Confirm actual course distance is 4,000m
+   - Check if course is certified/measured accurately
+
+========================================================================================================================
+DATA DETAILS
+========================================================================================================================
+
+Montgomery Hill 2.74 vs Crystal Springs 2.95 (67 athletes):
+- Average MH per-mile pace: slower by 1:15.74
+- Average CS 2.95 per-mile pace: baseline
+- Ratio: 1.208 (MH is 20.8% harder than CS)
+
+Baylands 4K Analysis (30 athletes with CS comparison):
+- Average Baylands per-mile pace: 6:42
+- Average Crystal Springs per-mile pace: 7:25
+- Difference: 43 seconds per mile FASTER at Baylands
+
+========================================================================================================================
