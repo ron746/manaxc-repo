@@ -90,7 +90,7 @@ export async function getAthleteById(id: string) {
 }
 
 export async function getSchoolById(id: string) {
-  const { data, error } = await supabase
+  const { data, error} = await supabase
     .from('schools')
     .select('*')
     .eq('id', id)
@@ -98,4 +98,131 @@ export async function getSchoolById(id: string) {
 
   if (error) throw error;
   return data;
+}
+
+// ==================== ATHLETE DETAIL QUERIES ====================
+
+export async function getAthleteWithSchool(id: string) {
+  const { data, error } = await supabase
+    .from('athletes')
+    .select(`
+      *,
+      schools (
+        id,
+        name,
+        city,
+        state,
+        league
+      )
+    `)
+    .eq('id', id)
+    .single();
+
+  if (error) throw error;
+  return data;
+}
+
+export async function getAthleteResults(athleteId: string) {
+  const { data, error } = await supabase
+    .from('results')
+    .select(`
+      id,
+      time_cs,
+      place_overall,
+      place_gender,
+      place_team,
+      is_pr,
+      data_source,
+      is_legacy_data,
+      races (
+        id,
+        name,
+        gender,
+        distance_meters,
+        meets (
+          id,
+          name,
+          meet_date,
+          season_year,
+          courses (
+            id,
+            name,
+            location,
+            distance_meters,
+            distance_display,
+            difficulty_rating
+          )
+        )
+      )
+    `)
+    .eq('athlete_id', athleteId)
+    .order('races.meets.meet_date', { ascending: false });
+
+  if (error) throw error;
+  return data || [];
+}
+
+export async function getAthleteSeasonStats(athleteId: string, seasonYear: number) {
+  const { data, error } = await supabase
+    .from('results')
+    .select(`
+      id,
+      time_cs,
+      races!inner (
+        meets!inner (
+          season_year
+        )
+      )
+    `)
+    .eq('athlete_id', athleteId)
+    .eq('races.meets.season_year', seasonYear);
+
+  if (error) throw error;
+  return data || [];
+}
+
+// ==================== SCHOOL DETAIL QUERIES ====================
+
+export async function getSchoolAthletes(schoolId: string) {
+  const { data, error } = await supabase
+    .from('athletes')
+    .select('*')
+    .eq('school_id', schoolId)
+    .order('last_name', { ascending: true })
+    .order('first_name', { ascending: true });
+
+  if (error) throw error;
+  return data || [];
+}
+
+export async function getSchoolWithStats(schoolId: string) {
+  // Get school info
+  const school = await getSchoolById(schoolId);
+
+  // Get athletes count
+  const { count: athletesCount } = await supabase
+    .from('athletes')
+    .select('id', { count: 'exact', head: true })
+    .eq('school_id', schoolId);
+
+  // Get boys count
+  const { count: boysCount } = await supabase
+    .from('athletes')
+    .select('id', { count: 'exact', head: true })
+    .eq('school_id', schoolId)
+    .eq('gender', 'M');
+
+  // Get girls count
+  const { count: girlsCount } = await supabase
+    .from('athletes')
+    .select('id', { count: 'exact', head: true })
+    .eq('school_id', schoolId)
+    .eq('gender', 'F');
+
+  return {
+    ...school,
+    athletesCount: athletesCount || 0,
+    boysCount: boysCount || 0,
+    girlsCount: girlsCount || 0
+  };
 }

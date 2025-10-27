@@ -148,10 +148,18 @@ export default function SchoolsPage() {
                 <tr>
                   <td colSpan={4} className="text-center p-8 text-zinc-500">Loading schools...</td>
                 </tr>
+              ) : filteredSchools.length === 0 ? (
+                <tr>
+                  <td colSpan={4} className="text-center p-8 text-zinc-500">No schools found matching your criteria</td>
+                </tr>
               ) : (
                 filteredSchools.map((school) => (
                   <tr key={school.id} className="hover:bg-cyan-50/50 transition-colors">
-                    <td className="p-4 text-zinc-900 font-medium">{school.name}</td>
+                    <td className="p-4 text-zinc-900 font-medium">
+                      <a href={`/schools/${school.id}`} className="text-cyan-600 hover:underline">
+                        {school.name}
+                      </a>
+                    </td>
                     <td className="p-4 text-zinc-600">{school.league || 'N/A'}</td>
                     <td className="p-4 text-zinc-600">{school.city || 'N/A'}</td>
                     <td className="p-4 text-zinc-600">{school.state || 'N/A'}</td>

@@ -34,6 +34,21 @@ def normalize_course_name(name):
     """Normalize course name for matching"""
     if not name:
         return ""
+
+    # If the name contains a pipe (|), it's likely "Location | Distance" format
+    # We want to match just the location part, with the distance
+    if '|' in name:
+        # Split by pipe and reconstruct as "Location, Distance"
+        parts = [p.strip() for p in name.split('|')]
+        if len(parts) >= 2:
+            location = parts[0]
+            distance = parts[1]
+            # Convert "5 Kilometers" to "5K" or "3 Miles" to "3 Miles"
+            if 'kilometer' in distance.lower():
+                distance = distance.lower().replace('kilometers', 'K').replace('kilometer', 'K').strip()
+                distance = distance.replace(' k', 'K')
+            name = f"{location}, {distance}"
+
     # Convert to lowercase and standardize spacing
     normalized = name.lower().strip()
     # Replace multiple spaces with single space
@@ -183,9 +198,23 @@ def main():
             clean_name = athlete_name.split('|')[0].strip() if '|' in athlete_name else athlete_name
 
             full_name, first_name, last_name = parse_name(clean_name)
+
+            # Convert grade level to graduation year
+            # If grade_year is 9-12, it's a grade level, convert to grad year
+            # Formula: grad_year = season_year + (13 - grade_level)
             try:
-                grad_year = int(float(grade_year))
+                grade_value = int(float(grade_year))
+                # If it's a grade level (9-12), convert to graduation year
+                if 9 <= grade_value <= 12:
+                    grad_year = year + (13 - grade_value)
+                # If it's already a 4-digit year (>= 2000), use it directly
+                elif grade_value >= 2000:
+                    grad_year = grade_value
+                else:
+                    # Default: assume freshman (9th grade)
+                    grad_year = year + 4
             except:
+                # Default: assume freshman (9th grade)
                 grad_year = year + 4
 
             unique_athletes[athlete_name] = {

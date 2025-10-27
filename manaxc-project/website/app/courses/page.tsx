@@ -149,7 +149,14 @@ export default function CoursesPage() {
               ) : (
                 filteredCourses.map((course) => (
                   <tr key={course.id} className="hover:bg-cyan-50/50 transition-colors">
-                    <td className="p-4 text-zinc-900 font-medium">{course.name}</td>
+                    <td className="p-4">
+                      <a
+                        href={`/courses/${course.id}`}
+                        className="text-cyan-600 hover:text-cyan-700 font-medium hover:underline"
+                      >
+                        {course.name}
+                      </a>
+                    </td>
                     <td className="p-4 text-zinc-600">{course.distance_meters}</td>
                     <td className="p-4 text-zinc-600">{course.difficulty_rating?.toFixed(3) || 'N/A'}</td>
                   </tr>
