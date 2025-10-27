@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript"
+  ]
+  ,
+  "overrides": [
+    {
+      "files": ["app/api/**", "components/admin/import-steps/**"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    }
+  ]
+}

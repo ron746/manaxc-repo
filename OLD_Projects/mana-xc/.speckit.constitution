@@ -1,0 +1,392 @@
+# SpecKit Constitution - Mana XC
+# Project-specific rules and conventions for AI coding assistants
+
+## Project Identity
+name: "Mana XC"
+domain: "ManaXC.com"
+mission: "Bridge training data and official race results for high school XC runners"
+architecture: "Modular Monolith (Django + Next.js) evolving to Microservices"
+stage: "Phase 0 - Foundation & Data Moat"
+
+## Technology Stack
+frontend:
+  framework: "Next.js 14.2.5"
+  router: "App Router"
+  language: "TypeScript"
+  styling: "Tailwind CSS"
+  ui_library: "lucide-react"
+
+backend:
+  framework: "Django 5.2.7"
+  language: "Python 3.x"
+  environment: "Virtual environment (.venv)"
+
+database:
+  primary: "PostgreSQL 15.1 (Supabase)"
+  extensions: ["TimescaleDB"]
+  local: "SQLite3 (db.sqlite3) for Django"
+
+## Critical Data Rules
+
+### CENTISECONDS RULE (NON-NEGOTIABLE)
+rule: "All race and workout times MUST be stored in centiseconds"
+field_name: "time_cs"
+data_type: "INTEGER (never Float)"
+example: "15:30.00 = 93000 centiseconds"
+conversion: "MM:SS.CC → (MM * 60 * 100) + (SS * 100) + CC"
+display: "Divide by 100 for user display"
+enforcement: "CRITICAL - This rule cannot be violated under any circumstances"
+
+### XC Time Normalization
+system: "1-Mile Track Equivalent rating system"
+rating_field: "races.xc_time_rating"
+rating_type: "NUMERIC (default: 1.000)"
+calculation: "normalized_time = time_cs * xc_time_rating"
+note: "Rating is course AND distance dependent"
+
+### Materialized View Management
+view_name: "athlete_xc_times_v3"
+purpose: "Calculate normalized XC PRs using rating factors"
+refresh_command: "REFRESH MATERIALIZED VIEW athlete_xc_times_v3;"
+when_to_refresh: "After any data changes to results or races tables"
+location: "Backend service includes refresh in import logic"
+
+## Code Style & Conventions
+
+### TypeScript/React
+- Use functional components with hooks (no class components)
+- Prefer client components ('use client') for interactivity
+- Use TypeScript strict mode
+- Import paths use @ aliases (@/components/*, @/lib/*)
+- Component file names: PascalCase.tsx
+- Utility file names: kebab-case.ts
+
+### Python/Django
+- Follow PEP 8 style guide
+- Use virtual environment (.venv) for all Python work
+- Models in core/models.py (minimal models for FK constraints)
+- Services in core/services/ for business logic
+- Always activate venv: source .venv/bin/activate
+
+### Naming Conventions
+- Database tables: snake_case (e.g., athlete_xc_times_v3)
+- Database columns: snake_case (e.g., time_cs, xc_time_rating)
+- API routes: kebab-case (e.g., /api/top-performances)
+- React components: PascalCase (e.g., Step1MeetInfo)
+- Functions/variables: camelCase in TS, snake_case in Python
+
+## UI/UX Design System
+
+### Color Palette
+primary: "Blue-600 (active states, primary actions)"
+success: "Green-600 (completed items, valid fields)"
+warning: "Yellow-600 (overrides, alerts)"
+error: "Red-600 (validation failures)"
+background: "Gray-900/800 gradients"
+text_primary: "White"
+text_secondary: "Gray-400"
+text_labels: "Gray-300"
+
+### Design Principles
+- Modern dark theme with gradient backgrounds
+- Visual feedback for all user actions
+- Green borders indicate successful validation
+- Progress indicators for multi-step processes
+- Icon integration throughout (lucide-react)
+- Responsive design (desktop, tablet, mobile)
+- Success celebrations for major completions
+
+### Component Patterns
+- Card-based layouts with border-gray-700
+- Blue info boxes for explanatory text
+- Completion trackers (e.g., "5/5 Required fields")
+- Status badges with color coding
+- Loading spinners during async operations
+- Drag & drop with visual hover states
+
+## File Structure Rules
+
+### Frontend (app/ directory)
+/app/admin/ → Admin tools (import, duplicates, ratings, delete, scraper)
+  /app/admin/import/ → 5-step CSV import wizard
+  /app/admin/scraper/ → Athletic.net automated scraper UI (admin-only)
+  /app/admin/duplicate-results/ → Duplicate detection dashboard
+  /app/admin/course-ratings/ → Course rating management
+  /app/admin/delete/ → Safe delete functions
+/app/api/ → Next.js API routes (proxy to Supabase RPC)
+  /app/api/admin/scrape-athletic-net/ → Run Athletic.net scraper
+  /app/api/admin/batch-import/ → Batch import scraped data
+  /app/api/admin/download/ → Download scraped CSV/JSON files
+/app/top-performances/ → Main landing page (default redirect)
+/app/courses/[id]/records/ → Dynamic course pages
+/app/schools/[id]/ → School profiles
+/app/athletes/[id]/seasons/ → Athlete histories
+/app/optimizer/ → Team optimizer
+/app/trainnig/ → Workout logging (NOTE: typo in directory name - do not fix)
+
+### Components (components/ directory)
+/components/layout/ → Header, Footer (shared layout)
+/components/admin/import-steps/ → Step1-Step5 (import wizard)
+/components/admin/AthleticNetScraperDashboard.tsx → Athletic.net scraper UI
+/components/ui/ → Reusable primitives (button, input, label, select, switch)
+
+### Libraries (lib/ directory)
+/lib/admin/ → Import utilities (parser, utils)
+/lib/prediction/ → Prediction engine
+/lib/supabase/ → Database client config
+
+### Scripts (scripts/ directory)
+/scripts/athletic-net-scraper-v2.js → Automated Athletic.net web scraper
+  - Uses Puppeteer to scrape race results from Athletic.net
+  - Supports duplicate detection by tracking Athletic.net meet IDs
+  - Outputs CSV (with centiseconds) and JSON files
+  - Usage: node scripts/athletic-net-scraper-v2.js <schoolId> <season>
+
+## Import Wizard Architecture
+
+### CSV Parser Capabilities (lib/admin/import-parser.ts)
+- Full name splitting: "Edward Innes" → {firstName: "Edward", lastName: "Innes"}
+- Multi-word last names: "Edgar Gomez Tapia" → {firstName: "Edgar", lastName: "Gomez Tapia"}
+- Gender parsing: "Boys"→true, "Girls"→false, "M"→true, "F"→false
+- Time conversion: "17:51.2" → 107120 centiseconds
+- Auto-detect columns: Athlete, Name, Time, Duration, Place, School, Gender, Race
+
+### Race Grouping Logic (lib/admin/import-utils.ts)
+- Groups by race category (Varsity, JV, Reserves) and gender
+- Creates distinct race configurations for Step 4
+- Returns array with race name, category, results count
+
+### 5-Step Workflow
+Step 1: Meet metadata (name, date, course)
+Step 2: CSV upload (drag & drop + file browser)
+Step 3: Column mapping (auto-detection + manual override)
+Step 4: Race configuration (course, distance, rating)
+Step 5: Validation & import execution
+
+## API Patterns
+
+### Supabase Integration
+- Import client: import { createClient } from '@/lib/supabase/server'
+- Use RPC functions for complex queries (e.g., get_top_xc_performances)
+- Always include error handling and logging
+- Return JSON with { success: boolean, data/error: any }
+
+### Endpoint Structure
+GET requests: Use searchParams for filters (gender, limit, etc.)
+POST requests: Accept JSON body
+Response format: { success: true, data: [...] } or { error: "message", details: "..." }
+
+### Common Endpoints
+/api/top-performances → Top normalized times (requires gender filter)
+/api/admin/import-meet → Process CSV import
+/api/admin/scrape-athletic-net → Run Athletic.net scraper (admin-only)
+/api/admin/batch-import → Batch import scraped data to database (admin-only)
+/api/admin/download → Download scraped CSV/JSON files (admin-only)
+/api/admin/duplicate-results → Find duplicates
+/api/admin/update-rating → Update course rating factor
+/api/team-optimizer → Team lineup optimization
+
+## Development Workflow
+
+### Starting Development
+1. Open two terminal windows
+2. Terminal 1: source .venv/bin/activate && python manage.py runserver
+3. Terminal 2: npm run dev
+4. Access frontend: http://localhost:3001
+5. Access backend: http://localhost:8000
+
+### Before Coding
+1. Read AI_CONTEXT_LOADER.md for current context
+2. Check PROJECT_STATUS_REPORT.md for recent changes
+3. Review PHASE_0_MVP_BLUEPRINT.md for current phase
+4. Understand the immediate next priority
+
+### When Making Changes
+- Always read existing files before modifying
+- Prefer editing over creating new files
+- Test parser logic with sample data
+- Validate auto-detection works
+- Check imports and file paths
+- Verify TypeScript compilation
+
+### After Data Changes
+- Always refresh materialized view: REFRESH MATERIALIZED VIEW athlete_xc_times_v3;
+- Verify database integrity (check FK constraints)
+- Test with database queries (SELECT COUNT(*) FROM results)
+- Validate UI updates correctly
+
+## Testing Standards
+
+### Import Wizard Testing
+test_file: "2025_0911_STAL_1.csv"
+expected_results: 191
+expected_races: 6
+validation_queries:
+  - "SELECT COUNT(*) FROM results;" → 191
+  - "SELECT COUNT(*) FROM races;" → 6
+  - "SELECT * FROM athlete_xc_times_v3 LIMIT 10;" → verify normalization
+
+### Test Phases
+Phase A: Data Ingestion & Integrity
+  - CSV upload and parsing
+  - Name splitting accuracy
+  - Time conversion to centiseconds
+  - Race grouping detection
+  - Database insertion
+  - Materialized view refresh
+
+Phase B: Rating Change Validation
+  - Update course rating
+  - Verify cascading updates
+  - Check materialized view refresh
+  - Validate UI reflects changes
+
+## Common Pitfalls to Avoid
+
+1. NEVER store times as Float - always INTEGER centiseconds
+2. NEVER forget to refresh materialized view after data changes
+3. NEVER assume CSV columns - always validate and map
+4. NEVER skip error handling in API routes
+5. NEVER create new files when editing existing ones works
+6. NEVER fix the "trainnig" directory typo (legacy path)
+7. NEVER import Switch component in Step 4 (use checkbox alternative)
+8. ALWAYS activate Python virtual environment before backend work
+9. ALWAYS use @ path aliases for imports
+10. ALWAYS verify auto-detection before trusting it
+
+## Documentation Requirements
+
+### Code Comments
+- Explain WHY not WHAT
+- Document non-obvious business logic
+- Mark critical data rules (CENTISECONDS, rating factors)
+- Include examples for complex functions
+
+### Session Handoffs
+- Update AI_CONTEXT_LOADER.md with latest progress
+- Update PROJECT_STATUS_REPORT.md with completed tasks
+- Document any blockers or issues
+- List next developer actions
+
+## Error Handling Patterns
+
+### Frontend
+- Show user-friendly error messages
+- Use color coding (red for errors)
+- Include recovery suggestions
+- Log errors to console for debugging
+
+### Backend
+- Catch and log exceptions
+- Return descriptive error messages
+- Include error details for debugging
+- Use appropriate HTTP status codes
+
+### Parser
+- Validate CSV structure before parsing
+- Handle missing columns gracefully
+- Provide clear mapping errors
+- Suggest corrections for common issues
+
+## Performance Guidelines
+
+### Database
+- Use materialized views for expensive calculations
+- Index foreign key columns
+- Denormalize when appropriate (e.g., season_year in results)
+- Use RPC functions for complex queries
+
+### Frontend
+- Lazy load components when possible
+- Use loading states for async operations
+- Minimize re-renders with proper memoization
+- Optimize images and assets
+
+## Security Considerations
+
+- NEVER commit .env files
+- Use environment variables for secrets
+- Validate all user inputs
+- Sanitize CSV data before import
+- Use prepared statements (Django ORM handles this)
+- Implement CSRF protection (Django default)
+
+## Git Workflow
+
+### Commits
+- Clear, descriptive commit messages
+- Reference feature numbers when applicable
+- Group related changes together
+- Test before committing
+
+### Branches
+- Feature branches for new work
+- Keep main/master stable
+- Test thoroughly before merging
+
+## AI Assistant Guidelines
+
+### Context Management
+- ALWAYS read AI_CONTEXT_LOADER.md first
+- Reference existing documentation before asking
+- Understand current phase and priorities
+- Know what was completed in last session
+
+### Code Generation
+- Follow existing patterns in codebase
+- Match current code style exactly
+- Test parser functions with examples
+- Verify imports and paths
+- Check TypeScript compilation
+
+### Problem Solving
+- Analyze root cause before fixing
+- Propose solutions that fit architecture
+- Consider impact on other components
+- Document reasoning for decisions
+
+## Current Status (as of Oct 17, 2025)
+
+phase: "Phase 0 - Deployment Readiness"
+completed:
+  - All 14 core features (admin, views, analytics)
+  - Enhanced CSV parser with full name splitting
+  - Complete UI redesign (5-step import wizard)
+  - Visual progress tracking
+  - Drag & drop file upload
+  - Auto-detection and field mapping
+
+next_priority: "Execute Test Phase A with sample CSV"
+blockers: "None - ready for testing"
+
+ready_to_test:
+  - Import wizard: ✅
+  - CSV parser: ✅
+  - UI/UX: ✅
+  - Documentation: ✅
+
+## Quick Reference
+
+### Essential Commands
+activate_python: "source .venv/bin/activate"
+start_backend: "python manage.py runserver"
+start_frontend: "npm run dev"
+refresh_view: "REFRESH MATERIALIZED VIEW athlete_xc_times_v3;"
+
+### Key URLs
+frontend: "http://localhost:3001"
+import_wizard: "http://localhost:3001/admin/import"
+athletic_net_scraper: "http://localhost:3001/admin/scraper"
+backend_api: "http://localhost:8000"
+database: "Supabase dashboard"
+
+### Critical Files
+context: "docs/AI_CONTEXT_LOADER.md"
+status: "docs/PROJECT_STATUS_REPORT.md"
+architecture: "docs/DATA_ARCHITECTURE_V2.4.md"
+blueprint: "docs/PHASE_0_MVP_BLUEPRINT.md"
+strategy: "docs/MANA_XC_MASTER_STRATEGY.md"
+
+---
+
+This constitution should be referenced for all code changes, architectural decisions, and development workflows in the Mana XC project.
