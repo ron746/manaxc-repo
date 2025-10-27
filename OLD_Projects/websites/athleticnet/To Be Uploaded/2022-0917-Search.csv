@@ -1,0 +1,378 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,9,12:24.8,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Gabriel,Haller
+2,9,12:31.4,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Ethan,Garner
+3,9,12:33.2,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Kaden,Ren
+4,9,12:33.8,Leland,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Rihito,Yamaguchi
+5,9,12:33.9,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Kevin,Ren
+6,9,12:41.8,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Hudson,Kasenchak
+7,9,12:44.5,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Ethan,Cabrera
+8,9,12:58.5,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Sean,Whipkey
+9,9,12:58.6,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Tyler,Lu
+10,9,12:59.5,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Justin,Dubbs
+11,9,13:01.8,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Cade,Robertson
+12,9,13:03.3,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Theodore,Mui
+13,9,13:03.7,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Leo,Voytovich
+14,9,13:04.3,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Adam,Woo
+15,9,13:04.5,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Landon,Schaefer
+16,9,13:05.3,Westmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Jaden,Kanazawa
+17,9,13:40.4,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Austin,O'Meara
+18,9,13:46.5,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Kerem,Olgun
+19,9,13:47.8,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Robert,Page
+20,9,13:49.2,Encinal,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Mason,Estrada
+21,9,13:51.9,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Sahil,Vijay
+22,9,13:52.4,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Achyut,Badhrinath
+23,9,13:53.4,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Nico,Lee
+24,9,13:55.7,Leland,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Varun,Rao
+25,9,13:56.9,Bay School of San Francisco,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Nick,Ginieczki
+26,9,14:12.9,Aragon,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Oliver,Tonthat
+27,9,14:16.7,Leland,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Dylan,Rin
+28,9,14:17.4,Aragon,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Tyler,Nichols
+29,9,14:18.5,Cupertino,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Masaru,Tada
+30,9,14:22.5,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Henry,Farrow
+31,9,14:22.8,Aragon,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Gavin,Epstein
+32,9,14:24.9,Bay School of San Francisco,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Leor,Hersh
+33,9,14:26.2,Terra Nova,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Calvin,Chan
+34,9,14:35.2,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Tyler,Tachiki
+35,9,14:39.3,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Connor,Cronin
+36,9,14:44.1,Encinal,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Tyson,Valle
+37,9,14:50.4,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Braden,James
+38,9,14:53.1,Bay School of San Francisco,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Jasper,Bardwick-McGlone
+39,9,14:53.3,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Jacob,Ng
+40,9,14:53.4,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Abdus-Sami,Khalak
+41,9,14:57.3,Aragon,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Declan,Kennedy
+42,9,15:02.2,Leland,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Andy,Kim
+43,9,15:02.5,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Riku,Nakagawa
+44,9,15:09.3,Leland,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Alex,Kim
+45,9,15:10.0,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Elijah,Nues
+46,9,15:11.7,Cupertino,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Kaustubh,Anand
+47,9,15:16.9,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Byron,Perez-Duran
+48,9,15:29.7,Bay School of San Francisco,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Sam,West
+49,9,15:31.4,Carlmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Samuel,Goldman
+50,9,15:36.0,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Sam,Beard
+51,9,15:37.9,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Eugene,Yang
+52,9,15:43.8,Aragon,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Colin,Fournier
+53,9,15:46.0,Del Mar,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Joseph,Lohr
+54,9,15:48.3,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Zach,Azar
+55,9,15:55.6,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Dashan,Liu
+56,9,15:55.8,San Mateo,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Nathaniel,Vatman
+57,9,15:55.8,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Tyler,Lo
+58,9,15:57.0,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Tyler,Cheng
+59,9,15:58.7,Hillsdale,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Justin,Fukudome
+60,9,16:27.8,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Bar,Gilad
+61,9,16:29.0,Westmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Adam,Metwally
+62,9,16:29.1,Cristo Rey (San Jose),2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Emmanuel,Vasquez
+63,9,16:29.9,Westmont,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Caden,Kanazawa
+64,9,16:42.9,Encinal,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Miles,Yost
+65,9,16:50.1,San Mateo,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,James,So
+66,9,17:28.7,Encinal,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Anthony,Becerra
+67,11,17:42.6,San Mateo,2.13 Miles Freshmen Boys,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,M,Vladimir,Eremeev
+68,9,17:45.2,Leigh,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Arjun,Kumar
+69,9,18:11.8,Bay School of San Francisco,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Eric,Kocher
+70,10,19:05.0,San Mateo,2.13 Miles Freshmen Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Bruce,Zhang
+71,9,19:05.1,Mills,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Benjamin,Ahnn
+72,9,21:17.8,Cristo Rey (San Jose),2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Joaquin,Lomelli
+73,9,21:41.2,Jefferson,2.13 Miles Freshmen Boys,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,M,Samuel,Tanedo
+1,10,11:29.6,Cupertino,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Dylan,Frake
+2,10,11:31.3,Westmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Landon,Cribari
+3,10,11:38.5,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Andrew,Hamamoto
+4,10,11:40.6,Leland,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Colin,Jubert
+5,10,11:48.4,Westmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Aaron,Soni
+6,10,12:07.4,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Andrew,Song
+7,10,12:24.2,Westmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Carter,Cormier
+8,10,12:24.8,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ian,Wong
+9,10,12:31.6,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Kyle,Fukumoto
+10,10,12:36.6,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Miles,Rokala
+11,10,12:37.1,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Sou,Matsumoto
+12,10,12:41.0,Cupertino,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Conrad,St Dennis
+13,10,12:41.4,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Miles,Kim
+14,10,12:43.1,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Soichiro,Tomoda
+15,10,12:55.9,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Joshua,Fu
+16,10,13:07.1,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Taira,Nakagawa
+17,10,13:13.6,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Phillip,Seng
+18,10,13:15.8,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Benjamin,Yeager
+19,10,13:18.1,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Jack,He
+20,10,13:20.0,Del Mar,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ty,Fought
+21,10,13:22.0,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,William,Giangreco
+22,10,13:22.2,South San Francisco,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Edwin,Gonzalez
+23,10,13:23.1,Westmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Jack,Arango
+24,10,13:23.4,Leland,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Aidan,Shelley
+25,10,13:26.3,Leland,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Kyan,Wang
+26,10,13:34.7,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Quin,White
+27,10,13:35.3,Bay School of San Francisco,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Micah,Somsouk
+28,10,13:38.3,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Justin,Wong
+29,10,13:41.1,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ian,Ta
+30,10,13:47.4,Encinal,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Laith,Owens
+31,10,13:48.1,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Christopher,Malin
+32,10,13:51.7,South San Francisco,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Diego,Alas
+33,10,13:56.8,Cristo Rey (San Jose),2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ramon,Gomzales
+34,10,14:00.1,South San Francisco,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Noah,Lee
+35,10,14:04.6,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Daniel,Behera
+36,10,14:05.5,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Nathan,Lee
+37,10,14:08.2,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Alister,Jackson
+38,10,14:08.8,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Elliott,Kramer
+39,10,14:12.3,Del Mar,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Nathan,Green
+40,10,14:16.2,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Dylan,Robinson
+41,10,14:17.3,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Enzo,Belluomini
+42,10,14:20.2,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Tului,Battulga
+43,10,14:21.1,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Cole,Shaffer
+44,10,14:24.8,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ethan,Lam
+45,10,14:25.0,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Jamie,Seligman
+46,10,14:25.2,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Devin,Bergman
+47,10,14:25.8,Bay School of San Francisco,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Diego,Rodriguez
+48,10,14:30.4,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Aaron,Oshidari
+49,10,14:33.9,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Jonathan,Pak
+50,10,14:38.3,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Alexander,Nicholson
+51,10,14:38.5,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,John,Quinn
+52,10,14:39.3,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Riku,Miwa
+53,10,14:41.4,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Matthew,Lau
+54,10,14:44.5,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Calvin,Chao
+55,10,14:48.6,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Anthony,Leong
+56,10,14:50.7,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Yunosuke,Nakamura
+57,10,14:54.5,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Maximilian,Nobrega
+58,10,14:56.8,Aragon,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Nicholas,Ke
+59,10,14:57.1,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ryder,Ando
+60,10,14:59.4,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Topias,Rajamaki
+61,10,15:01.5,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Kamran,John
+62,10,15:03.0,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Preston,Liu
+63,10,15:05.1,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Warner,Baker
+64,10,15:08.9,Terra Nova,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Tatsuya,Nakamura
+65,10,15:09.9,Leigh,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Brody,Sneed
+66,10,15:17.5,Westmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Neil,Munot
+67,10,15:17.5,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Spencer,Yeung
+68,10,15:21.3,Leland,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ashton,Ancheta
+69,10,15:24.0,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Edward,Yu
+70,10,15:30.8,Leland,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Wei,Wang
+71,10,15:41.9,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Evan,Lam
+72,10,15:43.4,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Nathaniel,Chen
+73,10,15:45.0,Terra Nova,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Nathan,Hamilton
+74,10,15:48.7,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Andrew,Chin
+75,10,15:57.7,Terra Nova,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Nicolas,Patino
+76,10,16:01.3,Encinal,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Griffin,Chen
+77,10,16:02.9,Hillsdale,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Isaiah,Owyang
+78,10,16:07.0,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Jonas,Mukund
+79,10,16:12.7,Mills,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Zachary,Yui
+80,10,16:19.2,Leland,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Michael,Forster
+81,10,16:40.4,Mt Eden,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Kevin,Campos
+82,10,16:43.5,Encinal,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Leaife,Wilson
+83,10,17:04.3,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Erlan,McMahon
+84,10,17:08.4,Mt Eden,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Alexander,Nguyen
+85,10,17:16.3,Del Mar,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Luke,Hinkle
+86,10,17:33.9,Cristo Rey (San Jose),2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Jonathan,Sequeira
+87,10,17:41.0,San Mateo,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Ocean,Wilberg
+88,10,18:10.6,Carlmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Kentaro,Childs
+89,10,18:16.3,Westmont,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Logan,Wade
+90,10,18:23.3,Terra Nova,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Eli,Montoya Maciel
+91,10,18:23.9,Mt Eden,2.13 Miles Sophomore Boys,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,M,Diego,Torres
+1,11,15:55.2,Westmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Shane,Dalziel
+2,11,17:10.8,Aragon,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Toby,Harris
+3,11,17:34.3,Bay School of San Francisco,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Lucas,Chang
+4,11,17:38.3,Leigh,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Noah,Thompson
+5,11,17:39.4,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Theodore,Mendonca
+6,11,17:58.6,South San Francisco,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Mariano,Beas
+7,11,18:43.4,Leland,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Ethan,Aji
+8,11,18:50.7,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Adrian,Chin
+9,11,19:00.5,San Mateo,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Thomas,Poultney
+10,11,19:16.4,Mt Eden,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,CJ,Lapid
+11,11,19:24.3,San Mateo,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Vinayak,Sarkar
+12,11,19:24.9,Carlmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Nathan,Lorilla
+13,11,19:30.4,Carlmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Victor,Madrigal
+14,11,19:31.0,Leigh,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Rayan,Ezaz
+15,11,19:31.9,Aragon,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Brendan,Kennedy
+16,11,19:34.2,Bay School of San Francisco,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Hayden,Gong
+17,11,19:46.6,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Calvin,Motamed
+18,11,19:51.6,Carlmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Frederick,Sutton
+19,11,19:53.9,Leland,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Zachary,Derse
+20,11,19:56.8,Jefferson,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Jesse,Abude
+21,11,20:01.0,South San Francisco,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Steven,Moreno
+22,11,20:18.7,Leland,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Matthew,Namba
+23,11,20:21.9,South San Francisco,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Matthew,Adisewojo
+24,11,20:23.2,Mills,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Owen,Dvorek
+25,11,20:50.5,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Matthew,Lee
+26,11,20:51.9,Carlmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Ashton,Homyk
+27,11,20:52.2,Mills,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Thomas,Yeung
+28,11,20:56.1,Carlmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Adrian,Fry
+29,11,20:59.1,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Samuel,Kemp
+30,11,20:59.8,Mills,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Felix,Mapa
+31,11,21:04.9,Cristo Rey (San Jose),2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Daniel,Silveria
+32,11,21:14.9,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Max,Armstrong
+33,11,21:24.8,Del Mar,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Henry,Oliver
+34,11,21:26.7,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Rio,Miyano
+35,11,21:35.2,San Mateo,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Evan,Rose
+36,11,21:35.3,Aragon,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Quincy,Teng
+37,11,21:38.8,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Jake,Yuen
+38,11,22:52.5,Jefferson,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Daren,Masangcay
+39,11,23:05.1,Hillsdale,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Andrew,Bright
+40,11,23:10.9,Mt Eden,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Nestor,Rodriguez
+41,11,23:12.7,Mt Eden,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Nicholas,Luong
+42,11,23:21.6,Leigh,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Geoffrey,Schwartz
+43,11,23:29.3,Mills,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,John,Broussard
+44,11,23:32.1,Mills,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Erik,Rockelman
+45,11,23:41.3,Jefferson,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Rohan,Marquina
+46,11,23:53.8,Mt Eden,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Ashneel,Singh
+47,11,24:08.7,Terra Nova,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Kobe,Camacho Serrano
+48,11,24:23.6,Terra Nova,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Arlo,Gonzalez
+49,11,24:31.0,Mills,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Harry,Ahn
+50,11,24:33.6,Carlmont,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,James,Hardy
+51,11,24:33.9,Del Mar,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Samuel,Dorai-Raj
+52,11,26:42.1,South San Francisco,2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Tyrek,He
+53,11,37:06.3,Cristo Rey (San Jose),2.95 Miles Junior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Anthony,Castro-Mendez
+1,12,17:06.7,Westmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Ojas,Joshi
+2,12,17:11.9,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Michael,Chong
+3,12,17:43.7,Westmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Jack,Park
+4,12,17:48.1,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Remy,Palomo
+5,12,17:51.8,Leland,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Brian,Jackson
+6,12,18:05.7,Hillsdale,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Calvin,Lee
+7,12,18:36.7,South San Francisco,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Anthony,Songco
+8,12,18:39.2,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Samuel,Lam
+9,12,18:44.7,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Isa,Khalak
+10,12,18:46.4,Aragon,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Haywood,Cooper
+11,12,18:47.5,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Gabe,Ng Solano
+12,12,18:50.9,Westmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Mason,McCaskill
+13,12,18:51.1,Mt Eden,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Saul,Arrizon Lopez
+14,12,18:53.4,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Miles,Kent
+15,12,19:20.2,Aragon,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Avinash,Schwarzkophf
+16,12,19:23.8,Cupertino,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Wilson,Lu
+17,12,19:31.9,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Cyrus,Tan
+18,12,19:42.8,Aragon,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Ethan,Kang
+19,12,19:45.9,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Kyle,Chan
+20,12,19:48.4,Leigh,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Caden,Sherman
+21,12,19:51.5,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Nathan,Chong
+22,12,19:53.6,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Jadon,Lo
+23,11,20:36.7,San Mateo,2.95 Miles Senior Boys,2022-09-17,2024,Search,UNK,Crystal Springs,4748,2022,M,Kann,Yurek
+24,12,20:41.9,Jefferson,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Brandon,Khuu
+25,12,20:46.6,Cupertino,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Aidan,Gamba
+26,12,20:52.8,San Mateo,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Matthew,Lloyd
+27,12,20:58.3,South San Francisco,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Davin,Ruiz
+28,12,21:12.5,Mt Eden,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,William,Solorio
+29,12,21:28.2,Westmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Takuha,Kanazawa
+30,12,21:36.2,Leigh,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Nathaniel,Jordan
+31,12,21:55.9,Del Mar,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Ashton,Scheerer
+32,12,21:58.7,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Andres,Hernandez
+33,12,22:06.6,San Mateo,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Owen,Bavol
+34,12,22:06.6,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Zachary,Kinder
+35,12,22:14.0,Westmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Miles,Hernandez
+36,12,22:35.4,San Mateo,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Aneesh,Bhat
+37,12,22:36.5,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Hansen,Han
+38,12,22:37.8,Hillsdale,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Gabe,Owyang
+39,12,23:16.3,Cupertino,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Joshua,Ko
+40,12,23:48.2,Del Mar,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Jian,Tao Lee
+41,12,26:58.2,Mills,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Johnathon,Zheng
+42,12,27:00.9,Carlmont,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Noah,Braunstein
+43,12,27:25.5,Terra Nova,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Sean,Bartlett
+44,12,27:30.4,Terra Nova,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Erik,Bartlett
+45,12,30:40.7,Del Mar,2.95 Miles Senior Boys,2022-09-17,2023,Search,UNK,Crystal Springs,4748,2022,M,Joshua,Vidal
+1,9,13:57.4,Cupertino,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Nimeesha,Kolari
+2,9,14:29.0,Leigh,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Yazmin,Grant
+3,9,14:51.9,Leland,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Alyssa,Nagatani
+4,9,15:09.0,Encinal,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Wren,Dieter-Weisman
+5,9,15:23.6,Aragon,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Dylan,Lee
+6,9,15:25.1,Terra Nova,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Emilia,Ellison
+7,9,15:40.9,Leland,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Aria,Das
+8,9,15:57.5,Carlmont,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Zia,Contreras
+9,9,16:44.6,Mills,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Clarissa,Louie
+10,9,16:54.5,Cupertino,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Julia,Chinnananchi
+11,9,16:57.1,San Mateo,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Madeleine,Yang
+12,9,17:06.8,Hillsdale,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Olivia,Ge
+13,9,17:14.0,Encinal,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Adaysia,Hernandez
+14,9,17:22.4,Aragon,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Christine,Choi
+15,9,17:22.6,Carlmont,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Ellora,Mehta
+16,9,17:26.0,Encinal,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Ava,Luo
+17,9,17:58.4,South San Francisco,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Dayna,Ruiz
+18,9,18:08.8,Mills,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Chloe,Amayun
+19,9,18:16.3,Leigh,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Caitlin,Seet
+20,9,18:26.1,Hillsdale,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Vivian,Zurowski-Morin
+21,9,18:32.6,Hillsdale,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Ava,Morales
+22,9,18:35.4,Carlmont,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Lisa,Lu
+23,9,18:44.5,Westmont,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Sophia,Doan
+24,9,18:48.5,Leigh,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Harper,Maor
+25,9,18:54.3,Mills,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Chloe,Cho
+26,9,19:05.3,Hillsdale,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Rona,Elan
+27,9,19:17.9,Bay School of San Francisco,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Meg,Santel
+28,9,19:29.3,Leland,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Avni,Iyer
+29,9,20:44.7,Hillsdale,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Stella,Shih
+30,9,20:45.8,Bay School of San Francisco,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Meera,Costa
+31,9,21:07.0,Hillsdale,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Celine,Jin
+32,9,22:17.0,Jefferson,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Angela,Chin
+33,9,22:19.7,Mt Eden,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Akira,Green
+34,9,22:24.9,Aragon,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Dahlia,Anapolsky
+35,9,22:54.7,Leland,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Mihika,Moghe
+36,9,23:35.9,Mt Eden,2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Kylie,Molina
+37,9,24:35.9,Cristo Rey (San Jose),2.13 Miles Freshmen Girls,2022-09-17,2026,Search,UNK,Crystal Springs,3428,2022,F,Andrea,Valencia-Hernandez
+1,10,13:31.2,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Katherine,Peacock
+2,10,13:40.9,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Naia,Hsieh
+3,10,13:43.0,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Emma,Goldman
+4,10,13:44.6,Bay School of San Francisco,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Lucy,Peterson
+5,10,14:10.7,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Lauryn,Matsumoto
+6,10,14:22.2,Encinal,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Lexi,Altura
+7,10,14:32.4,Cupertino,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Tejal,Bavadekar
+8,10,14:37.7,Encinal,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Katelyn,Shafer
+9,10,14:47.7,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Lina,Cruz Parada
+10,10,14:55.0,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Ashlyn,Kelly
+11,10,14:57.2,Mt Eden,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Karina,Arrizon
+12,10,15:04.4,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Samantha,Crowther
+13,10,15:06.9,Cupertino,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Angelina,Perez Felipe
+14,10,15:06.9,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Josie,Habiby
+15,10,15:19.9,Mills,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Miya,Cheng
+16,10,15:22.2,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Anita,Metzler
+17,10,15:22.5,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Umi,Tomita
+18,10,15:37.5,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Lily,Sanders
+19,10,15:45.2,Cupertino,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Madelyn,Baker
+20,10,16:26.7,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Aurora,Yazzie
+21,10,16:37.5,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Abigail,Fukuhara
+22,10,16:48.6,Westmont,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Sara,Chaudoin
+23,10,17:15.1,Encinal,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Cadence,Tramel
+24,10,17:28.7,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Yejin,Ahn
+25,10,17:34.1,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Kayla,Ngo
+26,10,17:36.7,Jefferson,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Sarah,Santos
+27,10,17:42.0,Jefferson,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Christel,Samson
+28,10,17:46.6,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Taylor,Wiedenmann
+29,10,17:55.9,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Viviana,Lopez
+30,10,18:14.4,Jefferson,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Hannah,Tanedo
+31,10,18:47.9,Jefferson,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Sophia,Lopez
+32,10,18:48.0,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Catalina,Dulcey
+33,10,19:07.6,Cupertino,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Sakura,Shinohara
+34,10,19:10.8,Del Mar,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Hailey,Hinkle
+35,10,19:22.6,Del Mar,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Green,Samantha
+36,10,19:30.8,Leland,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Tiffany,Ng
+37,10,19:38.2,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Alexa,Reyna-Amezcua
+38,10,21:32.7,Leland,2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Sophie,Azari
+39,10,23:00.5,Cristo Rey (San Jose),2.13 Miles Sophomore Girls,2022-09-17,2025,Search,UNK,Crystal Springs,3428,2022,F,Ariana,Stewart
+1,12,20:39.0,Leland,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Maria,Forster
+2,12,20:56.5,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Anna,Pappas
+3,12,21:17.5,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Naomi,Metzler
+4,12,22:03.2,Terra Nova,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Ryanne,Reynolds
+5,12,22:22.7,South San Francisco,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Kailyn,Lee
+6,12,23:16.1,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Katie,Westberg
+7,12,23:18.8,Mills,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Arianna,Molinare
+8,12,23:22.7,Westmont,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Avalon,Kelly
+9,12,23:30.9,Mt Eden,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Mia,Puentes Garcia
+10,12,24:16.0,Leland,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Corinne,Thelen
+11,12,24:25.1,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Natalie,Homyk
+12,12,24:48.6,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Leena,Wang
+13,12,25:03.4,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Lexie,Clark
+14,12,25:06.6,Terra Nova,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Kira,Gangi
+15,12,25:21.9,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Katherine,Lim
+16,12,25:36.1,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Olivia,Taylor-Gao
+17,12,25:48.5,Leland,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Anna,Wildt
+18,12,26:39.2,Cupertino,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Pragya,Natarajan
+19,12,27:17.1,Terra Nova,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Karina,Roman
+20,12,27:56.0,Mills,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Jamie,Wong
+21,12,28:29.7,Leland,2.13 Miles Sophomore Girls,2022-09-17,2023,Search,UNK,Crystal Springs,3428,2022,F,Kaela,Pham
+1,11,19:27.0,Westmont,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Kiarra,D'Arcangelo
+2,11,19:51.8,Westmont,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Tauren,Mitchell
+3,11,20:02.5,Bay School of San Francisco,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Elsa,Krummel
+4,11,20:50.0,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Karly,Page
+5,11,21:02.7,Mills,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Alyssa,Draheim
+6,11,21:44.1,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Jordan,Robinson
+7,11,21:51.2,Leland,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Lillian,Montgomery
+8,11,22:26.3,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Marlee,Cherkas
+9,11,22:40.2,Leigh,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Amber,Buonomo
+10,11,22:56.8,Leland,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Ameya,Ganesh
+11,11,23:11.3,San Mateo,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Avelyn,Liang
+12,11,23:42.9,San Mateo,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Hana,Imamura
+13,11,24:00.0,Westmont,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Julia,Martin
+14,11,24:32.9,Hillsdale,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Cassandra,Singer
+15,11,24:35.4,Mt Eden,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Helen,Trinh
+16,11,24:48.1,Terra Nova,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Emma,Sachse
+17,11,25:00.0,Carlmont,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Aimee,Barriga Rojas
+18,11,26:35.4,Aragon,2.13 Miles Sophomore Girls,2022-09-17,2024,Search,UNK,Crystal Springs,3428,2022,F,Kate,Young

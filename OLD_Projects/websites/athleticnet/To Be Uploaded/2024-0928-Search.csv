@@ -1,0 +1,627 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,9,17:01.96,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Chase,Nickens
+2,9,17:27.13,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jason,Craw
+3,9,17:28.15,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arjun,Vivek
+4,9,17:30.50,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Dunn
+5,9,17:40.28,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Camden,Gartner
+6,9,17:56.13,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alex,van Veen
+7,9,17:57.36,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Wesley,LaMarche
+8,9,18:06.67,Sonoma Academy,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arman,Mohammadi
+9,9,18:07.47,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Max,van Veen
+10,9,18:07.71,Dougherty Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vedanth,Pothina
+11,9,18:15.80,Monte Vista,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,William,Alexander
+12,9,18:16.01,Monte Vista,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Geoffrey,Stafford
+13,9,18:26.75,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jeevith,Rajesh
+14,9,18:27.55,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alejandro,Morales
+15,9,18:30.94,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Orin,Budgin
+16,9,18:31.87,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Silvio,Tsao
+17,9,18:32.71,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Robert,Alderete Scheidt
+18,9,18:36.27,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,Torres
+19,9,18:40.35,Sonoma Academy,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Charlie,Rubenstein
+20,9,18:51.12,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joel,Minocha
+21,9,18:58.14,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Harkaran,Saund
+22,9,19:00.02,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ben,Simon
+23,9,19:09.37,Sonoma Academy,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,James,DiBartolo
+24,9,19:15.01,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Dominic,Frazee
+25,9,19:23.63,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alistair,Carroll
+26,9,19:29.24,Quarry Lane,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Yashveer,Sriesh
+27,9,19:29.99,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Henri,Patterson
+28,9,19:36.25,Piner,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aiden,Johnson
+29,9,19:55.65,Westmont,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Blake,Liam Langa
+30,9,19:56.86,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Spencer,White
+31,9,19:57.85,Monte Vista,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shane,Molkenbuhr
+32,9,20:03.37,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Benjamin,Kulunk
+33,9,20:04.05,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ezra,Hardy
+34,9,20:14.70,Dougherty Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sayuj,Balakrishnan
+35,9,20:15.40,Livermore,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Henry,Glascoe
+36,9,20:19.31,Livermore,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Trystan,Lee
+37,9,20:19.55,Sonoma Academy,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Calvin,Coleman
+38,9,20:39.74,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Carlos,Blanc-Alvarez
+39,9,20:40.49,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gavin,Passey
+40,9,20:40.89,Dougherty Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rushil,Vrishaketu
+41,9,20:43.01,Sonoma Academy,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Wesley,Strassburger
+42,9,20:46.18,Del Mar,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zayn,Green
+43,9,20:47.53,Livermore,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Finnegan,Barzso
+44,9,20:49.49,Sonoma Academy,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aidan,Anselmo
+45,9,20:51.58,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Russell,Loar
+46,9,20:58.26,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Colin,Hale
+47,9,20:59.60,Piner,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Fernando,Velasco
+48,9,21:01.00,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luke,Scharlemann
+49,9,21:05.32,Piner,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Edward,Naepflin
+50,9,21:06.50,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vallab,Kameswaran
+51,9,21:10.77,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anish,Kamble
+52,9,21:16.87,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nash,Dance
+53,9,21:17.88,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kavach,Patel
+54,9,21:19.56,Eastside College Prep,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Carlos,Wise
+55,9,21:20.93,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Mitchell,Shields
+56,9,21:21.39,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Henry,Hemauer
+57,9,21:30.06,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arjun,Sathish Kumar
+58,9,21:37.14,Livermore,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kellen,Beltz
+59,9,21:43.40,Westmont,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Carlos,Cobo
+60,9,21:46.60,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ruikang,Wang
+61,9,21:51.85,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ryan,Yoo
+62,9,21:55.30,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Darsh,Dhuvur
+63,9,21:58.95,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zidi,Tiger Geng
+64,9,22:00.16,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brayden,Rosenblatt
+65,9,22:32.17,Piner,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Beckett,Pagador
+66,9,22:43.25,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Silas,Reynolds
+67,9,22:46.98,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Asa,McRoberts
+68,9,22:51.19,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rohan,Nampelly
+69,9,22:52.50,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aditya,Singh
+70,9,23:18.70,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jasper,Valmores
+71,9,23:25.40,College Park,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,John,Swanson
+72,9,23:26.75,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,Taulbee
+73,9,23:28.86,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neil,Verma
+74,9,23:32.41,De La Salle,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luca,Milliken
+75,9,23:33.95,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aarav,Patel
+76,9,23:42.50,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sean,Tirrell
+77,9,23:46.55,Westmont,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Robert,Scianna
+78,9,23:46.79,San Ramon Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Chase,Thenemann
+79,9,24:15.22,Granada,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lekh,Patel
+80,9,24:33.91,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Conor,Conway-Ponzanelli
+81,9,24:46.77,Piner,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brandon,Kohfield
+82,9,25:32.75,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Leabman
+83,9,26:08.38,California (San Ramon),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shivansh,Behera
+84,9,26:20.63,Piner,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rowan,Trafton
+85,9,26:44.12,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Florian,Zieminski
+86,9,26:45.96,Foothill (Pleasanton),2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lucas,Aranda
+87,9,26:57.78,Westmont,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kai,Lee
+88,9,27:23.49,Monte Vista,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Dylan,Chandran
+89,9,28:27.37,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Karthik,Pottabathini
+90,9,28:33.35,Quarry Lane,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Eshan,Patel
+91,9,28:59.03,Eastside College Prep,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Pedro,Cisneros
+92,9,31:35.62,Quarry Lane,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Druhveen,Gupta
+93,9,32:37.92,Quarry Lane,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hrishi,Mangena
+94,11,33:06.94,Quarry Lane,2.95 Miles 9th Grade,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Austin,Overholt
+95,9,36:28.59,Amador Valley,2.95 Miles 9th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Yacob,Naizghi
+1,12,15:13.58,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,George,Mikhael
+2,12,15:16.54,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arran,Gill Gulati
+3,12,15:47.46,California (San Ramon),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Eshaan,Hussain
+4,10,15:51.61,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Connor,Buscho
+5,11,15:54.65,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sattvik,Raju
+6,11,16:01.56,Granada,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Bertrand
+7,11,16:05.14,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aiden,Versteeg
+8,12,16:09.09,California (San Ramon),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aidan,Dube
+10,12,16:20.37,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Eichenberger
+11,12,16:23.84,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Everett,Wogsland
+12,10,16:25.13,Granada,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Karnam,Patel
+13,11,16:27.77,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,Lynn
+14,11,16:28.90,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aayaan,Al-Quraishi
+15,11,16:30.52,Granada,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neil,Ajeesh
+16,12,16:31.72,Livermore,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Connor,Stromme
+17,11,16:34.77,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Thomas,Hekl
+18,11,16:36.28,Piner,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Esteban,Gaytan
+19,12,16:37.64,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brennan,DeCoite
+20,10,16:38.39,Livermore,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Lloyd
+21,12,16:40.33,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Josh,Durban
+22,12,16:43.68,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hastin,Chen
+23,11,16:44.50,California (San Ramon),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gustavo,Mendes de Oliveira
+24,11,16:45.68,Granada,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aaron,Meezan
+25,12,16:57.48,Snohomish,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Braden,Kallstrom
+26,12,16:57.82,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Julian,Medrano
+27,10,17:00.20,Granada,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lucas,Holbak
+28,11,17:02.75,California (San Ramon),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Timmy,Niu
+29,12,17:03.18,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Javier,Hernandez Barragan
+30,12,17:06.51,Justin-Siena,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Peter,Eierman
+31,11,17:06.72,Westmont,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Adrian,Ketterer
+32,12,17:12.94,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Small
+33,12,17:14.30,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alex,Klokkenga
+34,12,17:14.68,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sameer,Indrayan
+35,12,17:16.59,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ethan,Vera
+36,12,17:17.65,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,James,Wang
+37,10,17:20.43,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Trent,Pham
+38,10,17:23.23,Livermore,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nathaniel,Cameron-Chiao
+39,10,17:23.98,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicolas,Morales
+40,10,17:25.07,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Baxter,Horne
+41,9,17:28.43,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gray,Garson
+42,9,17:30.92,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joshua,Andres
+43,11,17:37.59,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Callan,Mak
+44,11,17:42.78,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ben,Burleson
+45,12,17:45.49,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Koen,Flocco
+46,12,17:49.16,Del Mar,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Yuusuke,Wiley
+47,12,17:50.89,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cesare,Fildani
+48,11,17:56.40,Monte Vista,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Thomas,Xiong
+49,12,17:57.17,California (San Ramon),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Connor,Griffin
+50,12,17:58.91,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shreyas,Swaminathan
+51,12,18:00.96,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Mullins
+52,11,18:01.92,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jair,Arturo Garcia Diaz de Vivar
+53,10,18:07.14,Snohomish,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sam,Cooley
+54,11,18:07.19,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gonzalo,Redondo Pajaron
+55,12,18:07.45,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Leo,Dale
+56,11,18:12.86,Monte Vista,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hayden,Cancilla
+57,12,18:14.06,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alexander,Cambou
+58,11,18:15.00,Livermore,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joseph,Spinka
+59,9,18:21.44,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Stuart,Falace
+60,12,18:22.54,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Narain,Krishnakumar
+61,12,18:23.55,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jonas,Emig
+62,11,18:24.77,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Coe,Dexter
+63,12,18:27.58,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Azriel,Cuevas
+64,10,18:30.05,Justin-Siena,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cameron,Vale
+65,12,18:31.28,Del Mar,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ty,Fought
+66,11,18:36.51,Snohomish,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Corbin,Wightman
+67,12,18:39.64,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Andrew,Luong
+68,9,18:41.28,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Robert,Valluzzo
+69,12,18:46.52,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luke,Spencer
+70,12,18:47.93,Snohomish,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Levi,Beck
+71,11,18:50.04,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Casey,Nguyen
+72,10,18:51.82,Del Mar,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Santiago,Camacho
+73,12,18:53.51,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alexander,Perez
+74,9,18:58.23,Livermore,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Kilkenny
+75,12,19:02.19,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Richard,Gonzalez
+76,10,19:05.62,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicholas,Maehr
+77,9,19:14.00,Snohomish,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Caden,Duke
+78,11,19:16.36,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Milan,Patel
+79,9,19:18.37,Westmont,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tony,Yang
+80,11,19:18.79,Livermore,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Caden,Han
+81,10,19:28.53,Snohomish,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Josh,Reed
+82,9,19:32.29,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luke,Ishimaru
+83,10,19:36.40,Snohomish,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Oliver,Farmer
+84,12,19:37.90,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Owen,Mates
+85,9,19:42.88,Livermore,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Gorham
+86,12,19:45.43,Westmont,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neil,Munot
+87,12,19:54.43,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Benjamin,Wiener
+88,11,20:09.29,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aaditya,Kumar
+89,9,20:09.89,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Marcus,Sommier
+90,9,20:16.48,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Christian,Camacho
+91,11,20:19.51,Justin-Siena,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Leo,Negrete
+92,11,20:23.21,California (San Ramon),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aniketh,Sadanala
+93,11,20:30.93,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Pablo,Redondo Pajaron
+94,11,20:49.74,Snohomish,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,Harkins
+95,9,20:50.32,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Andrew,Pacleb
+96,10,20:54.52,Livermore,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Mena
+97,12,21:40.38,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nathan,Tran
+98,11,22:01.37,Justin-Siena,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,Jamison
+99,11,22:06.51,Del Mar,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joseph,Lohr
+1,10,17:17.32,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gavin,Shimojima
+2,10,17:22.61,Granada,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Keshav,Manavala
+3,10,17:29.82,Piner,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Uriel,Olivares
+4,10,17:38.62,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brayden,Young
+5,10,17:39.22,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rohan,Kotamraju
+6,10,17:58.38,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tyler,Stoddard
+7,10,18:07.22,Granada,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Bryce,Dimas
+8,10,18:08.51,Westmont,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shugo,Fujikawa
+9,10,18:08.98,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Spencer,Rodden
+10,10,18:11.17,Piner,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gustavo,Vargas
+11,10,18:11.43,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jasmehr,Arora
+12,10,18:17.06,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ollie,Gu
+13,10,18:30.41,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Colten,Huajardo
+14,10,18:31.52,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Garrett,Brown
+15,10,18:39.36,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arunas,Rosicker
+16,10,18:44.75,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Adithya,Avadhanula
+17,10,18:49.95,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Bryce,Boydon
+18,10,19:01.49,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Chris,Wong
+19,10,19:04.34,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Muhriz,Munir
+20,10,19:05.99,Piner,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ceasar,Mora
+21,10,19:07.92,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neil,Rewal
+22,10,19:12.14,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,McPhee
+23,10,19:16.60,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Steven,Yu
+24,10,19:19.58,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Oliver,Hughes
+25,10,19:19.89,Piner,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Henry,Hartman
+26,10,19:30.13,Piner,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alex,Dominguez
+27,10,19:40.40,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aidan,Lorenzana
+28,10,19:42.98,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Markos,Orginos
+29,10,19:47.25,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Evan,Vu
+30,10,20:09.94,College Park,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Oren,Greninger
+31,10,20:20.78,Del Mar,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ben,Fought
+32,10,20:23.39,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Suhan,Reddy Anugu
+33,9,20:26.58,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aster,Deng
+34,10,20:26.68,Foothill (Pleasanton),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Manas,Manduri
+35,10,20:27.33,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Braden,Howard
+36,10,20:28.52,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neev,Vipul
+37,10,20:31.53,College Park,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,George,Urban
+38,10,20:31.98,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Bryan,Arevalo
+39,10,20:35.53,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zyzaque,Scholten
+40,10,20:36.97,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Dhruv,Ranjit
+41,10,20:40.21,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shiven,Jamwal
+42,10,20:41.08,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ajay,Jeyaraj
+43,10,20:43.80,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,Park
+44,10,20:43.92,Granada,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jackson,Baird
+45,10,20:53.20,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Leon,Miladinovic
+46,10,20:53.86,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Girik,Malani
+47,10,20:56.52,Del Mar,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Patrick,Fought
+48,10,20:56.61,Amador Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Logan,Tang
+49,10,20:57.70,Granada,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hiro,Youngberg
+50,10,21:11.20,Del Mar,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alex,Joseph
+51,10,21:14.11,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cody,Lowe
+52,10,21:21.81,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gladwyn,Li
+53,10,21:39.56,Westmont,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Daniil,Yakavets
+54,10,22:16.57,College Park,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Liam,Johnson
+55,10,22:21.13,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Shappet
+56,10,22:35.03,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicholas,Yu
+57,10,22:36.93,Westmont,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Davery
+58,10,22:48.94,Foothill (Pleasanton),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aiden,Jung
+59,10,22:49.55,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vishnu,Vasudeva
+60,10,22:51.59,Dougherty Valley,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Avi,Srivastava
+61,10,23:10.72,Monte Vista,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Avinash,Gajjar
+62,10,23:22.16,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grayson,Efland
+63,10,23:22.19,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Thomas,Maguire
+64,10,23:33.24,Westmont,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kaiden,Huynh
+65,10,24:05.47,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Xavier,Thompson
+66,10,24:16.67,De La Salle,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,William,Lohmeier
+67,10,24:36.86,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Abhiram,Kapuluru
+68,10,25:59.86,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Dev,Kalra
+69,10,26:30.92,Del Mar,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Miles,Vokey
+70,10,26:38.56,Foothill (Pleasanton),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rhys,Duncan
+71,10,32:04.30,Quarry Lane,2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,James,Zhang
+72,10,39:09.34,California (San Ramon),2.95 Miles 10th Grade,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ved,Ikkurti
+1,12,17:34.33,Granada,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Diamano,Matthews
+2,11,17:35.15,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Oscar,Espinoza
+3,12,17:35.61,De La Salle,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Murdoch,DeLong
+4,12,17:36.36,De La Salle,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Marcus,Kauffman
+5,11,17:40.82,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Harry,Dunne
+6,12,17:41.55,De La Salle,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tyler,Rubino
+7,11,17:42.15,Amador Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Diego,Laredo
+8,12,17:44.67,College Park,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vahe,Gregorian
+9,11,17:46.90,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kenneth,Fong
+10,12,17:47.54,College Park,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Konstantin,Kirasirov
+11,11,18:08.14,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sebastian,Farias
+12,12,18:13.13,Granada,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rahul,Prasanna
+13,11,18:15.50,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Myles,Paapanen
+14,11,18:19.31,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,Throne
+15,11,18:19.60,Dougherty Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anuraag,Shaligram
+16,11,18:24.92,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Wesley,Fletcher
+17,12,18:26.46,Granada,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,David,Espinoza
+18,11,18:27.80,Justin-Siena,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ryan,Reber
+19,11,18:42.56,Amador Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zevyn,Nickel
+20,11,18:45.70,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Samuel,Gagnon
+21,10,18:55.92,San Ramon Valley,2.95 Miles JV Boys,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ryan,Rehage
+22,12,19:04.24,Amador Valley,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tai,Falcone
+23,11,19:07.47,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alex,Greenwood
+24,11,19:08.55,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kingston,Dinh Pham
+25,11,19:28.90,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Wyatt,Ingle
+26,11,19:37.53,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jayant,Gulia
+27,12,19:45.07,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Daksh,Sibbal
+28,12,19:50.58,College Park,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jamilton,Choc
+29,11,19:56.71,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aidan,Loberg
+30,11,19:58.76,San Ramon Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tyler,Colantuno
+31,10,19:59.81,San Ramon Valley,2.95 Miles JV Boys,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Markos,Matsis
+32,11,20:05.60,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,George,Tsagaris
+33,11,20:06.49,Amador Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Fawad,Ghouse
+34,11,20:07.09,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kyto,Jinkoji
+35,11,20:07.81,Piner,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cristian,Fonseca
+36,12,20:10.76,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Colby,Hom
+37,11,20:16.78,Dougherty Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,Lin
+38,11,20:25.94,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luke,Abranches
+39,11,20:39.58,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Johnny,Cumbelich
+40,12,20:41.15,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,James,O'Dell
+41,12,20:42.87,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Varun,Chalamalasetti
+42,11,20:52.67,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aman,Ho
+43,11,20:55.50,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gabriel,Sanchez
+44,12,20:56.64,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arnav,Ramadugu
+45,11,20:58.05,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sean,Edens
+46,11,21:00.89,Dougherty Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Niyant,Sithamraju
+47,10,21:02.52,San Ramon Valley,2.95 Miles JV Boys,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Reed,Wong
+48,11,21:17.87,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jose,Fernandez
+49,12,21:28.37,Amador Valley,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Janav,Rakesh
+50,11,21:44.09,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Will,Simmons
+51,11,21:46.63,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Benjamin,Jakubowicz
+52,11,21:47.31,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joonhan,Choi
+53,11,21:47.94,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Augustus,Meer
+54,12,21:49.34,Amador Valley,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Van Slyke
+55,11,21:52.77,Justin-Siena,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,Beckstoffer
+56,11,21:59.05,De La Salle,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Christopher,Coutelier
+57,12,22:07.82,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brandon,Ko-So
+58,11,22:09.63,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,David,Chen
+59,11,22:10.79,California (San Ramon),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Declan,Jones
+60,12,22:11.39,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arnav,Kunte
+61,11,22:15.97,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Bruce,Wallace
+62,11,22:18.42,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shehan,Thomas George
+63,11,22:19.57,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,White
+64,11,22:20.17,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Dylan,Bennett
+65,11,22:23.78,San Ramon Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jared,Smith
+66,12,22:24.49,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nathan,Wu
+67,11,22:27.00,Amador Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grant,Inman
+68,11,22:28.96,Dougherty Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tanish,Dantuluri
+69,11,22:34.54,Amador Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kyaw,Oo
+70,11,22:37.33,Piner,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Christopher,Naepflin
+71,11,22:43.45,Amador Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Amogh,Maiya
+73,10,22:48.22,Justin-Siena,2.95 Miles JV Boys,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Michael,Campos
+74,11,22:53.69,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zilin,Yan
+75,11,23:07.86,Dougherty Valley,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joshua,Lum
+76,11,23:42.91,Foothill (Pleasanton),2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Amod,Vidhani
+77,11,24:32.36,Granada,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zachary,Mendler
+78,11,24:43.50,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kaleb,Robinson
+79,10,24:51.59,Justin-Siena,2.95 Miles JV Boys,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alan,McLaughlin
+80,12,26:28.15,College Park,2.95 Miles JV Boys,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Eli,Braswell
+81,11,27:15.70,College Park,2.95 Miles JV Boys,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anthony,Andress
+82,9,28:32.06,Justin-Siena,2.95 Miles JV Boys,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Branden,Carnate
+83,9,31:17.02,Justin-Siena,2.95 Miles JV Boys,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nico,Gallo
+1,9,20:18.94,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Charlotte,Brydson
+2,9,21:21.25,Granada,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ella,Lee
+3,10,21:29.92,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Christina,Gadelha
+4,11,21:43.97,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vaidehi,Chaudhari
+5,11,21:56.64,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kaavya,Patel
+6,10,22:00.90,Piner,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ashley,Morales
+7,9,22:21.74,Sonoma Academy,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Carina,Flocco
+8,11,22:33.22,San Ramon Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aria,Abulencia
+9,10,22:37.92,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Katherine,Tebbetts
+10,12,22:41.96,Granada,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aadya,Sharma
+11,10,22:47.81,Sonoma Academy,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Amelia,Butkus
+12,10,22:49.79,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Leamar,Alzayyat
+13,10,22:54.53,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sydney,Chow
+14,10,22:56.61,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sophie,Changfan
+15,10,22:56.98,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sophia,Kabouzi
+16,10,22:59.84,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Layla,Mitchell
+17,11,23:03.45,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Bhavya,Tummala
+18,9,23:04.52,Granada,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sparrow,Kendrick
+19,11,23:12.45,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jia,Kim
+20,11,23:13.84,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vedika,Chaudhari
+21,11,23:18.28,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zia,Contreras
+22,9,23:23.87,Piner,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Elliana,Lapides
+23,10,23:35.44,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arshia,Mittal
+24,10,23:59.29,San Ramon Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arden,McMahon
+25,11,23:59.54,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shirley,Liang
+26,10,24:08.14,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Samantha,Reynolds
+27,10,24:10.51,Carondelet,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Isabella,Garcia
+28,10,24:22.22,Piner,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Paige,Hansen
+29,11,24:26.43,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arya,Nadgir
+30,9,24:34.61,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ava,Hidalgo
+31,12,24:38.06,California (San Ramon),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Eynav,Laron
+32,9,24:43.98,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gia,Lamba
+33,9,24:44.32,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Riley,Sinclair
+34,9,24:46.45,Granada,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arshia,Sharda
+35,11,25:02.31,California (San Ramon),2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zoe,Cullen
+36,9,25:04.08,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Maeve,Romolo
+37,10,25:12.84,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicole,Guan
+38,10,25:16.31,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sania,Patel
+39,9,25:19.54,Granada,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Camryn,Smith
+40,12,25:20.80,Piner,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Stacy,Le
+41,9,25:24.40,Piner,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ivanna,Cisneros
+42,11,25:24.81,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Mahika,Reddy
+43,10,25:26.93,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sydney,Korndorfer
+44,10,25:37.20,Amador Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Yisi,Liu
+45,11,25:43.39,Piner,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Fernanda,Contreras
+46,9,25:46.46,California (San Ramon),2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jyotika,Abraham
+47,10,25:50.79,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tina,Oka
+48,12,25:58.78,San Ramon Valley,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sabrina,Menager
+49,12,26:10.44,Granada,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vaishali,Venkatesh
+50,12,26:12.40,Justin-Siena,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Paige,Helms
+51,10,26:17.13,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ema,Gavril
+52,11,26:26.16,Amador Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Keira,Venketsamy
+53,9,26:27.46,Piner,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Dahlia,Cullom
+54,11,26:54.93,Piner,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vanessa,Mesa Martinez
+55,10,26:56.44,Carondelet,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alina,Hinken
+56,10,27:06.11,Justin-Siena,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kiran,Porembski
+57,11,27:09.08,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sheehan,Krishna
+58,12,27:09.38,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Violeta,Dentinger
+59,9,27:27.85,Piner,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ivy,Long
+60,9,27:45.44,Quarry Lane,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zara,Song
+61,10,27:47.43,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nityasree,Poondla
+62,9,27:55.82,Carondelet,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Penelope,Miranda
+63,10,28:03.61,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nour,Chebbi
+64,9,28:11.14,Carondelet,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Katie,Scielzo
+65,10,28:22.05,Amador Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arunika,Naha
+66,9,28:36.33,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Michelle,Hwang
+67,10,28:36.97,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Liliana,Austin
+68,12,28:57.12,Justin-Siena,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Samantha,Carey
+69,10,28:59.92,Justin-Siena,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Laura,McLauglin
+70,12,29:13.77,Dougherty Valley,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Maria,Matos
+71,9,29:26.66,Carondelet,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grace,Loganbill
+72,9,29:49.48,Eastside College Prep,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grisel,Ruiz
+73,10,29:50.84,San Ramon Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Abby,Adams
+74,9,29:58.44,Eastside College Prep,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Maddie,Lopez
+75,9,29:59.63,Carondelet,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Olivia,Duong
+76,10,30:01.74,Carondelet,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gianna,Field
+77,10,30:19.12,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aditi,Kunte
+78,11,30:46.87,Amador Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Katelin,Venketsamy
+79,9,30:52.68,Granada,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Akshita,Repack
+80,10,30:56.28,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Keerthana,Avadhanula
+81,9,31:10.54,Justin-Siena,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Heidi,Nittinger
+82,9,31:29.04,California (San Ramon),2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zaina,Jarada
+83,11,31:57.51,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jasmita,Janu Jeba
+84,10,32:14.46,Carondelet,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Addison,Toy
+85,9,32:41.09,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Liliana,Pereira
+86,9,32:42.68,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Quinn,McDaniel
+87,10,33:04.93,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shubhangi,Bhandari
+88,9,33:26.90,Justin-Siena,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Mikaela,Ramirez
+89,10,34:19.99,Justin-Siena,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Miranda,Frias
+90,10,35:12.88,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zoya,Iqbal
+91,9,36:38.01,California (San Ramon),2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Olivia,Shilling
+92,11,36:56.65,California (San Ramon),2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Mary,Sakshita Yeruva
+1,10,17:55.53,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sade,Bumpus
+2,9,18:38.58,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Macy,Mullins
+3,11,19:11.76,Carondelet,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gretchen,Yakaitis
+4,10,19:18.16,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Emily,Bellinger
+5,12,19:26.07,Granada,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Abby,Stein
+6,11,19:38.21,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ananya,Kumar
+7,10,19:42.95,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Taylor,Conover
+8,10,19:47.81,Livermore,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hailee,Murray
+9,12,19:57.20,Granada,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kerrigan,Sauder
+10,9,20:07.37,Dougherty Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neha,Chhabra
+11,11,20:08.89,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alyssa,Shah
+12,11,20:12.67,Carondelet,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lillian,Zachary
+13,11,20:17.54,College Park,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Michelle,Cevallos
+14,10,20:25.44,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Advika,Richhariya
+15,11,20:28.00,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ena,Lim
+16,11,20:30.57,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Susie,Beamon
+17,10,20:34.79,Granada,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grace,Espinoza
+18,12,20:38.59,Granada,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Audrey,Manley
+19,11,20:44.79,Piner,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jocelyn,Uraje Galindo
+20,10,20:50.63,Dougherty Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anusha,Natraj
+21,12,20:58.74,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jessica,Tsai
+22,11,21:03.34,San Ramon Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alexandra,Long
+23,12,21:03.96,Carondelet,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jade,Kelley
+24,9,21:05.32,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Payton,McDermott
+25,11,21:23.00,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Vivian,Miller
+26,12,21:23.69,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Yu,Xin Dong
+27,11,21:26.09,Snohomish,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ashley,Taylor
+28,11,21:29.34,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sara,Richards
+29,10,21:33.58,San Ramon Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Avery,Hensel
+30,11,21:40.55,Carondelet,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kaitlyn,Condon
+31,10,21:40.60,Amador Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Olivia,Choi
+32,11,21:48.37,Granada,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Esha,Gurusamy
+33,11,21:56.16,Dougherty Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Varshaa,Nuthi
+34,11,22:00.40,Justin-Siena,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Abigail,Loose
+35,9,22:00.78,Amador Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicole,Gaona
+36,10,22:03.02,Snohomish,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Milda,McCormick
+37,9,22:15.29,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Riley,Bartlett
+38,10,22:15.42,Amador Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Siobhan,Campbell
+39,12,22:22.23,Justin-Siena,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lily,Dominguez
+40,10,22:23.50,Snohomish,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jenna,Poole
+41,10,22:25.10,San Ramon Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brooklyn,Leach
+42,12,22:27.83,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kalia,Kiyoi
+43,10,22:30.22,Monte Vista,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sohani,Brah
+44,12,22:31.57,Amador Valley,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Janaki,Rakesh
+45,9,22:32.37,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kaylin,Dunphy
+46,12,22:34.16,California (San Ramon),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grace,Dalmada
+47,9,22:34.35,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Emma,James Woolery
+48,11,22:34.62,California (San Ramon),2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brinley,Draper
+49,12,22:35.34,Justin-Siena,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ayshalyn,Celaya
+50,9,22:40.78,Livermore,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jasmine,Moniz
+51,10,22:48.83,Carondelet,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Rebecca,Kimball
+52,9,22:52.61,San Ramon Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kaylie,Mar
+53,10,22:56.17,Monte Vista,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Zoey,Quon
+54,9,22:56.75,Justin-Siena,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Katherine,Heil
+55,11,22:58.28,Justin-Siena,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Parker,Stephens
+56,10,23:05.25,Justin-Siena,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aubrey,Emerson
+57,9,23:07.88,Justin-Siena,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Preston,Stephens
+58,11,23:08.29,College Park,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Laura,Weiss
+59,9,23:13.16,California (San Ramon),2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nithya,Kuchibotla
+60,10,23:14.07,Snohomish,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anna,Thaut
+61,10,23:16.36,California (San Ramon),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Isabella,Maldonado
+62,11,23:18.61,Piner,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ximena,Mateos Buenrostro
+63,11,23:20.88,San Ramon Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cameron,Hindmarch
+64,10,23:26.60,College Park,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Samantha,Hansen
+65,10,23:27.55,Monte Vista,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Saturn,Lillie
+66,10,23:30.22,Dougherty Valley,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Diya,Malali
+67,9,23:31.79,College Park,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Saya,Fukayama
+68,10,23:33.76,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Emi,Herrero
+69,10,23:35.54,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Natalee,Perez
+70,10,23:45.01,Carondelet,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Grace,Tomaselli
+71,12,23:55.21,Snohomish,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Greta,LeWarne
+72,9,24:05.81,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Siona,Bodily
+73,12,24:06.64,Carondelet,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Valeria,Felix
+74,11,24:24.82,Amador Valley,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alice,Su
+75,9,24:41.15,Monte Vista,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anna,Berger
+76,12,24:48.71,Justin-Siena,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Kathryn,Spiegel
+77,11,24:55.32,Carondelet,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ruby,Zachary
+78,12,24:56.22,Snohomish,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Carmen,Winkle
+79,9,25:00.26,Amador Valley,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cynthia,Deng
+80,9,25:02.18,Carondelet,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lauren,Brekke
+81,10,25:11.37,Justin-Siena,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Fiona,Chafen
+82,9,25:18.28,Snohomish,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lucy,Kallstrom
+83,12,25:27.06,Justin-Siena,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Eponine,Celaya
+84,12,25:27.13,Foothill (Pleasanton),2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ishana,Krishnakamar
+85,10,25:35.50,Snohomish,2.95 Miles Open,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Allie,Larson
+86,9,25:36.40,Monte Vista,2.95 Miles Open,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Anna,Rettagliata
+87,11,26:05.13,Carondelet,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aurora,Alvarez
+88,12,27:09.51,Del Mar,2.95 Miles Open,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Samantha,Green
+89,11,27:52.18,Carondelet,2.95 Miles Open,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Camila,Hoffman-Rodriguez
+1,12,15:13.58,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,George,Mikhael
+2,12,15:16.54,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Arran,Gill Gulati
+3,12,15:47.46,California (San Ramon),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Eshaan,Hussain
+4,10,15:51.61,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Connor,Buscho
+5,11,15:54.65,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sattvik,Raju
+6,11,16:01.56,Granada,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Bertrand
+7,11,16:05.14,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aiden,Versteeg
+8,12,16:09.09,California (San Ramon),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aidan,Dube
+10,12,16:20.37,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Eichenberger
+11,12,16:23.84,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Everett,Wogsland
+12,10,16:25.13,Granada,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Karnam,Patel
+13,11,16:27.77,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jacob,Lynn
+14,11,16:28.90,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aayaan,Al-Quraishi
+15,11,16:30.52,Granada,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neil,Ajeesh
+16,12,16:31.72,Livermore,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Connor,Stromme
+17,11,16:34.77,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Thomas,Hekl
+18,11,16:36.28,Piner,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Esteban,Gaytan
+19,12,16:37.64,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Brennan,DeCoite
+20,10,16:38.39,Livermore,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Lloyd
+21,12,16:40.33,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Josh,Durban
+22,12,16:43.68,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hastin,Chen
+23,11,16:44.50,California (San Ramon),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gustavo,Mendes de Oliveira
+24,11,16:45.68,Granada,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aaron,Meezan
+25,12,16:57.48,Snohomish,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Braden,Kallstrom
+26,12,16:57.82,Granada,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Julian,Medrano
+27,10,17:00.20,Granada,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Lucas,Holbak
+28,11,17:02.75,California (San Ramon),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Timmy,Niu
+29,12,17:03.18,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Javier,Hernandez Barragan
+30,12,17:06.51,Justin-Siena,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Peter,Eierman
+31,11,17:06.72,Westmont,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Adrian,Ketterer
+32,12,17:12.94,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Small
+33,12,17:14.30,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alex,Klokkenga
+34,12,17:14.68,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sameer,Indrayan
+35,12,17:16.59,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ethan,Vera
+36,12,17:17.65,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,James,Wang
+37,10,17:20.43,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Trent,Pham
+38,10,17:23.23,Livermore,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nathaniel,Cameron-Chiao
+39,10,17:23.98,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicolas,Morales
+40,10,17:25.07,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Baxter,Horne
+41,9,17:28.43,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gray,Garson
+42,9,17:30.92,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joshua,Andres
+43,11,17:37.59,Amador Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Callan,Mak
+44,11,17:42.78,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ben,Burleson
+45,12,17:45.49,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Koen,Flocco
+46,12,17:49.16,Del Mar,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Yuusuke,Wiley
+47,12,17:50.89,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cesare,Fildani
+48,11,17:56.40,Monte Vista,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Thomas,Xiong
+49,12,17:57.17,California (San Ramon),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Connor,Griffin
+50,12,17:58.91,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Shreyas,Swaminathan
+51,12,18:00.96,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Mullins
+52,11,18:01.92,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jair,Arturo Garcia Diaz de Vivar
+53,10,18:07.14,Snohomish,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Sam,Cooley
+54,11,18:07.19,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Gonzalo,Redondo Pajaron
+55,12,18:07.45,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Leo,Dale
+56,11,18:12.86,Monte Vista,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Hayden,Cancilla
+57,12,18:14.06,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alexander,Cambou
+58,11,18:15.00,Livermore,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joseph,Spinka
+59,9,18:21.44,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Stuart,Falace
+60,12,18:22.54,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Narain,Krishnakumar
+61,12,18:23.55,Amador Valley,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jonas,Emig
+62,11,18:24.77,Sonoma Academy,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Coe,Dexter
+63,12,18:27.58,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Azriel,Cuevas
+64,10,18:30.05,Justin-Siena,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Cameron,Vale
+65,12,18:31.28,Del Mar,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Ty,Fought
+66,11,18:36.51,Snohomish,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Corbin,Wightman
+67,12,18:39.64,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Andrew,Luong
+68,9,18:41.28,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Robert,Valluzzo
+69,12,18:46.52,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luke,Spencer
+70,12,18:47.93,Snohomish,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Levi,Beck
+71,11,18:50.04,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Casey,Nguyen
+72,10,18:51.82,Del Mar,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Santiago,Camacho
+73,12,18:53.51,Piner,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Alexander,Perez
+74,9,18:58.23,Livermore,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Matthew,Kilkenny
+75,12,19:02.19,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Richard,Gonzalez
+76,10,19:05.62,Foothill (Pleasanton),2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nicholas,Maehr
+77,9,19:14.00,Snohomish,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Caden,Duke
+78,11,19:16.36,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Milan,Patel
+79,9,19:18.37,Westmont,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Tony,Yang
+80,11,19:18.79,Livermore,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Caden,Han
+81,10,19:28.53,Snohomish,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Josh,Reed
+82,9,19:32.29,San Ramon Valley,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Luke,Ishimaru
+83,10,19:36.40,Snohomish,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Oliver,Farmer
+84,12,19:37.90,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Owen,Mates
+85,9,19:42.88,Livermore,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Gorham
+86,12,19:45.43,Westmont,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Neil,Munot
+87,12,19:54.43,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Benjamin,Wiener
+88,11,20:09.29,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aaditya,Kumar
+89,9,20:09.89,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Marcus,Sommier
+90,9,20:16.48,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Christian,Camacho
+91,11,20:19.51,Justin-Siena,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Leo,Negrete
+92,11,20:23.21,California (San Ramon),2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Aniketh,Sadanala
+93,11,20:30.93,Dougherty Valley,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Pablo,Redondo Pajaron
+94,11,20:49.74,Snohomish,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,Harkins
+95,9,20:50.32,Justin-Siena,2.95 Miles Varsity,2024-09-28,2028,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Andrew,Pacleb
+96,10,20:54.52,Livermore,2.95 Miles Varsity,2024-09-28,2027,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Noah,Mena
+97,12,21:40.38,Monte Vista,2.95 Miles Varsity,2024-09-28,2025,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Nathan,Tran
+98,11,22:01.37,Justin-Siena,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Jack,Jamison
+99,11,22:06.51,Del Mar,2.95 Miles Varsity,2024-09-28,2026,Search,Invitational,Shadow Cliffs Regional Park,4748,2024,M,Joseph,Lohr

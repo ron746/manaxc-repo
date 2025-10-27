@@ -1,0 +1,674 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,11,17:48.41,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Andrew,Nguyen
+2,11,18:30.91,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Benjamin,Thompson
+3,11,18:34.57,Independence,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Rajveer,Sanhan
+4,11,18:45.32,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Trent,Algea
+5,11,18:51.07,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jake,Davis
+6,12,18:59.85,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Aidan,Choy-Marshall
+7,11,19:12.56,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Michael,Presunka
+8,9,19:13.78,Leland,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Keshav,Sethi
+9,11,19:14.08,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Niemi
+10,9,19:20.70,Branham,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Kushal,Dutta
+11,12,19:23.07,Independence,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Brandon,Nguyen
+12,11,19:24.80,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Brian,Kim
+13,12,19:28.14,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Uriel,Coronel
+14,11,19:28.95,Oak Grove,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jesus,Quiroz
+15,11,19:30.11,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Mason,Hoyt
+16,11,19:34.76,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Michael,Marsavin
+17,9,19:38.22,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Abhyuday,Srivatsa
+18,11,19:39.62,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Bryant,Houston
+19,11,19:47.58,Westmont,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Brian,Dang
+20,11,19:51.99,Silver Creek,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Alex,Chaney
+21,11,19:53.80,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Kenny,Lee
+22,11,19:58.55,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Sriman,Gattepalli
+23,9,19:58.95,Leland,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Piyal,Zia
+24,11,20:05.13,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Fong
+25,9,20:08.82,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Samsson,Gebreslassie
+26,10,20:09.70,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Loic,Billaut
+27,11,20:10.36,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Curtis,Fujii
+28,9,20:19.79,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Brandon,Watrous
+29,9,20:26.86,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nobel,Negassi
+30,11,20:27.74,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Justin,Pham
+31,11,20:27.87,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ananeya,Damene
+32,12,20:28.68,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Christopher,Abe
+33,11,20:31.54,Silver Creek,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Devin,Isidoro
+34,9,20:36.88,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Parker,Unze
+35,9,20:39.05,Westmont,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Sovin,Herzinger
+36,9,20:40.55,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Aidan,Hernandez
+37,11,20:40.90,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Thomas,Shi
+38,12,20:44.30,Abraham Lincoln (SJ),2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Sean,Stanich
+39,9,20:45.92,Branham,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nicholas,Goodrich
+40,12,20:48.96,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Mayukh,Das
+41,10,20:49.38,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jake,Groll
+42,9,20:50.07,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Brandon,Van Horn
+43,11,20:53.83,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Sylvia
+44,11,20:56.08,Independence,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Daniel,Agpaoa
+45,11,20:56.48,Leigh,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Evan,Hartshorn
+48,9,21:05.14,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Haruki,Oyama
+49,9,21:05.94,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Leo,Weng
+50,10,21:07.86,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jesse,Zalk
+51,12,21:09.22,Leland,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Mathew,Vu
+52,10,21:11.77,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Benjamin,Borsellino
+53,10,21:12.02,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jaeyoung,Choi
+54,11,21:15.93,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Philip,Tran
+55,12,21:17.98,Oak Grove,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Joaquin,Calleja
+56,9,21:19.58,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Zach,Schaefer
+57,9,21:21.42,Leland,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Andrew,Konstant
+58,9,21:24.16,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Michael,Farone
+59,9,21:24.21,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Lee
+60,12,21:25.64,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Christian,Valencia
+61,11,21:26.67,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Zachary,White
+62,11,21:26.89,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Austin,Lin
+63,9,21:28.59,Branham,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Gabriel,Hui
+64,11,21:31.78,Live Oak,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Tyler,Leong
+65,11,21:32.30,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Chieh-Sen,Chan
+66,12,21:33.14,Santa Teresa,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Dylan,Thomas
+67,11,21:34.12,Live Oak,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Thaddeus,Dickens
+68,12,21:34.68,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Victor,Lam
+69,11,21:35.10,James Lick,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Abraham,Benitez
+70,10,21:35.68,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Kim
+71,10,21:37.49,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Bao,Nguyen
+72,9,21:38.47,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Alan,Nguyen
+73,11,21:42.91,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Alex-Daoyl,Chen
+74,10,21:43.23,Leland,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Oliver,Wang
+75,9,21:44.38,Leland,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nihal,Gunukula
+76,9,21:44.97,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jack,Kanazawa
+77,9,21:46.68,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Sebastien,Roper
+78,10,21:47.80,Leland,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Maxwell,Wu
+79,10,21:50.21,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Udbhav,Avadhani
+80,9,21:50.55,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Cameron
+81,10,21:50.74,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Matni
+82,10,21:50.77,Westmont,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Akash,Ranade
+83,9,21:52.03,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jacob,Pham
+84,11,21:52.72,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Fabian,Garcia
+85,10,21:54.30,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jonah,Drake
+86,10,21:55.66,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Wilson,Klaben
+87,10,21:56.56,Leland,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Christopher,Chou
+89,9,21:59.07,Westmont,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Mason,McCaskill
+90,10,22:04.19,Leland,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Ethan,Minvielle
+91,11,22:05.10,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Darcy,Eliasi
+92,9,22:08.49,Westmont,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Miles,Hernandez
+93,11,22:08.87,Prospect,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Diego,Diaz
+94,12,22:10.80,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Michael,Barrell
+95,12,22:10.93,James Lick,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Merin
+96,12,22:12.09,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jared,Watrous
+97,12,22:13.62,Leigh,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Lennan,Tuffy
+98,9,22:13.93,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Wheeler
+99,12,22:15.33,Del Mar,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Avery,Tomlin
+100,12,22:16.02,Leland,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Allen,Hsing
+101,10,22:18.59,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Evan,Prolo
+102,11,22:18.89,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Matthew,Cedano
+103,9,22:19.12,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Adrian,Rodriguez
+104,9,22:22.23,Leland,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nihal,Shettty
+105,11,22:22.89,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Kumar
+106,11,22:24.62,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Corey,Stebleton
+107,11,22:26.54,Prospect,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Samuel,Li
+108,12,22:30.65,Yerba Buena,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Takumi,Nonaka
+109,12,22:32.68,Silver Creek,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Saketh,Malyala
+110,10,22:36.77,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Steven,Bray
+111,9,22:43.45,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Kevin,Le
+112,9,22:46.15,Westmont,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Alexandru,Gherghescu
+113,9,22:46.30,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Bryce,McCord
+114,9,22:49.06,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Diego,Wolfson
+115,10,22:50.91,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joon,Heon
+116,11,22:52.22,Oak Grove,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Justin,Loi
+117,12,22:57.76,Leigh,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Camy,Chang
+118,10,22:58.54,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Tyler,Ando
+119,10,22:58.79,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Timothy,Nguyen
+120,10,22:59.51,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Julian,Ceja
+121,11,23:00.08,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Gabriel,Arreola
+122,10,23:00.10,Westmont,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,James,Woodfill
+123,12,23:05.09,James Lick,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Luis,Escamilla
+124,11,23:08.88,Oak Grove,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Andrew,De Guzman
+125,12,23:09.04,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Humberto,Hernandez
+126,9,23:12.12,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Mohnish,Rana
+128,12,23:17.55,Silver Creek,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Kacey,Liang
+129,12,23:18.27,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Paul,Zamora
+130,9,23:18.55,Westmont,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Christo,Hunter
+131,10,23:18.61,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Christopher,Apel
+132,9,23:22.84,Westmont,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Benjamin,Heyfitch
+133,10,23:24.38,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Henry,Wolverton
+134,10,23:26.44,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Arun,Vadavalli
+135,11,23:26.58,Overfelt,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Moises,Gamboa
+136,10,23:27.96,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Evan,Fotakis
+137,12,23:33.73,Westmont,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Connor,Rothwell
+138,12,23:36.90,Silver Creek,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Moises,Velez
+139,10,23:40.81,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Royce,Li
+140,9,23:42.74,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jackson,Ramirez
+141,11,23:44.00,Oak Grove,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Adrian,Prado Fernandez
+142,10,23:45.66,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Christopher,Do
+143,11,23:47.37,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Justin,Bollini
+144,12,23:48.62,Yerba Buena,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Andy,Nguyen
+145,9,23:55.00,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Andrew,Mauga
+146,11,23:56.68,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Aiden,Isaacs
+147,12,24:00.40,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Paolo,Manalo
+148,9,24:01.63,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Madex,Kim
+149,9,24:02.44,Prospect,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Reiner
+150,9,24:20.11,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Charles,Byrne
+151,12,24:20.85,Prospect,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Justin,Pong
+152,9,24:23.61,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Randy,Feng
+153,9,24:24.98,Leigh,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,David,Sun
+154,9,24:27.09,Leland,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Mai
+155,10,24:30.30,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Ben,Ostrowski
+156,12,24:32.13,Live Oak,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Isaac,Cardenas
+157,10,24:40.91,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jacob,Gibson
+158,10,24:44.85,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Gael,Atriano
+159,10,24:47.66,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Eric,Lam
+160,12,24:49.80,Overfelt,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Monte,Eoff
+161,10,24:52.75,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Tanner,Moore
+162,12,24:57.23,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Steven,Nguyen
+163,11,24:58.24,Overfelt,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Francisco,Muniz
+164,10,24:58.75,Prospect,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Adam,Webb
+165,9,25:02.50,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Owen,Souza
+166,10,25:09.86,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jimmy,Choi
+167,11,25:14.43,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Charlie,Olson
+168,9,25:15.31,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Caleb,Spencer
+169,12,25:23.19,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,An,Le
+170,10,25:25.11,Westmont,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Willie,Sun
+171,9,25:38.56,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Vong
+172,12,25:45.68,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Timmy,Pham
+173,10,25:57.15,Leland,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Conner,Shih
+174,12,26:00.99,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jonathan,Cordova
+175,12,26:07.14,Overfelt,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Erick,Diaz
+176,11,26:10.11,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Bao,Phuc Nguyen
+177,12,26:11.81,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,David,Tonthat
+178,11,26:15.60,Branham,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Cooper,Mirad
+179,10,26:19.09,Westmont,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Aidan,Huber
+180,10,26:34.69,Leigh,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Austin,Christian
+181,11,26:37.80,Westmont,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,David,Carter
+182,12,26:43.35,Santa Teresa,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,William,Thien
+183,11,27:02.76,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Chris,Gonzalez
+184,11,27:07.90,Evergreen Valley,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Mateo,Arreola
+185,12,27:57.75,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Cameron,McAfee
+186,9,28:02.56,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Christian,Abady
+187,9,28:15.61,Piedmont Hills,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Enrique,Llamas
+188,12,28:21.78,Overfelt,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Froylan,DeLaCruz
+189,11,28:26.82,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Michael,D'Epiro
+190,11,28:26.89,Pioneer,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ayden,Lovdahl
+191,11,28:47.38,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jesse,Figueroa
+192,11,28:56.83,Leland,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Wesley,Liu
+193,10,29:07.53,Westmont,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Cuinn,Huber
+194,12,29:31.13,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Alan,Tu
+195,11,29:44.66,James Lick,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Luis,Gonzalez
+196,9,30:07.82,Branham,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Elijah,Bustamante
+197,10,30:28.93,Silver Creek,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Kevin,Bui
+198,11,30:53.38,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Trung,Van
+199,9,31:31.02,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Adrian,Bao
+200,9,32:15.83,Willow Glen,2.95 Miles Boys Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Aiden,Kelly
+201,10,39:09.63,Andrew Hill,2.95 Miles Boys Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Hayden,Sok
+1,9,17:04.35,Willow Glen,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Casey,Nuti
+2,10,17:53.58,Leigh,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Caiden,Hogg
+3,10,17:57.56,Willow Glen,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Evan,Itow
+4,10,18:01.06,Willow Glen,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Tommy,Callahan
+5,9,18:20.90,Branham,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Spencer,Zeljak
+6,10,18:25.51,Leland,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Javier,GomezTagle
+7,9,18:28.36,Branham,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Lehal
+9,10,18:39.39,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Philip,Le
+10,9,18:45.68,Leland,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Brian,Jackson
+11,9,18:46.71,Branham,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jake,Eichenseer
+12,10,18:48.74,Prospect,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Riley,DeGuzman
+13,10,18:51.55,Pioneer,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Yacob,Kifle
+14,10,18:52.74,Branham,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Milstead
+15,10,18:56.35,Leland,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joseph,Lim
+16,9,19:00.69,Westmont,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Evan,Griffith
+17,10,19:14.80,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Wesley,Ku
+18,10,19:15.58,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Vincent,Nguyen
+19,10,19:16.01,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Le
+20,9,19:16.07,Westmont,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jack,Park
+21,10,19:16.34,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Andrew,Nguyen
+22,9,19:20.79,Leland,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Skyler,Giammona
+23,10,19:21.65,Santa Teresa,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Bryce,Johnson
+24,10,19:27.42,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Sparsh,Johri
+25,9,19:28.80,Independence,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Christopher,Hall
+26,9,19:30.18,Branham,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Matthew,Garcia
+27,10,19:30.19,Prospect,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Yu-Chueh,Wang
+28,10,19:40.03,Westmont,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Skyler,Dalziel
+29,9,19:46.16,Prospect,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Ethan,Brignetti
+30,10,19:48.93,Evergreen Valley,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Nememrjit,Singh
+31,10,19:50.07,Leland,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Aidan,Cain
+32,9,19:54.65,Willow Glen,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jacob,Lantis
+33,10,19:56.81,Santa Teresa,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Paul,Bravo
+34,9,19:57.55,Silver Creek,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Enrique,Hernandez
+35,9,20:00.68,Yerba Buena,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Atticus,Wong
+36,10,20:00.89,Westmont,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Dylan,Wright
+37,10,20:00.93,Pioneer,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Luca,Macciono
+38,10,20:04.70,Leigh,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Josh,Jou
+39,10,20:05.35,Leland,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Bryce,Yeh
+40,9,20:06.08,Leigh,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Miles,Lu
+41,10,20:06.56,Westmont,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Chaudoin
+42,10,20:09.58,Independence,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Nicholas,Wang
+43,9,20:13.12,Yerba Buena,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Hong
+44,9,20:16.00,Branham,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Evan,Williams
+45,10,20:20.65,Prospect,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Demetrius,Asrat
+46,10,20:25.12,Pioneer,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Marcus,Martelino
+47,9,20:26.57,Westmont,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Takuha,Kanazawa
+48,9,20:28.14,Willow Glen,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jonah,Bosteels
+49,10,20:36.53,Leland,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jonah,Chang
+50,9,20:37.88,Leigh,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Devin,Yee
+51,9,20:38.48,Pioneer,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Finlay,McAfee
+52,9,20:41.71,Yerba Buena,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jesus,Murillo
+53,10,20:44.31,Willow Glen,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Carlos,Bolanos
+54,10,20:55.74,Leigh,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Ching
+55,9,20:59.94,Pioneer,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Matthew,Lochmann
+56,10,21:04.06,Pioneer,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Ethan,Danitz
+57,10,21:05.39,Yerba Buena,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Kenny,Dang
+58,10,21:08.27,Willow Glen,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Seth,Ondo
+59,9,21:15.57,Prospect,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Luis,Folkers
+60,9,21:17.20,Leigh,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Caden,Sherman
+61,10,21:17.92,Santa Teresa,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Siddarth,Anant
+62,10,21:19.01,Leigh,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Ricky,Yoshida
+63,10,21:21.34,Andrew Hill,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Eric,Do
+64,9,21:22.53,James Lick,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Justin,Nguyen
+65,9,21:26.13,James Lick,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Omar,Sanchez
+66,10,21:27.14,Silver Creek,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Dhruva,Chowdri
+67,10,21:35.48,Westmont,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Derek,Zhang
+68,9,21:39.77,Independence,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Rovic,Simon Inocencio
+69,9,21:48.12,Yerba Buena,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Kevin,Estrada
+70,9,21:53.67,Andrew Hill,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Daniel,Nguyen
+72,10,21:57.30,Ann Sobrato,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jared,Lebovitz
+73,10,22:00.05,Prospect,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Kaiden,Uehara
+74,9,22:04.96,Yerba Buena,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Chris,Luu
+75,10,22:06.80,Santa Teresa,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Martinez
+76,10,22:18.57,Del Mar,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Sobhan,Nejad
+77,9,22:38.84,Independence,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Troy,Lubcay
+78,9,22:46.58,Andrew Hill,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Isaac,Alshraideh
+79,9,22:48.85,Silver Creek,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Hoveland
+80,10,22:49.81,Andrew Hill,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Ramos
+81,9,22:52.04,Abraham Lincoln (SJ),2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jared,Haertel
+82,10,23:08.91,James Lick,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Navbir,Kahlon
+83,9,23:11.10,Overfelt,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,James,Tran
+84,9,23:12.66,Santa Teresa,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Cooper,Dibble
+85,10,23:14.36,Santa Teresa,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Timothy,Pham
+86,9,23:16.51,Independence,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jericho,Reyes
+87,9,23:25.74,Overfelt,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Rigoberto,Ramirez
+88,9,23:25.94,Oak Grove,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Andrew,Tran
+89,10,23:27.53,Del Mar,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Adam,Jilani
+90,10,23:35.69,James Lick,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Josue,Gomez
+91,9,23:44.61,Gunderson,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Gabriel,Livermore
+92,10,23:47.81,Oak Grove,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Alan,Tran
+93,10,23:59.85,Del Mar,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Andres,Rosso
+94,9,24:03.89,James Lick,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Carlos,Nava
+95,9,24:26.02,Abraham Lincoln (SJ),2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Hudson,Hein
+97,10,26:00.26,Del Mar,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Leo,Joseph
+98,9,26:06.69,James Lick,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jason,Garcia
+99,9,26:17.48,Silver Creek,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Eric,Huynh
+100,9,26:38.36,Del Mar,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jian,Tao Lee
+101,9,27:39.60,Gunderson,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Cole,Matos
+102,9,28:46.51,Andrew Hill,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,David,Arriaga
+103,9,29:30.21,Gunderson,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Giovanni,Malone
+104,10,31:45.14,Del Mar,2.95 Miles FS Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Victor,Domingo
+105,9,34:03.97,Del Mar,2.95 Miles FS Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Bao,Quoc Nguyen
+1,12,15:42.66,Westmont,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Garrett,MacQuiddy
+2,12,15:46.53,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Ishaan,Singh
+3,12,15:48.48,Santa Teresa,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Carson,Smith
+4,11,15:51.11,Leigh,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Benjamin,Geil
+5,11,15:53.21,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Advait,Krishnan
+6,12,16:07.02,Willow Glen,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Marco,Dal Canto
+7,12,16:12.73,Santa Teresa,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Brandon,Johnson
+8,10,16:17.51,Prospect,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Elliot,Daniels
+9,12,16:26.27,Branham,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Evan,Franco
+10,12,16:29.85,Willow Glen,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Devon,Nuti
+11,9,16:31.77,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Jeffrey,Hedlund
+12,9,16:31.89,Westmont,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Zachary,Irwin
+13,10,16:37.57,Leland,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Sami,Shafi
+14,11,16:38.06,Leland,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Trent,Donaldson
+15,12,16:38.94,Willow Glen,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Alex,Asch
+16,11,16:45.94,Westmont,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Hrishikesh,Joshi
+17,11,16:49.03,Branham,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Robert,Oryall
+18,12,16:50.46,Willow Glen,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Julian,Virrueta
+19,11,16:53.00,Santa Teresa,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Myles,Jacobs
+20,11,17:01.16,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Garrett,Hedlund
+21,12,17:04.38,Independence,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Juggie,Ray Heerey
+22,11,17:11.88,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Oscar,Arzola
+23,12,17:13.77,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,David,Quijada
+24,11,17:18.77,Leland,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Eric,Kontur
+25,9,17:25.31,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Sosa
+26,10,17:26.69,Branham,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Antoine,Moret
+27,11,17:33.63,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Luke,Sandberg
+28,10,17:33.91,Branham,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Samarth,Boranna
+29,12,17:35.24,Prospect,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Takt,Nagano
+30,11,17:35.53,Independence,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ethan,Cheng
+31,11,17:40.72,Leland,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Zach,Kamali
+32,10,17:43.50,Branham,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Dominic,Clima
+33,11,17:45.74,Willow Glen,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Logan,Unger
+34,10,17:49.38,Branham,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Perez
+35,9,17:50.97,Westmont,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Ojas,Joshi
+36,9,17:53.26,Prospect,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Charlie,Kirkendall
+37,12,17:54.19,Santa Teresa,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Owen,Davies
+38,12,17:55.09,Branham,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Caelan,Reinoso
+39,11,17:59.26,Westmont,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jett,Felder
+40,10,18:02.62,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Eddie,Favela
+41,12,18:08.75,Leland,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Benjamin,Moskovitz
+42,10,18:16.97,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Amir,Jordan
+43,12,18:17.41,Willow Glen,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,James,Pappadakis
+44,12,18:18.25,Westmont,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Henning,Tretau
+45,12,18:19.62,James Lick,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Nien,Tran
+46,12,18:20.60,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Kolton,McCrossen
+47,10,18:20.93,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Colin,Gabriel
+48,12,18:21.03,Prospect,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jonathan,Yuen
+49,12,18:22.13,Leland,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Michael,Saunichev
+50,10,18:26.02,Independence,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jose,Villarreal
+51,10,18:28.61,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Xinyu,Zang
+52,12,18:29.14,Leigh,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Devan,O'boyle
+53,11,18:30.65,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Julian,Mora
+54,11,18:31.01,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Eion,Daley
+55,12,18:34.87,James Lick,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Brandon,Cruz
+56,11,18:36.48,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Kevin,Zheng
+57,10,18:36.80,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Patrick,Vu
+58,11,18:37.74,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Dylan,Quach
+59,11,18:37.98,James Lick,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Omar,Fimbres
+60,11,18:38.29,Mt Pleasant,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Parisi
+61,9,18:43.27,Independence,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,David,Pineda
+62,12,18:43.32,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jeffrey,Nguyen
+63,12,18:45.04,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Isaiah,Reyes
+64,9,18:45.55,Abraham Lincoln (SJ),2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Mateo,Anaya
+65,10,18:45.71,Leigh,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,William,Seng
+66,10,18:51.13,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Hayden,Morgan
+67,10,18:51.26,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Gabriel,Gatewood-Wolfe
+68,11,18:51.51,Andrew Hill,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Alan,Do
+69,10,18:51.79,Independence,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Armaan,Joshi
+70,10,18:52.84,Independence,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Michael,Todd
+71,10,18:59.16,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joseph,Chavarin
+72,10,19:00.35,San Jose,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jared,Portillo
+73,9,19:00.90,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Luke,Morgan
+74,10,19:01.38,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Saaketh,Nandakumar
+75,10,19:02.06,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Nicolas,Reed
+76,12,19:02.83,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Jaegar
+77,11,19:03.21,Westmont,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Chase,Hardy
+78,12,19:03.72,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jonathan,Phan
+79,10,19:07.81,Prospect,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Evan,Pagano
+80,11,19:09.03,Santa Teresa,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Gerald,Sarkes
+81,11,19:11.64,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Thomas,Braun
+82,9,19:14.72,Abraham Lincoln (SJ),2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Diego,Ochoa-Mendez
+83,10,19:17.17,San Jose,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Efren,Castaneda
+84,11,19:17.91,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Gabriel,Mendez
+85,12,19:21.43,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jared,Basilio
+86,12,19:25.83,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Brandon,Wong
+87,11,19:27.73,Prospect,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Kellen,Le
+88,10,19:28.50,Leigh,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Fred,Kim
+89,12,19:29.59,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Branson,Dao
+90,10,19:32.43,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Ricky,Howe
+91,12,19:34.68,Leland,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Armon,Choudhry
+92,9,19:35.43,Prospect,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Joseph,Avellar
+93,12,19:36.46,Leigh,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Zach,Seratti
+94,12,19:38.92,Abraham Lincoln (SJ),2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Willie,Cabrera
+95,9,19:39.05,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Alvin,Dang
+96,12,19:44.16,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,JERRY,XU
+97,10,19:47.15,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Mason,Firebaugh
+98,10,19:49.35,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Michael,Gabbani
+99,11,19:53.83,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Connor,Ghione
+100,12,19:56.26,Silver Creek,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Kevin,Apricio
+101,12,19:56.48,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jakob,Reinwald
+102,11,19:56.55,Leigh,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Vivek,Vemulakonda
+103,9,19:58.57,Andrew Hill,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,James,Estrella
+104,10,19:59.90,Santa Teresa,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Joshua,Krone
+105,12,20:10.62,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Martin,Castro
+106,10,20:12.63,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Nathan,Havens
+107,11,20:15.08,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Aochi
+108,10,20:17.99,Mt Pleasant,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Diego,Garcia
+109,11,20:20.07,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Nathaniel,Oliver
+110,12,20:20.52,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Alex,Sen
+111,11,20:24.39,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Kyle,Lafin
+112,11,20:25.99,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ernest,Alarcon
+113,12,20:27.69,Gunderson,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Miguelangel,Reyes Mendoza
+114,9,20:27.74,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Richard,Armenta
+115,12,20:29.48,Gunderson,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Juan,Colunga
+116,10,20:29.80,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Michael,Boyd
+117,12,20:29.86,James Lick,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Geovanny,Campos
+118,9,20:38.02,Piedmont Hills,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Alex,Meeker
+119,10,20:38.66,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jacob,Lepe
+120,9,20:40.29,Mt Pleasant,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Alex,Nguyen
+121,10,20:45.43,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Fernando,Melchor
+122,12,20:52.13,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Newton,Chung
+123,11,20:53.46,Mt Pleasant,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jonathan,Romero
+124,10,21:02.08,Evergreen Valley,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jayanth,Samala
+125,11,21:04.08,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Denis,Flores
+126,10,21:09.93,Abraham Lincoln (SJ),2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Alejandro,Carrillo-Meza
+127,12,21:10.74,Andrew Hill,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Isaac,Ng
+128,11,21:14.24,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jesus,Ortiz
+129,10,21:18.45,Yerba Buena,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Vanthomas,Keo
+130,12,21:23.72,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Diego,Sanchez
+131,11,21:24.70,James Lick,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Jonathan,Bradley
+132,12,21:24.77,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Alexandro,RivaPalacio
+133,10,21:32.33,Leigh,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Tyler,Griffin
+134,12,21:36.09,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Timothy,Nguyen
+135,10,21:40.28,Andrew Hill,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Hong,Nguyen
+136,9,21:43.13,Pioneer,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Sean,Sullivan
+137,12,21:46.37,James Lick,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Melvin,Estrada
+138,10,21:56.04,Andrew Hill,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Alexander,Ramos
+139,10,21:56.24,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Colin,Walford
+140,11,21:57.02,Independence,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ryan,Hen
+141,12,22:07.11,Oak Grove,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Cristian,Alvarez
+142,10,22:10.09,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Adam,Tieu
+143,9,22:33.43,Gunderson,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Christopher,Heering
+144,9,22:46.39,Live Oak,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Daniel,Bakker
+145,10,22:51.72,San Jose,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Jesus,Barragan
+146,10,23:06.53,Gunderson,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,John,Chang
+147,9,23:19.98,Gunderson,2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Aiden,Valadez
+148,10,23:24.41,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Erick,Armenta
+149,11,23:32.45,Del Mar,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Mattheus,Nguyen
+150,11,23:35.51,Overfelt,2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Emanuel,Hernandez
+151,10,24:01.93,San Jose,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Anthony,Lopez
+152,12,25:05.82,San Jose,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Jose,Gonzales
+153,9,26:10.17,Abraham Lincoln (SJ),2.95 Miles Varsity Boys,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,M,Gaven,Posada
+154,10,27:51.10,Ann Sobrato,2.95 Miles Varsity Boys,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,M,Bret,Lang
+155,11,28:53.98,Abraham Lincoln (SJ),2.95 Miles Varsity Boys,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,M,Ethan,Herrera
+156,12,29:06.06,Mt Pleasant,2.95 Miles Varsity Boys,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,M,Isaiah,Chavez
+1,12,24:06.61,Leland,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Mavalyn,Lau
+2,10,24:15.03,Pioneer,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Megan,Sarringhaus
+3,10,24:27.23,Branham,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Andie,Franco
+4,12,24:35.47,Leigh,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Rylie,Hong
+5,9,24:59.42,Willow Glen,2.95 Miles Girls Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Katelyn,Guardanapo
+6,9,25:12.92,Pioneer,2.95 Miles Girls Reserve,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kalia,Villanueva
+7,12,25:21.77,Independence,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Cassandra,Nguyen
+8,11,25:52.95,Pioneer,2.95 Miles Girls Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Joelle,Dourfliger
+9,12,26:39.29,Yerba Buena,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Christina,Pham
+10,12,27:44.84,Yerba Buena,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Kelly,Nguyen
+11,12,28:35.12,Yerba Buena,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Guadalupe,Castro
+12,11,28:46.39,Pioneer,2.95 Miles Girls Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Maya,Miller
+13,10,28:54.43,Leland,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kaylyn,Choi
+14,10,29:32.75,Prospect,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Deepika,Senthil
+15,10,29:34.40,Leland,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kristen,Louis
+16,12,29:45.66,Branham,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Rebecca,Young
+17,11,29:48.94,Westmont,2.95 Miles Girls Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Hannah,Wolf
+18,12,29:55.68,James Lick,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Yesenia,Martinez
+19,10,30:51.48,Branham,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Lipitha,Tummala
+20,10,31:36.63,Leland,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Zhao,Xintong
+21,12,31:53.00,Pioneer,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,tiffany,vu
+23,10,32:58.50,Willow Glen,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Annie,Zuromski
+24,11,33:11.04,Willow Glen,2.95 Miles Girls Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Suli,Caceres
+25,10,33:18.16,Leland,2.95 Miles Girls Reserve,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Iris,Zhou
+26,12,33:20.47,Andrew Hill,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Mi,Le
+27,12,33:27.17,Leland,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Angela,Shu
+28,11,33:36.95,Willow Glen,2.95 Miles Girls Reserve,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Brandy,Schmitz
+29,12,35:31.21,Andrew Hill,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Shayla,Huynh
+30,12,36:16.06,Andrew Hill,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Adelaide,Bao
+31,12,37:07.95,Yerba Buena,2.95 Miles Girls Reserve,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Lidia,Landeros
+1,9,21:42.18,Willow Glen,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Raven,Nieto
+2,9,21:53.99,Leland,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Corinne,Thelen
+3,10,21:54.30,Leland,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Elaina,Chao
+4,9,22:36.79,Leland,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Karis,Moon
+5,11,22:58.07,Willow Glen,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Abigail,Paradise
+6,9,23:12.86,Willow Glen,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Katelynn,Stocks
+7,9,23:29.99,Westmont,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Alexandra,Gryciuk
+8,11,23:36.16,Willow Glen,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Natalie,Andreason
+9,10,23:43.28,Silver Creek,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Meha,Kavoori
+10,10,23:49.89,Willow Glen,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Mariana,Ponce
+11,11,23:55.17,Evergreen Valley,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Yurina,Lauhoff
+12,10,24:05.89,Evergreen Valley,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Tracy,Cao
+13,9,24:06.03,Willow Glen,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Chanel,Nieto
+14,11,24:12.31,Leland,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Tracy,Sun
+15,9,24:12.48,Leland,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Anna,Wildt
+16,10,24:14.60,James Lick,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Ruth,Rodriguez
+17,10,24:33.14,Leigh,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Naomi,Chen
+18,9,24:39.79,Santa Teresa,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Savannah,Zuanich
+19,10,24:54.68,Westmont,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Aneska,Lee
+20,11,24:59.22,James Lick,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Mariana,Perez
+21,9,25:02.17,Westmont,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Sydney,York
+22,9,25:03.10,Leland,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Connie,Zou
+23,10,25:15.16,Prospect,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Nikki,Sales
+24,9,25:20.20,Westmont,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Angelie,Weis
+25,10,25:24.32,Prospect,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Milly,Fulgencio Gomez
+26,10,25:27.36,Leland,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Rachael,Qian
+27,10,25:30.42,Prospect,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Alisa,Trisheva
+28,9,25:32.05,Leigh,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Claire,Lipscomb
+29,9,25:40.01,Prospect,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kristen,Hsi
+30,11,25:43.80,James Lick,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Estefani,Herrera
+31,9,25:56.29,Leigh,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Catherine,Thompson
+32,9,26:09.73,Prospect,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Adrienne,Ferguson
+33,11,26:16.33,James Lick,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Melanny,Sanchez
+34,10,26:28.11,Evergreen Valley,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Anna,Truong
+35,10,26:33.94,Willow Glen,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Makeya,Calhoun
+37,9,27:09.93,Prospect,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Esmeralda,Flores
+38,10,27:19.10,Prospect,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Katy,Villalobos
+39,9,27:28.05,Evergreen Valley,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Tammy,Do
+40,10,27:38.40,Leigh,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Eve,O'Neill
+41,11,27:41.15,Santa Teresa,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Alex,Hanley
+42,9,27:49.26,Leigh,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Christina,He
+43,9,27:56.63,Evergreen Valley,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Jasdeep,Kaur
+44,10,28:17.23,Andrew Hill,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Katelyn,Hua
+45,10,28:52.91,Andrew Hill,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Joselyn,Espinoza
+46,10,29:12.88,Santa Teresa,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Megan,Luu
+47,9,29:20.21,James Lick,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kaylena,Gil
+48,11,29:31.43,Santa Teresa,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Kate,Lima
+49,10,29:41.02,Silver Creek,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Hailey,Dang
+50,9,30:50.20,James Lick,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Deisy,Carlos
+51,11,32:38.14,Andrew Hill,2.95 Miles JV Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Angelica,Campos
+52,9,33:58.76,Andrew Hill,2.95 Miles JV Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Regina,Saldana
+54,10,36:48.29,Andrew Hill,2.95 Miles JV Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Denise,Ngo
+1,12,18:39.76,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Madison,Yen
+2,12,19:05.48,Leigh,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Shelby,Page
+3,12,19:15.79,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Hermela,Abrha
+4,10,19:20.13,Pioneer,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Isabella,Peretti
+5,11,19:21.79,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Hannah,Gehrt
+6,12,19:43.86,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Carly,Zamudio
+7,12,19:55.53,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Madison,Stull
+8,11,20:03.35,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Logan,Jew
+9,10,20:14.16,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Annika,Engebretson
+10,9,20:27.25,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Paige,Unger
+11,11,20:32.76,Ann Sobrato,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Jessica,Faulk
+12,12,20:34.53,Leland,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Vibha,Chandrasekar
+13,9,20:47.89,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Jane,Partsch
+14,9,20:47.97,Pioneer,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Daya,Kumaran
+15,9,20:49.04,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kelalani,Tumale
+16,11,20:54.49,Westmont,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Madilyn,Zanardelli
+17,9,20:55.36,Branham,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Isabelle,Moret
+18,11,21:00.38,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Sophia,Aclan
+19,10,21:02.85,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Sophia,William
+20,10,21:04.76,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Haley,Meyer
+21,9,21:08.68,Leigh,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Alyson,Amanatullah
+22,12,21:08.72,Leland,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Jasmine,Shao
+23,10,21:11.63,Willow Glen,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Dominique,Salinas
+24,10,21:15.76,Leigh,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Meghan,Mcleary
+25,9,21:24.13,Leland,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Maria,Forster
+26,10,21:25.35,Westmont,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Lily,Stockmans
+27,9,21:27.19,Prospect,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Lila,Torzec
+28,10,21:27.96,Leigh,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kiera,Ching
+29,11,21:32.07,Westmont,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Makenna,Adams
+30,9,21:39.27,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Mackenzie,MacDonald
+31,10,21:41.08,Branham,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Megan,Cubiss
+32,10,21:41.76,Live Oak,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Abigail,Paulson
+33,10,21:48.26,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Athena,Rapinan
+34,12,21:49.84,Leigh,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Audrey,Ruster
+35,9,21:53.27,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kennedy,Schoennauer
+36,12,21:54.37,Leland,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Meghna,Chandrasekar
+37,10,22:03.49,Andrew Hill,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Audrey,Do
+38,9,22:07.93,Prospect,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Daniela,Munguia
+39,11,22:11.38,Leland,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Alexandra,Grover
+40,12,22:15.26,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Kaelie,Taylor
+41,11,22:15.55,Westmont,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Melissa,Radlinsky
+42,9,22:35.23,Westmont,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Avalon,Kelly
+43,9,22:37.88,Leland,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Elizabeth,Wildt
+44,12,22:39.33,Branham,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Atticus,Ahearn
+45,10,22:42.27,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Melody,Nguyen
+46,9,22:46.40,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Samantha,Smith
+47,11,22:57.83,James Lick,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Jessica,Cervantes
+48,9,22:58.57,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Haley,Brengard
+49,9,23:03.09,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Sabrina,Tran
+50,9,23:06.12,Live Oak,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Avery,Smith
+51,10,23:08.36,Pioneer,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Hanna,Olson
+52,12,23:10.35,Branham,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Tilde,Arbman
+53,12,23:11.16,Leigh,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Mia,Lawson-Henze
+54,11,23:11.47,Piedmont Hills,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Tyanne,Tran
+55,12,23:13.05,Independence,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Elvina,Vu
+56,11,23:15.95,Branham,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Natalie,Christenson
+57,10,23:16.51,Andrew Hill,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kalin,Le
+58,12,23:17.12,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Sinahy,Fragoso De La Paz
+59,9,23:17.73,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Landry,Schoennaur
+60,10,23:19.14,Pioneer,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kate,Smyrniotis
+61,9,23:20.02,Leigh,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Olivia,Taylor-Gao
+62,9,23:20.35,Prospect,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kayli,Flores
+63,11,23:21.42,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Kaylie,Kwan
+64,9,23:21.97,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Mary,Howard
+65,9,23:23.07,Evergreen Valley,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Ally,Kwan
+66,10,23:28.93,Piedmont Hills,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Shweta,Raghuraman
+67,12,23:37.73,Westmont,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Jia-Yu,Sung
+68,11,23:47.42,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Lynn,Nguyen
+69,11,23:48.69,James Lick,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Keyla,Sifuentes
+70,11,23:54.82,James Lick,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Emely,Lopez
+71,9,23:56.36,James Lick,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Daisy,Flores
+72,9,23:57.29,Prospect,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Lindsay,Barnes
+73,10,23:59.02,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Hillary,Dang
+74,12,24:00.95,Overfelt,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Gloria,Mota Torres
+75,12,24:01.14,Live Oak,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Gillian,McCaw
+76,10,24:04.44,Prospect,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Shirin,Huzejrovic
+77,12,24:06.24,Ann Sobrato,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Alyssa,Bruno
+78,10,24:11.14,Independence,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Lynn,Nguyen
+79,12,24:13.55,Prospect,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Camille,Boiteux
+80,12,24:18.53,Santa Teresa,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Brianna,Valverde
+81,12,24:25.71,James Lick,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Yeimili,Adame
+82,9,24:29.22,Pioneer,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Dorsa,Mousavi
+83,11,24:39.02,Mt Pleasant,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Jackie,Tlatenchi
+84,12,24:41.88,Mt Pleasant,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Julia,Nguyen
+85,11,24:42.55,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Eva,Dang
+86,12,24:42.89,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Jazmin,Velazquez
+87,11,24:51.13,Mt Pleasant,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Ysabella,Estrada
+88,12,24:55.86,Branham,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Samiksha,Boranna
+89,12,25:04.72,Leland,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Isabel,Zhou
+90,10,25:08.88,Independence,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kyleigh,Mae Gardner
+91,12,25:12.35,James Lick,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Ashley,Preciado
+92,12,25:17.48,Branham,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Julianne,Alvares
+93,9,25:27.20,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Kylie,Castello
+94,11,25:27.83,Independence,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Audrey,Tang
+95,11,25:31.44,Independence,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Christine,Huynh
+96,11,25:36.91,Silver Creek,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Holly,Do
+97,12,25:42.45,Independence,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Paula,Biagtan
+98,10,25:45.24,Prospect,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Justine,Rocha
+99,12,25:46.28,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Cynthia,Solorio
+100,11,25:51.32,Andrew Hill,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Jacklyn,Velasquez
+101,11,25:52.45,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Jennifer,Contreras
+102,12,25:52.64,Oak Grove,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Rachel,White
+103,12,25:54.79,Gunderson,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Alyssa,De Leon
+104,12,26:01.47,Westmont,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Alexandria,Moler
+105,11,26:10.17,Del Mar,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Kielly,Madrid
+106,12,26:10.40,Live Oak,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Alyson,Conlan
+107,12,26:13.65,Ann Sobrato,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Melina,Paulus
+108,12,26:23.95,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Jasmine,Vu
+109,11,26:34.12,Gunderson,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Sarah,Asada
+110,12,26:37.89,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Alicia,Chavez
+111,11,26:43.91,Live Oak,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Alba,Despotovic Gutierrez
+112,12,26:50.93,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Lieu,Tran
+113,10,26:57.06,Andrew Hill,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Angelina,Rodriguez
+114,10,26:59.32,Andrew Hill,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Trisha,Nguyen
+115,12,27:02.10,Oak Grove,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Diana,Pastrana
+116,12,27:04.08,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Estella,Ramos
+117,12,27:08.68,Overfelt,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Jennifer,Villegas
+118,10,27:11.17,Del Mar,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Kylie,Dao
+119,12,27:18.59,Ann Sobrato,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Katie,Meagor
+120,12,27:23.16,Oak Grove,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Estefania,Reed
+121,11,27:58.62,Yerba Buena,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Jolie,Vo
+122,10,28:16.84,Piedmont Hills,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Esther,Lau
+123,11,28:20.78,Independence,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Suvroop,Brar
+124,10,28:24.38,Del Mar,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Huyana,Lopez
+125,9,28:36.31,Piedmont Hills,2.95 Miles Varsity Girls,2019-11-04,2023,Search,Championship,Crystal Springs,4748,2019,F,Dina,Berhan
+126,11,29:12.04,Overfelt,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Diana,Lopez
+127,11,29:34.93,Overfelt,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Belen,Rosas
+128,10,29:55.70,Del Mar,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Audrey,Kim
+130,10,30:42.13,Del Mar,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Mika,Sipes
+131,12,30:49.68,San Jose,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Melisa,Mendoza
+132,12,31:10.06,Gunderson,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Clara,Duran
+133,12,32:04.88,San Jose,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Anabel,Munoz
+134,10,32:53.33,Oak Grove,2.95 Miles Varsity Girls,2019-11-04,2022,Search,Championship,Crystal Springs,4748,2019,F,Deanna,Stone
+135,12,33:18.59,Oak Grove,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Sarah,Phan
+136,12,33:50.27,Piedmont Hills,2.95 Miles Varsity Girls,2019-11-04,2020,Search,Championship,Crystal Springs,4748,2019,F,Eileen,Quach
+137,11,36:00.75,Del Mar,2.95 Miles Varsity Girls,2019-11-04,2021,Search,Championship,Crystal Springs,4748,2019,F,Caitlin,Heinowitz

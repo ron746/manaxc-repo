@@ -1,0 +1,625 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,11,15:38.0,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Shane,Dalziel
+2,12,15:50.4,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Casey,Nuti
+3,10,16:01.3,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Landon,Cribari
+4,12,16:11.0,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Finlay,McAfee
+5,10,16:11.6,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Aaron,Soni
+6,12,16:17.2,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jeffrey,Hedlund
+7,10,16:17.4,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Carson,Hedlund
+8,12,16:22.6,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Zachary,Irwin
+9,12,16:28.8,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ojas,Joshi
+10,12,16:35.8,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Anthony,Sosa
+11,10,16:36.8,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Colin,Jubert
+12,12,16:47.4,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Abhyuday,Srivatsa
+13,12,17:04.7,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Charlie,Kirkendall
+14,11,17:12.6,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Thomas,Doherty
+15,12,17:13.5,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jack,Park
+16,12,17:14.1,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Magnus,Vega
+17,10,17:18.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Pranav,Sairam
+18,11,17:19.2,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Mosher
+19,10,17:19.8,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Carter,Cormier
+20,10,17:20.4,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ryan,Aziz
+21,10,17:22.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Austen,Grabbe
+22,11,17:28.1,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Mateo,Carino
+23,12,17:30.6,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Troy,Nguyen
+24,9,17:33.7,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Hayden,Kieslich
+25,11,17:36.3,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Connor,Whitson
+26,11,17:38.1,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Nikos,Dal Canto
+27,11,17:38.9,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Brandon,Gingras
+28,12,17:43.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Luis,Folkers
+29,11,17:43.9,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Spencer,King
+30,10,18:00.0,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Tomas,Nieto
+31,12,18:04.7,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Brian,Jackson
+32,9,18:08.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Caleb,Entwisle
+33,10,18:10.1,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nagaashrith,Kaliki
+34,11,18:10.8,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Colby,Leal
+35,12,18:16.4,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Mathai
+36,11,18:16.8,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Henry,Koo
+37,12,18:17.7,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Allen,Nguyen
+38,9,18:19.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nolan,Breit
+39,10,18:22.8,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jose,Contreras
+40,12,18:25.3,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Joseph,Avellar
+41,11,18:29.2,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Aji
+42,11,18:43.4,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jeremy,Gingras
+43,9,18:51.1,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Tao
+44,11,18:54.2,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Zachary,Derse
+45,12,18:55.8,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Marvin,Zhai
+46,10,18:59.6,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kyan,Wang
+47,9,19:12.7,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Rodrigo,Valle
+48,10,19:13.4,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jackie,Wei
+49,9,19:17.7,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Rihito,Yamaguchi
+50,10,19:45.5,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Aidan,Shelley
+51,10,19:56.1,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Arkadiusz,Matlosz
+52,11,20:10.5,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Preston,Nguyen
+53,11,20:27.0,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Dominic,Vaughn-Luma
+54,9,20:31.3,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Matthew,Carino
+55,11,20:41.3,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Hayden,Hernandez
+56,9,21:04.0,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,John,Gutierrez
+1,10,15:45.2,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Joshua,Guzman
+2,12,16:29.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,James,Estrella
+3,12,16:50.7,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Miguel,Flores
+4,11,17:23.4,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Gabriel,Chavez
+5,11,17:34.5,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Harshaan,Mangat
+6,11,17:36.7,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jerry,Dang
+7,10,17:41.5,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Donovan,Ly
+8,10,17:43.7,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jonathan,Kammerer
+9,12,17:59.6,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Martin,Picazo
+10,11,18:14.4,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Dhilan,Mistry
+11,12,18:17.6,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Eric,Huynh
+12,10,18:20.2,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ryan,Tabatabai
+13,10,18:37.2,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alexander,Herrera
+14,12,18:40.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Isaac,Alshraideh
+15,12,18:50.3,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Garcia
+16,10,18:53.3,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Thomas,Nielson
+17,11,19:00.9,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jose,Gomez
+18,12,19:02.5,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Brandon,Cendejas
+19,11,19:03.5,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jordan,Legaspi
+20,10,19:03.7,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ricardo,Chavarria
+21,9,19:07.1,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nils,Johansson
+22,10,19:31.0,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Adrian,Celis
+23,12,19:36.3,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,James,Nguyen
+24,9,19:39.5,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,David,Romero
+25,10,19:53.5,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Colin,Curto
+26,9,19:55.1,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Sebastian,Palafox
+27,12,20:00.2,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Max,Hernandez
+28,9,20:01.2,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Mason,Guersch
+29,10,20:03.8,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Joel,Marquez
+30,10,20:20.3,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Giovanni,Flores
+31,10,20:29.4,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nam,Nguyen
+32,12,20:34.8,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Christopher,Nucci
+33,10,20:38.0,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Austin,Abero
+34,11,20:41.0,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Evan,McEuen
+35,10,20:42.5,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Suyash,Sawant
+36,12,20:44.7,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ben,Hayes
+37,11,20:53.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Abel,Gonzales
+38,10,21:46.4,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alfredo,Munoz
+39,12,21:48.6,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Omar,Sanchez
+40,11,22:18.0,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kevin,Avendano Sernas
+41,9,24:27.3,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Avery,Montejano
+1,12,16:54.2,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ashton,Scheerer
+2,11,17:47.6,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Israel,Hernandez
+3,10,17:54.2,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alonso,Joaquin Rojas
+4,10,17:56.9,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ty,Fought
+5,10,18:47.8,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nicolas,Luster
+6,10,18:50.8,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nathanial,Luster
+7,10,18:53.6,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kristian,De La Sierra
+8,12,19:08.2,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Samuel,Decker
+9,9,19:09.7,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nico,Caldera
+10,9,19:26.9,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Anthony,Nunez
+11,9,19:28.9,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Kevin,Mendoza
+12,12,19:32.9,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Christopher,Heering
+13,11,20:03.4,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Henry,Oliver
+14,9,20:40.2,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Rigo,Pedraza
+15,9,20:41.0,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Aaron,Saucedo
+16,9,20:48.2,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Howie,Do
+17,11,20:49.3,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Samuel,Dorai-Raj
+18,11,21:28.5,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Steven,Arreola
+19,10,21:46.9,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Israel,Sanchez
+20,10,21:48.6,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Josue,Moctezuma
+21,9,21:50.7,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Riley,Murrry
+22,10,21:53.9,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nathan,Green
+23,9,22:12.8,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Jonathan,Parisi
+24,11,22:19.7,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Nolan,Ledwith
+25,10,22:20.4,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Isaak,Davila
+26,10,22:24.3,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mathew,Morales
+27,10,23:25.2,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Esaie,Prickett
+28,9,23:27.8,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Daniel,Garcia
+29,11,23:35.6,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jesus,Torres
+30,10,23:42.8,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ty,Sandberg
+31,10,24:29.5,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Hugo,Barriag-Garcia
+32,10,24:58.8,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Andrew,Lieu
+33,10,26:24.5,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Julio,Arellano
+34,9,26:35.9,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Dante,Guerrero
+1,12,15:59.6,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Spencer,Zeljak
+2,9,16:02.3,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Alijah,Murillo
+3,10,16:30.1,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Andrew,Hamamoto
+4,11,16:30.5,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Andrew,Seefeldt
+5,11,16:43.7,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Nicolas,Reed
+6,10,16:55.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Donovan,Bollini
+7,12,16:58.1,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Diego,Ochoa-Mendez
+8,11,17:14.8,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Owen,Daszko
+9,11,17:39.9,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Noah,Thompson
+10,11,17:55.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Lleyton,Houston
+11,10,18:00.1,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Anthony,Nguyen
+12,9,18:05.5,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Garner
+13,9,18:06.3,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Hudson,Kasenchak
+15,9,18:18.2,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Cade,Robertson
+16,12,18:34.9,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jesus,Murillo
+17,11,18:40.4,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Rayan,Ezaz
+18,10,18:40.5,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,William,Giangreco
+19,10,19:03.2,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Benjamin,Bauer
+20,12,19:12.9,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Atticus,Wong
+21,10,19:33.6,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mohamed,Mohammed
+22,12,19:38.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Kevin,Estrada
+24,10,19:46.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nicholas,Van Ash
+25,11,20:02.5,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Mason,Firebaugh
+26,12,20:04.5,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Nathan,Hong
+29,12,20:18.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Donavon,Manguerra
+31,11,20:25.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Angel,Gutierrez
+33,10,20:57.3,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Harry,Dam
+35,11,21:10.7,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Marvin,Tran
+36,10,21:16.3,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alfredo,Pascual
+37,10,21:16.3,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Atlas,Wong
+38,9,21:25.3,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Dane,Mettler
+39,10,21:28.7,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Daniel,Nagashima
+40,10,21:42.5,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Derek,Dinh
+41,9,23:07.9,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Jacob,Lubben
+42,12,23:09.4,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Patrick,OLeary
+1,10,17:52.9,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kylie,Hoornaert
+2,10,18:55.1,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Lola,Herning
+3,11,19:03.0,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Tauren,Mitchell
+4,11,19:19.2,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kiarra,D'Arcangelo
+5,12,19:23.0,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Felisha,Kuo
+6,11,19:27.1,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ruby,Chen
+7,10,19:38.6,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Taylor,Chesarek
+8,10,19:42.3,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Isabella,Riggs
+9,12,19:43.6,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Raven,Nieto
+10,12,19:50.5,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Maria,Forster
+11,9,19:56.3,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Cassie,Itatani
+12,9,19:56.4,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Maile,Shinmoto
+13,10,20:05.1,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ramneek,Kaur
+14,9,20:05.2,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Alyssa,Nagatani
+15,10,20:09.7,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kim,Le
+16,12,20:16.0,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Paige,Unger
+17,12,20:22.3,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mackenzie,MacDonald
+18,9,20:32.9,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Autumn,Pacheco
+19,10,20:50.2,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Katelynn,Dilbeck
+20,12,20:56.3,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jane,Partsch
+21,10,20:59.1,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Eva,Cardoza
+22,11,21:01.1,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Lillian,Montgomery
+23,11,21:02.3,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kira,Stringer
+24,10,21:11.2,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nevaeh,Bryant
+25,10,21:12.1,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sophia,Valle
+26,9,21:27.9,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Shannon,Zhou
+27,12,21:29.1,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Alexandra,Gryciuk
+28,9,21:32.0,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Katherine,Rice
+29,9,21:36.7,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Stephanie,Chang
+30,9,21:37.0,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Danju,Kuo
+31,11,21:42.7,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Sonya,Prabhoo
+32,11,21:50.7,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ameya,Ganesh
+33,9,21:54.4,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Aria,Das
+34,12,21:57.5,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Karuna,Gray
+35,10,22:00.8,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Aditi,Varia
+36,12,22:07.2,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Abigail,Shlimenzon
+37,9,22:15.5,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nadia,Rivas
+38,11,22:25.8,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Makena,Concepcion
+39,12,22:28.6,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Daya,Kumaran
+40,12,22:35.6,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Lily,Wen
+41,10,22:41.0,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kayla,Kirkendall
+42,9,22:57.1,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Lydia,Tan
+43,12,23:04.0,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Sabrina,Tran
+44,9,23:29.1,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Maben,Cody
+45,11,23:37.4,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Natasha,Joshi
+46,11,23:39.8,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Josephine,Kwok
+47,11,23:43.5,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Julia,Martin
+48,11,24:00.3,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Andrea,Ayala
+49,10,24:06.9,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sara,Chaudoin
+50,10,24:11.6,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Erica,Gunn
+51,12,24:16.0,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Julia,Vierhus
+52,12,24:22.2,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Kalia,Villanueva
+53,10,25:08.8,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Christa,Tran
+54,11,25:15.9,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Youjia,He
+1,12,20:07.0,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mary,Howard
+2,10,20:19.5,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Natalia,Niebles
+3,12,20:55.3,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Sarah,Arcelo
+4,10,21:39.8,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Katelyn,Nguyen
+5,11,21:48.0,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Elena,Finucane
+6,11,22:33.7,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Vivianna,Bravo
+7,10,23:01.6,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Rachel,Howard
+8,10,23:19.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nathaly,Bernal
+9,12,23:52.1,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Gabriela,Baxter
+10,12,23:52.4,Ann Sobrato,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Linzee,Clayton
+11,10,23:53.8,Gilroy,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Valeria,Flores
+12,11,24:25.9,Ann Sobrato,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Rui,Tong
+13,10,24:55.7,Gilroy,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kadence,Lewis
+14,12,25:08.0,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Paige,Zukowski
+15,10,25:17.6,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Eliana,Colin
+16,9,25:19.4,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Jazmine,Flores
+17,11,25:44.5,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Vanessa,Nguyen
+18,12,25:50.9,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Karen,Luna
+19,10,26:02.4,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sarah,Newren
+20,12,26:35.2,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Allison,Abilay
+21,11,26:37.0,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Erika,Pham
+22,10,27:04.8,Ann Sobrato,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Gracelynn,Roberts
+23,12,27:17.5,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Daisy,Flores
+24,11,27:21.8,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Karen,Le
+25,9,27:37.1,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Julia,Finucane
+26,10,28:07.8,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mina,Prasad
+27,9,28:48.4,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Amy,Torres
+28,10,28:49.0,Gilroy,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mariana,Lopez
+29,9,29:18.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Heidi,Ramos
+30,9,30:09.3,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Abigail,Porter
+31,12,33:24.3,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Yesenia,Carrasco
+1,10,22:50.9,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alondra,Dominguez
+2,12,23:03.1,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Avery,Smith
+3,11,23:05.3,Mt Pleasant,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Melina,Leon
+4,10,23:45.3,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Emily,Ramirez
+5,10,23:47.7,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Hailey,Hinkle
+6,10,23:53.2,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Autumn,Mungaray
+7,11,24:05.6,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Guadalupe,Cacorras
+8,9,24:48.4,Mt Pleasant,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Sophia,Quinlan
+9,10,25:18.9,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sofia,Ruiz McGinty
+10,11,25:58.3,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Melia,Manning
+11,10,25:58.6,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Gaby,Salas Aguilar
+12,10,26:41.1,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Liana,Miramontes
+13,10,26:45.5,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Elsie,Decker
+14,10,26:56.8,Mt Pleasant,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Paulina,Jacobo
+15,10,27:27.5,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Keira,Daley
+16,11,27:32.3,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Sam,Genz
+17,10,27:56.1,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Lilly,Hanson
+18,11,28:04.7,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Shreeya,Amin
+19,10,28:10.5,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Samantha,Green
+20,9,28:20.5,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Sophia,Ramirez
+21,10,28:36.8,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Carmen,Roussere
+22,9,28:49.2,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Valerye,Hernandez
+23,9,30:10.4,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Itzel,Moreno
+24,11,31:39.1,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Pattareeya,Vantanuvong
+25,12,32:52.0,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mai,Tran
+26,10,36:37.0,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mercy,Madlaing
+27,9,39:50.8,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Evelyn,Ruiz
+1,9,19:16.6,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Hannah,Soetaert
+2,11,19:51.4,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Karly,Page
+3,12,20:10.5,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Isabelle,Moret
+4,10,21:00.3,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Josie,Habiby
+5,10,21:52.0,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Lily,Sanders
+6,12,21:53.8,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Clara,Ford
+7,10,22:13.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Cece,Giguere
+8,12,22:23.3,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Clarissa,Hill
+9,12,22:32.8,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Olivia,Taylor-Gao
+10,11,22:34.2,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kayleen,Landa
+13,9,22:43.9,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Emiko,Watanabe
+14,9,22:48.6,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Yazmin,Grant
+15,9,23:03.1,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Amen,Fekadeselassie
+16,10,23:23.9,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Abigail,Fukuhara
+17,10,23:35.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mireyli,Torres
+19,12,24:01.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Lauren,Peters
+21,10,24:15.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Natalie,Vu
+22,11,24:19.3,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Neomi,Gonzalez-Guerrero
+24,10,24:55.0,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ivy,Nguyen
+25,11,24:57.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Maddy,Cheng
+27,12,25:14.9,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Landry,Schoennauer
+29,10,25:47.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jordan,Liou-Mandujano
+30,9,26:09.4,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Emily,Chhulon
+31,9,26:23.2,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Audrina,Shepherd
+32,12,27:25.7,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mia,Chavez
+33,10,27:34.7,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Analise,Detrinidad
+34,10,27:47.5,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Elaine,Vo
+35,10,27:49.2,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jasmine,Guzon
+36,9,27:51.4,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Emily,Luna
+37,9,28:03.0,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Tiffany,Duong
+38,9,28:43.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Daphnie,Solorio
+39,9,29:05.1,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Cecilia,McCarville
+40,11,29:34.0,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Cindy,Le
+41,11,33:37.4,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Emily,Gaitan
+1,11,15:38.0,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Shane,Dalziel
+2,12,15:50.4,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Casey,Nuti
+3,10,16:01.3,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Landon,Cribari
+4,12,16:11.0,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Finlay,McAfee
+5,10,16:11.6,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Aaron,Soni
+6,12,16:17.2,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jeffrey,Hedlund
+7,10,16:17.4,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Carson,Hedlund
+8,12,16:22.6,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Zachary,Irwin
+9,12,16:28.8,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ojas,Joshi
+10,12,16:35.8,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Anthony,Sosa
+11,10,16:36.8,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Colin,Jubert
+12,12,16:47.4,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Abhyuday,Srivatsa
+13,12,17:04.7,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Charlie,Kirkendall
+14,11,17:12.6,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Thomas,Doherty
+15,12,17:13.5,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jack,Park
+16,12,17:14.1,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Magnus,Vega
+17,10,17:18.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Pranav,Sairam
+18,11,17:19.2,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Mosher
+19,10,17:19.8,Westmont,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Carter,Cormier
+20,10,17:20.4,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ryan,Aziz
+21,10,17:22.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Austen,Grabbe
+22,11,17:28.1,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Mateo,Carino
+23,12,17:30.6,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Troy,Nguyen
+24,9,17:33.7,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Hayden,Kieslich
+25,11,17:36.3,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Connor,Whitson
+26,11,17:38.1,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Nikos,Dal Canto
+27,11,17:38.9,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Brandon,Gingras
+28,12,17:43.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Luis,Folkers
+29,11,17:43.9,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Spencer,King
+30,10,18:00.0,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Tomas,Nieto
+31,12,18:04.7,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Brian,Jackson
+32,9,18:08.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Caleb,Entwisle
+33,10,18:10.1,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nagaashrith,Kaliki
+34,11,18:10.8,Pioneer,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Colby,Leal
+35,12,18:16.4,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Mathai
+36,11,18:16.8,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Henry,Koo
+37,12,18:17.7,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Allen,Nguyen
+38,9,18:19.4,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nolan,Breit
+39,10,18:22.8,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jose,Contreras
+40,12,18:25.3,Prospect,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Joseph,Avellar
+41,11,18:29.2,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Aji
+42,11,18:43.4,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jeremy,Gingras
+43,9,18:51.1,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Tao
+44,11,18:54.2,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Zachary,Derse
+45,12,18:55.8,Evergreen Valley,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Marvin,Zhai
+46,10,18:59.6,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kyan,Wang
+47,9,19:12.7,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Rodrigo,Valle
+48,10,19:13.4,Piedmont Hills,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jackie,Wei
+49,9,19:17.7,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Rihito,Yamaguchi
+50,10,19:45.5,Leland,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Aidan,Shelley
+51,10,19:56.1,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Arkadiusz,Matlosz
+52,11,20:10.5,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Preston,Nguyen
+53,11,20:27.0,Willow Glen,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Dominic,Vaughn-Luma
+54,9,20:31.3,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Matthew,Carino
+55,11,20:41.3,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Hayden,Hernandez
+56,9,21:04.0,Santa Teresa,2.95 Miles Varsity- Mount Hamilton,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,John,Gutierrez
+1,10,15:45.2,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Joshua,Guzman
+2,12,16:29.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,James,Estrella
+3,12,16:50.7,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Miguel,Flores
+4,11,17:23.4,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Gabriel,Chavez
+5,11,17:34.5,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Harshaan,Mangat
+6,11,17:36.7,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jerry,Dang
+7,10,17:41.5,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Donovan,Ly
+8,10,17:43.7,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jonathan,Kammerer
+9,12,17:59.6,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Martin,Picazo
+10,11,18:14.4,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Dhilan,Mistry
+11,12,18:17.6,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Eric,Huynh
+12,10,18:20.2,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ryan,Tabatabai
+13,10,18:37.2,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alexander,Herrera
+14,12,18:40.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Isaac,Alshraideh
+15,12,18:50.3,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Garcia
+16,10,18:53.3,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Thomas,Nielson
+17,11,19:00.9,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jose,Gomez
+18,12,19:02.5,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Brandon,Cendejas
+19,11,19:03.5,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jordan,Legaspi
+20,10,19:03.7,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ricardo,Chavarria
+21,9,19:07.1,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nils,Johansson
+22,10,19:31.0,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Adrian,Celis
+23,12,19:36.3,Silver Creek,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,James,Nguyen
+24,9,19:39.5,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,David,Romero
+25,10,19:53.5,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Colin,Curto
+26,9,19:55.1,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Sebastian,Palafox
+27,12,20:00.2,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Max,Hernandez
+28,9,20:01.2,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Mason,Guersch
+29,10,20:03.8,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Joel,Marquez
+30,10,20:20.3,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Giovanni,Flores
+31,10,20:29.4,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nam,Nguyen
+32,12,20:34.8,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Christopher,Nucci
+33,10,20:38.0,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Austin,Abero
+34,11,20:41.0,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Evan,McEuen
+35,10,20:42.5,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Suyash,Sawant
+36,12,20:44.7,Ann Sobrato,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ben,Hayes
+37,11,20:53.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Abel,Gonzales
+38,10,21:46.4,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alfredo,Munoz
+39,12,21:48.6,James Lick,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Omar,Sanchez
+40,11,22:18.0,Gilroy,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kevin,Avendano Sernas
+41,9,24:27.3,Christopher,2.95 Miles Varsity- Santa Teresa East,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Avery,Montejano
+1,12,16:54.2,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Ashton,Scheerer
+2,11,17:47.6,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Israel,Hernandez
+3,10,17:54.2,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alonso,Joaquin Rojas
+4,10,17:56.9,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ty,Fought
+5,10,18:47.8,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nicolas,Luster
+6,10,18:50.8,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nathanial,Luster
+7,10,18:53.6,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kristian,De La Sierra
+8,12,19:08.2,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Samuel,Decker
+9,9,19:09.7,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nico,Caldera
+10,9,19:26.9,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Anthony,Nunez
+11,9,19:28.9,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Kevin,Mendoza
+12,12,19:32.9,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Christopher,Heering
+13,11,20:03.4,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Henry,Oliver
+14,9,20:40.2,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Rigo,Pedraza
+15,9,20:41.0,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Aaron,Saucedo
+16,9,20:48.2,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Howie,Do
+17,11,20:49.3,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Samuel,Dorai-Raj
+18,11,21:28.5,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Steven,Arreola
+19,10,21:46.9,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Israel,Sanchez
+20,10,21:48.6,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Josue,Moctezuma
+21,9,21:50.7,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Riley,Murrry
+22,10,21:53.9,Del Mar,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nathan,Green
+23,9,22:12.8,Mt Pleasant,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Jonathan,Parisi
+24,11,22:19.7,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Nolan,Ledwith
+25,10,22:20.4,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Isaak,Davila
+26,10,22:24.3,Gunderson,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mathew,Morales
+27,10,23:25.2,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Esaie,Prickett
+28,9,23:27.8,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Daniel,Garcia
+29,11,23:35.6,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Jesus,Torres
+30,10,23:42.8,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ty,Sandberg
+31,10,24:29.5,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Hugo,Barriag-Garcia
+32,10,24:58.8,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Andrew,Lieu
+33,10,26:24.5,Overfelt,2.95 Miles Varsity- West Valley,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Julio,Arellano
+34,9,26:35.9,Live Oak,2.95 Miles Varsity- West Valley,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Dante,Guerrero
+1,12,15:59.6,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Spencer,Zeljak
+2,9,16:02.3,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Alijah,Murillo
+3,10,16:30.1,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Andrew,Hamamoto
+4,11,16:30.5,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Andrew,Seefeldt
+5,11,16:43.7,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Nicolas,Reed
+6,10,16:55.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Donovan,Bollini
+7,12,16:58.1,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Diego,Ochoa-Mendez
+8,11,17:14.8,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Owen,Daszko
+9,11,17:39.9,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Noah,Thompson
+10,11,17:55.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Lleyton,Houston
+11,10,18:00.1,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Anthony,Nguyen
+12,9,18:05.5,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Ethan,Garner
+13,9,18:06.3,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Hudson,Kasenchak
+15,9,18:18.2,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Cade,Robertson
+16,12,18:34.9,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jesus,Murillo
+17,11,18:40.4,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Rayan,Ezaz
+18,10,18:40.5,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,William,Giangreco
+19,10,19:03.2,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Benjamin,Bauer
+20,12,19:12.9,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Atticus,Wong
+21,10,19:33.6,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mohamed,Mohammed
+22,12,19:38.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Kevin,Estrada
+24,10,19:46.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nicholas,Van Ash
+25,11,20:02.5,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Mason,Firebaugh
+26,12,20:04.5,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Nathan,Hong
+29,12,20:18.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Donavon,Manguerra
+31,11,20:25.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Angel,Gutierrez
+33,10,20:57.3,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Harry,Dam
+35,11,21:10.7,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Marvin,Tran
+36,10,21:16.3,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alfredo,Pascual
+37,10,21:16.3,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Atlas,Wong
+38,9,21:25.3,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Dane,Mettler
+39,10,21:28.7,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Daniel,Nagashima
+40,10,21:42.5,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Derek,Dinh
+41,9,23:07.9,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Jacob,Lubben
+42,12,23:09.4,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Patrick,OLeary
+1,10,17:52.9,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kylie,Hoornaert
+2,10,18:55.1,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Lola,Herning
+3,11,19:03.0,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Tauren,Mitchell
+4,11,19:19.2,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kiarra,D'Arcangelo
+5,12,19:23.0,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Felisha,Kuo
+6,11,19:27.1,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ruby,Chen
+7,10,19:38.6,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Taylor,Chesarek
+8,10,19:42.3,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Isabella,Riggs
+9,12,19:43.6,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Raven,Nieto
+10,12,19:50.5,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Maria,Forster
+11,9,19:56.3,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Cassie,Itatani
+12,9,19:56.4,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Maile,Shinmoto
+13,10,20:05.1,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ramneek,Kaur
+14,9,20:05.2,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Alyssa,Nagatani
+15,10,20:09.7,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kim,Le
+16,12,20:16.0,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Paige,Unger
+17,12,20:22.3,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mackenzie,MacDonald
+18,9,20:32.9,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Autumn,Pacheco
+19,10,20:50.2,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Katelynn,Dilbeck
+20,12,20:56.3,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Jane,Partsch
+21,10,20:59.1,Willow Glen,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Eva,Cardoza
+22,11,21:01.1,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Lillian,Montgomery
+23,11,21:02.3,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kira,Stringer
+24,10,21:11.2,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nevaeh,Bryant
+25,10,21:12.1,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sophia,Valle
+26,9,21:27.9,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Shannon,Zhou
+27,12,21:29.1,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Alexandra,Gryciuk
+28,9,21:32.0,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Katherine,Rice
+29,9,21:36.7,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Stephanie,Chang
+30,9,21:37.0,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Danju,Kuo
+31,11,21:42.7,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Sonya,Prabhoo
+32,11,21:50.7,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Ameya,Ganesh
+33,9,21:54.4,Leland,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Aria,Das
+34,12,21:57.5,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Karuna,Gray
+35,10,22:00.8,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Aditi,Varia
+36,12,22:07.2,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Abigail,Shlimenzon
+37,9,22:15.5,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Nadia,Rivas
+38,11,22:25.8,Santa Teresa,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Makena,Concepcion
+39,12,22:28.6,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Daya,Kumaran
+40,12,22:35.6,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Lily,Wen
+41,10,22:41.0,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kayla,Kirkendall
+42,9,22:57.1,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Lydia,Tan
+43,12,23:04.0,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Sabrina,Tran
+44,9,23:29.1,Prospect,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Maben,Cody
+45,11,23:37.4,Evergreen Valley,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Natasha,Joshi
+46,11,23:39.8,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Josephine,Kwok
+47,11,23:43.5,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Julia,Martin
+48,11,24:00.3,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Andrea,Ayala
+49,10,24:06.9,Westmont,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sara,Chaudoin
+50,10,24:11.6,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Erica,Gunn
+51,12,24:16.0,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Julia,Vierhus
+52,12,24:22.2,Pioneer,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Kalia,Villanueva
+53,10,25:08.8,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Christa,Tran
+54,11,25:15.9,Piedmont Hills,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Youjia,He
+1,12,20:07.0,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mary,Howard
+2,10,20:19.5,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Natalia,Niebles
+3,12,20:55.3,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Sarah,Arcelo
+4,10,21:39.8,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Katelyn,Nguyen
+5,11,21:48.0,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Elena,Finucane
+6,11,22:33.7,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Vivianna,Bravo
+7,10,23:01.6,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Rachel,Howard
+8,10,23:19.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Nathaly,Bernal
+9,12,23:52.1,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Gabriela,Baxter
+10,12,23:52.4,Ann Sobrato,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Linzee,Clayton
+11,10,23:53.8,Gilroy,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Valeria,Flores
+12,11,24:25.9,Ann Sobrato,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Rui,Tong
+13,10,24:55.7,Gilroy,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Kadence,Lewis
+14,12,25:08.0,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Paige,Zukowski
+15,10,25:17.6,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Eliana,Colin
+16,9,25:19.4,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Jazmine,Flores
+17,11,25:44.5,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Vanessa,Nguyen
+18,12,25:50.9,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Karen,Luna
+19,10,26:02.4,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sarah,Newren
+20,12,26:35.2,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Allison,Abilay
+21,11,26:37.0,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Erika,Pham
+22,10,27:04.8,Ann Sobrato,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Gracelynn,Roberts
+23,12,27:17.5,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Daisy,Flores
+24,11,27:21.8,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Karen,Le
+25,9,27:37.1,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Julia,Finucane
+26,10,28:07.8,Silver Creek,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mina,Prasad
+27,9,28:48.4,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Amy,Torres
+28,10,28:49.0,Gilroy,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mariana,Lopez
+29,9,29:18.3,Andrew Hill,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Heidi,Ramos
+30,9,30:09.3,Christopher,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Abigail,Porter
+31,12,33:24.3,James Lick,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Yesenia,Carrasco
+1,10,22:50.9,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Alondra,Dominguez
+2,12,23:03.1,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Avery,Smith
+3,11,23:05.3,Mt Pleasant,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Melina,Leon
+4,10,23:45.3,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Emily,Ramirez
+5,10,23:47.7,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Hailey,Hinkle
+6,10,23:53.2,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Autumn,Mungaray
+7,11,24:05.6,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Guadalupe,Cacorras
+8,9,24:48.4,Mt Pleasant,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Sophia,Quinlan
+9,10,25:18.9,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Sofia,Ruiz McGinty
+10,11,25:58.3,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Melia,Manning
+11,10,25:58.6,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Gaby,Salas Aguilar
+12,10,26:41.1,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Liana,Miramontes
+13,10,26:45.5,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Elsie,Decker
+14,10,26:56.8,Mt Pleasant,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Paulina,Jacobo
+15,10,27:27.5,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Keira,Daley
+16,11,27:32.3,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Sam,Genz
+17,10,27:56.1,Live Oak,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Lilly,Hanson
+18,11,28:04.7,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Shreeya,Amin
+19,10,28:10.5,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Samantha,Green
+20,9,28:20.5,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Sophia,Ramirez
+21,10,28:36.8,Gunderson,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Carmen,Roussere
+22,9,28:49.2,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Valerye,Hernandez
+23,9,30:10.4,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Itzel,Moreno
+24,11,31:39.1,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Pattareeya,Vantanuvong
+25,12,32:52.0,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mai,Tran
+26,10,36:37.0,Del Mar,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mercy,Madlaing
+27,9,39:50.8,Overfelt,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Evelyn,Ruiz
+1,9,19:16.6,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Hannah,Soetaert
+2,11,19:51.4,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Karly,Page
+3,12,20:10.5,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Isabelle,Moret
+4,10,21:00.3,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Josie,Habiby
+5,10,21:52.0,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Lily,Sanders
+6,12,21:53.8,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Clara,Ford
+7,10,22:13.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Cece,Giguere
+8,12,22:23.3,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Clarissa,Hill
+9,12,22:32.8,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Olivia,Taylor-Gao
+10,11,22:34.2,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Kayleen,Landa
+13,9,22:43.9,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Emiko,Watanabe
+14,9,22:48.6,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Yazmin,Grant
+15,9,23:03.1,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Amen,Fekadeselassie
+16,10,23:23.9,Leigh,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Abigail,Fukuhara
+17,10,23:35.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Mireyli,Torres
+19,12,24:01.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Lauren,Peters
+21,10,24:15.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Natalie,Vu
+22,11,24:19.3,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Neomi,Gonzalez-Guerrero
+24,10,24:55.0,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Ivy,Nguyen
+25,11,24:57.9,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Maddy,Cheng
+27,12,25:14.9,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Landry,Schoennauer
+29,10,25:47.8,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jordan,Liou-Mandujano
+30,9,26:09.4,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Emily,Chhulon
+31,9,26:23.2,Branham,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Audrina,Shepherd
+32,12,27:25.7,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2023,Search,Championship,Crystal Springs,4748,2022,M,Mia,Chavez
+33,10,27:34.7,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Analise,Detrinidad
+34,10,27:47.5,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Elaine,Vo
+35,10,27:49.2,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2025,Search,Championship,Crystal Springs,4748,2022,M,Jasmine,Guzon
+36,9,27:51.4,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Emily,Luna
+37,9,28:03.0,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Tiffany,Duong
+38,9,28:43.1,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Daphnie,Solorio
+39,9,29:05.1,Abraham Lincoln (SJ),2.95 Miles Varsity- Santa Teresa West,2022-10-31,2026,Search,Championship,Crystal Springs,4748,2022,M,Cecilia,McCarville
+40,11,29:34.0,Yerba Buena,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Cindy,Le
+41,11,33:37.4,Oak Grove,2.95 Miles Varsity- Santa Teresa West,2022-10-31,2024,Search,Championship,Crystal Springs,4748,2022,M,Emily,Gaitan

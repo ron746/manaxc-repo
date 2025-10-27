@@ -1,0 +1,69 @@
+exports.id=822,exports.ids=[822],exports.modules={93323:(e,t,s)=>{Promise.resolve().then(s.t.bind(s,53579,23)),Promise.resolve().then(s.t.bind(s,30619,23)),Promise.resolve().then(s.t.bind(s,81459,23)),Promise.resolve().then(s.t.bind(s,13456,23)),Promise.resolve().then(s.t.bind(s,50847,23)),Promise.resolve().then(s.t.bind(s,57303,23))},96739:()=>{},81450:(e,t,s)=>{"use strict";s.d(t,{Ab:()=>o,Bj:()=>n,jZ:()=>a,kI:()=>l,kd:()=>i});var r=s(29184);let a={async getAll(){let{data:e,error:t}=await r.OQ.from("athletes").select(`
+        *,
+        school:schools(id, name)
+      `).order("last_name");if(t)throw t;return e},async getById(e){let{data:t,error:s}=await r.OQ.from("athletes").select(`
+        *,
+        school:schools(*)
+      `).eq("id",e).single();if(s)throw s;return t},async getTotalCount(){let{count:e,error:t}=await r.OQ.from("athletes").select("*",{count:"exact",head:!0});if(t)throw t;return e},async create(e){let{data:t,error:s}=await r.OQ.from("athletes").insert(e).select(`
+        *,
+        school:schools(name)
+      `).single();if(s)throw s;return t},async update(e,t){let{data:s,error:a}=await r.OQ.from("athletes").update(t).eq("id",e).select(`
+        *,
+        school:schools(name)
+      `).single();if(a)throw a;return s}},l={async getAll(){let{data:e,error:t}=await r.OQ.from("schools").select("*").order("name");if(t)throw t;return e}},n={async getAll(){let{data:e,error:t}=await r.OQ.from("meets").select(`
+        *,
+        races(
+          id,
+          name,
+          category,
+          gender,
+          total_participants,
+          course:courses(name)
+        )
+      `).order("meet_date",{ascending:!1});if(t)throw t;return e},async getById(e){let{data:t,error:s}=await r.OQ.from("meets").select(`
+        *,
+        course:courses(*),
+        results(
+          *,
+          athlete:athletes(
+            *,
+            school:schools(name)
+          )
+        )
+      `).eq("id",e).single();if(s)throw s;return t},async create(e){let t={name:e.name,meet_date:e.date,course_id:e.course_id,meet_type:e.meet_type,weather_conditions:e.weather_conditions},{data:s,error:a}=await r.OQ.from("meets").insert(t).select(`
+      *,
+      course:courses(name)
+    `).single();if(a)throw a;return s},async update(e,t){let{data:s,error:a}=await r.OQ.from("meets").update(t).eq("id",e).select(`
+        *,
+        course:courses(name)
+      `).single();if(a)throw a;return s},async delete(e){let{data:t}=await r.OQ.from("results").select("id").eq("meet_id",e);t&&t.length>0&&await r.OQ.from("results").delete().eq("meet_id",e);let{error:s}=await r.OQ.from("meets").delete().eq("id",e);if(s)throw s;return{deletedResultsCount:t?.length||0}}},i={async getAll(){let{data:e,error:t}=await r.OQ.from("courses").select(`
+        id,
+        created_at,
+        name,
+        distance_meters,
+        distance_miles,
+        mile_difficulty,
+        xc_time_rating,
+        rating_confidence,
+        rating_last_updated,
+        total_results_count,
+        meets(count)
+      `).order("name");if(t)throw t;return e?.map(e=>({...e,meets_count:e.meets[0]?.count||0}))},async getById(e){let{data:t,error:s}=await r.OQ.from("courses").select(`
+        *,
+        meets(*)
+      `).eq("id",e).single();if(s)throw s;return t},async create(e){let{data:t,error:s}=await r.OQ.from("meets").insert({name:e.name,meet_date:e.date,course_id:e.course_id,meet_type:e.meet_type}).select().single();if(s)throw s;return t},async update(e,t){let{data:s,error:a}=await r.OQ.from("courses").update(t).eq("id",e).select().single();if(a)throw a;return s},async delete(e){let{data:t}=await r.OQ.from("meets").select("id").eq("course_id",e);if(t&&t.length>0)throw Error(`Cannot delete course. ${t.length} meets use this course. Delete meets first.`);let{error:s}=await r.OQ.from("courses").delete().eq("id",e);if(s)throw s;return!0}},o={async getAll(){let{data:e,error:t}=await r.OQ.from("results").select(`
+        *,
+        athlete:athletes(first_name, last_name, graduation_year, school:schools(name)),
+        meet:meets(name, meet_date, course:courses(name))
+      `).order("meet_id",{ascending:!1});if(t)throw t;return e},async getAllWithDetails(){let{data:e,error:t}=await r.OQ.from("results_with_details").select("*").order("meet_date",{ascending:!1});if(t)throw t;return e},async getByMeetId(e){let{data:t,error:s}=await r.OQ.from("results").select(`
+        *,
+        athlete:athletes(id, first_name, last_name, graduation_year, school:schools(name))
+      `).eq("meet_id",e).order("place_overall");if(s)throw s;return t},async create(e){let{data:t,error:s}=await r.OQ.from("results").insert(e).select(`
+        *,
+        athlete:athletes(first_name, last_name, school:schools(name)),
+        meet:meets(name, meet_date)
+      `).single();if(s)throw s;return t},async update(e,t){let{data:s,error:a}=await r.OQ.from("results").update(t).eq("id",e).select(`
+        *,
+        athlete:athletes(first_name, last_name, school:schools(name)),
+        meet:meets(name, meet_date)
+      `).single();if(a)throw a;return s},async delete(e){let{error:t}=await r.OQ.from("results").delete().eq("id",e);if(t)throw t;return!0},async deleteMultiple(e){let{error:t}=await r.OQ.from("results").delete().in("id",e);if(t)throw t;return!0},async searchAllResults(e="",t=5e3){let s=r.OQ.from("results_with_details").select("*").order("meet_date",{ascending:!1});e&&(s=s.or(`first_name.ilike.%${e}%,last_name.ilike.%${e}%,school_name.ilike.%${e}%,meet_name.ilike.%${e}%`));let{data:a,error:l}=await s.limit(t);if(l)throw l;return a},async getAllWithPagination(e=1,t=1e3){let s=(e-1)*t,{data:a,error:l}=await r.OQ.from("results_with_details").select("*").order("meet_date",{ascending:!1}).range(s,s+t-1);if(l)throw l;return a},async getTotalCount(){let{count:e,error:t}=await r.OQ.from("results_with_details").select("*",{count:"exact",head:!0});if(t)throw t;return e}}},29184:(e,t,s)=>{"use strict";s.d(t,{OQ:()=>a});var r=s(97955);let a=(0,r.eI)("https://nxhsgmujfjdncrconerr.supabase.co","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im54aHNnbXVqZmpkbmNyY29uZXJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgzMDE2ODEsImV4cCI6MjA3Mzg3NzY4MX0.ZnKjJfe3Fv4Jv-dY-P0-ZnatFpW6DEI7nRUDtQ9wu4o")},79113:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>i,metadata:()=>n});var r=s(4656),a=s(37910),l=s.n(a);s(5023);let n={title:"Mana Running - Cross Country Statistics",description:"Comprehensive Cross Country Statistics & Performance Analytics"};function i({children:e}){return r.jsx("html",{lang:"en",children:(0,r.jsxs)("body",{className:`${l().variable} antialiased font-inter`,children:[r.jsx("header",{className:"bg-black text-white p-6",children:r.jsx("div",{className:"container mx-auto",children:(0,r.jsxs)("div",{className:"flex justify-between items-center",children:[(0,r.jsxs)("div",{children:[r.jsx("h1",{className:"text-4xl font-bold mb-2",children:r.jsx("a",{href:"/",className:"hover:text-gray-300",children:"Mana Running"})}),r.jsx("p",{className:"text-gray-200",children:"Comprehensive Cross Country Statistics & Performance Analytics"})]}),(0,r.jsxs)("nav",{className:"flex space-x-4",children:[r.jsx("a",{href:"/",className:"px-4 py-2 bg-gray-700 rounded hover:bg-gray-600 transition-colors",children:"Home"}),r.jsx("a",{href:"/meets",className:"px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 transition-colors",children:"Meets"}),r.jsx("a",{href:"/courses",className:"px-4 py-2 bg-green-600 rounded hover:bg-green-500 transition-colors",children:"Courses"}),r.jsx("a",{href:"/schools",className:"px-4 py-2 bg-red-600 rounded hover:bg-red-500 transition-colors",children:"Schools"}),r.jsx("a",{href:"/athletes",className:"px-4 py-2 bg-orange-600 rounded hover:bg-orange-500 transition-colors",children:"Athletes"}),r.jsx("a",{href:"/admin",className:"px-4 py-2 bg-yellow-600 rounded hover:bg-yellow-500 transition-colors",children:"Admin"})]})]})})}),e]})})}},73881:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>a});var r=s(31323);let a=e=>{let t=(0,r.fillMetadataSegment)(".",e.params,"favicon.ico");return[{type:"image/x-icon",sizes:"16x16",url:t+""}]}},5023:()=>{}};

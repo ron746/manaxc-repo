@@ -1,0 +1,652 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,11,14:55.2,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Ishaan,Singh
+2,11,15:16.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Hrishi,Kachhia
+3,10,15:16.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Advait,Krishnan
+4,9,15:31.8,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Sami,Shafi
+5,12,15:43.1,Willow Glen,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Pedraza
+6,11,15:43.3,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Asch
+7,11,15:43.7,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Devon,Nuti
+8,12,15:44.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Clifford,Xu
+9,11,15:44.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Julian,Virrueta
+10,12,15:51.2,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Wiebe
+11,10,16:02.3,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Eric,Kontur
+12,12,16:08.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Noor,Seale
+13,12,16:14.7,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Bechdolt
+14,12,16:16.8,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Kyle,Caberto
+15,11,16:17.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Choy-Marshall
+16,12,16:28.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Arshome,Sahagun
+17,11,16:40.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,James,Pappadakis
+18,12,17:09.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ky,Hoang
+19,11,17:42.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Wong
+20,9,18:00.4,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryce,Yeh
+21,11,18:05.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Saketh,Malyala
+22,10,18:21.5,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Anthony,Fong
+23,9,18:26.9,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Han
+24,11,18:39.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kevin,Aparicio
+25,11,19:46.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kacey,Liang
+26,12,20:04.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Raganit
+27,11,20:33.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jordan,Almaguer
+1,11,15:07.5,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Garrett,MacQuiddy
+2,12,15:14.5,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Edgar,Williams
+3,11,15:23.6,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Johnson
+4,11,15:36.1,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Carson,Smith
+5,12,15:50.3,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Leahy
+6,12,15:53.8,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Yuuki,Okazaki
+7,12,15:56.0,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Caleb,Mok
+8,10,16:23.3,Westmont,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jett,Felder
+9,12,16:32.7,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Ramirez
+10,12,16:52.8,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Torres
+11,12,17:00.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Scott,Nguyen
+12,12,17:27.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Henry,Zheng
+13,11,17:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jesus,Murillo
+14,12,17:58.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Damasco
+15,10,18:00.0,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alan,Do
+16,11,18:13.0,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Shawn,Hogh
+17,10,18:21.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ernest,Alarcon
+18,11,18:45.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Sen
+19,10,18:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Ho
+20,12,18:56.4,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Connor,Wolf
+21,12,19:13.5,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Nguyen
+22,12,19:41.2,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Carter
+23,11,20:12.0,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,JERRY,XU
+24,12,21:03.9,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dustin,Tran
+25,12,21:47.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Tim,Wang
+1,11,14:55.2,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Ishaan,Singh
+2,11,15:16.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Hrishi,Kachhia
+3,10,15:16.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Advait,Krishnan
+4,9,15:31.8,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Sami,Shafi
+5,12,15:43.1,Willow Glen,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Pedraza
+6,11,15:43.3,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Asch
+7,11,15:43.7,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Devon,Nuti
+8,12,15:44.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Clifford,Xu
+9,11,15:44.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Julian,Virrueta
+10,12,15:51.2,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Wiebe
+11,10,16:02.3,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Eric,Kontur
+12,12,16:08.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Noor,Seale
+13,12,16:14.7,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Bechdolt
+14,12,16:16.8,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Kyle,Caberto
+15,11,16:17.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Choy-Marshall
+16,12,16:28.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Arshome,Sahagun
+17,11,16:40.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,James,Pappadakis
+18,12,17:09.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ky,Hoang
+19,11,17:42.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Wong
+20,9,18:00.4,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryce,Yeh
+21,11,18:05.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Saketh,Malyala
+22,10,18:21.5,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Anthony,Fong
+23,9,18:26.9,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Han
+24,11,18:39.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kevin,Aparicio
+25,11,19:46.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kacey,Liang
+26,12,20:04.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Raganit
+27,11,20:33.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jordan,Almaguer
+1,11,15:07.5,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Garrett,MacQuiddy
+2,12,15:14.5,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Edgar,Williams
+3,11,15:23.6,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Johnson
+4,11,15:36.1,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Carson,Smith
+5,12,15:50.3,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Leahy
+6,12,15:53.8,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Yuuki,Okazaki
+7,12,15:56.0,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Caleb,Mok
+8,10,16:23.3,Westmont,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jett,Felder
+9,12,16:32.7,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Ramirez
+10,12,16:52.8,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Torres
+11,12,17:00.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Scott,Nguyen
+12,12,17:27.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Henry,Zheng
+13,11,17:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jesus,Murillo
+14,12,17:58.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Damasco
+15,10,18:00.0,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alan,Do
+16,11,18:13.0,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Shawn,Hogh
+17,10,18:21.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ernest,Alarcon
+18,11,18:45.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Sen
+19,10,18:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Ho
+20,12,18:56.4,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Connor,Wolf
+21,12,19:13.5,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Nguyen
+22,12,19:41.2,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Carter
+23,11,20:12.0,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,JERRY,XU
+24,12,21:03.9,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dustin,Tran
+25,12,21:47.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Tim,Wang
+1,9,16:33.1,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jose,Soto
+2,10,16:33.2,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kelly,Hubbard
+3,10,16:39.7,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Oscar,Arzola
+4,10,16:43.1,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Chang
+5,10,16:51.0,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Logan,Unger
+6,9,16:53.2,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jayanth,Samala
+8,10,17:06.5,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kevin,Zheng
+9,9,17:14.2,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Amir,Jordan
+10,10,17:17.4,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Trent,Donaldson
+11,9,17:24.5,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Wesley,Ku
+12,10,17:29.4,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Dylan,Quach
+13,10,17:30.9,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jasaneel,Bhella
+14,9,17:32.5,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Colin,Gabriel
+15,10,17:38.5,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ananeya,Damene
+16,10,17:42.0,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Sriman,Gattepalli
+17,10,17:47.4,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Kim
+18,9,17:49.7,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Tommy,Callahan
+19,10,17:53.7,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Michael,Marsavin
+20,10,17:55.5,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Niemi
+21,9,17:58.0,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Saaketh,Nandakumar
+22,9,17:58.7,Leland,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Rauchwerk
+23,9,18:08.7,Leland,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Sohn
+24,10,18:21.4,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Neel,Patel
+25,10,18:21.9,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Zach,Kamali
+26,9,18:25.7,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Evan,Itow
+27,9,18:45.0,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Santana,Soza
+1,9,17:40.7,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Joshua,Krone
+2,10,17:46.5,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Myles,Jacobs
+3,9,17:55.0,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Samuel,Collins
+4,9,18:01.7,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Chaudoin
+5,10,18:18.0,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,David,Romero Zavala
+6,10,18:23.0,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Gerald,Sarkes
+7,10,18:52.5,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ricky,Thompson
+8,10,19:00.9,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Michael,Huh
+9,9,19:07.9,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryce,Johnson
+10,10,19:18.2,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Chase,Hardy
+11,10,19:18.5,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Cole,Young
+12,9,19:51.7,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Gabriel,Meza Matasol
+13,9,20:34.0,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Siddarth,Anant
+14,9,20:35.0,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Hong,Nguyen
+15,9,21:19.2,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,David,Huynh
+16,10,23:51.9,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Marek,Pinto
+17,10,23:58.7,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Trung,Van
+18,10,29:10.0,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Julian,Rios
+1,9,16:33.1,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jose,Soto
+2,10,16:33.2,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kelly,Hubbard
+3,10,16:39.7,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Oscar,Arzola
+4,10,16:43.1,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Chang
+5,10,16:51.0,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Logan,Unger
+6,9,16:53.2,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jayanth,Samala
+8,10,17:06.5,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kevin,Zheng
+9,9,17:14.2,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Amir,Jordan
+10,10,17:17.4,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Trent,Donaldson
+11,9,17:24.5,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Wesley,Ku
+12,10,17:29.4,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Dylan,Quach
+13,10,17:30.9,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jasaneel,Bhella
+14,9,17:32.5,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Colin,Gabriel
+15,10,17:38.5,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ananeya,Damene
+16,10,17:42.0,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Sriman,Gattepalli
+17,10,17:47.4,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Kim
+18,9,17:49.7,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Tommy,Callahan
+19,10,17:53.7,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Michael,Marsavin
+20,10,17:55.5,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Niemi
+21,9,17:58.0,Evergreen Valley,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Saaketh,Nandakumar
+22,9,17:58.7,Leland,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Rauchwerk
+23,9,18:08.7,Leland,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Sohn
+24,10,18:21.4,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Neel,Patel
+25,10,18:21.9,Leland,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Zach,Kamali
+26,9,18:25.7,Willow Glen,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Evan,Itow
+27,9,18:45.0,Silver Creek,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Santana,Soza
+1,9,17:40.7,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Joshua,Krone
+2,10,17:46.5,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Myles,Jacobs
+3,9,17:55.0,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Samuel,Collins
+4,9,18:01.7,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Chaudoin
+5,10,18:18.0,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,David,Romero Zavala
+6,10,18:23.0,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Gerald,Sarkes
+7,10,18:52.5,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ricky,Thompson
+8,10,19:00.9,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Michael,Huh
+9,9,19:07.9,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryce,Johnson
+10,10,19:18.2,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Chase,Hardy
+11,10,19:18.5,Westmont,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Cole,Young
+12,9,19:51.7,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Gabriel,Meza Matasol
+13,9,20:34.0,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Siddarth,Anant
+14,9,20:35.0,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Hong,Nguyen
+15,9,21:19.2,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,David,Huynh
+16,10,23:51.9,Santa Teresa,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Marek,Pinto
+17,10,23:58.7,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Trung,Van
+18,10,29:10.0,Andrew Hill,2.74 Miles Frosh/Soph,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Julian,Rios
+1,11,16:53.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Nishanth,Manjunath
+2,12,17:22.0,Willow Glen,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jack,Bartoszek
+3,10,17:22.9,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Tobias,Worledge
+4,11,17:34.5,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Owen,Davies
+5,12,17:57.0,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Taylor
+6,11,18:00.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Rylan,Suyeishi
+7,11,18:01.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jeffrey,Nguyen
+8,10,18:12.0,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Hrishikesh,Joshi
+9,11,18:21.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Parth,Patel
+10,12,18:22.7,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,George,Luu
+11,12,18:24.7,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Rohan,Bhargava
+12,12,18:29.9,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jonathan,Lim
+13,12,18:31.0,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Belluscio
+14,9,18:32.2,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Tadayoshi,Pirkl
+15,12,18:33.2,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ross,Mathews
+16,9,18:37.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Philip,Le
+17,11,18:46.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Joshua,Luna
+18,9,18:47.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Vincent,Nguyen
+19,12,18:49.0,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jacob,Pineda
+20,10,18:51.5,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Kang
+21,10,18:54.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Om,Goswami
+22,11,18:55.7,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Benjamin,Moskovitz
+23,9,19:02.5,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Cain
+24,12,19:04.7,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Devin,Sze
+25,12,19:05.5,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Aramis,Masarati
+27,9,19:22.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Timothy,Nguyen
+28,10,19:38.9,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alex-Daoyl,Chen
+29,10,19:45.4,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Thomas,Shi
+30,10,19:51.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Rahul,Cherkuri
+31,9,19:54.2,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Carlos,Bolanos
+32,10,19:56.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Wong
+33,10,19:58.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Phu,Truong
+34,10,20:01.2,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Darcy,Eliasi
+35,10,20:02.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Pham
+36,10,20:03.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Philip,Tran
+37,11,20:04.4,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Armon,Choudhry
+38,10,20:05.7,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Wesley,Shen
+39,11,20:10.2,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Dylan,Thomas
+40,9,20:12.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Nathan,Tran
+41,11,20:12.9,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Abe
+42,9,20:14.5,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Cromartie
+43,10,20:16.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Gabriel,Arreola
+44,9,20:18.2,Silver Creek,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Om,Sanghri
+45,9,20:21.7,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Chou
+46,12,20:33.7,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brendan,Vu
+47,9,20:34.2,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jake,Groll
+48,10,20:35.0,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jisung,Kang
+49,11,20:35.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Vineet,Sunkavalli
+50,12,20:44.0,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Anthony,Paquet
+51,12,20:44.4,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Viboll,Thach
+52,11,20:45.0,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Valencia
+53,11,20:46.7,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Victor,Lam
+54,11,20:52.7,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Nguyen
+55,10,20:55.7,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Devon,Shao
+56,9,20:57.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jaren,Suyeishi
+57,10,20:59.4,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Michal,Smoszna
+58,11,21:01.2,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Allen,Vo
+59,11,21:30.7,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Emilio,Gonzalez-Lu
+60,10,21:34.2,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Nguyen
+61,10,21:38.5,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Peter,Chong
+62,12,21:39.2,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Adrian,Jiang
+64,10,21:53.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Bintocan
+65,10,21:55.5,Willow Glen,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Ma
+66,10,21:56.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Mateo,Arreola
+67,9,21:58.9,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Evan,Prolo
+68,11,22:03.0,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Timmy,Pham
+69,11,22:03.5,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,An,Le
+70,9,22:09.4,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Will,Peltz
+71,11,22:21.2,Westmont,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Connor,Rothwell
+72,11,22:27.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Mayukh,Das
+73,12,22:31.2,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Aldrym,Gamatero
+74,10,22:32.9,Piedmont Hills,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Gabriel,Hardin
+75,9,22:37.2,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Minvielle
+76,12,22:39.5,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Daniel,Madero
+77,12,22:43.5,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jorge,Jimenez
+78,11,22:51.0,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jesus,Murillo
+79,9,22:53.0,Silver Creek,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Dhruva,Chowdri
+80,11,22:57.2,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kenny,Vu
+81,12,22:57.5,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dimitri,Vartan
+82,9,22:59.9,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Huber
+83,11,23:38.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Humberto,Hernandez
+84,9,23:38.7,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Benjamin,Borsellino
+85,10,23:53.2,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Desai,Chancellor
+86,10,24:07.7,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,David,Carter
+87,9,24:12.2,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Conner,Shih
+88,11,24:14.0,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,John,Danh
+89,9,24:16.0,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jesse,Zalk
+90,12,24:31.0,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Cruz
+91,9,24:44.5,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Akash,Ranade
+92,12,24:53.9,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Angel,Sandoval
+93,9,25:10.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Eric,Lam
+95,9,25:42.9,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Cuinn,Huber
+96,11,26:22.5,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Nguyen
+97,9,26:24.4,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Yotam,Nahir
+99,9,27:17.9,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Nate,Pritchett
+100,12,29:12.4,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Alan,Nguyen
+1,10,17:52.0,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Cichon
+2,10,18:30.7,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Logan,Jew
+3,11,18:32.2,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Clara,Chirila-Rus
+4,9,18:36.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Athena,Rapinan
+5,11,18:39.7,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Madison,Yen
+6,11,18:41.2,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Hermela,Abrha
+7,9,19:09.2,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Haley,Meyer
+8,11,19:13.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Carly,Zamudio
+9,11,19:17.0,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Yeji,Jeong
+10,9,19:23.7,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Annika,Engebretson
+11,11,19:31.5,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Vibha,Chandrasekar
+12,12,19:34.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Isabella,Gentile
+13,11,19:36.9,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jasmine,Shao
+14,10,19:44.7,Willow Glen,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Abigail,Paradise
+15,10,20:16.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Nandini,Neralagi
+16,10,20:24.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Sophia,Aclan
+17,11,20:31.5,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Meghna,Chandrasekar
+18,12,20:40.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Tammy,Dinh
+19,12,20:58.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Isabella,Huynh
+20,11,21:13.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jennifer,Espinola
+21,10,21:42.9,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Lynn,Nguyen
+22,11,22:10.5,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Isabel,Zhou
+23,10,22:25.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kaylie,Kwan
+24,10,22:29.4,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Holly,Do
+25,9,22:48.2,Silver Creek,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Meha,Kavoori
+26,10,22:58.5,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Eva,Dang
+1,10,18:51.4,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Madilyn,Zanardelli
+2,11,19:32.7,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Madison,Stull
+3,10,19:54.2,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Makenna,Adams
+4,9,19:58.5,Andrew Hill,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Audrey,Do
+5,9,20:01.5,Andrew Hill,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Alejandra,Luevanos
+6,10,20:04.0,Piedmont Hills,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Tyanne,Tran
+7,12,20:06.2,Westmont,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Kiely,Hardy
+8,9,20:15.7,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Lily,Stockmans
+9,9,20:46.7,Santa Teresa,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Melody,Nguyen
+10,12,21:09.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Samantha,Tran
+11,10,21:45.4,Andrew Hill,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jacklyn,Velasquez
+12,11,21:48.7,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Castanada
+13,9,21:56.0,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Aneska,Lee
+14,12,21:56.2,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Michelle,Rivera
+15,11,22:00.5,Westmont,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jia-Yu,Sung
+16,11,22:01.2,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brianna,Valverde
+17,10,22:48.7,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Radlinsky
+18,12,23:01.5,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Alejandra,Penaloza
+19,9,23:14.0,Piedmont Hills,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Esther,Lau
+20,11,23:19.2,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kaelie,Taylor
+21,12,24:15.9,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Litzy,Gutierrez
+22,9,24:43.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Evelyn,Sen
+24,9,25:31.0,Santa Teresa,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Megan,Luu
+25,12,28:11.5,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Helen,Nguyen
+26,11,29:14.7,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Eileen,Quach
+1,11,14:55.2,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Ishaan,Singh
+2,11,15:16.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Hrishi,Kachhia
+3,10,15:16.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Advait,Krishnan
+4,9,15:31.8,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Sami,Shafi
+5,12,15:43.1,Willow Glen,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Pedraza
+6,11,15:43.3,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Asch
+7,11,15:43.7,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Devon,Nuti
+8,12,15:44.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Clifford,Xu
+9,11,15:44.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Julian,Virrueta
+10,12,15:51.2,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Wiebe
+11,10,16:02.3,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Eric,Kontur
+12,12,16:08.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Noor,Seale
+13,12,16:14.7,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Bechdolt
+14,12,16:16.8,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Kyle,Caberto
+15,11,16:17.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Choy-Marshall
+16,12,16:28.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Arshome,Sahagun
+17,11,16:40.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,James,Pappadakis
+18,12,17:09.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ky,Hoang
+19,11,17:42.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Wong
+20,9,18:00.4,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryce,Yeh
+21,11,18:05.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Saketh,Malyala
+22,10,18:21.5,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Anthony,Fong
+23,9,18:26.9,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Han
+24,11,18:39.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kevin,Aparicio
+25,11,19:46.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kacey,Liang
+26,12,20:04.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Raganit
+27,11,20:33.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jordan,Almaguer
+1,11,15:07.5,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Garrett,MacQuiddy
+2,12,15:14.5,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Edgar,Williams
+3,11,15:23.6,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Johnson
+4,11,15:36.1,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Carson,Smith
+5,12,15:50.3,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Leahy
+6,12,15:53.8,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Yuuki,Okazaki
+7,12,15:56.0,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Caleb,Mok
+8,10,16:23.3,Westmont,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jett,Felder
+9,12,16:32.7,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Ramirez
+10,12,16:52.8,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Torres
+11,12,17:00.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Scott,Nguyen
+12,12,17:27.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Henry,Zheng
+13,11,17:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jesus,Murillo
+14,12,17:58.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Damasco
+15,10,18:00.0,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alan,Do
+16,11,18:13.0,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Shawn,Hogh
+17,10,18:21.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ernest,Alarcon
+18,11,18:45.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Sen
+19,10,18:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Ho
+20,12,18:56.4,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Connor,Wolf
+21,12,19:13.5,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Nguyen
+22,12,19:41.2,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Carter
+23,11,20:12.0,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,JERRY,XU
+24,12,21:03.9,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dustin,Tran
+25,12,21:47.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Tim,Wang
+1,11,14:55.2,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Ishaan,Singh
+2,11,15:16.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Hrishi,Kachhia
+3,10,15:16.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Advait,Krishnan
+4,9,15:31.8,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Sami,Shafi
+5,12,15:43.1,Willow Glen,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Pedraza
+6,11,15:43.3,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Asch
+7,11,15:43.7,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Devon,Nuti
+8,12,15:44.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Clifford,Xu
+9,11,15:44.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Julian,Virrueta
+10,12,15:51.2,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Wiebe
+11,10,16:02.3,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Eric,Kontur
+12,12,16:08.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Noor,Seale
+13,12,16:14.7,Leland,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Bechdolt
+14,12,16:16.8,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Kyle,Caberto
+15,11,16:17.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Choy-Marshall
+16,12,16:28.5,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Arshome,Sahagun
+17,11,16:40.2,Willow Glen,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,James,Pappadakis
+18,12,17:09.0,Evergreen Valley,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ky,Hoang
+19,11,17:42.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Wong
+20,9,18:00.4,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryce,Yeh
+21,11,18:05.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Saketh,Malyala
+22,10,18:21.5,Leland,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Anthony,Fong
+23,9,18:26.9,Leland,2.74 Miles Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Han
+24,11,18:39.4,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kevin,Aparicio
+25,11,19:46.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kacey,Liang
+26,12,20:04.7,Silver Creek,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Raganit
+27,11,20:33.2,Silver Creek,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jordan,Almaguer
+1,11,15:07.5,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Garrett,MacQuiddy
+2,12,15:14.5,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Edgar,Williams
+3,11,15:23.6,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Johnson
+4,11,15:36.1,Santa Teresa,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Carson,Smith
+5,12,15:50.3,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Leahy
+6,12,15:53.8,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Yuuki,Okazaki
+7,12,15:56.0,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Caleb,Mok
+8,10,16:23.3,Westmont,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jett,Felder
+9,12,16:32.7,Santa Teresa,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Ramirez
+10,12,16:52.8,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Torres
+11,12,17:00.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Scott,Nguyen
+12,12,17:27.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Henry,Zheng
+13,11,17:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jesus,Murillo
+14,12,17:58.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jason,Damasco
+15,10,18:00.0,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alan,Do
+16,11,18:13.0,Westmont,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Shawn,Hogh
+17,10,18:21.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ernest,Alarcon
+18,11,18:45.7,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Sen
+19,10,18:49.2,Andrew Hill,2.74 Miles Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Ho
+20,12,18:56.4,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Connor,Wolf
+21,12,19:13.5,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Richard,Nguyen
+22,12,19:41.2,Westmont,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Carter
+23,11,20:12.0,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,JERRY,XU
+24,12,21:03.9,Andrew Hill,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dustin,Tran
+25,12,21:47.9,Piedmont Hills,2.74 Miles Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Tim,Wang
+1,11,21:15.0,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Katrina,Lin
+2,10,21:38.5,Leland,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Tracy,Sun
+3,11,21:52.2,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kaitlyn,Wong
+4,11,22:08.5,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kiana,Ponce
+5,10,22:16.0,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Katrina,Aquino
+6,9,22:16.2,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Dominique,Salinas
+7,11,22:32.7,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jackie,Lazo
+8,10,22:39.9,Leland,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alexandra,Grover
+9,11,22:40.0,Leland,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Mavalyn,Lau
+10,9,22:53.7,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Kalin,Le
+11,9,23:02.4,Silver Creek,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Hillary,Dang
+12,9,23:15.7,Silver Creek,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Hailey,Dang
+13,10,23:24.4,Leland,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kira,Schlieman
+14,9,23:33.2,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Lyanna,Tran
+15,9,23:56.5,Leland,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Cindy,Zhao
+16,11,24:07.2,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Natalie,Sun
+17,10,24:24.5,Westmont,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Hannah,Wolf
+18,9,24:33.5,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Mariana,Ponce
+19,11,24:39.7,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Bayleigh,Borgen
+20,10,24:49.5,Silver Creek,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jasmine,Pannu
+21,9,24:51.0,Leland,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Kaylyn,Choi
+22,11,24:59.7,Silver Creek,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Sophia,Nguyen
+23,9,25:03.2,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Makeya,Calhoun
+24,9,25:04.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Angelina,Rodriguez
+25,10,25:14.5,Leland,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Brock
+26,11,25:53.7,Silver Creek,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Emmaline,Nguyen
+27,10,25:56.4,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Natalie,Andreason
+28,10,26:40.2,Santa Teresa,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Triniti,Nguyen
+29,9,26:54.0,Westmont,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ria,Sastri
+30,10,27:00.7,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Heydi,Zepeda
+31,9,27:05.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Denise,Ngo
+32,11,27:21.0,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Pauline,Huynh
+33,11,28:20.4,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Daniela,Cortez
+34,11,28:49.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Mi,Le
+35,10,29:49.0,Santa Teresa,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alex,Hanley
+36,10,30:03.0,Santa Teresa,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Bryani,Nguyen
+37,11,31:13.0,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Adelaide,Bao
+38,10,32:43.5,Santa Teresa,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Amy,Yu
+1,9,23:03.7,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Swasti,Johri
+2,9,23:04.7,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Tracy,Cao
+3,10,23:51.0,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Joanna,Lu
+4,10,25:24.0,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Divitha,Doddi
+5,12,26:02.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Fatima,Bello
+6,9,26:06.9,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Diya,Shetty
+7,9,26:14.2,Evergreen Valley,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Anna,Truong
+8,12,26:25.7,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ana,Karina Ramirez
+9,9,26:29.2,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Delina,Vu
+10,10,26:30.9,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Clanessa,Dumas
+11,12,27:01.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Cindy,Orocio
+12,12,27:12.5,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Holly,Le
+13,10,28:44.0,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Emily,Soto
+15,10,29:06.5,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Suli,Caceres
+16,12,29:22.7,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Angelina,Mai
+17,11,29:37.0,Leland,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Angela,Shu
+18,12,29:50.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jocelyn,Noguez
+19,11,30:13.7,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Shayla,Huynh
+20,11,30:53.2,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kiana,Torres
+21,12,31:00.7,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dawn,Ngo
+22,11,31:22.0,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Vanessa,Martinez
+23,12,34:32.6,Andrew Hill,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Salma,Jama
+24,12,34:53.9,Willow Glen,2.74 Miles Junior Varsity,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Melody,Cervantes
+1,11,16:53.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Nishanth,Manjunath
+2,12,17:22.0,Willow Glen,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jack,Bartoszek
+3,10,17:22.9,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Tobias,Worledge
+4,11,17:34.5,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Owen,Davies
+5,12,17:57.0,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Taylor
+6,11,18:00.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Rylan,Suyeishi
+7,11,18:01.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jeffrey,Nguyen
+8,10,18:12.0,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Hrishikesh,Joshi
+9,11,18:21.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Parth,Patel
+10,12,18:22.7,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,George,Luu
+11,12,18:24.7,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Rohan,Bhargava
+12,12,18:29.9,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jonathan,Lim
+13,12,18:31.0,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Belluscio
+14,9,18:32.2,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Tadayoshi,Pirkl
+15,12,18:33.2,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Ross,Mathews
+16,9,18:37.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Philip,Le
+17,11,18:46.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Joshua,Luna
+18,9,18:47.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Vincent,Nguyen
+19,12,18:49.0,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jacob,Pineda
+20,10,18:51.5,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ryan,Kang
+21,10,18:54.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Om,Goswami
+22,11,18:55.7,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Benjamin,Moskovitz
+23,9,19:02.5,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Cain
+24,12,19:04.7,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Devin,Sze
+25,12,19:05.5,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Aramis,Masarati
+27,9,19:22.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Timothy,Nguyen
+28,10,19:38.9,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Alex-Daoyl,Chen
+29,10,19:45.4,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Thomas,Shi
+30,10,19:51.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Rahul,Cherkuri
+31,9,19:54.2,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Carlos,Bolanos
+32,10,19:56.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Wong
+33,10,19:58.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Phu,Truong
+34,10,20:01.2,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Darcy,Eliasi
+35,10,20:02.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Pham
+36,10,20:03.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Philip,Tran
+37,11,20:04.4,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Armon,Choudhry
+38,10,20:05.7,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Wesley,Shen
+39,11,20:10.2,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Dylan,Thomas
+40,9,20:12.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Nathan,Tran
+41,11,20:12.9,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Abe
+42,9,20:14.5,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Cromartie
+43,10,20:16.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Gabriel,Arreola
+44,9,20:18.2,Silver Creek,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Om,Sanghri
+45,9,20:21.7,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Christopher,Chou
+46,12,20:33.7,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brendan,Vu
+47,9,20:34.2,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jake,Groll
+48,10,20:35.0,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jisung,Kang
+49,11,20:35.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Vineet,Sunkavalli
+50,12,20:44.0,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Anthony,Paquet
+51,12,20:44.4,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Viboll,Thach
+52,11,20:45.0,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Christian,Valencia
+53,11,20:46.7,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Victor,Lam
+54,11,20:52.7,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Bryan,Nguyen
+55,10,20:55.7,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Devon,Shao
+56,9,20:57.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jaren,Suyeishi
+57,10,20:59.4,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Michal,Smoszna
+58,11,21:01.2,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Allen,Vo
+59,11,21:30.7,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Emilio,Gonzalez-Lu
+60,10,21:34.2,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Brian,Nguyen
+61,10,21:38.5,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Peter,Chong
+62,12,21:39.2,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Adrian,Jiang
+64,10,21:53.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Bintocan
+65,10,21:55.5,Willow Glen,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Ma
+66,10,21:56.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Mateo,Arreola
+67,9,21:58.9,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Evan,Prolo
+68,11,22:03.0,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Timmy,Pham
+69,11,22:03.5,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,An,Le
+70,9,22:09.4,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Will,Peltz
+71,11,22:21.2,Westmont,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Connor,Rothwell
+72,11,22:27.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Mayukh,Das
+73,12,22:31.2,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Aldrym,Gamatero
+74,10,22:32.9,Piedmont Hills,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Gabriel,Hardin
+75,9,22:37.2,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Ethan,Minvielle
+76,12,22:39.5,Santa Teresa,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Daniel,Madero
+77,12,22:43.5,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Jorge,Jimenez
+78,11,22:51.0,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jesus,Murillo
+79,9,22:53.0,Silver Creek,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Dhruva,Chowdri
+80,11,22:57.2,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kenny,Vu
+81,12,22:57.5,Leland,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Dimitri,Vartan
+82,9,22:59.9,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Aidan,Huber
+83,11,23:38.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Humberto,Hernandez
+84,9,23:38.7,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Benjamin,Borsellino
+85,10,23:53.2,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Desai,Chancellor
+86,10,24:07.7,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,David,Carter
+87,9,24:12.2,Leland,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Conner,Shih
+88,11,24:14.0,Silver Creek,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,John,Danh
+89,9,24:16.0,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Jesse,Zalk
+90,12,24:31.0,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Brandon,Cruz
+91,9,24:44.5,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Akash,Ranade
+92,12,24:53.9,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Angel,Sandoval
+93,9,25:10.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Eric,Lam
+95,9,25:42.9,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Cuinn,Huber
+96,11,26:22.5,Andrew Hill,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Justin,Nguyen
+97,9,26:24.4,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Yotam,Nahir
+99,9,27:17.9,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Nate,Pritchett
+100,12,29:12.4,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Alan,Nguyen
+1,10,17:52.0,Leland,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Cichon
+2,10,18:30.7,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Logan,Jew
+3,11,18:32.2,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Clara,Chirila-Rus
+4,9,18:36.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Athena,Rapinan
+5,11,18:39.7,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Madison,Yen
+6,11,18:41.2,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Hermela,Abrha
+7,9,19:09.2,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Haley,Meyer
+8,11,19:13.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Carly,Zamudio
+9,11,19:17.0,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Yeji,Jeong
+10,9,19:23.7,Willow Glen,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Annika,Engebretson
+11,11,19:31.5,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Vibha,Chandrasekar
+12,12,19:34.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Isabella,Gentile
+13,11,19:36.9,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jasmine,Shao
+14,10,19:44.7,Willow Glen,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Abigail,Paradise
+15,10,20:16.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Nandini,Neralagi
+16,10,20:24.5,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Sophia,Aclan
+17,11,20:31.5,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Meghna,Chandrasekar
+18,12,20:40.0,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Tammy,Dinh
+19,12,20:58.4,Evergreen Valley,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Isabella,Huynh
+20,11,21:13.5,Willow Glen,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jennifer,Espinola
+21,10,21:42.9,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Lynn,Nguyen
+22,11,22:10.5,Leland,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Isabel,Zhou
+23,10,22:25.2,Evergreen Valley,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Kaylie,Kwan
+24,10,22:29.4,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Holly,Do
+25,9,22:48.2,Silver Creek,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Meha,Kavoori
+26,10,22:58.5,Silver Creek,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Eva,Dang
+1,10,18:51.4,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Madilyn,Zanardelli
+2,11,19:32.7,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Madison,Stull
+3,10,19:54.2,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Makenna,Adams
+4,9,19:58.5,Andrew Hill,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Audrey,Do
+5,9,20:01.5,Andrew Hill,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Alejandra,Luevanos
+6,10,20:04.0,Piedmont Hills,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Tyanne,Tran
+7,12,20:06.2,Westmont,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Kiely,Hardy
+8,9,20:15.7,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Lily,Stockmans
+9,9,20:46.7,Santa Teresa,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Melody,Nguyen
+10,12,21:09.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Samantha,Tran
+11,10,21:45.4,Andrew Hill,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Jacklyn,Velasquez
+12,11,21:48.7,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Castanada
+13,9,21:56.0,Westmont,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Aneska,Lee
+14,12,21:56.2,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Michelle,Rivera
+15,11,22:00.5,Westmont,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Jia-Yu,Sung
+16,11,22:01.2,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Brianna,Valverde
+17,10,22:48.7,Westmont,2.74 Miles Open,2018-10-24,2021,Search,League,Montgomery Hill Park,4410,2018,M,Melissa,Radlinsky
+18,12,23:01.5,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Alejandra,Penaloza
+19,9,23:14.0,Piedmont Hills,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Esther,Lau
+20,11,23:19.2,Santa Teresa,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Kaelie,Taylor
+21,12,24:15.9,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Litzy,Gutierrez
+22,9,24:43.2,Piedmont Hills,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Evelyn,Sen
+24,9,25:31.0,Santa Teresa,2.74 Miles Open,2018-10-24,2022,Search,League,Montgomery Hill Park,4410,2018,M,Megan,Luu
+25,12,28:11.5,Andrew Hill,2.74 Miles Open,2018-10-24,2019,Search,League,Montgomery Hill Park,4410,2018,M,Helen,Nguyen
+26,11,29:14.7,Piedmont Hills,2.74 Miles Open,2018-10-24,2020,Search,League,Montgomery Hill Park,4410,2018,M,Eileen,Quach

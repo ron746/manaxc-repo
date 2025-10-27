@@ -1,0 +1,283 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,12,14:31.1,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Jorge,Estrella
+2,12,16:03.7,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Darick,Martinez
+3,12,16:08.1,Santa Teresa,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Manuel,Haro
+4,10,16:12.5,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Garrett,MacQuiddy
+5,9,16:13.7,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Hrishikesh,Joshi
+6,12,16:16.7,Willow Glen,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Julio,Cerda
+7,9,16:18.2,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jett,Felder
+8,12,16:19.1,Willow Glen,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Nic,Dinsdale
+9,11,16:19.2,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Yuuki,Okazaki
+10,10,16:19.5,Santa Teresa,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Carson,Smith
+11,10,16:27.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Marco,Dal Canto
+12,12,16:27.2,Leland,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,William,Cui
+13,12,16:27.6,Willow Glen,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Zach,Walker
+14,10,16:29.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Hrishi,Kachhia
+15,11,16:31.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Clifford,Xu
+16,11,16:36.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Dean,Jones
+17,10,16:38.7,Santa Teresa,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Brandon,Johnson
+18,10,16:45.1,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Alex,Asch
+19,11,16:46.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Julian,Virrhueta
+20,12,16:51.7,Santa Teresa,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Anthony,Salazar
+21,11,16:52.6,Willow Glen,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Nathan,Koketsu
+22,12,17:01.3,Willow Glen,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Seran,Gemechu
+23,12,17:03.0,Willow Glen,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Mustafa,Abdalla
+24,11,17:03.3,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Ethan,Leahy
+25,12,17:06.5,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Jason,Gomez
+26,12,17:06.7,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Hideshi,Izu
+27,10,17:09.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Brandon,Wong
+28,9,17:13.5,Willow Glen,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Kelly,Hubbard
+29,11,17:16.7,Willow Glen,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Brian,Pedraza
+30,12,17:16.9,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Christian,Moreland
+31,12,17:19.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Christopher,Do
+32,11,17:22.0,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Bryan,Ramirez
+33,11,17:23.2,Leland,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Austin,Soe
+34,11,17:23.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Joshua,Grzymala
+35,11,17:23.7,Leland,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Christian,Wiebe
+36,11,17:26.0,Silver Creek,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Kyle,Caberto
+37,10,17:27.9,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Kyle,Davies
+38,12,17:28.2,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Tyler,Ernst
+39,10,17:31.5,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Devon,Nuti
+40,11,17:32.0,Leland,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jason,Bechdolt
+41,11,17:32.9,Westmont,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Christopher,Carter
+42,10,17:34.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,James,Pappadakis
+43,11,17:35.9,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Henry,Zheng
+44,9,17:36.0,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Oscar,Arzola
+45,12,17:38.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,George,Njinia
+47,9,17:38.7,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Alex-Zhangyi,Chen
+48,12,17:40.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Fernando,Camacho
+49,11,17:40.5,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Caleb,Mok
+50,9,17:41.5,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jimmy,Doan
+51,12,17:47.9,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Preet,Patel
+52,11,17:49.5,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Ky,Hoang
+53,9,17:50.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Sriman,Gattepalli
+54,10,17:50.2,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Shawn,Hogh
+55,9,17:51.4,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Tobias,Worledge
+56,12,17:51.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Andy,Nguyen
+57,12,17:52.9,Leland,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Evan,Leung
+58,12,18:00.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Michael,Acosta
+59,10,18:06.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Nishanth,Manjunath
+60,12,18:06.4,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Justin,McGriff
+61,11,18:07.9,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Scott,Nguyen
+62,11,18:10.4,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jason,Damasco
+63,11,18:12.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jayesh,Chabra
+64,9,18:16.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Dylan,Quach
+65,12,18:18.0,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Justin,MacQuiddy
+66,11,18:18.5,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,JOHN,KE
+67,11,18:20.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Victor,Ma
+68,9,18:25.7,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jackson,Nickell
+69,9,18:27.0,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Ricky,Thompson
+70,10,18:27.4,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Kevin,Aparicio
+71,10,18:28.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Nate,Wright
+72,9,18:29.4,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Brian,Dang
+73,12,18:33.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Kevin,Huynh
+74,10,18:39.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Jesus,Murillo
+75,10,18:39.0,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Allen,Chau
+76,10,18:39.0,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Jordan,Almaguer
+77,10,18:39.2,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Brian,Pham
+78,9,18:39.9,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Chase,Hardy
+79,11,18:42.0,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Lucas,Chavez Meyles
+80,12,18:43.4,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Rigo,Barragan
+81,11,18:44.7,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Noor,Seale
+82,10,18:44.7,Santa Teresa,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Owen,Davies
+83,9,18:47.7,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Michael,Marsavin
+84,9,18:49.9,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Alejandro,Robles
+85,10,18:52.7,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Abhishek,Ganga
+86,9,18:57.0,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Ryan,Kang
+87,12,18:59.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Tanner,Perry
+88,10,19:00.2,Leland,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Benjamin,Moskovitz
+89,11,19:01.4,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Richard,Nguyen
+90,9,19:03.0,Willow Glen,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Ananeya,Damene
+91,10,19:03.2,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Kol,Nguyen-Church
+92,9,19:09.7,Santa Teresa,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Gerald,Sarkes
+93,9,19:09.9,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Kevin,Zheng
+94,12,19:12.4,Santa Teresa,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Zach,Krone
+95,11,19:13.0,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jacob,Pineda
+96,9,19:13.2,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Brandon,Chang
+97,12,19:15.0,Leland,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Vincent,Hsing
+98,9,19:15.2,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jonathan,Yue
+99,11,19:17.9,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Aldrym,Gamatero
+100,9,19:21.0,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Ernest,Alarcon
+101,9,19:21.5,Andrew Hill,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Richard,Ho
+102,11,19:21.5,Leland,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Devin,Sze
+103,10,19:23.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Saketh,Malyala
+104,9,19:28.4,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Michael,Huh
+105,11,19:29.2,Silver Creek,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Christian,Raganit
+106,11,19:30.0,Willow Glen,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jack,Bartoszek
+107,11,19:30.7,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jonathan,Lim
+110,10,19:35.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Kevin,Thai
+112,11,19:39.2,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,George,Luu
+114,11,19:50.5,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Justin,Taylor
+115,10,19:51.7,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Darin,Phan
+116,10,19:53.7,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Christopher,Abe
+117,9,19:54.0,Santa Teresa,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Marek,Pinto
+118,11,19:54.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Kevin,Le
+119,9,19:55.9,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jack,Coleman
+120,9,19:56.4,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Isaiah,Sanidad
+121,9,20:05.2,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Trent,Donaldson
+122,12,20:08.5,Willow Glen,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Gabriele,Inama
+123,12,20:10.4,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Jack,Carter
+124,11,20:10.9,Leland,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Anthony,Paquet
+125,10,20:11.2,Santa Teresa,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Nick,Oduma
+126,11,20:12.2,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Justin,Mark Perez
+127,12,20:13.0,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Ashwin,Ranade
+128,10,20:19.5,Santa Teresa,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Dylan,Thomas
+129,9,20:24.5,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Christopher,Lo
+130,9,20:25.2,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Suvir,Grover
+131,10,20:25.5,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Joshua,Luna
+132,10,20:29.9,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Jeffrey,Nguyen
+133,9,20:30.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jacob,Marquez
+134,10,20:33.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Mayukh,Das
+135,10,20:36.2,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,JERRY,XU
+136,10,20:38.4,Andrew Hill,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Minh,Nguyen
+137,11,20:38.5,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,David,Phan
+138,10,20:45.5,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Victor,Lam
+139,12,20:48.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Harrison,Hong
+141,10,20:50.0,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Allen,Vo
+142,12,20:53.0,Leland,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Zachery,McCormic
+143,12,20:56.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Isaiah,Aguirre
+144,11,21:00.5,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Viboll,Thach
+145,10,21:08.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Uriel,Coronel
+147,10,21:14.5,Leland,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Armon,Choudhry
+148,9,21:16.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Alan,Do
+149,9,21:27.9,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Gabriel,Ibarra
+150,9,21:29.0,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Raj,Sheth
+151,9,21:37.0,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Gabriel,Arreola
+154,9,21:46.7,Santa Teresa,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Jimmie,Trejo
+155,9,21:47.2,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Benjamin,Thompson
+156,9,21:48.0,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Anthony,Fong
+157,12,21:49.0,Santa Teresa,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Brian,Luu
+158,12,21:52.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Ken,Hinh
+159,9,21:52.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Rahul,Prasad
+160,11,21:55.0,Leland,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Edward,He
+162,12,21:58.2,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Carlo,Ramos
+164,11,21:59.4,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Dustin,Tran
+165,9,22:02.2,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Brian,Nguyen
+166,12,22:02.5,Leland,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Katen,Iyer
+167,9,22:03.7,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Aaron,He
+170,9,22:05.9,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Phu,Truong
+171,9,22:10.5,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Thomas,Shi
+172,11,22:11.0,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Jarius,Thomas
+173,9,22:12.5,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Om,Goswami
+174,9,22:18.4,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Brandon,Wong
+176,11,22:19.7,Willow Glen,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Aidan,Latimer
+178,12,22:25.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Anh,Tran
+180,12,22:27.7,Piedmont Hills,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Steven,Tran
+181,10,22:29.5,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Dandy,Bien
+182,9,22:31.7,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Brandon,Le
+184,10,22:48.2,Willow Glen,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Alex,Serra
+185,9,22:48.9,Willow Glen,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Connor,Williams
+186,9,22:49.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Alexander,Chaney
+188,11,23:01.7,Santa Teresa,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Ross,Mathews
+189,10,23:06.7,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Kenny,Vu
+190,9,23:11.4,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Wesley,Shen
+191,9,23:16.5,Evergreen Valley,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Philip,Tran
+192,10,23:21.9,Andrew Hill,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,An,Le
+193,10,23:21.9,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Dylan,Waste
+194,9,23:26.2,Santa Teresa,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Isaac,Camacho
+195,10,23:28.5,Silver Creek,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Emilio,Gonzalez-Lu
+196,9,24:05.2,Leland,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Peter,Chong
+197,9,24:14.4,Westmont,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Nicholas,Didone
+198,12,24:30.2,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Sean,Vu
+199,10,24:47.2,Andrew Hill,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Bryan,Nguyen
+200,12,24:53.4,Westmont,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Steven,Nian
+201,12,25:00.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,M,Franklin,Nguyen
+202,10,25:10.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Justin,Nguyen
+204,10,26:31.5,Westmont,2.74 Miles All Boys,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,M,Thomas,To
+206,9,27:45.0,Andrew Hill,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Julian,Rios
+208,11,29:04.9,Andrew Hill,2.74 Miles All Boys,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,M,Alan,Nguyen
+209,9,29:13.7,Andrew Hill,2.74 Miles All Boys,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,M,Trung,Van
+1,12,18:29.0,Willow Glen,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Emma,Clark
+2,9,19:27.7,Silver Creek,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Logan,Jew
+3,10,19:28.0,Silver Creek,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Candra,Chau
+4,11,19:33.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Apryl,Chiem
+5,11,19:37.2,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Isabella,Gentile
+6,10,20:07.5,Willow Glen,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Hermela,Abrha
+7,11,20:13.9,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Tammy,Dinh
+8,10,20:16.5,Willow Glen,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Maddie,Yen
+9,9,20:27.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Sophia,Aclan
+10,10,20:31.7,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Isabel,Zhou
+11,10,20:41.0,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Clara,Chirila-Rus
+12,10,20:48.2,Santa Teresa,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Madison,Stull
+13,12,20:56.0,Andrew Hill,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Kelly,Nguyen
+14,10,21:00.2,Willow Glen,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Carly,Zamudio
+15,9,21:01.9,Westmont,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Madilyn,Zanardelli
+16,11,21:02.7,Westmont,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Kiely,Hardy
+17,10,21:10.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Katrina,Lin
+18,12,21:13.5,Silver Creek,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Elizabeth,Huang
+19,12,21:14.0,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Leslie,Patino
+20,12,21:15.4,Silver Creek,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Sanmina,Pham
+21,11,21:31.5,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Alejandra,Penaloza
+22,9,21:31.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Nandini,Neralagi
+24,12,21:34.9,Willow Glen,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Margot,Wilkinson
+25,11,21:39.5,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Michelle,Rivera
+26,12,21:42.5,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Stephanie,Bustos
+27,10,21:51.7,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Meghna,Chandrasekar
+28,11,21:53.7,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Isabella,Huynh
+29,9,21:59.0,Santa Teresa,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Kate,Lima
+30,12,22:04.2,Westmont,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Anna,Kondratyeva
+31,9,22:04.2,Leland,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Jacqueline,Pham
+32,12,22:13.9,Silver Creek,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Kimberly,Beteran
+33,10,22:24.4,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Kaitlyn,Wong
+34,9,22:24.9,Santa Teresa,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Ashlyn,Larrus
+35,11,22:27.7,Willow Glen,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Fatima,Alarcon
+36,12,22:30.9,Willow Glen,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Amber,Seay
+37,9,22:31.2,Westmont,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Melissa,Radlinsky
+38,10,22:33.0,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Mavalyn,Lau
+39,11,22:35.9,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Litzy,Gutierrez
+40,10,22:38.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Esmee,Fong Chew
+41,9,22:41.4,Westmont,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Hannah,Wolf
+42,10,22:43.4,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Kiana,Ponce
+43,12,22:44.4,Willow Glen,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Mahelet,Kebede
+44,11,22:54.0,Silver Creek,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Jenna,Baraona
+45,10,22:59.7,Westmont,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Jia-Yu,Sung
+46,11,23:06.7,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Helen,Nguyen
+47,9,23:15.0,Willow Glen,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Abigail,Paradise
+48,10,23:19.2,Santa Teresa,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Kaelie,Taylor
+49,10,23:21.2,Willow Glen,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Jennifer,Espinola
+50,9,23:21.2,Willow Glen,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Bethany,Collings
+51,10,23:33.2,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Natalie,Sun
+52,9,23:38.5,Willow Glen,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Heydi,Zepeda
+53,10,23:40.2,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Katherine,Nguyen
+54,10,23:43.4,Silver Creek,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Katie,Chau
+55,10,23:49.9,Andrew Hill,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Sabrina,Crumley
+56,9,24:09.4,Silver Creek,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Holly,Do
+57,9,24:18.2,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Joanna,Lu
+58,12,24:19.0,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Cindy,Hoang
+59,12,24:22.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Emily,Truong
+60,9,24:27.2,Leland,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Kira,Schlieman
+61,12,24:37.5,Andrew Hill,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Fatima,Sanchez
+62,10,24:44.4,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Kaylin,Ma
+63,10,24:46.2,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,SALLY,LEE
+64,10,24:46.5,Santa Teresa,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Joanna,Salazar
+65,10,24:59.7,Willow Glen,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Jackie,Lazo
+66,11,25:16.9,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Ana,Karina Ramirez
+67,9,25:37.4,Santa Teresa,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Alex,Hanley
+68,11,25:44.7,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Fatima,Bello
+69,11,25:49.5,Leland,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Rachel,Han
+70,10,25:57.9,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Chantelle,Tseng
+71,10,25:59.5,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Nina,Nguyen
+72,12,26:15.2,Andrew Hill,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Emily,Soto
+73,9,26:20.2,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Katrina,Aquino
+74,10,26:29.7,Silver Creek,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Kristina,Nguyen
+75,9,26:44.2,Silver Creek,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Heidi,Shin
+76,9,26:46.4,Silver Creek,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Isha,Thadhani
+77,11,26:46.5,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Hedy,Cheng
+78,9,26:55.2,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Divitha,Doddi
+79,10,26:56.7,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Eileen,Quach
+81,11,27:03.9,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Mary,Janel Martillano
+82,10,27:15.5,Silver Creek,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Emmaline,Nguyen
+83,10,27:22.4,Evergreen Valley,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Stephanie,Tran
+84,12,27:26.0,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Valerie,Nguyen
+85,9,27:54.2,Piedmont Hills,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Ria,Saini
+86,10,28:13.5,Andrew Hill,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Lizette,Magana
+87,10,28:20.7,Andrew Hill,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Adelaide,Bao
+88,10,29:12.5,Leland,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Kayla,McMurray
+91,11,30:09.7,Willow Glen,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Leyou,Damene
+92,9,30:34.7,Santa Teresa,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Hannah,Marks
+93,11,30:37.7,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Salma,Jama
+94,9,31:04.2,Willow Glen,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Emily,Soto
+95,10,31:44.5,Andrew Hill,2.74 Miles All Girls,2017-10-05,2020,Search,UNK,Montgomery Hill Park,4410,2017,F,Mi,Le
+96,11,31:56.7,Andrew Hill,2.74 Miles All Girls,2017-10-05,2019,Search,UNK,Montgomery Hill Park,4410,2017,F,Jocelyn,Noguez
+97,9,32:57.2,Andrew Hill,2.74 Miles All Girls,2017-10-05,2021,Search,UNK,Montgomery Hill Park,4410,2017,F,Thao,Nguyen
+99,12,38:46.0,Andrew Hill,2.74 Miles All Girls,2017-10-05,2018,Search,UNK,Montgomery Hill Park,4410,2017,F,Linda,Natividad

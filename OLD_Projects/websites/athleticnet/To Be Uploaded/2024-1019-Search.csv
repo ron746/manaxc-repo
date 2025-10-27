@@ -1,0 +1,411 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,6,07:44.24,achieve charter,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Davin,Maylin
+2,7,07:45.78,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Colton,Parker
+3,8,07:47.58,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Carter,Gregg
+4,8,07:51.59,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Kolton,Humphries
+5,8,07:53.28,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Tyler,Adsit
+6,8,08:00.65,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Lance,Tennis
+7,8,08:01.81,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Clark,Goodman
+8,8,08:02.11,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Kyden,Hanson
+9,8,08:02.46,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Max,Lugo
+10,8,08:02.72,Cooley,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Ovindu,Rodrigo
+11,8,08:05.85,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Baylor,Colby
+12,7,08:08.43,Marsh,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Quinton,Kehrer
+13,8,08:10.53,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Emmett,Kendall
+14,8,08:11.65,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Mathew,Seegert
+15,6,08:14.50,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Patrick,Madsen
+16,8,08:19.90,Lakeview Daly,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,AJ,Dolbear
+17,7,08:20.28,HOPE Schools International Homeschool,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Elijah,Nordquist
+18,8,08:24.25,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Gavin,Schroeder
+19,6,08:25.90,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Andres,Tadeo
+20,7,08:26.96,Marsh,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Brycen,Harvey
+21,8,08:27.84,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Marco,Tricerri
+22,7,08:29.01,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Liam,Wheatley
+23,6,08:31.83,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Mason,Perez
+24,6,08:33.96,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Luke,Plummer
+25,8,08:35.12,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Anthony,Martone
+26,8,08:35.65,achieve charter,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Chris,Thiede
+27,6,08:38.17,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Cole,Smith
+28,6,08:40.53,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Davis,Hein
+29,8,08:43.25,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Josiah,Haselton
+30,8,08:43.70,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Liam,Saake
+31,8,08:44.22,Paradise,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Elijiah,Parker
+32,8,08:44.88,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Oziel,Gallegos
+33,6,08:46.05,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Drew,Mathis
+34,7,08:46.51,Paradise,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Kevin,Zuo
+35,5,08:47.60,FastFast Track Club,1.3 Miles Middle School Boys,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,M,Nolan,Jordan
+36,6,08:50.98,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Michael,Arnold
+37,8,08:51.71,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Asher,Rollins
+38,7,08:53.30,Chico Striders,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Blake,Shaeffer
+39,7,08:56.12,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Beau,Aars
+41,7,08:58.38,Trinity,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Wyatt,Dann
+42,7,08:59.64,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Jared,Kressin
+43,7,09:04.35,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Paul,Lipski
+44,6,09:06.54,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Rowan,Schumann
+45,8,09:09.92,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Sawyer,Smith
+46,8,09:11.10,Paradise,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Leon,Wertz
+47,8,09:11.44,HOPE Schools International Homeschool,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Lucas,Hull
+48,6,09:11.78,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Lucas,Gardea
+49,8,09:12.14,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Brady,Thommen
+50,6,09:12.47,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Shane,Simpson
+51,8,09:12.74,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Jace,Johnson
+52,8,09:15.69,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Warion,Weems
+53,6,09:17.28,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Hayden,Rakes
+54,8,09:17.72,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Ethan,Knight
+55,8,09:18.11,Lakeview Daly,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Bryson,Havely
+56,6,09:25.96,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Nathan,Brito
+57,7,09:27.11,Trinity,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Grady,Seele
+58,4,09:28.93,Chico Striders,1.3 Miles Middle School Boys,2024-10-19,2033,Search,Invitational,Hooker Oak Park,2092,2024,M,Isaac,Simmons
+59,7,09:30.02,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Davis,Henderson
+60,6,09:30.70,Cooley,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Savindu,Rodrigo
+61,7,09:34.43,Cooley,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Blake,Broderdorf
+62,7,09:35.73,FastFast Track Club,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Rylan,Hough
+63,6,09:38.21,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Judah,Gist
+64,6,09:48.51,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Ryan,Baldwin
+65,7,09:49.42,Chico,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Jack,Monaghan
+66,8,09:50.23,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Aaron,Young
+67,6,09:55.30,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Nico,Isern
+68,6,09:56.00,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Oliver,Young
+69,6,09:58.95,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Kellen,Hard
+70,8,09:59.74,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Gordon,Muff
+71,6,10:02.58,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Andrew,Perrin
+72,8,10:06.94,achieve charter,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Zachery,Ralston
+73,8,10:07.84,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Austin,Patane
+74,6,10:08.18,notre dame,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Luke,Haskill
+75,6,10:08.83,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Fynn,Hilsen
+76,4,10:11.50,Chico Striders,1.3 Miles Middle School Boys,2024-10-19,2033,Search,Invitational,Hooker Oak Park,2092,2024,M,Felix,Hellmair
+77,6,10:13.50,notre dame,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Jason,Carlos
+78,7,10:17.78,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Eric,Tennis
+79,8,10:21.55,notre dame,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Landen,Haskill
+80,6,10:22.75,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Keegan,Howse
+81,5,10:23.78,Chico Striders,1.3 Miles Middle School Boys,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,M,Atreyu,Hammond Jones
+82,6,10:25.19,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Mikey,Weems
+83,7,10:30.69,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Zach,Dietrich
+84,8,10:32.89,Paradise,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Jameson,Steed
+85,8,10:33.39,Chico,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Mason,Barker
+86,8,10:35.51,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Thomas,Vittoratos
+87,5,10:39.53,Montague,1.3 Miles Middle School Boys,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,M,Spencer,Carlson
+88,7,10:43.36,Chico,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Lumen,Weems
+89,8,10:44.33,notre dame,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Justin,Sandhagen
+90,7,10:46.38,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Jude,Macomber
+91,6,10:47.45,FastFast Track Club,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Leonardo,Porcayo
+92,7,10:47.79,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Liam,Peterson
+93,6,10:48.46,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Lars,Hansen
+94,5,10:49.09,Montague,1.3 Miles Middle School Boys,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,M,Nathaniel,Duque
+95,6,10:51.12,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Noah,Shook
+96,7,10:52.89,Trinity,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Finn,French
+97,7,10:59.59,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Cal,Henry
+98,6,11:01.56,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Tucker,Salsi
+99,6,11:05.67,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Hendrik,Wildhaber
+100,5,11:10.06,Montague,1.3 Miles Middle School Boys,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,M,Calvin,Dustan
+101,5,11:11.34,Montague,1.3 Miles Middle School Boys,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,M,Ruben,Leon
+102,6,11:13.93,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Rhys,Stone
+103,6,11:37.04,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Dominic,Rice
+104,6,11:37.43,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Oliver,Hansen
+105,7,11:53.33,Paradise,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Elias,Cardell
+106,7,11:57.53,Fall River,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Colin,Ibarra
+107,8,12:03.44,Paradise,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Washington,Kilpatrick
+108,7,12:10.46,Trinity,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Noah,Glandon
+109,6,12:11.00,Chico,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Nicholas,Carmona
+110,7,12:11.71,Paradise,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Ivan,Hasty
+111,8,13:31.11,Bidwell,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Parker,Waters
+112,7,13:38.00,Marsh,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Quincy,Scott
+113,8,14:07.00,Marsh,1.3 Miles Middle School Boys,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,M,Ryan,Eggleston
+114,6,20:49.00,Marsh,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Weston,Sivertson
+115,7,20:50.00,Marsh,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Ethan,Brown
+116,6,20:54.00,Nord Country,1.3 Miles Middle School Boys,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,M,Zach,Deen
+117,7,20:59.00,Chico,1.3 Miles Middle School Boys,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,M,Nathaniel,Marvel
+1,12,18:58.94,Orland,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Paulina,Martins
+2,11,19:53.41,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Taylor,Wellersdick
+3,11,20:27.66,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Brianna,Williams
+5,11,20:54.22,Hope,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Kylie,Erickson
+6,10,21:00.66,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Ally,Sasaki
+7,11,21:05.58,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Brianna,Hayes
+8,10,21:16.03,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Emma,Halblieb
+9,9,21:18.39,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Emily,Arnold
+10,10,21:22.15,Westmont,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Hannah,Crowley
+11,10,21:31.18,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kelan,Payne
+12,12,21:32.99,Hope,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Naava,Kropp
+13,12,21:45.70,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Aralynn,Winstead-Stroing
+14,12,21:54.09,Chico,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Lillian,Jeffords
+15,10,21:55.58,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Molly,Shewey
+16,11,22:02.54,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Reese,Alvistur
+17,11,22:07.38,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Caitlin,Cooper
+18,11,22:14.76,Shasta,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Dixie,Lee
+19,9,22:27.31,University Prep,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Rogue,Cutler
+20,12,22:32.65,University Prep,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Zoe,Taylor
+21,10,22:40.45,University Prep,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Sydney,Ahern
+22,9,22:50.72,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Sofia,Robles
+23,12,22:53.98,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Elizabeth,Patla
+24,12,23:00.03,Chico,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Rosalie,Brown
+25,12,23:04.30,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Ali,Lugo
+26,11,23:06.13,University Prep,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Stephenson
+27,10,23:06.56,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Rania,Elguessab
+28,10,23:12.24,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kamila,Higa
+29,10,23:25.25,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Hazel,Hy
+30,11,23:25.71,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emily,Aiken
+31,10,23:29.26,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Caitlyn,Sierra
+32,11,23:38.43,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Ryann,Brewer
+33,10,23:39.29,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Madison,Russell
+34,11,23:43.00,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emma,Sorenson
+35,12,23:53.24,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Evi,Barber
+36,10,24:00.89,Monterey Trail,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,May,McKay
+37,9,24:07.15,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Lizaya,McCracken
+38,12,24:12.05,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Chaise,Ayres
+39,10,24:16.59,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Ella,Hickok
+40,11,24:18.60,University Prep,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Joanna,Mieling
+41,10,24:24.31,Shasta,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Karissa,Woellert
+42,10,24:25.58,Hope,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Mikaela,Holl
+43,11,24:43.86,Central Valley,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Katlyn,Doers
+44,10,24:58.86,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Isla,Cajina Valencia
+45,12,24:59.93,University Prep,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Kaia,Henry
+46,9,25:14.76,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Kya,Kintzley
+47,12,25:19.20,Monterey Trail,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Denise,Hernandez
+48,12,25:35.85,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Walker
+49,10,25:36.97,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kara,Maxwell
+50,9,25:47.00,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Lydia,Valdez
+51,11,25:49.33,Shasta,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Ortega Morales
+52,10,25:51.51,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Avery,Rosecrans
+53,9,25:57.74,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Aubriana,Bravo
+54,12,26:07.11,Shasta,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Melanie,Echeverria
+55,9,26:08.09,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Natalia,Guzman
+56,11,26:15.82,Fall River,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Jaylee,Vculek
+57,10,26:39.83,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Saya,Dunagan
+58,9,26:50.51,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Nachara,Jackson
+59,11,26:51.64,Hope,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Rachael,Nordquist
+60,12,27:00.46,Westmont,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Sara,Chaudoin
+61,11,27:26.59,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Lola,Monreal Juanco
+62,11,27:30.23,Hamilton City,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Laidan,Whitley
+63,12,27:34.36,Shasta Charter Academy,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Ruby,Scripture
+64,10,27:36.79,Fall River,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Regina,Croy
+65,11,28:30.59,Shasta Charter Academy,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Sofia,Cline
+66,9,29:05.96,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Elaine,Parks
+67,11,29:23.19,Hope,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emerson,Curtis
+68,9,30:09.64,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Alisyn,O'Bryan
+69,10,31:43.51,Fall River,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kionna,Bourdase
+70,10,31:47.79,Fall River,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Zoey,Bosworth
+71,11,35:33.44,Quincy,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Addison,Lee
+1,9,13:40.06,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Harper,Ducale
+2,9,14:07.69,Providence Christian,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Ellie,Cleek
+3,9,14:09.73,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Samantha,Moreno-Delgado
+4,10,14:09.98,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Phuong,Le
+5,9,14:26.71,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Camille,Littrell-Poon
+6,10,14:32.08,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Olive,Haro
+7,9,14:45.05,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Angelina,Cecenas
+8,9,14:53.00,Shasta,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Alexandra,Sanchez
+9,9,15:03.01,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Brooklynn,Garbin
+10,10,15:07.15,Enterprise,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Judith,Bravo
+11,9,15:18.79,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Rowan,Blankenship
+12,11,15:21.44,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Savannah,Roberts
+13,9,15:23.17,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Cora,Scherba
+14,9,15:26.94,Trinity,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Kaiya,Trujillo
+15,10,15:27.77,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Devi,Schumann
+16,11,15:28.18,Shasta,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Aleksandria,Chase
+17,9,15:28.50,Shasta,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Avery,Foxworthy
+18,10,15:33.65,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Madison,Cardoza
+19,10,15:45.20,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Lila,Harris
+20,10,15:46.15,Central Valley,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Maria,Garcia Blanco
+21,11,15:53.40,University Prep,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Kaitlyn,Raftery
+22,11,16:05.49,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Ashlynn,Hayes
+23,10,16:05.80,University Prep,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Lily,Moyer
+24,9,16:12.11,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Molly,Alling
+25,10,16:15.34,University Prep,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Maddie,Walton
+26,11,16:18.21,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emily,Chen
+27,9,16:24.50,Chico,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Kensington,Girt
+28,10,16:31.93,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Julia,Spears
+29,11,16:34.41,Shasta,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Kaylee,Vicklund
+30,9,16:34.81,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Veronika,Aleksandrova
+31,12,16:42.14,Enterprise,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Maya,Hubbs
+32,10,16:43.26,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Shipley
+33,10,16:46.92,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Myla,Axtell
+34,9,16:47.97,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Lila,Yeh
+35,9,16:49.18,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Sophia,Freimuth
+36,12,16:50.71,University Prep,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Harsirat,Dhillon
+37,9,16:57.99,Durham,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Leah,Sears
+38,9,16:59.72,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Camila,Mireles
+39,12,17:07.35,Marysville,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Abella,Morawcznski
+40,9,17:17.63,University Prep,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Emma,Tyler
+41,12,17:26.14,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Charynna,Pe Benito
+42,9,17:46.17,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Eva,Henderson
+43,9,17:49.10,Gridley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Charlie,Medina
+44,11,18:07.43,Durham,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Karla,Rangel
+45,11,18:09.54,University Prep,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Marin,Mapes
+46,11,18:10.35,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Katelyn,Merrick
+47,10,18:20.39,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Sarah,Zhong
+48,10,18:31.02,Williams,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Angelly,Garcia
+49,11,18:31.87,Durham,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Keeleigh,Chollet
+50,10,18:39.96,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Rosailin,Santana
+51,9,18:40.36,University Prep,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Matea,Kitzman
+52,11,18:51.89,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Marisa,Carr
+53,12,18:52.58,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Faith,Krason
+54,9,18:55.52,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Andrea,Ng
+55,12,19:15.33,Trinity,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Victoria,Chisholm
+56,12,19:17.94,Marysville,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Erica,Santiago
+57,9,19:34.71,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Elena,Miller
+58,10,19:44.40,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Cora,Arvonen
+60,12,20:28.63,Durham,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Lilly,Johnson
+61,10,20:34.06,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Amanda,Luu
+62,12,20:41.67,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Cierralyn,Lemus
+63,9,20:55.73,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Charlotte,Smith
+64,9,20:58.05,Enterprise,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Kylie,Adams
+65,10,21:03.19,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Rios
+66,11,21:12.88,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Harleen,Kaur
+67,10,21:30.79,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Adelaide,Kluge
+68,10,22:39.34,Enterprise,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Nisbet,Hernandez-Arguello
+69,11,23:21.58,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Ellisha,Audrey Rivera
+70,12,23:26.47,Enterprise,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Catherine,Gordon
+71,12,25:41.80,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Ashlynn,Kluge
+72,9,31:04.00,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Sarabia
+1,10,21:00.66,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Ally,Sasaki
+2,11,21:05.58,CORE Butte,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Brianna,Hayes
+3,10,21:31.18,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kelan,Payne
+4,10,21:55.58,Chico,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Molly,Shewey
+5,11,22:02.54,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Reese,Alvistur
+6,11,22:07.38,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Caitlin,Cooper
+7,12,22:32.65,University Prep,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Zoe,Taylor
+8,10,22:40.45,University Prep,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Sydney,Ahern
+9,12,23:00.03,Chico,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Rosalie,Brown
+10,12,23:04.30,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Ali,Lugo
+11,10,23:12.24,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kamila,Higa
+12,11,23:25.71,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emily,Aiken
+13,10,23:39.29,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Madison,Russell
+14,11,23:43.00,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emma,Sorenson
+15,12,23:53.24,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Evi,Barber
+16,10,24:00.89,Monterey Trail,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,May,McKay
+17,9,24:07.15,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Lizaya,McCracken
+18,12,24:12.05,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Chaise,Ayres
+19,11,24:18.60,University Prep,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Joanna,Mieling
+20,10,24:24.31,Shasta,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Karissa,Woellert
+21,10,24:25.58,Hope,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Mikaela,Holl
+22,10,24:58.86,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Isla,Cajina Valencia
+23,12,24:59.93,University Prep,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Kaia,Henry
+24,9,25:14.76,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Kya,Kintzley
+25,12,25:19.20,Monterey Trail,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Denise,Hernandez
+26,12,25:35.85,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Walker
+27,10,25:36.97,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kara,Maxwell
+28,9,25:47.00,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Lydia,Valdez
+29,11,25:49.33,Shasta,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Ortega Morales
+30,9,25:57.74,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Aubriana,Bravo
+31,12,26:07.11,Shasta,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Melanie,Echeverria
+32,9,26:08.09,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Natalia,Guzman
+33,11,26:15.82,Fall River,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Jaylee,Vculek
+34,10,26:39.83,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Saya,Dunagan
+35,11,26:51.64,Hope,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Rachael,Nordquist
+36,12,27:00.46,Westmont,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Sara,Chaudoin
+37,11,27:26.59,Nevada Union,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Lola,Monreal Juanco
+38,11,27:30.23,Hamilton City,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Laidan,Whitley
+39,12,27:34.36,Shasta Charter Academy,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Ruby,Scripture
+40,10,27:36.79,Fall River,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Regina,Croy
+41,11,28:30.59,Shasta Charter Academy,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Sofia,Cline
+42,9,29:05.96,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Elaine,Parks
+43,11,29:23.19,Hope,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Emerson,Curtis
+44,9,30:09.64,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Alisyn,O'Bryan
+45,10,31:43.51,Fall River,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Kionna,Bourdase
+46,10,31:47.79,Fall River,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Zoey,Bosworth
+47,11,35:33.44,Quincy,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Addison,Lee
+1,12,18:58.94,Orland,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Paulina,Martins
+2,11,19:53.41,Chico,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Taylor,Wellersdick
+3,11,20:27.66,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Brianna,Williams
+5,11,20:54.22,Hope,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Kylie,Erickson
+6,10,21:16.03,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Emma,Halblieb
+7,9,21:18.39,Pleasant Valley,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Emily,Arnold
+8,10,21:22.15,Westmont,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Hannah,Crowley
+9,12,21:32.99,Hope,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Naava,Kropp
+10,12,21:45.70,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Aralynn,Winstead-Stroing
+11,12,21:54.09,Chico,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Lillian,Jeffords
+12,11,22:14.76,Shasta,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Dixie,Lee
+13,9,22:27.31,University Prep,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Rogue,Cutler
+14,9,22:50.72,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Sofia,Robles
+15,12,22:53.98,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2025,Search,Invitational,Hooker Oak Park,2092,2024,M,Elizabeth,Patla
+16,11,23:06.13,University Prep,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Isabella,Stephenson
+17,10,23:06.56,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Rania,Elguessab
+18,10,23:25.25,Cosumnes Oaks,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Hazel,Hy
+19,10,23:29.26,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Caitlyn,Sierra
+20,11,23:38.43,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Ryann,Brewer
+21,10,24:16.59,Red Bluff,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Ella,Hickok
+22,11,24:43.86,Central Valley,1.3 Miles Middle School Boys,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,M,Katlyn,Doers
+23,10,25:51.51,Lakeview,1.3 Miles Middle School Boys,2024-10-19,2027,Search,Invitational,Hooker Oak Park,2092,2024,M,Avery,Rosecrans
+24,9,26:50.51,Yuba City,1.3 Miles Middle School Boys,2024-10-19,2028,Search,Invitational,Hooker Oak Park,2092,2024,M,Nachara,Jackson
+1,8,07:44.64,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Julie,Plummer
+2,8,08:13.40,Nord Country,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Anna,Gist
+3,8,08:13.91,Fall River,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Delani,Santos
+4,8,08:21.58,Montague,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Riley,Carlson
+5,8,08:24.11,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Neva,Bilinski
+6,8,08:47.55,Nord Country,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Holly,Konkin
+7,7,08:49.30,Marsh,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Grace,Padilla
+8,6,08:50.94,Lakeview Daly,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Alivia,Tague
+9,8,09:00.76,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Briella,Rico
+10,8,09:09.82,CORE Butte,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Isla,Maki
+11,7,09:11.51,Fall River,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Taylor,Dietle
+12,6,09:14.90,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Maizy,Ashley
+13,7,09:18.67,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Kylee,Conlin
+14,8,09:19.58,Lakeview Daly,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Lily,Halbleib
+15,6,09:21.22,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Abigail,Blake
+16,11,09:24.72,FastFast Track Club,1.3 Miles Middle School Girls,2024-10-19,2026,Search,Invitational,Hooker Oak Park,2092,2024,F,Gracelyn,Burns
+17,7,09:26.84,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Kelby,Wood
+18,8,09:30.72,Marsh,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Kylee,Risko
+19,6,09:31.95,CORE Butte,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Clarabella,Goodman
+20,6,09:34.40,notre dame,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Jessica,Sandhagen
+21,8,09:35.83,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Paige,Coombe
+22,7,09:41.33,Marsh,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Heidi,Cox
+23,8,09:42.66,Nord Country,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Claire,Barron
+24,6,09:43.99,Marsh,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Clover,Clark
+25,8,09:48.98,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Raquel,Pena
+26,6,09:50.85,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Alexia,Rico
+27,8,10:00.68,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Maggie,Villasenor
+28,7,10:01.16,Marsh,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Eleanor,Yates
+29,8,10:04.06,Marsh,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Sarah,Plummer
+30,7,10:04.86,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Pia,Hellmair
+31,6,10:05.48,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Klarissa,Melendez
+32,6,10:06.52,Chico Striders,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Zoe,OConnell
+33,8,10:07.22,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Mar,Lena-Woods
+34,6,10:08.21,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Bridget,Sicke
+35,8,10:08.65,Lakeview Daly,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Caitlynn,Abston
+36,5,10:13.06,Montague,1.3 Miles Middle School Girls,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,F,Afton,Adams
+37,8,10:14.12,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Itzel,Rodriguez
+38,8,10:15.17,Marsh,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Kieren,Rennie
+39,7,10:16.43,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Logan,Smith
+40,7,10:17.69,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Abby,Adsit
+41,7,10:20.43,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Marjorie,Guerrero
+42,7,10:21.40,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Izabella,Llamas
+43,8,10:23.53,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Cecilia,Potter
+44,7,10:24.88,Montague,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Dylann,Duncan
+45,7,10:26.30,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Candace,Cameron
+46,8,10:26.82,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Madison,Rogne
+47,7,10:27.59,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Ella,Taylor
+48,6,10:29.33,Nord Country,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Ember,Ransbarger
+49,8,10:38.91,Lakeview Daly,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Roanya,Lally
+50,6,10:48.46,Marsh,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Kate,Luster
+51,6,10:52.01,FastFast Track Club,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Brittney,Sierra
+52,8,10:56.52,Marsh,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Ava,Wilson
+53,7,10:59.97,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Aubrey,Eccles
+54,3,11:00.30,Chico Striders,1.3 Miles Middle School Girls,2024-10-19,2034,Search,Invitational,Hooker Oak Park,2092,2024,F,Aitana,Padilla
+55,6,11:01.85,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Sierra,Ellena
+56,6,11:03.93,Bidwell,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Eelyn,Peterson
+57,6,11:08.75,Montague,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Delilah,Dustan
+58,7,11:17.61,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Dellahney,Wells
+59,7,11:22.55,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Sierra,Becker
+60,6,11:22.86,Chico Striders,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Ainsley,Shimizu
+61,7,11:24.89,CORE Butte,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Lacey,Scherba
+62,6,11:26.64,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Samiah,Vlahos
+63,7,11:29.34,CORE Butte,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Zara,Biagi
+64,6,11:39.18,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Lahna,Saldano
+65,8,11:46.20,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Dalee,Booth
+66,5,11:52.83,Montague,1.3 Miles Middle School Girls,2024-10-19,2032,Search,Invitational,Hooker Oak Park,2092,2024,F,Kaelani,Gonzalez
+67,6,12:12.85,notre dame,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Shelby,Silva
+68,7,12:19.47,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Brooklynn,Ocampo
+69,8,12:33.47,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Raneem,Ghalayini
+70,6,12:44.81,Trinity,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Samantha,Whitaker
+71,6,12:57.13,Marsh,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Luna,Olvera
+72,8,13:02.35,Marsh,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Ty'Liyah,Barns
+73,6,13:05.78,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Aveah,Case-Montes
+74,6,13:15.25,Marsh,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Tlalli,Correa
+75,8,13:19.64,achieve charter,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Zoey,Maylin
+76,8,13:26.03,Marsh,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Claudia,Granado
+77,7,13:30.66,Chico,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Livia,Sifers
+78,8,13:37.24,Chico,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,CC,Williams
+79,6,15:27.17,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Aliyah,Valdovinos
+80,7,15:48.49,Paradise,1.3 Miles Middle School Girls,2024-10-19,2030,Search,Invitational,Hooker Oak Park,2092,2024,F,Trinity,Mejia
+81,6,15:53.30,Chico,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Clover,Hubbell
+82,6,15:57.56,Marsh,1.3 Miles Middle School Girls,2024-10-19,2031,Search,Invitational,Hooker Oak Park,2092,2024,F,Brynn,Simmons
+83,8,16:15.62,Paradise,1.3 Miles Middle School Girls,2024-10-19,2029,Search,Invitational,Hooker Oak Park,2092,2024,F,Millie,Chavez

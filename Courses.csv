@@ -1,0 +1,232 @@
+﻿course_name,distance_meters,mile_difficulty
+Track | 1600m,1600, 0.99835197200 
+Zone 9,1609, 0.71157151300 
+Zone 8,1609, 0.75975279600 
+Zone 7,1609, 0.84128310800 
+Zone 6,1609, 0.95988228400 
+Track | 1 Mile,1609, 1.00000000000 
+V02Max,1609, 1.03378542200 
+Zone 5,1609, 1.07848146000 
+Zone 4,1609, 1.17854031800 
+Threshold,1609, 1.18199838600 
+Zone 3,1609, 1.28972336700 
+Zone 2,1609, 1.44168334300 
+Zone 1,1609, 1.64181283100 
+Camden Invit | 1.75 Miles,2816, 1.14184814600 
+Vasona Park | 1.9 Miles,3058, 1.13007651600 
+Lynbrook High School | 1.9 Miles,3058, 1.14773396100 
+York School | 1.95 Miles,3138, 1.28899352600 
+Track | 3200m,3200, 1.06533254800 
+Sunnyvale High School | 2 Miles,3219, 1.06533254900 
+Track | 2 Miles,3219, 1.06545026500 
+Elkhorn GC | 2 Miles,3219, 1.08602707500 
+Lynbrook High School | 2 Miles,3219, 1.09387875200 
+Newhall Park | 2 Miles,3219, 1.10464979400 
+Del Mar High School | 2 Miles,3219, 1.13007651600 
+Vasona Park | 2 Miles,3219, 1.13596233100 
+Cupertino High School | 2 Miles,3219, 1.16191877600 
+Soquel High School | 2 Miles,3219, 1.17716303700 
+Lagoon Valley Park | 2 Miles,3219, 1.18304885200 
+Coyote Park | 2.0 Miles,3219, 1.24667451400 
+York School | 2 Miles,3219, 1.26721600900 
+Alum Rock Park | 2 Miles,3219, 1.31842260200 
+Fremont HS | 2.05 Miles,3299, 1.13298439200 
+Golden Gate Park (Const) | 2.08 Miles,3347, 1.06709829300 
+Lynbrook High School | 2.1 Miles,3380, 1.10300176600 
+Del Mar High School | 2.1 Miles,3380, 1.11830488500 
+Fremont High School | 2.1 Miles,3380, 1.13298439200 
+Hellyer Park | 2.1 Miles,3380, 1.15361977600 
+Crystal Springs | 2.13 Miles,3428, 1.10417892900 
+Golden Gate Park | 2.13 Miles,3428, 1.12484991200 
+Vasona Park | 2.15 Miles,3460, 1.14184814600 
+Vasona Park | 2.175 Miles,3500, 1.10359034700 
+Hooker Oak Park | 3.5 Kilometers,3500, 1.06109476200 
+Woodward Park | 3.5 Kilometers,3500, 1.07121836400 
+Del Mar High School | 2.2 Miles,3541, 1.08298999400 
+Lynbrook High School | 2.2 Miles,3541, 1.10300176600 
+Camden High School | 2.2 Miles,3541, 1.14184814600 
+Crystal Springs | 2.25 Miles,3621, 1.09711595100 
+Half Moon Bay HS  | 2.25 Miles,3621, 1.17535078200 
+Del Mar High School | 2.3 Miles,3701, 1.07121836400 
+Alum Rock Park | 2.3 Miles,3701, 1.13254855800 
+Westmoor High (Const) | 2.3 Miles,3701, 1.13458249200 
+Central Park | 2.3 Miles,3701, 1.13713949400 
+Blackford High School | 2.3 Miles,3701, 1.15479693900 
+Camden High School | 2.35 Miles,3782, 1.07121836400 
+Sunnyvale High School | 2.4 Miles,3862, 1.06533254900 
+Alum Rock Park | 2.4 Miles,3862, 1.13360800500 
+Mt. Madonna Park | 2.4 Miles,3862, 1.14184814600 
+Westmoor High | 2.4 Miles,3862, 1.16341377300 
+Westmont High School | 2.5 Miles,4023, 1.06533254900 
+Golden Gate Park | 2.5 Miles,4023, 1.11307828100 
+Aptos High School | 2.5 Miles,4023, 1.13007651600 
+Soquel High School | 2.5 Miles,4023, 1.13007651600 
+Andrew Hill High School | 2.53 Miles,4072, 1.13925838700 
+Hellyer Park | 2.55 Miles,4104, 1.11830488500 
+Willow Glen High | 2.56 Miles,4120, 1.12995879900 
+Mt. Madonna Park | 2.6 Miles,4184, 1.08416715700 
+Hellyer Park | 2.6 Miles,4184, 1.11830488500 
+Camden High School | 2.65 Miles,4265, 0.94173043000 
+Lynbrook High School | 2.65 Miles,4265, 1.10300176600 
+Coyote Park | 2.65 Miles,4265, 1.12772219000 
+Santa Teresa Park | 2.7 Miles,4345, 1.21247792800 
+Montgomery Hill | 2.74 Miles,4410, 1.20529723400 
+Soquel High School | 2.75 Miles,4426, 1.13007651600 
+Pleasant Hills High School | 2.75 Miles,4426, 1.14184814600 
+Lake Cunningham Park | 2.75 Miles,4426, 1.16656857000 
+Foothill College | 2.75 Miles,4426, 1.19950261000 
+Golden Gate Park (Const) | 2.78 Miles,4474, 1.11307828100 
+Mt SAC (Rain Course) | 4.5 Kilometers,4500, 1.13419658600 
+Hellyer Park | 2.8 Miles,4506, 1.06533254900 
+Vasona Park | 2.85 Miles,4587, 1.06533254900 
+Alum Rock Park | 2.85 Miles,4587, 1.13360800500 
+Santa Teresa High School | 2.85 Miles,4587, 1.13478516800 
+Hellyer Park | 2.85 Miles,4587, 1.15361977600 
+Hellyer Park | 2.9 Miles,4667, 1.08298999400 
+Alum Rock | 2.9 Miles,4667, 1.14089464400 
+Foothill College | 2.9 Miles,4667, 1.19950261000 
+Golden Gate Park | 2.93 Miles,4715, 1.14773396100 
+Mt SAC | 2.93 Miles,4715, 1.18363743400 
+Alum Rock Park | 2.95 Miles,4748, 1.13360800500 
+Shadow Cliffs Regional Park | 2.95 Miles,4748, 1.16185991800 
+Crystal Springs | 2.95 Miles,4748, 1.17716303700 
+Cooper Test,4763, 1.10653325500 
+Track | 3 Miles,4828, 1.07710417900 
+Newhall Park | 3 Miles,4828, 1.11477339600 
+College of San Mateo | 3 Miles,4828, 1.11830488500 
+Stanford Golf Course | 3 Miles,4828, 1.13549146600 
+Meadow Park | 3 Miles,4828, 1.14610947600 
+Sierra College | 3 Miles,4828, 1.17363154800 
+Toro Park | 3 Miles,4828, 1.18121247800 
+Lagoon Valley Park | 3 Miles,4828, 1.18304885200 
+Foothill College | 3 Miles,4828, 1.19950261000 
+NMC High School | 3 Miles,4828, 1.22485368600 
+Del Mar High School | 3 Miles,4828, 1.23602118900 
+Golden Gate Park Polo | 3.03 miles,4876, 1.12419070000 
+Track | 5000m,5000, 1.11124190700 
+Baylands Park | 5 Kilometers,5000, 1.12984108300 
+Stanford GC | 5 Kilometers,5000, 1.13549146600 
+Arcade Creek GC | 5 Kilometers,5000, 1.13596233100 
+Mt SAC (Rain Course) | 5 Kilometers,5000, 1.13596233100 
+Woodward Park | 5 Kilometers,5000, 1.14029429100 
+Hooker Oak Park | 5 Kilometers,5000, 1.14407298400 
+Westmont High School | 5 Kilometers,5000, 1.15950559200 
+Elkhorn GC | 5 Kilometers,5000, 1.16728663900 
+Mt SAC | 5 Kilometers,5000, 1.17998822800 
+Toro Park | 5 Kilometers,5000, 1.18121196100 
+La Rinconada Area | 5 Kilometers,5000, 1.24190700400 
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,

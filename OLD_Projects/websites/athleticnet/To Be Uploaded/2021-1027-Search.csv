@@ -1,0 +1,320 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,11,15:01.3,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Casey,Nuti
+2,12,15:18.0,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Amir,Jordan
+3,12,15:42.8,Leland,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Sami,Shafi
+4,12,15:52.6,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Tommy,Callahan
+5,12,16:10.1,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Eduardo,Favela
+6,12,16:12.3,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Bryan,Cromartie
+7,9,16:25.6,Leland,2.74 Miles Varsity 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Colin,Jubert
+8,12,16:39.7,Leland,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Aidan,Cain
+9,11,16:42.6,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Abhyuday,Srivatsa
+10,11,16:49.0,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jacob,Lantis
+11,10,16:49.7,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Mateo,Carino
+12,10,16:55.0,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Nikos,Dal Canto
+13,11,16:55.7,Leland,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Brian,Jackson
+14,12,16:56.2,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Evan,Itow
+15,10,16:59.2,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Rohith,Kompella
+16,12,17:07.0,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Philip,Le
+17,10,17:15.5,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Brandon,Gingras
+18,11,17:25.9,Leland,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Keshav,Sethi
+19,11,17:32.9,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Garcia
+20,11,17:44.0,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Madex,Kim
+21,10,18:01.2,Leland,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Zachary,Derse
+23,11,18:14.9,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Enrique,Hernandez
+24,12,18:20.9,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Colin,Gabriel
+25,11,18:21.7,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,James,Nguyen
+26,10,18:32.4,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Jeremy,Gingras
+27,11,18:49.2,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Eric,Huynh
+1,9,14:58.2,Pioneer,2.74 Miles Varsity 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Carson,Hedlund
+2,10,15:09.6,Westmont,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Shane,Dalziel
+3,11,15:10.5,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jeffrey,Hedlund
+4,11,15:27.3,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Zachary,Irwin
+5,11,15:28.2,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Anthony,Sosa
+6,11,15:44.7,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ojas,Joshi
+7,10,16:07.8,Pioneer,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Mosher
+8,12,16:09.0,Westmont,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Skyler,Dalziel
+9,11,16:17.1,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Finlay,McAfee
+10,11,16:22.2,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jack,Park
+11,11,16:33.6,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Luke,Morgan
+12,12,16:34.3,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Xinyu,Zhang
+13,12,16:35.6,Pioneer,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Yacob,Kifle
+14,11,16:46.5,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Troy,Nguyen
+15,11,16:52.0,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Evan,Griffith
+16,12,16:54.2,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Anthony,Martinez
+17,11,17:18.2,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Alvin,Dang
+18,11,17:40.5,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Omar,Lopez
+19,12,18:05.0,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Bryce,Johnson
+20,12,18:12.0,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Mustafa,Malik
+21,12,18:14.7,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Aiden,Agudelo-Petrini
+22,10,18:22.5,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Hayden,Hernandez
+23,9,18:34.2,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Arkadiusz,Matlosz
+24,11,18:36.7,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jacob,Pham
+25,10,18:37.2,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Spencer,King
+26,10,18:38.5,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Preston,Nguyen
+27,12,18:45.7,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Joshua,Krone
+28,12,19:03.0,Westmont,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Samuel,Collins
+1,10,17:59.5,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Hayden,Doan
+2,10,18:05.0,Willow Glen,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Thomas,Doherty
+3,10,18:08.7,Silver Creek,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Dhilan,Mistry
+4,9,18:12.0,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Kyan,Wang
+5,10,18:23.2,Willow Glen,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Will,McAndrew
+6,9,18:23.5,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Nagaashrith,Kaliki
+7,10,19:11.9,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Justin,Le
+8,10,19:24.7,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,David,Sun
+9,10,19:26.7,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Minh,Nguyen
+10,9,19:28.4,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Braden,Suyeishi
+11,10,19:30.5,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Jahan,Garg
+12,10,19:46.0,Willow Glen,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Thomas,Leamy
+13,9,19:50.7,Silver Creek,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Andre,Chaney
+14,9,19:51.7,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Aidan,Shelley
+15,10,20:06.5,Willow Glen,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Tyler,Bursch
+16,10,20:11.5,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Ryan,Namba
+17,9,20:13.2,Silver Creek,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Vinay,Singamsetty
+18,10,20:20.2,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Aran,Ramakrishnan
+19,9,20:33.7,Silver Creek,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Ryan,Tabatabai
+20,10,20:38.0,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Matthew,Namba
+21,9,21:10.0,Evergreen Valley,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Kabir,Dey
+22,10,22:37.7,Willow Glen,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Trevor,Miller
+23,9,23:03.5,Willow Glen,2.74 Miles Frosh/Soph 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Marcos,Guerrero
+26,10,27:51.5,Leland,2.74 Miles Frosh/Soph 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Jonathan,Taylor
+1,9,17:12.5,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Landon,Cribari
+2,9,17:13.7,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Aaron,Soni
+3,10,17:35.5,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Shane,Duong
+4,10,17:40.0,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Connor,Whitson
+5,10,17:46.2,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Braxton,Winters
+6,9,18:12.5,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Jack,Arango
+7,9,18:13.4,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Carter,Cormier
+8,9,18:16.4,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Youyi,Ding
+9,10,18:26.2,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Daniel,Bartz
+10,9,18:40.7,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Tomas,Nieto
+11,9,18:59.0,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Vince,Moreno
+12,10,19:01.5,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Phuc,Vo
+13,10,19:16.5,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Colby,Leal
+14,9,19:25.4,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Long,Le
+15,9,19:27.0,Piedmont Hills,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Logan,Le
+16,9,19:37.5,Piedmont Hills,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Jackie,Wei
+17,9,19:43.5,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Anteo,Matlosz
+18,10,19:45.5,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Koleman,Chang
+19,10,20:29.9,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Vinicios,Cuellar
+20,10,20:32.0,Pioneer,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Michael,Nakamura
+21,10,20:47.5,Piedmont Hills,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Daksh,Choksi
+22,10,20:48.2,Piedmont Hills,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Landon,Tran
+23,9,20:58.0,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Naythan,Cruz
+25,9,21:11.2,Santa Teresa,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Austyn,Rivero
+26,9,21:56.0,Piedmont Hills,2.74 Miles Frosh/Soph 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Ryan,Aziz
+27,10,22:09.7,Westmont,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Yash,Chitambar
+28,10,24:17.0,Piedmont Hills,2.74 Miles Frosh/Soph 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Arav,Patel
+1,12,17:12.5,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Kevin,West
+2,11,17:31.7,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jonah,Bosteels
+3,11,17:37.7,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Divik,Chotani
+4,12,17:49.5,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Sparsh,Johri
+5,11,17:54.7,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Vishal,Singh
+6,11,18:06.9,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Aidan,Hernandez
+7,12,18:19.2,Westmont,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Ryan,Chaudoin
+8,11,18:21.0,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Aiden,Kelly
+9,11,18:38.7,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Mathai
+10,11,18:43.4,Westmont,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Mason,McCaskill
+11,11,18:52.5,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Owen,Souza
+12,11,18:53.5,Westmont,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Miles,Hernandez
+13,11,18:54.5,Westmont,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Takuha,Kanazawa
+14,12,19:00.2,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Henry,Wolverton
+15,11,19:01.0,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Brighton,Nguyen
+16,12,19:03.7,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Nathan,Tran
+17,12,19:05.4,Pioneer,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Joshua,Matni
+18,12,19:14.7,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Timothy,Nguyen
+19,12,19:33.9,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Bao,Nguyen
+20,11,19:39.0,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Parker,Unze
+21,11,19:47.5,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Minh,Tran
+22,11,19:59.2,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Andrew,Mauga
+24,9,20:15.4,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Aiden,Lam
+25,9,20:15.5,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Aiden,Concepcion
+26,12,20:21.2,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Carlos,Bolanos
+27,11,20:37.0,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Cao
+28,11,20:50.0,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Tobias,Berman
+29,11,20:52.5,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Alex,Meeker
+31,11,21:14.4,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Dawson,Nguyen
+32,9,21:14.7,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Jason,Nguyen
+33,12,21:30.0,Pioneer,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Danitz
+34,9,21:30.5,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Aaron,Nguyen
+35,10,21:33.5,Santa Teresa,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Phuc,Vo
+36,9,21:41.7,Santa Teresa,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Adrian,Heck
+37,9,21:49.2,Pioneer,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Luka,Bazan
+38,11,21:49.9,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jake,Rariden
+39,10,21:55.0,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Bowie,Chiu
+40,12,22:00.7,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Evan,Prolo
+41,9,22:02.7,Westmont,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Max,Jarrett
+42,9,22:03.0,Leland,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Ashton,Ancheta
+43,10,22:11.2,Pioneer,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Cyrus,Downing
+44,9,22:14.4,Pioneer,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Liam,Brough
+46,9,22:28.2,Pioneer,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Kieran,Madorin
+47,9,23:01.9,Westmont,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Oisin,Clark
+48,10,23:04.9,Santa Teresa,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Kyan,Wong
+49,9,23:09.2,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Jayden,Ho
+50,10,23:17.4,Willow Glen,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Hendrix,Russell
+51,9,23:27.9,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Yosef,Berhan
+53,11,23:38.0,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Dylan,Yabe
+54,10,23:40.0,Pioneer,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Chad,Spence
+55,11,23:44.9,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Arjun,Yeleshwarapu
+56,10,23:50.7,Pioneer,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Jaxon,Adams
+58,11,23:57.0,Silver Creek,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ronald,Schoene
+59,10,24:03.9,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Bruce,Wen
+60,10,24:11.4,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Brian,Pham
+62,9,24:32.5,Willow Glen,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Lucas,Salzer
+63,9,24:36.9,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,William,Tran
+64,11,24:52.9,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Caleb,Spencer
+65,9,25:07.9,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Aidan,Ma
+67,11,25:11.2,Silver Creek,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jason,Dang
+69,9,25:20.0,Santa Teresa,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Maks,Makarov
+71,9,28:44.2,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,William,Phung
+72,9,28:52.4,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Rajvir,Singh
+73,11,29:39.0,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Sebastian,Neff
+74,10,29:42.4,Leland,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Dan,Dorsey
+75,12,30:13.7,Silver Creek,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Kevin,Bui
+76,12,30:28.2,Westmont,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Cuinn,Huber
+77,11,31:05.7,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Christian,Abady
+78,9,33:11.5,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Udbhav,Kuppa
+1,11,18:34.2,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Paige,Unger
+2,12,18:37.9,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Sophia,William
+3,9,19:13.0,Silver Creek,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Natalia,Niebles
+4,11,19:15.0,Willow Glen,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Raven,Nieto
+5,9,19:16.4,Willow Glen,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Taylor,Chesarek
+6,11,19:37.0,Leland,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Maria,Forster
+7,9,19:42.5,Willow Glen,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Katelynn,Dilbeck
+8,11,19:42.7,Silver Creek,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Mary,Howard
+9,12,20:03.7,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Dominique,Salinas
+10,11,20:05.0,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Karuna,Gray
+11,9,20:18.4,Willow Glen,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Isabella,Riggs
+12,10,20:51.4,Leland,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Ameya,Ganesh
+13,10,20:51.7,Leland,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Lillian,Montgomery
+14,9,21:26.5,Silver Creek,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Rachel,Howard
+15,12,21:38.0,Willow Glen,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Haley,Meyer
+16,10,21:42.0,Leland,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Eva,Nguyen-Fell
+17,12,21:50.2,Silver Creek,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Meha,Kavoori
+18,9,22:16.0,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Ramneek,Kaur
+19,12,22:21.0,Silver Creek,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Hillary,Dang
+20,11,22:37.9,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Lily,Wen
+21,12,22:52.0,Silver Creek,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Isabela,Lipscomb
+22,12,22:53.7,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Tracy,Cao
+23,10,22:59.4,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Shragvi,Sunil
+24,10,23:08.0,Leland,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Breanna,Lu
+25,11,24:02.2,Evergreen Valley,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Sabrina,Tran
+26,11,24:21.9,Leland,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Kaela,Pham
+27,12,25:34.5,Silver Creek,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Hailey,Dang
+1,12,16:48.2,Pioneer,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Isabella,Peretti
+2,10,18:20.2,Westmont,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Tauren,Mitchell
+3,11,18:25.5,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Felisha,Kuo
+4,12,18:50.2,Pioneer,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Hanna,Olson
+5,11,19:23.4,Santa Teresa,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Mackenzie,MacDonald
+6,11,19:32.2,Santa Teresa,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jane,Partsch
+7,9,19:58.9,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Amie,Nguyen
+8,12,20:07.9,Pioneer,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Kate,Smyrniotis
+9,9,20:15.0,Santa Teresa,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Kim,Le
+10,11,20:27.4,Westmont,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Alexandra,Gryciuk
+11,11,20:35.0,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Daya,Kumaran
+12,12,20:41.5,Westmont,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Lily,Stockmans
+13,11,20:47.0,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Kalia,Villanueva
+14,11,20:54.0,Westmont,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Avalon,Kelly
+15,10,20:56.5,Pioneer,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Andrea,Ayala
+16,10,21:07.7,Westmont,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Kiarra,D'Arcangelo
+17,12,21:19.0,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Esther,Lau
+18,12,21:36.2,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Evelyn,Sen
+19,9,21:59.2,Santa Teresa,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Sophia,Valle
+20,12,22:05.9,Santa Teresa,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Melody,Nguyen
+21,11,22:07.7,Santa Teresa,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ariana,Gauff
+22,11,22:36.9,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Dina,Berhan
+23,10,22:58.2,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Kayla,Tran
+24,10,23:11.7,Westmont,2.74 Miles Reserves,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Yaocihuatl,Gamboa
+25,12,23:12.2,Piedmont Hills,2.74 Miles Reserves,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Shweta,Raghuraman
+26,11,23:13.5,Pioneer,2.74 Miles Reserves,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Abigail,Shlimenzon
+27,9,24:45.2,Westmont,2.74 Miles Reserves,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Sara,Chaudoin
+1,11,15:01.3,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Casey,Nuti
+2,12,15:18.0,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Amir,Jordan
+3,12,15:42.8,Leland,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Sami,Shafi
+4,12,15:52.6,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Tommy,Callahan
+5,12,16:10.1,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Eduardo,Favela
+6,12,16:12.3,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Bryan,Cromartie
+7,9,16:25.6,Leland,2.74 Miles Varsity 1,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Colin,Jubert
+8,12,16:39.7,Leland,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Aidan,Cain
+9,11,16:42.6,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Abhyuday,Srivatsa
+10,11,16:49.0,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jacob,Lantis
+11,10,16:49.7,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Mateo,Carino
+12,10,16:55.0,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Nikos,Dal Canto
+13,11,16:55.7,Leland,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Brian,Jackson
+14,12,16:56.2,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Evan,Itow
+15,10,16:59.2,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Rohith,Kompella
+16,12,17:07.0,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Philip,Le
+17,10,17:15.5,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Brandon,Gingras
+18,11,17:25.9,Leland,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Keshav,Sethi
+19,11,17:32.9,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Garcia
+20,11,17:44.0,Willow Glen,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Madex,Kim
+21,10,18:01.2,Leland,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Zachary,Derse
+23,11,18:14.9,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Enrique,Hernandez
+24,12,18:20.9,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Colin,Gabriel
+25,11,18:21.7,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,James,Nguyen
+26,10,18:32.4,Evergreen Valley,2.74 Miles Varsity 1,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Jeremy,Gingras
+27,11,18:49.2,Silver Creek,2.74 Miles Varsity 1,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Eric,Huynh
+1,9,14:58.2,Pioneer,2.74 Miles Varsity 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Carson,Hedlund
+2,10,15:09.6,Westmont,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Shane,Dalziel
+3,11,15:10.5,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jeffrey,Hedlund
+4,11,15:27.3,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Zachary,Irwin
+5,11,15:28.2,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Anthony,Sosa
+6,11,15:44.7,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Ojas,Joshi
+7,10,16:07.8,Pioneer,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Ethan,Mosher
+8,12,16:09.0,Westmont,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Skyler,Dalziel
+9,11,16:17.1,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Finlay,McAfee
+10,11,16:22.2,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jack,Park
+11,11,16:33.6,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Luke,Morgan
+12,12,16:34.3,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Xinyu,Zhang
+13,12,16:35.6,Pioneer,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Yacob,Kifle
+14,11,16:46.5,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Troy,Nguyen
+15,11,16:52.0,Westmont,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Evan,Griffith
+16,12,16:54.2,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Anthony,Martinez
+17,11,17:18.2,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Alvin,Dang
+18,11,17:40.5,Pioneer,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Omar,Lopez
+19,12,18:05.0,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Bryce,Johnson
+20,12,18:12.0,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Mustafa,Malik
+21,12,18:14.7,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Aiden,Agudelo-Petrini
+22,10,18:22.5,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Hayden,Hernandez
+23,9,18:34.2,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Arkadiusz,Matlosz
+24,11,18:36.7,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jacob,Pham
+25,10,18:37.2,Piedmont Hills,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Spencer,King
+26,10,18:38.5,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Preston,Nguyen
+27,12,18:45.7,Santa Teresa,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Joshua,Krone
+28,12,19:03.0,Westmont,2.74 Miles Varsity 2,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Samuel,Collins
+1,10,20:43.7,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Abigail,Riggs
+2,11,21:04.4,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Katelynn,Stocks
+3,9,21:26.0,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Eva,Cardoza
+4,9,21:54.7,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Sierra,Cherniavsky
+5,11,22:13.5,Leland,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Corinne,Thelen
+6,9,22:27.2,Santa Teresa,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Nevaeh,Bryant
+7,10,22:53.0,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Kayleigh,Viegas
+8,9,23:05.0,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Madelyn,Kwan
+9,10,23:21.7,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Sadie,Woodward
+10,9,23:49.2,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Allyson,Itow
+11,10,23:52.5,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Sophia,Gallon
+12,10,23:54.2,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Vivian,Nguyen
+13,11,24:03.5,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Jasdeep,Kaur
+14,10,24:18.5,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Bella,Henkels
+15,10,24:26.4,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Nell,Callahan
+16,11,24:43.4,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Tammy,Do
+17,9,24:45.0,Silver Creek,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Eliana,Colin
+18,10,24:50.4,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Yining,Cui
+19,9,25:04.4,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Juliet,Tran
+20,11,25:05.9,Leland,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Serena,Xiang
+21,11,25:09.5,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Nylah,Lemus
+22,9,25:20.7,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Erica,Gunn
+23,9,26:05.9,Piedmont Hills,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Lori,Lew
+25,9,27:45.5,Santa Teresa,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Harleen,Chahal
+27,10,28:21.0,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Paloma,Helms
+28,10,28:46.5,Silver Creek,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Sahana,Chowlur
+29,9,29:03.0,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Jordyn,Lovdahl
+30,9,29:17.9,Santa Teresa,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Chloe,Teo
+31,9,29:25.5,Evergreen Valley,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Manushri,Pitale
+32,9,29:39.5,Silver Creek,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Mina,Prasad
+2,12,23:04.4,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Viviana,Casas
+3,9,24:16.7,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Sofia,Russell
+4,9,25:24.9,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Sonia,Feria
+5,9,25:34.7,Willow Glen,2.74 Miles Junior Varsity,2021-10-27,2025,Search,UNK,Montgomery Hill Park,4410,2021,M,Grace,Davila Martinez
+6,12,26:31.9,Silver Creek,2.74 Miles Junior Varsity,2021-10-27,2022,Search,UNK,Montgomery Hill Park,4410,2021,M,Samantha,Veronica
+7,10,30:39.2,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2024,Search,UNK,Montgomery Hill Park,4410,2021,M,Suri,Mowji
+8,11,33:19.2,Pioneer,2.74 Miles Junior Varsity,2021-10-27,2023,Search,UNK,Montgomery Hill Park,4410,2021,M,Abigail,Kifle

@@ -1,0 +1,651 @@
+Place,Grade,Athlete,Duration,School,Race,Gender
+29,9,Tony Yang,13:28.1,Westmont,2.13 Miles Freshman Boys,Gender
+87,9,Carlos Cobo,15:37.2,Westmont,2.13 Miles Freshman Boys,Gender
+126,9,Kai Lee,18:51.5,Westmont,2.13 Miles Freshman Boys,Gender
+22,10,Shugo Fujikawa,12:32.8,Westmont,2.13 Miles Sophomore Boys,Gender
+35,10,Anshul Dhaas,13:05.6,Westmont,2.13 Miles Sophomore Boys,Gender
+50,10,Kaiden Huynh,13:39.4,Westmont,2.13 Miles Sophomore Boys,Gender
+75,10,Daniil Yakavets,14:20.5,Westmont,2.13 Miles Sophomore Boys,Gender
+102,10,Noah Davery,16:07.9,Westmont,2.13 Miles Sophomore Boys,Gender
+121,10,Colin Wade,20:37.8,Westmont,2.13 Miles Sophomore Boys,Gender
+10,11,Adrian Ketterer,17:12.4,Westmont,2.95 Miles Junior Boys,Gender
+22,12,Jack Arango,17:57.4,Westmont,2.95 Miles Senior Boys,Gender
+30,12,Carter Cormier,18:37.0,Westmont,2.95 Miles Senior Boys,Gender
+45,12,Neil Munot,19:50.2,Westmont,2.95 Miles Senior Boys,Gender
+75,12,Logan Wade,23:51.8,Westmont,2.95 Miles Senior Boys,Gender
+27,9,Madelyn Wu,16:29.1,Westmont,2.13 Miles Freshman Girls,Girls
+5,10,Hannah Crowley,14:28.2,Westmont,2.13 Miles Sophomore Girls,Girls
+19,12,Sara Chaudoin,23:07.5,Westmont,2.95 Miles Senior Girls,Girls
+27,9,Gustavo Sandoval,13:24.3,Watsonville,2.13 Miles Freshman Boys,Gender
+3,10,Nain Garcia-Ferria,11:32.6,Watsonville,2.13 Miles Sophomore Boys,Gender
+38,10,Damian Villarruel,13:08.5,Watsonville,2.13 Miles Sophomore Boys,Gender
+49,10,Christopher Gallegos,13:36.8,Watsonville,2.13 Miles Sophomore Boys,Gender
+59,10,Jesse Fernandez-Rocha,13:54.1,Watsonville,2.13 Miles Sophomore Boys,Gender
+11,11,Desi Salinas-Holz,17:12.8,Watsonville,2.95 Miles Junior Boys,Gender
+35,11,Ernesto Martinez,18:45.9,Watsonville,2.95 Miles Junior Boys,Gender
+37,11,Diego Gonzalez,18:48.2,Watsonville,2.95 Miles Junior Boys,Gender
+43,11,Javier Aldaco-De Los Santos,19:10.8,Watsonville,2.95 Miles Junior Boys,Gender
+25,12,Jared Sunga,18:04.5,Watsonville,2.95 Miles Senior Boys,Gender
+38,12,Daniel Salcedo,19:19.8,Watsonville,2.95 Miles Senior Boys,Gender
+60,12,Benjamin Miller,21:43.0,Watsonville,2.95 Miles Senior Boys,Gender
+45,9,Zoe Cornett,17:42.4,Watsonville,2.13 Miles Freshman Girls,Girls
+10,10,Aileen Reyes,15:00.5,Watsonville,2.13 Miles Sophomore Girls,Girls
+39,10,Alma Vasquez,18:17.8,Watsonville,2.13 Miles Sophomore Girls,Girls
+8,11,Lizbeth Gomez Abrica,21:22.2,Watsonville,2.95 Miles Junior Girls,Girls
+35,11,Giselle Marquez,26:37.9,Watsonville,2.95 Miles Junior Girls,Girls
+37,11,Kurihani Carbajal-Vega,27:23.4,Watsonville,2.95 Miles Junior Girls,Girls
+1,12,Katelynn Ruiz,19:01.9,Watsonville,2.95 Miles Senior Girls,Girls
+20,9,Pablo Scanziani Grijalvo,13:00.7,Terra Nova,2.13 Miles Freshman Boys,Gender
+54,9,Kaiden Wong,14:08.7,Terra Nova,2.13 Miles Freshman Boys,Gender
+64,9,Cash Kopping,14:28.1,Terra Nova,2.13 Miles Freshman Boys,Gender
+76,9,Ezra Dubnicoff,14:58.7,Terra Nova,2.13 Miles Freshman Boys,Gender
+80,9,Joshua Reeder,15:15.0,Terra Nova,2.13 Miles Freshman Boys,Gender
+81,9,Dean Fitzpatrick,15:15.3,Terra Nova,2.13 Miles Freshman Boys,Gender
+96,9,Vinh-Phong Stanton,16:02.3,Terra Nova,2.13 Miles Freshman Boys,Gender
+107,9,Kailoa Lownds,17:12.5,Terra Nova,2.13 Miles Freshman Boys,Gender
+127,9,Anthony Vintero,18:56.1,Terra Nova,2.13 Miles Freshman Boys,Gender
+29,10,Aidan Nappi,12:54.9,Terra Nova,2.13 Miles Sophomore Boys,Gender
+69,10,Lachlan Bailey,14:06.1,Terra Nova,2.13 Miles Sophomore Boys,Gender
+77,10,Aaron Paul,14:27.9,Terra Nova,2.13 Miles Sophomore Boys,Gender
+84,10,Kevin Le,14:55.4,Terra Nova,2.13 Miles Sophomore Boys,Gender
+96,10,Atticus Brookshire,15:32.7,Terra Nova,2.13 Miles Sophomore Boys,Gender
+109,10,Raymond Perez,16:38.2,Terra Nova,2.13 Miles Sophomore Boys,Gender
+118,10,Pre Lai,18:19.5,Terra Nova,2.13 Miles Sophomore Boys,Gender
+31,11,Calvin Chan,18:32.8,Terra Nova,2.95 Miles Junior Boys,Gender
+61,11,James Miller,21:02.2,Terra Nova,2.95 Miles Junior Boys,Gender
+79,11,Dylan Poblitz,24:48.9,Terra Nova,2.95 Miles Junior Boys,Gender
+83,11,Jasper Wilson-Thornton,25:43.2,Terra Nova,2.95 Miles Junior Boys,Gender
+20,12,Marcus Balistreri,17:45.6,Terra Nova,2.95 Miles Senior Boys,Gender
+52,12,Nathan Hamilton,20:57.7,Terra Nova,2.95 Miles Senior Boys,Gender
+57,12,Riley Spetman,21:31.3,Terra Nova,2.95 Miles Senior Boys,Gender
+80,12,Mark Heusser,25:09.9,Terra Nova,2.95 Miles Senior Boys,Gender
+28,9,Claire Moore,16:40.1,Terra Nova,2.13 Miles Freshman Girls,Girls
+77,9,Kayla Valle,21:27.4,Terra Nova,2.13 Miles Freshman Girls,Girls
+15,10,Claire Sachse,15:17.1,Terra Nova,2.13 Miles Sophomore Girls,Girls
+27,10,Geneva Chan,16:11.5,Terra Nova,2.13 Miles Sophomore Girls,Girls
+50,10,Mariella Rodriguez,21:45.9,Terra Nova,2.13 Miles Sophomore Girls,Girls
+10,11,Emilia Ellison,22:10.4,Terra Nova,2.95 Miles Junior Girls,Girls
+99,10,Aaron Glasband,15:51.7,Summit Tahoma,2.13 Miles Sophomore Boys,Gender
+44,12,Jayden Franco,19:50.1,Summit Tahoma,2.95 Miles Senior Boys,Gender
+68,12,Daniel Rosas,22:36.4,Summit Tahoma,2.95 Miles Senior Boys,Gender
+82,12,Kyle Quach,29:30.5,Summit Tahoma,2.95 Miles Senior Boys,Gender
+55,10,Nicole Lu,22:13.3,Summit Tahoma,2.13 Miles Sophomore Girls,Girls
+37,12,Chloe Catalbas,33:22.7,Summit Tahoma,2.95 Miles Senior Girls,Girls
+120,9,Dante Lopez,18:02.2,South San Francisco,2.13 Miles Freshman Boys,Gender
+11,10,Daniel Martinez Alvarado,12:16.0,South San Francisco,2.13 Miles Sophomore Boys,Gender
+32,10,Andrew Feng,13:01.9,South San Francisco,2.13 Miles Sophomore Boys,Gender
+33,10,Adrian Sanchez,13:02.8,South San Francisco,2.13 Miles Sophomore Boys,Gender
+7,12,Edwin Gonzalez,16:56.0,South San Francisco,2.95 Miles Senior Boys,Gender
+18,12,Diego Alas,17:29.1,South San Francisco,2.95 Miles Senior Boys,Gender
+39,12,Noah Lee,19:22.5,South San Francisco,2.95 Miles Senior Boys,Gender
+51,12,Jeremy Poncio,20:57.4,South San Francisco,2.95 Miles Senior Boys,Gender
+81,12,Marco Matamoros Rodriguez,25:10.8,South San Francisco,2.95 Miles Senior Boys,Gender
+62,9,Aaliyah Yap,18:55.4,South San Francisco,2.13 Miles Freshman Girls,Girls
+13,9,Henry Giardi,12:51.4,Sequoia,2.13 Miles Freshman Boys,Gender
+61,9,Colin Henderson,14:23.1,Sequoia,2.13 Miles Freshman Boys,Gender
+105,9,Jacob Reynolds,16:54.3,Sequoia,2.13 Miles Freshman Boys,Gender
+106,9,Massimo Ramezane,16:55.1,Sequoia,2.13 Miles Freshman Boys,Gender
+108,9,Ben Carter,17:15.7,Sequoia,2.13 Miles Freshman Boys,Gender
+116,9,Sachin Paranjpye,17:45.5,Sequoia,2.13 Miles Freshman Boys,Gender
+117,9,Cole Boggs,17:46.0,Sequoia,2.13 Miles Freshman Boys,Gender
+4,10,Luke Popler,11:34.6,Sequoia,2.13 Miles Sophomore Boys,Gender
+46,10,Elliot Rios,13:30.4,Sequoia,2.13 Miles Sophomore Boys,Gender
+48,10,Matthew Macedo,13:32.8,Sequoia,2.13 Miles Sophomore Boys,Gender
+71,10,Meezahn Kemal,14:15.4,Sequoia,2.13 Miles Sophomore Boys,Gender
+98,10,Fred Quontamatteo,15:50.6,Sequoia,2.13 Miles Sophomore Boys,Gender
+120,10,Alex Corpos,19:24.5,Sequoia,2.13 Miles Sophomore Boys,Gender
+60,11,Brennan Sherman,21:01.7,Sequoia,2.95 Miles Junior Boys,Gender
+64,11,Caleb Streck,21:16.4,Sequoia,2.95 Miles Junior Boys,Gender
+67,11,Jonathan Jen,21:40.2,Sequoia,2.95 Miles Junior Boys,Gender
+70,11,Ethan Butt,22:00.6,Sequoia,2.95 Miles Junior Boys,Gender
+71,11,Benton Min,22:19.5,Sequoia,2.95 Miles Junior Boys,Gender
+80,11,Cole Myers,25:01.2,Sequoia,2.95 Miles Junior Boys,Gender
+4,12,Cameron Reynolds,16:32.9,Sequoia,2.95 Miles Senior Boys,Gender
+28,12,Luke Shafer,18:23.3,Sequoia,2.95 Miles Senior Boys,Gender
+66,12,Arran Henderson,22:25.4,Sequoia,2.95 Miles Senior Boys,Gender
+26,9,Ellie Markworth,16:27.1,Sequoia,2.13 Miles Freshman Girls,Girls
+54,9,Fei Hwang,18:25.7,Sequoia,2.13 Miles Freshman Girls,Girls
+69,9,Elisabetta Holloszy,19:57.2,Sequoia,2.13 Miles Freshman Girls,Girls
+70,9,Elisabeth Diamond,19:58.0,Sequoia,2.13 Miles Freshman Girls,Girls
+72,9,Celestine Nolf,20:03.8,Sequoia,2.13 Miles Freshman Girls,Girls
+21,10,Sabine O'Hara,15:37.8,Sequoia,2.13 Miles Sophomore Girls,Girls
+25,10,Nina Vijeh,16:03.9,Sequoia,2.13 Miles Sophomore Girls,Girls
+34,10,Alisa Portner,16:55.4,Sequoia,2.13 Miles Sophomore Girls,Girls
+35,10,Elise Leparmentier,17:08.7,Sequoia,2.13 Miles Sophomore Girls,Girls
+51,10,Ellie Kapp,21:53.4,Sequoia,2.13 Miles Sophomore Girls,Girls
+52,10,Sage Gainey,21:55.1,Sequoia,2.13 Miles Sophomore Girls,Girls
+16,12,Sarina Sanghvi,22:49.1,Sequoia,2.95 Miles Senior Girls,Girls
+4,9,Anthony Hsiao,11:40.6,San Mateo,2.13 Miles Freshman Boys,Gender
+11,9,James Ross,12:44.2,San Mateo,2.13 Miles Freshman Boys,Gender
+44,9,Apollo Lee,13:57.8,San Mateo,2.13 Miles Freshman Boys,Gender
+62,9,Rio Sakamoto,14:25.0,San Mateo,2.13 Miles Freshman Boys,Gender
+70,9,Trevor Rizzo,14:48.9,San Mateo,2.13 Miles Freshman Boys,Gender
+92,9,Lauchlin Uppington,15:56.6,San Mateo,2.13 Miles Freshman Boys,Gender
+73,10,Max Giacomazzi,14:19.0,San Mateo,2.13 Miles Sophomore Boys,Gender
+85,10,Avinash Kishore,14:56.7,San Mateo,2.13 Miles Sophomore Boys,Gender
+112,10,Evan Tam,17:13.2,San Mateo,2.13 Miles Sophomore Boys,Gender
+119,10,Gabriel Gachet,18:33.9,San Mateo,2.13 Miles Sophomore Boys,Gender
+3,11,Shotaro Take,16:44.9,San Mateo,2.95 Miles Junior Boys,Gender
+14,11,Adwaiy Ambardekar,17:21.1,San Mateo,2.95 Miles Junior Boys,Gender
+84,11,Arnav Shah,25:55.3,San Mateo,2.95 Miles Junior Boys,Gender
+3,12,Andrew Song,16:22.2,San Mateo,2.95 Miles Senior Boys,Gender
+19,12,Benjamin Yeager,17:30.7,San Mateo,2.95 Miles Senior Boys,Gender
+65,12,Topias Rajamaki,22:20.7,San Mateo,2.95 Miles Senior Boys,Gender
+73,12,Honorio Gonzales,23:12.2,San Mateo,2.95 Miles Senior Boys,Gender
+74,12,Kensing Wong,23:37.8,San Mateo,2.95 Miles Senior Boys,Gender
+76,12,Owen Tom,23:54.3,San Mateo,2.95 Miles Senior Boys,Gender
+79,12,Bruce Zhang,25:09.2,San Mateo,2.95 Miles Senior Boys,Gender
+21,9,Lucy Yeager,15:51.4,San Mateo,2.13 Miles Freshman Girls,Girls
+58,9,Liv Schoenmeyr,18:33.7,San Mateo,2.13 Miles Freshman Girls,Girls
+64,9,Katerina Beran,19:12.0,San Mateo,2.13 Miles Freshman Girls,Girls
+81,9,Inara Vijan,23:35.9,San Mateo,2.13 Miles Freshman Girls,Girls
+7,10,Simran Thakur,14:34.1,San Mateo,2.13 Miles Sophomore Girls,Girls
+8,10,Hana Ichiki,14:46.3,San Mateo,2.13 Miles Sophomore Girls,Girls
+16,10,Samantha Liu,15:23.4,San Mateo,2.13 Miles Sophomore Girls,Girls
+28,10,Mari Erfort,16:17.8,San Mateo,2.13 Miles Sophomore Girls,Girls
+41,10,Tamanna Majithia,19:04.2,San Mateo,2.13 Miles Sophomore Girls,Girls
+49,10,Seydi Aguilar,20:29.4,San Mateo,2.13 Miles Sophomore Girls,Girls
+31,11,Laura Seto,26:12.6,San Mateo,2.95 Miles Junior Girls,Girls
+18,12,Megan Iannone,22:56.3,San Mateo,2.95 Miles Senior Girls,Girls
+17,9,Raul Escobar,12:56.5,Mt Pleasant,2.13 Miles Freshman Boys,Gender
+69,9,Angel Corona,14:37.3,Mt Pleasant,2.13 Miles Freshman Boys,Gender
+12,10,Aiden Gonzalez,12:16.1,Mt Pleasant,2.13 Miles Sophomore Boys,Gender
+23,10,Vicente Delgado,12:38.5,Mt Pleasant,2.13 Miles Sophomore Boys,Gender
+55,11,Jonathan Parisi,20:05.7,Mt Pleasant,2.95 Miles Junior Boys,Gender
+29,12,Kristian De La Sierra,18:26.2,Mt Pleasant,2.95 Miles Senior Boys,Gender
+87,10,Andrew Lam,14:57.4,Mt Eden,2.13 Miles Sophomore Boys,Gender
+88,10,Matthew Jacobo,15:03.3,Mt Eden,2.13 Miles Sophomore Boys,Gender
+89,10,Bryan Patino,15:09.2,Mt Eden,2.13 Miles Sophomore Boys,Gender
+46,12,Alexander Nguyen,19:53.8,Mt Eden,2.95 Miles Senior Boys,Gender
+59,9,Marisol Flamenco,18:34.3,Mt Eden,2.13 Miles Freshman Girls,Girls
+73,9,Marisa Arrizon,20:24.1,Mt Eden,2.13 Miles Freshman Girls,Girls
+31,10,Alyssa Bejarano,16:33.9,Mt Eden,2.13 Miles Sophomore Girls,Girls
+30,11,Alison Luong,26:07.0,Mt Eden,2.95 Miles Junior Girls,Girls
+12,12,Karina Arrizon,21:39.0,Mt Eden,2.95 Miles Senior Girls,Girls
+26,9,Neil Radar,13:17.6,Monte Vista Christian,2.13 Miles Freshman Boys,Gender
+52,9,Luke White,14:05.1,Monte Vista Christian,2.13 Miles Freshman Boys,Gender
+72,9,Gavin Robinson,14:53.3,Monte Vista Christian,2.13 Miles Freshman Boys,Gender
+28,10,Luciano Guerra,12:52.8,Monte Vista Christian,2.13 Miles Sophomore Boys,Gender
+66,10,Douglas Smay,13:59.1,Monte Vista Christian,2.13 Miles Sophomore Boys,Gender
+5,11,Gavin Beckmen,16:47.1,Monte Vista Christian,2.95 Miles Junior Boys,Gender
+8,11,Conor Gilliam,17:04.1,Monte Vista Christian,2.95 Miles Junior Boys,Gender
+74,11,Alexander Jones,23:37.1,Monte Vista Christian,2.95 Miles Junior Boys,Gender
+92,11,Tony Organista,31:52.2,Monte Vista Christian,2.95 Miles Junior Boys,Gender
+10,12,Justin McCullick,17:06.7,Monte Vista Christian,2.95 Miles Senior Boys,Gender
+13,12,Bradley Orlando,17:19.2,Monte Vista Christian,2.95 Miles Senior Boys,Gender
+4,9,Anna Conca,14:05.2,Monte Vista Christian,2.13 Miles Freshman Girls,Girls
+4,10,Finley Castro,14:04.7,Monte Vista Christian,2.13 Miles Sophomore Girls,Girls
+2,12,Kylie Brunelli,19:04.4,Monte Vista Christian,2.95 Miles Senior Girls,Girls
+3,9,Patrick Jahutka,11:39.0,Mills,2.13 Miles Freshman Boys,Gender
+2,10,David Eberspacher,11:30.7,Mills,2.13 Miles Sophomore Boys,Gender
+8,10,Kyle Venook,12:03.7,Mills,2.13 Miles Sophomore Boys,Gender
+27,10,Jayden Xie,12:52.6,Mills,2.13 Miles Sophomore Boys,Gender
+44,10,Anton Varfolomeev,13:24.3,Mills,2.13 Miles Sophomore Boys,Gender
+60,10,Andrew Liu,13:54.5,Mills,2.13 Miles Sophomore Boys,Gender
+62,10,Evan Chen,13:56.0,Mills,2.13 Miles Sophomore Boys,Gender
+80,10,Gavin Rivera,14:41.0,Mills,2.13 Miles Sophomore Boys,Gender
+95,10,Yo Omura,15:32.4,Mills,2.13 Miles Sophomore Boys,Gender
+100,10,Justin Evanchik,15:55.9,Mills,2.13 Miles Sophomore Boys,Gender
+110,10,Toby Chen,16:46.4,Mills,2.13 Miles Sophomore Boys,Gender
+116,10,Jaeden Lamarca,17:40.7,Mills,2.13 Miles Sophomore Boys,Gender
+7,11,Kaden Ren,16:57.4,Mills,2.95 Miles Junior Boys,Gender
+12,11,Kevin Ren,17:14.1,Mills,2.95 Miles Junior Boys,Gender
+18,11,Ethan Cabrera,17:45.1,Mills,2.95 Miles Junior Boys,Gender
+48,11,Dashan Liu,19:27.8,Mills,2.95 Miles Junior Boys,Gender
+81,11,Matthew Wong,25:18.3,Mills,2.95 Miles Junior Boys,Gender
+89,11,Benjamin Ahnn,27:34.3,Mills,2.95 Miles Junior Boys,Gender
+55,12,Kamran John,21:18.1,Mills,2.95 Miles Senior Boys,Gender
+63,12,Ethan Lau,22:11.8,Mills,2.95 Miles Senior Boys,Gender
+64,12,Preston Liu,22:12.3,Mills,2.95 Miles Senior Boys,Gender
+16,9,Giselle Lopez,15:16.0,Mills,2.13 Miles Freshman Girls,Girls
+22,9,Alana Owen,16:06.3,Mills,2.13 Miles Freshman Girls,Girls
+33,9,Lucia Null,16:56.7,Mills,2.13 Miles Freshman Girls,Girls
+34,9,Jolie Wong,16:59.6,Mills,2.13 Miles Freshman Girls,Girls
+38,9,Ella Luk,17:16.5,Mills,2.13 Miles Freshman Girls,Girls
+43,9,Jesika Sapkota,17:29.3,Mills,2.13 Miles Freshman Girls,Girls
+47,9,Sophia Eng,18:11.4,Mills,2.13 Miles Freshman Girls,Girls
+63,9,Madison Wong,19:07.9,Mills,2.13 Miles Freshman Girls,Girls
+76,9,Bella Kerri,20:59.2,Mills,2.13 Miles Freshman Girls,Girls
+12,10,Alexa Dunn,15:10.1,Mills,2.13 Miles Sophomore Girls,Girls
+17,10,Alyssa Mai,15:29.1,Mills,2.13 Miles Sophomore Girls,Girls
+29,10,Carina Dang,16:22.8,Mills,2.13 Miles Sophomore Girls,Girls
+37,10,Nina Kerri,17:40.2,Mills,2.13 Miles Sophomore Girls,Girls
+1,11,Chloe Amayun,20:13.5,Mills,2.95 Miles Junior Girls,Girls
+9,11,Kaelyn Chan,21:41.7,Mills,2.95 Miles Junior Girls,Girls
+11,11,Janelle Pantilon,22:44.2,Mills,2.95 Miles Junior Girls,Girls
+18,11,Clarissa Louie,24:17.1,Mills,2.95 Miles Junior Girls,Girls
+40,11,Jocelyn Kwan,28:29.6,Mills,2.95 Miles Junior Girls,Girls
+3,12,Miya Cheng,19:18.6,Mills,2.95 Miles Senior Girls,Girls
+5,12,Katie Yee,19:36.1,Mills,2.95 Miles Senior Girls,Girls
+2,9,Aditya Garg,11:34.6,Leland,2.13 Miles Freshman Boys,Gender
+7,9,Daniel Patellaro,12:19.5,Leland,2.13 Miles Freshman Boys,Gender
+14,9,Patrick Guzman,12:52.1,Leland,2.13 Miles Freshman Boys,Gender
+25,9,Alejandro Lujan,13:15.9,Leland,2.13 Miles Freshman Boys,Gender
+31,9,Owen Widgery,13:38.4,Leland,2.13 Miles Freshman Boys,Gender
+36,9,Rayden Khor,13:45.8,Leland,2.13 Miles Freshman Boys,Gender
+40,9,Eddie Fu,13:48.8,Leland,2.13 Miles Freshman Boys,Gender
+45,9,Dean Gonzalez,13:59.2,Leland,2.13 Miles Freshman Boys,Gender
+46,9,Jeonghan Moon,13:59.8,Leland,2.13 Miles Freshman Boys,Gender
+49,9,Gabriel Rueda,14:01.7,Leland,2.13 Miles Freshman Boys,Gender
+53,9,Yicheng Xie,14:05.6,Leland,2.13 Miles Freshman Boys,Gender
+60,9,Tyler Orth,14:23.1,Leland,2.13 Miles Freshman Boys,Gender
+82,9,Alexander Tang,15:22.0,Leland,2.13 Miles Freshman Boys,Gender
+89,9,Taylor Orth,15:50.5,Leland,2.13 Miles Freshman Boys,Gender
+101,9,KaiShin Chao,16:33.2,Leland,2.13 Miles Freshman Boys,Gender
+109,9,Sebastian Zambada,17:17.3,Leland,2.13 Miles Freshman Boys,Gender
+129,9,Calix Lee,19:55.3,Leland,2.13 Miles Freshman Boys,Gender
+36,10,Zack Ogle,13:06.7,Leland,2.13 Miles Sophomore Boys,Gender
+56,10,Daniel Kang,13:48.0,Leland,2.13 Miles Sophomore Boys,Gender
+70,10,Aksh Vijayant,14:08.0,Leland,2.13 Miles Sophomore Boys,Gender
+93,10,Warren Kim,15:22.6,Leland,2.13 Miles Sophomore Boys,Gender
+97,10,Zachary Fuselier,15:38.9,Leland,2.13 Miles Sophomore Boys,Gender
+101,10,Aviv Yereslove,15:57.1,Leland,2.13 Miles Sophomore Boys,Gender
+106,10,Ren Jie Tsai,16:21.3,Leland,2.13 Miles Sophomore Boys,Gender
+108,10,Aamir Lokhandwala,16:33.3,Leland,2.13 Miles Sophomore Boys,Gender
+117,10,Aadil Zafer,18:16.8,Leland,2.13 Miles Sophomore Boys,Gender
+123,10,Dillan Wagener,20:40.6,Leland,2.13 Miles Sophomore Boys,Gender
+23,11,Varun Rao,18:10.1,Leland,2.95 Miles Junior Boys,Gender
+27,11,Nathan Lee,18:30.8,Leland,2.95 Miles Junior Boys,Gender
+33,11,Alex Kim,18:36.1,Leland,2.95 Miles Junior Boys,Gender
+53,11,Trevor Van Den Broeck,19:49.2,Leland,2.95 Miles Junior Boys,Gender
+6,12,Colin Jubert,16:56.0,Leland,2.95 Miles Senior Boys,Gender
+9,12,Wei Wang,17:00.5,Leland,2.95 Miles Senior Boys,Gender
+10,9,Nao Sawaguchi,14:35.7,Leland,2.13 Miles Freshman Girls,Girls
+35,9,Sayuri Lokeshwar,17:09.5,Leland,2.13 Miles Freshman Girls,Girls
+39,9,Fiona Diep,17:16.8,Leland,2.13 Miles Freshman Girls,Girls
+50,9,Rhea Bambawale,18:18.3,Leland,2.13 Miles Freshman Girls,Girls
+52,9,Yunxi Zhu,18:22.8,Leland,2.13 Miles Freshman Girls,Girls
+65,9,Anya Bhargava,19:15.1,Leland,2.13 Miles Freshman Girls,Girls
+66,9,Laya Arun,19:42.8,Leland,2.13 Miles Freshman Girls,Girls
+78,9,Sieun Bok,21:37.2,Leland,2.13 Miles Freshman Girls,Girls
+79,9,Saesha Pal,21:45.3,Leland,2.13 Miles Freshman Girls,Girls
+48,10,Saachi Basavaraju,20:14.0,Leland,2.13 Miles Sophomore Girls,Girls
+56,10,Catherine Nguyen,22:57.3,Leland,2.13 Miles Sophomore Girls,Girls
+2,11,Maile Shinmoto,20:37.1,Leland,2.95 Miles Junior Girls,Girls
+6,11,Alyssa Nagatani,21:07.4,Leland,2.95 Miles Junior Girls,Girls
+33,11,Angela Fong,26:34.4,Leland,2.95 Miles Junior Girls,Girls
+38,12,Meilee Hsueh,33:28.1,Leland,2.95 Miles Senior Girls,Girls
+21,9,Raza Chaudhary,13:01.4,Leigh,2.13 Miles Freshman Boys,Gender
+24,9,Darwin McCabe,13:14.1,Leigh,2.13 Miles Freshman Boys,Gender
+41,9,Sahaj Khandelwal,13:50.4,Leigh,2.13 Miles Freshman Boys,Gender
+48,9,Parsa Faramarzi,14:01.3,Leigh,2.13 Miles Freshman Boys,Gender
+59,9,Logan Seward,14:22.2,Leigh,2.13 Miles Freshman Boys,Gender
+71,9,Ethaniel Li,14:50.9,Leigh,2.13 Miles Freshman Boys,Gender
+73,9,Owen Kelly,14:54.2,Leigh,2.13 Miles Freshman Boys,Gender
+114,9,Kyuhyun Kim,17:41.1,Leigh,2.13 Miles Freshman Boys,Gender
+130,9,Andreas Bergman,20:10.0,Leigh,2.13 Miles Freshman Boys,Gender
+1,10,Timothy Sandholm,11:19.7,Leigh,2.13 Miles Sophomore Boys,Gender
+30,10,Luke Nagakura,12:56.6,Leigh,2.13 Miles Sophomore Boys,Gender
+37,10,Matthew Pham,13:06.9,Leigh,2.13 Miles Sophomore Boys,Gender
+1,11,Dylan Olmos,16:36.2,Leigh,2.95 Miles Junior Boys,Gender
+2,11,Ethan Garner,16:36.2,Leigh,2.95 Miles Junior Boys,Gender
+16,11,Robert Page,17:42.7,Leigh,2.95 Miles Junior Boys,Gender
+21,11,Sam Beard,18:00.1,Leigh,2.95 Miles Junior Boys,Gender
+32,11,Achyut Badhrinath,18:35.3,Leigh,2.95 Miles Junior Boys,Gender
+63,11,Chance Buchmann,21:16.4,Leigh,2.95 Miles Junior Boys,Gender
+90,11,Dylan Smith,28:29.4,Leigh,2.95 Miles Junior Boys,Gender
+1,12,Andrew Hamamoto,16:09.1,Leigh,2.95 Miles Senior Boys,Gender
+15,12,Nathan Lee,17:25.4,Leigh,2.95 Miles Senior Boys,Gender
+16,12,Liam Habiby,17:26.0,Leigh,2.95 Miles Senior Boys,Gender
+17,12,William Giangreco,17:26.8,Leigh,2.95 Miles Senior Boys,Gender
+31,12,Phillip Seng,18:41.4,Leigh,2.95 Miles Senior Boys,Gender
+62,12,Devin Bergman,22:10.8,Leigh,2.95 Miles Senior Boys,Gender
+70,12,Hemish Gundluri,22:52.1,Leigh,2.95 Miles Senior Boys,Gender
+72,12,Cole Shaffer,23:07.6,Leigh,2.95 Miles Senior Boys,Gender
+1,9,Riley Schenone,13:44.6,Leigh,2.13 Miles Freshman Girls,Girls
+3,9,Iris Noll,13:57.6,Leigh,2.13 Miles Freshman Girls,Girls
+11,9,Mia Cheng,14:45.0,Leigh,2.13 Miles Freshman Girls,Girls
+19,9,Sloka Chadalavada,15:32.2,Leigh,2.13 Miles Freshman Girls,Girls
+41,9,Valeriia Bozhko,17:26.8,Leigh,2.13 Miles Freshman Girls,Girls
+2,10,Gelila Hailu,13:52.1,Leigh,2.13 Miles Sophomore Girls,Girls
+19,10,Ashlyn Garner,15:31.1,Leigh,2.13 Miles Sophomore Girls,Girls
+33,10,Sasha Dalarco,16:49.0,Leigh,2.13 Miles Sophomore Girls,Girls
+38,11,Rafferty Sullivan,28:16.5,Leigh,2.95 Miles Junior Girls,Girls
+39,11,Harper Maor,28:23.5,Leigh,2.95 Miles Junior Girls,Girls
+42,11,Jackie Herrera,29:36.3,Leigh,2.95 Miles Junior Girls,Girls
+8,12,Josie Habiby,20:53.2,Leigh,2.95 Miles Senior Girls,Girls
+17,12,Abigail Fukuhara,22:50.6,Leigh,2.95 Miles Senior Girls,Girls
+21,12,Kayla Ngo,23:58.0,Leigh,2.95 Miles Senior Girls,Girls
+24,12,Anne Kearns,24:24.5,Leigh,2.95 Miles Senior Girls,Girls
+29,12,Yejin Ahn,25:57.2,Leigh,2.95 Miles Senior Girls,Girls
+110,9,Eric Ng,17:26.3,Jefferson,2.13 Miles Freshman Boys,Gender
+78,11,Vincent Ng,24:45.3,Jefferson,2.95 Miles Junior Boys,Gender
+85,11,Harry Tran,25:57.2,Jefferson,2.95 Miles Junior Boys,Gender
+86,11,Samuel Tanedo,26:09.7,Jefferson,2.95 Miles Junior Boys,Gender
+46,10,Isabela Santiesteban,20:11.0,Jefferson,2.13 Miles Sophomore Girls,Girls
+53,10,Francesca Pailano,22:01.7,Jefferson,2.13 Miles Sophomore Girls,Girls
+32,11,Angela Chin,26:18.9,Jefferson,2.95 Miles Junior Girls,Girls
+45,11,Dorothy Alinea,35:06.4,Jefferson,2.95 Miles Junior Girls,Girls
+28,12,Hannah Tanedo,25:52.2,Jefferson,2.95 Miles Senior Girls,Girls
+33,12,Amy Guan,27:38.5,Jefferson,2.95 Miles Senior Girls,Girls
+23,9,Santiago Arroyo,13:09.0,Independence,2.13 Miles Freshman Boys,Gender
+30,9,Julian Giron,13:35.1,Independence,2.13 Miles Freshman Boys,Gender
+43,9,Anson Wong,13:53.6,Independence,2.13 Miles Freshman Boys,Gender
+67,9,Elijah Todd,14:35.0,Independence,2.13 Miles Freshman Boys,Gender
+68,10,Vincent Nguyen,14:02.4,Independence,2.13 Miles Sophomore Boys,Gender
+25,11,Kendrick Yen,18:23.8,Independence,2.95 Miles Junior Boys,Gender
+38,11,Dustin Tran,18:51.2,Independence,2.95 Miles Junior Boys,Gender
+57,11,Kian Lau,20:15.3,Independence,2.95 Miles Junior Boys,Gender
+14,12,Ethan Huang,17:23.6,Independence,2.95 Miles Senior Boys,Gender
+21,12,Lenny Cortes,17:46.8,Independence,2.95 Miles Senior Boys,Gender
+36,12,Ashraf Mohammed,19:17.1,Independence,2.95 Miles Senior Boys,Gender
+41,12,Michael Hua,19:31.1,Independence,2.95 Miles Senior Boys,Gender
+59,12,Ojas Ghandi,21:38.1,Independence,2.95 Miles Senior Boys,Gender
+2,9,Octavia Fujdala,13:50.1,Independence,2.13 Miles Freshman Girls,Girls
+13,9,Cecilia Goyette,14:55.6,Independence,2.13 Miles Freshman Girls,Girls
+20,10,Abigail Guereca,15:33.7,Independence,2.13 Miles Sophomore Girls,Girls
+12,11,Kayeliegh Aquino,23:02.9,Independence,2.95 Miles Junior Girls,Girls
+17,11,Oni Nguyen,23:53.3,Independence,2.95 Miles Junior Girls,Girls
+9,12,Christine Hart,20:59.6,Independence,2.95 Miles Senior Girls,Girls
+22,12,Genesis Arroyo,24:14.4,Independence,2.95 Miles Senior Girls,Girls
+27,12,Lauren De la Vega,24:57.9,Independence,2.95 Miles Senior Girls,Girls
+28,9,Aidan Hanson,13:25.0,Hillsdale,2.13 Miles Freshman Boys,Gender
+42,9,Nicholas Tague,13:52.9,Hillsdale,2.13 Miles Freshman Boys,Gender
+57,9,Jonah Ng,14:16.6,Hillsdale,2.13 Miles Freshman Boys,Gender
+66,9,Archit Yelanji,14:33.7,Hillsdale,2.13 Miles Freshman Boys,Gender
+90,9,Miles Gonzales,15:50.8,Hillsdale,2.13 Miles Freshman Boys,Gender
+98,9,Nektarios Delis,16:04.6,Hillsdale,2.13 Miles Freshman Boys,Gender
+14,10,William McGurk,12:20.9,Hillsdale,2.13 Miles Sophomore Boys,Gender
+17,10,Naoki Matsuda,12:25.8,Hillsdale,2.13 Miles Sophomore Boys,Gender
+19,10,Thomas Lane,12:31.2,Hillsdale,2.13 Miles Sophomore Boys,Gender
+21,10,Ethan Kim,12:32.6,Hillsdale,2.13 Miles Sophomore Boys,Gender
+24,10,Taiju Miyabe,12:38.9,Hillsdale,2.13 Miles Sophomore Boys,Gender
+40,10,Nicolas Cubero Garcia,13:11.2,Hillsdale,2.13 Miles Sophomore Boys,Gender
+47,10,Mosley Croft,13:32.7,Hillsdale,2.13 Miles Sophomore Boys,Gender
+63,10,Remi Dionne,13:56.1,Hillsdale,2.13 Miles Sophomore Boys,Gender
+29,11,Nadav Ehsanipour,18:31.5,Hillsdale,2.95 Miles Junior Boys,Gender
+42,11,Jacob Ng,19:09.0,Hillsdale,2.95 Miles Junior Boys,Gender
+45,11,You-Ki Chien-Nakano,19:20.1,Hillsdale,2.95 Miles Junior Boys,Gender
+58,11,Patrick Pham,20:22.9,Hillsdale,2.95 Miles Junior Boys,Gender
+35,12,Dylan Robinson,19:16.8,Hillsdale,2.95 Miles Senior Boys,Gender
+43,12,Nathaniel Chen,19:37.8,Hillsdale,2.95 Miles Senior Boys,Gender
+24,9,Kaylie Fukumoto,16:21.0,Hillsdale,2.13 Miles Freshman Girls,Girls
+25,9,Stefanie Heinze,16:22.2,Hillsdale,2.13 Miles Freshman Girls,Girls
+37,9,Kira Tennant,17:16.4,Hillsdale,2.13 Miles Freshman Girls,Girls
+48,9,Lilia Vaceva,18:16.9,Hillsdale,2.13 Miles Freshman Girls,Girls
+57,9,Ella Torgerson,18:26.1,Hillsdale,2.13 Miles Freshman Girls,Girls
+68,9,Luna Acevedo,19:51.1,Hillsdale,2.13 Miles Freshman Girls,Girls
+74,9,Sadie Walsh,20:32.2,Hillsdale,2.13 Miles Freshman Girls,Girls
+75,9,Audrey Kemp,20:35.3,Hillsdale,2.13 Miles Freshman Girls,Girls
+80,9,Lucia Cardona,21:52.9,Hillsdale,2.13 Miles Freshman Girls,Girls
+16,11,Sophia Flores,23:52.8,Hillsdale,2.95 Miles Junior Girls,Girls
+24,11,Ava Morales,24:48.5,Hillsdale,2.95 Miles Junior Girls,Girls
+41,11,Nadine Cendak,28:34.8,Hillsdale,2.95 Miles Junior Girls,Girls
+86,9,Joshua Huang,15:35.4,Hillbrook,2.13 Miles Freshman Boys,Gender
+111,9,Max Roth,17:34.6,Hillbrook,2.13 Miles Freshman Boys,Gender
+112,9,Vikram Devaru,17:39.3,Hillbrook,2.13 Miles Freshman Boys,Gender
+132,9,Sebastian Garcia,22:20.8,Hillbrook,2.13 Miles Freshman Boys,Gender
+45,10,Ben Kunz,13:25.5,Hillbrook,2.13 Miles Sophomore Boys,Gender
+90,10,Aiden Loh,15:15.0,Hillbrook,2.13 Miles Sophomore Boys,Gender
+104,10,Kyle Chang,16:18.0,Hillbrook,2.13 Miles Sophomore Boys,Gender
+105,10,Mitch Merritt,16:19.5,Hillbrook,2.13 Miles Sophomore Boys,Gender
+43,10,Alida Weldon,19:41.4,Hillbrook,2.13 Miles Sophomore Girls,Girls
+54,10,Vivienne Hollenbeck,22:13.2,Hillbrook,2.13 Miles Sophomore Girls,Girls
+1,9,Johann Coss,11:33.9,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+8,9,Benjamin Joseph,12:28.9,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+15,9,Atharva Khare,12:53.9,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+16,9,Jacob Martinez,12:54.6,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+18,9,Dhruv Goel,12:57.0,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+22,9,Ahmari Brown,13:02.1,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+35,9,Nabil Raja,13:44.7,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+38,9,Cristos Rapinan,13:47.8,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+50,9,Samuel Rahardja,14:02.5,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+55,9,Anthony Phung,14:10.5,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+85,9,Daniel Ramirez,15:34.9,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+124,9,Binh Nguyen,18:24.3,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+131,9,Prahallath Umashankar,20:31.5,Evergreen Valley,2.13 Miles Freshman Boys,Gender
+5,10,Zeerak Adeel,11:49.4,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+15,10,Ethan Giordano,12:22.8,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+41,10,Derek Le,13:16.7,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+42,10,Nyel Umair,13:21.3,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+43,10,Logan Dhagat,13:21.4,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+86,10,Shiven Patel,14:56.7,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+103,10,Nathan Tran,16:12.1,Evergreen Valley,2.13 Miles Sophomore Boys,Gender
+24,11,Jacob Beltran,18:19.4,Evergreen Valley,2.95 Miles Junior Boys,Gender
+49,11,Everett Gensler,19:30.4,Evergreen Valley,2.95 Miles Junior Boys,Gender
+51,11,Jordan Huynh,19:36.2,Evergreen Valley,2.95 Miles Junior Boys,Gender
+75,11,Christian Castrence,23:58.5,Evergreen Valley,2.95 Miles Junior Boys,Gender
+27,12,Aiden Concepcion,18:19.1,Evergreen Valley,2.95 Miles Senior Boys,Gender
+47,12,David Tran,19:53.9,Evergreen Valley,2.95 Miles Senior Boys,Gender
+48,12,Jason Nguyen,19:54.1,Evergreen Valley,2.95 Miles Senior Boys,Gender
+49,12,Liam Wong,19:58.6,Evergreen Valley,2.95 Miles Senior Boys,Gender
+50,12,Braden Suyeishi,20:56.2,Evergreen Valley,2.95 Miles Senior Boys,Gender
+69,12,Tanish Shetty,22:40.9,Evergreen Valley,2.95 Miles Senior Boys,Gender
+71,12,William Phung,22:54.9,Evergreen Valley,2.95 Miles Senior Boys,Gender
+78,12,Brady Gho,24:07.7,Evergreen Valley,2.95 Miles Senior Boys,Gender
+6,9,Annika Singh,14:24.0,Evergreen Valley,2.13 Miles Freshman Girls,Girls
+15,9,Eliana Halteh,15:00.2,Evergreen Valley,2.13 Miles Freshman Girls,Girls
+18,9,Tanisha Bhugra,15:28.8,Evergreen Valley,2.13 Miles Freshman Girls,Girls
+40,9,Katherine Lu,17:25.2,Evergreen Valley,2.13 Miles Freshman Girls,Girls
+55,9,Ahana Santhosh Ram,18:25.8,Evergreen Valley,2.13 Miles Freshman Girls,Girls
+56,9,Trinity Lu,18:25.9,Evergreen Valley,2.13 Miles Freshman Girls,Girls
+1,10,Sivani Kaliki,13:34.5,Evergreen Valley,2.13 Miles Sophomore Girls,Girls
+13,10,Ananya Madan,15:10.2,Evergreen Valley,2.13 Miles Sophomore Girls,Girls
+23,10,Zara Naseerkhan,15:51.1,Evergreen Valley,2.13 Miles Sophomore Girls,Girls
+30,10,Breanne Kaing,16:27.0,Evergreen Valley,2.13 Miles Sophomore Girls,Girls
+5,11,Autumn Pacheco,20:56.1,Evergreen Valley,2.95 Miles Junior Girls,Girls
+15,11,Yvonne Dao,23:47.8,Evergreen Valley,2.95 Miles Junior Girls,Girls
+36,11,Emma Nguyen,26:44.6,Evergreen Valley,2.95 Miles Junior Girls,Girls
+4,12,Ramneek Kaur,19:33.2,Evergreen Valley,2.95 Miles Senior Girls,Girls
+10,12,Idee Chang,21:28.4,Evergreen Valley,2.95 Miles Senior Girls,Girls
+15,12,Chantei De Vera,22:34.6,Evergreen Valley,2.95 Miles Senior Girls,Girls
+20,12,Tiffany Ho,23:16.3,Evergreen Valley,2.95 Miles Senior Girls,Girls
+23,12,Breanna Tran,24:22.9,Evergreen Valley,2.95 Miles Senior Girls,Girls
+34,12,Jenny Phan,27:52.3,Evergreen Valley,2.95 Miles Senior Girls,Girls
+36,12,Elaine Le,28:21.3,Evergreen Valley,2.95 Miles Senior Girls,Girls
+9,9,Miles Bullock-Humphrey,12:40.9,Encinal,2.13 Miles Freshman Boys,Gender
+12,9,Sam Kenton,12:47.7,Encinal,2.13 Miles Freshman Boys,Gender
+34,9,Adrian Penados Gutierrez,13:40.6,Encinal,2.13 Miles Freshman Boys,Gender
+74,9,Dominic Lara,14:55.0,Encinal,2.13 Miles Freshman Boys,Gender
+93,9,Jason Luo,15:57.7,Encinal,2.13 Miles Freshman Boys,Gender
+113,9,Liam Wong,17:40.8,Encinal,2.13 Miles Freshman Boys,Gender
+16,10,Ovid Brock,12:23.7,Encinal,2.13 Miles Sophomore Boys,Gender
+51,10,Ivan Saldivar,13:42.9,Encinal,2.13 Miles Sophomore Boys,Gender
+65,10,Noah Balingit,13:58.0,Encinal,2.13 Miles Sophomore Boys,Gender
+91,10,Wenjie Huang,15:17.8,Encinal,2.13 Miles Sophomore Boys,Gender
+115,10,Cyrus Estilaei,17:39.5,Encinal,2.13 Miles Sophomore Boys,Gender
+40,11,Tyson Valle,18:59.9,Encinal,2.95 Miles Junior Boys,Gender
+47,11,Toneyon Musambacine,19:24.1,Encinal,2.95 Miles Junior Boys,Gender
+68,11,Phoenix Ramirez,21:56.2,Encinal,2.95 Miles Junior Boys,Gender
+42,10,Ava Estilaei,19:30.0,Encinal,2.13 Miles Sophomore Girls,Girls
+23,11,Suriya Gehle,24:38.6,Encinal,2.95 Miles Junior Girls,Girls
+27,11,Wren Dieter-Weisman,25:20.7,Encinal,2.95 Miles Junior Girls,Girls
+44,11,Katey Lee,31:12.6,Encinal,2.95 Miles Junior Girls,Girls
+13,12,Katelyn Shafer,21:46.3,Encinal,2.95 Miles Senior Girls,Girls
+26,12,Cadence Tramel,24:55.6,Encinal,2.95 Miles Senior Girls,Girls
+5,9,Colin Wang,12:07.9,Cupertino,2.13 Miles Freshman Boys,Gender
+68,9,Alex Li,14:35.2,Cupertino,2.13 Miles Freshman Boys,Gender
+99,9,Neev Chatterjee,16:06.6,Cupertino,2.13 Miles Freshman Boys,Gender
+13,11,Rishit Sharma,17:17.6,Cupertino,2.95 Miles Junior Boys,Gender
+20,11,Albert Zhang,17:59.3,Cupertino,2.95 Miles Junior Boys,Gender
+52,11,David Ryu,19:48.7,Cupertino,2.95 Miles Junior Boys,Gender
+59,11,Korey Lee,20:54.1,Cupertino,2.95 Miles Junior Boys,Gender
+62,11,Seojun Yang,21:06.6,Cupertino,2.95 Miles Junior Boys,Gender
+2,12,Dylan Frake,16:09.2,Cupertino,2.95 Miles Senior Boys,Gender
+12,12,Ethan Garcia,17:14.4,Cupertino,2.95 Miles Senior Boys,Gender
+40,12,Brady Diec,19:25.3,Cupertino,2.95 Miles Senior Boys,Gender
+67,9,Gargi Kelkar,19:47.7,Cupertino,2.13 Miles Freshman Girls,Girls
+3,10,Ella He,13:59.5,Cupertino,2.13 Miles Sophomore Girls,Girls
+26,10,Surabhi Achanta,16:05.5,Cupertino,2.13 Miles Sophomore Girls,Girls
+7,11,Nimeesha Kolari,21:10.6,Cupertino,2.95 Miles Junior Girls,Girls
+11,12,Tejal Bavadekar,21:33.7,Cupertino,2.95 Miles Senior Girls,Girls
+31,12,Sakura Shinohara,26:13.6,Cupertino,2.95 Miles Senior Girls,Girls
+33,9,Mark Olmos,13:40.6,Christopher,2.13 Miles Freshman Boys,Gender
+13,10,Vincent Monroy,12:16.4,Christopher,2.13 Miles Sophomore Boys,Gender
+12,9,Rylie Costa,14:50.2,Christopher,2.13 Miles Freshman Girls,Girls
+19,9,Graham Sargeant,12:57.9,Carlmont,2.13 Miles Freshman Boys,Gender
+47,9,Ethan Yau,14:01.2,Carlmont,2.13 Miles Freshman Boys,Gender
+51,9,Ethan Zalabak,14:04.5,Carlmont,2.13 Miles Freshman Boys,Gender
+63,9,Tristan Lyford,14:25.4,Carlmont,2.13 Miles Freshman Boys,Gender
+65,9,Lincoln Cooper,14:29.9,Carlmont,2.13 Miles Freshman Boys,Gender
+75,9,Albert Luo,14:56.1,Carlmont,2.13 Miles Freshman Boys,Gender
+78,9,Kou Miwa,15:12.8,Carlmont,2.13 Miles Freshman Boys,Gender
+84,9,Aiden Chan,15:29.2,Carlmont,2.13 Miles Freshman Boys,Gender
+94,9,Joseph Yin,15:59.3,Carlmont,2.13 Miles Freshman Boys,Gender
+97,9,Nickan Shakeri,16:02.6,Carlmont,2.13 Miles Freshman Boys,Gender
+118,9,Forest Fu,17:56.0,Carlmont,2.13 Miles Freshman Boys,Gender
+6,10,Hunter Prince,11:58.4,Carlmont,2.13 Miles Sophomore Boys,Gender
+10,10,Daniel Choy,12:10.9,Carlmont,2.13 Miles Sophomore Boys,Gender
+20,10,Kavin Misri,12:32.6,Carlmont,2.13 Miles Sophomore Boys,Gender
+25,10,Eli Block,12:45.9,Carlmont,2.13 Miles Sophomore Boys,Gender
+26,10,Wyatt Daru,12:49.4,Carlmont,2.13 Miles Sophomore Boys,Gender
+31,10,Kayden Bhatnagar,12:59.7,Carlmont,2.13 Miles Sophomore Boys,Gender
+57,10,Noah Galatin,13:50.4,Carlmont,2.13 Miles Sophomore Boys,Gender
+64,10,Benjamin Mangiafico,13:57.5,Carlmont,2.13 Miles Sophomore Boys,Gender
+67,10,Jacob Galatin,14:02.3,Carlmont,2.13 Miles Sophomore Boys,Gender
+82,10,Ronan Banner Haimes,14:41.8,Carlmont,2.13 Miles Sophomore Boys,Gender
+83,10,Julian Vignoles,14:55.2,Carlmont,2.13 Miles Sophomore Boys,Gender
+107,10,Ethan Wong,16:29.9,Carlmont,2.13 Miles Sophomore Boys,Gender
+111,10,Mak Boonyapornnad,17:08.4,Carlmont,2.13 Miles Sophomore Boys,Gender
+113,10,Victor Behera,17:17.8,Carlmont,2.13 Miles Sophomore Boys,Gender
+17,11,Connor Cronin,17:44.2,Carlmont,2.95 Miles Junior Boys,Gender
+36,11,Theodore Mui,18:47.3,Carlmont,2.95 Miles Junior Boys,Gender
+50,11,Connor Schaefer,19:30.9,Carlmont,2.95 Miles Junior Boys,Gender
+24,12,Rostislav Bautin,18:03.3,Carlmont,2.95 Miles Senior Boys,Gender
+32,12,Soichiro Tomoda,18:43.2,Carlmont,2.95 Miles Senior Boys,Gender
+37,12,Warner Baker,19:19.1,Carlmont,2.95 Miles Senior Boys,Gender
+42,12,Maximilian Nobrega,19:31.6,Carlmont,2.95 Miles Senior Boys,Gender
+53,12,Daniel Behera,20:58.4,Carlmont,2.95 Miles Senior Boys,Gender
+56,12,John Quinn,21:22.5,Carlmont,2.95 Miles Senior Boys,Gender
+77,12,Kentaro Childs,23:56.2,Carlmont,2.95 Miles Senior Boys,Gender
+5,9,Emily Lynagh,14:16.9,Carlmont,2.13 Miles Freshman Girls,Girls
+8,9,Anna Hamilton,14:33.6,Carlmont,2.13 Miles Freshman Girls,Girls
+17,9,Audrey Bailey,15:20.7,Carlmont,2.13 Miles Freshman Girls,Girls
+20,9,Liane Wang,15:34.1,Carlmont,2.13 Miles Freshman Girls,Girls
+32,9,Sara Brittain,16:55.2,Carlmont,2.13 Miles Freshman Girls,Girls
+42,9,Josie Anderson,17:27.3,Carlmont,2.13 Miles Freshman Girls,Girls
+44,9,Suveera Musteata,17:33.8,Carlmont,2.13 Miles Freshman Girls,Girls
+53,9,Sophia Trenin,18:24.1,Carlmont,2.13 Miles Freshman Girls,Girls
+60,9,EmilyFr Lu-,18:37.8,Carlmont,2.13 Miles Freshman Girls,Girls
+71,9,Nikita Kartik,20:02.6,Carlmont,2.13 Miles Freshman Girls,Girls
+11,10,Jade Wu,15:03.3,Carlmont,2.13 Miles Sophomore Girls,Girls
+18,10,Amanda Kerby,15:29.8,Carlmont,2.13 Miles Sophomore Girls,Girls
+22,10,Giuliana Campobello,15:46.7,Carlmont,2.13 Miles Sophomore Girls,Girls
+32,10,Camille Nobrega,16:47.4,Carlmont,2.13 Miles Sophomore Girls,Girls
+36,10,Cassie Gray Spight,17:40.1,Carlmont,2.13 Miles Sophomore Girls,Girls
+44,10,Veronica Libov,19:46.4,Carlmont,2.13 Miles Sophomore Girls,Girls
+45,10,Ava Rafii,20:09.3,Carlmont,2.13 Miles Sophomore Girls,Girls
+19,11,Katelyn Lorilla,24:22.4,Carlmont,2.95 Miles Junior Girls,Girls
+26,11,EmilyJr Lu,25:09.5,Carlmont,2.95 Miles Junior Girls,Girls
+34,11,Lisa Lu,26:36.8,Carlmont,2.95 Miles Junior Girls,Girls
+7,10,Tad Folgner,11:59.7,Burlingame,2.13 Miles Sophomore Boys,Gender
+6,11,Ryan Liu,16:48.8,Burlingame,2.95 Miles Junior Boys,Gender
+37,9,Gordon Tan,13:47.3,Bay School of San Francisco,2.13 Miles Freshman Boys,Gender
+83,9,Makaio Kelly,15:25.6,Bay School of San Francisco,2.13 Miles Freshman Boys,Gender
+91,9,Blaise Pascal,15:53.7,Bay School of San Francisco,2.13 Miles Freshman Boys,Gender
+18,10,Matthew Gatz-Levine,12:26.7,Bay School of San Francisco,2.13 Miles Sophomore Boys,Gender
+53,10,Ryan Chow,13:46.7,Bay School of San Francisco,2.13 Miles Sophomore Boys,Gender
+65,11,Eric Kocher,21:30.2,Bay School of San Francisco,2.95 Miles Junior Boys,Gender
+7,9,Shyla Woolf,14:24.8,Bay School of San Francisco,2.13 Miles Freshman Girls,Girls
+36,9,Lily Shapiro,17:10.5,Bay School of San Francisco,2.13 Miles Freshman Girls,Girls
+51,9,Anna Ginieczki,18:21.7,Bay School of San Francisco,2.13 Miles Freshman Girls,Girls
+61,9,Brooke Paves,18:53.4,Bay School of San Francisco,2.13 Miles Freshman Girls,Girls
+24,10,Jade Wen,15:54.1,Bay School of San Francisco,2.13 Miles Sophomore Girls,Girls
+22,11,Pieke Simonian,24:32.5,Bay School of San Francisco,2.95 Miles Junior Girls,Girls
+76,10,Ethan Xu,14:25.9,BASIS Independent Silicon Valley,2.13 Miles Sophomore Boys,Gender
+66,11,Sanjeev Sivaraman,21:39.8,BASIS Independent Silicon Valley,2.95 Miles Junior Boys,Gender
+72,11,Xiangtuo Cui,22:38.1,BASIS Independent Silicon Valley,2.95 Miles Junior Boys,Gender
+91,11,Arjun Maganti,31:28.8,BASIS Independent Silicon Valley,2.95 Miles Junior Boys,Gender
+46,9,Emily (Yuejia) Wang,17:48.7,BASIS Independent Silicon Valley,2.13 Miles Freshman Girls,Girls
+49,9,Emily Lu,18:18.2,BASIS Independent Silicon Valley,2.13 Miles Freshman Girls,Girls
+35,12,Olivia Zhou,28:16.3,BASIS Independent Silicon Valley,2.95 Miles Senior Girls,Girls
+79,9,Josef Henderson,15:13.3,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+88,9,Marcus Polson,15:38.4,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+95,9,Parker Ren,16:01.5,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+104,9,Sol De Souza,16:50.2,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+115,9,Devon Fong,17:45.1,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+119,9,Elliott Ng,17:57.9,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+123,9,Von Flores,18:15.4,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+125,9,Phillip Concepcion,18:42.3,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+128,9,Brendan Lam,19:28.7,Archbishop Riordan,2.13 Miles Freshman Boys,Gender
+9,10,Terron Chen,12:06.5,Archbishop Riordan,2.13 Miles Sophomore Boys,Gender
+34,10,Miguel Cardenas,13:04.9,Archbishop Riordan,2.13 Miles Sophomore Boys,Gender
+61,10,Alexander Datoc,13:55.4,Archbishop Riordan,2.13 Miles Sophomore Boys,Gender
+74,10,Brian Tin,14:19.7,Archbishop Riordan,2.13 Miles Sophomore Boys,Gender
+114,10,Jason Zhu,17:38.2,Archbishop Riordan,2.13 Miles Sophomore Boys,Gender
+4,11,Brendan Grogan,16:47.0,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+19,11,Nathan Babik,17:46.7,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+22,11,Joseph Olson,18:06.9,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+28,11,Dominic Thompson,18:30.9,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+34,11,Alejandro Coriano,18:37.6,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+44,11,Ethan Krasner,19:17.4,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+69,11,Amer De Juan,21:57.6,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+73,11,Conor Grieb,23:36.7,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+76,11,Daniel Reyes,24:31.8,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+77,11,Claude Garde,24:35.2,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+82,11,Nathaniel Li,25:31.5,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+87,11,Patrick HUI,26:35.5,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+93,11,Samuel Wu,38:37.4,Archbishop Riordan,2.95 Miles Junior Boys,Gender
+8,12,Colton Wang,16:57.2,Archbishop Riordan,2.95 Miles Senior Boys,Gender
+67,12,Jalen Misfeldt,22:25.5,Archbishop Riordan,2.95 Miles Senior Boys,Gender
+29,9,Keelin McAndrew,16:47.3,Archbishop Riordan,2.13 Miles Freshman Girls,Girls
+30,9,Greta Wang,16:50.8,Archbishop Riordan,2.13 Miles Freshman Girls,Girls
+38,10,Karen Ngan,17:57.7,Archbishop Riordan,2.13 Miles Sophomore Girls,Girls
+40,10,Sidney Hansen,19:00.4,Archbishop Riordan,2.13 Miles Sophomore Girls,Girls
+47,10,Anicia Cunningham,20:12.2,Archbishop Riordan,2.13 Miles Sophomore Girls,Girls
+3,11,Freddie Michalchuk,20:37.6,Archbishop Riordan,2.95 Miles Junior Girls,Girls
+13,11,Georgia Michalchuk,23:10.3,Archbishop Riordan,2.95 Miles Junior Girls,Girls
+25,11,Ellory Jantz,24:51.8,Archbishop Riordan,2.95 Miles Junior Girls,Girls
+28,11,Amelie De Juan,25:57.8,Archbishop Riordan,2.95 Miles Junior Girls,Girls
+7,12,Eva Abbott,20:32.1,Archbishop Riordan,2.95 Miles Senior Girls,Girls
+6,9,Alex Yoshino,12:17.8,Aragon,2.13 Miles Freshman Boys,Gender
+10,9,Elias Hybl,12:43.9,Aragon,2.13 Miles Freshman Boys,Gender
+32,9,Samuel Choslovsky,13:39.7,Aragon,2.13 Miles Freshman Boys,Gender
+39,9,Kingsley Lee,13:48.5,Aragon,2.13 Miles Freshman Boys,Gender
+56,9,Jonas Louie,14:12.6,Aragon,2.13 Miles Freshman Boys,Gender
+58,9,Xander Avila,14:19.7,Aragon,2.13 Miles Freshman Boys,Gender
+77,9,Isaac Albert,15:08.9,Aragon,2.13 Miles Freshman Boys,Gender
+100,9,Dodge Rarden,16:29.1,Aragon,2.13 Miles Freshman Boys,Gender
+103,9,Drew Benavente,16:42.7,Aragon,2.13 Miles Freshman Boys,Gender
+121,9,Veer Bhalla,18:03.4,Aragon,2.13 Miles Freshman Boys,Gender
+122,9,Jeffrey Liu,18:05.7,Aragon,2.13 Miles Freshman Boys,Gender
+39,10,Macklin Berg,13:10.8,Aragon,2.13 Miles Sophomore Boys,Gender
+52,10,Marwan Halabi,13:44.5,Aragon,2.13 Miles Sophomore Boys,Gender
+54,10,Nishant Chaparala,13:47.0,Aragon,2.13 Miles Sophomore Boys,Gender
+55,10,Taiki Shinokawa,13:47.3,Aragon,2.13 Miles Sophomore Boys,Gender
+58,10,Louis Riviere,13:51.4,Aragon,2.13 Miles Sophomore Boys,Gender
+72,10,Nicholas Konerding,14:17.4,Aragon,2.13 Miles Sophomore Boys,Gender
+78,10,Darshan Bal,14:28.4,Aragon,2.13 Miles Sophomore Boys,Gender
+79,10,Chase Rokala,14:36.3,Aragon,2.13 Miles Sophomore Boys,Gender
+81,10,Vidhu Thirunagari,14:41.4,Aragon,2.13 Miles Sophomore Boys,Gender
+92,10,Trevor Pulley,15:22.1,Aragon,2.13 Miles Sophomore Boys,Gender
+94,10,Thomas Carney,15:27.7,Aragon,2.13 Miles Sophomore Boys,Gender
+122,10,Carlos Cristerna,20:39.0,Aragon,2.13 Miles Sophomore Boys,Gender
+9,11,Tyler Nichols,17:09.4,Aragon,2.95 Miles Junior Boys,Gender
+15,11,Shuma Otsuka,17:35.3,Aragon,2.95 Miles Junior Boys,Gender
+26,11,Luke Saunders,18:26.9,Aragon,2.95 Miles Junior Boys,Gender
+30,11,Gavin Epstein,18:32.4,Aragon,2.95 Miles Junior Boys,Gender
+39,11,Evan Westheimer,18:54.6,Aragon,2.95 Miles Junior Boys,Gender
+41,11,Colin Fournier,19:07.5,Aragon,2.95 Miles Junior Boys,Gender
+46,11,Declan Kennedy,19:23.1,Aragon,2.95 Miles Junior Boys,Gender
+54,11,Cameron Trio,19:58.7,Aragon,2.95 Miles Junior Boys,Gender
+56,11,Darren Benavente,20:10.4,Aragon,2.95 Miles Junior Boys,Gender
+5,12,Miles Rokala,16:54.6,Aragon,2.95 Miles Senior Boys,Gender
+11,12,Sou Matsumoto,17:09.2,Aragon,2.95 Miles Senior Boys,Gender
+23,12,Ian Ta,18:00.1,Aragon,2.95 Miles Senior Boys,Gender
+26,12,Joshua Fu,18:06.8,Aragon,2.95 Miles Senior Boys,Gender
+33,12,Jack He,19:03.9,Aragon,2.95 Miles Senior Boys,Gender
+34,12,Nicholas Ke,19:04.1,Aragon,2.95 Miles Senior Boys,Gender
+54,12,Colby Bruckner,20:58.5,Aragon,2.95 Miles Senior Boys,Gender
+58,12,Matthew Lau,21:34.7,Aragon,2.95 Miles Senior Boys,Gender
+61,12,Calvin Chao,21:51.8,Aragon,2.95 Miles Senior Boys,Gender
+9,9,Vivian Williams,14:33.8,Aragon,2.13 Miles Freshman Girls,Girls
+14,9,Sara Chiguchi,14:58.6,Aragon,2.13 Miles Freshman Girls,Girls
+23,9,Leah Magliulo,16:17.3,Aragon,2.13 Miles Freshman Girls,Girls
+31,9,Tanya Lee,16:51.0,Aragon,2.13 Miles Freshman Girls,Girls
+6,10,Sophia Tiu,14:33.2,Aragon,2.13 Miles Sophomore Girls,Girls
+9,10,Helen McCloskey,14:52.0,Aragon,2.13 Miles Sophomore Girls,Girls
+4,11,Dylan Lee,20:50.7,Aragon,2.95 Miles Junior Girls,Girls
+14,11,Sydney Lai,23:19.5,Aragon,2.95 Miles Junior Girls,Girls
+20,11,Christine Choi,24:28.3,Aragon,2.95 Miles Junior Girls,Girls
+21,11,Kylie Avila,24:32.0,Aragon,2.95 Miles Junior Girls,Girls
+29,11,Ananya Bhavanishankar,26:02.1,Aragon,2.95 Miles Junior Girls,Girls
+43,11,Midori Saito,29:54.2,Aragon,2.95 Miles Junior Girls,Girls
+6,12,Lina Cruz Parada,20:25.2,Aragon,2.95 Miles Senior Girls,Girls
+25,12,Sarah Morales Escobar,24:30.0,Aragon,2.95 Miles Senior Girls,Girls
+30,12,Catalina Dulcey,26:03.3,Aragon,2.95 Miles Senior Girls,Girls
+32,12,Medha Rakesh,26:39.8,Aragon,2.95 Miles Senior Girls,Girls
+102,9,Isaac Lopez,16:34.3,Anzar (Aromas-San Juan),2.13 Miles Freshman Boys,Gender
+88,11,Oliver Doupnik,27:33.7,Anzar (Aromas-San Juan),2.95 Miles Junior Boys,Gender
+14,10,Isabella Briceno-Nicholson,15:14.4,Anzar (Aromas-San Juan),2.13 Miles Sophomore Girls,Girls
+14,12,Angelina Tran,22:27.3,Anzar (Aromas-San Juan),2.95 Miles Senior Girls,Girls

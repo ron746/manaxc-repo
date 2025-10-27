@@ -1,0 +1,871 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,10,17:13.31,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nicholas,Anderson
+2,11,17:21.24,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Logan,Le
+3,10,17:29.51,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Tao
+4,9,17:49.36,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Manuel,Garcia Murillo
+5,10,17:59.76,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Duke,Le
+6,10,18:06.66,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Quinn,Miyasaki
+7,9,18:16.91,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Zeerak,Adeel
+8,10,18:28.90,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Satvik,Dunna
+9,10,18:29.37,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Jaden,Kanazawa
+10,11,18:44.72,Westmont,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Neil,Munot
+11,10,18:47.87,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Dunosky
+12,9,18:48.54,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Alesandro,Serrano
+13,9,18:52.06,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Anirudh,Shenai
+14,10,18:58.37,Leland,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Varun,Rao
+15,9,19:06.12,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jonathan,Edwards
+16,10,19:09.21,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Matthew,Carino
+17,9,19:14.89,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nolan,Shinada
+18,10,19:20.99,Prospect,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Kim
+19,11,19:34.31,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Concepcion
+20,9,19:37.13,Prospect,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Stephen,Bailey
+21,9,19:40.45,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jake,Orton
+22,11,19:40.67,Westmont,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Lukas,Winter
+23,11,19:50.43,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Oscar,Maciel
+24,10,19:51.81,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Atoule
+25,11,19:52.06,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ellliot,Federighi
+26,11,19:56.01,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ian,Meamber
+27,9,19:56.89,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Joaquin,Mondragon
+28,9,20:00.39,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Brayden,Lin
+29,10,20:02.04,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ender,Kerr
+30,9,20:02.77,Prospect,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Adam,Zamek
+31,9,20:02.99,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Richard,Sun
+32,10,20:09.05,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Palser
+33,9,20:11.70,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Esteban,Rivera
+34,9,20:14.33,Leland,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Zack,Ogle
+35,10,20:18.93,Leland,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Lee
+36,9,20:35.33,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Henry Smith
+37,9,20:39.68,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nyel,Umair
+38,10,20:48.18,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Keisuke,Suzuki
+39,9,20:50.14,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Daichi,Sagae
+40,9,20:51.49,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Giordano
+41,10,20:52.45,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Benjamin,Havasy
+42,10,20:52.90,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Jake,Leal
+43,11,20:56.63,Westmont,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Logan,Wade
+44,10,20:57.93,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Yashnil,Mohanty
+45,10,20:59.17,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Marcus,Dinh
+46,9,21:07.82,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Axel,Avalos
+47,10,21:08.18,Prospect,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ben,Lenrow
+48,11,21:15.66,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Liam,Wong
+49,11,21:31.12,Prospect,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Graham,Kohler
+50,9,21:31.63,Leland,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ishaan,Desai
+51,10,22:04.60,Prospect,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Grady,Dreyer
+52,9,22:11.51,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Matteo,Pilling
+53,11,22:33.34,Prospect,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aleksandar,Djurovic
+54,9,22:38.69,Leland,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jacob,Hsueh
+55,10,22:59.98,Leland,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Dominic,Wang
+1,11,15:00.45,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carson,Hedlund
+2,12,15:31.70,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Dalziel
+3,11,15:32.14,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Landon,Cribari
+4,11,15:32.61,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Soni
+5,11,15:51.20,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jose,Contreras
+6,11,15:55.63,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Yosef,Berhan
+7,12,16:18.84,Santa Teresa,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Park
+8,12,16:25.48,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Henry,Koo
+9,12,16:35.67,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Duong
+10,12,16:40.68,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Connor,Whitson
+11,12,16:44.90,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Spencer,King
+12,11,16:45.74,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ryan,Aziz
+13,12,16:50.00,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Mosher
+14,12,16:50.45,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Colby,Leal
+15,10,17:14.99,Westmont,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Ketterer
+16,11,17:29.54,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Nguyen
+17,11,17:47.49,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carter,Cormier
+18,11,17:49.19,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Arango
+19,10,18:03.08,Pioneer,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Tobias,Sandler
+20,10,18:18.82,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mattheau,Rivera
+21,11,18:51.89,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Arkadiusz,Matlosz
+22,11,19:02.81,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Anteo,Matlosz
+23,12,19:39.97,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Yash,Chitambar
+24,11,20:35.05,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jacob,Turner
+25,11,20:46.13,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Heck
+26,11,21:08.73,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Doan
+1,10,15:50.02,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Hayden,Kieslich
+2,11,15:56.61,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Jubert
+3,10,16:04.91,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Duncan,Lorang
+4,12,16:05.60,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Doherty
+5,12,16:24.61,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Brandon,Gingras
+6,11,16:38.31,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nagaashrith,Kaliki
+7,11,16:43.22,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Pranav,Sairam
+8,11,17:02.52,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Austen,Grabbe
+9,12,17:08.48,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Manu,Gorantla
+10,11,17:17.60,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Shelley
+11,10,17:18.38,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caleb,Entwisle
+12,9,17:21.10,Willow Glen,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Noah,Tally
+13,12,17:21.82,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Dominic,Vaughn-Luma
+14,10,17:26.44,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Rihito,Yamaguchi
+15,12,17:40.12,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Gingras
+16,12,17:43.52,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Lam
+17,12,17:44.18,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Vincent,Nguyen
+18,12,17:54.22,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Mateo,Carino
+19,9,17:54.50,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Yu
+20,10,17:56.49,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Steven,Watson
+21,11,18:18.63,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Wei,Wang
+22,9,18:25.77,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Julian,Zhi
+23,12,18:56.75,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Leamy
+24,12,19:10.97,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Okumura
+25,9,19:18.23,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Horace,Ou
+26,11,19:23.96,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kyan,Wang
+27,10,20:05.03,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Justin,Webb
+1,11,15:00.45,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carson,Hedlund
+2,12,15:31.70,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Dalziel
+3,11,15:32.14,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Landon,Cribari
+4,11,15:32.61,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Soni
+5,11,15:51.20,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jose,Contreras
+6,11,15:55.63,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Yosef,Berhan
+7,12,16:18.84,Santa Teresa,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Park
+8,12,16:25.48,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Henry,Koo
+9,12,16:35.67,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Duong
+10,12,16:40.68,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Connor,Whitson
+11,12,16:44.90,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Spencer,King
+12,11,16:45.74,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ryan,Aziz
+13,12,16:50.00,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Mosher
+14,12,16:50.45,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Colby,Leal
+15,10,17:14.99,Westmont,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Ketterer
+16,11,17:29.54,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Nguyen
+17,11,17:47.49,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carter,Cormier
+18,11,17:49.19,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Arango
+19,10,18:03.08,Pioneer,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Tobias,Sandler
+20,10,18:18.82,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mattheau,Rivera
+21,11,18:51.89,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Arkadiusz,Matlosz
+22,11,19:02.81,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Anteo,Matlosz
+23,12,19:39.97,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Yash,Chitambar
+24,11,20:35.05,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jacob,Turner
+25,11,20:46.13,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Heck
+26,11,21:08.73,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Doan
+1,10,15:50.02,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Hayden,Kieslich
+2,11,15:56.61,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Jubert
+3,10,16:04.91,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Duncan,Lorang
+4,12,16:05.60,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Doherty
+5,12,16:24.61,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Brandon,Gingras
+6,11,16:38.31,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nagaashrith,Kaliki
+7,11,16:43.22,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Pranav,Sairam
+8,11,17:02.52,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Austen,Grabbe
+9,12,17:08.48,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Manu,Gorantla
+10,11,17:17.60,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Shelley
+11,10,17:18.38,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caleb,Entwisle
+12,9,17:21.10,Willow Glen,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Noah,Tally
+13,12,17:21.82,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Dominic,Vaughn-Luma
+14,10,17:26.44,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Rihito,Yamaguchi
+15,12,17:40.12,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Gingras
+16,12,17:43.52,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Lam
+17,12,17:44.18,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Vincent,Nguyen
+18,12,17:54.22,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Mateo,Carino
+19,9,17:54.50,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Yu
+20,10,17:56.49,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Steven,Watson
+21,11,18:18.63,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Wei,Wang
+22,9,18:25.77,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Julian,Zhi
+23,12,18:56.75,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Leamy
+24,12,19:10.97,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Okumura
+25,9,19:18.23,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Horace,Ou
+26,11,19:23.96,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kyan,Wang
+27,10,20:05.03,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Justin,Webb
+1,10,18:09.48,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Yang
+2,9,18:19.15,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Anshul,Dhaas
+3,12,18:23.97,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Rohith,Kompella
+4,10,18:31.64,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Weston,Kelly
+5,12,18:32.14,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Christofer,Chen
+6,11,18:34.55,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Luray,He
+7,9,18:43.17,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Shugo,Fujikawa
+8,10,18:44.91,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Benjamin,Doan
+9,12,18:47.79,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Pinak,Gupta
+10,11,18:55.79,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Yen,Wen Choo
+11,9,19:02.56,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Marcos,Mantelli
+12,10,19:04.22,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Everett,Gensler
+13,9,19:05.75,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Kaiden,Huynh
+14,11,19:06.85,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jason,Nguyen
+15,9,19:15.18,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Forest,Herrera
+16,10,19:17.50,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Eyan,Leon
+17,10,19:23.53,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Masataka,Hikida
+18,11,19:31.12,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,David,Tran
+19,11,19:36.25,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Minh,Nguyen
+20,12,19:38.14,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Minh,Nguyen
+21,10,19:51.11,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Lukas,Neikell
+22,9,19:56.60,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Tony,Wang
+23,10,20:02.70,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nikhil,Patel
+24,12,20:11.29,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Arthur,Nguyen
+25,11,20:14.03,Westmont,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Gavin,Lam
+26,11,20:18.14,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Braden,Suyeishi
+27,12,20:18.58,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Drew,Crespin
+28,9,20:21.91,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jonah,Gonzalez
+29,10,20:26.54,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Artem,Zak
+30,10,20:28.71,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Dimitri,Wilfred
+31,12,20:29.12,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Bohac
+32,9,20:34.25,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Soichoro,Osada
+33,12,20:38.45,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Daksh,Choksi
+34,10,20:42.91,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Wightman
+35,10,20:43.74,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Blunt
+36,12,20:52.64,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Matthew,Namba
+37,10,21:02.12,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Branden,Wang
+38,9,21:03.55,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nicolas,Odneal
+39,9,21:04.49,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jimmy,Chen
+40,10,21:05.35,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,John,Gutierrez
+41,11,21:12.81,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Henry,Tran
+42,9,21:16.46,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Yuki,Horio
+43,9,21:21.22,Pioneer,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Asha,Farsi
+44,9,21:22.53,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Mateo,Hemchand
+45,11,21:23.06,Westmont,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Oisin,Clark
+46,9,21:24.10,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Declan,Clark
+47,9,21:25.46,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Fionn,Clark
+48,12,21:25.88,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Justin,Le
+49,9,21:26.19,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Derek,Le
+50,9,21:26.68,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aksh,Vijayant
+51,10,21:27.60,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Lucas,Ta
+52,12,21:30.95,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Marcus,Wong
+53,11,21:31.92,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Calix,Ly
+54,9,21:33.73,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Riley,Neuman
+55,11,21:38.53,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Knapp
+56,9,21:39.94,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Arin,Dubey
+57,10,21:44.80,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kenneth,Vo
+58,10,21:45.48,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alexei,Prokopenko
+59,10,21:47.11,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caden,Kanazawa
+60,12,21:48.20,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Liam,Doherty
+61,12,21:50.53,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Chris,Wu
+62,9,21:51.90,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Tarun,Reddy
+63,11,21:53.62,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Lucas,Riedl
+64,10,21:56.80,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alex,Kim
+65,11,21:57.29,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Tran
+66,9,21:59.84,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ishaan,Parmar
+67,11,22:01.65,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,William,Tran
+68,9,22:05.45,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Benjamin,Gonzalez
+69,10,22:09.43,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Blake,Kim
+70,9,22:11.43,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Xiaoran,Xiong
+71,10,22:13.00,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aman,Remtulla
+72,10,22:15.85,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Daniel,Meilhon
+73,9,22:18.91,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Hsiao
+74,10,22:19.90,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Morgan,Kim
+75,12,22:20.39,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Hendrix,Russell
+76,9,22:20.73,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Evan,Katayama
+77,10,22:25.29,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ryan,Nguyen
+78,9,22:25.56,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Angel,Ramirez
+79,10,22:25.85,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Joaquin,Guzman
+80,10,22:36.97,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kobe,Tran
+81,12,22:37.75,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Hua
+82,12,22:50.21,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Bruce,Wen
+83,9,22:50.78,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Wesley,Wang
+84,10,22:53.45,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Chris,Lee
+85,10,22:56.84,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Eli,Basa
+86,9,23:00.30,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Weng
+87,10,23:06.25,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Elliot,Kim
+88,10,23:06.53,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Hobert
+89,11,23:22.89,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Marcos,Guerrero
+90,11,23:31.60,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Andrew,Nomi
+91,9,23:32.09,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Vaanavan,Aingaran
+92,11,23:32.73,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jason,Studebaker
+93,12,23:38.98,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Takuto,Horio
+94,9,23:40.09,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Marcus,Colborn
+95,11,23:41.56,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ben,Riley
+96,10,23:43.92,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Jake,Oderio
+97,12,23:51.50,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Landon,Tran
+98,10,23:53.52,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Daniel,Vera Rosas
+99,11,24:00.38,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Easton,Stubelt
+100,12,24:05.91,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Alexander,Hernandez
+101,10,24:07.66,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Santiago,Sandez
+102,10,24:15.35,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aditya,Mahajan
+103,10,24:20.47,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Joseph,Dries
+104,11,24:22.23,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Tanish,Shetty
+105,10,24:32.09,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Andy,Tran
+106,9,24:33.01,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Noah,Davery
+107,10,24:44.13,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Wyatt,Spears
+108,10,24:50.10,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Brian,Duffy
+109,12,24:51.75,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Joseph
+110,12,24:55.03,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Matthew,Etzel
+111,11,25:08.44,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,William,Phung
+112,9,25:19.35,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ian,Trinh
+113,9,25:20.19,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Kenneth,Ly
+114,10,25:22.83,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adam,Metwally
+115,9,25:23.20,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Angel,Flores Villareal
+116,9,25:28.31,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Tristan,Daryaie
+117,10,25:33.86,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Etzel
+118,9,25:43.12,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aashiv,Patel
+119,9,25:43.91,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nicholas,Winter
+120,9,25:45.40,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aamir,Lokhandwala
+121,9,25:46.67,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Michael,Kha
+122,9,25:48.50,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Leul,Mekuria
+123,9,25:49.63,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Manusha,Meegodage
+124,9,25:52.20,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Samuel,Gutierrez
+125,9,26:09.70,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Zephyr,Simon
+126,10,26:10.82,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alexander,Chen
+127,9,26:28.74,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Weston,Weiss
+128,10,26:37.90,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Tyler,George
+129,10,26:38.99,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Brayden,Moore
+130,11,26:41.46,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Andrew,Vu
+131,9,26:53.93,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Cade,Santos
+132,9,27:33.82,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Leslie,Wen
+133,11,27:41.13,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Ma
+134,9,27:46.53,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Mo
+135,8,27:59.32,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2028,Search,League,Montgomery Hill Park,4410,2023,M,Jefferson,Morales
+136,10,28:00.41,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Robert,Huang
+137,9,28:02.24,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Joshua,Lam
+139,10,28:10.84,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Liam,Chessar
+140,9,28:14.84,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Braden,Lee
+141,9,28:24.42,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Denver,Ha
+142,10,28:44.32,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Castrence
+143,10,28:44.81,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ben,Ho
+144,9,28:57.38,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aakash,Melwani
+145,9,29:17.33,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Cross
+146,9,29:38.41,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Thaison,Le
+147,9,29:49.51,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nicholas,Wu
+148,9,30:01.70,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Xavier,Iraheta Huato
+149,9,30:16.98,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Wade
+150,9,30:37.84,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jonathan,Philip
+151,9,32:12.25,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Lukas,Gocobachi
+152,9,32:14.69,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Michael,Goh
+153,9,32:15.92,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Kevin,Ly
+154,12,32:25.17,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Nguyen
+155,9,34:02.13,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Neel,Madhani
+156,9,38:12.51,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jean,Rupert Dioso
+1,10,21:11.57,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Danju,Kuo
+2,11,22:11.20,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Eva,Cardoza
+3,11,22:30.60,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Emma,Rahardja
+4,11,22:48.20,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Breanna,Tran
+5,10,23:17.61,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Maben,Cody
+6,11,23:39.59,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Chantei,De Vera
+7,10,23:40.35,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alondra,Hernandez
+8,11,24:14.79,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Christa,Tran
+9,10,24:23.76,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Destiny,Ortiz
+10,11,24:33.49,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Grace,Davila
+11,10,24:55.23,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Angela,Fong
+12,9,25:10.64,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Evelyn,Lu
+13,9,25:12.10,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ananya,Madan
+14,11,25:12.97,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Thu,Nguyen
+15,11,25:22.70,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Tiffany,Ho
+16,9,25:36.66,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Grace,Cummins
+17,9,25:39.78,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Kim
+18,10,26:19.10,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Polina,Chistyakova
+19,10,26:23.62,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kaylee,Liz-Marie Lulu
+20,9,26:33.96,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Bella,Hsieh
+21,11,26:37.15,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jenny,Phan
+22,9,26:48.58,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Honoka,Morii
+23,9,27:58.59,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Amaya,Beas
+24,10,28:02.54,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caitlin,Pearl
+25,11,28:24.16,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Allison,Tsai
+26,9,28:45.47,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Bella,Lu
+27,10,29:13.55,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Shreya,Kaza
+28,9,29:22.22,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Hadley,Shafran
+29,9,29:23.27,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Alina,Revelez
+30,11,29:35.91,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Elise,Katayama
+31,10,30:00.29,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sophia,Doan
+32,10,30:04.85,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Anna,Thomas
+33,9,30:51.28,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Liliana,Chai
+34,9,31:10.21,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Saachi,Basavaraju
+35,9,31:30.48,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Amulya,Tadimeti
+36,9,32:31.74,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Shiloh,Cleveland
+37,11,33:14.64,Pioneer,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sonia,Feria
+38,10,33:28.07,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Myriam,Claire Calvillo
+39,10,33:48.93,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sarah,Rensel-Smith
+40,10,36:09.00,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mikayla,Como
+41,10,36:49.91,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,skyler,Thomas
+42,9,38:38.69,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Megan,Chang
+43,10,38:39.15,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mia,Keller
+1,9,18:32.30,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Adelyn,King
+2,12,18:55.98,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Kiarra,D'Arcangelo
+3,12,19:30.40,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Tauren,Mitchell
+4,10,19:35.99,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Cassie,Itatani
+5,10,20:10.37,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Shannon,Zhou
+6,11,20:21.02,Santa Teresa,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kim,Le
+7,12,20:24.17,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Hasset,Mekuria
+8,10,20:26.44,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sophie,Le
+9,9,20:27.12,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Hannah,Crowley
+10,11,20:33.08,Santa Teresa,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sophia,Valle
+11,10,20:48.92,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Stephanie,Chang
+12,12,21:01.75,Santa Teresa,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Makena,Concepcion
+13,10,21:32.48,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kayla,Paugh
+14,10,21:33.13,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sarah,Leasure
+15,10,21:50.18,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Katherine,Rice
+16,11,22:00.42,Westmont,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sara,Chaudoin
+17,11,22:04.22,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Amie,Nguyen
+18,9,22:12.36,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Avery,Naas
+19,11,22:13.75,Santa Teresa,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nevaeh,Bryant
+20,10,22:31.13,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Zoe,Wassem
+21,12,23:50.33,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Julia,Martin
+22,12,25:08.96,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Sophia,Gonzalez
+23,11,25:44.19,Pioneer,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kate,Gonzalez
+24,9,27:16.59,Pioneer,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Grace,Riggioni
+1,11,18:23.56,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kylie,Hoornaert
+2,12,18:45.91,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ruby,Chen
+3,11,18:51.58,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Lola,Herning
+4,10,19:17.64,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Maile,Shinmoto
+5,10,19:24.73,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alyssa,Nagatani
+6,11,20:03.46,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ramneek,Kaur
+7,11,20:52.16,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Riggs
+8,9,21:04.85,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Sivani,Kaliki
+9,11,21:06.88,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Idee,Chang
+10,11,21:10.66,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sofia,Russell
+11,10,21:13.35,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aria,Das
+12,12,21:20.70,Prospect,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Kira,Stringer
+13,10,21:32.56,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Autumn,Pacheco
+14,11,22:05.73,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sierra,Cherniavsky
+15,12,22:09.48,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Sonya,Prabhoo
+16,12,22:37.05,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ameya,Ganesh
+17,11,22:37.28,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Casey,Azus
+18,10,22:39.84,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Lydia,Tan
+19,12,22:40.41,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Abigail,Riggs
+20,12,22:47.88,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Natasha,Joshi
+21,11,23:09.61,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aditi,Varia
+22,11,23:17.75,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kayla,Kirkendall
+23,12,23:29.78,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Angelina,Nguyen
+24,9,24:24.37,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Sariah,Kazem
+25,12,24:26.62,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Gilina,Voon
+26,12,24:29.81,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Nell,Callahan
+27,9,25:28.07,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Apurva,Tadimeti
+28,10,26:54.76,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Cierra,Yu
+1,12,22:06.51,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Josephine,Kwok
+2,9,23:30.71,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Breanne,Kaing
+3,12,25:38.32,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Juliet,Tran
+4,12,25:49.25,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Vivian,Nguyen
+5,12,25:58.76,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Kayleigh,Viegas
+6,11,26:16.99,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Violet,Ballesteros
+7,12,26:59.53,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jasmine,Goodwin
+8,9,27:12.06,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Erva,Coskun
+9,10,27:17.77,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Duarte
+10,9,27:38.95,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nia,Amour
+11,12,27:47.98,Prospect,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Georgia,Davis-Wallace
+12,10,27:49.81,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Rios
+13,12,27:55.08,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Youjia,He
+14,9,28:18.52,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Diya,Sami
+15,10,28:58.47,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Carissa,Garcia
+16,9,29:06.46,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Anala,Broussard
+17,11,29:14.49,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Julia,Pignataro
+18,11,29:15.42,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Alisa,Bui
+19,10,29:32.36,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sarah,Xu
+20,12,29:35.68,Prospect,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Katherine,Davis-Wallace
+21,10,29:43.79,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kyra,Pagkas
+22,10,30:56.21,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Elena,Brown
+23,9,31:39.54,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Charlotte,Tay
+24,10,31:43.08,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Shin,You Hu
+1,10,17:13.31,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nicholas,Anderson
+2,11,17:21.24,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Logan,Le
+3,10,17:29.51,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Tao
+4,9,17:49.36,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Manuel,Garcia Murillo
+5,10,17:59.76,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Duke,Le
+6,10,18:06.66,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Quinn,Miyasaki
+7,9,18:16.91,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Zeerak,Adeel
+8,10,18:28.90,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Satvik,Dunna
+9,10,18:29.37,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Jaden,Kanazawa
+10,11,18:44.72,Westmont,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Neil,Munot
+11,10,18:47.87,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Dunosky
+12,9,18:48.54,Piedmont Hills,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Alesandro,Serrano
+13,9,18:52.06,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Anirudh,Shenai
+14,10,18:58.37,Leland,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Varun,Rao
+15,9,19:06.12,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jonathan,Edwards
+16,10,19:09.21,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Matthew,Carino
+17,9,19:14.89,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nolan,Shinada
+18,10,19:20.99,Prospect,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Kim
+19,11,19:34.31,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Concepcion
+20,9,19:37.13,Prospect,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Stephen,Bailey
+21,9,19:40.45,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jake,Orton
+22,11,19:40.67,Westmont,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Lukas,Winter
+23,11,19:50.43,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Oscar,Maciel
+24,10,19:51.81,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Atoule
+25,11,19:52.06,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ellliot,Federighi
+26,11,19:56.01,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ian,Meamber
+27,9,19:56.89,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Joaquin,Mondragon
+28,9,20:00.39,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Brayden,Lin
+29,10,20:02.04,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ender,Kerr
+30,9,20:02.77,Prospect,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Adam,Zamek
+31,9,20:02.99,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Richard,Sun
+32,10,20:09.05,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Palser
+33,9,20:11.70,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Esteban,Rivera
+34,9,20:14.33,Leland,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Zack,Ogle
+35,10,20:18.93,Leland,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Lee
+36,9,20:35.33,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Henry Smith
+37,9,20:39.68,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nyel,Umair
+38,10,20:48.18,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Keisuke,Suzuki
+39,9,20:50.14,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Daichi,Sagae
+40,9,20:51.49,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Giordano
+41,10,20:52.45,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Benjamin,Havasy
+42,10,20:52.90,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Jake,Leal
+43,11,20:56.63,Westmont,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Logan,Wade
+44,10,20:57.93,Westmont,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Yashnil,Mohanty
+45,10,20:59.17,Santa Teresa,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Marcus,Dinh
+46,9,21:07.82,Pioneer,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Axel,Avalos
+47,10,21:08.18,Prospect,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ben,Lenrow
+48,11,21:15.66,Evergreen Valley,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Liam,Wong
+49,11,21:31.12,Prospect,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Graham,Kohler
+50,9,21:31.63,Leland,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ishaan,Desai
+51,10,22:04.60,Prospect,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Grady,Dreyer
+52,9,22:11.51,Willow Glen,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Matteo,Pilling
+53,11,22:33.34,Prospect,2.74 Miles Junior Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aleksandar,Djurovic
+54,9,22:38.69,Leland,2.74 Miles Junior Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jacob,Hsueh
+55,10,22:59.98,Leland,2.74 Miles Junior Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Dominic,Wang
+1,11,15:00.45,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carson,Hedlund
+2,12,15:31.70,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Dalziel
+3,11,15:32.14,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Landon,Cribari
+4,11,15:32.61,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Soni
+5,11,15:51.20,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jose,Contreras
+6,11,15:55.63,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Yosef,Berhan
+7,12,16:18.84,Santa Teresa,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Park
+8,12,16:25.48,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Henry,Koo
+9,12,16:35.67,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Duong
+10,12,16:40.68,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Connor,Whitson
+11,12,16:44.90,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Spencer,King
+12,11,16:45.74,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ryan,Aziz
+13,12,16:50.00,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Mosher
+14,12,16:50.45,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Colby,Leal
+15,10,17:14.99,Westmont,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Ketterer
+16,11,17:29.54,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Nguyen
+17,11,17:47.49,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carter,Cormier
+18,11,17:49.19,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Arango
+19,10,18:03.08,Pioneer,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Tobias,Sandler
+20,10,18:18.82,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mattheau,Rivera
+21,11,18:51.89,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Arkadiusz,Matlosz
+22,11,19:02.81,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Anteo,Matlosz
+23,12,19:39.97,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Yash,Chitambar
+24,11,20:35.05,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jacob,Turner
+25,11,20:46.13,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Heck
+26,11,21:08.73,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Doan
+1,10,15:50.02,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Hayden,Kieslich
+2,11,15:56.61,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Jubert
+3,10,16:04.91,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Duncan,Lorang
+4,12,16:05.60,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Doherty
+5,12,16:24.61,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Brandon,Gingras
+6,11,16:38.31,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nagaashrith,Kaliki
+7,11,16:43.22,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Pranav,Sairam
+8,11,17:02.52,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Austen,Grabbe
+9,12,17:08.48,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Manu,Gorantla
+10,11,17:17.60,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Shelley
+11,10,17:18.38,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caleb,Entwisle
+12,9,17:21.10,Willow Glen,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Noah,Tally
+13,12,17:21.82,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Dominic,Vaughn-Luma
+14,10,17:26.44,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Rihito,Yamaguchi
+15,12,17:40.12,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Gingras
+16,12,17:43.52,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Lam
+17,12,17:44.18,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Vincent,Nguyen
+18,12,17:54.22,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Mateo,Carino
+19,9,17:54.50,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Yu
+20,10,17:56.49,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Steven,Watson
+21,11,18:18.63,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Wei,Wang
+22,9,18:25.77,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Julian,Zhi
+23,12,18:56.75,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Leamy
+24,12,19:10.97,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Okumura
+25,9,19:18.23,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Horace,Ou
+26,11,19:23.96,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kyan,Wang
+27,10,20:05.03,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Justin,Webb
+1,11,15:00.45,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carson,Hedlund
+2,12,15:31.70,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Dalziel
+3,11,15:32.14,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Landon,Cribari
+4,11,15:32.61,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Soni
+5,11,15:51.20,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jose,Contreras
+6,11,15:55.63,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Yosef,Berhan
+7,12,16:18.84,Santa Teresa,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Park
+8,12,16:25.48,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Henry,Koo
+9,12,16:35.67,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Shane,Duong
+10,12,16:40.68,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Connor,Whitson
+11,12,16:44.90,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Spencer,King
+12,11,16:45.74,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ryan,Aziz
+13,12,16:50.00,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Mosher
+14,12,16:50.45,Pioneer,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Colby,Leal
+15,10,17:14.99,Westmont,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Ketterer
+16,11,17:29.54,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Nguyen
+17,11,17:47.49,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Carter,Cormier
+18,11,17:49.19,Westmont,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Arango
+19,10,18:03.08,Pioneer,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Tobias,Sandler
+20,10,18:18.82,Piedmont Hills,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mattheau,Rivera
+21,11,18:51.89,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Arkadiusz,Matlosz
+22,11,19:02.81,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Anteo,Matlosz
+23,12,19:39.97,Westmont,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Yash,Chitambar
+24,11,20:35.05,Pioneer,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jacob,Turner
+25,11,20:46.13,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Adrian,Heck
+26,11,21:08.73,Santa Teresa,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Doan
+1,10,15:50.02,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Hayden,Kieslich
+2,11,15:56.61,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Jubert
+3,10,16:04.91,Willow Glen,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Duncan,Lorang
+4,12,16:05.60,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Doherty
+5,12,16:24.61,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Brandon,Gingras
+6,11,16:38.31,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nagaashrith,Kaliki
+7,11,16:43.22,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Pranav,Sairam
+8,11,17:02.52,Prospect,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Austen,Grabbe
+9,12,17:08.48,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Manu,Gorantla
+10,11,17:17.60,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Shelley
+11,10,17:18.38,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caleb,Entwisle
+12,9,17:21.10,Willow Glen,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Noah,Tally
+13,12,17:21.82,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Dominic,Vaughn-Luma
+14,10,17:26.44,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Rihito,Yamaguchi
+15,12,17:40.12,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Gingras
+16,12,17:43.52,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Lam
+17,12,17:44.18,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Vincent,Nguyen
+18,12,17:54.22,Evergreen Valley,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Mateo,Carino
+19,9,17:54.50,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jeremy,Yu
+20,10,17:56.49,Leland,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Steven,Watson
+21,11,18:18.63,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Wei,Wang
+22,9,18:25.77,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Julian,Zhi
+23,12,18:56.75,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Thomas,Leamy
+24,12,19:10.97,Willow Glen,2.74 Miles Varsity,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jack,Okumura
+25,9,19:18.23,Prospect,2.74 Miles Varsity,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Horace,Ou
+26,11,19:23.96,Leland,2.74 Miles Varsity,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kyan,Wang
+27,10,20:05.03,Prospect,2.74 Miles Varsity,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Justin,Webb
+1,10,18:09.48,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Yang
+2,9,18:19.15,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Anshul,Dhaas
+3,12,18:23.97,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Rohith,Kompella
+4,10,18:31.64,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Weston,Kelly
+5,12,18:32.14,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Christofer,Chen
+6,11,18:34.55,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Luray,He
+7,9,18:43.17,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Shugo,Fujikawa
+8,10,18:44.91,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Benjamin,Doan
+9,12,18:47.79,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Pinak,Gupta
+10,11,18:55.79,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Yen,Wen Choo
+11,9,19:02.56,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Marcos,Mantelli
+12,10,19:04.22,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Everett,Gensler
+13,9,19:05.75,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Kaiden,Huynh
+14,11,19:06.85,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jason,Nguyen
+15,9,19:15.18,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Forest,Herrera
+16,10,19:17.50,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Eyan,Leon
+17,10,19:23.53,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Masataka,Hikida
+18,11,19:31.12,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,David,Tran
+19,11,19:36.25,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Minh,Nguyen
+20,12,19:38.14,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Minh,Nguyen
+21,10,19:51.11,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Lukas,Neikell
+22,9,19:56.60,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Tony,Wang
+23,10,20:02.70,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nikhil,Patel
+24,12,20:11.29,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Arthur,Nguyen
+25,11,20:14.03,Westmont,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Gavin,Lam
+26,11,20:18.14,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Braden,Suyeishi
+27,12,20:18.58,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Drew,Crespin
+28,9,20:21.91,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jonah,Gonzalez
+29,10,20:26.54,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Artem,Zak
+30,10,20:28.71,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Dimitri,Wilfred
+31,12,20:29.12,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Bohac
+32,9,20:34.25,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Soichoro,Osada
+33,12,20:38.45,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Daksh,Choksi
+34,10,20:42.91,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Wightman
+35,10,20:43.74,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Blunt
+36,12,20:52.64,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Matthew,Namba
+37,10,21:02.12,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Branden,Wang
+38,9,21:03.55,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nicolas,Odneal
+39,9,21:04.49,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jimmy,Chen
+40,10,21:05.35,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,John,Gutierrez
+41,11,21:12.81,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Henry,Tran
+42,9,21:16.46,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Yuki,Horio
+43,9,21:21.22,Pioneer,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Asha,Farsi
+44,9,21:22.53,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Mateo,Hemchand
+45,11,21:23.06,Westmont,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Oisin,Clark
+46,9,21:24.10,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Declan,Clark
+47,9,21:25.46,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Fionn,Clark
+48,12,21:25.88,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Justin,Le
+49,9,21:26.19,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Derek,Le
+50,9,21:26.68,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aksh,Vijayant
+51,10,21:27.60,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Lucas,Ta
+52,12,21:30.95,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Marcus,Wong
+53,11,21:31.92,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Calix,Ly
+54,9,21:33.73,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Riley,Neuman
+55,11,21:38.53,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Knapp
+56,9,21:39.94,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Arin,Dubey
+57,10,21:44.80,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kenneth,Vo
+58,10,21:45.48,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alexei,Prokopenko
+59,10,21:47.11,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caden,Kanazawa
+60,12,21:48.20,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Liam,Doherty
+61,12,21:50.53,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Chris,Wu
+62,9,21:51.90,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Tarun,Reddy
+63,11,21:53.62,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Lucas,Riedl
+64,10,21:56.80,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alex,Kim
+65,11,21:57.29,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Tran
+66,9,21:59.84,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ishaan,Parmar
+67,11,22:01.65,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,William,Tran
+68,9,22:05.45,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Benjamin,Gonzalez
+69,10,22:09.43,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Blake,Kim
+70,9,22:11.43,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Xiaoran,Xiong
+71,10,22:13.00,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aman,Remtulla
+72,10,22:15.85,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Daniel,Meilhon
+73,9,22:18.91,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Hsiao
+74,10,22:19.90,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Morgan,Kim
+75,12,22:20.39,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Hendrix,Russell
+76,9,22:20.73,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Evan,Katayama
+77,10,22:25.29,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ryan,Nguyen
+78,9,22:25.56,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Angel,Ramirez
+79,10,22:25.85,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Joaquin,Guzman
+80,10,22:36.97,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kobe,Tran
+81,12,22:37.75,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Hua
+82,12,22:50.21,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Bruce,Wen
+83,9,22:50.78,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Wesley,Wang
+84,10,22:53.45,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Chris,Lee
+85,10,22:56.84,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Eli,Basa
+86,9,23:00.30,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Weng
+87,10,23:06.25,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Elliot,Kim
+88,10,23:06.53,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Hobert
+89,11,23:22.89,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Marcos,Guerrero
+90,11,23:31.60,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Andrew,Nomi
+91,9,23:32.09,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Vaanavan,Aingaran
+92,11,23:32.73,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jason,Studebaker
+93,12,23:38.98,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Takuto,Horio
+94,9,23:40.09,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Marcus,Colborn
+95,11,23:41.56,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ben,Riley
+96,10,23:43.92,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Jake,Oderio
+97,12,23:51.50,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Landon,Tran
+98,10,23:53.52,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Daniel,Vera Rosas
+99,11,24:00.38,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Easton,Stubelt
+100,12,24:05.91,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Alexander,Hernandez
+101,10,24:07.66,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Santiago,Sandez
+102,10,24:15.35,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aditya,Mahajan
+103,10,24:20.47,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Joseph,Dries
+104,11,24:22.23,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Tanish,Shetty
+105,10,24:32.09,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Andy,Tran
+106,9,24:33.01,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Noah,Davery
+107,10,24:44.13,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Wyatt,Spears
+108,10,24:50.10,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Brian,Duffy
+109,12,24:51.75,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Aaron,Joseph
+110,12,24:55.03,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Matthew,Etzel
+111,11,25:08.44,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,William,Phung
+112,9,25:19.35,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ian,Trinh
+113,9,25:20.19,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Kenneth,Ly
+114,10,25:22.83,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Adam,Metwally
+115,9,25:23.20,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Angel,Flores Villareal
+116,9,25:28.31,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Tristan,Daryaie
+117,10,25:33.86,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Etzel
+118,9,25:43.12,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aashiv,Patel
+119,9,25:43.91,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nicholas,Winter
+120,9,25:45.40,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aamir,Lokhandwala
+121,9,25:46.67,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Michael,Kha
+122,9,25:48.50,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Leul,Mekuria
+123,9,25:49.63,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Manusha,Meegodage
+124,9,25:52.20,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Samuel,Gutierrez
+125,9,26:09.70,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Zephyr,Simon
+126,10,26:10.82,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alexander,Chen
+127,9,26:28.74,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Weston,Weiss
+128,10,26:37.90,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Tyler,George
+129,10,26:38.99,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Brayden,Moore
+130,11,26:41.46,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Andrew,Vu
+131,9,26:53.93,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Cade,Santos
+132,9,27:33.82,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Leslie,Wen
+133,11,27:41.13,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aidan,Ma
+134,9,27:46.53,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nathan,Mo
+135,8,27:59.32,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2028,Search,League,Montgomery Hill Park,4410,2023,M,Jefferson,Morales
+136,10,28:00.41,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Robert,Huang
+137,9,28:02.24,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Joshua,Lam
+139,10,28:10.84,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Liam,Chessar
+140,9,28:14.84,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Braden,Lee
+141,9,28:24.42,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Denver,Ha
+142,10,28:44.32,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Christian,Castrence
+143,10,28:44.81,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Ben,Ho
+144,9,28:57.38,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aakash,Melwani
+145,9,29:17.33,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Aiden,Cross
+146,9,29:38.41,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Thaison,Le
+147,9,29:49.51,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nicholas,Wu
+148,9,30:01.70,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Xavier,Iraheta Huato
+149,9,30:16.98,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Colin,Wade
+150,9,30:37.84,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jonathan,Philip
+151,9,32:12.25,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Lukas,Gocobachi
+152,9,32:14.69,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Michael,Goh
+153,9,32:15.92,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Kevin,Ly
+154,12,32:25.17,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ethan,Nguyen
+155,9,34:02.13,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Neel,Madhani
+156,9,38:12.51,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Jean,Rupert Dioso
+1,10,21:11.57,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Danju,Kuo
+2,11,22:11.20,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Eva,Cardoza
+3,11,22:30.60,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Emma,Rahardja
+4,11,22:48.20,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Breanna,Tran
+5,10,23:17.61,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Maben,Cody
+6,11,23:39.59,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Chantei,De Vera
+7,10,23:40.35,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alondra,Hernandez
+8,11,24:14.79,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Christa,Tran
+9,10,24:23.76,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Destiny,Ortiz
+10,11,24:33.49,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Grace,Davila
+11,10,24:55.23,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Angela,Fong
+12,9,25:10.64,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Evelyn,Lu
+13,9,25:12.10,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Ananya,Madan
+14,11,25:12.97,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Thu,Nguyen
+15,11,25:22.70,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Tiffany,Ho
+16,9,25:36.66,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Grace,Cummins
+17,9,25:39.78,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Kim
+18,10,26:19.10,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Polina,Chistyakova
+19,10,26:23.62,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kaylee,Liz-Marie Lulu
+20,9,26:33.96,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Bella,Hsieh
+21,11,26:37.15,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Jenny,Phan
+22,9,26:48.58,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Honoka,Morii
+23,9,27:58.59,Santa Teresa,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Amaya,Beas
+24,10,28:02.54,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Caitlin,Pearl
+25,11,28:24.16,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Allison,Tsai
+26,9,28:45.47,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Bella,Lu
+27,10,29:13.55,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Shreya,Kaza
+28,9,29:22.22,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Hadley,Shafran
+29,9,29:23.27,Willow Glen,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Alina,Revelez
+30,11,29:35.91,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Elise,Katayama
+31,10,30:00.29,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sophia,Doan
+32,10,30:04.85,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Anna,Thomas
+33,9,30:51.28,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Liliana,Chai
+34,9,31:10.21,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Saachi,Basavaraju
+35,9,31:30.48,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Amulya,Tadimeti
+36,9,32:31.74,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Shiloh,Cleveland
+37,11,33:14.64,Pioneer,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sonia,Feria
+38,10,33:28.07,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Myriam,Claire Calvillo
+39,10,33:48.93,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sarah,Rensel-Smith
+40,10,36:09.00,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mikayla,Como
+41,10,36:49.91,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,skyler,Thomas
+42,9,38:38.69,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Megan,Chang
+43,10,38:39.15,Westmont,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Mia,Keller
+1,9,18:32.30,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Adelyn,King
+2,12,18:55.98,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Kiarra,D'Arcangelo
+3,12,19:30.40,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Tauren,Mitchell
+4,10,19:35.99,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Cassie,Itatani
+5,10,20:10.37,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Shannon,Zhou
+6,11,20:21.02,Santa Teresa,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kim,Le
+7,12,20:24.17,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Hasset,Mekuria
+8,10,20:26.44,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sophie,Le
+9,9,20:27.12,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Hannah,Crowley
+10,11,20:33.08,Santa Teresa,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sophia,Valle
+11,10,20:48.92,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Stephanie,Chang
+12,12,21:01.75,Santa Teresa,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Makena,Concepcion
+13,10,21:32.48,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kayla,Paugh
+14,10,21:33.13,Pioneer,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sarah,Leasure
+15,10,21:50.18,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Katherine,Rice
+16,11,22:00.42,Westmont,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sara,Chaudoin
+17,11,22:04.22,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Amie,Nguyen
+18,9,22:12.36,Westmont,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Avery,Naas
+19,11,22:13.75,Santa Teresa,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Nevaeh,Bryant
+20,10,22:31.13,Santa Teresa,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Zoe,Wassem
+21,12,23:50.33,Westmont,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Julia,Martin
+22,12,25:08.96,Pioneer,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Sophia,Gonzalez
+23,11,25:44.19,Pioneer,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kate,Gonzalez
+24,9,27:16.59,Pioneer,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Grace,Riggioni
+1,11,18:23.56,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kylie,Hoornaert
+2,12,18:45.91,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ruby,Chen
+3,11,18:51.58,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Lola,Herning
+4,10,19:17.64,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Maile,Shinmoto
+5,10,19:24.73,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Alyssa,Nagatani
+6,11,20:03.46,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Ramneek,Kaur
+7,11,20:52.16,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Riggs
+8,9,21:04.85,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Sivani,Kaliki
+9,11,21:06.88,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Idee,Chang
+10,11,21:10.66,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sofia,Russell
+11,10,21:13.35,Leland,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Aria,Das
+12,12,21:20.70,Prospect,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Kira,Stringer
+13,10,21:32.56,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Autumn,Pacheco
+14,11,22:05.73,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Sierra,Cherniavsky
+15,12,22:09.48,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Sonya,Prabhoo
+16,12,22:37.05,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Ameya,Ganesh
+17,11,22:37.28,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Casey,Azus
+18,10,22:39.84,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Lydia,Tan
+19,12,22:40.41,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Abigail,Riggs
+20,12,22:47.88,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Natasha,Joshi
+21,11,23:09.61,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Aditi,Varia
+22,11,23:17.75,Prospect,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Kayla,Kirkendall
+23,12,23:29.78,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Angelina,Nguyen
+24,9,24:24.37,Prospect,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Sariah,Kazem
+25,12,24:26.62,Leland,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Gilina,Voon
+26,12,24:29.81,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Nell,Callahan
+27,9,25:28.07,Leland,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Apurva,Tadimeti
+28,10,26:54.76,Prospect,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Cierra,Yu
+1,12,22:06.51,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Josephine,Kwok
+2,9,23:30.71,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Breanne,Kaing
+3,12,25:38.32,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Juliet,Tran
+4,12,25:49.25,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Vivian,Nguyen
+5,12,25:58.76,Willow Glen,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Kayleigh,Viegas
+6,11,26:16.99,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Violet,Ballesteros
+7,12,26:59.53,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Jasmine,Goodwin
+8,9,27:12.06,Evergreen Valley,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Erva,Coskun
+9,10,27:17.77,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Duarte
+10,9,27:38.95,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Nia,Amour
+11,12,27:47.98,Prospect,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Georgia,Davis-Wallace
+12,10,27:49.81,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Isabella,Rios
+13,12,27:55.08,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Youjia,He
+14,9,28:18.52,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Diya,Sami
+15,10,28:58.47,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Carissa,Garcia
+16,9,29:06.46,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Anala,Broussard
+17,11,29:14.49,Willow Glen,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Julia,Pignataro
+18,11,29:15.42,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2025,Search,League,Montgomery Hill Park,4410,2023,M,Alisa,Bui
+19,10,29:32.36,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Sarah,Xu
+20,12,29:35.68,Prospect,2.74 Miles Reserve,2023-09-06,2024,Search,League,Montgomery Hill Park,4410,2023,M,Katherine,Davis-Wallace
+21,10,29:43.79,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Kyra,Pagkas
+22,10,30:56.21,Willow Glen,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Elena,Brown
+23,9,31:39.54,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2027,Search,League,Montgomery Hill Park,4410,2023,M,Charlotte,Tay
+24,10,31:43.08,Piedmont Hills,2.74 Miles Reserve,2023-09-06,2026,Search,League,Montgomery Hill Park,4410,2023,M,Shin,You Hu

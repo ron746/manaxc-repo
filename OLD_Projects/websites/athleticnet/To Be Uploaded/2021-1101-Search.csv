@@ -1,0 +1,541 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,11,16:20.8,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Casey,Nuti
+2,11,16:23.7,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Spencer,Zeljak
+3,12,16:38.8,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Antoine,Moret
+4,9,16:39.8,Pioneer,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Carson,Hedlund
+5,10,16:43.1,Westmont,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Shane,Dalziel
+6,12,16:46.6,Leland,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Sami,Shafi
+7,11,17:02.8,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Zachary,Irwin
+8,12,17:11.1,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Amir,Jordan
+9,11,17:15.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Sosa
+10,11,17:23.0,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jeffrey,Hedlund
+11,12,17:27.2,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Tommy,Callahan
+12,11,17:30.6,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ojas,Joshi
+13,12,17:31.7,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Dominic,Clima
+14,12,17:32.8,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Saaketh,Nandakumar
+15,9,17:33.2,Leland,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Colin,Jubert
+16,10,17:42.1,Pioneer,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Ethan,Mosher
+17,11,17:45.0,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Finlay,McAfee
+18,12,17:49.1,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Yacob,Kifle
+19,11,17:57.1,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jack,Park
+20,11,18:03.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,James,Estrella
+21,11,18:07.1,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Luke,Morgan
+22,12,18:09.8,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Bryan,Cromartie
+23,12,18:16.8,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Michael,Gabbani
+24,12,18:17.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Xinyu,Zhang
+25,11,18:18.2,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Diego,Ochoa-Mendez
+26,11,18:18.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Abhyuday,Srivatsa
+27,12,18:21.9,Westmont,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Skyler,Dalziel
+28,10,18:22.1,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Noah,Thompson
+29,12,18:26.9,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Eddie,Favela
+30,12,18:27.4,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Samarth,Boranna
+31,11,18:27.5,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Evan,Griffith
+32,11,18:30.7,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jacob,Lantis
+33,9,18:31.4,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Andrew,Hamamoto
+34,11,18:32.5,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Magnus,Vega
+35,12,18:35.3,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Evan,Pagano
+36,10,18:37.4,Willow Glen,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Nikos,Dal Canto
+37,12,18:40.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Philip,Le
+38,11,18:42.8,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Troy,Nguyen
+39,12,18:43.4,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Evan,Itow
+40,10,18:46.4,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Mateo,Carino
+41,11,18:46.4,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Brian,Jackson
+42,11,18:49.0,Del Mar,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ashton,Scheerer
+43,12,18:50.6,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Michael,Todd
+44,11,18:59.2,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Keshav,Sethi
+45,11,19:00.5,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ethan,Garcia
+46,10,19:03.0,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Nicolas,Reed
+47,10,19:04.1,Branham,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Andrew,Seefeldt
+48,9,19:05.3,Prospect,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Nolan,Breit
+49,10,19:07.2,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Brandon,Gingras
+50,12,19:13.8,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Joshua,Perez
+51,12,19:13.8,San Jose,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Efren,Castaneda
+52,9,19:18.6,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Ty,Fought
+53,12,19:24.0,Westmont,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Ryan,Chaudoin
+54,11,19:26.2,Prospect,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Joseph,Avellar
+55,12,19:27.0,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Jacob,Lepe
+56,12,19:27.7,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Armaan,Joshi
+57,12,19:27.7,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Martinez
+58,11,19:27.9,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Omar,Lopez
+59,11,19:30.4,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Alvin,Dang
+60,12,19:30.8,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Nicholas,Wang
+61,11,19:39.7,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Brandon,Cendejas
+62,10,19:40.9,Del Mar,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Israel,Hernandez
+63,12,19:42.5,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Ramos
+64,11,19:45.5,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Nathan,Hong
+67,12,19:47.7,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Jose,Villarreal
+68,11,19:54.9,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Gabriel,Hui
+69,11,19:58.5,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Enrique,Hernandez
+70,11,19:59.0,Prospect,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Charlie,Kirkendall
+71,12,20:00.0,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Michael,Boyd
+72,12,20:01.4,Leland,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Aidan,Cain
+73,12,20:02.4,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Bryce,Johnson
+74,9,20:03.6,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Alonso,Joaquin Rojas
+75,10,20:04.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Dhilan,Mistry
+77,9,20:06.4,Independence,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Navraj,Sanhan
+78,9,20:10.4,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Nathan,Green
+79,10,20:11.6,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Zachary,Derse
+80,11,20:11.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Isaac,Alshraideh
+81,12,20:14.8,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Mustafa,Malik
+82,10,20:16.7,Del Mar,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Henry,Oliver
+83,12,20:17.1,Yerba Buena,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Joseph,Chavarin
+84,10,20:17.3,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Jeremy,Gingras
+85,11,20:18.2,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Kevin,Estrada
+86,10,20:20.3,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Rayan,Ezaz
+87,12,20:23.2,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Nathan,Havens
+88,10,20:24.9,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Mason,Firebaugh
+89,9,20:25.5,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Phillip,Seng
+90,11,20:25.9,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Atticus,Wong
+91,9,20:29.7,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kristian,De La Sierra
+92,12,20:37.8,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Matthew,Bailey
+93,9,20:40.4,Leland,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kyan,Wang
+94,11,20:40.4,Del Mar,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Richard,Armenta
+95,11,20:43.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,James,Nguyen
+96,12,20:43.9,Live Oak,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Ricky,Howe
+97,12,20:44.8,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,William,Seng
+98,10,20:45.7,Santa Teresa,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Hayden,Hernandez
+99,10,20:46.1,Independence,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Dominic,Todd
+100,11,20:49.0,Independence,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Richard,Ulat
+101,9,20:55.0,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Arkadiusz,Matlosz
+102,12,20:59.9,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Ricky,Yoshida
+103,10,21:00.3,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Miguel,Morfin
+104,11,21:01.7,Gunderson,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Christopher,Heering
+105,10,21:04.4,Santa Teresa,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Preston,Nguyen
+106,9,21:10.9,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Benjamin,Bauer
+107,9,21:19.0,James Lick,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Alexander,Herrera
+108,11,21:24.0,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jesus,Murillo
+109,11,21:26.6,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Chris,Luu
+110,12,21:27.4,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Colin,Gabriel
+111,9,21:28.4,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Abel,Lara
+112,9,21:39.3,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Colin,Curto
+113,11,21:39.4,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jacob,Pham
+114,12,21:42.2,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Vincent,Nguyen
+115,12,21:43.7,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Aiden,Agudelo-Petrini
+116,11,21:45.0,Leigh,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Caden,Sherman
+117,10,21:47.5,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Spencer,King
+118,9,21:48.8,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Diego,Caro
+119,12,21:49.0,Yerba Buena,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Darren,Monteiro
+120,11,21:56.2,Prospect,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Joshua,Choi
+121,11,21:56.8,James Lick,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Omar,Sanchez
+122,9,21:58.0,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Noah,Baldwin
+123,10,22:02.5,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Christian,Martinez
+124,12,22:07.8,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Joshua,Krone
+125,10,22:23.6,Overfelt,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Steven,Arreola
+126,10,22:24.7,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Ezekiel,Gallegos
+128,11,22:37.1,Gunderson,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Aiden,Valadez
+129,12,22:45.4,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Diego,Garcia
+130,9,22:57.4,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Israel,Sanchez
+131,12,22:58.9,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Angel,Arciniega
+132,10,22:59.7,Andrew Hill,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Abel,Gonzales
+134,9,23:27.1,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kyle,Bernardez
+135,10,23:42.3,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Caleb,Castelar
+136,11,23:46.8,James Lick,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ronaldo,Castillo
+138,10,23:55.5,Overfelt,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Jesus,Torres
+139,9,24:05.1,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Joel,Hernandez
+140,12,24:15.1,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Javier,Lara
+141,12,24:27.5,Gunderson,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Chang,John
+142,9,24:48.9,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Mohamed,Mohammed
+143,11,25:11.2,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Hudson,Hein
+144,9,25:39.8,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Derek,Dinh
+146,12,25:46.0,San Jose,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Lopez
+147,12,25:47.1,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Eric,Do
+148,9,25:52.6,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Seth,Laurent
+149,9,26:41.8,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Daniel,Nagashima
+152,9,27:22.8,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Jayden,Gutierrez
+153,9,28:34.7,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Esaie,Prickett
+154,9,29:27.9,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Hugo,Barriag-Garcia
+155,9,29:52.8,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Andrew,Lieu
+157,9,31:41.3,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Joaquin,Valdez
+158,12,35:10.4,San Jose,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Mario,Ramirez
+1,9,17:59.1,Prospect,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kylie,Hoornaert
+2,12,18:07.2,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Isabella,Peretti
+3,9,19:11.2,Willow Glen,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Lola,Herning
+4,10,19:27.5,Westmont,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Tauren,Mitchell
+5,11,19:50.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Felisha,Kuo
+6,12,20:15.3,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Dominique,Salinas
+7,12,20:24.6,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Sophia,William
+8,9,20:25.5,Prospect,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Aditi,Varia
+9,10,20:26.3,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Karly,Page
+10,12,20:27.4,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Hanna,Olson
+11,11,20:33.7,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Lauren,Peters
+12,11,20:37.1,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Isabelle,Moret
+13,11,20:40.8,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Paige,Unger
+14,11,20:43.8,Santa Teresa,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jane,Partsch
+15,9,20:44.6,Silver Creek,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Natalia,Niebles
+16,9,20:56.6,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Cecile,Giguere
+17,9,21:03.5,Willow Glen,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Taylor,Chesarek
+18,11,21:05.7,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mary,Howard
+19,11,21:14.0,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Maria,Forster
+20,12,21:18.7,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Megan,Cubiss
+21,11,21:21.8,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Alexandra,Gryciuk
+22,12,21:24.2,Live Oak,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Abigail,Paulson
+23,11,21:26.9,Santa Teresa,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mackenzie,MacDonald
+24,10,21:28.3,Pioneer,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Andrea,Ayala
+25,10,21:29.6,Prospect,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kira,Stringer
+26,11,21:34.3,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Raven,Nieto
+27,12,21:38.2,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Audrey,Do
+28,12,21:41.1,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kate,Smyrniotis
+29,9,21:45.9,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Amie,Nguyen
+30,10,21:51.8,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Amber,Buonomo
+31,12,21:51.9,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Haley,Meyer
+32,12,21:55.5,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Meghan,Mcleary
+33,9,21:59.2,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kim,Le
+34,11,22:02.8,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Karuna,Gray
+35,10,22:04.5,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Lillian,Montgomery
+36,11,22:05.9,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Avalon,Kelly
+37,10,22:10.1,Westmont,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kiarra,D'Arcangelo
+38,9,22:13.0,Willow Glen,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Katelynn,Dilbeck
+40,9,22:15.7,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Samantha,Solorzano
+41,10,22:20.1,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Ameya,Ganesh
+42,11,22:22.1,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Daya,Kumaran
+43,12,22:26.1,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kiera,Ching
+44,12,22:30.9,Westmont,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Lily,Stockmans
+45,12,22:36.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Evelyn,Sen
+46,11,22:36.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Sabrina,Tran
+47,9,22:38.9,Silver Creek,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Rachel,Howard
+49,10,22:50.2,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Eva,Nguyen-Fell
+50,9,23:00.4,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Sophia,Valle
+51,11,23:07.2,Santa Teresa,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ariana,Gauff
+52,11,23:08.4,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Kalia,Villanueva
+53,12,23:10.4,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Milly,Fulgencio Gomez
+54,12,23:13.2,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Eve,O'Neill
+56,12,23:24.6,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Lynn,Nguyen
+57,12,23:26.7,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Meha,Kavoori
+58,11,23:28.1,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Landry,Schoennauer
+59,10,23:30.9,Prospect,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Natalie,Ludwig
+60,12,23:32.8,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Andie,Franco
+61,11,23:37.2,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ally,Kwan
+62,12,23:44.5,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Esther,Lau
+63,11,23:47.4,Live Oak,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Avery,Smith
+64,9,23:52.8,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Nevaeh,Bryant
+65,12,23:55.1,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Melody,Nguyen
+66,11,23:58.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Lily,Wen
+67,12,23:59.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Isabella,Lipscomb
+68,9,23:59.6,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Lily,Sanders
+69,10,24:19.2,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Shragvi,Sunil
+70,10,24:22.7,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Breanna,Lu
+71,9,24:31.7,Independence,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Rebecca,Sicotte
+72,10,24:38.4,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Neomi,Gonzalez-Guerrero
+73,11,24:41.1,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Kaela,Pham
+74,10,24:42.8,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Taylor,Solorzano
+75,10,24:45.9,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Hasset,Mekuria
+76,9,24:55.1,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Ramneek,Kaur
+77,12,24:57.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Alejandra,Luevanos
+78,10,24:59.4,Yerba Buena,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kayleen,Landa
+79,11,25:12.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Dina,Berhan
+80,10,25:19.3,Branham,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Maddy,Cheng
+81,12,25:20.9,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Hillary,Dang
+82,10,25:22.6,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kayla,Tran
+83,9,25:43.7,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Abigail,Fukuhara
+84,12,25:46.2,Yerba Buena,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Emerald,Oun
+85,12,25:46.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Hailey,Dang
+86,11,25:49.5,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Serena,Xiang
+88,10,25:53.4,James Lick,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Belen,Gomez
+89,9,25:58.2,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Jordan,Liou-Mandujano
+90,9,26:05.6,Westmont,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Sara,Chaudoin
+91,10,26:06.3,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Rui,Tong
+92,9,26:11.2,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Alondra,Dominguez
+93,11,26:18.7,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Zoe,Davis
+94,12,26:34.0,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kellen,Doan
+95,12,26:38.0,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Shirin,Huzejrovic
+96,11,26:39.4,Independence,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Sofia,Vasquez
+97,11,26:40.2,Andrew Hill,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Karen,Luna
+98,10,26:48.2,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Melia,Manning
+99,10,26:53.7,Branham,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Caitlin,Cubiss
+100,9,26:55.4,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Keira,Daley
+101,9,27:07.2,Yerba Buena,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Mireyli,Torres
+102,9,27:14.0,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Chloe,Grace
+104,12,27:33.1,James Lick,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Alina,Vo
+106,9,27:43.6,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Emily,Ramirez
+107,9,27:48.4,Branham,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Hillary,Mai
+109,9,28:08.1,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Sofia,Ruiz McGinty
+110,9,28:16.4,Independence,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Lauren,De la Vega
+111,11,28:21.8,James Lick,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Daisy,Flores
+112,10,28:24.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Cynthia,Pena Guizar
+113,10,28:26.0,Andrew Hill,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Erika,Pham
+114,10,28:38.3,Independence,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Amanda,Vo
+115,12,28:41.0,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Trisha,Nguyen
+116,11,28:49.5,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mia,Chavez
+119,10,29:17.9,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Shreeya,Amin
+122,9,29:49.9,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Paulina,Jacobo
+123,10,29:59.3,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Emily,Gaitan
+128,12,30:37.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kalin,Le
+129,9,31:04.1,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Analise,Detrinidad
+130,9,32:13.3,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Carmen,Roussere
+131,12,32:38.8,Del Mar,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kiara,Sipes
+132,10,32:42.3,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Sam,Genz
+133,12,33:29.5,Del Mar,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Huyana,Lopez
+135,12,35:08.6,Oak Grove,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Deanna,Stone
+138,9,37:34.5,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Angelina,Rosales
+139,9,37:34.9,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Liana,Miramontes
+141,11,41:17.8,Overfelt,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mai,Tran
+1,11,16:20.8,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Casey,Nuti
+2,11,16:23.7,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Spencer,Zeljak
+3,12,16:38.8,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Antoine,Moret
+4,9,16:39.8,Pioneer,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Carson,Hedlund
+5,10,16:43.1,Westmont,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Shane,Dalziel
+6,12,16:46.6,Leland,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Sami,Shafi
+7,11,17:02.8,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Zachary,Irwin
+8,12,17:11.1,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Amir,Jordan
+9,11,17:15.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Sosa
+10,11,17:23.0,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jeffrey,Hedlund
+11,12,17:27.2,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Tommy,Callahan
+12,11,17:30.6,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ojas,Joshi
+13,12,17:31.7,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Dominic,Clima
+14,12,17:32.8,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Saaketh,Nandakumar
+15,9,17:33.2,Leland,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Colin,Jubert
+16,10,17:42.1,Pioneer,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Ethan,Mosher
+17,11,17:45.0,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Finlay,McAfee
+18,12,17:49.1,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Yacob,Kifle
+19,11,17:57.1,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jack,Park
+20,11,18:03.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,James,Estrella
+21,11,18:07.1,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Luke,Morgan
+22,12,18:09.8,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Bryan,Cromartie
+23,12,18:16.8,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Michael,Gabbani
+24,12,18:17.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Xinyu,Zhang
+25,11,18:18.2,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Diego,Ochoa-Mendez
+26,11,18:18.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Abhyuday,Srivatsa
+27,12,18:21.9,Westmont,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Skyler,Dalziel
+28,10,18:22.1,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Noah,Thompson
+29,12,18:26.9,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Eddie,Favela
+30,12,18:27.4,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Samarth,Boranna
+31,11,18:27.5,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Evan,Griffith
+32,11,18:30.7,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jacob,Lantis
+33,9,18:31.4,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Andrew,Hamamoto
+34,11,18:32.5,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Magnus,Vega
+35,12,18:35.3,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Evan,Pagano
+36,10,18:37.4,Willow Glen,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Nikos,Dal Canto
+37,12,18:40.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Philip,Le
+38,11,18:42.8,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Troy,Nguyen
+39,12,18:43.4,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Evan,Itow
+40,10,18:46.4,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Mateo,Carino
+41,11,18:46.4,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Brian,Jackson
+42,11,18:49.0,Del Mar,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ashton,Scheerer
+43,12,18:50.6,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Michael,Todd
+44,11,18:59.2,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Keshav,Sethi
+45,11,19:00.5,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ethan,Garcia
+46,10,19:03.0,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Nicolas,Reed
+47,10,19:04.1,Branham,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Andrew,Seefeldt
+48,9,19:05.3,Prospect,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Nolan,Breit
+49,10,19:07.2,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Brandon,Gingras
+50,12,19:13.8,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Joshua,Perez
+51,12,19:13.8,San Jose,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Efren,Castaneda
+52,9,19:18.6,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Ty,Fought
+53,12,19:24.0,Westmont,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Ryan,Chaudoin
+54,11,19:26.2,Prospect,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Joseph,Avellar
+55,12,19:27.0,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Jacob,Lepe
+56,12,19:27.7,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Armaan,Joshi
+57,12,19:27.7,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Martinez
+58,11,19:27.9,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Omar,Lopez
+59,11,19:30.4,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Alvin,Dang
+60,12,19:30.8,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Nicholas,Wang
+61,11,19:39.7,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Brandon,Cendejas
+62,10,19:40.9,Del Mar,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Israel,Hernandez
+63,12,19:42.5,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Ramos
+64,11,19:45.5,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Nathan,Hong
+67,12,19:47.7,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Jose,Villarreal
+68,11,19:54.9,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Gabriel,Hui
+69,11,19:58.5,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Enrique,Hernandez
+70,11,19:59.0,Prospect,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Charlie,Kirkendall
+71,12,20:00.0,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Michael,Boyd
+72,12,20:01.4,Leland,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Aidan,Cain
+73,12,20:02.4,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Bryce,Johnson
+74,9,20:03.6,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Alonso,Joaquin Rojas
+75,10,20:04.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Dhilan,Mistry
+77,9,20:06.4,Independence,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Navraj,Sanhan
+78,9,20:10.4,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Nathan,Green
+79,10,20:11.6,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Zachary,Derse
+80,11,20:11.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Isaac,Alshraideh
+81,12,20:14.8,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Mustafa,Malik
+82,10,20:16.7,Del Mar,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Henry,Oliver
+83,12,20:17.1,Yerba Buena,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Joseph,Chavarin
+84,10,20:17.3,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Jeremy,Gingras
+85,11,20:18.2,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Kevin,Estrada
+86,10,20:20.3,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Rayan,Ezaz
+87,12,20:23.2,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Nathan,Havens
+88,10,20:24.9,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Mason,Firebaugh
+89,9,20:25.5,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Phillip,Seng
+90,11,20:25.9,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Atticus,Wong
+91,9,20:29.7,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kristian,De La Sierra
+92,12,20:37.8,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Matthew,Bailey
+93,9,20:40.4,Leland,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kyan,Wang
+94,11,20:40.4,Del Mar,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Richard,Armenta
+95,11,20:43.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,James,Nguyen
+96,12,20:43.9,Live Oak,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Ricky,Howe
+97,12,20:44.8,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,William,Seng
+98,10,20:45.7,Santa Teresa,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Hayden,Hernandez
+99,10,20:46.1,Independence,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Dominic,Todd
+100,11,20:49.0,Independence,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Richard,Ulat
+101,9,20:55.0,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Arkadiusz,Matlosz
+102,12,20:59.9,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Ricky,Yoshida
+103,10,21:00.3,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Miguel,Morfin
+104,11,21:01.7,Gunderson,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Christopher,Heering
+105,10,21:04.4,Santa Teresa,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Preston,Nguyen
+106,9,21:10.9,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Benjamin,Bauer
+107,9,21:19.0,James Lick,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Alexander,Herrera
+108,11,21:24.0,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jesus,Murillo
+109,11,21:26.6,Yerba Buena,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Chris,Luu
+110,12,21:27.4,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Colin,Gabriel
+111,9,21:28.4,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Abel,Lara
+112,9,21:39.3,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Colin,Curto
+113,11,21:39.4,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jacob,Pham
+114,12,21:42.2,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Vincent,Nguyen
+115,12,21:43.7,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Aiden,Agudelo-Petrini
+116,11,21:45.0,Leigh,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Caden,Sherman
+117,10,21:47.5,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Spencer,King
+118,9,21:48.8,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Diego,Caro
+119,12,21:49.0,Yerba Buena,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Darren,Monteiro
+120,11,21:56.2,Prospect,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Joshua,Choi
+121,11,21:56.8,James Lick,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Omar,Sanchez
+122,9,21:58.0,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Noah,Baldwin
+123,10,22:02.5,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Christian,Martinez
+124,12,22:07.8,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Joshua,Krone
+125,10,22:23.6,Overfelt,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Steven,Arreola
+126,10,22:24.7,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Ezekiel,Gallegos
+128,11,22:37.1,Gunderson,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Aiden,Valadez
+129,12,22:45.4,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Diego,Garcia
+130,9,22:57.4,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Israel,Sanchez
+131,12,22:58.9,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Angel,Arciniega
+132,10,22:59.7,Andrew Hill,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Abel,Gonzales
+134,9,23:27.1,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kyle,Bernardez
+135,10,23:42.3,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Caleb,Castelar
+136,11,23:46.8,James Lick,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ronaldo,Castillo
+138,10,23:55.5,Overfelt,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Jesus,Torres
+139,9,24:05.1,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Joel,Hernandez
+140,12,24:15.1,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Javier,Lara
+141,12,24:27.5,Gunderson,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Chang,John
+142,9,24:48.9,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Mohamed,Mohammed
+143,11,25:11.2,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Hudson,Hein
+144,9,25:39.8,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Derek,Dinh
+146,12,25:46.0,San Jose,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Anthony,Lopez
+147,12,25:47.1,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Eric,Do
+148,9,25:52.6,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Seth,Laurent
+149,9,26:41.8,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Daniel,Nagashima
+152,9,27:22.8,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Jayden,Gutierrez
+153,9,28:34.7,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Esaie,Prickett
+154,9,29:27.9,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Hugo,Barriag-Garcia
+155,9,29:52.8,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Andrew,Lieu
+157,9,31:41.3,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Joaquin,Valdez
+158,12,35:10.4,San Jose,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Mario,Ramirez
+1,9,17:59.1,Prospect,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kylie,Hoornaert
+2,12,18:07.2,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Isabella,Peretti
+3,9,19:11.2,Willow Glen,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Lola,Herning
+4,10,19:27.5,Westmont,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Tauren,Mitchell
+5,11,19:50.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Felisha,Kuo
+6,12,20:15.3,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Dominique,Salinas
+7,12,20:24.6,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Sophia,William
+8,9,20:25.5,Prospect,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Aditi,Varia
+9,10,20:26.3,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Karly,Page
+10,12,20:27.4,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Hanna,Olson
+11,11,20:33.7,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Lauren,Peters
+12,11,20:37.1,Branham,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Isabelle,Moret
+13,11,20:40.8,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Paige,Unger
+14,11,20:43.8,Santa Teresa,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Jane,Partsch
+15,9,20:44.6,Silver Creek,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Natalia,Niebles
+16,9,20:56.6,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Cecile,Giguere
+17,9,21:03.5,Willow Glen,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Taylor,Chesarek
+18,11,21:05.7,Silver Creek,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mary,Howard
+19,11,21:14.0,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Maria,Forster
+20,12,21:18.7,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Megan,Cubiss
+21,11,21:21.8,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Alexandra,Gryciuk
+22,12,21:24.2,Live Oak,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Abigail,Paulson
+23,11,21:26.9,Santa Teresa,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mackenzie,MacDonald
+24,10,21:28.3,Pioneer,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Andrea,Ayala
+25,10,21:29.6,Prospect,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kira,Stringer
+26,11,21:34.3,Willow Glen,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Raven,Nieto
+27,12,21:38.2,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Audrey,Do
+28,12,21:41.1,Pioneer,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kate,Smyrniotis
+29,9,21:45.9,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Amie,Nguyen
+30,10,21:51.8,Leigh,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Amber,Buonomo
+31,12,21:51.9,Willow Glen,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Haley,Meyer
+32,12,21:55.5,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Meghan,Mcleary
+33,9,21:59.2,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Kim,Le
+34,11,22:02.8,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Karuna,Gray
+35,10,22:04.5,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Lillian,Montgomery
+36,11,22:05.9,Westmont,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Avalon,Kelly
+37,10,22:10.1,Westmont,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kiarra,D'Arcangelo
+38,9,22:13.0,Willow Glen,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Katelynn,Dilbeck
+40,9,22:15.7,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Samantha,Solorzano
+41,10,22:20.1,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Ameya,Ganesh
+42,11,22:22.1,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Daya,Kumaran
+43,12,22:26.1,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kiera,Ching
+44,12,22:30.9,Westmont,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Lily,Stockmans
+45,12,22:36.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Evelyn,Sen
+46,11,22:36.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Sabrina,Tran
+47,9,22:38.9,Silver Creek,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Rachel,Howard
+49,10,22:50.2,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Eva,Nguyen-Fell
+50,9,23:00.4,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Sophia,Valle
+51,11,23:07.2,Santa Teresa,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ariana,Gauff
+52,11,23:08.4,Pioneer,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Kalia,Villanueva
+53,12,23:10.4,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Milly,Fulgencio Gomez
+54,12,23:13.2,Leigh,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Eve,O'Neill
+56,12,23:24.6,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Lynn,Nguyen
+57,12,23:26.7,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Meha,Kavoori
+58,11,23:28.1,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Landry,Schoennauer
+59,10,23:30.9,Prospect,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Natalie,Ludwig
+60,12,23:32.8,Branham,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Andie,Franco
+61,11,23:37.2,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Ally,Kwan
+62,12,23:44.5,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Esther,Lau
+63,11,23:47.4,Live Oak,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Avery,Smith
+64,9,23:52.8,Santa Teresa,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Nevaeh,Bryant
+65,12,23:55.1,Santa Teresa,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Melody,Nguyen
+66,11,23:58.9,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Lily,Wen
+67,12,23:59.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Isabella,Lipscomb
+68,9,23:59.6,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Lily,Sanders
+69,10,24:19.2,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Shragvi,Sunil
+70,10,24:22.7,Leland,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Breanna,Lu
+71,9,24:31.7,Independence,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Rebecca,Sicotte
+72,10,24:38.4,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Neomi,Gonzalez-Guerrero
+73,11,24:41.1,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Kaela,Pham
+74,10,24:42.8,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Taylor,Solorzano
+75,10,24:45.9,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Hasset,Mekuria
+76,9,24:55.1,Evergreen Valley,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Ramneek,Kaur
+77,12,24:57.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Alejandra,Luevanos
+78,10,24:59.4,Yerba Buena,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kayleen,Landa
+79,11,25:12.2,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Dina,Berhan
+80,10,25:19.3,Branham,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Maddy,Cheng
+81,12,25:20.9,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Hillary,Dang
+82,10,25:22.6,Piedmont Hills,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Kayla,Tran
+83,9,25:43.7,Leigh,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Abigail,Fukuhara
+84,12,25:46.2,Yerba Buena,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Emerald,Oun
+85,12,25:46.2,Silver Creek,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Hailey,Dang
+86,11,25:49.5,Leland,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Serena,Xiang
+88,10,25:53.4,James Lick,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Belen,Gomez
+89,9,25:58.2,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Jordan,Liou-Mandujano
+90,9,26:05.6,Westmont,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Sara,Chaudoin
+91,10,26:06.3,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Rui,Tong
+92,9,26:11.2,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Alondra,Dominguez
+93,11,26:18.7,Ann Sobrato,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Zoe,Davis
+94,12,26:34.0,Independence,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kellen,Doan
+95,12,26:38.0,Prospect,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Shirin,Huzejrovic
+96,11,26:39.4,Independence,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Sofia,Vasquez
+97,11,26:40.2,Andrew Hill,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Karen,Luna
+98,10,26:48.2,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Melia,Manning
+99,10,26:53.7,Branham,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Caitlin,Cubiss
+100,9,26:55.4,Del Mar,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Keira,Daley
+101,9,27:07.2,Yerba Buena,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Mireyli,Torres
+102,9,27:14.0,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Chloe,Grace
+104,12,27:33.1,James Lick,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Alina,Vo
+106,9,27:43.6,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Emily,Ramirez
+107,9,27:48.4,Branham,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Hillary,Mai
+109,9,28:08.1,Live Oak,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Sofia,Ruiz McGinty
+110,9,28:16.4,Independence,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Lauren,De la Vega
+111,11,28:21.8,James Lick,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Daisy,Flores
+112,10,28:24.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Cynthia,Pena Guizar
+113,10,28:26.0,Andrew Hill,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Erika,Pham
+114,10,28:38.3,Independence,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Amanda,Vo
+115,12,28:41.0,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Trisha,Nguyen
+116,11,28:49.5,Abraham Lincoln (SJ),2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mia,Chavez
+119,10,29:17.9,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Shreeya,Amin
+122,9,29:49.9,Mt Pleasant,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Paulina,Jacobo
+123,10,29:59.3,Oak Grove,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Emily,Gaitan
+128,12,30:37.8,Andrew Hill,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kalin,Le
+129,9,31:04.1,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Analise,Detrinidad
+130,9,32:13.3,Gunderson,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Carmen,Roussere
+131,12,32:38.8,Del Mar,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Kiara,Sipes
+132,10,32:42.3,Gunderson,2.95 Miles Varsity,2021-11-01,2024,Search,Championship,Crystal Springs,4748,2021,M,Sam,Genz
+133,12,33:29.5,Del Mar,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Huyana,Lopez
+135,12,35:08.6,Oak Grove,2.95 Miles Varsity,2021-11-01,2022,Search,Championship,Crystal Springs,4748,2021,M,Deanna,Stone
+138,9,37:34.5,Oak Grove,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Angelina,Rosales
+139,9,37:34.9,Overfelt,2.95 Miles Varsity,2021-11-01,2025,Search,Championship,Crystal Springs,4748,2021,M,Liana,Miramontes
+141,11,41:17.8,Overfelt,2.95 Miles Varsity,2021-11-01,2023,Search,Championship,Crystal Springs,4748,2021,M,Mai,Tran

@@ -1,0 +1,264 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,12,15:09.1,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Vincent,Cheung
+2,10,15:25.6,Andrew Hill,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Edgar,Gomez Tapia
+3,9,15:29.0,Westmont,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Takuto,Sagara
+4,9,15:53.6,Westmont,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Shotaro,Horibe
+5,11,15:54.8,Westmont,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Kaiden,Huynh
+6,10,16:10.8,Pioneer,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Ryan,Ooka
+7,11,16:29.1,Westmont,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Shugo,Fujikawa
+8,10,16:30.1,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Raul,Escobar
+9,11,16:43.1,Westmont,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Anshul,Dhaas
+10,11,16:52.6,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Aiden,Gonzalez
+11,12,16:55.9,Westmont,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Adrian,Ketterer
+12,10,16:57.8,Silver Creek,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Carson,Tran
+13,9,17:00.1,Pioneer,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Hernandez
+14,10,17:02.9,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Santiago,Arroyo
+15,11,17:12.2,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Vicente,Delgado
+16,12,17:13.9,Pioneer,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Colin,Atoule
+17,10,17:23.8,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Aaron,Justo
+18,12,17:25.6,Independence,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Kian,Lau
+19,9,17:36.0,Westmont,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Alex,Villanueva
+20,9,17:36.3,Silver Creek,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Dominic,Philips
+21,12,17:45.7,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jeffrey,Nguyen
+22,10,17:47.1,Pioneer,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Liam,Nieto
+23,12,17:49.3,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Tanush,Darbhamulla
+24,12,17:58.7,Pioneer,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Tobias,Sandler
+25,9,18:01.3,Independence,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Hansen,Zhao
+26,11,18:09.2,Silver Creek,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Angel,Madera
+27,10,18:14.7,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Julian,Giron
+28,10,18:28.2,Pioneer,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Henry,Smit
+29,12,18:46.3,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jaylan,Espiritu
+30,12,18:47.4,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Vo
+31,12,18:48.4,Independence,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Dustin,Tran
+32,10,18:51.3,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Isaac,Arroyo
+33,12,19:01.0,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Howie,Do
+34,10,19:03.0,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Anson,Wong
+35,11,19:17.0,Pioneer,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Emiliano,Corona
+36,11,19:23.7,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Michael,Delgadillo
+37,11,19:31.5,Andrew Hill,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Benjamin,Pham
+38,10,20:15.4,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Brandon,Quan
+39,12,20:21.0,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Patrick,Zeng
+40,10,20:25.5,Andrew Hill,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,David,Knittle
+41,12,21:38.9,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Bao,Le
+42,12,22:15.9,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Gabriel,Rodriguez
+1,11,18:09.0,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Arin,Dubey
+2,9,18:25.9,Westmont,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Edward,Innes
+3,11,18:31.3,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Bryant,Nguyen
+4,11,18:34.5,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Marcos,Mantelli
+5,11,18:41.9,Independence,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Shawn,Ramirez
+6,11,18:57.3,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Declan,Clark
+7,10,19:08.2,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Remus,Hoffman
+8,9,19:13.6,Westmont,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Raj,Chitambar
+9,11,19:16.1,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Fionn,Clark
+10,9,19:24.9,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Eduardo,Gonzalez
+11,11,19:36.6,Independence,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Vincent,Nguyen
+12,9,19:44.3,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Isaiah,Moreno
+13,10,19:44.6,Independence,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Matthew,De la Vega
+14,10,20:00.7,Independence,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Elijah,Todd
+15,10,20:03.0,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Angel,Corona
+16,9,20:07.7,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Eric,Tran
+17,11,20:17.0,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Asha,Farsi
+18,11,20:42.1,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Jerome,Cortese
+19,9,20:56.7,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Nikhil,Tharakan
+20,9,20:59.3,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Oot
+21,9,21:18.8,Westmont,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Logan,Treboutat
+22,11,21:42.8,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Aaron,Dang
+23,10,21:58.7,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Tyber,Ha
+24,10,22:05.9,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Gabriel,Teodoro
+25,10,22:41.0,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Angel,Ruiz
+26,11,22:54.2,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Tri,Huynh
+27,9,23:23.4,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Yeonu,Bae
+28,11,23:35.0,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Kyle,Doan
+29,11,24:05.0,Independence,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Tommy,Lang
+30,11,24:06.4,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Christopher,Silveira
+31,11,25:01.9,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Calvin,Ho
+32,10,25:02.5,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Landon,Jimenez
+33,11,25:48.0,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Simon,Tyler
+34,10,26:49.3,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Darrel,Nguyen
+35,11,27:05.6,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Diego,Cervantes
+36,11,29:08.9,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Mateo,Escobedo
+1,12,17:58.4,Westmont,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jaden,Kanazawa
+2,12,18:54.4,Silver Creek,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jordan,Cheung
+3,12,19:16.2,Silver Creek,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Toby,Bon
+4,12,19:26.0,Westmont,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Keisuke,Suzuki
+5,9,19:31.7,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Tayt,Devitt-Carolan
+6,11,19:44.4,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Daniil,Yakavets
+7,12,19:48.9,Westmont,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Caden,Kanazawa
+8,9,19:50.4,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Marcus,Tsang
+9,9,20:30.9,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Liam,Sanchez
+10,9,20:32.8,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Tristan,Scott
+11,10,20:35.9,Westmont,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Robert,Scianna
+12,9,20:53.4,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Landen,Kanazawa
+13,12,20:56.5,Pioneer,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Aaron,Blunt
+14,12,21:00.6,Pioneer,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Kenneth,Vo
+15,9,21:03.8,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Henry,Hewitt
+16,11,21:12.1,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Xavier,Iraheta Huato
+17,9,21:12.4,Silver Creek,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Oliver,Sand
+18,9,21:38.1,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Tristan,Scott
+19,9,21:38.4,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Alexander,Chui
+20,12,22:05.7,Pioneer,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Cole,Nakashima
+21,11,22:09.6,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Eric,Wong
+22,12,22:11.5,Westmont,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Alexander,Chen
+23,9,22:31.7,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Mattew,Park
+24,12,22:33.9,Westmont,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jake,Oderio
+25,9,23:09.7,Silver Creek,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Jaden,Tran
+26,11,23:31.4,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Harry,Ngo
+27,11,23:52.5,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Aaron,Yoshio Okashima
+28,11,24:09.1,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Lakshya,Agarwal
+29,9,24:15.2,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Oscar,Rodriguez
+30,9,24:16.1,Independence,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Miles,Moises
+31,9,24:30.8,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Byron,Carroll
+32,9,24:41.0,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Hiroki,Wang
+33,9,24:41.5,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Devon,Austin
+34,10,24:58.6,Silver Creek,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Alexander,Dinh
+35,9,25:13.6,Independence,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Kaiden,Sales
+36,9,25:27.6,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Ryan,Tran
+37,9,26:02.2,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Rafael,Davery
+38,12,26:09.8,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Anthony,Nguyen
+39,11,26:13.2,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Daniel,Huang
+40,12,26:17.3,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,John,Nguyen
+41,12,26:22.7,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Isaiah,Laurel
+42,11,27:36.2,Pioneer,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Ortiz
+43,9,27:50.7,Westmont,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Arjun,Batra
+44,12,29:06.4,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Danny,Hua
+45,9,30:03.5,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Marcos,Pena
+46,12,30:16.0,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Brady,Nguyen
+47,9,35:39.1,Silver Creek,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Arman,Tabatabai
+1,11,19:18.5,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Hannah,Crowley
+2,12,20:01.8,Pioneer,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Cassie,Itatani
+3,10,20:24.7,Pioneer,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Makayla,Lin
+4,10,20:46.1,Independence,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Octavia,Fujdala
+5,12,21:27.3,Independence,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Kayeliegh,Aquino
+6,10,21:39.3,Westmont,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Madelyn,Wu
+7,10,21:51.0,Independence,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Cecilia,Goyette
+8,11,21:56.5,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Paula,Gelabert
+10,10,22:05.1,Pioneer,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Betsy,Jackson
+11,12,22:19.5,Silver Creek,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Lucie,Nguyen
+12,10,22:33.9,Pioneer,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Natalie,Carlson
+13,9,22:36.8,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Karolina,Teves
+14,12,22:46.8,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Sophia,Quinlan
+15,10,22:48.2,Pioneer,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Estefania,Banuelos
+16,9,23:00.3,Silver Creek,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Alanys,Ramirez
+17,9,23:00.7,Pioneer,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Sophie,Lui
+18,9,23:21.2,Independence,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Julie,Nguyen
+19,11,24:00.5,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Kristen,Zhou
+20,12,24:01.4,Independence,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Oni,Nguyen
+21,11,24:19.0,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Sasha,Romero
+22,10,24:44.0,Westmont,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Allison,Matadamas
+23,12,25:08.8,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,My,Dang
+24,10,25:18.5,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Nelitta,Huezo
+25,9,25:47.4,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Natalie,Delgadillo
+26,10,25:52.9,Silver Creek,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Hannah,Sihotang
+27,10,26:12.8,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Neida,Sandoval
+28,11,26:21.8,Andrew Hill,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Mary,Tree
+29,12,26:44.8,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Amy,Torres
+30,12,27:30.4,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Hailey,S Nguyen
+31,10,27:45.6,Westmont,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Perri,Kaiser
+32,12,28:03.8,Westmont,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Polina,Chistyakova
+33,12,28:10.0,Independence,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Parvati,Madhusoodhanan
+34,12,28:37.2,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Adriana,Figueroa
+35,10,29:04.8,Westmont,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Emily,Ha
+36,12,30:50.5,Independence,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Audrey,Cruz
+1,10,24:04.3,Pioneer,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Kritika,Bhattacharya
+2,11,25:27.3,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Mia,Rose Wright
+3,9,25:38.3,Pioneer,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Miranda,Sandler
+4,9,26:15.1,Pioneer,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Penelope,Thompson
+5,11,26:52.2,Silver Creek,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Truc,Lai
+6,11,27:37.3,Pioneer,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Juliette,Lillo-Chaisson
+7,10,27:47.0,Silver Creek,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Cristalyn,Pham
+8,9,27:54.0,Andrew Hill,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Nadia,Ramos
+9,9,27:57.6,Independence,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Emerald,Gonzales
+10,10,29:02.7,Independence,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Frida,Gonzalez
+11,10,29:43.8,Pioneer,2.74 Miles Reserves,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Yasmina,Asadi
+12,11,29:50.3,Independence,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Anh,Nguyen
+13,11,29:51.3,Andrew Hill,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Camila,Rivera
+14,11,30:05.4,Andrew Hill,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Elizabeth,Nguyen
+15,9,30:33.5,Silver Creek,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Amanda,Tang
+16,11,31:27.6,Andrew Hill,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Layla,Ly
+17,11,32:49.0,Westmont,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Ariel,Hung
+18,11,33:23.6,Andrew Hill,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Araceli,Gonzalez
+19,9,38:16.2,Mt Pleasant,2.74 Miles Reserves,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Dana,Rivera
+20,11,43:00.0,Andrew Hill,2.74 Miles Reserves,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Frankie,Marin
+11,12,28:54.9,Silver Creek,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Karen,Du
+13,12,29:46.2,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Heidi,Ramos
+19,12,31:28.3,Andrew Hill,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Genesis,Guevara
+21,12,33:09.2,Pioneer,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jasmine,Engineer
+23,12,34:16.2,Pioneer,2.74 Miles Reserves,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Anna,Thomas
+1,12,15:09.1,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Vincent,Cheung
+2,10,15:25.6,Andrew Hill,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Edgar,Gomez Tapia
+3,9,15:29.0,Westmont,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Takuto,Sagara
+4,9,15:53.6,Westmont,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Shotaro,Horibe
+5,11,15:54.8,Westmont,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Kaiden,Huynh
+6,10,16:10.8,Pioneer,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Ryan,Ooka
+7,11,16:29.1,Westmont,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Shugo,Fujikawa
+8,10,16:30.1,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Raul,Escobar
+9,11,16:43.1,Westmont,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Anshul,Dhaas
+10,11,16:52.6,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Aiden,Gonzalez
+11,12,16:55.9,Westmont,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Adrian,Ketterer
+12,10,16:57.8,Silver Creek,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Carson,Tran
+13,9,17:00.1,Pioneer,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Hernandez
+14,10,17:02.9,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Santiago,Arroyo
+15,11,17:12.2,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Vicente,Delgado
+16,12,17:13.9,Pioneer,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Colin,Atoule
+17,10,17:23.8,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Aaron,Justo
+18,12,17:25.6,Independence,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Kian,Lau
+19,9,17:36.0,Westmont,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Alex,Villanueva
+20,9,17:36.3,Silver Creek,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Dominic,Philips
+21,12,17:45.7,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jeffrey,Nguyen
+22,10,17:47.1,Pioneer,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Liam,Nieto
+23,12,17:49.3,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Tanush,Darbhamulla
+24,12,17:58.7,Pioneer,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Tobias,Sandler
+25,9,18:01.3,Independence,2.74 Miles Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Hansen,Zhao
+26,11,18:09.2,Silver Creek,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Angel,Madera
+27,10,18:14.7,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Julian,Giron
+28,10,18:28.2,Pioneer,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Henry,Smit
+29,12,18:46.3,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Jaylan,Espiritu
+30,12,18:47.4,Silver Creek,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Vo
+31,12,18:48.4,Independence,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Dustin,Tran
+32,10,18:51.3,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Isaac,Arroyo
+33,12,19:01.0,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Howie,Do
+34,10,19:03.0,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Anson,Wong
+35,11,19:17.0,Pioneer,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Emiliano,Corona
+36,11,19:23.7,Mt Pleasant,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Michael,Delgadillo
+37,11,19:31.5,Andrew Hill,2.74 Miles Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Benjamin,Pham
+38,10,20:15.4,Independence,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Brandon,Quan
+39,12,20:21.0,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Patrick,Zeng
+40,10,20:25.5,Andrew Hill,2.74 Miles Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,David,Knittle
+41,12,21:38.9,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Bao,Le
+42,12,22:15.9,Andrew Hill,2.74 Miles Varsity,2025-09-25,2026,Search,UNK,Montgomery Hill Park,4410,2025,M,Gabriel,Rodriguez
+1,11,18:09.0,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Arin,Dubey
+2,9,18:25.9,Westmont,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Edward,Innes
+3,11,18:31.3,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Bryant,Nguyen
+4,11,18:34.5,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Marcos,Mantelli
+5,11,18:41.9,Independence,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Shawn,Ramirez
+6,11,18:57.3,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Declan,Clark
+7,10,19:08.2,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Remus,Hoffman
+8,9,19:13.6,Westmont,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Raj,Chitambar
+9,11,19:16.1,Westmont,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Fionn,Clark
+10,9,19:24.9,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Eduardo,Gonzalez
+11,11,19:36.6,Independence,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Vincent,Nguyen
+12,9,19:44.3,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Isaiah,Moreno
+13,10,19:44.6,Independence,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Matthew,De la Vega
+14,10,20:00.7,Independence,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Elijah,Todd
+15,10,20:03.0,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Angel,Corona
+16,9,20:07.7,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Eric,Tran
+17,11,20:17.0,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Asha,Farsi
+18,11,20:42.1,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Jerome,Cortese
+19,9,20:56.7,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Nikhil,Tharakan
+20,9,20:59.3,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Max,Oot
+21,9,21:18.8,Westmont,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Logan,Treboutat
+22,11,21:42.8,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Aaron,Dang
+23,10,21:58.7,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Tyber,Ha
+24,10,22:05.9,Silver Creek,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Gabriel,Teodoro
+25,10,22:41.0,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Angel,Ruiz
+26,11,22:54.2,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Tri,Huynh
+27,9,23:23.4,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2029,Search,UNK,Montgomery Hill Park,4410,2025,M,Yeonu,Bae
+28,11,23:35.0,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Kyle,Doan
+29,11,24:05.0,Independence,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Tommy,Lang
+30,11,24:06.4,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Christopher,Silveira
+31,11,25:01.9,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Calvin,Ho
+32,10,25:02.5,Mt Pleasant,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Landon,Jimenez
+33,11,25:48.0,Pioneer,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Simon,Tyler
+34,10,26:49.3,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2028,Search,UNK,Montgomery Hill Park,4410,2025,M,Darrel,Nguyen
+35,11,27:05.6,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Diego,Cervantes
+36,11,29:08.9,Andrew Hill,2.74 Miles Junior Varsity,2025-09-25,2027,Search,UNK,Montgomery Hill Park,4410,2025,M,Mateo,Escobedo

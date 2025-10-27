@@ -1,0 +1,1281 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,12,15:44.03,La Canada,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Owen,Serricchio
+2,12,15:54.43,Edison,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Bryan,Banuelos
+3,12,15:56.05,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Pinkel
+4,11,15:58.81,San Rafael,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Henry,Denberg
+5,12,16:05.25,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Truman,Paras
+6,12,16:06.45,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Owen,Tanaka
+7,12,16:09.00,Greenfield,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Mauricio,Arias
+8,12,16:09.03,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Farruggio
+9,12,16:13.06,Edison,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Sam,Hawley
+10,12,16:16.26,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Hammers
+11,12,16:18.16,Monterey,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Isaac,Gensel
+12,12,16:21.93,Palma,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Thomas,Padilla
+13,11,16:21.98,Archbishop Riordan,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,EJ,Odocayen
+14,10,16:23.40,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ben,Callon
+15,12,16:26.55,Santa Cruz,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Owen,Stuart
+16,12,16:28.30,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Patrick,Reilly
+17,12,16:30.63,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Peter,Deck
+18,10,16:31.67,Tamalpais,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Tomoki,Scharber
+19,12,16:32.64,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Maximiliano,Chavez
+20,9,16:33.19,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Guzman
+21,11,16:33.90,Tamalpais,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Paul,Law
+22,12,16:41.33,St,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,EJ,Kelly V
+23,10,16:42.66,Pioneer,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Garrett,Hedlund
+24,9,16:43.32,Edison,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ben,Borchers
+25,11,16:53.39,Salinas,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Isaiah,Villanueva
+26,11,16:53.98,Marina,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Leo,Isidro
+27,12,16:56.14,Leland,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Christian,Wiebe
+28,9,16:58.28,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kai,Winebarger
+29,9,16:58.49,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Koji,Uchino
+30,11,17:02.68,St,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Patrick,McCarthy
+31,12,17:04.49,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Noe,Serafio
+32,10,17:07.25,San Rafael,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Acer,Cristea
+33,10,17:11.00,Carmel,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Lang
+34,11,17:12.22,Prospect,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,Yuen
+35,12,17:14.50,Leland,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jason,Bechdolt
+36,11,17:15.32,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Curren,Clark
+37,11,17:15.73,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Sedge,Greenlee
+38,11,17:15.84,Bellarmine College Prep,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Meyercord
+39,10,17:17.64,Palma,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Edwing,Cruz
+40,11,17:17.98,Archbishop Riordan,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Murtagh
+41,11,17:18.39,Carmel,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Zach,Keaton
+42,11,17:18.53,La Canada,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Sheldon,Watanabe
+43,12,17:27.01,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ralph,Wang
+44,12,17:30.43,Pioneer,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Burnham
+45,10,17:31.40,Washington,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Trevor,Hancock
+46,10,17:31.41,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Mason,Tsai
+47,11,17:35.16,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Max,Hariri Turner
+48,9,17:37.09,Prospect,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Elliot,Daniels
+49,12,17:38.63,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Charlie,Strella
+50,12,17:41.39,San Rafael,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Eduardo,Mazariegos
+51,9,17:42.14,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dmitri,Ryan
+52,12,17:42.77,Palma,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Aaron,Escobar
+53,10,17:43.60,Edison,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Hernandez
+54,9,17:45.42,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Donovan,Truel
+55,11,17:45.72,Salinas,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Fermin,Moreno
+56,11,17:45.92,Sacred Heart Cathedral,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Thomas,Brugnara
+57,11,17:46.12,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Wong
+58,10,17:46.95,Abraham Lincoln (SF),2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Charlie,Moore
+59,9,17:47.85,Prospect,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Riley,DeGuzman
+60,10,17:48.21,Santa Cruz,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Hunter,Kelly
+61,12,17:50.17,Archbishop Riordan,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Evan,Forsman
+62,11,17:50.28,Anzar (Aromas-San Juan),2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Avila
+63,12,17:50.34,Santa Teresa,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Bryan,Ramirez
+64,10,17:51.86,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Arturo,Perez
+65,9,17:51.89,Dougherty Valley,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ameya,Padakanti
+66,9,17:53.17,Palma,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Benjy,Altamirano
+67,9,17:54.78,Tamalpais,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Lin
+68,9,17:58.83,Leigh,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Caiden,Hogg
+69,11,17:59.90,Washington,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Lee,Morkved
+70,12,18:01.54,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Deyne,Jurie
+71,9,18:01.58,St,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Julian,Vargas
+72,10,18:01.88,Prospect,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kellen,Le
+73,12,18:03.46,George Washington,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jose,Salazar Moreno
+74,10,18:04.71,Pioneer,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Thomas,Braun
+75,12,18:05.00,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Lucas,Bundros
+76,9,18:05.17,Tamalpais,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Caden,Carney
+77,9,18:05.26,Dougherty Valley,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Rahul,Pothi Vinoth Bala Nagaraj
+78,11,18:05.74,La Canada,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Max,Bohan Apfeldorf
+79,9,18:07.92,Prospect,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Evan,Pagano
+80,12,18:08.78,Carmel,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Elijah,Smith
+81,11,18:12.30,Dougherty Valley,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Luurtsema
+82,9,18:16.41,Dougherty Valley,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Eric,Lin
+83,11,18:17.90,Dougherty Valley,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Sahil,Haridas
+84,9,18:19.88,Prospect,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Bailey
+85,10,18:22.24,Palma,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jayson,DaSilva
+86,10,18:22.48,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Anthony,Rodriguez
+87,11,18:23.03,San Rafael,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Oscar,Labovich
+88,12,18:23.40,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Alberto,Bedolla
+89,11,18:28.61,Gilroy,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Andres,Nava Garcia
+90,11,18:29.41,Salinas,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Gabriel,Panlilio
+91,10,18:31.54,Tamalpais,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Taiki,Scharber
+92,10,18:33.97,La Canada,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jaden,Milbrodt
+93,12,18:34.62,Edison,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Josafat,Gonzalez
+94,10,18:37.15,Mt Pleasant,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,Romero
+95,9,18:39.06,Dougherty Valley,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Diego,Garcia
+96,10,18:39.15,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Neil,Lal
+97,10,18:39.47,Mt Pleasant,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Parisi
+98,11,18:40.60,La Canada,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Maximus,Fan
+99,11,18:42.04,Carmel,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Svenn,Eyjolfsson
+100,11,18:44.59,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Shitamoto
+101,11,18:46.94,Carmel,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Kieren,Daste
+102,10,18:51.50,Anzar (Aromas-San Juan),2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alejandro,Rosillo
+103,11,18:51.81,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Calvin,Bautista
+104,12,18:52.03,San Rafael,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Driscoll
+105,11,18:54.51,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Gomez
+106,9,18:57.69,Carmel,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Chris,Seybold
+107,10,18:59.25,Cupertino,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kyle,Lin
+108,12,18:59.98,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,De Castro
+109,11,19:00.30,Palma,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Lafferty
+110,11,19:01.83,Marina,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Daniel,Park
+111,9,19:02.77,Prospect,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kaiden,Uehara
+112,10,19:03.58,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jarett,Nishikawa
+113,9,19:06.11,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,Sison
+114,10,19:08.14,Carmel,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kento,Husted
+115,11,19:10.79,La Canada,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Lui
+116,11,19:12.44,Leigh,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Zach,Seratti
+117,11,19:13.18,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jackson,Young
+118,12,19:15.01,Archbishop Riordan,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Lin
+119,10,19:17.75,San Rafael,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Wilson,Skinner
+120,11,19:20.08,La Canada,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Rushing
+121,11,19:20.22,Archbishop Riordan,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Lundquist
+122,10,19:21.24,Palma,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Lopez
+123,11,19:23.18,Abraham Lincoln (SF),2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Terrance,Mach
+124,10,19:25.01,Anzar (Aromas-San Juan),2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Arturo,Velasquez
+125,10,19:35.07,Anzar (Aromas-San Juan),2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Damian,Gomez
+126,12,19:35.72,Abraham Lincoln (SF),2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Zhao,Zhu
+127,12,19:36.75,Santa Cruz,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Maxim,Piera
+128,10,19:39.29,Monterey,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,David,Parmley
+129,11,19:41.03,Archbishop Riordan,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Conor,Mcmahon
+130,12,19:46.29,Santa Teresa,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ross,Mathews
+131,10,19:47.50,George Washington,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,Janetos
+132,11,19:47.51,Carlmont,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Niko,Haller
+133,10,19:49.17,Abraham Lincoln (SF),2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Edmond,Cheng
+134,11,19:54.10,Mt Pleasant,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Efrain,Donato
+135,12,19:54.90,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Wong
+136,10,19:56.72,Mt Pleasant,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gonzalo,Gomez
+137,10,19:58.63,Abraham Lincoln (SF),2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,James,Chiang
+138,9,20:02.37,St,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Erik,Kane
+139,11,20:08.65,Oakwood,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,AJ,Gastelum
+140,12,20:09.73,Monterey,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jesse,Ruediger
+141,12,20:17.41,George Washington,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Carter,Murphy
+142,12,20:28.12,Washington,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Marco,Carrillo
+143,11,20:33.95,St,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Kazinsky
+144,10,20:42.77,George Washington,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Noah,Spinel Buschkamp
+145,9,20:50.42,Mt Pleasant,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sergio,Duarte
+146,11,20:54.30,Westmoor,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jenard,Abrena
+147,11,21:17.74,Washington,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Joel,Castillo
+148,12,21:33.60,Leland,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Devin,Sze
+149,9,22:19.63,Mt Pleasant,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Diego,Garcia
+150,9,22:22.51,Washington,2.95 Miles Varsity Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Yasuda
+151,12,22:30.84,Leland,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Anthony,Paquet
+152,11,22:42.92,Leland,2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Armon,Choudhry
+153,12,22:46.30,St,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Miguel,Aguilar
+154,12,22:56.34,Santa Cruz,2.95 Miles Varsity Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Pierce,Spielman
+155,11,23:00.43,Abraham Lincoln (SF),2.95 Miles Varsity Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Lawrence,Chau
+156,10,23:15.98,George Washington,2.95 Miles Varsity Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Fidel,Miam Lambert
+1,10,15:11.39,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Colin,Peattie
+2,12,15:17.91,Granada,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,White
+3,12,15:34.02,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ross,D'Orfani
+4,11,15:35.68,Westmont,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Garrett,MacQuiddy
+5,11,15:36.05,Evergreen Valley,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ishaan,Singh
+6,12,15:36.45,Valley View,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Lorenzo,Orozco
+7,12,15:46.61,Granada,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,Hattori
+8,12,15:51.24,Valley View,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Juan,Nunez
+9,11,15:51.64,Granada,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Seth,Jeppson
+10,12,15:51.84,Greenfield,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Rigo,Garcia
+11,11,15:57.32,Branham,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Evan,Franco
+12,10,15:58.35,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nolan,Topper
+13,10,16:00.66,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Clem,Welsh
+14,10,16:01.67,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Galen,Topper
+15,11,16:02.20,Valley View,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Oscar,Gaspar-Chavez
+16,11,16:05.84,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Brandon,Johnson
+17,12,16:06.38,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ted,Fuell
+18,10,16:07.95,Evergreen Valley,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Advait,Krishnan
+19,12,16:08.20,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Brian,Pedraza
+20,10,16:08.46,St Francis (Mountain View),2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Benjamin,Picard
+21,11,16:08.73,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Cosmo,Cao
+22,10,16:12.64,Alisal,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jose,Velazquez
+23,11,16:14.17,Evergreen Valley,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Hrishi,Kachhia
+24,11,16:18.76,St Francis (Mountain View),2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Benjamin,Garver
+25,12,16:19.90,Granada,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Julian,Galicia Thomas
+26,11,16:20.32,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Asch
+27,11,16:21.41,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Nirmal,Ayyagari
+28,11,16:25.33,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Schneider
+29,11,16:26.10,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Vincent,Peng
+30,11,16:30.40,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Connor,Ueyama
+31,10,16:30.63,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jake,Slade
+32,12,16:32.14,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Yuuki,Okazaki
+33,11,16:33.32,Granada,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Yarin,Dan
+34,10,16:33.67,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Antonio,Valenti
+35,12,16:33.75,Granada,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Lau
+36,12,16:37.48,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Decker,Krogh
+37,10,16:38.07,Branham,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Robert,Oryall
+38,11,16:39.41,Burlingame,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Brendan,Creeks
+39,12,16:39.71,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Leahy
+40,10,16:40.16,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ananth,Goyal
+41,12,16:40.97,Junipero Serra,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Abbey
+42,12,16:41.34,St Francis (Mountain View),2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Mason,Payne
+43,12,16:41.89,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Wyatt,Gough
+44,12,16:45.85,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Edgar,Williams
+45,10,16:46.37,Valley View,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ruben,Diaz
+46,12,16:48.67,Bellarmine College Prep,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Sam,Diab
+47,11,16:49.04,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Julian,Virrueta
+48,12,16:53.06,Alisal,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Peter,Maciel
+49,11,16:53.20,Alisal,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Castro
+50,12,16:53.34,St Francis (Mountain View),2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Mateo,Dominguez
+51,11,16:57.69,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Carson,Smith
+52,11,16:58.49,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Arnav,Choudhury
+53,10,17:00.79,Valley View,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Miles,Curry
+54,12,17:00.85,Valley View,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Leo,Lopez
+55,11,17:02.93,St Francis (Mountain View),2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Leo,Lappalainen
+56,11,17:04.81,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alvaro,Pinal-Alfaro
+57,12,17:06.92,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Siddarth,Somala
+58,12,17:08.31,Evergreen Valley,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Noor,Seale
+59,10,17:09.11,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Connor,Chancey
+60,10,17:09.68,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Maxwell,Chien
+61,10,17:10.26,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Travis,Selby
+62,9,17:11.61,Valley View,2.95 Miles Championship Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Marc,Encarnacion
+63,10,17:12.59,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kelly,Hubbard
+64,10,17:13.14,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Chinmaya,Salinamakki
+65,10,17:15.03,Westmont,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jett,Felder
+66,11,17:17.27,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,James,Pappadakis
+67,11,17:17.44,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Owen,Davies
+68,11,17:22.44,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Devon,Nuti
+69,12,17:23.95,Dougherty Valley,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,David,Abdelmalek
+70,11,17:26.20,Alisal,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Luis,Martinez
+71,10,17:26.48,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Taylor,Iden
+72,12,17:28.16,Junipero Serra,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Brendan,Callagy
+73,11,17:29.38,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Morgan
+74,12,17:31.83,Junipero Serra,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Possa
+75,10,17:36.64,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Derek,Han
+76,10,17:37.83,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Rohit,Malhotra
+77,9,17:41.56,Branham,2.95 Miles Championship Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Perez
+78,12,17:44.55,St Francis (Mountain View),2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Daniel,Walker
+79,12,17:45.97,Alisal,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Alonzo
+80,10,17:48.49,Westmont,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Hrishikesh,Joshi
+82,10,17:54.64,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Meeker
+83,12,17:54.72,Evergreen Valley,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Arshome,Sahagun
+84,10,17:57.18,Evergreen Valley,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jimmy,Doan
+85,12,17:58.17,Nevada Union,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Cayden,Hennessey
+86,12,18:00.36,Santa Teresa,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Caleb,Mok
+87,11,18:00.82,Westmont,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Shawn,Hogh
+88,10,18:05.45,Willow Glen,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Logan,Unger
+89,10,18:10.10,Burlingame,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Aaron,Becker
+90,9,18:12.75,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Lin
+91,12,18:33.03,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Lucas,DeBenedetti
+92,12,18:33.79,Andrew Hill,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Scott,Nguyen
+93,11,18:38.22,Junipero Serra,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Logan,Azem
+94,10,18:53.31,Westmont,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brian,Dang
+95,10,18:54.67,Lynbrook,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Wang
+96,11,18:55.69,Archbishop Mitty,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Nihar,Hegde
+97,11,18:57.98,Junipero Serra,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Trey,Alhorn
+98,11,19:29.14,Andrew Hill,2.95 Miles Championship Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jesus,Murillo
+99,10,19:30.04,Andrew Hill,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alan,Do
+100,10,19:58.93,Branham,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Bryant,Houston
+101,10,20:06.89,Andrew Hill,2.95 Miles Championship Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Richard,Ho
+102,12,20:35.54,Andrew Hill,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Richard,Nguyen
+103,12,22:06.00,Andrew Hill,2.95 Miles Championship Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Dustin,Tran
+1,11,16:42.22,Granada,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Cameron,Gray
+2,11,16:46.54,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,James,Cuff-Alvarado
+3,12,16:55.09,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Derek,Cech
+4,12,17:00.94,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Liu
+5,11,17:07.95,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Holden,Duflock
+6,11,17:10.33,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Isaiah,Amanuel
+7,11,17:15.59,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Lukas,Snycerski
+8,11,17:16.99,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Weston,Raynak
+9,12,17:24.72,Tamalpais,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Brandt
+10,11,17:27.64,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Matt,Eckstrom
+11,11,17:27.65,Greenfield,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Isaias,Solorio
+12,11,17:31.31,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Tanay,Menezes
+13,11,17:34.59,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Zach,Koverman
+14,11,17:38.04,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Massimiliano,Donati
+15,12,17:40.34,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Kunal,Handa
+16,12,17:42.75,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Hom
+18,12,17:48.45,Dublin,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Andres,Palma
+19,11,17:49.78,Willow Glen,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Choy-Marshall
+20,11,17:51.38,Greenfield,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ricardo,Ortiz
+21,11,17:57.06,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jesus,Delgadillo
+22,11,17:59.31,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Kiran,Larney-Badani
+23,11,18:02.63,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Joell,Macias
+24,12,18:03.15,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Yang
+25,11,18:06.64,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Nazari
+26,10,18:08.81,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ashraf,Abdelmagid
+27,12,18:11.74,Carlmont,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Aaron,Moskovitz
+28,11,18:16.50,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,Cabrera
+29,11,18:19.37,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Elias,Yar
+30,11,18:19.41,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Sam,Todd
+31,11,18:19.68,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Javier,Ascencio
+32,11,18:23.86,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Brandon,Hong
+33,9,18:25.07,Nevada Union,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,TJ,Parnow
+35,11,18:27.45,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Maximos,Lopez
+36,12,18:28.08,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Noel,Miranda
+37,11,18:28.88,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Brandon,Xu
+38,12,18:29.18,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Thomas,Umhofer
+39,11,18:29.69,Granada,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Erickson
+40,12,18:33.09,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jason,Tong
+41,11,18:33.10,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jason,Chin
+42,10,18:35.18,Branham,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Trent,Algea
+43,11,18:39.63,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Angel,Nieto
+44,11,18:41.17,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Yianni,Kouretas
+45,12,18:41.47,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Stebbins
+46,11,18:45.83,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Grant,Robinson
+47,11,18:46.49,Nevada Union,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Cole,Retzler
+48,10,18:48.43,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Aryam,Chhazal
+49,11,18:49.37,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Schuman-Cawley
+50,11,18:50.83,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Cai
+51,11,18:52.13,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ruben,Ramirez
+52,9,18:53.42,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Mateo,Cauchi
+53,11,18:55.42,Dublin,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Elises
+54,12,18:57.28,Carmel,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Claudio,Montero
+55,12,18:59.14,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Lawrence,Wu
+56,10,18:59.90,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ian,Dickenson
+57,9,19:01.45,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dhemath,Reddy
+58,11,19:01.61,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Daniel,Martinez
+59,11,19:01.63,La Canada,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Logan,Boggs
+60,11,19:04.48,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Jensen
+61,12,19:07.52,Granada,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Melendez
+62,12,19:07.80,Willow Glen,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Bartoszek
+63,9,19:10.31,Branham,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dominic,Clima
+64,12,19:12.12,Alisal,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Emmanuel,Castro
+65,11,19:12.59,Nevada Union,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Tali,Benson
+66,11,19:13.84,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alan,Ou
+67,11,19:13.96,Dublin,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Brian,Lin
+68,12,19:16.37,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Dustin,Healy
+69,10,19:17.07,San Rafael,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Levi,Woodall
+70,11,19:18.73,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Rylan,Suyeishi
+71,11,19:19.29,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jay,Kim
+72,12,19:20.56,Valley View,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Wesley,Snook
+73,10,19:20.88,Carmel,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Will,Kastner
+74,11,19:21.33,Greenfield,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Gabriel,Martinez
+75,11,19:21.73,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Trevor,Koss
+76,12,19:22.78,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,William,Premo
+77,12,19:23.44,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,George,Luu
+78,9,19:23.55,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alfredo,Orozco De Rueda
+79,11,19:25.59,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Bryan,Gomez
+80,11,19:26.01,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Gonzalo,Constantino
+81,10,19:28.35,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Atharva,Sahasrabudhe
+82,9,19:28.77,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Eric,Su
+83,12,19:28.79,Tamalpais,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Nicholas
+84,12,19:29.05,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Dan,Balboni
+85,11,19:29.24,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Nathaniel,Velasquez
+86,9,19:29.29,Prospect,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jaeyoung,Choi
+87,12,19:29.73,Sacred Heart Cathedral,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Khobe,Arzadon
+88,11,19:32.79,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jeffrey,Nguyen
+89,9,19:34.98,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Inigo,Redondo
+90,10,19:36.45,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Uppal
+91,11,19:41.51,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Lucas,Kihmm
+92,9,19:41.99,Branham,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Samarth,Boranna
+93,11,19:42.18,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alejandro,Reyes
+94,11,19:42.78,Lynbrook,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Austin,Chen
+95,12,19:43.26,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Avijit,Dhaliwal
+96,9,19:43.55,Nevada Union,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Harry,Retzler
+97,12,19:43.81,Nevada Union,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Baught
+98,12,19:47.22,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Lew
+99,12,19:48.81,La Canada,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Kevin,Kiely
+100,9,19:49.74,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alexandre,Fernandes
+101,11,19:51.67,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Marca
+102,11,19:52.45,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Luna
+103,9,19:53.82,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Armaan,Hussain
+104,10,19:56.21,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Bhuvan,Jammalamadaka
+105,11,19:58.49,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,John,Pantoja
+106,11,19:58.99,San Rafael,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jude,Hick
+107,12,19:59.31,Carlmont,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Caleb,Ahn
+108,12,20:00.20,Granada,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Larson
+109,11,20:00.66,Granada,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,Walker
+110,12,20:02.74,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ted,Penner
+111,11,20:04.59,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Samuel,Colmenares
+112,11,20:05.78,Archbishop Riordan,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Randy,Aberouette
+113,12,20:05.88,Carlmont,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,Derhacobian
+114,12,20:06.87,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Lau
+115,10,20:08.63,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Guadarrama
+116,9,20:16.45,Carmel,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Mark,Foley
+117,11,20:16.82,Greenfield,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Damian,Smith
+118,9,20:20.96,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,Lum
+119,10,20:21.61,Prospect,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Coleman
+120,11,20:22.04,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jackson,Sousa
+121,12,20:23.31,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Anish,Patel
+122,9,20:23.96,Carmel,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joe,Barnett
+123,10,20:25.01,Greenfield,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Guzman
+124,11,20:26.35,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Wesley,Falxa-Sturken
+125,12,20:27.29,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Zachary,McCarthy
+126,11,20:28.60,San Rafael,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ari,McDonald
+127,11,20:28.88,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Eduardo,Torres
+128,11,20:29.32,St,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Kazinsky
+129,11,20:31.36,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Ben,Osborne
+130,11,20:32.23,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Emilio,Garcia
+131,11,20:33.80,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,Lee
+132,10,20:34.17,San Rafael,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Paloglou
+133,9,20:34.36,Carmel,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Bryce,Rambach
+134,12,20:35.15,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,Lim
+135,10,20:35.21,San Rafael,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Eric,Burke
+136,9,20:35.42,San Rafael,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dylan,Moore
+137,12,20:35.70,St,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Mathieu,Morin
+138,9,20:36.45,San Rafael,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Maxwell,Hoffman
+139,11,20:36.74,Dublin,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Brian,To
+140,11,20:38.91,Carlmont,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Liam,Hood
+141,12,20:39.72,Granada,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,De La Torre
+142,9,20:49.54,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Madhav,Viswesvaran
+143,11,20:50.32,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Chris,Collins
+144,10,20:51.24,San Rafael,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Salwen
+145,11,20:55.59,Nevada Union,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Lucas,Lehmer
+146,9,20:56.45,Branham,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Milstead
+147,12,20:59.31,Carlmont,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Brown
+148,12,21:02.08,Westmoor,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,De Castro
+149,10,21:02.53,Carmel,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Christian,Ryan-Trejo
+150,12,21:04.60,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Woo
+151,9,21:05.53,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Hu
+152,11,21:06.68,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Samford
+153,11,21:11.56,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alec,Desuasido
+154,10,21:11.67,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Amit,Mettapalli
+155,11,21:15.06,Santa Teresa,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Dylan,Thomas
+156,12,21:16.95,Valley View,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Gabriel,Munoz
+157,10,21:18.04,Archbishop Riordan,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Ruivivar
+158,11,21:18.90,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,Chin
+159,12,21:20.99,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Giovanni,Della Maggiore
+160,11,21:21.67,Carlmont,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Evangelos,Vlahos
+161,9,21:21.77,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Govindh,Kumar
+162,10,21:22.95,Pioneer,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Miguel,De La Torre
+163,9,21:23.54,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Benjamin,Mui
+164,9,21:25.70,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Anish,Shanmuganathan
+165,11,21:26.61,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Zachary,Chao
+166,9,21:27.14,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Anthony,Chuang
+167,10,21:27.51,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Yaniv,Gottlib
+168,9,21:28.09,Pioneer,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Danitz
+169,11,21:28.59,Westmoor,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Wilson,Li
+170,10,21:30.66,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Sriram,Ambadi
+171,11,21:35.89,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Sahil,Buddharaju
+172,11,21:42.56,Granada,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Andy,Shu
+173,11,21:42.71,Carlmont,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Zachary,Mallet
+174,11,21:44.43,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Arroyo
+175,11,21:44.63,San Rafael,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Patrick,Clark
+176,11,21:52.85,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Mario,Garcia
+177,9,21:53.05,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Owen,Chun
+178,11,21:56.50,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Julian,Zepeda
+179,9,22:02.07,San Rafael,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Lau
+180,9,22:03.19,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Hong,Nguyen
+181,9,22:07.59,Prospect,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kieran,Derrington
+182,11,22:07.68,Alisal,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jose,Antonio Mondragon
+183,11,22:11.00,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Luca,Schrammel
+184,11,22:12.06,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Vineet,Sunkavalli
+185,9,22:13.63,Prospect,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Kim
+186,11,22:15.26,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Bovone
+187,9,22:17.20,Carmel,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Steve,Dean
+188,11,22:20.28,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Diego,Sanchez
+189,9,22:20.89,Prospect,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Josue,Diaz-Flores
+190,11,22:21.36,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Devon,Weatherall
+191,10,22:24.42,Nevada Union,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Julian,Costa
+192,11,22:31.25,Evergreen Valley,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Paolo,Manalo
+193,10,22:31.94,Prospect,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ved,Phadke
+194,11,22:38.42,Willow Glen,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Humberto,Hernandez
+195,11,22:38.95,Willow Glen,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Christian,Valencia
+196,12,22:41.50,Westmoor,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Thomas,Davis-Mena
+197,9,22:46.75,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aden,Jo
+198,9,22:52.40,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,David,Huynh
+199,9,22:53.77,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jeremy,Arroyo
+200,10,22:54.68,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Thach
+201,10,22:57.16,Dougherty Valley,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alan,Thach
+202,9,23:00.30,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kush,Shukla
+203,11,23:06.14,Carlmont,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,Yamori Little
+204,12,23:26.88,Westmoor,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Shawn,Kong
+205,10,23:27.51,San Rafael,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Erik,Chao
+206,11,23:28.12,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,An,Le
+207,9,23:29.82,Prospect,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Evan,Fotakis
+208,12,23:33.98,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Aldrym,Gamatero
+209,10,23:36.72,Carmel,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Angel,Elias Resendiz
+210,12,23:39.99,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Lee
+211,12,23:45.24,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jeremy,Raffetto
+212,11,23:45.62,Carlmont,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Colin,Suits
+213,11,23:51.13,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Morris
+214,11,24:03.29,Westmoor,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Kenny,Ho
+215,12,24:17.60,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Michael,McGuire
+216,11,24:24.23,Westmoor,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Norberto,Torres
+217,12,24:44.15,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Jorge,Jimenez
+218,11,24:59.04,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Dmitry,Mukhin
+219,11,25:01.60,St Francis (Mountain View),2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Narducci
+220,11,25:04.14,Westmont,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Connor,Rothwell
+221,11,25:19.36,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,James,Dornblaser
+222,11,25:25.79,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Jakab,Lippman
+223,11,25:30.90,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Riley,Taylor
+224,11,25:33.26,Archbishop Mitty,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Douglas,Nolin
+225,9,25:43.36,San Rafael,2.95 Miles JV Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dominic,Brown
+226,11,25:48.73,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Bryan,Nguyen
+227,11,26:17.32,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Timmy,Pham
+228,12,26:27.85,Carlmont,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Bazarsky
+229,11,26:31.02,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Oliver,Lopez
+230,12,26:50.18,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Angel,Sandoval
+231,12,27:34.54,Carlmont,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Matthias,Hall
+232,10,27:34.73,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Trung,Van
+233,11,27:50.70,Leland,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Allen,Hsing
+234,10,28:00.38,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Anh,Tran
+235,11,28:08.64,Bellarmine College Prep,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Stephen,Silva
+236,11,28:17.46,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Nguyen
+237,10,28:22.32,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Julian,Rios
+238,12,30:15.77,Junipero Serra,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Garrett,Camicia
+239,12,30:57.29,Andrew Hill,2.95 Miles JV Boys,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,M,Alan,Nguyen
+1,10,16:36.74,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Parker,Moore
+2,10,16:38.54,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Casper,Aliaga
+3,10,17:09.54,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Aiden,Theocheung
+4,10,17:14.87,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Dylan,Papenfuss
+5,10,17:15.32,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,Nguyen
+6,10,17:18.29,Greenfield,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jose,Luis DeJesus
+7,10,17:23.12,Greenfield,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Luis,Martinez
+8,10,17:27.67,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Feoden,Soriano
+9,10,17:32.94,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Daniel,Vaca
+10,10,17:33.07,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Sarmenta
+11,10,17:38.75,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Eric,Kontur
+12,10,17:40.23,Dublin,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jaden,Valle
+13,10,17:42.23,Marina,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alonso,Mora
+14,10,17:43.08,Sacred Heart Cathedral,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gavin,Ogawa
+15,10,17:55.59,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Xavier,Mcwilliams
+16,10,17:55.88,Alisal,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alexis,A Perez
+17,10,17:59.17,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Benjamin,Kelly
+18,10,17:59.95,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Mark,Bennett
+19,10,17:59.99,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Wesley,Chiba
+20,10,18:00.42,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Taulbee
+21,10,18:00.68,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Yong
+22,10,18:09.90,Valley View,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,John,Rocha
+23,10,18:10.39,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Suvan,Kumar
+24,10,18:12.66,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Zach,Kamali
+25,10,18:13.29,Archbishop Riordan,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Liam,Funke
+27,10,18:16.46,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brennan,Orman
+28,10,18:17.56,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Isaiah,Zamora
+29,10,18:19.95,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Bryan,Krewson
+30,10,18:21.42,Greenfield,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Daniel,Pantoja
+31,10,18:21.61,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kelly,Galicia-Thomas
+32,10,18:22.23,Valley View,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Dilla
+33,10,18:23.41,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kevin,Zheng
+34,10,18:24.04,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Boennighausen
+35,10,18:24.33,Marina,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Edwards
+36,10,18:25.16,Sacred Heart Cathedral,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ciaran,Trevino
+37,10,18:26.80,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Lukas,Ostien
+38,10,18:27.78,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Livingood
+39,10,18:28.62,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Vishal,Venkatesh
+40,10,18:29.47,Oakwood,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Peter,Wen
+41,10,18:30.63,Santa Teresa,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Myles,Jacobs
+42,10,18:31.52,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,Lappalainen
+43,10,18:32.62,Sacred Heart Cathedral,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jackson,Wainwright
+44,10,18:35.97,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Sriman,Gattepalli
+45,10,18:36.88,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,James,Tolland
+46,10,18:39.31,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Dylan,Chen
+47,10,18:41.15,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,Bryant
+48,10,18:43.67,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Cody,Ojeda
+49,10,18:43.76,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Colby,Adams
+50,10,18:46.88,Alisal,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joel,Mendoza
+51,10,18:47.16,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jasaneel,Bhella
+52,10,18:47.97,Lynbrook,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Iain,Jung
+53,10,18:51.19,Dublin,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Seidler
+54,10,18:53.73,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Jarymowicz
+55,10,18:58.36,Willow Glen,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ananeya,Damene
+56,10,18:59.79,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Oliver,Von Feldt
+57,10,19:00.87,Dublin,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gage,Vickers
+58,10,19:04.93,Alisal,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Bryan,Castillo
+59,10,19:05.65,La Canada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jordan,Jaross
+60,10,19:06.02,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kurt,Johnston
+61,10,19:06.09,La Canada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Marko,Jovanovic
+62,10,19:12.33,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Lum
+63,10,19:13.37,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Marsavin
+64,10,19:13.68,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Luis,Callahan
+65,10,19:14.39,Alisal,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Arturo,Cesareo
+66,10,19:14.44,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Tolland
+67,10,19:15.75,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Trent,Donaldson
+68,10,19:15.77,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brian,Kim
+69,10,19:19.22,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Luke,Givens
+70,10,19:19.82,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Arnav,Malhotra
+71,10,19:20.31,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Timothy,Nguy
+72,10,19:22.79,Dublin,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Conor,Woofter
+73,10,19:27.88,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alejandro,Robles
+74,10,19:32.38,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Chase,Vogler
+75,11,19:36.46,Greenfield,2.95 Miles Sophomore Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Angelito,De Jesus
+76,10,19:36.67,Sacred Heart Cathedral,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,Garcia-Meza
+77,10,19:39.71,Willow Glen,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Neel,Patel
+78,10,19:44.29,Sacred Heart Cathedral,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brandon,Bailey
+79,10,19:47.69,Alisal,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gustavo,Martinez
+80,10,19:47.91,Westmoor,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brevan,Rohde
+81,10,19:48.82,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Aaron,Ma
+82,10,19:49.46,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Parker,Ohara
+83,10,19:50.72,Dublin,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Arvind,Kumar
+84,10,19:51.72,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ayush,Rana
+85,10,19:51.78,Greenfield,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Rodrigo,Vazquez
+86,10,19:52.96,Westmoor,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ervin,Cunanan
+87,10,19:53.14,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brady,Munnerlyn
+88,10,19:56.00,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Henry,Keller
+89,10,19:57.15,Westmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Chase,Hardy
+90,10,19:58.43,Lynbrook,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Tzen-Chuen,Ng
+91,10,20:03.24,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Anthony,Fong
+92,10,20:05.07,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Kang
+93,10,20:05.17,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Jackman
+94,10,20:06.55,Junipero Serra,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Devante,Guel
+95,10,20:07.94,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Fadi,Ballou
+96,10,20:10.29,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Om,Goswami
+97,10,20:12.97,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Rutter
+98,10,20:16.34,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,McGuffin
+99,10,20:16.61,Santa Teresa,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gerald,Sarkes
+100,10,20:17.11,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Emmanuel,Sanchez
+101,10,20:17.23,Lynbrook,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Micah,Rudin
+102,10,20:19.94,Alisal,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jose,Juarez Hernandez
+103,10,20:20.15,Archbishop Riordan,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brandan,Lee
+104,10,20:20.34,Lynbrook,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Cho
+105,10,20:21.54,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Zack,Schultz
+106,10,20:25.09,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Santiago,Yescas
+107,10,20:25.89,Junipero Serra,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joey,Scatena
+108,10,20:29.50,Valley View,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Robert,Perez
+109,10,20:31.44,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Zane,Syed
+110,10,20:33.13,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Josue,Sanchez
+111,10,20:33.72,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gabriel,Arreola
+112,10,20:33.95,Westmoor,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Lawrence,Wu
+113,10,20:36.15,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jake,Testa
+114,10,20:37.70,Prospect,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Lue
+115,10,20:38.59,Archbishop Riordan,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,John,Chu
+116,10,20:41.44,Lynbrook,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Roy,Chien
+117,10,20:42.02,Westmoor,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Lill,Godfrey Minamin
+118,10,20:42.78,Westmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Cole,Young
+119,10,20:50.15,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jimmy,Hanson
+120,10,20:51.41,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Parker,Jones
+121,10,20:58.01,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Ahn
+122,10,21:02.54,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Martin,Zhong
+123,9,21:03.92,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryson,Sun
+124,10,21:05.18,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Kolbe,Yang
+125,10,21:07.36,Dublin,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Patrick-Bruce,Sargent
+126,10,21:10.19,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Patrick,Zhang
+127,10,21:12.16,Granada,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Sam,Wu
+128,10,21:13.27,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Aaron,Dowling
+129,10,21:19.10,Tamalpais,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Zach,Weinfeld
+130,10,21:23.48,Junipero Serra,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Will,Denning
+131,10,21:24.14,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Rahul,Cherkuri
+132,10,21:25.49,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Bintocan
+133,9,21:26.32,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Victor,Chen
+134,10,21:34.01,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Griffin,Kramer
+135,10,21:40.90,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Giusti
+136,10,21:43.28,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,David,Gong
+137,10,21:47.30,Tamalpais,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Grayson,Everage
+138,10,21:53.45,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Fernando,Salvador
+139,10,21:53.51,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Tim,Halley
+140,10,21:54.19,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,David,Ulloa
+141,10,21:57.61,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Wesley,Shen
+142,10,21:58.77,Prospect,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Diego,Diaz
+143,10,21:59.57,Junipero Serra,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Shaffer
+144,10,22:03.13,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Zack,Amdursky
+145,10,22:04.35,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Cedano
+146,10,22:05.03,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Matthew,Abraham
+147,10,22:07.21,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Henry,Marquez
+148,10,22:07.80,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Walker
+149,10,22:17.08,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Mateo,Arreola
+150,10,22:19.74,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Brandon,Wong
+151,10,22:20.36,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Darcy,Eliasi
+152,10,22:21.36,Valley View,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Nicholas,Duran
+153,10,22:22.67,Valley View,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Gustavo,Fierro
+154,10,22:30.91,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Emmanuel,De La Cruz
+155,10,22:31.70,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Mateo,Schmidt
+156,10,22:34.39,Westmoor,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jesse,Thomas Matawaran
+157,10,22:34.51,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Ngan
+158,10,22:38.63,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,David,Daniels
+159,10,22:38.96,Evergreen Valley,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Philip,Tran
+160,10,22:39.26,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Marco,Colmenares
+161,9,22:42.37,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,William,Chun
+162,10,22:48.97,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Claure
+163,9,22:54.89,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Skyler,Showers
+164,10,22:59.63,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Liam,Bridges
+165,10,23:03.34,Junipero Serra,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Peter,Chen
+166,10,23:11.62,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jensen,Koberlein
+167,10,23:31.66,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Peter,Chong
+168,10,23:42.76,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Lucas,Woodford
+169,10,23:47.19,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,Ewe
+170,9,23:56.32,George Washington,2.95 Miles Sophomore Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Oscar,Chan
+171,10,24:17.74,Tamalpais,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Josh,Berman
+172,10,24:27.24,St Francis (Mountain View),2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Atharv,Karanjkar
+173,10,25:31.68,Carlmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Arav,Mukherjee
+174,10,25:36.67,Leland,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Desai,Chancellor
+175,10,25:38.10,Bellarmine College Prep,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Hunter,Lippert
+176,10,25:39.65,Westmoor,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,David,Cava
+177,10,25:46.02,Westmont,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,David,Carter
+178,10,25:48.86,Archbishop Riordan,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Hayden,Peregrino
+179,10,30:34.10,Archbishop Mitty,2.95 Miles Sophomore Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Ojas,Vashishtha
+1,9,17:01.87,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tristan,Lalonde
+2,9,17:08.81,Leland,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sami,Shafi
+3,9,17:41.91,Lynbrook,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Theodore,Lai
+4,9,17:48.96,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Macias
+5,9,17:54.08,Valley View,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Marcos,Diaz
+6,9,17:58.97,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Daniel,Knight
+7,9,17:59.62,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jose,Soto
+8,9,18:03.18,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tommy,Rogers
+9,9,18:10.18,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Owen,Kato
+10,9,18:10.37,Lynbrook,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sanjay,Naidu
+11,9,18:15.88,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Gutierrez
+12,9,18:18.16,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Amir,Jordan
+13,9,18:18.73,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jayanth,Samala
+14,10,18:20.59,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jordan,Noeku
+15,9,18:24.01,Lynbrook,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Hrishikesh,Ingle
+16,9,18:24.70,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Glanville
+17,9,18:27.17,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Packard
+18,9,18:28.55,Alisal,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joan,Marquez
+19,9,18:29.44,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Wesley,Ku
+20,9,18:30.86,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Hector,Lyko
+21,9,18:30.87,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Emmet,Kneafsey
+22,9,18:31.67,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Cheston,Opsasnick
+23,9,18:38.17,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kai,Lin
+24,9,18:39.58,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Bruno,Inzunza
+25,9,18:46.25,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Steven,Head
+26,9,18:46.63,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Saaketh,Nandakumar
+27,9,18:48.93,Alisal,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Emiliano,Ramirez
+28,9,18:50.84,Valley View,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Pablo,Nunez
+29,9,18:51.14,La Canada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,George,Branda
+30,9,18:52.57,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,David,Aberouette
+31,9,18:52.79,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Azariel,Martinez-Sigala
+32,9,18:54.49,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Vibhu,Krishnan
+33,9,18:56.77,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Giovanni,Costello
+34,9,19:01.51,Santa Teresa,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Krone
+35,9,19:02.59,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Uriel,Ramirez
+36,9,19:04.52,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,William,Ou
+37,9,19:04.54,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Francis,Elises
+38,9,19:08.15,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,Eaton
+39,9,19:09.47,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Colin,Pereira
+40,9,19:12.83,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Miguel,Endaya
+41,9,19:15.48,Leland,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Bryce,Yeh
+42,9,19:22.64,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dylan,Dsilva
+43,9,19:26.15,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Pavel,Turovski
+44,9,19:27.19,Westmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Chaudoin
+45,9,19:32.12,Marina,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Mitch,Garcia-Reyes
+46,9,19:33.18,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Philip,Le
+47,9,19:37.16,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Holbrook
+48,9,19:37.21,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Maddox,Egge
+49,9,19:39.38,Leland,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Sohn
+50,9,19:39.52,Westmoor,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aria,Park
+51,9,19:40.87,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Vincent,Nguyen
+52,9,19:41.42,Sacred Heart Cathedral,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kai,Hinoki
+53,9,19:43.64,Sacred Heart Cathedral,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Israel,Paredes
+54,9,19:44.28,Marina,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Steven,Aspeitia
+55,9,19:44.32,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,Martinez
+56,9,19:44.51,Alisal,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Emiliano,Garcia
+57,9,19:44.63,Lynbrook,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Saumitr,Dikhit
+58,9,19:45.41,Oakwood,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ellis,Richardson
+59,9,19:47.24,La Canada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Arya,Ghaneh
+60,9,19:48.24,Valley View,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Valdivia
+61,9,19:48.30,Alisal,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Angel,Gonzalez
+62,9,19:48.48,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Anthony,Ng
+63,9,19:49.15,Sacred Heart Cathedral,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Quentin,Poon
+64,9,19:49.22,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Evan,Itow
+65,9,19:53.14,Alisal,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Luis,Mandujano
+66,9,19:53.46,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tommy,Callahan
+67,9,19:59.78,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Ghazouli
+68,9,20:03.31,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,T Matsumoto
+69,9,20:04.09,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Thomas,Sternfels
+70,9,20:04.80,Marina,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Michael,Angeles
+71,9,20:09.84,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Omar,Martinez
+72,9,20:10.61,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Eddy,Yeretnov
+73,9,20:11.18,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kyle,Butler
+74,9,20:12.64,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Nguyen
+75,9,20:14.09,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jamisen,Blackwell
+76,9,20:14.74,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Erik,Anaya
+77,9,20:16.28,Westmoor,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Muljadi
+78,9,20:18.15,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Gonci
+79,9,20:18.87,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Justin,Wang
+80,9,20:19.66,Santa Teresa,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Bryce,Johnson
+81,9,20:21.61,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Pedro,Brockmann
+82,9,20:22.07,Sacred Heart Cathedral,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,William,Wang
+83,9,20:22.23,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dominic,Bradley
+84,9,20:23.47,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joshua,Kao
+85,9,20:25.84,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nick,Taylor
+86,9,20:25.91,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Miles,Cozort
+87,9,20:27.09,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sean,Andrasick
+88,9,20:28.88,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jaime,Zepeda
+89,11,20:28.93,Alisal,2.95 Miles Freshman Boys,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,M,Pablo,Trujillo
+90,9,20:29.15,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sam,Wilson
+91,9,20:29.92,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Timothy,Nguyen
+92,9,20:30.32,Westmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Skyler,Dalziel
+93,9,20:38.13,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Braeden,Morrissey
+94,9,20:41.85,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,David,Bolka
+95,9,20:43.72,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Paul,Mathew
+96,9,20:44.04,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joseph,Sherman
+97,9,20:49.01,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Dominic,Thompson
+98,9,20:50.75,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Garret,Montgomery
+99,9,20:51.63,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jonas,Barnes
+100,9,21:00.43,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Calvin,Qian
+101,9,21:00.61,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Quinn,Dammann
+102,9,21:00.80,Sacred Heart Cathedral,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jonah,Nelson
+103,9,21:03.24,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Junior,Salas
+104,9,21:09.02,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Charles,Kelley
+105,9,21:09.96,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Trevor,Crittenden
+106,9,21:11.61,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nolan,Murphy
+107,9,21:11.90,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Max,Amend
+108,9,21:12.58,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Caleb,Penner
+109,9,21:12.88,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Max,Mucha
+110,9,21:17.00,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Tran
+111,9,21:18.17,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jesus,Aguilar
+112,9,21:23.19,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Declan,Lavin
+113,9,21:25.46,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Trey,Louderback
+114,9,21:27.12,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Martin,Cao
+115,9,21:27.97,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jimmy,Marenco
+116,10,21:30.21,Santa Teresa,2.95 Miles Freshman Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Marek,Pinto
+117,9,21:31.66,Sacred Heart Cathedral,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kaya,Richards
+118,9,21:35.23,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Will,Haskell
+119,9,21:36.36,Tamalpais,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ben,Ginnebaugh
+120,9,21:38.55,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,William,Kulda
+121,9,21:40.02,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Constantine,Athanasiou
+122,9,21:41.74,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Brodie,Nolan
+123,9,21:44.02,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,William,Togliatti
+124,9,21:44.50,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Max,Wosczyna
+125,9,21:47.70,Valley View,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tanner,Brinsky
+126,9,21:49.13,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Xing,Chan
+127,9,21:50.89,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Theo,Sprouse
+128,9,21:52.35,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Stuart,Cremer
+129,9,21:54.07,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Vincent,Padilla
+130,9,21:56.53,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Donovan,McPeek
+131,9,21:56.74,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Johny,Manolopoulos
+132,9,21:58.81,Westmoor,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Brendan,O'Connell
+133,9,22:00.29,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Niels,Vandertuin
+134,9,22:00.63,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Grant,Lindblom
+135,9,22:00.74,Leland,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ethan,Minvielle
+136,9,22:01.36,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Fernie,Rodriguez
+137,9,22:01.83,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Samuel,Costello
+138,9,22:05.34,Valley View,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Andrew,Nunez
+139,9,22:10.41,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Timothy,Lencioni
+140,9,22:13.32,Santa Teresa,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Gabriel,Meza Matasol
+141,9,22:13.55,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Wesley,Short
+142,9,22:15.14,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Robert,Yang
+143,9,22:27.88,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Avijit,Bagga
+144,9,22:31.00,Dublin,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Armaan,Singh
+145,9,22:36.82,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Carlos,Bolanos
+146,9,22:38.86,Oakwood,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Price
+147,9,22:47.91,Leland,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Conner,Shih
+148,9,22:48.42,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,Lundquist
+149,9,22:50.35,Leland,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Christopher,Chou
+150,9,22:52.13,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Sam,Davenport
+151,9,22:52.48,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,J Matsumoto
+152,9,22:53.78,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Moon
+153,9,22:54.76,Evergreen Valley,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jaren,Suyeishi
+154,9,22:57.99,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jake,Groll
+155,9,22:58.94,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jack,Hubley
+156,9,23:05.08,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Connor,Harris
+157,9,23:05.70,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jonathan,McSweeney
+158,9,23:05.84,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,John,Penner
+159,9,23:10.17,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Victor,Dominguez
+160,9,23:13.47,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Joe,Simonds
+161,9,23:18.30,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Trevor,Koto
+162,9,23:18.76,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Cannon,Kissane
+163,9,23:20.75,Westmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Huber
+164,9,23:31.02,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nikhil,Alleyne
+165,9,23:35.97,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,Meza
+166,9,23:36.81,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Thai,Nguyen
+167,9,23:38.58,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Kropp
+168,9,23:40.12,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Lew
+169,9,23:41.90,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,Noonan
+170,9,23:42.76,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Tyler,Chan
+171,9,23:44.08,Marina,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alexander,LaVilla
+172,9,23:45.47,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Lucas,McLachlan
+173,9,23:51.72,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Carter,Hively
+174,9,23:58.42,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Kellen,Weimers
+175,9,24:08.90,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Finnan,MacRunnels
+176,9,24:18.94,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jason,Huang
+177,9,24:28.70,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ryan,Ng
+178,9,24:43.14,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Shawn,Covarrubias
+179,9,25:00.84,Granada,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,John,Mori
+180,9,25:17.72,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Eddison,Carroll
+181,9,25:28.03,Junipero Serra,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aidan,O'Reilly
+182,9,25:30.71,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Nathan,Palamuttan
+183,9,25:31.66,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Colton,Carr
+184,9,25:39.03,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,David,Tuvshin
+185,9,26:00.45,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Evan,Prolo
+186,9,26:03.17,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Jesse,Zalk
+187,9,26:12.78,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Ernest,Mendoza
+188,9,26:13.03,Westmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Cuinn,Huber
+189,9,26:25.81,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Peter,Colyvas
+190,9,26:27.99,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Harrison,Carpenter
+191,9,26:29.02,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Fraser,Grueskin
+192,9,26:36.07,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Brennan,Aquino
+193,9,26:37.55,Oakwood,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Lark
+194,9,26:54.81,St Francis (Mountain View),2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Parcey,Medrina
+195,9,27:01.61,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Brendan,Hurley
+196,9,27:01.78,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,William,Jennings
+197,9,27:37.88,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Alex,Tabios
+198,9,28:16.72,Carlmont,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Gavin,McMichael
+199,10,28:54.78,Willow Glen,2.95 Miles Freshman Boys,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,M,Jacob,Marquez
+200,9,29:50.03,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Bill,Lee
+201,9,29:50.13,Archbishop Riordan,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Aaron,Abraham
+202,9,30:38.55,Bellarmine College Prep,2.95 Miles Freshman Boys,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,M,Raymond,Liu
+1,12,19:00.51,Tamalpais,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Kelsey,Van Allen
+2,11,19:15.81,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Hermela,Abrha
+3,11,19:21.54,Valley View,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Elani,Huntley
+4,11,19:24.22,Notre Dame (Salinas),2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Angela,Leavitt
+5,11,19:27.60,Valley View,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Jocelyn,Garcia
+6,11,19:50.69,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Madison,Yen
+7,10,19:51.72,Edison,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Renberg
+8,12,19:56.98,Salinas,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Nicole,Gorczyca
+9,11,20:05.09,Granada,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Giorgia,Bates
+10,10,20:07.56,Presentation,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Zoe,Hartfield
+11,11,20:07.98,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Sabina,House
+12,9,20:12.57,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Athena,Rapinan
+13,11,20:16.11,Leigh,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Shelby,Page
+14,11,20:19.10,Dougherty Valley,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Aesha,Valia
+15,9,20:25.16,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Karina,Rodriguez
+16,11,20:28.74,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Carly,Zamudio
+17,10,20:30.70,Dougherty Valley,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Ritika,Singh
+18,11,20:33.34,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Corona,Smith
+19,9,20:38.53,Tamalpais,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Delilah,Dehan
+20,11,20:38.65,Tamalpais,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Summer,Solomon
+21,9,20:42.02,Tamalpais,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Jessica,Tempero
+22,9,20:43.62,Pioneer,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Isabella,Peretti
+23,12,20:43.93,Granada,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Sydney,Myers
+24,12,20:46.22,Prospect,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Jensen,Rocha
+25,10,20:47.05,Dougherty Valley,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Eesha,Chakraborty
+26,11,20:49.00,Presentation,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kaitlin,Khong
+27,10,20:50.14,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sophia,Aclan
+28,10,20:54.08,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Ashlyn,Kwan
+29,11,20:55.01,Dougherty Valley,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Puja,Oak
+30,11,20:58.63,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Marianna,Bundros
+31,10,21:00.10,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Maddilyn,Eastus
+32,9,21:03.30,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Annika,Engebretson
+33,9,21:04.59,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Anna,Burford
+34,9,21:08.50,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Haley,Meyer
+35,12,21:14.46,Washington,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Le
+36,9,21:15.13,Edison,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Gaby,Chielpegian
+37,12,21:18.57,Granada,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Clara,Crittenden
+38,12,21:20.13,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Isabella,Gentile
+39,10,21:21.72,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Nandini,Neralagi
+40,10,21:22.48,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Kayla,Flores
+41,11,21:24.28,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Iris,Yee
+42,9,21:24.52,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Gabrielle,McMillan
+43,10,21:25.03,Valley View,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Vanessa,Munoz
+44,9,21:25.40,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Katie,Turk
+45,11,21:27.30,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Maya,Litvak
+46,10,21:27.73,Presentation,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Hannah,Luscher
+47,9,21:29.79,Santa Teresa,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Melody,Nguyen
+48,10,21:30.20,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Anna,Turk
+49,11,21:30.79,Santa Teresa,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Madison,Stull
+50,11,21:32.77,Notre Dame (Salinas),2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Briana,Lomeli
+51,11,21:34.48,St,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Camryn,Ryan
+52,11,21:38.14,Gilroy,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Alcoran
+53,11,21:38.89,Granada,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kassadi,Holloway
+54,12,21:40.54,Marina,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Olivia,Lehman
+56,9,21:43.35,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Milla,Mendoza
+57,11,21:43.98,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Bianca,Guerrero
+58,12,21:45.04,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Chloe,Poon
+59,9,21:45.29,Tamalpais,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Alana,Concannon
+60,10,21:45.71,Sacred Heart Cathedral,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Katherine,Kerstetter
+61,11,21:46.08,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Jennifer,Espinola
+62,11,21:48.27,Salinas,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Gezelle,Villanueva
+63,11,21:50.03,Notre Dame (Belmont),2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Quinn,Meinhardt
+64,10,21:53.25,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Kim
+65,12,21:54.60,Edison,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Dominique,Garza
+66,12,21:55.70,Edison,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Lizet,Vasquez
+67,10,21:59.92,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Kaylie,Kwan
+68,9,22:02.88,San Rafael,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Elena,Pletcher
+69,11,22:03.67,St,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Angelika,Castro
+70,10,22:04.38,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Miriam,Bacigalupi
+71,9,22:04.56,Presentation,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Abigail,Enney
+72,11,22:05.55,Marina,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Andrea,Escobedo
+73,11,22:06.85,Marina,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Karla,Herrera
+74,10,22:12.05,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Amanda,Joe
+75,10,22:13.66,Salinas,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Julia,Cisneros
+76,9,22:16.02,Notre Dame (Belmont),2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Peyton,Daley
+77,9,22:16.12,Notre Dame (Belmont),2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kayla,George
+78,10,22:18.24,Carlmont,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Bella,Hopewell
+79,11,22:22.11,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Katrina,Lin
+80,11,22:22.33,San Rafael,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kelly,Abey
+81,10,22:23.94,Notre Dame (Belmont),2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Chloe,Powell
+82,12,22:28.14,Dougherty Valley,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Megan,Lum
+83,9,22:32.29,Leigh,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kiera,Ching
+84,12,22:35.44,Presentation,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Julianna,Kihmm
+85,11,22:35.50,Evergreen Valley,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kiana,Ponce
+86,9,22:37.39,Dougherty Valley,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Niyah,Naran
+87,10,22:39.56,Presentation,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Katherine,Mekechuk
+88,10,22:39.84,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Biebel
+89,11,22:40.16,Santa Teresa,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Brianna,Valverde
+90,10,22:43.70,Edison,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Riley,Walton
+91,9,22:45.17,Salinas,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kaitlyn,Nolan
+92,12,22:49.46,Marina,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Leanne,Bagood
+93,9,22:53.89,Pioneer,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kate,Smyrniotis
+94,12,22:55.06,Marina,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Sierra,Ravinski
+95,10,22:58.66,Notre Dame (Belmont),2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Nieve,Dandekar
+96,10,23:02.37,Notre Dame (Belmont),2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Jean,Aquino
+97,11,23:05.06,Abraham Lincoln (SF),2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Elen,Zhu
+98,10,23:08.17,Granada,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Daniela,Eckermann
+99,10,23:15.43,San Rafael,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Lila,Hoeh
+100,11,23:21.57,San Rafael,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Senta,Ritter
+101,9,23:32.45,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Nakhoda
+102,10,23:33.49,Santa Teresa,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Ashlyn,Larrus
+103,12,23:33.86,Granada,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Mya,Voigtsberger
+104,10,23:39.40,Willow Glen,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Abigail,Paradise
+105,9,23:46.71,Notre Dame (Salinas),2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Arianna,Amador
+106,9,23:48.87,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Isabella,Saggau
+107,12,23:50.24,Abraham Lincoln (SF),2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Keana,Wong
+108,9,23:52.16,Prospect,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Nikki,Sales
+109,9,23:54.92,Pioneer,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Viviana,Casas
+110,10,23:55.76,Pioneer,2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Maya,Miller
+111,12,24:08.69,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Aileen,Pulchny
+112,12,24:12.66,Oakwood,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Maryam,Moghaddami
+113,12,24:20.46,Pioneer,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Hailey,Smyrniotis
+114,12,24:31.59,Presentation,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Jessica,Davied
+115,12,24:36.29,St,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Natalie,Henn
+116,9,24:40.41,Abraham Lincoln (SF),2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Xara,Alexander
+117,11,24:48.15,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Maddy,Gurich
+118,9,25:00.88,Prospect,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Justine,Rocha
+119,11,25:05.54,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Sinahy,Fragoso De La Paz
+120,10,25:24.90,Abraham Lincoln (SJ),2.95 Miles Varsity Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Grace,Romero
+121,9,25:26.43,Prospect,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Katy,Villalobos
+122,11,25:29.70,Abraham Lincoln (SF),2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Leela,Wong
+123,12,25:40.07,Prospect,2.95 Miles Varsity Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Amanda,Schaer
+124,11,25:49.58,Archbishop Mitty,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Khanh,Tran
+125,9,26:03.11,Notre Dame (Salinas),2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Soraya,Zepeda
+126,11,26:17.62,Valley View,2.95 Miles Varsity Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Irasen,Jauregui
+127,9,27:20.65,St,2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Isabel,Meschi
+128,9,28:10.96,Abraham Lincoln (SF),2.95 Miles Varsity Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Courtney,Langdon
+1,12,17:54.32,Granada,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Colleen,McCandless
+2,12,18:04.41,Granada,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Savannah,Maselli
+3,12,18:17.65,Santa Cruz,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Lila,Roake
+4,10,18:26.12,Leland,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Melissa,Cichon
+5,12,18:48.15,Granada,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Gracie,Dupuis
+6,11,18:53.20,Santa Cruz,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Gabby,Hughes
+7,11,18:57.23,Granada,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Paula,Leigh
+8,10,18:59.33,Abraham Lincoln (SJ),2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Minjares
+9,10,19:19.10,Granada,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Amaiah,Mcintosh
+10,9,19:23.08,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Rhea,Braganza
+11,12,19:24.38,Westmoor,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Shannen,Dorn
+12,10,19:26.14,Granada,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Shayleen,Araya
+13,12,19:34.40,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Aushmitha,Grewal
+14,12,19:37.18,Carmel,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Colleen,Lang
+15,11,19:42.61,Leland,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Clara,Chirila-Rus
+16,10,19:46.70,Carmel,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Rachel,Suess
+17,10,19:47.53,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sameen,Andar
+18,11,19:54.31,Burlingame,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Livvy,Platernik
+19,10,20:00.93,Santa Cruz,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Isabel,Sanchez
+20,10,20:02.51,Lynbrook,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sunny,LI
+21,11,20:02.78,Lynbrook,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alisha,Naidu
+22,9,20:04.86,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Eva,Shen
+23,12,20:09.06,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Sofia,Cuevas
+24,10,20:12.71,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Leah,Abraham
+25,10,20:13.74,Nevada Union,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sephora,Wontor
+26,10,20:13.77,Nevada Union,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Mackenzie,Morgan
+27,9,20:21.75,Alisal,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Andrea,Cornelio
+28,10,20:26.72,Abraham Lincoln (SJ),2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Hannah,Gehrt
+29,10,20:31.13,Westmont,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Makenna,Adams
+30,11,20:41.38,Nevada Union,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Hannah,Tiffany
+31,12,20:46.60,Branham,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Skyler,Miller
+32,12,20:48.13,Dougherty Valley,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Gloria,Qiu
+33,10,21:00.24,Lynbrook,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Gabrielle,Tran
+34,12,21:02.45,Alisal,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Yesenia,Espinoza
+35,12,21:07.29,Ann Sobrato,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Allie,Wells
+36,9,21:08.78,Lynbrook,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Srushti,Patil
+37,9,21:19.07,Westmont,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Lily,Stockmans
+38,9,21:22.07,Nevada Union,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Megan,Schreck
+39,11,21:26.88,Leland,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Isabel,Zhou
+40,10,21:28.67,Westmont,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Madilyn,Zanardelli
+41,10,21:29.58,Lynbrook,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Shuoyu,Huang
+42,12,21:33.76,Ann Sobrato,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Harris
+43,9,21:54.28,Branham,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Megan,Cubiss
+44,12,21:58.47,Westmont,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Kiely,Hardy
+45,12,21:59.47,Westmoor,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Monica,Cedillos
+46,9,22:04.54,Andrew Hill,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Alejandra,Luevanos
+47,9,22:06.49,Westmont,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Aneska,Lee
+48,9,22:06.82,Andrew Hill,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Audrey,Do
+49,9,22:08.70,Carmel,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Sophia,Davi
+50,10,22:23.62,Leland,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Alexandra,Grover
+51,12,22:31.10,Carmel,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Maggie,Ellison
+52,11,23:00.18,Carmel,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Gianna,Herrera
+53,10,23:02.97,Lynbrook,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Selena,Zhao
+54,11,23:03.81,Alisal,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Ximena,Meza
+55,10,23:14.05,Leland,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Tracy,Sun
+56,10,23:15.43,Andrew Hill,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Jacklyn,Velasquez
+57,11,23:20.45,Branham,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Julianne,Alvares
+58,11,23:26.79,Alisal,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Monse,Cortez
+59,10,23:35.55,Branham,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Camilla,Baker
+60,11,23:38.44,Carmel,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Sienna,Anderson
+61,10,23:44.02,Leland,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Kira,Schlieman
+62,12,23:46.21,Alisal,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Yasmin,Chiquito
+63,9,24:22.71,Andrew Hill,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kalin,Le
+64,12,24:27.67,Alisal,2.95 Miles Championship Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Viviana,Gonzalez
+65,10,24:40.08,Santa Cruz,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Megan,Wetzel
+66,11,24:48.76,Branham,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Atticus,Ahearn
+67,10,24:50.24,Branham,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Natalie,Christenson
+68,10,24:52.92,Westmont,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Melissa,Radlinsky
+69,11,25:24.68,Carmel,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Michelle,Foley
+70,10,26:10.77,Westmont,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Hannah,Wolf
+71,10,26:50.90,Santa Cruz,2.95 Miles Championship Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Isabel,Shen
+72,11,27:24.34,Andrew Hill,2.95 Miles Championship Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Pauline,Huynh
+73,9,29:27.86,Santa Cruz,2.95 Miles Championship Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Sonia,Anderson
+1,9,19:39.88,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Elizabeth,Melcher
+2,9,20:48.00,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Madisyn,Walston
+3,10,20:59.91,Granada,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Waverly,Wilson
+4,9,21:13.60,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Katherine,Meezan
+5,10,22:07.64,Granada,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Brooke,Eddy
+6,11,22:18.38,Nevada Union,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alma,Ramirez
+7,10,22:20.32,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Megana,Pudupak
+8,12,22:21.20,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Ysabel,Yu
+9,10,22:23.12,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Holli,Chow
+10,9,22:24.99,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Molly,Walker
+11,9,22:26.71,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Elizabeth,Lau
+12,11,22:28.28,Evergreen Valley,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kaitlyn,Wong
+13,11,22:28.89,St Francis (Mountain View),2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Samantha,Lukpat
+14,11,22:29.25,Tamalpais,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Charlie,Osborn
+15,11,22:35.70,Tamalpais,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Moselle,Fredericks
+16,12,22:37.04,St Francis (Mountain View),2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Elizabeth,Lipscomb
+17,11,22:38.61,Greenfield,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Gladis,Garcia
+18,12,22:41.55,Carlmont,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Morgan,Psaila
+19,11,22:41.71,Sacred Heart Cathedral,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Tessa,House
+20,10,22:42.80,Granada,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Molly,MacLaren
+21,10,22:49.01,Sacred Heart Cathedral,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Alison,Ray
+22,10,22:57.10,Presentation,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Madison,Craig
+23,10,23:09.22,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Asees,Sodhi
+24,11,23:20.13,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Avery,Stump
+25,10,23:21.12,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Riya,Rajani
+26,10,23:31.41,George Washington,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Justice,McHenry
+27,11,23:32.10,Willow Glen,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Jackie,Lazo
+28,12,23:36.64,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Grace,Lu
+29,10,23:37.64,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Nehal,Garg
+30,12,23:38.62,Granada,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Bowles
+31,11,23:42.18,Tamalpais,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Keana,Kennedy
+32,10,23:45.18,Sacred Heart Cathedral,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Malia,Liu
+33,11,23:48.37,George Washington,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Margo,Marvez
+34,9,23:50.10,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kristin,Chan
+35,11,23:50.39,Westmont,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Jia-Yu,Sung
+36,9,23:53.40,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Grace,Nguyen
+37,11,23:53.41,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Elizabeth,Piro
+38,10,23:55.49,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Olivia,Pera
+39,11,23:55.66,Sacred Heart Cathedral,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alexandra,Nip
+40,11,24:00.53,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Esha,Grewal
+41,9,24:06.17,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Stephanie,Kishi
+42,10,24:23.83,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Lydia,Zertuche
+43,11,24:27.38,Evergreen Valley,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Natalie,Sun
+44,11,24:31.04,Greenfield,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alexandra,Campos
+45,11,24:33.37,Tamalpais,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Maeve,Cain
+46,9,24:42.42,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Elle,Rau
+47,11,24:55.55,Carlmont,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kimberly,Mitchell
+48,9,24:56.81,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Clair,Sapilewski
+49,12,24:56.95,Greenfield,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Jackie,Perez-Alvarez
+50,9,24:57.65,Presentation,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kylie,Anderson
+51,9,25:00.04,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Shania,Sutaria
+52,12,25:09.76,Alisal,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Yaritza,Tinoco
+53,11,25:11.69,Presentation,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alyssa,Repetti
+54,12,25:13.20,Alisal,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Alejandra,Ruiz
+55,11,25:22.19,San Rafael,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Grace,Stewart
+56,11,25:25.07,Alisal,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alexandria,Soto
+57,11,25:27.57,Nevada Union,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Skotnicki
+58,12,25:33.69,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Olivia,Baumert
+59,9,25:36.62,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Nyssa,Rawat
+60,11,25:39.05,Alisal,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Britny,Delgado
+61,10,25:41.03,Presentation,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Mayra,Lopez
+62,11,25:43.14,San Rafael,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Sophie,Stewart
+63,9,25:48.44,Santa Teresa,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Megan,Luu
+64,12,25:50.53,Westmoor,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Michelle,Ng
+65,12,26:02.93,Dougherty Valley,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Ankushi,Dutta
+66,12,26:08.51,St Francis (Mountain View),2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Bettendorf
+67,11,26:09.37,Alisal,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Noemy,Hernandez
+68,11,26:11.02,St Francis (Mountain View),2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kelly,O'Neil
+69,11,26:12.51,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Sabrina,Crumley
+70,11,26:13.07,Alisal,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Yesenia,Magallanes
+71,10,26:23.42,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Mia,Yamagiwa
+72,9,26:24.90,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Ava,Scott
+73,9,26:32.34,Evergreen Valley,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Tracy,Cao
+74,9,26:33.50,Granada,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Julia,Leigh
+75,10,26:41.36,Granada,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Olivia,Jordan
+76,10,26:44.32,Evergreen Valley,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Divitha,Doddi
+77,12,26:47.25,George Washington,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Maeta,Phouprasent
+78,11,26:47.50,Carlmont,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Alice,Chamberlin
+79,11,26:57.64,Alisal,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Judith,Becerra
+80,11,27:04.43,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Brooke,Elliott
+81,12,27:09.36,Carlmont,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Madeleine,Quinn
+82,11,27:10.38,Presentation,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Quetzalli,Sanchez
+83,11,27:10.92,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Vivian,Smith
+84,11,27:15.41,Presentation,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Briana,Koepf
+85,9,27:16.80,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Laurel,Klinger
+86,12,27:17.20,San Rafael,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Anna,Marrinson
+87,10,27:17.51,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Isabelle,Bermudez
+88,9,27:18.63,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Fiona,Pulchny
+89,11,27:18.82,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Charlotte,Park
+90,9,27:22.85,Nevada Union,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Serenity,Smith
+91,11,27:26.24,Willow Glen,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Bayleigh,Borgen
+92,11,27:31.08,St Francis (Mountain View),2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Grace,Kennedy
+93,9,27:31.11,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Angelina,Rodriguez
+94,10,27:32.58,Santa Teresa,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Hannah,Marks
+95,10,27:34.22,Santa Teresa,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Triniti,Nguyen
+96,11,27:40.49,St Francis (Mountain View),2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Olivia,Bredel
+97,12,27:53.07,Presentation,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Tisha,Lwin
+98,11,28:12.13,Carlmont,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Daria,Mucha
+99,9,28:13.23,Evergreen Valley,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Anna,Truong
+100,10,28:36.17,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Natalee,Cross
+101,12,28:36.53,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Maya,Venkat
+102,9,28:51.61,Presentation,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Rachita,Tripathy
+103,9,29:04.26,Westmont,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Ria,Sastri
+104,11,29:13.50,Carlmont,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Christina,Young
+105,10,29:19.83,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Alejandra,Fernandez
+106,9,29:27.19,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Denise,Ngo
+107,9,29:36.28,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Lelani,Dougherty
+108,12,29:41.04,Carlmont,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Angelica,Ramirez
+109,10,29:41.58,Santa Teresa,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Bryani,Nguyen
+110,11,29:41.67,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Daniela,Cortez
+111,9,29:43.07,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Asia,Olmega Alvarado
+112,11,29:54.81,Westmoor,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Madeline,Varona
+113,10,30:19.49,Granada,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Macias
+114,11,32:13.18,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Shayla,Huynh
+115,11,32:14.40,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Mi,Le
+116,10,32:19.19,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Hadley,Stevick
+117,10,32:22.10,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Enika,Patel
+118,11,32:29.32,Carlmont,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Cara,Fulton
+119,9,32:50.11,Presentation,2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Megha,Hatte
+120,9,33:01.74,Notre Dame (Belmont),2.95 Miles JV Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Jenna,Shawwa
+121,11,33:20.60,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Freya,D'Souza
+122,10,33:21.83,Archbishop Mitty,2.95 Miles JV Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Divna,Miladinovic
+123,12,33:44.00,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Jocelyn,Noguez
+124,12,34:42.90,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Angelina,Mai
+125,11,35:20.39,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2020,Search,Invitational,Crystal Springs,4748,2018,F,Kiana,Torres
+126,12,37:39.63,Andrew Hill,2.95 Miles JV Girls,2018-10-06,2019,Search,Invitational,Crystal Springs,4748,2018,F,Salma,Jama
+1,10,21:38.68,Evergreen Valley,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Katrina,Aquino
+2,9,21:42.01,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Felicity,Desuasido
+3,9,21:55.56,Lynbrook,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Janani,Asokumar
+4,9,22:13.21,Lynbrook,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Leah,Homstad
+5,10,22:28.15,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Allie,Murdock
+6,9,22:31.07,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Ruegg
+7,10,22:35.78,Marina,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Gabby,Grillo
+8,9,22:52.64,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Elizabeth,Nip
+9,9,23:00.26,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Lauren,Wang
+10,10,23:03.17,Alisal,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Jasmine,Martinez
+11,9,23:04.08,Willow Glen,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Dominique,Salinas
+12,9,23:04.20,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Ciara,Tang
+13,9,23:13.11,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Nicolette,Fischer
+14,9,23:14.92,Evergreen Valley,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Quach
+15,10,23:23.42,Evergreen Valley,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Joanna,Lu
+16,9,23:31.58,Tamalpais,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Zoe,Trainer
+17,9,23:37.62,Greenfield,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Maria,Garcia
+18,10,23:39.10,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Selina,Coxon-Perez
+19,9,23:41.86,Alisal,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kristina,Nieto
+20,9,23:43.26,Lynbrook,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Vishista,Jain
+21,9,23:45.31,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Sofia,Fillon
+22,9,23:47.17,Evergreen Valley,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Lyanna,Tran
+23,10,23:53.04,Carlmont,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Katherine,Taylor
+24,9,23:56.33,Carlmont,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Esme,Grenstam
+25,10,24:04.06,Lynbrook,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Livia,Zhu
+26,10,24:08.24,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Moran
+27,9,24:09.34,Tamalpais,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Taylor,Hill
+28,10,24:13.87,Carlmont,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Jessica,Liu
+29,10,24:14.05,Westmoor,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Rosa,Sierra
+30,10,24:15.63,Carlmont,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Camran,Hitchcock
+31,9,24:16.76,Carlmont,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Penelope,Heith
+32,9,24:21.87,Alisal,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Zamanta,Garfias
+33,9,24:34.32,Greenfield,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Leonor,Villa
+34,9,24:39.38,Westmoor,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Wing,Chiu Tsang
+35,10,24:46.22,Alisal,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Melody,Flores
+36,10,24:48.96,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sarah,Ott
+37,9,24:57.45,Alisal,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Andrea,Larios
+38,9,25:01.45,Westmoor,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Christiane,Chan
+39,9,25:03.63,Carlmont,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Christina,Carroll
+40,9,25:03.78,Tamalpais,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,McKenzie,Holtzapple
+41,9,25:04.93,Marina,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Madeleine,Ravinski
+42,10,25:06.74,Westmoor,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Eureka,Soriano
+43,9,25:10.39,Westmoor,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Eliana,Chan
+44,10,25:11.18,Tamalpais,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Carly,Ramacher
+45,10,25:12.19,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sophia,Badame
+46,10,25:15.49,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Rose,Gendel
+47,9,25:15.53,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Olivia,Nazari
+48,9,25:28.53,Carlmont,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Katherine,Tsvirkunova
+49,9,25:41.57,Leland,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Cindy,Zhao
+50,9,25:44.36,Carlmont,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Annalia,Ayers
+51,9,25:49.24,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Fiona,Deasy
+52,9,25:50.71,Alisal,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Naomi,Nolasco
+53,9,25:56.60,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Sofia,Ruiz
+54,10,26:00.44,Alisal,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Aracely,Hernandez
+55,9,26:02.32,Evergreen Valley,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Swasti,Johri
+56,9,26:02.74,Alisal,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Galilea,Tinoco
+57,9,26:03.55,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Victoria,Dalton
+58,10,26:03.71,Willow Glen,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Natalie,Andreason
+59,9,26:14.77,Carlmont,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Shira,Sobol
+60,10,26:28.59,Westmoor,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Magidina
+61,10,26:37.16,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Lillie,Gendel
+62,10,26:38.04,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Kate,Forsman
+63,9,26:49.82,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Aoife,Dwan
+64,9,26:54.58,Alisal,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Kayla,Marin
+65,9,27:07.72,Lynbrook,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Nehal,Shahi
+66,9,27:19.39,Sacred Heart Cathedral,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Isabel,Banayad
+67,10,27:38.26,Alisal,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Ana,Martinez
+68,10,28:06.16,Willow Glen,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Heydi,Zepeda
+69,9,28:38.24,Willow Glen,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Mariana,Ponce
+70,10,28:38.57,Carlmont,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Evelyn,Brylow
+71,10,28:41.92,Carlmont,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Sophie,Sandler
+72,10,28:58.59,Evergreen Valley,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Tiffanie,Abraham
+73,10,29:10.66,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Rosemary,Bautista
+74,10,29:10.72,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Trinity,Harlan
+75,10,30:20.82,St Francis (Mountain View),2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Yeshni,Savadatti
+76,10,30:25.82,Willow Glen,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Emily,Soto
+77,9,30:36.72,Willow Glen,2.95 Miles FS Girls,2018-10-06,2022,Search,Invitational,Crystal Springs,4748,2018,F,Makeya,Calhoun
+78,10,31:36.61,Carlmont,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Jacqueline,Zuckut
+79,10,35:56.10,Willow Glen,2.95 Miles FS Girls,2018-10-06,2021,Search,Invitational,Crystal Springs,4748,2018,F,Suli,Caceres

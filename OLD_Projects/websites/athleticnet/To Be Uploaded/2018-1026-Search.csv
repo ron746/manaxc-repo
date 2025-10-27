@@ -1,0 +1,432 @@
+place,grade,time,school_name,race_category,meet_date,graduation_year,meet_name,meet_type,course_name,distance_meters,season,gender,athlete_first_name,athlete_last_name
+1,8,09:22.5,Citrus,1.5 Miles Jr High Boys,2018-10-26,2023,Search,Invitational,Meadow Park,2414,2018,M,Marcos,Ruiz
+2,8,09:23.2,Citrus,1.5 Miles Jr High Boys,2018-10-26,2023,Search,Invitational,Meadow Park,2414,2018,M,Cristian,Carlos
+3,7,09:25.6,Citrus,1.5 Miles Jr High Boys,2018-10-26,2024,Search,Invitational,Meadow Park,2414,2018,M,Joshua,Torres
+4,8,09:26.2,Citrus,1.5 Miles Jr High Boys,2018-10-26,2023,Search,Invitational,Meadow Park,2414,2018,M,Chris,Castro
+5,7,16:12.3,Citrus,1.5 Miles Jr High Boys,2018-10-26,2024,Search,Invitational,Meadow Park,2414,2018,M,Adrian,Navarro
+6,7,16:12.5,Citrus,1.5 Miles Jr High Boys,2018-10-26,2024,Search,Invitational,Meadow Park,2414,2018,M,Luis,Orosco
+7,6,17:09.7,Citrus,1.5 Miles Jr High Boys,2018-10-26,2025,Search,Invitational,Meadow Park,2414,2018,M,Elijah,Valles
+1,12,17:09.7,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Isaac,Valdez
+2,11,17:10.4,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Michael,Langstaff
+3,12,17:16.6,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jacob,Nichols
+4,12,17:17.1,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Anthony,Garcia
+5,11,17:33.2,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Isai,Valdez
+6,12,17:37.3,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Leonardo,Villasenor
+7,12,17:54.4,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Eliseo,Mendez
+8,11,18:12.6,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Ulises,Carrera
+9,11,18:18.1,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Elias,Bazan
+10,11,18:32.2,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Emerson,Turner
+11,11,18:35.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Danial,Pirooz
+12,11,18:43.1,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Alec,McLaughlin
+13,11,18:49.1,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Adan,Martinez
+14,11,18:52.0,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Christopher,Price
+15,12,18:56.4,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jesse,Andrade
+16,11,19:01.3,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jayden,Davis
+17,12,19:04.7,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Eric,Nieves
+18,12,19:15.1,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Sam,Deschutter
+19,11,19:17.4,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Isai,Zapata
+20,11,19:17.9,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Sam,Glick
+21,11,19:28.4,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Esteban,Gutierrez
+22,12,19:28.7,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Sergio,Aldapa
+23,12,19:38.9,Selma,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Fidel,Felix
+24,10,19:41.7,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ryan,Carroll
+25,12,19:48.8,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,David,Gomez
+26,9,19:56.2,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Christopher,Hernandez
+27,11,19:58.3,Highland,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Skyler,Terrell
+28,11,20:02.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Tyler,Terrell
+29,12,20:03.6,Westmont,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Santiago,Musgrove
+30,11,20:08.7,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Max,Vink
+31,12,20:09.0,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Gabriel,Duarte
+32,11,20:53.5,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Nicholas,Flom
+33,9,20:53.7,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Nicholas,Monteiro
+34,10,21:28.6,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Michal,Smoszna
+35,9,21:36.1,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Tyson,Campbell
+36,10,21:47.4,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Vincent,Cappello
+37,10,21:53.9,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Bryce,Tompkins
+38,11,21:54.4,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Angel,Herrera
+39,10,21:59.2,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Martin,Avila
+40,10,22:00.6,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Jose,Jacobo
+41,12,22:24.2,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Bradley,Chounlamountry
+42,11,22:26.3,Westmont,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Connor,Rothwell
+43,9,22:33.2,Westmont,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Aidan,Huber
+44,11,22:33.7,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Kyle,Rheinschild
+45,12,22:34.9,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Dominic,Cappello
+46,10,22:48.1,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Angel,Noriega
+47,12,22:55.9,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Heriberto,Ruiz
+48,11,22:56.4,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Rafael,Gonzales
+49,11,23:34.3,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Adrian,Arriaga
+50,11,23:34.7,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Daniel,Arzate
+51,10,23:41.4,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,David,Carter
+52,11,24:07.8,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Oscar,Quintana
+53,11,24:24.5,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Alan,Bejar
+54,11,24:25.5,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Andrew,Vue
+55,10,24:34.3,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Mario,Nuno
+56,10,25:00.0,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ashton,Bickmore
+57,12,25:12.9,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Ignacio,Castillo
+58,10,25:13.2,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Isaac,Capiz
+59,12,25:20.0,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Aaron,Islam
+60,9,25:22.8,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Aaron,Falcon
+61,9,25:34.3,Westmont,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Cuinn,Huber
+62,12,26:08.8,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Robby,Lammert
+63,12,26:22.0,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Joseph,Aston
+64,10,27:04.8,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Hudson,Reynolds
+65,9,34:07.2,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Fernando,Jarquin
+1,10,16:25.0,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ahmed,Ahmed
+2,9,16:29.1,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Paul,Quintanilla
+3,9,17:26.0,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Luis,Martinez
+4,10,17:34.5,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Samuel,Barajas
+5,10,17:52.2,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Philip,Keith
+6,10,17:55.4,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Cody,Ellis
+7,9,18:15.4,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Luciano,Montoya
+8,9,18:19.1,Hanford,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Noel,Orozco
+9,9,18:19.7,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Edgar,Garcia
+10,10,18:20.2,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Brian,Dang
+11,10,18:21.1,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ricky,Thompson
+12,9,18:23.4,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Theo,Rybnicek
+13,9,18:32.4,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Gabriel,Frias
+14,9,18:32.8,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Noah,Peters
+15,10,18:33.6,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Quinlan,Brown
+16,10,18:34.5,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,David,Romero Zavala
+17,10,18:40.6,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Victor,Herrera
+18,10,18:42.0,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Caleb,Herlihy
+19,9,18:45.6,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Anthony,Erikson
+20,9,18:51.8,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Michael,Flores
+21,9,18:52.1,Westmont,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ryan,Chaudoin
+22,9,18:52.7,Westmont,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Skyler,Dalziel
+23,9,18:56.0,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Juan,Garcia
+24,9,19:04.0,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Eddy,Ramirez
+25,9,19:05.9,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Aiden,Taylor
+26,9,19:06.8,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Francisco,Ibarra
+27,9,19:07.1,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Cooper,Krossa
+28,10,19:09.2,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Christian,Navarro
+29,9,19:11.6,Coastal Christian,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Garrett,Leighton
+30,9,19:18.7,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Anhase,Martin
+31,9,19:19.1,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Preston,Nemmers
+32,10,19:21.2,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Diego,Rodriguez
+33,9,19:21.7,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jayden,Ibarra
+34,9,19:26.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Mason,Tuttle
+35,10,19:27.0,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Juan,Duran
+36,9,19:29.9,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Fidel,Rios
+37,10,19:35.2,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Juan,Padilla
+38,9,19:35.8,Mendota,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Angel,Ruiz
+39,11,19:36.8,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Diego,Perez
+40,10,19:37.2,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Nicholas,Razo
+41,9,19:40.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Noah,Silverberg
+42,10,19:47.7,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,David,Arreaga
+43,10,19:51.1,Coastal Christian,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Matthew,Harter
+44,9,19:59.8,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Isiais,Romero
+45,9,20:06.5,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ryan,Kasper
+46,10,20:09.4,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Chase,Hardy
+47,9,20:09.8,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,preston,Nguyen
+48,9,20:15.4,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Javier,Hernandez
+49,9,20:16.0,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Johnathon,Britton
+50,10,20:17.6,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Dylan,Zelsdorf
+51,9,20:23.1,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,David,Ramirez
+52,9,20:31.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Zephan,Bornfreund
+53,10,20:32.1,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Eric,Garcia
+54,9,20:32.5,Selma,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Octavio,Gonzalez
+55,10,20:44.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Gavin,Polanco
+56,10,20:47.1,Mendota,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Jesse,Menilla
+57,9,20:50.5,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ethen,Garcia
+58,9,20:51.6,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Alan,Limones
+59,9,21:00.8,Hanford,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Gabryl,Herrod
+60,10,21:08.6,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Dominic,Gonzales
+61,9,21:09.0,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Hunter,Chavez
+62,10,21:11.4,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Brandon,Bird
+63,9,21:15.3,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Edward,Hawkins
+64,9,21:15.6,Parlier,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Christopher,De Lucio
+65,9,21:19.6,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Estevan,Ramirez
+66,9,21:21.6,Coastal Christian,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Tyler,Schwizow
+67,9,21:21.9,Westmont,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Derek,Zhang
+68,9,21:26.0,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Charlie,Gibbs
+69,10,21:30.8,Parlier,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Diego,Monroy
+70,9,21:50.6,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Shane,Klamm
+71,9,21:59.5,Highland,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Brandon,Berry
+72,9,22:08.4,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Aiden,Aguirre
+73,10,22:34.5,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Reyes,Garcia
+74,10,22:36.5,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Felix,Cruz
+75,10,22:49.8,Selma,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Daniel,Ayala
+76,9,22:53.9,Hanford,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jaybe,Chavez
+77,10,23:07.4,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Dominic,Garcia
+78,9,23:07.6,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Neftaly,Mateos
+79,9,23:07.8,Parlier,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Sebastian,Gallegos
+80,9,23:10.0,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Michael,Sison
+81,9,23:13.3,Mendota,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jorge,Vazquez
+82,10,23:19.4,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Allen,Anderson
+83,10,23:24.1,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Tyler,Sage
+84,10,23:39.0,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Omar,Nunez
+85,9,24:10.1,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jason,Sanders
+86,10,24:19.9,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Christopher,Aguilar
+87,9,24:25.3,Parlier,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jared,Herrera
+88,9,24:28.1,Highland,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Fernando,Juarez
+89,9,26:39.5,Highland,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Brent,Wells
+90,9,26:39.9,Mendota,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Emanuel,Ramirez
+1,11,15:35.3,Westmont,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Garrett,MacQuiddy
+2,10,15:36.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Jacob,Yagers
+3,11,15:58.6,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Joe,Gomez
+4,11,16:00.7,Highland,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Mario,Gutierrez
+5,11,16:02.8,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Marcos,Ramirez
+6,11,16:15.6,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Aaron,Rubio
+7,11,16:17.2,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Vicente,Rojas
+8,11,16:19.8,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Will,Snyder
+9,12,16:22.8,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Miguel,Mendez
+10,12,16:23.2,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Elias,Arteaga
+11,9,16:25.3,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Nathanael,Rodriguez
+12,12,16:31.9,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Joseph,Price
+13,10,16:34.2,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Matthew,Medrano
+14,10,16:37.6,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Jett,Felder
+15,12,16:40.0,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Elias,Martinez
+16,10,16:45.6,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Jacob,Mcnitt
+17,9,16:47.2,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jacob,Snodgress
+18,11,16:50.4,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jair,Garcia
+19,10,16:50.7,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Matthew,Berry
+20,10,17:00.2,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Chase,Plourde
+21,12,17:02.1,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Mark,Juarez
+22,10,17:08.7,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Hrishikesh,Joshi
+23,12,17:14.7,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Missael,Morales
+24,12,17:18.1,Parlier,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Shane,Ibardolasa
+25,11,17:21.5,Parlier,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,kevin,Mata
+26,11,17:23.1,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Cory,Vaccaro
+27,9,17:24.5,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Patrick,Thomas
+28,10,17:26.0,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Alfredo,Rios Guerrero
+29,12,17:28.5,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Martin,Reyes
+30,9,17:29.6,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ethan,Dwelley
+31,10,17:31.5,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Oscar,Batista
+32,12,17:34.2,Mendota,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Marvin,Cornejo
+33,11,17:36.2,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Elias,Tobar
+34,12,17:37.7,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jacob,Garcia
+35,12,17:42.0,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Audel,Pinto-Ramos
+36,10,17:44.1,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Patrick,Espinoza
+37,11,17:46.1,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Isaiah,Madrid
+38,11,17:47.2,Highland,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Alexander,Blass
+39,12,17:49.1,Hanford,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Emilio,Felix
+40,10,17:51.4,Parlier,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Alejandro,Valdovinos
+41,12,17:52.2,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Angel,Castillo
+42,11,17:53.2,Parlier,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jose,Romaldo
+44,11,18:06.4,Westmont,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Shawn,Hogh
+45,9,18:09.7,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Diego,Gonzalez
+46,12,18:16.4,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Josh,Anderson
+47,11,18:18.1,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Balmore,Rodriguez
+48,12,18:20.6,Westmont,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Christopher,Carter
+49,10,18:24.5,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Luis,Santos
+50,11,18:25.0,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Isaias,Martinez
+51,11,18:25.2,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Juan,Aragon
+52,10,18:28.3,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Damien,Slone
+53,11,18:32.1,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Carlos,Avendano
+54,11,18:33.4,Westmont,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Henning,Tretau
+55,12,18:40.9,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jorge,Renteria
+56,12,18:41.4,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jesus,Cantor
+57,10,18:44.8,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Kevin,Medina
+58,11,18:45.6,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Stabivs,Barba
+59,12,18:50.8,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Stockton,Velo
+60,11,18:52.5,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Justin,Nunez
+61,10,18:53.8,Mendota,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Gerardo,Rivas
+62,12,18:54.3,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,David,Reyes Baltazar
+63,12,18:58.2,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Adam,Garza
+64,11,19:04.7,Parlier,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Dominic,Pineda-Lopez
+65,11,19:06.2,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Christopher,Rosas
+66,9,19:08.8,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Bryan,Gonzalez
+67,11,19:09.1,Parlier,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Joshua,Gomez
+68,10,19:13.2,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Mason,Waldner
+69,12,19:16.8,Westmont,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Connor,Wolf
+70,9,19:23.4,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Moses,Maravillo
+71,12,19:27.5,Hanford,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Dominic,Izquierdo
+72,11,19:28.9,Hanford,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Dominic,Ayala
+73,12,19:31.6,Selma,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Christopher,Alatorre
+74,11,19:40.9,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jacob,Svitek
+75,10,19:44.9,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ethan,Philips
+76,10,19:46.3,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Dylan,Morgan
+77,12,19:56.3,Hanford,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Damian,Vega
+78,9,19:57.3,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Mateo,Vasquez
+79,11,20:02.8,Hanford,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Lucas,Casas
+80,10,20:10.9,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Fernando,Lopez
+81,12,20:13.2,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Muchan,Li
+82,10,20:15.0,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Jordan,Hjelm
+83,10,20:20.8,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Rene,Romero
+84,9,20:50.4,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ethan,Enns
+85,10,20:58.4,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Alejandro,Zamora
+86,11,21:01.8,Hanford,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Danny,Escobar
+87,12,21:02.6,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Abraham,Santiago
+88,12,21:23.5,Hanford,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Cristian,Arciga
+89,12,21:24.3,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Juan,Villareal
+90,12,21:24.5,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Owen,Clark
+91,11,22:11.9,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Roberto,Julian Campos
+92,12,22:13.7,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Hank,Gibbs
+93,12,22:29.6,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Alex,Abraham
+94,9,22:37.3,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ben,Kozlowski
+95,11,22:38.5,Coastal Christian,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Steven,Rutland
+96,10,22:39.8,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,James,Conley
+97,9,23:12.5,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Joel,Santiago
+98,11,23:14.1,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Richie,Posada
+99,12,23:31.2,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Carmen,Felix
+100,12,24:22.9,Coastal Christian,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Lucas,Davis
+101,11,24:42.4,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,James,Edmondson
+102,11,25:48.5,Coastal Christian,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Tong,Yuan He
+103,9,29:58.9,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Steven,Rosales
+104,11,29:59.5,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Michael,Cancio
+1,8,17:09.4,Citrus,1.5 Miles Jr High Boys,2018-10-26,2023,Search,Invitational,Meadow Park,2414,2018,M,Jasmine,Adame
+1,12,20:22.5,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Gabby,Ramos
+2,11,20:27.1,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Teresa,Marmolejo
+3,11,20:49.7,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Lisbet,Cabrera
+4,11,20:54.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Emma,Plant
+5,12,21:19.5,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Marlen,Valle
+6,9,21:32.6,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Kylie,Ruiz
+7,12,21:44.6,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Marcela,Valle
+8,12,22:31.7,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Shannon,Farrall
+9,11,22:52.0,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Atziri,Castellanos
+10,10,23:09.3,Mendota,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Claudia,Leiva
+11,10,23:10.5,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Mayreli,Gomez
+12,11,23:25.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Diana,Cortez
+13,12,23:27.4,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jacqueline,Ramirez Garcia
+14,12,23:29.1,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Kayla,Hickey
+15,11,23:33.1,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Kylie,Davison
+16,9,23:39.1,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Estefani,Perez
+17,12,23:52.9,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Cady,Kinzler
+18,11,23:55.6,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Lauren,Hill
+19,10,24:29.3,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Abby,Sommer
+20,12,24:41.1,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Victoria,Garcia
+21,11,24:45.7,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Lilyvex,Rivas
+22,11,24:49.2,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Monse,Flores
+23,11,25:14.9,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Sarah,Duncan
+24,11,25:15.3,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Neyda,Hidalgo
+25,12,25:27.6,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Berena,Espinoza
+26,11,25:31.0,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jasmine,Zavala
+27,9,25:49.3,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Gia,Brescia
+28,12,25:52.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Abigale,Contreras
+29,12,26:33.3,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Andrea,Cortes
+30,11,26:42.0,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Stephanie,Campos
+31,11,27:23.6,Highland,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Natalee,Gonzales
+32,10,27:25.9,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Natalie,Macias
+33,12,28:08.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Berenice,Clara
+34,12,28:50.0,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jaydi,Romero
+35,10,29:00.2,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Angeles,Arvizu
+36,11,29:16.3,Foothill (Bakersfield),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Juliana,Calixto
+37,12,29:16.6,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jessica,Leon Toledo
+38,11,29:40.6,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Katie,Castro
+39,11,30:56.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jennifer,Angon
+40,9,33:40.1,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Daisy,Hunt
+41,11,33:40.4,Arroyo Grande,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Ella,Lundquist
+42,11,34:42.9,Mendota,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Noemi,Rodriguez
+43,11,35:19.6,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Julia,Wolfelt
+44,11,46:51.2,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Alexandra,Martinez
+1,10,20:10.6,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Madilyn,Zanardelli
+2,10,20:10.9,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Makenna,Adams
+3,9,21:22.1,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Emma,Howe
+4,10,21:27.8,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Emma,Marella
+5,9,21:36.0,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Kathryn,Chenoweth
+6,9,21:36.6,Westmont,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Aneska,Lee
+7,9,21:37.1,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Olivia,Morales
+8,10,21:43.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ashley,Parker
+9,9,21:46.1,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Isabela,Garcia
+10,9,21:48.8,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Keira,Taksa
+11,10,22:06.9,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Julie,Johnson
+12,10,22:10.8,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Caitlyn,Brewster
+13,9,22:30.7,Highland,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Chloe,Garcia
+14,10,22:35.7,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Alexis,Almaras
+15,10,22:54.3,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Melissa,Radlinsky
+16,9,23:10.6,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Angela,Gonzalez
+17,10,23:24.7,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Hannah,Wolf
+18,9,23:28.3,Highland,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Kaia,Deleon
+19,9,23:41.2,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Brynn,Scott
+20,9,23:53.4,Selma,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Mya,Rosas
+21,10,24:08.6,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Olivia,Wannemacher
+22,9,24:20.6,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Bella,Rose
+23,10,24:30.0,Westmont,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Nicole,Cittadino
+24,9,24:42.0,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Victoria,Rodriguez
+25,9,24:50.1,Mission College Prep Catholic,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Ashlyn,Faruzzi
+26,10,25:29.9,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Lily,Solano
+27,10,25:34.4,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Diana,Perez
+28,10,25:43.8,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Alondra,Rodriguez
+29,10,26:04.4,Selma,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Emily,Simon
+30,10,26:07.8,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Lizbeth,Lopez
+31,9,26:31.1,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Star,Valdez
+32,10,26:42.8,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Sixti,Satterfield
+33,10,27:03.0,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Maddi,Litter
+34,10,27:12.8,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Shirley,Villalvaso
+35,9,27:18.7,Hanford,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Genevieve,Almanza
+36,10,27:49.9,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Joslyn,Garza
+37,9,28:11.1,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Crystal,Najera
+38,10,28:18.8,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Sandivel,Rodriguez
+39,9,28:23.2,Parlier,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Rebecca,Ramirez
+40,9,29:02.6,Highland,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Gabriela,Sanchez
+41,10,29:19.1,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Cristina,Velasco
+42,11,29:20.0,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Fatima,Ramirez
+43,9,29:27.4,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Angie,Carranza
+44,11,29:33.9,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Monse,Morales
+45,9,29:41.4,Orange Cove,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Lesly,Garcia
+46,10,30:17.8,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Gabrielle,Salgado
+47,9,30:33.5,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Siena,Becas
+48,9,30:53.6,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Aylin,Servin
+49,9,31:13.3,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Diana,Torres
+50,11,31:39.2,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Noelia,Cuevas
+51,9,34:11.2,Parlier,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Anabell,Barboza
+52,9,34:36.7,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Jahilin,Zepeda
+53,11,34:40.8,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Annmarie,Infante
+1,11,18:24.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Madison,Funk
+2,10,18:36.6,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Haley,Ulloa
+3,11,19:00.2,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jessica,Valles
+4,10,19:17.7,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Marie,Diederichs
+5,9,20:01.7,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Gabriella,Avila
+6,10,20:01.9,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Arlene,Magana
+7,10,20:02.2,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Maria,Guerra
+8,10,20:11.0,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Crystal,Torrecillas
+9,12,20:12.7,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Camille,Lubach
+10,10,20:13.8,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Paulina,Guerrero
+11,12,20:15.0,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Lorena,Guerrero Avendano
+12,10,20:15.7,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Talia,Hamilton
+13,12,20:57.1,Westmont,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Kiely,Hardy
+14,11,21:08.9,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Louisa,Zadeh
+15,12,21:14.3,San Marcos (SB),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Qiana,Roderick
+16,12,21:36.7,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Alexa,Coburn
+17,10,21:50.1,Highland,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Ysabel,Gamon
+18,11,22:04.4,Parlier,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Nayely,Ramirez
+19,11,22:10.7,Selma,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Mari,Vasquez
+20,11,22:19.2,East Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Mia,Garcia
+21,10,22:24.7,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Sherlyn,Hernandez
+22,10,22:25.1,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Nadia,Rojas
+23,12,22:28.2,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Madelyn,Melanson
+24,11,22:40.6,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Grengy,De La Cruz
+25,12,22:41.4,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Cristal,Mercado
+26,12,22:46.9,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Anyssa,Trimmer
+27,10,23:04.7,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Rosa,Valdovinos
+28,12,23:05.6,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Maria,Gonzalez
+29,10,23:16.4,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Angelica,Contreras
+30,11,23:19.0,Westmont,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Jia-Yu,Sung
+31,11,23:51.4,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Diana,Camberos
+32,10,23:57.3,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Alicia,Wagoner
+33,12,24:00.0,Highland,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Abigale,Garcia
+34,11,24:01.4,Hanford,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Andrea,Ruiz
+35,10,24:25.9,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Crystal,Pimentel
+36,9,24:29.1,Corcoran,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Andrea,Hernandez
+37,10,24:33.0,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Hailey,Hernandez
+38,12,24:36.3,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Maria,Martinez
+39,12,24:36.8,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Ayleen,Hernandez
+40,10,24:56.7,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Anyssa,Torres
+41,12,24:59.0,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Yisel,Espinoza
+42,12,24:59.5,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Juliet,Garcia
+43,11,25:13.7,Hanford,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Crystal,Rodriguez
+44,12,25:15.4,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Linda,Villarreal-Sanchez
+45,11,25:23.1,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,McKayla,Nichols
+46,12,25:35.0,Parlier,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Maria,Palomares
+47,11,25:47.0,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Esther,Sanchez
+48,12,26:08.4,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Sydney,Luttrell
+49,11,26:14.0,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Stephanie,Castro
+50,12,26:30.9,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Suleimanay,Torres
+51,11,26:31.1,Sunnyside,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Joanna,Salinthone
+52,11,26:35.0,Riverdale,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Diana,Castro
+53,12,26:44.5,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Britany,Arceo
+54,10,27:04.7,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Priscila,Gonzalez
+55,12,27:07.7,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Kayla,Bacon
+56,12,27:08.9,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Adrienne,Hernandez
+57,10,27:21.0,Farmersville,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Angie,Alcala
+58,12,27:24.8,Parlier,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Jasmin,Valdovinos
+59,12,27:32.0,Parlier,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Berenice,Ramirez
+60,10,27:45.4,Golden Valley (CE),1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Leslie,Vazquez
+61,12,27:55.5,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Anna,Ayala
+62,11,27:58.6,South Bakersfield,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Claudia,Rodrigues
+63,12,28:59.8,Sierra Pacific,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Joleen,Contreras
+64,9,29:00.2,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2022,Search,Invitational,Meadow Park,2414,2018,M,Kimberly,Barron
+65,10,30:07.5,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2021,Search,Invitational,Meadow Park,2414,2018,M,Aliyah,Ochoa
+66,12,30:11.1,Kingsburg,1.5 Miles Jr High Boys,2018-10-26,2019,Search,Invitational,Meadow Park,2414,2018,M,Priscilla,Cervantes
+67,11,30:17.1,Robert F Kennedy,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Paola,Guzman
+68,11,30:21.7,Hanford,1.5 Miles Jr High Boys,2018-10-26,2020,Search,Invitational,Meadow Park,2414,2018,M,Laney,Lemus
