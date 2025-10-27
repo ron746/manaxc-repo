@@ -8,6 +8,12 @@ type AthletePageProps = {
   };
 };
 
+// Required for static export
+export async function generateStaticParams() {
+  // Return empty array for now - pages will be generated on-demand
+  return [];
+}
+
 export default async function AthletePage({ params }: AthletePageProps) {
   const athlete = await getAthleteById(params.id);
 

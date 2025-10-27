@@ -8,6 +8,12 @@ type CoursePageProps = {
   };
 };
 
+// Required for static export
+export async function generateStaticParams() {
+  // Return empty array for now - pages will be generated on-demand
+  return [];
+}
+
 export default async function CoursePage({ params }: CoursePageProps) {
   const course = await getCourseById(params.id);
 
