@@ -466,35 +466,47 @@ def scrape_by_meet(
             race_body_text = driver.find_element(By.TAG_NAME, "body").text
             race_lines = [line.strip() for line in race_body_text.splitlines() if line.strip()]
 
-            # Extract race name (includes "Mens" or "Womens")
-            # Typically appears as "Mens 2.74 Miles Varsity" or "Womens 2.74 Miles Junior Varsity"
+            # Extract race name - more flexible pattern
+            # Look for distance pattern followed by any descriptive text
+            # Examples: "Mens 2.74 Miles Varsity", "4,000 Meters Freshmen", "5K Sophomore"
             race_name = None
             race_gender = None
 
             for line in race_lines[:40]:  # Check first 40 lines
-                # Look for gender + distance + race type pattern
-                # Include common race types: Varsity, JV, Junior Varsity, Frosh, Freshman, Reserves
-                if re.search(r'\b(Mens?|Womens?)\s+[\d.]+\s+(?:Miles?|km|Kilometers?|m)\s+(Varsity|JV|Junior Varsity|Frosh|Freshman|Reserves?)\b', line, re.IGNORECASE):
-                    race_name = line
-                    # Extract gender
-                    if re.search(r'\bmens?\b', line, re.IGNORECASE):
-                        race_gender = 'M'
-                    elif re.search(r'\bwomens?\b', line, re.IGNORECASE):
-                        race_gender = 'F'
-                    break
+                # Look for distance pattern (with or without gender prefix)
+                # Pattern: optional gender + distance (number + unit) + optional description
+                distance_pattern = r'(?:[\d,]+\.?\d*)\s*(?:Miles?|km|Kilometers?|m|Meters?|k)\b'
+                if re.search(distance_pattern, line, re.IGNORECASE):
+                    # Check if this line looks like a race name (not just a random distance mention)
+                    # It should have either gender, race type keywords, or grade level keywords
+                    race_keywords = r'(Mens?|Womens?|Varsity|JV|Junior Varsity|Frosh|Freshman|Reserves?|Freshmen|Sophomore|Junior|Senior)'
+                    if re.search(race_keywords, line, re.IGNORECASE):
+                        race_name = line
+                        # Try to extract gender from race name
+                        if re.search(r'\bmens?\b', line, re.IGNORECASE):
+                            race_gender = 'M'
+                        elif re.search(r'\bwomens?\b', line, re.IGNORECASE):
+                            race_gender = 'F'
+                        break
 
-            if not race_name or not race_gender:
+            if not race_name:
                 if progress_callback:
-                    progress_callback(f"WARNING: Could not extract race name/gender from race {race_id}, skipping")
+                    progress_callback(f"WARNING: Could not extract race name from race {race_id}, skipping")
                 continue
 
-            # Determine race type
+            # Determine race type (including grade-based classifications)
             if re.search(r'\bvarsity\b', race_name, re.IGNORECASE) and not re.search(r'\bjunior\b', race_name, re.IGNORECASE):
                 race_type = 'Varsity'
             elif re.search(r'\b(jv|junior varsity)\b', race_name, re.IGNORECASE):
                 race_type = 'JV'
-            elif re.search(r'\b(frosh|freshman)\b', race_name, re.IGNORECASE):
+            elif re.search(r'\b(frosh|freshman|freshmen)\b', race_name, re.IGNORECASE):
                 race_type = 'Frosh'
+            elif re.search(r'\bsophomore\b', race_name, re.IGNORECASE):
+                race_type = 'Sophomore'
+            elif re.search(r'\bjunior\b', race_name, re.IGNORECASE):
+                race_type = 'Junior'
+            elif re.search(r'\bsenior\b', race_name, re.IGNORECASE):
+                race_type = 'Senior'
             elif re.search(r'\breserves?\b', race_name, re.IGNORECASE):
                 race_type = 'Reserves'
             else:
@@ -522,6 +534,10 @@ def scrape_by_meet(
             # Place / Name / School / Time / Year info on separate lines
             results_for_this_race = 0
             result_rows = driver.find_elements(By.CSS_SELECTOR, 'div[class*="result-row"]')
+
+            # If gender not found in race name, we'll try to infer it from the first athlete's name
+            # or look for gender indicators in the page
+            gender_inferred = False
 
             for row in result_rows:
                 row_text = row.text.strip()
@@ -565,6 +581,28 @@ def scrape_by_meet(
 
                 # Parse athlete name
                 first_name, last_name = parse_athlete_name(athlete_name)
+
+                # If gender not yet determined, try to infer from athlete's gender field or first name
+                # For now, we'll check if the page has any gender indicators
+                if not race_gender and not gender_inferred:
+                    # Try to find gender from the page text - look for "Boys" or "Girls" near results
+                    page_text_lower = race_body_text.lower()
+                    if 'boys' in page_text_lower or 'men' in page_text_lower:
+                        race_gender = 'M'
+                        gender_inferred = True
+                        if progress_callback:
+                            progress_callback(f"    Inferred gender: M (from page content)")
+                    elif 'girls' in page_text_lower or 'women' in page_text_lower:
+                        race_gender = 'F'
+                        gender_inferred = True
+                        if progress_callback:
+                            progress_callback(f"    Inferred gender: F (from page content)")
+                    else:
+                        # Default to Unknown - we'll need to manually review
+                        race_gender = 'U'
+                        gender_inferred = True
+                        if progress_callback:
+                            progress_callback(f"    WARNING: Could not determine gender, using 'U' (Unknown)")
 
                 # Convert time
                 time_cs = time_to_centiseconds(time_str)
@@ -624,6 +662,10 @@ def scrape_by_meet(
                 )
                 results.append(result)
                 results_for_this_race += 1
+
+            # Update race gender if it was inferred during result parsing
+            if gender_inferred and race:
+                race.gender = race_gender
 
             if progress_callback and results_for_this_race > 0:
                 progress_callback(f"    Parsed {results_for_this_race} results")
