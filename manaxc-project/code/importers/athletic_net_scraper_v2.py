@@ -198,12 +198,15 @@ def calculate_grad_year(grade: int, season_year: int) -> int:
     """
     Calculate graduation year from current grade and season.
 
-    Formula: grad_year = season_year + (12 - grade)
+    Athletic calendar runs July 1 - June 30, so athletes competing in fall
+    will graduate in the spring of the following year.
+
+    Formula: grad_year = season_year + (13 - grade)
 
     Examples:
-        grade=9, season=2025 → 2028
-        grade=10, season=2025 → 2027
-        grade=12, season=2025 → 2025
+        grade=9, season=2025 → 2029 (freshman in 2025-26 school year)
+        grade=10, season=2025 → 2028 (sophomore in 2025-26 school year)
+        grade=12, season=2025 → 2026 (senior in 2025-26 school year, graduates spring 2026)
 
     Args:
         grade: Current grade (9-13)
@@ -219,9 +222,9 @@ def calculate_grad_year(grade: int, season_year: int) -> int:
         raise ValueError(f"Invalid grade: {grade}. Must be 9-13.")
 
     if grade == 13:  # Post-grad
-        return season_year
+        return season_year + 1  # Post-grads already graduated, next year is year after current season
 
-    return season_year + (12 - grade)
+    return season_year + (13 - grade)
 
 
 def parse_athlete_name(full_name: str) -> tuple:
@@ -360,7 +363,11 @@ def scrape_by_meet(
     progress_callback: Optional[Callable[[str], None]] = None
 ) -> ScrapeResult:
     """
-    Scrape all data for a single meet.
+    Scrape all data for a single meet - V3 with individual race page scraping.
+
+    Fixes:
+    - Gender detection: Scrapes each race page individually to get "Mens" or "Womens" from race title
+    - Missing races: Extracts ALL race IDs from meet page links
 
     Args:
         meet_id: Athletic.net meet ID
@@ -385,7 +392,7 @@ def scrape_by_meet(
 
     try:
         # Load meet page
-        meet_url = f'https://www.athletic.net/CrossCountry/meet/{meet_id}/results/all'
+        meet_url = f'https://www.athletic.net/CrossCountry/meet/{meet_id}/results'
         if progress_callback:
             progress_callback(f"Loading meet page...")
 
@@ -395,7 +402,7 @@ def scrape_by_meet(
         )
         time.sleep(3)
 
-        # Extract meet metadata
+        # Extract meet metadata from main page
         meet_name = driver.title.split(" - ")[0] if " - " in driver.title else driver.title
         body_text = driver.find_element(By.TAG_NAME, "body").text
 
@@ -408,121 +415,172 @@ def scrape_by_meet(
         # Extract season year from date or use current year
         season_year = int(meet_date.split('-')[0]) if meet_date else datetime.now().year
 
-        # Extract venue information
+        # Extract venue information from body text
         venue_name = "Unknown Venue"
         venue_state = ""
 
-        # Try to find venue in body text (typically appears near top of meet page)
-        # Pattern: "Location: Venue Name" or just "Venue Name" before results
-        venue_match = re.search(r'(?:Location:|Hosted at:?)\s*([^,\n]+?)(?:,\s*([A-Z]{2}))?(?:\n|$)', body_text, re.IGNORECASE)
-        if venue_match:
-            venue_name = venue_match.group(1).strip()
-            if venue_match.group(2):
-                venue_state = venue_match.group(2).strip()
-        else:
-            # Try to find venue name in first few lines before results
-            for line in lines[:20]:  # Check first 20 lines
-                # Look for park, high school, or course names
-                if any(keyword in line.lower() for keyword in ['park', 'high school', 'course', 'center', 'field']):
-                    if not any(skip in line.lower() for skip in ['results', 'varsity', 'jv', 'place', 'time']):
-                        # Check if there's a state abbreviation
-                        state_match = re.search(r'\b([A-Z]{2})\b', line)
-                        if state_match:
-                            venue_state = state_match.group(1)
-                            venue_name = line.replace(state_match.group(1), '').strip().rstrip(',').strip()
-                        else:
-                            venue_name = line.strip()
-                        break
-
-        if progress_callback:
-            progress_callback(f"Parsing meet: {meet_name} ({meet_date or 'date unknown'}) at {venue_name}")
-
-        # Parse results from page
         lines = [line.strip() for line in body_text.splitlines() if line.strip()]
 
-        current_race = None
-        current_gender = None
-        current_race_id = f"{meet_id}_race_1"  # Auto-increment race ID
-        race_counter = 1
-
-        for i, line in enumerate(lines):
-            # Detect gender headers
-            if re.search(r'\b(Mens?|Womens?) Results\b', line, re.IGNORECASE):
-                if 'mens' in line.lower() or 'men' in line.lower():
-                    current_gender = 'M'
-                elif 'womens' in line.lower() or 'women' in line.lower():
-                    current_gender = 'F'
-                continue
-
-            # Detect race headers (Varsity, JV, Frosh)
-            if re.search(r'\b(Varsity|JV|Junior Varsity|Frosh|Freshman)\b', line, re.IGNORECASE):
-                current_race = line
-                current_race_id = f"{meet_id}_race_{race_counter}"
-                race_counter += 1
-
-                # Check for explicit gender in race name
-                if re.search(r'\b(Boys?|Girls?|Women)\b', line, re.IGNORECASE):
-                    if 'boys' in line.lower() or 'men' in line.lower():
-                        current_gender = 'M'
-                    elif 'girls' in line.lower() or 'women' in line.lower():
-                        current_gender = 'F'
-
-                # Determine race type
-                if 'varsity' in line.lower():
-                    race_type = 'Varsity'
-                elif 'jv' in line.lower() or 'junior varsity' in line.lower():
-                    race_type = 'JV'
-                elif 'frosh' in line.lower() or 'freshman' in line.lower():
-                    race_type = 'Frosh'
+        # Try to find venue in page text
+        # Look for patterns like "Montgomery Hill Park, CA US"
+        for line in lines[:30]:
+            if re.search(r'[A-Z][a-z]+ [A-Z][a-z]+.*(Park|Course|Field|Center)', line, re.IGNORECASE):
+                # Extract state if present
+                state_match = re.search(r'\b([A-Z]{2})\b', line)
+                if state_match:
+                    venue_state = state_match.group(1)
+                    # Remove state and "US" from venue name
+                    venue_name = re.sub(r',?\s*[A-Z]{2}\s*US.*$', '', line).strip()
                 else:
-                    race_type = 'Other'
+                    venue_name = line.strip()
+                break
 
-                # Parse distance from race name
-                distance_meters = parse_distance_from_name(line)
+        if progress_callback:
+            progress_callback(f"Meet: {meet_name} at {venue_name}, {venue_state}")
 
-                # Add race
-                race = ScrapedRace(
-                    athletic_net_race_id=current_race_id,
-                    meet_athletic_net_id=meet_id,
-                    name=line,
-                    gender=current_gender or 'M',
-                    distance_meters=distance_meters,
-                    race_type=race_type
-                )
-                races.append(race)
+        # STEP 1: Extract all unique race IDs from meet page links
+        if progress_callback:
+            progress_callback(f"Finding all races...")
 
+        race_links = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/results/"]')
+        race_ids_found = set()
+        for link in race_links:
+            href = link.get_attribute('href')
+            match = re.search(r'/results/(\d+)', href)
+            if match:
+                race_ids_found.add(match.group(1))
+
+        race_ids = sorted(race_ids_found)
+        if progress_callback:
+            progress_callback(f"Found {len(race_ids)} races")
+
+        # STEP 2: Scrape each race individually
+        for race_id in race_ids:
+            race_url = f"https://www.athletic.net/CrossCountry/meet/{meet_id}/results/{race_id}"
+            if progress_callback:
+                progress_callback(f"Scraping race {race_id}...")
+
+            driver.get(race_url)
+            time.sleep(4)  # Increased wait for page to fully load
+
+            race_body_text = driver.find_element(By.TAG_NAME, "body").text
+            race_lines = [line.strip() for line in race_body_text.splitlines() if line.strip()]
+
+            # Extract race name (includes "Mens" or "Womens")
+            # Typically appears as "Mens 2.74 Miles Varsity" or "Womens 2.74 Miles Junior Varsity"
+            race_name = None
+            race_gender = None
+
+            for line in race_lines[:40]:  # Check first 40 lines
+                # Look for gender + distance + race type pattern
+                # Include common race types: Varsity, JV, Junior Varsity, Frosh, Freshman, Reserves
+                if re.search(r'\b(Mens?|Womens?)\s+[\d.]+\s+(?:Miles?|km|Kilometers?|m)\s+(Varsity|JV|Junior Varsity|Frosh|Freshman|Reserves?)\b', line, re.IGNORECASE):
+                    race_name = line
+                    # Extract gender
+                    if re.search(r'\bmens?\b', line, re.IGNORECASE):
+                        race_gender = 'M'
+                    elif re.search(r'\bwomens?\b', line, re.IGNORECASE):
+                        race_gender = 'F'
+                    break
+
+            if not race_name or not race_gender:
                 if progress_callback:
-                    progress_callback(f"Found race: {line}")
-
+                    progress_callback(f"WARNING: Could not extract race name/gender from race {race_id}, skipping")
                 continue
 
-            # Parse result line: "1. 12 Vincent Cheung 15:05.5 Silver Creek"
-            result_match = re.match(
-                r'^(\d+)\.\s+(\d{1,2})\s+(.+?)\s+(\d{1,2}:\d{2}(?:\.\d{1,2})?)\s+(.+)$',
-                line
+            # Determine race type
+            if re.search(r'\bvarsity\b', race_name, re.IGNORECASE) and not re.search(r'\bjunior\b', race_name, re.IGNORECASE):
+                race_type = 'Varsity'
+            elif re.search(r'\b(jv|junior varsity)\b', race_name, re.IGNORECASE):
+                race_type = 'JV'
+            elif re.search(r'\b(frosh|freshman)\b', race_name, re.IGNORECASE):
+                race_type = 'Frosh'
+            elif re.search(r'\breserves?\b', race_name, re.IGNORECASE):
+                race_type = 'Reserves'
+            else:
+                race_type = 'Other'
+
+            # Parse distance from race name
+            distance_meters = parse_distance_from_name(race_name)
+
+            # Add race
+            race = ScrapedRace(
+                athletic_net_race_id=race_id,
+                meet_athletic_net_id=meet_id,
+                name=race_name,
+                gender=race_gender,
+                distance_meters=distance_meters,
+                race_type=race_type
             )
+            races.append(race)
 
-            if result_match and current_race and current_gender:
-                place = int(result_match.group(1))
-                grade = int(result_match.group(2))
-                athlete_name = result_match.group(3).strip()
-                time_str = result_match.group(4)
-                school_name = result_match.group(5).strip()
-                time_cs = time_to_centiseconds(time_str)
+            if progress_callback:
+                progress_callback(f"  → {race_name} ({race_gender})")
 
-                if not time_cs:
+            # STEP 3: Parse results from this race page using DOM parsing
+            # Results are in div[class*="result-row"] elements with structure:
+            # Place / Name / School / Time / Year info on separate lines
+            results_for_this_race = 0
+            result_rows = driver.find_elements(By.CSS_SELECTOR, 'div[class*="result-row"]')
+
+            for row in result_rows:
+                row_text = row.text.strip()
+                if not row_text:
                     continue
+
+                row_lines = [line.strip() for line in row_text.split('\n') if line.strip()]
+                if len(row_lines) < 4:
+                    continue  # Need at least: place, name, school, time
+
+                # Extract components
+                # Format can be:
+                # Line 0: place
+                # Line 1: initials (optional, 2-3 uppercase letters)
+                # Line 2: athlete name (or line 1 if no initials)
+                # Line 3: school name (or line 2 if no initials)
+                # Line 4: time (or line 3 if no initials)
+                # Line 5+: PR • Yr: 12 • +1pts
+
+                try:
+                    place = int(row_lines[0])
+                except ValueError:
+                    continue
+
+                # Check if line 1 is initials (2-3 uppercase letters)
+                offset = 0
+                if len(row_lines) >= 5 and re.match(r'^[A-Z]{2,3}$', row_lines[1]):
+                    offset = 1  # Skip initials line
+
+                athlete_name = row_lines[1 + offset]
+                school_name = row_lines[2 + offset]
+                time_str = row_lines[3 + offset]
+
+                # Extract grade from remaining lines
+                grade = None
+                for line in row_lines[4 + offset:]:
+                    yr_match = re.search(r'Yr:\s*(\d+)', line)
+                    if yr_match:
+                        grade = int(yr_match.group(1))
+                        break
 
                 # Parse athlete name
                 first_name, last_name = parse_athlete_name(athlete_name)
 
-                # Calculate grad year
-                try:
-                    grad_year = calculate_grad_year(grade, season_year)
-                except ValueError:
-                    grad_year = season_year + 1  # Default fallback
+                # Convert time
+                time_cs = time_to_centiseconds(time_str)
+                if not time_cs:
+                    continue
 
-                # Generate school ID placeholder (will be enriched later)
+                # Calculate grad year
+                if grade:
+                    try:
+                        grad_year = calculate_grad_year(grade, season_year)
+                    except ValueError:
+                        grad_year = season_year + 1
+                else:
+                    grad_year = season_year + 1
+
+                # Generate school ID
                 school_id = f"school_{school_name.replace(' ', '_').lower()}"
 
                 # Add school (if not already added)
@@ -531,75 +589,77 @@ def scrape_by_meet(
                         athletic_net_id=school_id,
                         name=school_name,
                         short_name=school_name.replace(' High School', '').replace(' HS', ''),
-                        city="",  # Unknown from this page
-                        state="",  # Unknown from this page
+                        city="",
+                        state="",
                         league=""
                     )
                     schools.append(school)
 
                 # Add athlete (if not already added)
-                if not any(a.name == athlete_name and a.school_athletic_net_id == school_id for a in athletes):
+                athlete_key = (athlete_name, school_id)
+                if not any((a.name, a.school_athletic_net_id) == athlete_key for a in athletes):
                     athlete = ScrapedAthlete(
-                        athletic_net_id=None,  # Not available from results page
+                        athletic_net_id=None,
                         name=athlete_name,
                         first_name=first_name,
                         last_name=last_name,
                         school_athletic_net_id=school_id,
                         grad_year=grad_year,
-                        gender=current_gender,
+                        gender=race_gender,
                         needs_review=False
                     )
                     athletes.append(athlete)
 
                 # Add result
                 result = ScrapedResult(
-                    athletic_net_race_id=current_race_id,
+                    athletic_net_race_id=race_id,
                     athlete_name=athlete_name,
                     athlete_first_name=first_name,
                     athlete_last_name=last_name,
                     athlete_school_id=school_id,
                     time_cs=time_cs,
                     place_overall=place,
-                    grade=grade,
+                    grade=grade or 12,  # Default to senior if grade not found
                     needs_review=False
                 )
                 results.append(result)
+                results_for_this_race += 1
 
-        # Add meet with extracted venue information
-        # Leave meet_type blank to prompt admin selection during import
+            if progress_callback and results_for_this_race > 0:
+                progress_callback(f"    Parsed {results_for_this_race} results")
+
+        # Add meet
         meet = ScrapedMeet(
             athletic_net_id=meet_id,
             name=meet_name,
             meet_date=meet_date or f"{season_year}-01-01",
             venue_name=venue_name,
             season_year=season_year,
-            meet_type=""  # Admin will select: League Meet, Invitational, Championship, Intraquad, or blank
+            meet_type=""  # Admin will select
         )
         meets.append(meet)
 
-        # Create venue and course with extracted information
+        # Create venue
         venue = ScrapedVenue(
             athletic_net_id=None,
             name=venue_name,
-            city="",  # City not available on meet results page
+            city="",
             state=venue_state,
             notes=f"Auto-generated for meet {meet_id}"
         )
         venues.append(venue)
 
+        # Create course
         if races:
-            # Extract distance from race name (e.g., "2.74 Miles Varsity" -> "2.74 Miles")
             first_race_name = races[0].name
             distance_display = "Unknown Distance"
 
-            # Try to extract distance with unit from race name
+            # Extract distance with unit
             distance_match = re.search(r'([\d.]+\s+(?:Miles?|Kilometers?|km|m)\b)', first_race_name, re.IGNORECASE)
             if distance_match:
                 distance_display = distance_match.group(1)
 
             distance_meters = races[0].distance_meters
-
-            # Create course name: "Venue, Distance"
             course_name = f"{venue_name}, {distance_display}"
 
             course = ScrapedCourse(
@@ -609,13 +669,13 @@ def scrape_by_meet(
                 distance_meters=distance_meters,
                 distance_display=distance_display,
                 difficulty_rating=5.0,
-                needs_review=True,  # Flag for admin review during import
+                needs_review=True,
                 needs_records_scraping=False
             )
             courses.append(course)
 
         if progress_callback:
-            progress_callback(f"Scraping complete: {len(results)} results from {len(races)} races")
+            progress_callback(f"Complete: {len(results)} results from {len(races)} races")
 
         metadata = {
             'scrape_type': 'meet',

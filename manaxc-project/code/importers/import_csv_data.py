@@ -284,8 +284,13 @@ def import_csv_folder(
     venue_id_map = {}  # Map venue_name to database ID
 
     for venue in data['venues']:
-        # Check if exists
-        existing = supabase.table('venues').select('id').eq('name', venue['name']).execute()
+        athletic_net_id = venue.get('athletic_net_id', '').strip()
+
+        # Check if exists by athletic_net_id (if it's not empty) or by name
+        if athletic_net_id:
+            existing = supabase.table('venues').select('id').eq('athletic_net_id', athletic_net_id).execute()
+        else:
+            existing = supabase.table('venues').select('id').eq('name', venue['name']).execute()
 
         if existing.data:
             venue_id_map[venue['name']] = existing.data[0]['id']
@@ -294,7 +299,7 @@ def import_csv_folder(
                 'name': venue['name'],
                 'city': venue.get('city', ''),
                 'state': venue.get('state', ''),
-                'athletic_net_id': venue.get('athletic_net_id'),
+                'athletic_net_id': athletic_net_id if athletic_net_id else None,
                 'notes': venue.get('notes', '')
             }
             response = supabase.table('venues').insert(venue_data).execute()
@@ -313,8 +318,13 @@ def import_csv_folder(
             print(f"  ⚠️  Skipping course {course['name']} - venue not found")
             continue
 
-        # Check if exists
-        existing = supabase.table('courses').select('id').eq('name', course['name']).eq('venue_id', venue_id).execute()
+        athletic_net_id = course.get('athletic_net_id', '').strip()
+
+        # Check if exists by athletic_net_id (if it's not empty) or by name+venue
+        if athletic_net_id:
+            existing = supabase.table('courses').select('id').eq('athletic_net_id', athletic_net_id).execute()
+        else:
+            existing = supabase.table('courses').select('id').eq('name', course['name']).eq('venue_id', venue_id).execute()
 
         if existing.data:
             course_id_map[course['name']] = existing.data[0]['id']
@@ -324,7 +334,7 @@ def import_csv_folder(
                 'venue_id': venue_id,
                 'distance_meters': int(course['distance_meters']),
                 'difficulty_rating': float(course.get('difficulty_rating', 5.0)),
-                'athletic_net_id': course.get('athletic_net_id'),
+                'athletic_net_id': athletic_net_id if athletic_net_id else None,
             }
             response = supabase.table('courses').insert(course_data).execute()
             course_id_map[course['name']] = response.data[0]['id']
@@ -336,29 +346,37 @@ def import_csv_folder(
     school_id_map = {}  # Map athletic_net_id to database ID
 
     for school in data['schools']:
-        # Check if exists
-        existing = supabase.table('schools').select('id').eq('name', school['name']).execute()
+        athletic_net_id = school.get('athletic_net_id', '').strip()
+
+        # Check if exists by athletic_net_id
+        if athletic_net_id:
+            existing = supabase.table('schools').select('id').eq('athletic_net_id', athletic_net_id).execute()
+        else:
+            existing = supabase.table('schools').select('id').eq('name', school['name']).execute()
 
         if existing.data:
-            school_id_map[school['athletic_net_id']] = existing.data[0]['id']
+            school_id_map[athletic_net_id] = existing.data[0]['id']
         else:
             school_data = {
                 'name': school['name'],
                 'short_name': school.get('short_name', school['name']),
                 'city': school.get('city', ''),
                 'state': school.get('state', ''),
-                'athletic_net_id': school['athletic_net_id'],
+                'athletic_net_id': athletic_net_id if athletic_net_id else None,
             }
             response = supabase.table('schools').insert(school_data).execute()
-            school_id_map[school['athletic_net_id']] = response.data[0]['id']
+            school_id_map[athletic_net_id] = response.data[0]['id']
             stats['schools_created'] += 1
             print(f"  ✅ Created school: {school['name']}")
 
     # ========== STAGE 4: IMPORT ATHLETES ==========
     print(f"\n👥 Stage 4/7: Importing Athletes")
+    print(f"  Processing {len(data['athletes'])} athletes...")
     athlete_map = {}  # Map (name, school_id) to database ID
 
-    for athlete in data['athletes']:
+    for i, athlete in enumerate(data['athletes'], 1):
+        if i % 100 == 0:
+            print(f"  Progress: {i}/{len(data['athletes'])} athletes processed...")
         school_db_id = school_id_map.get(athlete['school_athletic_net_id'])
         if not school_db_id:
             print(f"  ⚠️  Skipping athlete {athlete['name']} - school not found")
@@ -398,27 +416,33 @@ def import_csv_folder(
             print(f"  ⚠️  Skipping meet {meet['name']} - no venue available")
             continue
 
-        # Check if exists
-        existing = supabase.table('meets').select('id').eq('athletic_net_id', meet['athletic_net_id']).execute()
+        athletic_net_id = meet.get('athletic_net_id', '').strip()
+
+        # Check if exists by athletic_net_id (if not empty) or by name+date
+        if athletic_net_id:
+            existing = supabase.table('meets').select('id').eq('athletic_net_id', athletic_net_id).execute()
+        else:
+            existing = supabase.table('meets').select('id').eq('name', meet['name']).eq('meet_date', meet['meet_date']).execute()
 
         if existing.data:
-            meet_id_map[meet['athletic_net_id']] = existing.data[0]['id']
+            meet_id_map[athletic_net_id] = existing.data[0]['id']
         else:
             meet_data = {
                 'name': meet['name'],
                 'meet_date': meet['meet_date'],
                 'venue_id': venue_id,  # Changed from course_id to venue_id
                 'season_year': int(meet['season_year']),
-                'athletic_net_id': meet['athletic_net_id'],
+                'athletic_net_id': athletic_net_id if athletic_net_id else None,
             }
             response = supabase.table('meets').insert(meet_data).execute()
-            meet_id_map[meet['athletic_net_id']] = response.data[0]['id']
+            meet_id_map[athletic_net_id] = response.data[0]['id']
             stats['meets_created'] += 1
             print(f"  ✅ Created meet: {meet['name']}")
 
     # ========== STAGE 6: IMPORT RACES ==========
     print(f"\n🏃‍♂️ Stage 6/7: Importing Races")
     race_id_map = {}  # Map athletic_net_race_id to database ID
+    race_to_meet_map = {}  # Map athletic_net_race_id to meet_db_id
 
     for race in data['races']:
         meet_db_id = meet_id_map.get(race['meet_athletic_net_id'])
@@ -433,11 +457,17 @@ def import_csv_folder(
             print(f"  ⚠️  Skipping race - no course available")
             continue
 
-        # Check if race already exists
-        existing = supabase.table('races').select('id').eq('meet_id', meet_db_id).eq('name', race['name']).eq('gender', race['gender']).execute()
+        athletic_net_race_id = race.get('athletic_net_race_id', '').strip()
+
+        # Check if race already exists by athletic_net_race_id or by meet+name+gender
+        if athletic_net_race_id:
+            existing = supabase.table('races').select('id').eq('athletic_net_race_id', athletic_net_race_id).execute()
+        else:
+            existing = supabase.table('races').select('id').eq('meet_id', meet_db_id).eq('name', race['name']).eq('gender', race['gender']).execute()
 
         if existing.data:
-            race_id_map[race['athletic_net_race_id']] = existing.data[0]['id']
+            race_id_map[athletic_net_race_id] = existing.data[0]['id']
+            race_to_meet_map[athletic_net_race_id] = meet_db_id
         else:
             # Keep gender as text 'M' or 'F' (schema has check constraint)
             race_data = {
@@ -446,10 +476,11 @@ def import_csv_folder(
                 'name': race['name'],
                 'gender': race['gender'],  # Keep as 'M' or 'F' text
                 'distance_meters': int(race['distance_meters']),  # Required field
-                'athletic_net_race_id': race['athletic_net_race_id']
+                'athletic_net_race_id': athletic_net_race_id if athletic_net_race_id else None
             }
             response = supabase.table('races').insert(race_data).execute()
-            race_id_map[race['athletic_net_race_id']] = response.data[0]['id']
+            race_id_map[athletic_net_race_id] = response.data[0]['id']
+            race_to_meet_map[athletic_net_race_id] = meet_db_id
             stats['races_created'] += 1
 
     print(f"  ✅ Created {stats['races_created']} races")
@@ -472,8 +503,18 @@ def import_csv_folder(
             stats['skipped_results'] += 1
             continue
 
-        # Get meet_id from race
-        race_meet_id = meet_id_map.get(result['athletic_net_race_id'].split('_race_')[0])
+        # Get meet_id from race using the race_to_meet_map
+        race_meet_id = race_to_meet_map.get(result['athletic_net_race_id'])
+        if not race_meet_id:
+            stats['skipped_results'] += 1
+            continue
+
+        # Check if result already exists (unique constraint on athlete_id, meet_id, race_id, data_source)
+        existing = supabase.table('results').select('id').eq('athlete_id', athlete_db_id).eq('meet_id', race_meet_id).eq('race_id', race_db_id).eq('data_source', 'athletic_net').execute()
+
+        if existing.data:
+            stats['skipped_results'] += 1
+            continue
 
         result_data = {
             'race_id': race_db_id,
@@ -488,15 +529,35 @@ def import_csv_folder(
 
         # Batch insert when we reach BATCH_SIZE
         if len(results_to_import) >= BATCH_SIZE:
-            supabase.table('results').insert(results_to_import).execute()
-            stats['results_inserted'] += len(results_to_import)
-            print(f"  ✅ Inserted {stats['results_inserted']} results...")
+            try:
+                supabase.table('results').insert(results_to_import).execute()
+                stats['results_inserted'] += len(results_to_import)
+                print(f"  ✅ Inserted {stats['results_inserted']} results...")
+            except Exception as e:
+                # If batch fails due to duplicates, insert one by one
+                print(f"  ⚠️  Batch insert failed, inserting individually...")
+                for result_data in results_to_import:
+                    try:
+                        supabase.table('results').insert(result_data).execute()
+                        stats['results_inserted'] += 1
+                    except Exception:
+                        stats['skipped_results'] += 1
             results_to_import = []
 
     # Insert remaining results
     if results_to_import:
-        supabase.table('results').insert(results_to_import).execute()
-        stats['results_inserted'] += len(results_to_import)
+        try:
+            supabase.table('results').insert(results_to_import).execute()
+            stats['results_inserted'] += len(results_to_import)
+        except Exception as e:
+            # If batch fails due to duplicates, insert one by one
+            print(f"  ⚠️  Batch insert failed, inserting individually...")
+            for result_data in results_to_import:
+                try:
+                    supabase.table('results').insert(result_data).execute()
+                    stats['results_inserted'] += 1
+                except Exception:
+                    stats['skipped_results'] += 1
 
     print(f"  ✅ Inserted {stats['results_inserted']} total results")
     if stats['skipped_results'] > 0:
