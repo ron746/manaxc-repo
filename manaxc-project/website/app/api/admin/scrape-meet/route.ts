@@ -34,21 +34,28 @@ export async function POST(request: Request) {
     if (stderr) console.error('Scraper stderr:', stderr);
 
     // Parse the output to find the directory path
-    const dirMatch = stdout.match(/✅ Data saved to: (.+)/);
-    const directoryPath = dirMatch ? dirMatch[1].trim() : null;
+    const dirMatch = stdout.match(/💾 Saved to: (.+)/);
+    const relativePath = dirMatch ? dirMatch[1].trim() : null;
 
-    if (!directoryPath) {
+    if (!relativePath) {
       throw new Error('Failed to find output directory in scraper output');
     }
+
+    // Construct full path (output is relative to importers directory)
+    const directoryPath = path.join(importersPath, relativePath);
 
     // Read the metadata to get stats
     const metadataPath = path.join(directoryPath, 'metadata.json');
     const metadataContent = await fs.readFile(metadataPath, 'utf-8');
     const metadata = JSON.parse(metadataContent);
 
+    // Extract just the directory name for the UI
+    const directoryName = path.basename(directoryPath);
+
     return NextResponse.json({
       success: true,
-      directoryPath,
+      directoryPath: relativePath,
+      directoryName,
       totalResults: metadata.total_results,
       totalRaces: metadata.total_races,
       totalSchools: metadata.total_schools,
