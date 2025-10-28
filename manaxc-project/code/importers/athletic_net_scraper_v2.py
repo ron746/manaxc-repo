@@ -587,18 +587,28 @@ def scrape_by_meet(
         venues.append(venue)
 
         if races:
-            # Use first race distance for course
+            # Extract distance from race name (e.g., "2.74 Miles Varsity" -> "2.74 Miles")
+            first_race_name = races[0].name
+            distance_display = "Unknown Distance"
+
+            # Try to extract distance with unit from race name
+            distance_match = re.search(r'([\d.]+\s+(?:Miles?|Kilometers?|km|m)\b)', first_race_name, re.IGNORECASE)
+            if distance_match:
+                distance_display = distance_match.group(1)
+
             distance_meters = races[0].distance_meters
-            distance_display = f"{distance_meters}m"
+
+            # Create course name: "Venue, Distance"
+            course_name = f"{venue_name}, {distance_display}"
 
             course = ScrapedCourse(
                 athletic_net_id=None,
-                name=f"{meet_name} Course",
+                name=course_name,
                 venue_name=venue_name,
                 distance_meters=distance_meters,
                 distance_display=distance_display,
                 difficulty_rating=5.0,
-                needs_review=True,  # Flag for admin review
+                needs_review=True,  # Flag for admin review during import
                 needs_records_scraping=False
             )
             courses.append(course)
