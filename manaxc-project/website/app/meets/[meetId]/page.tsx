@@ -126,8 +126,6 @@ export default function MeetDetailPage() {
       const processedRaces: Race[] = []
       const boysPerformances: TopPerformance[] = []
       const girlsPerformances: TopPerformance[] = []
-      const boysBySchool: Map<string, any[]> = new Map()
-      const girlsBySchool: Map<string, any[]> = new Map()
 
       racesData?.forEach(race => {
         const results = race.results || []
@@ -169,28 +167,8 @@ export default function MeetDetailPage() {
 
           if (race.gender === 'M') {
             boysPerformances.push(performance)
-            // Track for team scoring
-            if (result.athlete.school?.id) {
-              if (!boysBySchool.has(result.athlete.school.id)) {
-                boysBySchool.set(result.athlete.school.id, [])
-              }
-              boysBySchool.get(result.athlete.school.id)!.push({
-                ...result,
-                place: result.place_overall
-              })
-            }
           } else if (race.gender === 'F') {
             girlsPerformances.push(performance)
-            // Track for team scoring
-            if (result.athlete.school?.id) {
-              if (!girlsBySchool.has(result.athlete.school.id)) {
-                girlsBySchool.set(result.athlete.school.id, [])
-              }
-              girlsBySchool.get(result.athlete.school.id)!.push({
-                ...result,
-                place: result.place_overall
-              })
-            }
           }
         })
       })
@@ -206,33 +184,74 @@ export default function MeetDetailPage() {
         setTopGirls(girlsPerformances[0])
       }
 
-      // Calculate team winners (top 5 scorers)
-      const calculateTeamWinner = (bySchool: Map<string, any[]>) => {
-        const teamScores: TeamScore[] = []
-        bySchool.forEach((runners, schoolId) => {
-          if (runners.length < 5) return // Need at least 5 runners
+      // Calculate team winners using proper XC scoring
+      const calculateTeamWinner = (performances: TopPerformance[]) => {
+        if (performances.length === 0) return null
 
-          const sorted = [...runners].sort((a, b) => (a.place || 999) - (b.place || 999))
+        // Sort all performances by normalized time to get overall placing
+        const sortedPerformances = [...performances].sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
+
+        // Assign places (1st, 2nd, 3rd, etc.)
+        const performancesWithPlace = sortedPerformances.map((perf, index) => ({
+          ...perf,
+          place: index + 1
+        }))
+
+        // Group by school
+        const bySchool = new Map<string, typeof performancesWithPlace[0][]>()
+        performancesWithPlace.forEach(perf => {
+          if (!bySchool.has(perf.school_id)) {
+            bySchool.set(perf.school_id, [])
+          }
+          bySchool.get(perf.school_id)!.push(perf)
+        })
+
+        // Calculate scores for teams with 5+ runners
+        const teamScores: (TeamScore & { sixthPlace?: number })[] = []
+        bySchool.forEach((runners, schoolId) => {
+          if (runners.length < 5) return // Need at least 5 runners to score
+
+          // Sort runners by place
+          const sorted = [...runners].sort((a, b) => a.place - b.place)
+
+          // Top 5 are scorers
           const top5 = sorted.slice(0, 5)
-          const score = top5.reduce((sum, r) => sum + (r.place || 0), 0)
+          const score = top5.reduce((sum, r) => sum + r.place, 0)
+
+          // 6th and 7th are displacers (don't add to score but help in tiebreakers)
+          const sixthRunner = sorted[5]
 
           teamScores.push({
             school_id: schoolId,
-            school_name: runners[0].athlete.school.name,
+            school_name: runners[0].school_name,
             score,
-            scorers: top5.length
+            scorers: 5,
+            sixthPlace: sixthRunner?.place
           })
         })
 
-        if (teamScores.length > 0) {
-          teamScores.sort((a, b) => a.score - b.score)
-          return teamScores[0]
-        }
-        return null
+        if (teamScores.length === 0) return null
+
+        // Sort by score (lowest wins), then by 6th runner place (tiebreaker)
+        teamScores.sort((a, b) => {
+          if (a.score !== b.score) {
+            return a.score - b.score
+          }
+          // Tiebreaker: better (lower) 6th place wins
+          if (a.sixthPlace !== undefined && b.sixthPlace !== undefined) {
+            return a.sixthPlace - b.sixthPlace
+          }
+          // If one team has 6th runner and other doesn't, team with 6th wins
+          if (a.sixthPlace !== undefined) return -1
+          if (b.sixthPlace !== undefined) return 1
+          return 0
+        })
+
+        return teamScores[0]
       }
 
-      setBoysTeamWinner(calculateTeamWinner(boysBySchool))
-      setGirlsTeamWinner(calculateTeamWinner(girlsBySchool))
+      setBoysTeamWinner(calculateTeamWinner(boysPerformances))
+      setGirlsTeamWinner(calculateTeamWinner(girlsPerformances))
       setRaces(processedRaces)
     } catch (error) {
       console.error('Error loading meet:', error)
