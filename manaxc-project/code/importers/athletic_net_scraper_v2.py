@@ -408,8 +408,34 @@ def scrape_by_meet(
         # Extract season year from date or use current year
         season_year = int(meet_date.split('-')[0]) if meet_date else datetime.now().year
 
+        # Extract venue information
+        venue_name = "Unknown Venue"
+        venue_state = ""
+
+        # Try to find venue in body text (typically appears near top of meet page)
+        # Pattern: "Location: Venue Name" or just "Venue Name" before results
+        venue_match = re.search(r'(?:Location:|Hosted at:?)\s*([^,\n]+?)(?:,\s*([A-Z]{2}))?(?:\n|$)', body_text, re.IGNORECASE)
+        if venue_match:
+            venue_name = venue_match.group(1).strip()
+            if venue_match.group(2):
+                venue_state = venue_match.group(2).strip()
+        else:
+            # Try to find venue name in first few lines before results
+            for line in lines[:20]:  # Check first 20 lines
+                # Look for park, high school, or course names
+                if any(keyword in line.lower() for keyword in ['park', 'high school', 'course', 'center', 'field']):
+                    if not any(skip in line.lower() for skip in ['results', 'varsity', 'jv', 'place', 'time']):
+                        # Check if there's a state abbreviation
+                        state_match = re.search(r'\b([A-Z]{2})\b', line)
+                        if state_match:
+                            venue_state = state_match.group(1)
+                            venue_name = line.replace(state_match.group(1), '').strip().rstrip(',').strip()
+                        else:
+                            venue_name = line.strip()
+                        break
+
         if progress_callback:
-            progress_callback(f"Parsing meet: {meet_name} ({meet_date or 'date unknown'})")
+            progress_callback(f"Parsing meet: {meet_name} ({meet_date or 'date unknown'}) at {venue_name}")
 
         # Parse results from page
         lines = [line.strip() for line in body_text.splitlines() if line.strip()]
@@ -539,24 +565,23 @@ def scrape_by_meet(
                 )
                 results.append(result)
 
-        # Add meet (venue/course info not available from results page)
+        # Add meet with extracted venue information
         meet = ScrapedMeet(
             athletic_net_id=meet_id,
             name=meet_name,
             meet_date=meet_date or f"{season_year}-01-01",
-            venue_name="",  # Unknown from this page
+            venue_name=venue_name,
             season_year=season_year,
             meet_type="invitational"
         )
         meets.append(meet)
 
-        # Create placeholder venue and course
-        # These will need to be enriched during import review
+        # Create venue and course with extracted information
         venue = ScrapedVenue(
             athletic_net_id=None,
-            name="Unknown Venue",
-            city="",
-            state="",
+            name=venue_name,
+            city="",  # City not available on meet results page
+            state=venue_state,
             notes=f"Auto-generated for meet {meet_id}"
         )
         venues.append(venue)
@@ -569,7 +594,7 @@ def scrape_by_meet(
             course = ScrapedCourse(
                 athletic_net_id=None,
                 name=f"{meet_name} Course",
-                venue_name="Unknown Venue",
+                venue_name=venue_name,
                 distance_meters=distance_meters,
                 distance_display=distance_display,
                 difficulty_rating=5.0,
