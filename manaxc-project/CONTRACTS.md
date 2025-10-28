@@ -43,7 +43,37 @@
 - Course difficulty ratings for new courses
 - Fuzzy match confirmations for athletes
 - Data quality warnings and anomalies
-- Venue/course matching decisions
+- Venue/course matching decisions with optional ID entry
+- Option to schedule course records scraping
+
+### Option D: Smart Venue/Course ID Workflow
+
+**Stage 1: Scrape**
+- Extract venue name, course name, distance from meet
+- Store in CSV (no IDs required)
+
+**Stage 2: Import Review Dialog**
+For each new course, admin sees:
+1. Course name, venue, distance
+2. List of existing similar courses
+3. **Optional ID entry fields**:
+   - Venue ID (optional)
+   - Course ID (optional)
+4. Checkbox: "Schedule for course records scraping"
+5. Required difficulty rating (1-10)
+
+**Benefits:**
+- Quick imports without looking up IDs
+- Optional detailed tracking with IDs
+- Queue system for batch course records scraping
+- Progressive data enrichment
+
+**Course Records Queue:**
+- New admin page: `/admin/import/course-records-queue`
+- Lists courses marked "needs_records_scraping"
+- Bulk action: "Scrape All Course Records"
+- System uses Venue ID + Course ID to fetch historical data
+- Auto-suggests difficulty ratings based on historical times
 
 ### Key Requirements:
 - ✅ Scraping blocks UI with progress indicator
