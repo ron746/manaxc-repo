@@ -28,6 +28,25 @@ interface Race {
   result_count: number
   winning_time_cs: number | null
   winning_athlete: string | null
+  course_difficulty: number | null
+}
+
+interface TopPerformance {
+  athlete_name: string
+  athlete_id: string
+  school_name: string
+  school_id: string
+  time_cs: number
+  normalized_time_cs: number
+  race_name: string
+  course_difficulty: number | null
+}
+
+interface TeamScore {
+  school_id: string
+  school_name: string
+  score: number
+  scorers: number
 }
 
 export default function MeetDetailPage() {
@@ -37,6 +56,10 @@ export default function MeetDetailPage() {
 
   const [meet, setMeet] = useState<Meet | null>(null)
   const [races, setRaces] = useState<Race[]>([])
+  const [topBoys, setTopBoys] = useState<TopPerformance | null>(null)
+  const [topGirls, setTopGirls] = useState<TopPerformance | null>(null)
+  const [boysTeamWinner, setBoysTeamWinner] = useState<TeamScore | null>(null)
+  const [girlsTeamWinner, setGirlsTeamWinner] = useState<TeamScore | null>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -68,7 +91,7 @@ export default function MeetDetailPage() {
       if (meetError) throw meetError
       setMeet(meetData as any) // TODO: Fix type mismatch
 
-      // Load races with result counts and winning times
+      // Load races with complete result data including course difficulty
       const { data: racesData, error: racesError } = await supabase
         .from('races')
         .select(`
@@ -77,12 +100,20 @@ export default function MeetDetailPage() {
           gender,
           division,
           distance_meters,
+          courses (
+            difficulty_rating
+          ),
           results(
             id,
             time_cs,
             place_overall,
             athlete:athletes(
-              name
+              id,
+              name,
+              school:schools(
+                id,
+                name
+              )
             )
           )
         `)
@@ -91,13 +122,20 @@ export default function MeetDetailPage() {
 
       if (racesError) throw racesError
 
-      // Process races to get counts and winning info
-      const processedRaces: Race[] = racesData?.map(race => {
+      // Process races and calculate normalized performances
+      const processedRaces: Race[] = []
+      const boysPerformances: TopPerformance[] = []
+      const girlsPerformances: TopPerformance[] = []
+      const boysBySchool: Map<string, any[]> = new Map()
+      const girlsBySchool: Map<string, any[]> = new Map()
+
+      racesData?.forEach(race => {
         const results = race.results || []
+        const courseDifficulty = (race.courses as any)?.difficulty_rating || 5.0
         const sortedResults = [...results].sort((a, b) => (a.place_overall || 999) - (b.place_overall || 999))
         const winner = sortedResults[0]
 
-        return {
+        processedRaces.push({
           id: race.id,
           name: race.name,
           gender: race.gender,
@@ -105,10 +143,96 @@ export default function MeetDetailPage() {
           distance_meters: race.distance_meters,
           result_count: results.length,
           winning_time_cs: winner?.time_cs || null,
-          winning_athlete: (winner?.athlete as any)?.name || null
-        }
-      }) || []
+          winning_athlete: (winner?.athlete as any)?.name || null,
+          course_difficulty: courseDifficulty
+        })
 
+        // Calculate normalized times and track performances
+        results.forEach((result: any) => {
+          if (!result.time_cs || !result.athlete) return
+
+          // Normalize time based on difficulty (baseline 5.0)
+          // Higher difficulty = slower times, so we adjust down for harder courses
+          const difficultyAdjustment = (courseDifficulty - 5.0) * 0.02 // 2% per difficulty point
+          const normalizedTime = Math.round(result.time_cs * (1 - difficultyAdjustment))
+
+          const performance: TopPerformance = {
+            athlete_name: result.athlete.name,
+            athlete_id: result.athlete.id,
+            school_name: result.athlete.school?.name || 'Unknown',
+            school_id: result.athlete.school?.id || '',
+            time_cs: result.time_cs,
+            normalized_time_cs: normalizedTime,
+            race_name: race.name,
+            course_difficulty: courseDifficulty
+          }
+
+          if (race.gender === 'M') {
+            boysPerformances.push(performance)
+            // Track for team scoring
+            if (result.athlete.school?.id) {
+              if (!boysBySchool.has(result.athlete.school.id)) {
+                boysBySchool.set(result.athlete.school.id, [])
+              }
+              boysBySchool.get(result.athlete.school.id)!.push({
+                ...result,
+                place: result.place_overall
+              })
+            }
+          } else if (race.gender === 'F') {
+            girlsPerformances.push(performance)
+            // Track for team scoring
+            if (result.athlete.school?.id) {
+              if (!girlsBySchool.has(result.athlete.school.id)) {
+                girlsBySchool.set(result.athlete.school.id, [])
+              }
+              girlsBySchool.get(result.athlete.school.id)!.push({
+                ...result,
+                place: result.place_overall
+              })
+            }
+          }
+        })
+      })
+
+      // Find top performers
+      if (boysPerformances.length > 0) {
+        boysPerformances.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
+        setTopBoys(boysPerformances[0])
+      }
+
+      if (girlsPerformances.length > 0) {
+        girlsPerformances.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
+        setTopGirls(girlsPerformances[0])
+      }
+
+      // Calculate team winners (top 5 scorers)
+      const calculateTeamWinner = (bySchool: Map<string, any[]>) => {
+        const teamScores: TeamScore[] = []
+        bySchool.forEach((runners, schoolId) => {
+          if (runners.length < 5) return // Need at least 5 runners
+
+          const sorted = [...runners].sort((a, b) => (a.place || 999) - (b.place || 999))
+          const top5 = sorted.slice(0, 5)
+          const score = top5.reduce((sum, r) => sum + (r.place || 0), 0)
+
+          teamScores.push({
+            school_id: schoolId,
+            school_name: runners[0].athlete.school.name,
+            score,
+            scorers: top5.length
+          })
+        })
+
+        if (teamScores.length > 0) {
+          teamScores.sort((a, b) => a.score - b.score)
+          return teamScores[0]
+        }
+        return null
+      }
+
+      setBoysTeamWinner(calculateTeamWinner(boysBySchool))
+      setGirlsTeamWinner(calculateTeamWinner(girlsBySchool))
       setRaces(processedRaces)
     } catch (error) {
       console.error('Error loading meet:', error)
@@ -189,63 +313,147 @@ export default function MeetDetailPage() {
 
         {/* Meet Header */}
         <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-8 mb-8 border border-zinc-700">
-          <h1 className="text-4xl font-bold text-white mb-4">{meet.name}</h1>
+          <h1 className="text-4xl font-bold text-white mb-2">{meet.name}</h1>
+          <div className="text-lg text-zinc-300 mb-6">{formatDate(meet.meet_date)}</div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Inline stats below date */}
+          <div className="flex flex-wrap gap-6 text-sm mb-6">
             <div>
-              <div className="text-sm text-zinc-400 mb-1">Date</div>
-              <div className="text-white font-medium">{formatDate(meet.meet_date)}</div>
+              <span className="text-zinc-400">Season:</span>{' '}
+              <span className="text-white font-medium">{meet.season_year}</span>
             </div>
+            <div>
+              <span className="text-zinc-400">Type:</span>{' '}
+              <span className="text-white font-medium">{formatMeetType(meet.meet_type)}</span>
+            </div>
+            <div>
+              <span className="text-zinc-400">Total Races:</span>{' '}
+              <span className="text-white font-medium">{races.length}</span>
+            </div>
+            <div>
+              <span className="text-zinc-400">Total Participants:</span>{' '}
+              <span className="text-white font-medium">
+                {races.reduce((sum, race) => sum + race.result_count, 0)}
+              </span>
+            </div>
+          </div>
 
-            <div>
-              <div className="text-sm text-zinc-400 mb-1">Season</div>
-              <div className="text-white font-medium">{meet.season_year}</div>
-            </div>
-
-            <div>
-              <div className="text-sm text-zinc-400 mb-1">Type</div>
-              <div className="text-white font-medium">{formatMeetType(meet.meet_type)}</div>
-            </div>
-
-            <div>
-              <div className="text-sm text-zinc-400 mb-1">Venue</div>
-              {meet.venue ? (
-                <div>
-                  <div className="text-white font-medium">{meet.venue.name}</div>
-                  {(meet.venue.city || meet.venue.state) && (
-                    <div className="text-sm text-zinc-500">
-                      {[meet.venue.city, meet.venue.state].filter(Boolean).join(', ')}
-                    </div>
-                  )}
-                </div>
-              ) : (
-                <div className="text-zinc-500">N/A</div>
-              )}
-            </div>
+          {/* Venue */}
+          <div>
+            <div className="text-sm text-zinc-400 mb-1">Venue</div>
+            {meet.venue ? (
+              <div>
+                <div className="text-white font-medium">{meet.venue.name}</div>
+                {(meet.venue.city || meet.venue.state) && (
+                  <div className="text-sm text-zinc-500">
+                    {[meet.venue.city, meet.venue.state].filter(Boolean).join(', ')}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="text-zinc-500">N/A</div>
+            )}
           </div>
         </div>
 
-        {/* Stats Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-zinc-700">
-            <div className="text-zinc-400 text-sm mb-2">Total Races</div>
-            <div className="text-3xl font-bold text-cyan-400">{races.length}</div>
+        {/* Top Performances Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {/* Top Boys Performance */}
+          <div className="bg-gradient-to-br from-blue-900/30 to-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-blue-700/50">
+            <h2 className="text-xl font-bold text-blue-400 mb-4">Top Performance - Boys</h2>
+            {topBoys ? (
+              <div>
+                <div className="text-sm text-zinc-400 mb-1">Winning Time</div>
+                <div className="text-4xl font-bold text-white mb-4">{formatTime(topBoys.time_cs)}</div>
+
+                <Link
+                  href={`/athletes/${topBoys.athlete_id}`}
+                  className="text-xl text-cyan-400 hover:text-cyan-300 font-semibold block mb-1"
+                >
+                  {topBoys.athlete_name}
+                </Link>
+
+                <Link
+                  href={`/schools/${topBoys.school_id}`}
+                  className="text-zinc-300 hover:text-zinc-200 block mb-3"
+                >
+                  {topBoys.school_name}
+                </Link>
+
+                <div className="text-sm text-zinc-400 mb-1">
+                  {topBoys.race_name}
+                  {topBoys.course_difficulty && (
+                    <span className="ml-2 text-zinc-500">
+                      (Difficulty: {topBoys.course_difficulty.toFixed(1)}/10)
+                    </span>
+                  )}
+                </div>
+
+                {boysTeamWinner && (
+                  <div className="mt-4 pt-4 border-t border-zinc-700">
+                    <div className="text-sm text-zinc-400 mb-1">Team Winner</div>
+                    <div className="text-lg font-bold text-blue-400">{boysTeamWinner.score} points</div>
+                    <Link
+                      href={`/schools/${boysTeamWinner.school_id}`}
+                      className="text-white hover:text-cyan-400"
+                    >
+                      {boysTeamWinner.school_name}
+                    </Link>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="text-zinc-500">No boys races at this meet</div>
+            )}
           </div>
 
-          <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-zinc-700">
-            <div className="text-zinc-400 text-sm mb-2">Total Participants</div>
-            <div className="text-3xl font-bold text-cyan-400">
-              {races.reduce((sum, race) => sum + race.result_count, 0)}
-            </div>
-          </div>
+          {/* Top Girls Performance */}
+          <div className="bg-gradient-to-br from-pink-900/30 to-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-pink-700/50">
+            <h2 className="text-xl font-bold text-pink-400 mb-4">Top Performance - Girls</h2>
+            {topGirls ? (
+              <div>
+                <div className="text-sm text-zinc-400 mb-1">Winning Time</div>
+                <div className="text-4xl font-bold text-white mb-4">{formatTime(topGirls.time_cs)}</div>
 
-          <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-zinc-700">
-            <div className="text-zinc-400 text-sm mb-2">Fastest Time</div>
-            <div className="text-3xl font-bold text-cyan-400">
-              {races.length > 0 && races.some(r => r.winning_time_cs)
-                ? formatTime(Math.min(...races.filter(r => r.winning_time_cs).map(r => r.winning_time_cs!)))
-                : 'N/A'}
-            </div>
+                <Link
+                  href={`/athletes/${topGirls.athlete_id}`}
+                  className="text-xl text-cyan-400 hover:text-cyan-300 font-semibold block mb-1"
+                >
+                  {topGirls.athlete_name}
+                </Link>
+
+                <Link
+                  href={`/schools/${topGirls.school_id}`}
+                  className="text-zinc-300 hover:text-zinc-200 block mb-3"
+                >
+                  {topGirls.school_name}
+                </Link>
+
+                <div className="text-sm text-zinc-400 mb-1">
+                  {topGirls.race_name}
+                  {topGirls.course_difficulty && (
+                    <span className="ml-2 text-zinc-500">
+                      (Difficulty: {topGirls.course_difficulty.toFixed(1)}/10)
+                    </span>
+                  )}
+                </div>
+
+                {girlsTeamWinner && (
+                  <div className="mt-4 pt-4 border-t border-zinc-700">
+                    <div className="text-sm text-zinc-400 mb-1">Team Winner</div>
+                    <div className="text-lg font-bold text-pink-400">{girlsTeamWinner.score} points</div>
+                    <Link
+                      href={`/schools/${girlsTeamWinner.school_id}`}
+                      className="text-white hover:text-cyan-400"
+                    >
+                      {girlsTeamWinner.school_name}
+                    </Link>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="text-zinc-500">No girls races at this meet</div>
+            )}
           </div>
         </div>
 
