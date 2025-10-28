@@ -10,17 +10,17 @@ export default function Header() {
             <a href="/meets" className="text-slate-600 hover:text-blue-600 transition-colors">
               Meets
             </a>
-            <a href="/season" className="text-slate-600 hover:text-blue-600 transition-colors">
-              Season
+            <a href="/courses" className="text-slate-600 hover:text-blue-600 transition-colors">
+              Courses
             </a>
             <a href="/schools" className="text-slate-600 hover:text-blue-600 transition-colors">
               Schools
             </a>
-            <a href="/courses" className="text-slate-600 hover:text-blue-600 transition-colors">
-              Courses
-            </a>
             <a href="/athletes" className="text-slate-600 hover:text-blue-600 transition-colors">
               Athletes
+            </a>
+            <a href="/season" className="text-slate-600 hover:text-blue-600 transition-colors">
+              Seasons
             </a>
           </div>
         </nav>

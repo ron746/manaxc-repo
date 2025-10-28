@@ -19,7 +19,7 @@ interface Meet {
   race_count: number
 }
 
-type SortField = 'meet_date' | 'name' | 'meet_type' | 'season_year'
+type SortField = 'meet_date' | 'name' | 'meet_type' | 'season_year' | 'venue'
 type SortDirection = 'asc' | 'desc'
 
 export default function MeetsPage() {
@@ -107,6 +107,10 @@ export default function MeetsPage() {
     if (sortField === 'meet_date') {
       aVal = new Date(aVal).getTime()
       bVal = new Date(bVal).getTime()
+    } else if (sortField === 'venue') {
+      // Sort by venue name, with null venues at the end
+      aVal = a.venue?.name?.toLowerCase() || 'zzzzz'
+      bVal = b.venue?.name?.toLowerCase() || 'zzzzz'
     }
 
     if (aVal < bVal) return sortDirection === 'asc' ? -1 : 1
@@ -245,8 +249,13 @@ export default function MeetsPage() {
                       Meet Name <SortIcon field="name" />
                     </div>
                   </th>
-                  <th className="py-4 px-6 text-left font-bold text-zinc-900">
-                    Venue
+                  <th
+                    onClick={() => handleSort('venue')}
+                    className="py-4 px-6 text-left font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      Venue <SortIcon field="venue" />
+                    </div>
                   </th>
                   <th
                     onClick={() => handleSort('meet_type')}

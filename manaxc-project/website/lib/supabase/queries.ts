@@ -35,11 +35,25 @@ export async function getRecentMeets(limit = 10) {
 export async function getCourses() {
   const { data, error } = await supabase
     .from('courses')
-    .select('*')
+    .select(`
+      *,
+      races(
+        results(id)
+      )
+    `)
     .order('name', { ascending: true });
 
   if (error) throw error;
-  return data || [];
+
+  // Calculate result count and race count for each course
+  const coursesWithCount = (data || []).map(course => ({
+    ...course,
+    race_count: course.races?.length || 0,
+    result_count: course.races?.reduce((total: number, race: any) =>
+      total + (race.results?.length || 0), 0) || 0
+  }));
+
+  return coursesWithCount;
 }
 
 export async function getAthletes() {

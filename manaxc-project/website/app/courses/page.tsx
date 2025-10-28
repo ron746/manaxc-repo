@@ -9,9 +9,11 @@ type Course = {
   name: string;
   distance_meters: number;
   difficulty_rating: number;
+  race_count: number;
+  result_count: number;
 };
 
-type SortKey = 'name' | 'distance_meters' | 'difficulty_rating';
+type SortKey = 'name' | 'distance_meters' | 'difficulty_rating' | 'race_count' | 'result_count';
 
 export default function CoursesPage() {
   const [courses, setCourses] = useState<Course[]>([]);
@@ -68,7 +70,9 @@ export default function CoursesPage() {
       return (
         course.name.toLowerCase().includes(searchLower) ||
         course.distance_meters.toString().includes(searchLower) ||
-        course.difficulty_rating.toString().includes(searchLower)
+        course.difficulty_rating.toString().includes(searchLower) ||
+        course.race_count.toString().includes(searchLower) ||
+        course.result_count.toString().includes(searchLower)
       );
     });
   }, [sortedCourses, searchQuery]);
@@ -139,12 +143,22 @@ export default function CoursesPage() {
                     Difficulty Rating <SortIcon columnKey="difficulty_rating" />
                   </button>
                 </th>
+                <th className="text-left text-sm font-semibold text-zinc-600 p-4">
+                  <button onClick={() => handleSort('race_count')} className="flex items-center">
+                    Total Races <SortIcon columnKey="race_count" />
+                  </button>
+                </th>
+                <th className="text-left text-sm font-semibold text-zinc-600 p-4">
+                  <button onClick={() => handleSort('result_count')} className="flex items-center">
+                    Total Results <SortIcon columnKey="result_count" />
+                  </button>
+                </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-200">
               {loading ? (
                 <tr>
-                  <td colSpan={3} className="text-center p-8 text-zinc-500">Loading courses...</td>
+                  <td colSpan={6} className="text-center p-8 text-zinc-500">Loading courses...</td>
                 </tr>
               ) : (
                 filteredCourses.map((course) => (
@@ -159,6 +173,8 @@ export default function CoursesPage() {
                     </td>
                     <td className="p-4 text-zinc-600">{course.distance_meters}</td>
                     <td className="p-4 text-zinc-600">{course.difficulty_rating?.toFixed(3) || 'N/A'}</td>
+                    <td className="p-4 text-zinc-600">{course.race_count?.toLocaleString() || 0}</td>
+                    <td className="p-4 text-zinc-600">{course.result_count?.toLocaleString() || 0}</td>
                   </tr>
                 ))
               )}
