@@ -566,13 +566,14 @@ def scrape_by_meet(
                 results.append(result)
 
         # Add meet with extracted venue information
+        # Leave meet_type blank to prompt admin selection during import
         meet = ScrapedMeet(
             athletic_net_id=meet_id,
             name=meet_name,
             meet_date=meet_date or f"{season_year}-01-01",
             venue_name=venue_name,
             season_year=season_year,
-            meet_type="invitational"
+            meet_type=""  # Admin will select: League Meet, Invitational, Championship, Intraquad, or blank
         )
         meets.append(meet)
 
