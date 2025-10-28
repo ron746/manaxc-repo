@@ -29,6 +29,11 @@ interface Race {
   winning_time_cs: number | null
   winning_athlete: string | null
   course_difficulty: number | null
+  team_winner?: {
+    school_name: string
+    school_id: string
+    score: number
+  }
 }
 
 interface TopPerformance {
@@ -39,6 +44,7 @@ interface TopPerformance {
   time_cs: number
   normalized_time_cs: number
   race_name: string
+  distance_meters: number
   course_difficulty: number | null
 }
 
@@ -56,8 +62,8 @@ export default function MeetDetailPage() {
 
   const [meet, setMeet] = useState<Meet | null>(null)
   const [races, setRaces] = useState<Race[]>([])
-  const [topBoys, setTopBoys] = useState<TopPerformance | null>(null)
-  const [topGirls, setTopGirls] = useState<TopPerformance | null>(null)
+  const [topBoysPerformances, setTopBoysPerformances] = useState<TopPerformance[]>([])
+  const [topGirlsPerformances, setTopGirlsPerformances] = useState<TopPerformance[]>([])
   const [boysTeamWinner, setBoysTeamWinner] = useState<TeamScore | null>(null)
   const [girlsTeamWinner, setGirlsTeamWinner] = useState<TeamScore | null>(null)
   const [loading, setLoading] = useState(true)
@@ -133,6 +139,42 @@ export default function MeetDetailPage() {
         const sortedResults = [...results].sort((a, b) => (a.place_overall || 999) - (b.place_overall || 999))
         const winner = sortedResults[0]
 
+        // Calculate team winner for this race
+        let teamWinner = undefined
+        if (results.length >= 5) {
+          const bySchool = new Map<string, any[]>()
+          results.forEach((result: any) => {
+            if (result.athlete?.school?.id) {
+              if (!bySchool.has(result.athlete.school.id)) {
+                bySchool.set(result.athlete.school.id, [])
+              }
+              bySchool.get(result.athlete.school.id)!.push({
+                ...result,
+                school_name: result.athlete.school.name
+              })
+            }
+          })
+
+          const teamScores: Array<{school_id: string, school_name: string, score: number}> = []
+          bySchool.forEach((schoolResults, schoolId) => {
+            if (schoolResults.length >= 5) {
+              const sorted = [...schoolResults].sort((a, b) => (a.place_overall || 999) - (b.place_overall || 999))
+              const top5 = sorted.slice(0, 5)
+              const score = top5.reduce((sum, r) => sum + (r.place_overall || 0), 0)
+              teamScores.push({
+                school_id: schoolId,
+                school_name: schoolResults[0].school_name,
+                score
+              })
+            }
+          })
+
+          if (teamScores.length > 0) {
+            teamScores.sort((a, b) => a.score - b.score)
+            teamWinner = teamScores[0]
+          }
+        }
+
         processedRaces.push({
           id: race.id,
           name: race.name,
@@ -142,7 +184,8 @@ export default function MeetDetailPage() {
           result_count: results.length,
           winning_time_cs: winner?.time_cs || null,
           winning_athlete: (winner?.athlete as any)?.name || null,
-          course_difficulty: courseDifficulty
+          course_difficulty: courseDifficulty,
+          team_winner: teamWinner
         })
 
         // Calculate normalized times and track performances
@@ -162,6 +205,7 @@ export default function MeetDetailPage() {
             time_cs: result.time_cs,
             normalized_time_cs: normalizedTime,
             race_name: race.name,
+            distance_meters: race.distance_meters,
             course_difficulty: courseDifficulty
           }
 
@@ -173,15 +217,15 @@ export default function MeetDetailPage() {
         })
       })
 
-      // Find top performers
+      // Find top 10 performers for each gender
       if (boysPerformances.length > 0) {
         boysPerformances.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
-        setTopBoys(boysPerformances[0])
+        setTopBoysPerformances(boysPerformances.slice(0, 10))
       }
 
       if (girlsPerformances.length > 0) {
         girlsPerformances.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
-        setTopGirls(girlsPerformances[0])
+        setTopGirlsPerformances(girlsPerformances.slice(0, 10))
       }
 
       // Calculate team winners using proper XC scoring
@@ -377,98 +421,72 @@ export default function MeetDetailPage() {
 
         {/* Top Performances Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          {/* Top Boys Performance */}
+          {/* Top Boys Performances */}
           <div className="bg-gradient-to-br from-blue-900/30 to-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-blue-700/50">
-            <h2 className="text-xl font-bold text-blue-400 mb-4">Top Performance - Boys</h2>
-            {topBoys ? (
-              <div>
-                <div className="text-sm text-zinc-400 mb-1">Winning Time</div>
-                <div className="text-4xl font-bold text-white mb-4">{formatTime(topBoys.time_cs)}</div>
-
-                <Link
-                  href={`/athletes/${topBoys.athlete_id}`}
-                  className="text-xl text-cyan-400 hover:text-cyan-300 font-semibold block mb-1"
-                >
-                  {topBoys.athlete_name}
-                </Link>
-
-                <Link
-                  href={`/schools/${topBoys.school_id}`}
-                  className="text-zinc-300 hover:text-zinc-200 block mb-3"
-                >
-                  {topBoys.school_name}
-                </Link>
-
-                <div className="text-sm text-zinc-400 mb-1">
-                  {topBoys.race_name}
-                  {topBoys.course_difficulty && (
-                    <span className="ml-2 text-zinc-500">
-                      (Difficulty: {topBoys.course_difficulty.toFixed(1)}/10)
-                    </span>
-                  )}
-                </div>
-
-                {boysTeamWinner && (
-                  <div className="mt-4 pt-4 border-t border-zinc-700">
-                    <div className="text-sm text-zinc-400 mb-1">Team Winner</div>
-                    <div className="text-lg font-bold text-blue-400">{boysTeamWinner.score} points</div>
-                    <Link
-                      href={`/schools/${boysTeamWinner.school_id}`}
-                      className="text-white hover:text-cyan-400"
-                    >
-                      {boysTeamWinner.school_name}
-                    </Link>
+            <h2 className="text-xl font-bold text-blue-400 mb-4">Top Performances - Boys</h2>
+            {topBoysPerformances.length > 0 ? (
+              <div className="space-y-2">
+                {topBoysPerformances.map((perf, index) => (
+                  <div key={`${perf.athlete_id}-${index}`} className="flex items-center justify-between text-sm hover:bg-blue-900/20 p-2 rounded transition-colors">
+                    <div className="flex items-center gap-2 flex-1 min-w-0">
+                      <span className="text-zinc-500 font-bold w-6">{index + 1}.</span>
+                      <div className="flex-1 min-w-0">
+                        <Link
+                          href={`/athletes/${perf.athlete_id}`}
+                          className="text-cyan-400 hover:text-cyan-300 font-medium block truncate"
+                        >
+                          {perf.athlete_name}
+                        </Link>
+                        <Link
+                          href={`/schools/${perf.school_id}`}
+                          className="text-zinc-400 hover:text-zinc-300 text-xs block truncate"
+                        >
+                          {perf.school_name}
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="text-right ml-2">
+                      <div className="text-white font-mono font-semibold">{formatTime(perf.time_cs)}</div>
+                      <div className="text-zinc-500 text-xs">{perf.distance_meters}m</div>
+                    </div>
                   </div>
-                )}
+                ))}
               </div>
             ) : (
               <div className="text-zinc-500">No boys races at this meet</div>
             )}
           </div>
 
-          {/* Top Girls Performance */}
+          {/* Top Girls Performances */}
           <div className="bg-gradient-to-br from-pink-900/30 to-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-pink-700/50">
-            <h2 className="text-xl font-bold text-pink-400 mb-4">Top Performance - Girls</h2>
-            {topGirls ? (
-              <div>
-                <div className="text-sm text-zinc-400 mb-1">Winning Time</div>
-                <div className="text-4xl font-bold text-white mb-4">{formatTime(topGirls.time_cs)}</div>
-
-                <Link
-                  href={`/athletes/${topGirls.athlete_id}`}
-                  className="text-xl text-cyan-400 hover:text-cyan-300 font-semibold block mb-1"
-                >
-                  {topGirls.athlete_name}
-                </Link>
-
-                <Link
-                  href={`/schools/${topGirls.school_id}`}
-                  className="text-zinc-300 hover:text-zinc-200 block mb-3"
-                >
-                  {topGirls.school_name}
-                </Link>
-
-                <div className="text-sm text-zinc-400 mb-1">
-                  {topGirls.race_name}
-                  {topGirls.course_difficulty && (
-                    <span className="ml-2 text-zinc-500">
-                      (Difficulty: {topGirls.course_difficulty.toFixed(1)}/10)
-                    </span>
-                  )}
-                </div>
-
-                {girlsTeamWinner && (
-                  <div className="mt-4 pt-4 border-t border-zinc-700">
-                    <div className="text-sm text-zinc-400 mb-1">Team Winner</div>
-                    <div className="text-lg font-bold text-pink-400">{girlsTeamWinner.score} points</div>
-                    <Link
-                      href={`/schools/${girlsTeamWinner.school_id}`}
-                      className="text-white hover:text-cyan-400"
-                    >
-                      {girlsTeamWinner.school_name}
-                    </Link>
+            <h2 className="text-xl font-bold text-pink-400 mb-4">Top Performances - Girls</h2>
+            {topGirlsPerformances.length > 0 ? (
+              <div className="space-y-2">
+                {topGirlsPerformances.map((perf, index) => (
+                  <div key={`${perf.athlete_id}-${index}`} className="flex items-center justify-between text-sm hover:bg-pink-900/20 p-2 rounded transition-colors">
+                    <div className="flex items-center gap-2 flex-1 min-w-0">
+                      <span className="text-zinc-500 font-bold w-6">{index + 1}.</span>
+                      <div className="flex-1 min-w-0">
+                        <Link
+                          href={`/athletes/${perf.athlete_id}`}
+                          className="text-cyan-400 hover:text-cyan-300 font-medium block truncate"
+                        >
+                          {perf.athlete_name}
+                        </Link>
+                        <Link
+                          href={`/schools/${perf.school_id}`}
+                          className="text-zinc-400 hover:text-zinc-300 text-xs block truncate"
+                        >
+                          {perf.school_name}
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="text-right ml-2">
+                      <div className="text-white font-mono font-semibold">{formatTime(perf.time_cs)}</div>
+                      <div className="text-zinc-500 text-xs">{perf.distance_meters}m</div>
+                    </div>
                   </div>
-                )}
+                ))}
               </div>
             ) : (
               <div className="text-zinc-500">No girls races at this meet</div>
@@ -534,6 +552,18 @@ export default function MeetDetailPage() {
                         </div>
                       )}
                     </>
+                  )}
+
+                  {race.team_winner && (
+                    <div className="mt-3 pt-3 border-t border-zinc-700/50">
+                      <div className="flex justify-between items-center">
+                        <span className="text-zinc-400 text-sm">Team Winner</span>
+                        <div className="text-right">
+                          <div className="text-cyan-400 font-bold text-sm">{race.team_winner.score} points</div>
+                          <div className="text-white text-xs">{race.team_winner.school_name}</div>
+                        </div>
+                      </div>
+                    </div>
                   )}
                 </div>
 
