@@ -13,13 +13,18 @@ interface Race {
   gender: string
   division: string | null
   distance_meters: number
+  courses: {
+    name: string
+    location: string | null
+  } | null
   meet: {
     id: string
     name: string
     meet_date: string
-    course: {
+    venues: {
       name: string
-      location: string | null
+      city: string | null
+      state: string | null
     } | null
   }
 }
@@ -71,7 +76,7 @@ export default function RaceResultsPage() {
     try {
       setLoading(true)
 
-      // Load race info
+      // Load race info with course and venue
       const { data: raceData, error: raceError } = await supabase
         .from('races')
         .select(`
@@ -80,13 +85,18 @@ export default function RaceResultsPage() {
           gender,
           division,
           distance_meters,
+          courses (
+            name,
+            location
+          ),
           meet:meets!inner(
             id,
             name,
             meet_date,
-            course:courses(
+            venues (
               name,
-              location
+              city,
+              state
             )
           )
         `)
@@ -299,12 +309,24 @@ export default function RaceResultsPage() {
             </div>
           </div>
 
-          {race.meet.course && (
+          {race.courses && (
             <div className="mt-4 pt-4 border-t border-zinc-700">
               <div className="text-sm text-zinc-400">Course</div>
-              <div className="text-white font-medium">{race.meet.course.name}</div>
-              {race.meet.course.location && (
-                <div className="text-sm text-zinc-500">{race.meet.course.location}</div>
+              <div className="text-white font-medium">{race.courses.name}</div>
+              {race.courses.location && (
+                <div className="text-sm text-zinc-500">{race.courses.location}</div>
+              )}
+            </div>
+          )}
+
+          {race.meet.venues && (
+            <div className="mt-4 pt-4 border-t border-zinc-700">
+              <div className="text-sm text-zinc-400">Venue</div>
+              <div className="text-white font-medium">{race.meet.venues.name}</div>
+              {(race.meet.venues.city || race.meet.venues.state) && (
+                <div className="text-sm text-zinc-500">
+                  {[race.meet.venues.city, race.meet.venues.state].filter(Boolean).join(', ')}
+                </div>
               )}
             </div>
           )}

@@ -57,13 +57,13 @@ export default function CoursePerformancesPage() {
             school:schools!inner(id, name)
           ),
           race:races!inner(
+            course_id,
             meet:meets!inner(
-              meet_date,
-              course_id
+              meet_date
             )
           )
         `)
-        .eq('race.meet.course_id', courseId)
+        .eq('race.course_id', courseId)
         .eq('athlete.gender', selectedGender)
         .order('time_cs', { ascending: true })
         .limit(50)
