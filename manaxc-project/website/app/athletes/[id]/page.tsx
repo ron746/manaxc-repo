@@ -49,9 +49,9 @@ type Result = {
         distance_meters: number;
         distance_display?: string;
         difficulty_rating?: number;
-      } | null;
-    } | null;
-  } | null;
+      }[];
+    }[];
+  }[];
 };
 
 export default function AthleteDetailPage() {
