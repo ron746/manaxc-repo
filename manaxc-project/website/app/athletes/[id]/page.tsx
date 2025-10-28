@@ -49,9 +49,9 @@ type Result = {
         distance_meters: number;
         distance_display?: string;
         difficulty_rating?: number;
-      }[];
-    }[];
-  }[];
+      } | null;
+    } | null;
+  } | null;
 };
 
 export default function AthleteDetailPage() {
@@ -73,7 +73,7 @@ export default function AthleteDetailPage() {
         ]);
 
         setAthlete(athleteData);
-        setResults(resultsData);
+        setResults(resultsData as any); // TODO: Fix type mismatch between query result and component expectations
       } catch (err) {
         console.error('Failed to fetch athlete data:', err);
         setError('Failed to load athlete data');
@@ -259,7 +259,7 @@ export default function AthleteDetailPage() {
                       <div className="flex-1">
                         <p className="font-semibold text-zinc-900">{pr.courseName}</p>
                         <p className="text-sm text-zinc-600">
-                          {pr.result.races?.meets?.name} • {new Date(pr.result.races.meets.meet_date).toLocaleDateString()}
+                          {pr.result.races?.meets?.name} • {pr.result.races?.meets?.meet_date ? new Date(pr.result.races.meets.meet_date).toLocaleDateString() : 'N/A'}
                         </p>
                       </div>
                       <div className="text-right">

@@ -7,16 +7,6 @@ const nextConfig: NextConfig = {
   },
   // Enable trailing slashes for better static hosting compatibility
   trailingSlash: true,
-  // Exclude parent directories from the build
-  experimental: {
-    outputFileTracingExcludes: {
-      '*': [
-        '../code/**',
-        '../docs/**',
-        '../../**'
-      ]
-    }
-  }
 };
 
 export default nextConfig;
