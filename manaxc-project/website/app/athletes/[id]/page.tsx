@@ -115,10 +115,10 @@ export default function AthleteDetailPage() {
     const courseMap = new Map<string, { courseName: string; bestTime: number; result: Result }>();
 
     results.forEach(result => {
-      if (!result.races?.meets?.courses) return;
+      if (!result.races?.courses) return;
 
-      const courseId = result.races.meets.courses.id;
-      const courseName = result.races.meets.courses.name;
+      const courseId = result.races.courses.id;
+      const courseName = result.races.courses.name;
 
       if (!courseMap.has(courseId) || result.time_cs < courseMap.get(courseId)!.bestTime) {
         courseMap.set(courseId, {
@@ -264,9 +264,9 @@ export default function AthleteDetailPage() {
                       </div>
                       <div className="text-right">
                         <p className="text-lg font-bold text-cyan-600">{formatTime(pr.bestTime)}</p>
-                        {pr.result.races?.meets?.courses && (
+                        {pr.result.races?.courses && (
                           <p className="text-sm text-zinc-500">
-                            {formatPace(pr.bestTime, pr.result.races.meets.courses.distance_meters)}
+                            {formatPace(pr.bestTime, pr.result.races.courses.distance_meters)}
                           </p>
                         )}
                       </div>
@@ -343,11 +343,11 @@ export default function AthleteDetailPage() {
                         {result.races?.meets?.name || '--'}
                       </td>
                       <td className="p-4 text-zinc-900">
-                        {result.races?.meets?.courses?.name || '--'}
+                        {result.races?.courses?.name || '--'}
                       </td>
                       <td className="p-4 text-zinc-600">
-                        {result.races?.meets?.courses
-                          ? formatDistance(result.races.meets.courses.distance_meters)
+                        {result.races?.courses
+                          ? formatDistance(result.races.courses.distance_meters)
                           : '--'}
                       </td>
                       <td className="p-4">
@@ -361,8 +361,8 @@ export default function AthleteDetailPage() {
                         </div>
                       </td>
                       <td className="p-4 text-zinc-600">
-                        {result.races?.meets?.courses
-                          ? formatPace(result.time_cs, result.races.meets.courses.distance_meters)
+                        {result.races?.courses
+                          ? formatPace(result.time_cs, result.races.courses.distance_meters)
                           : '--'}
                       </td>
                       <td className="p-4 text-zinc-600">

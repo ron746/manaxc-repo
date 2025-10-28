@@ -139,18 +139,24 @@ export async function getAthleteResults(athleteId: string) {
         name,
         gender,
         distance_meters,
+        courses (
+          id,
+          name,
+          location,
+          distance_meters,
+          distance_display,
+          difficulty_rating
+        ),
         meets (
           id,
           name,
           meet_date,
           season_year,
-          courses (
+          venues (
             id,
             name,
-            location,
-            distance_meters,
-            distance_display,
-            difficulty_rating
+            city,
+            state
           )
         )
       )

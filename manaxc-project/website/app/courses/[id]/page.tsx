@@ -66,34 +66,62 @@ export default function CourseDetailPage() {
       if (courseError) throw courseError
       setCourse(courseData)
 
-      // Load meets on this course
-      const { data: meetsData, error: meetsError } = await supabase
-        .from('meets')
+      // Load meets at this course's venue (via races that use this course)
+      // Note: Meets don't have course_id, they have venue_id
+      // We need to find meets through races that used this course
+      const { data: racesWithMeets, error: racesError } = await supabase
+        .from('races')
         .select(`
-          id,
-          name,
-          meet_date,
-          season_year,
-          meet_type,
-          races(id)
+          meet:meets!inner(
+            id,
+            name,
+            meet_date,
+            season_year,
+            meet_type
+          )
         `)
         .eq('course_id', courseId)
-        .order('meet_date', { ascending: false })
+        .order('meet.meet_date', { ascending: false })
 
-      if (meetsError) throw meetsError
+      if (racesError) throw racesError
 
-      const processedMeets: Meet[] = meetsData?.map(meet => ({
-        id: meet.id,
-        name: meet.name,
-        meet_date: meet.meet_date,
-        season_year: meet.season_year,
-        meet_type: meet.meet_type,
-        race_count: meet.races?.length || 0
-      })) || []
+      // Extract unique meets from races (a meet may have multiple races on this course)
+      const meetsMap = new Map<string, Meet>()
 
+      racesWithMeets?.forEach((raceData: any) => {
+        const meet = raceData.meet
+        if (meet && !meetsMap.has(meet.id)) {
+          meetsMap.set(meet.id, {
+            id: meet.id,
+            name: meet.name,
+            meet_date: meet.meet_date,
+            season_year: meet.season_year,
+            meet_type: meet.meet_type,
+            race_count: 0 // Will be calculated below
+          })
+        }
+      })
+
+      // Get race counts for each meet on this course
+      const processedMeets: Meet[] = []
+      for (const meet of meetsMap.values()) {
+        const { count } = await supabase
+          .from('races')
+          .select('id', { count: 'exact', head: true })
+          .eq('meet_id', meet.id)
+          .eq('course_id', courseId)
+
+        processedMeets.push({
+          ...meet,
+          race_count: count || 0
+        })
+      }
+
+      // Sort by date descending
+      processedMeets.sort((a, b) => new Date(b.meet_date).getTime() - new Date(a.meet_date).getTime())
       setMeets(processedMeets)
 
-      // Load all results for this course (through meets → races → results)
+      // Load all results for this course (through races that use this course)
       const { data: resultsData, error: resultsError } = await supabase
         .from('results')
         .select(`
@@ -102,10 +130,7 @@ export default function CourseDetailPage() {
           race:races!inner(
             id,
             gender,
-            meet:meets!inner(
-              id,
-              course_id
-            )
+            course_id
           ),
           athlete:athletes!inner(
             id,
@@ -117,7 +142,7 @@ export default function CourseDetailPage() {
             )
           )
         `)
-        .eq('race.meet.course_id', courseId)
+        .eq('race.course_id', courseId)
 
       if (resultsError) throw resultsError
 
