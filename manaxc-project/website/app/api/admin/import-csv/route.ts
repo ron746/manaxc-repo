@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Missing directoryName' }, { status: 400 });
   }
 
-  const projectRoot = path.resolve(process.cwd(), '../..');
+  const projectRoot = path.resolve(process.cwd(), '..');
   const importersPath = path.join(projectRoot, 'code', 'importers');
   const importScript = path.join(importersPath, 'import_csv_data.py');
   const directoryPath = path.join(importersPath, 'to-be-processed', directoryName);

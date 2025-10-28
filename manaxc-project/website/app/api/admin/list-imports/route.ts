@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 import path from 'path';
 
 export async function GET() {
-  const projectRoot = path.resolve(process.cwd(), '../..');
+  const projectRoot = path.resolve(process.cwd(), '..');
   const toBeProcessedDir = path.join(projectRoot, 'code', 'importers', 'to-be-processed');
 
   try {

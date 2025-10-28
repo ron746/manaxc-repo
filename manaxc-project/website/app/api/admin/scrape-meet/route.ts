@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Missing meetId' }, { status: 400 });
   }
 
-  const projectRoot = path.resolve(process.cwd(), '../..');
+  const projectRoot = path.resolve(process.cwd(), '..');
   const importersPath = path.join(projectRoot, 'code', 'importers');
   const scraperScript = path.join(importersPath, 'athletic_net_scraper_v2.py');
 
