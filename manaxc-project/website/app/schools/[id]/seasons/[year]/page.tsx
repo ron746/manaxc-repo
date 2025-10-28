@@ -26,9 +26,17 @@ interface AthleteRanking {
   season_pr_race_id: string | null
   top_3_average: number | null
   last_3_average: number | null
+  all_time_pb: number | null
+  all_time_pb_normalized: number | null
+  all_time_pb_course_id: string | null
+  all_time_pb_course_difficulty: number | null
+  all_time_pb_course_distance: number | null
+  all_time_pb_meet_id: string | null
+  all_time_pb_race_id: string | null
   race_count: number
   recent_races: { time_cs: number; date: string; meet_name: string }[]
-  all_times: { time_cs: number; course_id: string; course_difficulty: number; course_distance: number; date: string; meet_name: string; meet_id: string; race_id: string }[]
+  all_times: { time_cs: number; normalized_time_cs: number | null; course_id: string; course_difficulty: number; course_distance: number; date: string; meet_name: string; meet_id: string; race_id: string }[]
+  all_time_results: { time_cs: number; normalized_time_cs: number | null; course_id: string; course_difficulty: number; course_distance: number; meet_id: string; race_id: string }[]
 }
 
 export default function SchoolSeasonDetailPage() {
@@ -89,6 +97,7 @@ export default function SchoolSeasonDetailPage() {
           .select(`
             id,
             time_cs,
+            normalized_time_cs,
             place_overall,
             race_id,
             meet_id,
@@ -137,7 +146,7 @@ export default function SchoolSeasonDetailPage() {
       // Group results by athlete and course
       const athleteResults = new Map<string, {
         athlete: any
-        times: { time_cs: number; course_id: string; course_difficulty: number; course_distance: number; date: string; meet_name: string; meet_id: string; race_id: string }[]
+        times: { time_cs: number; normalized_time_cs: number | null; course_id: string; course_difficulty: number; course_distance: number; date: string; meet_name: string; meet_id: string; race_id: string }[]
       }>()
 
       allResults.forEach((result: any) => {
@@ -156,6 +165,7 @@ export default function SchoolSeasonDetailPage() {
 
         athleteResults.get(result.athlete.id)!.times.push({
           time_cs: result.time_cs,
+          normalized_time_cs: result.normalized_time_cs,
           course_id: course?.id || '',
           course_difficulty: course?.difficulty_rating || 5.0,
           course_distance: course?.distance_meters || 0,
@@ -168,6 +178,37 @@ export default function SchoolSeasonDetailPage() {
 
       // Calculate statistics for each athlete
       const rankings: AthleteRanking[] = []
+
+      // For each athlete, fetch ALL their times from this season and earlier to find true all-time PB
+      // (don't include future seasons)
+      const athleteIds = Array.from(athleteResults.keys())
+      const allTimeResults = new Map<string, Array<{time_cs: number, normalized_time_cs: number | null, course_id: string, course_difficulty: number, course_distance: number, meet_id: string, race_id: string}>>()
+
+      for (const athleteId of athleteIds) {
+        const { data: results } = await supabase
+          .from('results')
+          .select('time_cs, normalized_time_cs, meet_id, race_id, race:races!inner(course:courses(id, difficulty_rating, distance_meters), meet:meets!inner(season_year))')
+          .eq('athlete_id', athleteId)
+          .lte('race.meet.season_year', parseInt(year)) // Only results from this season or earlier
+          .order('time_cs', { ascending: true })
+          .limit(1000) // Get top 1000 times to ensure we have enough for normalization
+
+        if (results && results.length > 0) {
+          const allTimes = results.map(result => {
+            const course = (result as any).race?.course
+            return {
+              time_cs: result.time_cs,
+              normalized_time_cs: result.normalized_time_cs,
+              course_id: course?.id || '',
+              course_difficulty: course?.difficulty_rating || 0,
+              course_distance: course?.distance_meters || 0,
+              meet_id: result.meet_id,
+              race_id: result.race_id
+            }
+          })
+          allTimeResults.set(athleteId, allTimes)
+        }
+      }
 
       athleteResults.forEach(({ athlete, times }) => {
         if (times.length === 0) return
@@ -182,17 +223,17 @@ export default function SchoolSeasonDetailPage() {
         const season_pr_meet_id = times[0].meet_id
         const season_pr_race_id = times[0].race_id
 
-        // Top 3 average
+        // Top 3 average - use normalized times
         const top3Times = times.slice(0, Math.min(3, times.length))
         const top_3_average = top3Times.length > 0
-          ? Math.round(top3Times.reduce((sum, t) => sum + t.time_cs, 0) / top3Times.length)
+          ? Math.round(top3Times.reduce((sum, t) => sum + (t.normalized_time_cs || t.time_cs), 0) / top3Times.length)
           : null
 
-        // Last 3 average (most recent)
+        // Last 3 average (most recent) - use normalized times
         const sortedByDate = [...times].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
         const last3Times = sortedByDate.slice(0, Math.min(3, sortedByDate.length))
         const last_3_average = last3Times.length > 0
-          ? Math.round(last3Times.reduce((sum, t) => sum + t.time_cs, 0) / last3Times.length)
+          ? Math.round(last3Times.reduce((sum, t) => sum + (t.normalized_time_cs || t.time_cs), 0) / last3Times.length)
           : null
 
         const recent_races = sortedByDate.slice(0, 5).map(race => ({
@@ -200,6 +241,9 @@ export default function SchoolSeasonDetailPage() {
           date: race.date,
           meet_name: race.meet_name
         }))
+
+        // Get all-time results for this athlete
+        const athleteAllTimeResults = allTimeResults.get(athlete.id) || []
 
         rankings.push({
           athlete_id: athlete.id,
@@ -214,9 +258,17 @@ export default function SchoolSeasonDetailPage() {
           season_pr_race_id,
           top_3_average,
           last_3_average,
+          all_time_pb: null, // Will be calculated in memo based on target course
+          all_time_pb_normalized: null,
+          all_time_pb_course_id: null,
+          all_time_pb_course_difficulty: null,
+          all_time_pb_course_distance: null,
+          all_time_pb_meet_id: null,
+          all_time_pb_race_id: null,
           race_count: times.length,
           recent_races,
-          all_times: times
+          all_times: times,
+          all_time_results: athleteAllTimeResults
         })
       })
 
@@ -327,34 +379,115 @@ export default function SchoolSeasonDetailPage() {
     const targetCourse = courses.find(c => c.id === targetCourseId)
     if (!targetCourse) return boysRankings
 
-    // For each athlete, find their best time on the target course
-    // If they haven't run on target course, normalize their best time from any other course
-    const normalized = boysRankings.map(athlete => {
-      // Check if athlete has run on the target course
-      const targetCourseTime = athlete.all_times
-        .filter(t => t.course_id === targetCourseId)
-        .sort((a, b) => a.time_cs - b.time_cs)[0]
+    const METERS_PER_MILE = 1609.344
 
-      if (targetCourseTime) {
-        // Use their actual time from the target course
-        return {
-          ...athlete,
-          season_pr: targetCourseTime.time_cs,
-          season_pr_meet_id: targetCourseTime.meet_id,
-          season_pr_race_id: targetCourseTime.race_id
+    // For each athlete, normalize ALL their times to the target course and find the best
+    const normalized = boysRankings.map(athlete => {
+      // Normalize all times to target course
+      const normalizedTimes = athlete.all_times.map(time => {
+        // If this time is already on the target course, use it directly
+        if (time.course_id === targetCourseId) {
+          return {
+            normalized_time_cs: time.time_cs,
+            meet_id: time.meet_id,
+            race_id: time.race_id,
+            original_time_cs: time.time_cs,
+            course_id: time.course_id,
+            date: time.date
+          }
+        } else {
+          // Use the pre-computed normalized_time_cs from database (difficulty-normalized per-mile pace)
+          // Formula from DB: time_cs / difficulty / distance_meters * 1609.344
+          // To project to target course: normalized_time_cs * target_difficulty * target_distance / 1609.344
+          let projectedTime: number
+
+          if (time.normalized_time_cs && targetCourse.distance_meters > 0) {
+            projectedTime = Math.round(
+              time.normalized_time_cs * targetCourse.difficulty_rating * targetCourse.distance_meters / METERS_PER_MILE
+            )
+          } else {
+            // Fallback to client-side calculation if normalized_time_cs is missing
+            projectedTime = normalizeTime(
+              time.time_cs,
+              time.course_difficulty,
+              time.course_distance,
+              targetCourse.difficulty_rating,
+              targetCourse.distance_meters
+            )
+          }
+
+          return {
+            normalized_time_cs: projectedTime,
+            meet_id: time.meet_id,
+            race_id: time.race_id,
+            original_time_cs: time.time_cs,
+            course_id: time.course_id,
+            date: time.date
+          }
         }
-      } else {
-        // Normalize their best time to the target course
-        return {
-          ...athlete,
-          season_pr: athlete.season_pr ? normalizeTime(
-            athlete.season_pr,
-            athlete.season_pr_course_difficulty,
-            athlete.season_pr_course_distance,
-            targetCourse.difficulty_rating,
-            targetCourse.distance_meters
-          ) : null
+      })
+
+      // Find the best normalized time
+      const bestNormalizedTime = normalizedTimes.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)[0]
+
+      // Recalculate Top 3 Avg with normalized times
+      const sortedNormalizedTimes = [...normalizedTimes].sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
+      const top3Times = sortedNormalizedTimes.slice(0, Math.min(3, sortedNormalizedTimes.length))
+      const top_3_average = top3Times.length > 0
+        ? Math.round(top3Times.reduce((sum, t) => sum + t.normalized_time_cs, 0) / top3Times.length)
+        : null
+
+      // Recalculate Last 3 Avg with normalized times (sort by race date)
+      const sortedByDate = [...normalizedTimes].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+      const last3Times = sortedByDate.slice(0, Math.min(3, sortedByDate.length))
+      const last_3_average = last3Times.length > 0
+        ? Math.round(last3Times.reduce((sum, t) => sum + t.normalized_time_cs, 0) / last3Times.length)
+        : null
+
+      // Normalize ALL all-time results to target course and find the best one
+      let best_all_time_pb = null
+      let best_all_time_pb_meet_id = null
+      let best_all_time_pb_race_id = null
+
+      if (athlete.all_time_results && athlete.all_time_results.length > 0) {
+        const normalizedAllTimeResults = athlete.all_time_results.map(result => {
+          if (result.course_id === targetCourseId) {
+            return {
+              normalized_time_cs: result.time_cs,
+              meet_id: result.meet_id,
+              race_id: result.race_id
+            }
+          } else if (result.normalized_time_cs && targetCourse.distance_meters > 0) {
+            return {
+              normalized_time_cs: Math.round(
+                result.normalized_time_cs * targetCourse.difficulty_rating * targetCourse.distance_meters / METERS_PER_MILE
+              ),
+              meet_id: result.meet_id,
+              race_id: result.race_id
+            }
+          } else {
+            return null
+          }
+        }).filter(r => r !== null) as Array<{normalized_time_cs: number, meet_id: string, race_id: string}>
+
+        if (normalizedAllTimeResults.length > 0) {
+          const bestResult = normalizedAllTimeResults.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)[0]
+          best_all_time_pb = bestResult.normalized_time_cs
+          best_all_time_pb_meet_id = bestResult.meet_id
+          best_all_time_pb_race_id = bestResult.race_id
         }
+      }
+
+      return {
+        ...athlete,
+        season_pr: bestNormalizedTime ? bestNormalizedTime.normalized_time_cs : athlete.season_pr,
+        season_pr_meet_id: bestNormalizedTime ? bestNormalizedTime.meet_id : athlete.season_pr_meet_id,
+        season_pr_race_id: bestNormalizedTime ? bestNormalizedTime.race_id : athlete.season_pr_race_id,
+        top_3_average,
+        last_3_average,
+        all_time_pb: best_all_time_pb,
+        all_time_pb_meet_id: best_all_time_pb_meet_id,
+        all_time_pb_race_id: best_all_time_pb_race_id
       }
     }).sort((a, b) => (a.season_pr || Infinity) - (b.season_pr || Infinity))
 
@@ -372,34 +505,115 @@ export default function SchoolSeasonDetailPage() {
     const targetCourse = courses.find(c => c.id === targetCourseId)
     if (!targetCourse) return girlsRankings
 
-    // For each athlete, find their best time on the target course
-    // If they haven't run on target course, normalize their best time from any other course
-    const normalized = girlsRankings.map(athlete => {
-      // Check if athlete has run on the target course
-      const targetCourseTime = athlete.all_times
-        .filter(t => t.course_id === targetCourseId)
-        .sort((a, b) => a.time_cs - b.time_cs)[0]
+    const METERS_PER_MILE = 1609.344
 
-      if (targetCourseTime) {
-        // Use their actual time from the target course
-        return {
-          ...athlete,
-          season_pr: targetCourseTime.time_cs,
-          season_pr_meet_id: targetCourseTime.meet_id,
-          season_pr_race_id: targetCourseTime.race_id
+    // For each athlete, normalize ALL their times to the target course and find the best
+    const normalized = girlsRankings.map(athlete => {
+      // Normalize all times to target course
+      const normalizedTimes = athlete.all_times.map(time => {
+        // If this time is already on the target course, use it directly
+        if (time.course_id === targetCourseId) {
+          return {
+            normalized_time_cs: time.time_cs,
+            meet_id: time.meet_id,
+            race_id: time.race_id,
+            original_time_cs: time.time_cs,
+            course_id: time.course_id,
+            date: time.date
+          }
+        } else {
+          // Use the pre-computed normalized_time_cs from database (difficulty-normalized per-mile pace)
+          // Formula from DB: time_cs / difficulty / distance_meters * 1609.344
+          // To project to target course: normalized_time_cs * target_difficulty * target_distance / 1609.344
+          let projectedTime: number
+
+          if (time.normalized_time_cs && targetCourse.distance_meters > 0) {
+            projectedTime = Math.round(
+              time.normalized_time_cs * targetCourse.difficulty_rating * targetCourse.distance_meters / METERS_PER_MILE
+            )
+          } else {
+            // Fallback to client-side calculation if normalized_time_cs is missing
+            projectedTime = normalizeTime(
+              time.time_cs,
+              time.course_difficulty,
+              time.course_distance,
+              targetCourse.difficulty_rating,
+              targetCourse.distance_meters
+            )
+          }
+
+          return {
+            normalized_time_cs: projectedTime,
+            meet_id: time.meet_id,
+            race_id: time.race_id,
+            original_time_cs: time.time_cs,
+            course_id: time.course_id,
+            date: time.date
+          }
         }
-      } else {
-        // Normalize their best time to the target course
-        return {
-          ...athlete,
-          season_pr: athlete.season_pr ? normalizeTime(
-            athlete.season_pr,
-            athlete.season_pr_course_difficulty,
-            athlete.season_pr_course_distance,
-            targetCourse.difficulty_rating,
-            targetCourse.distance_meters
-          ) : null
+      })
+
+      // Find the best normalized time
+      const bestNormalizedTime = normalizedTimes.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)[0]
+
+      // Recalculate Top 3 Avg with normalized times
+      const sortedNormalizedTimes = [...normalizedTimes].sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
+      const top3Times = sortedNormalizedTimes.slice(0, Math.min(3, sortedNormalizedTimes.length))
+      const top_3_average = top3Times.length > 0
+        ? Math.round(top3Times.reduce((sum, t) => sum + t.normalized_time_cs, 0) / top3Times.length)
+        : null
+
+      // Recalculate Last 3 Avg with normalized times (sort by race date)
+      const sortedByDate = [...normalizedTimes].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+      const last3Times = sortedByDate.slice(0, Math.min(3, sortedByDate.length))
+      const last_3_average = last3Times.length > 0
+        ? Math.round(last3Times.reduce((sum, t) => sum + t.normalized_time_cs, 0) / last3Times.length)
+        : null
+
+      // Normalize ALL all-time results to target course and find the best one
+      let best_all_time_pb = null
+      let best_all_time_pb_meet_id = null
+      let best_all_time_pb_race_id = null
+
+      if (athlete.all_time_results && athlete.all_time_results.length > 0) {
+        const normalizedAllTimeResults = athlete.all_time_results.map(result => {
+          if (result.course_id === targetCourseId) {
+            return {
+              normalized_time_cs: result.time_cs,
+              meet_id: result.meet_id,
+              race_id: result.race_id
+            }
+          } else if (result.normalized_time_cs && targetCourse.distance_meters > 0) {
+            return {
+              normalized_time_cs: Math.round(
+                result.normalized_time_cs * targetCourse.difficulty_rating * targetCourse.distance_meters / METERS_PER_MILE
+              ),
+              meet_id: result.meet_id,
+              race_id: result.race_id
+            }
+          } else {
+            return null
+          }
+        }).filter(r => r !== null) as Array<{normalized_time_cs: number, meet_id: string, race_id: string}>
+
+        if (normalizedAllTimeResults.length > 0) {
+          const bestResult = normalizedAllTimeResults.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)[0]
+          best_all_time_pb = bestResult.normalized_time_cs
+          best_all_time_pb_meet_id = bestResult.meet_id
+          best_all_time_pb_race_id = bestResult.race_id
         }
+      }
+
+      return {
+        ...athlete,
+        season_pr: bestNormalizedTime ? bestNormalizedTime.normalized_time_cs : athlete.season_pr,
+        season_pr_meet_id: bestNormalizedTime ? bestNormalizedTime.meet_id : athlete.season_pr_meet_id,
+        season_pr_race_id: bestNormalizedTime ? bestNormalizedTime.race_id : athlete.season_pr_race_id,
+        top_3_average,
+        last_3_average,
+        all_time_pb: best_all_time_pb,
+        all_time_pb_meet_id: best_all_time_pb_meet_id,
+        all_time_pb_race_id: best_all_time_pb_race_id
       }
     }).sort((a, b) => (a.season_pr || Infinity) - (b.season_pr || Infinity))
 
@@ -439,6 +653,7 @@ export default function SchoolSeasonDetailPage() {
                   <th className="py-4 px-6 text-left font-bold text-zinc-900">Athlete Name</th>
                   <th className="py-4 px-4 text-center font-bold text-zinc-900">Class</th>
                   <th className="py-4 px-6 text-right font-bold text-zinc-900">Season PR</th>
+                  <th className="py-4 px-6 text-right font-bold text-zinc-900">All Time PR</th>
                   <th className="py-4 px-6 text-right font-bold text-zinc-900">Top 3 Avg</th>
                   <th className="py-4 px-6 text-right font-bold text-zinc-900">Last 3 Avg</th>
                   <th className="py-4 px-4 text-center font-bold text-zinc-900">Races</th>
@@ -495,6 +710,20 @@ export default function SchoolSeasonDetailPage() {
                         ) : (
                           <span className="font-mono font-bold text-zinc-900">
                             {athlete.season_pr ? formatTime(athlete.season_pr) : '-'}
+                          </span>
+                        )}
+                      </td>
+                      <td className="py-4 px-6 text-right">
+                        {athlete.all_time_pb && athlete.all_time_pb_meet_id && athlete.all_time_pb_race_id ? (
+                          <Link
+                            href={`/meets/${athlete.all_time_pb_meet_id}/races/${athlete.all_time_pb_race_id}`}
+                            className="font-mono text-blue-600 hover:text-blue-800 hover:underline"
+                          >
+                            {formatTime(athlete.all_time_pb)}
+                          </Link>
+                        ) : (
+                          <span className="font-mono text-zinc-700">
+                            {athlete.all_time_pb ? formatTime(athlete.all_time_pb) : '-'}
                           </span>
                         )}
                       </td>

@@ -165,21 +165,40 @@ manaxc-project/
 
 ---
 
-## Next Steps (Immediate)
+## Progress Update (Latest Sprint: Oct 28, 2025)
 
+### ✅ Completed
 1. ✅ Create project structure
-2. ⏳ Set up Supabase project
-3. ⏳ Design database schema
-4. ⏳ Build Athletic.net scraper
-5. ⏳ Import Westmont historical data
-6. ⏳ Create course standardization algorithm v1
-7. ⏳ Build coach admin dashboard
-8. ⏳ Build athlete profile pages
-9. ⏳ Deploy to manaxc.com
-10. ⏳ Launch with Westmont team
+2. ✅ Set up Supabase project
+3. ✅ Design database schema
+4. ✅ Build Athletic.net scraper (v2 - fully operational)
+5. ✅ Deploy website to Vercel (manaxc.vercel.app)
+6. ✅ Build admin import dashboard
+7. ✅ Enhanced AI course difficulty system with Malcolm Slaney's research
+8. ✅ Season combined race projection page with Select All feature
+
+### 🚧 In Progress
+9. ⏳ Import Westmont historical data (BLOCKED - import failing, 0/1633 results imported)
+10. ⏳ Complete course standardization algorithm (AI foundation done, needs data)
+11. ⏳ Build manual editing UI for venues/courses/schools (foundation started)
+12. ⏳ Fix scraper venue/distance extraction issues
+
+### 📋 Next Sprint
+13. ⏳ Build individual athlete profile pages
+14. ⏳ Build individual school profile pages
+15. ⏳ Batch import all BVAL and Division 2 schools
+16. ⏳ Complete manual editing capabilities
+
+### 🚨 Critical Issues
+- **Import Failure:** 0/1633 results imported despite successful scrape (BLOCKING)
+- **Scraper Issues:** Venue extraction incomplete for meets 254429, 254535
+- **Manual Editing UI:** Incomplete - needed for data quality fixes
+
+**See `/CLAUDE_PROMPT.md` for detailed current status and next steps**
 
 ---
 
-**Last Updated:** October 22, 2025
+**Last Updated:** October 28, 2025 (Late Sprint - Data Quality Focus)
 **Project Start:** October 22, 2025
 **Target MVP Launch:** December 22, 2025 (60 days)
+**Current Status:** 🟡 MVP on track, resolving data pipeline issues

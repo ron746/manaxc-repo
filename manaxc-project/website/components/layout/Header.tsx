@@ -10,6 +10,9 @@ export default function Header() {
             <a href="/meets" className="text-slate-600 hover:text-blue-600 transition-colors">
               Meets
             </a>
+            <a href="/season" className="text-slate-600 hover:text-blue-600 transition-colors">
+              Season
+            </a>
             <a href="/schools" className="text-slate-600 hover:text-blue-600 transition-colors">
               Schools
             </a>

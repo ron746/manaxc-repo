@@ -43,18 +43,36 @@ export async function getCourses() {
 }
 
 export async function getAthletes() {
-  const { data, error } = await supabase
-    .from('athletes')
-    .select(`
-      *,
-      schools (
-        name
-      )
-    `)
-    .order('last_name', { ascending: true });
+  // Fetch all athletes with pagination to bypass 1000-record limit
+  let allAthletes: any[] = []
+  let page = 0
+  const pageSize = 1000
+  let hasMore = true
 
-  if (error) throw error;
-  return data || [];
+  while (hasMore) {
+    const { data, error } = await supabase
+      .from('athletes')
+      .select(`
+        *,
+        schools (
+          name
+        )
+      `)
+      .order('last_name', { ascending: true })
+      .range(page * pageSize, (page + 1) * pageSize - 1)
+
+    if (error) throw error
+
+    if (data && data.length > 0) {
+      allAthletes = allAthletes.concat(data)
+      hasMore = data.length === pageSize
+      page++
+    } else {
+      hasMore = false
+    }
+  }
+
+  return allAthletes
 }
 
 export async function getSchools() {

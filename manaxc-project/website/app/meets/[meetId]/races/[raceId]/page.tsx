@@ -53,6 +53,7 @@ interface TeamScore {
   school_name: string
   school_short_name: string | null
   score: number
+  team_time_cs: number
   scorers: Result[]
   displacement_runners: Result[]
   is_complete: boolean
@@ -193,6 +194,9 @@ export default function RaceResultsPage() {
       // Calculate team score (sum of top 5 places)
       const score = scorers.reduce((sum, r) => sum + (r.place_overall || 0), 0)
 
+      // Calculate team time (sum of top 5 times)
+      const teamTime = scorers.reduce((sum, r) => sum + r.time_cs, 0)
+
       const isComplete = scorers.length >= 5 && scorers.every(s => s.place_overall)
 
       scores.push({
@@ -200,6 +204,7 @@ export default function RaceResultsPage() {
         school_name: schoolResults[0].school.name,
         school_short_name: schoolResults[0].school.short_name,
         score: isComplete ? score : 0,
+        team_time_cs: teamTime,
         scorers,
         displacement_runners: displacement,
         is_complete: isComplete
@@ -345,6 +350,7 @@ export default function RaceResultsPage() {
                       <th className="py-4 px-6 text-left font-bold text-white">Place</th>
                       <th className="py-4 px-6 text-left font-bold text-white">School</th>
                       <th className="py-4 px-6 text-center font-bold text-white">Score</th>
+                      <th className="py-4 px-6 text-center font-bold text-white">Team Time</th>
                       <th className="py-4 px-6 text-left font-bold text-white">Top 5 Scorers</th>
                     </tr>
                   </thead>
@@ -372,6 +378,9 @@ export default function RaceResultsPage() {
                         </td>
                         <td className="py-4 px-6 text-center font-bold text-cyan-400">
                           {team.is_complete ? team.score : 'N/A'}
+                        </td>
+                        <td className="py-4 px-6 text-center font-mono text-zinc-300">
+                          {team.scorers.length >= 5 ? formatTime(team.team_time_cs) : 'N/A'}
                         </td>
                         <td className="py-4 px-6">
                           <div className="flex flex-wrap gap-2">

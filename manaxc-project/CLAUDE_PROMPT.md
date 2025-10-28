@@ -139,6 +139,36 @@ of the ManaXC project and what we're working on.
 4. **Duplicate Handling** - Fixed NULL handling and batch insert fallback
 5. **Race-to-Meet Mapping** - Fixed by building map during race import
 
+### Course Difficulty Rating System (Oct 28, 2025 - Enhanced)
+
+**Pace Multiplier Concept:**
+- Measures effort multiplier needed to run 1 mile on track vs the XC course
+- Range: 1.00 (flat track) to 1.64 (extremely difficult)
+- Typical HS XC: 1.06 to 1.25
+- **Baseline:** 1.1336 (median high school course)
+- **Precision:** 10 decimal places (for training pace calculations from marathon to sprint)
+
+**Example:**
+- Course difficulty 1.15 = 15% harder than flat track
+- 5:00/mile on track = 5:45/mile effort on this course
+
+**Malcolm Slaney's Research Integration:**
+- **Research:** 70k+ boys, 63k+ girls HS results, Bayesian modeling (PyMC)
+- **Statistical Robustness:** 36 MCMC chains, 72,000 trace samples per course
+- **CRITICAL DIFFERENCE:** Slaney's baseline = Crystal Springs 2.95mi = 1.0, Our baseline = 1.1336
+- **NOT directly comparable** - use his methodology, NOT his numeric scale
+- **Seasonal improvement:** ~10.5 sec/month for boys
+- **Yearly improvement:** ~15.2 sec/year for boys
+
+**Gender-Specific Development Patterns:**
+- **Boys:** Generally consistent improvement through HS
+- **Girls:** HIGHLY VARIABLE due to puberty (hormonal changes, body composition)
+  - Early developers may peak as freshmen/sophomores
+  - Late developers may improve as juniors/seniors
+  - **DO NOT assume linear improvement** - look at individual trend data
+
+**Implementation:** `/app/api/admin/analyze-course/route.ts` with enhanced statistical analysis
+
 ### Deployment Platform Switch (Oct 28, 2025)
 
 **Migration: Cloudflare Pages → Vercel**
@@ -222,22 +252,207 @@ echo "DELETE ALL DATA" | venv/bin/python3 clear_database.py
 
 ---
 
-## Next Sprint Priorities (Phase 2)
+## 🚨 CRITICAL ISSUES - MUST READ FIRST 🚨
 
-**High Priority**:
-1. Interactive import validation (data preview before commit)
-2. Difficulty rating calculation from race results
-3. Real-time progress streaming to UI
-4. Individual athlete detail pages (`/athletes/[id]/page.tsx`)
-5. Individual school detail pages (`/schools/[id]/page.tsx`)
+### Issue 1: Import Failure - 0 Results Imported (BLOCKING)
 
-**Medium Priority**:
-6. Athlete deduplication UI
-7. Error recovery (resume failed scrapes)
-8. Batch operations (multiple schools at once)
+**Status:** CRITICAL - Scraper succeeded, import failed completely
 
-**Low Priority**:
-9. Data validation rules (unrealistic times, etc.)
+**Details:**
+- Scraper successfully collected 1633 results from 5 meets (school 1076, 2025 season)
+- Import validation passed (0 errors, 0 warnings)
+- Import ran but imported: 0 athletes, 0 races, 0 meets, 0 results
+- All 1633 results skipped with: "missing athlete/race"
+
+**Root Cause:** CSV structure vs importer expectations mismatch OR silent failure in athlete/race creation
+
+**Files:**
+- `/Users/ron/manaxc/manaxc-project/code/importers/import_csv_data.py`
+- Scraped data: `/Users/ron/manaxc/manaxc-project/code/importers/to-be-processed/school_1076_1761665401/`
+
+**Next Steps:**
+1. Check CSV structure in scraped folder
+2. Debug athlete creation logic
+3. Debug race creation logic
+4. Add verbose logging
+5. Test import stage by stage
+
+**Detailed Doc:** `/Users/ron/manaxc/manaxc-project/CRITICAL_ISSUES.md`
+
+### Issue 2: Scraper Venue/Distance Extraction Problems
+
+**Status:** HIGH - Blocking data quality
+
+**Problems:**
+1. Meet 254429: Venue not properly extracted
+2. Meet 254535: Venue not properly extracted
+3. Baylands course: Incorrect distance scraped
+4. Only Montgomery Hill Park consistently extracted
+
+**Root Cause:** Venue extraction logic in `athletic_net_scraper_v2.py` not robust enough
+
+**Workaround:** Manual editing UI needed (see below)
+
+**Files:** `/Users/ron/manaxc/manaxc-project/code/importers/athletic_net_scraper_v2.py`
+
+### Issue 3: Manual Editing UI Incomplete
+
+**Status:** HIGH - Required for data quality fixes
+
+**What's Needed:**
+- Edit school league/subleague/CIF division
+- Add/edit/delete venues
+- Assign courses to venues
+- Edit course distances
+- Edit meet venue assignments
+
+**What's Done:**
+- School interface and state management added to `/app/admin/maintenance/page.tsx`
+- SQL migration created: `/Users/ron/manaxc/manaxc-project/website/ADD_SCHOOL_FIELDS.sql` (NOT YET RUN)
+
+**What's Missing:**
+- Schools section UI with dropdowns
+- Venues section (full CRUD)
+- Course-venue assignment UI
+- Meets venue editing
+
+**Detailed Doc:** `/Users/ron/manaxc/manaxc-project/MAINTENANCE_PAGE_UPDATES.md`
+
+---
+
+## Latest Sprint Work (Oct 28, 2025 - Late Sprint)
+
+### 1. AI Course Difficulty Enhancement ✅
+
+**What:** Integrated Malcolm Slaney's statistical research methodology
+
+**Key Concepts:**
+- **Slaney's Research:** 70k+ boys, 63k+ girls HS results analyzed with Bayesian modeling (PyMC)
+- **Critical Baseline Difference:**
+  - Slaney: Crystal Springs 2.95mi = 1.0
+  - Our system: Median HS course = 1.1336
+  - **NOT directly comparable** - different scales
+- **Precision:** 10 decimal places for training pace calculations (marathon to sprint)
+- **Gender Patterns:** Boys show consistent improvement, girls highly variable due to puberty
+
+**Files Changed:**
+- `/app/api/admin/analyze-course/route.ts` - Enhanced with Slaney methodology
+- `/app/admin/maintenance/page.tsx` - Added statistical analysis display
+
+**New JSON Output:**
+```json
+{
+  "suggestedRating": 1.1234567890,
+  "statisticalAnalysis": {
+    "boysAnalysis": "...",
+    "girlsAnalysis": "...",
+    "genderSpecificNotes": "...",
+    "weightedRecommendation": "..."
+  },
+  "slaneysMethodologyNotes": "..."
+}
+```
+
+### 2. Import Validation Fix ✅
+
+**What:** Removed arbitrary time limits to support all race distances
+
+**Change:**
+- BEFORE: Time range 60000-240000 cs (10:00-40:00 limit)
+- AFTER: Only validates time > 0 cs (supports XC, 10K, marathon, track)
+
+**Rationale:** "We don't want those validation limits as we might import 10K or marathon results"
+
+**Files:** `/code/importers/import_csv_data.py`
+
+**Result:** Validation passed on 1633 results, but import failed for different reason (see Issue 1)
+
+### 3. Season Page Select All Feature ✅
+
+**What:** Added Select All/Deselect All for schools filter
+
+**Implementation:**
+- `toggleAllSchools()` function
+- Dynamic button text based on selection state
+- Simplifies multi-school combined race analysis
+
+**Files:** `/app/season/page.tsx`
+
+### 4. School League/Division Fields (Partial) ⏳
+
+**What:** Started foundation for filtering schools by league/division
+
+**Done:**
+- School interface added to maintenance page
+- State management implemented
+- `loadSchools()` function created
+- SQL migration created: `ADD_SCHOOL_FIELDS.sql`
+
+**Not Done:**
+- SQL migration NOT executed in Supabase
+- UI implementation incomplete
+- No dropdowns for league/subleague/division yet
+
+**Dropdown Values Needed:**
+- **Leagues:** BVAL, WCAL, SCVAL, PAL, PCAL
+- **BVAL Subleagues:** Mt Hamilton Division, Valley Division, West Valley Division
+- **CIF Divisions:** Division 1, Division 2, Division 3, Division 4, Division 5
+
+### 5. Batch Import Infrastructure ✅
+
+**What:** Created scripts for importing multiple schools
+
+**Files Created:**
+- `/code/importers/batch_import_schools.py` - Batch import all BVAL/Division 2 schools
+- `/code/importers/find_school_ids.py` - Selenium script to find Athletic.net school IDs
+
+**Status:** Scripts created, school ID lookup may be running in background
+
+**Schools Target:** 40+ schools (All BVAL + All Division 2, some overlap)
+
+---
+
+## Next Sprint Priorities (UPDATED)
+
+### CRITICAL PRIORITY (BLOCKING):
+
+1. **Fix Import Failure** - Debug why 0/1633 results were imported
+   - Investigate `import_csv_data.py` athlete/race creation logic
+   - Check CSV structure vs expectations
+   - Add verbose logging
+   - Test stage by stage
+
+### HIGH PRIORITY:
+
+2. **Complete Manual Editing UI** - Required for data quality
+   - Run SQL migration `ADD_SCHOOL_FIELDS.sql` in Supabase dashboard
+   - Complete Schools section with league/subleague/division dropdowns
+   - Add Venues section (full CRUD: add, edit, delete)
+   - Add Course-venue assignment to Courses section
+   - Add Meets section for venue editing
+   - Add course distance editing
+
+3. **Optimize Scraper** - Fix venue/distance extraction
+   - Debug meets 254429, 254535 specifically
+   - Fix why only Montgomery Hill Park extracted
+   - Fix Baylands course distance extraction
+   - Review `athletic_net_scraper_v2.py` venue extraction logic
+
+4. **Batch Import Schools** - Import all BVAL/Division 2 schools
+   - Check `/tmp/school_ids.txt` for results
+   - Update `batch_import_schools.py` with IDs
+   - Run batch import
+
+### MEDIUM PRIORITY (Post-Fix):
+
+5. Interactive import validation (data preview before commit)
+6. Real-time progress streaming to UI
+7. Individual athlete detail pages (`/athletes/[id]/page.tsx`)
+8. Individual school detail pages (`/schools/[id]/page.tsx`)
+
+### LOW PRIORITY:
+
+9. Athlete deduplication UI
 10. Historical Excel data migration
 
 ---
@@ -317,11 +532,11 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 28, 2025
-**System Status**: 🟢 Production Ready (Import System v1.0, Website on Vercel)
-**Current Phase**: Phase 2 Planning (Interactive Validation)
-**Deployment**: Vercel (manaxc.vercel.app) - switched from Cloudflare Pages
-**Next Session Goal**: TBD by user
+**Last Updated**: October 28, 2025 (Late Sprint - AI/Data Quality/Admin Tools)
+**System Status**: 🔴 CRITICAL ISSUE - Import Failing (0/1633 results imported)
+**Current Phase**: Data Quality + Admin Tools (Manual Editing UI, Scraper Optimization)
+**Deployment**: Vercel (manaxc.vercel.app)
+**Next Session Goal**: Fix import failure, complete manual editing UI
 
 ---
 

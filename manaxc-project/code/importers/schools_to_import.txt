@@ -1,0 +1,48 @@
+# BVAL Schools
+Andrew Hill High School
+Branham High School
+Christopher High School
+Del Mar High School
+Evergreen Valley High School
+Gilroy High School
+Gunderson High School
+Independence High School
+James Lick High School
+Leigh High School
+Leland High School
+Lincoln High School
+Live Oak High School
+Mt Pleasant High School
+Oak Grove High School
+Overfelt High School
+Piedmont Hills High School
+Pioneer High School
+Prospect High School
+San Jose High School
+Santa Teresa High School
+Silver Creek High School
+Sobrato High School
+Westmont High School
+Willow Glen High School
+Yerba Buena High School
+
+# Division 2 Schools (additional - some overlap with BVAL)
+Andrew Hill
+Branham
+Archbishop Mitty
+Cupertino
+Everett Alvarez
+Fremont
+Gunn
+Junipero Serra
+Leigh
+Los Gatos
+Lynbrook
+Mountain View
+Palo Alto
+Piedmont Hills
+Rancho San Juan
+Saint Francis
+Santa Clara
+Sequoia
+Westmont

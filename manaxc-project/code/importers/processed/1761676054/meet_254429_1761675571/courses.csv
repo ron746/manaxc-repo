@@ -1,0 +1,2 @@
+athletic_net_id,name,venue_name,distance_meters,distance_display,difficulty_rating,needs_review,needs_records_scraping
+,"Unknown Venue, Unknown Distance",Unknown Venue,0,Unknown Distance,5.0,True,False

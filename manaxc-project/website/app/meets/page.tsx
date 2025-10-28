@@ -128,7 +128,7 @@ export default function MeetsPage() {
     if (sortField !== field) {
       return <span className="text-zinc-400">↕</span>
     }
-    return <span className="text-cyan-600">{sortDirection === 'asc' ? '↑' : '↓'}</span>
+    return <span className="text-blue-600">{sortDirection === 'asc' ? '↑' : '↓'}</span>
   }
 
   const formatDate = (dateStr: string) => {
@@ -147,26 +147,26 @@ export default function MeetsPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800 flex items-center justify-center">
-        <div className="text-xl font-semibold text-white">Loading meets...</div>
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="text-xl font-semibold text-zinc-900">Loading meets...</div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800">
+    <div className="min-h-screen bg-white">
       <div className="container mx-auto px-6 py-8">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-white mb-2">Cross Country Meets</h1>
-          <p className="text-zinc-400">{meets.length} total meets</p>
+          <h1 className="text-4xl font-bold text-zinc-900 mb-2">Cross Country Meets</h1>
+          <p className="text-zinc-600">{meets.length} total meets</p>
         </div>
 
         {/* Filters */}
-        <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-6 mb-6 border border-zinc-700">
+        <div className="bg-zinc-50 rounded-lg p-6 mb-6 border border-zinc-200">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
-              <label className="block text-sm font-medium text-zinc-300 mb-2">
+              <label className="block text-sm font-medium text-zinc-700 mb-2">
                 Season
               </label>
               <select
@@ -175,7 +175,7 @@ export default function MeetsPage() {
                   setSeasonFilter(e.target.value)
                   setCurrentPage(1)
                 }}
-                className="w-full px-4 py-2 bg-zinc-900 border border-zinc-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                className="w-full px-4 py-2 bg-white border border-zinc-300 rounded-lg text-zinc-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option value="all">All Seasons</option>
                 {seasons.map(season => (
@@ -185,7 +185,7 @@ export default function MeetsPage() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-zinc-300 mb-2">
+              <label className="block text-sm font-medium text-zinc-700 mb-2">
                 Meet Type
               </label>
               <select
@@ -194,7 +194,7 @@ export default function MeetsPage() {
                   setMeetTypeFilter(e.target.value)
                   setCurrentPage(1)
                 }}
-                className="w-full px-4 py-2 bg-zinc-900 border border-zinc-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                className="w-full px-4 py-2 bg-white border border-zinc-300 rounded-lg text-zinc-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option value="all">All Types</option>
                 {meetTypes.map(type => (
@@ -210,7 +210,7 @@ export default function MeetsPage() {
                   setMeetTypeFilter('all')
                   setCurrentPage(1)
                 }}
-                className="w-full px-4 py-2 bg-zinc-700 hover:bg-zinc-600 text-white rounded-lg transition-colors"
+                className="w-full px-4 py-2 bg-zinc-200 hover:bg-zinc-300 text-zinc-900 rounded-lg transition-colors"
               >
                 Clear Filters
               </button>
@@ -219,19 +219,19 @@ export default function MeetsPage() {
         </div>
 
         {/* Results Summary */}
-        <div className="mb-4 text-sm text-zinc-400">
+        <div className="mb-4 text-sm text-zinc-600">
           Showing {startIndex + 1}-{Math.min(endIndex, sortedMeets.length)} of {sortedMeets.length} meets
         </div>
 
         {/* Meets Table */}
-        <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg shadow-xl overflow-hidden border border-zinc-700">
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-zinc-200">
           <div className="overflow-x-auto">
             <table className="min-w-full">
               <thead>
-                <tr className="border-b border-zinc-700 bg-zinc-900/50">
+                <tr className="border-b border-zinc-200 bg-zinc-50">
                   <th
                     onClick={() => handleSort('meet_date')}
-                    className="py-4 px-6 text-left font-bold text-white cursor-pointer hover:bg-zinc-800/50 transition-colors"
+                    className="py-4 px-6 text-left font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
                   >
                     <div className="flex items-center gap-2">
                       Date <SortIcon field="meet_date" />
@@ -239,29 +239,29 @@ export default function MeetsPage() {
                   </th>
                   <th
                     onClick={() => handleSort('name')}
-                    className="py-4 px-6 text-left font-bold text-white cursor-pointer hover:bg-zinc-800/50 transition-colors"
+                    className="py-4 px-6 text-left font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
                   >
                     <div className="flex items-center gap-2">
                       Meet Name <SortIcon field="name" />
                     </div>
                   </th>
-                  <th className="py-4 px-6 text-left font-bold text-white">
+                  <th className="py-4 px-6 text-left font-bold text-zinc-900">
                     Venue
                   </th>
                   <th
                     onClick={() => handleSort('meet_type')}
-                    className="py-4 px-6 text-left font-bold text-white cursor-pointer hover:bg-zinc-800/50 transition-colors"
+                    className="py-4 px-6 text-left font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
                   >
                     <div className="flex items-center gap-2">
                       Type <SortIcon field="meet_type" />
                     </div>
                   </th>
-                  <th className="py-4 px-6 text-center font-bold text-white">
+                  <th className="py-4 px-6 text-center font-bold text-zinc-900">
                     Races
                   </th>
                   <th
                     onClick={() => handleSort('season_year')}
-                    className="py-4 px-6 text-center font-bold text-white cursor-pointer hover:bg-zinc-800/50 transition-colors"
+                    className="py-4 px-6 text-center font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
                   >
                     <div className="flex items-center justify-center gap-2">
                       Season <SortIcon field="season_year" />
@@ -272,7 +272,7 @@ export default function MeetsPage() {
               <tbody>
                 {currentMeets.length === 0 ? (
                   <tr>
-                    <td colSpan={6} className="py-12 text-center text-zinc-400">
+                    <td colSpan={6} className="py-12 text-center text-zinc-500">
                       No meets found
                     </td>
                   </tr>
@@ -280,20 +280,20 @@ export default function MeetsPage() {
                   currentMeets.map((meet) => (
                     <tr
                       key={meet.id}
-                      className="border-b border-zinc-700 hover:bg-zinc-800/30 transition-colors"
+                      className="border-b border-zinc-100 hover:bg-zinc-50 transition-colors"
                     >
-                      <td className="py-4 px-6 text-zinc-300">
+                      <td className="py-4 px-6 text-zinc-700">
                         {formatDate(meet.meet_date)}
                       </td>
                       <td className="py-4 px-6">
                         <Link
                           href={`/meets/${meet.id}`}
-                          className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors"
+                          className="text-blue-600 hover:text-blue-800 hover:underline font-medium transition-colors"
                         >
                           {meet.name}
                         </Link>
                       </td>
-                      <td className="py-4 px-6 text-zinc-300">
+                      <td className="py-4 px-6 text-zinc-700">
                         {meet.venue ? (
                           <div>
                             <div className="font-medium">{meet.venue.name}</div>
@@ -307,13 +307,13 @@ export default function MeetsPage() {
                           <span className="text-zinc-500">N/A</span>
                         )}
                       </td>
-                      <td className="py-4 px-6 text-zinc-300">
+                      <td className="py-4 px-6 text-zinc-700">
                         {formatMeetType(meet.meet_type)}
                       </td>
-                      <td className="py-4 px-6 text-center text-zinc-300">
+                      <td className="py-4 px-6 text-center text-zinc-700">
                         {meet.race_count}
                       </td>
-                      <td className="py-4 px-6 text-center text-zinc-300">
+                      <td className="py-4 px-6 text-center text-zinc-700">
                         {meet.season_year}
                       </td>
                     </tr>
@@ -330,7 +330,7 @@ export default function MeetsPage() {
             <button
               onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
               disabled={currentPage === 1}
-              className="px-4 py-2 bg-zinc-700 text-white rounded-lg hover:bg-zinc-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Previous
             </button>
@@ -354,8 +354,8 @@ export default function MeetsPage() {
                     onClick={() => setCurrentPage(pageNum)}
                     className={`px-4 py-2 rounded-lg transition-colors ${
                       currentPage === pageNum
-                        ? 'bg-cyan-600 text-white'
-                        : 'bg-zinc-700 text-white hover:bg-zinc-600'
+                        ? 'bg-blue-600 text-white'
+                        : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300'
                     }`}
                   >
                     {pageNum}
@@ -367,7 +367,7 @@ export default function MeetsPage() {
             <button
               onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
               disabled={currentPage === totalPages}
-              className="px-4 py-2 bg-zinc-700 text-white rounded-lg hover:bg-zinc-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Next
             </button>

@@ -34,7 +34,27 @@ export default function AdminPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Athletic.net Importer</h1>
+      <h1 className="text-3xl font-bold mb-4 text-white">Admin Dashboard</h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <a
+          href="/admin/maintenance"
+          className="bg-gradient-to-br from-cyan-600 to-cyan-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-cyan-500"
+        >
+          <h2 className="text-2xl font-bold text-white mb-2">Data Maintenance</h2>
+          <p className="text-cyan-100">Update course ratings, merge athletes, and edit results</p>
+        </a>
+
+        <a
+          href="/admin/import"
+          className="bg-gradient-to-br from-blue-600 to-blue-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-blue-500"
+        >
+          <h2 className="text-2xl font-bold text-white mb-2">Data Import</h2>
+          <p className="text-blue-100">Import data from Athletic.net</p>
+        </a>
+      </div>
+
+      <h2 className="text-2xl font-bold mb-4 text-white">Quick Import</h2>
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
         <div className="mb-4">
           <label htmlFor="schoolId" className="block text-white mb-2">

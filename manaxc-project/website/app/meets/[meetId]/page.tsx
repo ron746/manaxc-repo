@@ -33,6 +33,7 @@ interface Race {
     school_name: string
     school_id: string
     score: number
+    team_time_cs: number
   }
 }
 
@@ -155,16 +156,18 @@ export default function MeetDetailPage() {
             }
           })
 
-          const teamScores: Array<{school_id: string, school_name: string, score: number}> = []
+          const teamScores: Array<{school_id: string, school_name: string, score: number, team_time_cs: number}> = []
           bySchool.forEach((schoolResults, schoolId) => {
             if (schoolResults.length >= 5) {
               const sorted = [...schoolResults].sort((a, b) => (a.place_overall || 999) - (b.place_overall || 999))
               const top5 = sorted.slice(0, 5)
               const score = top5.reduce((sum, r) => sum + (r.place_overall || 0), 0)
+              const teamTime = top5.reduce((sum, r) => sum + r.time_cs, 0)
               teamScores.push({
                 school_id: schoolId,
                 school_name: schoolResults[0].school_name,
-                score
+                score,
+                team_time_cs: teamTime
               })
             }
           })
@@ -376,8 +379,18 @@ export default function MeetDetailPage() {
 
         {/* Meet Header */}
         <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-8 mb-8 border border-zinc-700">
-          <h1 className="text-4xl font-bold text-white mb-2">{meet.name}</h1>
-          <div className="text-lg text-zinc-300 mb-6">{formatDate(meet.meet_date)}</div>
+          <div className="flex items-start justify-between mb-2">
+            <div>
+              <h1 className="text-4xl font-bold text-white mb-2">{meet.name}</h1>
+              <div className="text-lg text-zinc-300 mb-6">{formatDate(meet.meet_date)}</div>
+            </div>
+            <Link
+              href={`/meets/${meetId}/combined-race`}
+              className="px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg font-semibold transition-colors"
+            >
+              Combined Race Projection
+            </Link>
+          </div>
 
           {/* Inline stats below date */}
           <div className="flex flex-wrap gap-6 text-sm mb-6">
@@ -560,6 +573,7 @@ export default function MeetDetailPage() {
                         <span className="text-zinc-400 text-sm">Team Winner</span>
                         <div className="text-right">
                           <div className="text-cyan-400 font-bold text-sm">{race.team_winner.score} points</div>
+                          <div className="text-zinc-300 font-mono text-xs">{formatTime(race.team_winner.team_time_cs)}</div>
                           <div className="text-white text-xs">{race.team_winner.school_name}</div>
                         </div>
                       </div>
