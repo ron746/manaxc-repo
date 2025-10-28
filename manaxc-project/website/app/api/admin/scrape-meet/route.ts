@@ -22,7 +22,7 @@ export async function POST(request: Request) {
 
   try {
     // Run the scraper
-    const scrapeCommand = `cd ${importersPath} && venv/bin/python3 "${scraperScript}" --meet ${meetId}`;
+    const scrapeCommand = `cd ${importersPath} && venv/bin/python3 "${scraperScript}" meet ${meetId}`;
     console.log(`Executing: ${scrapeCommand}`);
 
     const { stdout, stderr } = await execAsync(scrapeCommand, {
