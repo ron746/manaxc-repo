@@ -463,7 +463,7 @@ export default function RaceResultsPage() {
                           {formatTime(result.time_cs)}
                         </td>
                         <td className="py-4 px-6 text-right font-mono text-zinc-400 text-sm">
-                          {formatPace(calculatePace(result.time_cs, race.distance_meters))}
+                          {formatPace(result.time_cs, race.distance_meters)}
                         </td>
                       </tr>
                     ))}
