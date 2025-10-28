@@ -11,9 +11,10 @@ interface Meet {
   meet_date: string
   season_year: number
   meet_type: string | null
-  course: {
+  venue: {
     name: string
-    location: string | null
+    city: string | null
+    state: string | null
   } | null
   race_count: number
 }
@@ -39,7 +40,7 @@ export default function MeetsPage() {
     try {
       setLoading(true)
 
-      // Get meets with course info and race counts
+      // Get meets with venue info and race counts
       const { data: meetsData, error } = await supabase
         .from('meets')
         .select(`
@@ -48,9 +49,10 @@ export default function MeetsPage() {
           meet_date,
           season_year,
           meet_type,
-          course:courses(
+          venue:venues(
             name,
-            location
+            city,
+            state
           ),
           races(id)
         `)
@@ -64,7 +66,7 @@ export default function MeetsPage() {
         meet_date: meet.meet_date,
         season_year: meet.season_year,
         meet_type: meet.meet_type,
-        course: meet.course as { name: string; location: string | null } | null,
+        venue: meet.venue as { name: string; city: string | null; state: string | null } | null,
         race_count: meet.races?.length || 0
       })) || []
 
@@ -244,7 +246,7 @@ export default function MeetsPage() {
                     </div>
                   </th>
                   <th className="py-4 px-6 text-left font-bold text-white">
-                    Course
+                    Venue
                   </th>
                   <th
                     onClick={() => handleSort('meet_type')}
@@ -292,11 +294,13 @@ export default function MeetsPage() {
                         </Link>
                       </td>
                       <td className="py-4 px-6 text-zinc-300">
-                        {meet.course ? (
+                        {meet.venue ? (
                           <div>
-                            <div className="font-medium">{meet.course.name}</div>
-                            {meet.course.location && (
-                              <div className="text-sm text-zinc-500">{meet.course.location}</div>
+                            <div className="font-medium">{meet.venue.name}</div>
+                            {(meet.venue.city || meet.venue.state) && (
+                              <div className="text-sm text-zinc-500">
+                                {[meet.venue.city, meet.venue.state].filter(Boolean).join(', ')}
+                              </div>
                             )}
                           </div>
                         ) : (

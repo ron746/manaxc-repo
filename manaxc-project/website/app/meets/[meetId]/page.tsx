@@ -12,11 +12,10 @@ interface Meet {
   meet_date: string
   season_year: number
   meet_type: string | null
-  location: string | null
-  course: {
+  venue: {
     name: string
-    location: string | null
-    distance_meters: number
+    city: string | null
+    state: string | null
   } | null
 }
 
@@ -57,11 +56,10 @@ export default function MeetDetailPage() {
           meet_date,
           season_year,
           meet_type,
-          location,
-          course:courses(
+          venue:venues(
             name,
-            location,
-            distance_meters
+            city,
+            state
           )
         `)
         .eq('id', meetId)
@@ -210,12 +208,14 @@ export default function MeetDetailPage() {
             </div>
 
             <div>
-              <div className="text-sm text-zinc-400 mb-1">Course</div>
-              {meet.course ? (
+              <div className="text-sm text-zinc-400 mb-1">Venue</div>
+              {meet.venue ? (
                 <div>
-                  <div className="text-white font-medium">{meet.course.name}</div>
-                  {meet.course.location && (
-                    <div className="text-sm text-zinc-500">{meet.course.location}</div>
+                  <div className="text-white font-medium">{meet.venue.name}</div>
+                  {(meet.venue.city || meet.venue.state) && (
+                    <div className="text-sm text-zinc-500">
+                      {[meet.venue.city, meet.venue.state].filter(Boolean).join(', ')}
+                    </div>
                   )}
                 </div>
               ) : (
