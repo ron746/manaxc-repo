@@ -68,7 +68,7 @@ export default function MeetDetailPage() {
         .single()
 
       if (meetError) throw meetError
-      setMeet(meetData as Meet)
+      setMeet(meetData as any) // TODO: Fix type mismatch
 
       // Load races with result counts and winning times
       const { data: racesData, error: racesError } = await supabase
