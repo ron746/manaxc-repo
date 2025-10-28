@@ -320,7 +320,73 @@ echo "DELETE ALL DATA" | venv/bin/python3 clear_database.py
 
 ---
 
-## Latest Sprint Work (Oct 28, 2025 - Late Sprint)
+## Latest Sprint Work (Oct 28, 2025 - Evening Sprint)
+
+### 1. Course Records & Team Performances ✅
+
+**What:** Moved course records to main course detail page and enhanced team performance calculations
+
+**Key Changes:**
+- Moved course records from separate `/courses/[id]/records` page to main `/courses/[id]` page
+- Added overall course records (fastest time ever) for boys and girls
+- Added grade-level records (9th-12th) for boys and girls with color-coded cards
+- Updated team performance calculation algorithm:
+  - OLD: Average of top 7 runners across all races
+  - NEW: Combined time of top 5 runners in a single race
+- Only teams with exactly 5 runners count as valid team scores
+- Reordered sections: Course Records → Team Performances → Meets
+- Removed stats cards showing 0 (Total Meets, Total Results, Boys/Girls Results)
+
+**Files Changed:**
+- `/app/courses/[id]/page.tsx` - Main course detail page with records and performances
+- `/app/courses/[id]/records/page.tsx` - Old records page (deprecated, may need removal)
+- `/app/courses/page.tsx` - Courses listing page
+- `/app/meets/page.tsx` - Meets listing page
+- `/components/layout/Header.tsx` - Navigation header
+- `/lib/supabase/queries.ts` - Database queries
+
+**Team Scoring Algorithm:**
+```typescript
+// Group results by race first, then by school within each race
+byRace[raceId][schoolId] = results
+// For each school in each race:
+//   Sort by time, take top 5
+//   Only count if exactly 5 runners
+//   Calculate combined time (sum of top 5)
+// Sort all performances by combined time
+// Display top 5
+```
+
+**Grade Calculation:**
+```typescript
+const grade = 12 - (athlete.grad_year - seasonYear)
+```
+
+**Known Issues:**
+- Data accuracy concern with Willow Glen results not showing correctly
+- User reported faster times not appearing in records or team performances
+- Added extensive debug logging to investigate (console.log statements)
+- Debug logging checks:
+  - Total results fetched for course
+  - Willow Glen results specifically (count, sample times)
+  - Race groupings and school participation
+  - Whether schools have 5 runners per race
+  - Top 5 team performances
+
+**Next Steps:**
+1. Check browser console on http://localhost:3000/courses/80cbf969-ceea-4145-9565-c3c68cebe99f
+2. Verify debug output shows Willow Glen results
+3. Investigate why certain results may be filtered out
+4. Consider adjusting team composition requirements if needed
+5. Remove debug logging once issue is resolved
+
+**Documentation Created:**
+- `/website/CLAUDE_PROMPT.md` - Detailed sprint documentation with technical details
+- `/website/README.md` - Updated with current project state and features
+
+---
+
+## Previous Sprint Work (Oct 28, 2025 - Late Sprint)
 
 ### 1. AI Course Difficulty Enhancement ✅
 
@@ -532,11 +598,11 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 28, 2025 (Late Sprint - AI/Data Quality/Admin Tools)
-**System Status**: 🔴 CRITICAL ISSUE - Import Failing (0/1633 results imported)
-**Current Phase**: Data Quality + Admin Tools (Manual Editing UI, Scraper Optimization)
+**Last Updated**: October 28, 2025 (Evening Sprint - Course Records & Team Performances)
+**System Status**: 🟡 INVESTIGATING - Course records data accuracy issue (Willow Glen results)
+**Current Phase**: Frontend Features (Course Records, Team Performances, Data Debugging)
 **Deployment**: Vercel (manaxc.vercel.app)
-**Next Session Goal**: Fix import failure, complete manual editing UI
+**Next Session Goal**: Investigate Willow Glen data accuracy, create course performances page
 
 ---
 
