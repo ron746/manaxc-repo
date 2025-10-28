@@ -23,7 +23,7 @@ if [ -d "app/api" ]; then
 fi
 
 echo "🔨 Building static site..."
-npm run build
+npx next build
 
 echo "♻️  Restoring admin and API directories..."
 # Restore directories

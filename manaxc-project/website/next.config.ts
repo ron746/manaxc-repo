@@ -1,12 +1,16 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
-  output: 'export',  // Required for Cloudflare Pages static hosting
+  // Removed output: 'export' to enable full Next.js features (API routes, dynamic routes)
+  // This configuration works with Vercel deployment
   images: {
     unoptimized: true
   },
-  // Enable trailing slashes for better static hosting compatibility
-  trailingSlash: true,
+  // Set Turbopack root to the website directory to prevent scanning parent directories
+  turbopack: {
+    root: path.resolve(__dirname, "."),
+  },
 };
 
 export default nextConfig;
