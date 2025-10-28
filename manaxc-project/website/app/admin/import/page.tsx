@@ -9,7 +9,7 @@ type ImportLog = {
 
 export default function ImportPage() {
   const [meetUrl, setMeetUrl] = useState("");
-  const [isScr aping, setIsScraping] = useState(false);
+  const [isScraping, setIsScraping] = useState(false);
   const [isImporting, setIsImporting] = useState(false);
   const [logs, setLogs] = useState<ImportLog[]>([]);
   const [availableImports, setAvailableImports] = useState<string[]>([]);
