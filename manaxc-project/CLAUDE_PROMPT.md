@@ -16,10 +16,10 @@ of the ManaXC project and what we're working on.
 ## Project Overview
 
 **ManaXC** is a cross-country race management and analytics platform built with:
-- **Frontend**: Next.js 15, React, TypeScript, Tailwind CSS
+- **Frontend**: Next.js 16.0.0, React 19, TypeScript, Tailwind CSS
 - **Backend**: Supabase (PostgreSQL)
 - **Data Pipeline**: Python 3.13 (Selenium-based web scraping)
-- **Deployment**: Cloudflare Pages
+- **Deployment**: Vercel (switched from Cloudflare Pages Oct 28, 2025)
 
 **Primary Goal**: Import, manage, and analyze cross-country race data from Athletic.net and historical sources.
 
@@ -29,10 +29,12 @@ of the ManaXC project and what we're working on.
 
 ### ✅ Production Ready Components
 
-1. **Website** (Cloudflare Pages)
-   - Deployed at: https://manaxc-website.pages.dev
-   - Working pages: Home, About, Meets, Schools, Athletes (list views)
-   - Features: Responsive design, meet listings, athlete search
+1. **Website** (Vercel)
+   - **Production URL**: https://manaxc.vercel.app/
+   - **Deployment**: Automatic via GitHub integration
+   - **Working pages**: Home, Meets, Schools, Athletes, Courses (all list and detail views)
+   - **Features**: Responsive design, dynamic routes, API routes, server-side rendering
+   - **Admin UI**: `/admin/import` for data import operations
 
 2. **Athletic.net Import System** (v1.0 - Sprint Complete Oct 27, 2025)
    - **Status**: 🟢 Fully Operational
@@ -135,6 +137,28 @@ of the ManaXC project and what we're working on.
 3. **Graduation Year** - Fixed formula: `season_year + (13 - grade)` (accounts for athletic calendar July 1 - June 30)
 4. **Duplicate Handling** - Fixed NULL handling and batch insert fallback
 5. **Race-to-Meet Mapping** - Fixed by building map during race import
+
+### Deployment Platform Switch (Oct 28, 2025)
+
+**Migration: Cloudflare Pages → Vercel**
+
+**Why the switch?**
+- Cloudflare Pages requires static export (`output: 'export'`) which breaks:
+  - API routes (needed for `/admin/import` functionality)
+  - Dynamic routes without `generateStaticParams()` (11 routes would need implementation)
+- Vercel has native Next.js 16 support (Vercel created Next.js)
+- Full support for server-side rendering, API routes, and dynamic routes
+
+**Key Configuration Changes:**
+1. Removed `output: 'export'` from `next.config.ts`
+2. Added `turbopack.root` config to prevent symlink errors from parent directories
+3. Build command remains `npm run build` (standard Next.js build)
+
+**Lessons Learned:**
+- Next.js 16 static export is incompatible with API routes
+- Dynamic routes in static export require `generateStaticParams()` for every [param] route
+- Turbopack scans parent directories by default, causing issues with Python venv symlinks
+- Vercel deployment "just works" with Next.js 16 - no configuration gymnastics needed
 
 ### Environment Setup
 
@@ -251,9 +275,9 @@ echo "DELETE ALL DATA" | venv/bin/python3 clear_database.py
 - Review `to-be-processed/*/metadata.json` for scrape stats
 
 ### Website Issues
-- Verify Cloudflare Pages build settings (Next.js, `npm run build`)
-- Check environment variables in Cloudflare dashboard
-- Review build logs for deployment errors
+- Check Vercel build logs for deployment errors
+- Verify environment variables in Vercel dashboard (NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY)
+- Ensure `turbopack.root` config is set in next.config.ts to prevent parent directory scanning
 
 ### Data Quality Issues
 - All gender/race/grad year bugs have been fixed (v2 scraper)
@@ -292,9 +316,10 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 27, 2025
-**System Status**: 🟢 Production Ready (Import System v1.0)
+**Last Updated**: October 28, 2025
+**System Status**: 🟢 Production Ready (Import System v1.0, Website on Vercel)
 **Current Phase**: Phase 2 Planning (Interactive Validation)
+**Deployment**: Vercel (manaxc.vercel.app) - switched from Cloudflare Pages
 **Next Session Goal**: TBD by user
 
 ---
