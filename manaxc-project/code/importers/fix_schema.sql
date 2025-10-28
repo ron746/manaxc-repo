@@ -25,16 +25,26 @@ ALTER TABLE meets
 ADD COLUMN IF NOT EXISTS venue_id UUID REFERENCES venues(id);
 
 -- Copy existing course → venue relationships (if any data exists)
--- This assumes meets.course_id was pointing to a course, and we want the venue of that course
-UPDATE meets m
-SET venue_id = c.venue_id
-FROM courses c
-WHERE m.course_id = c.id
-AND m.venue_id IS NULL;
+-- Only run if course_id column exists
+DO $$
+BEGIN
+    IF EXISTS (SELECT 1 FROM information_schema.columns
+               WHERE table_name='meets' AND column_name='course_id') THEN
+        UPDATE meets m
+        SET venue_id = c.venue_id
+        FROM courses c
+        WHERE m.course_id = c.id
+        AND m.venue_id IS NULL;
+    END IF;
+END $$;
 
 -- Remove host_school_id (not needed per Ron's clarification)
 ALTER TABLE meets
 DROP COLUMN IF EXISTS host_school_id;
+
+-- Remove course_id if it exists (meets should reference venues, not courses)
+ALTER TABLE meets
+DROP COLUMN IF EXISTS course_id;
 
 -- Make venue_id NOT NULL after data migration
 -- (Comment out if you want to keep it nullable during transition)
@@ -85,12 +95,19 @@ BEGIN
     END IF;
 END $$;
 
--- Races
+-- Races - add athletic_net_race_id if it doesn't exist
+ALTER TABLE races
+ADD COLUMN IF NOT EXISTS athletic_net_race_id TEXT;
+
+-- Rename from ath_net_race_id if it exists
 DO $$
 BEGIN
     IF EXISTS (SELECT 1 FROM information_schema.columns
                WHERE table_name='races' AND column_name='ath_net_race_id') THEN
-        ALTER TABLE races RENAME COLUMN ath_net_race_id TO athletic_net_race_id;
+        -- Copy data first
+        UPDATE races SET athletic_net_race_id = ath_net_race_id WHERE athletic_net_race_id IS NULL;
+        -- Drop old column
+        ALTER TABLE races DROP COLUMN ath_net_race_id;
     END IF;
 END $$;
 
@@ -115,7 +132,7 @@ CREATE INDEX IF NOT EXISTS idx_meets_athletic_net_id
 ON meets(athletic_net_id);
 
 CREATE INDEX IF NOT EXISTS idx_races_athletic_net_race_id
-ON races(athletic_net_race_id);
+ON races(athletic_net_race_id) WHERE athletic_net_race_id IS NOT NULL;
 
 
 -- ==============================================================================

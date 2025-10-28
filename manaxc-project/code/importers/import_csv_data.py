@@ -370,16 +370,14 @@ def import_csv_folder(
         if existing.data:
             athlete_map[(athlete['name'], athlete['school_athletic_net_id'])] = existing.data[0]['id']
         else:
-            # Convert gender string to boolean (schema says BOOLEAN)
-            gender_bool = athlete['gender'] == 'M'
-
+            # Keep gender as text 'M' or 'F' (schema has check constraint)
             athlete_data = {
                 'name': athlete['name'],  # Combined name field in current schema
                 'first_name': athlete['first_name'],
                 'last_name': athlete['last_name'],
                 'school_id': school_db_id,
                 'grad_year': int(athlete['grad_year']),
-                'gender': gender_bool,  # Boolean field
+                'gender': athlete['gender'],  # Keep as 'M' or 'F' text
                 'athletic_net_id': athlete.get('athletic_net_id') or ''
             }
             response = supabase.table('athletes').insert(athlete_data).execute()
@@ -435,19 +433,24 @@ def import_csv_folder(
             print(f"  ⚠️  Skipping race - no course available")
             continue
 
-        # Convert gender string to boolean
-        gender_bool = race['gender'] == 'M'
+        # Check if race already exists
+        existing = supabase.table('races').select('id').eq('meet_id', meet_db_id).eq('name', race['name']).eq('gender', race['gender']).execute()
 
-        race_data = {
-            'meet_id': meet_db_id,
-            'course_id': course_id,  # Races are on courses
-            'name': race['name'],
-            'gender': gender_bool,  # Boolean field
-            'athletic_net_race_id': race['athletic_net_race_id']
-        }
-        response = supabase.table('races').insert(race_data).execute()
-        race_id_map[race['athletic_net_race_id']] = response.data[0]['id']
-        stats['races_created'] += 1
+        if existing.data:
+            race_id_map[race['athletic_net_race_id']] = existing.data[0]['id']
+        else:
+            # Keep gender as text 'M' or 'F' (schema has check constraint)
+            race_data = {
+                'meet_id': meet_db_id,
+                'course_id': course_id,  # Races are on courses
+                'name': race['name'],
+                'gender': race['gender'],  # Keep as 'M' or 'F' text
+                'distance_meters': int(race['distance_meters']),  # Required field
+                'athletic_net_race_id': race['athletic_net_race_id']
+            }
+            response = supabase.table('races').insert(race_data).execute()
+            race_id_map[race['athletic_net_race_id']] = response.data[0]['id']
+            stats['races_created'] += 1
 
     print(f"  ✅ Created {stats['races_created']} races")
 
@@ -469,13 +472,17 @@ def import_csv_folder(
             stats['skipped_results'] += 1
             continue
 
+        # Get meet_id from race
+        race_meet_id = meet_id_map.get(result['athletic_net_race_id'].split('_race_')[0])
+
         result_data = {
             'race_id': race_db_id,
             'athlete_id': athlete_db_id,
+            'meet_id': race_meet_id,  # Required field
             'time_cs': int(result['time_cs']),
             'place_overall': int(result['place_overall']),
             'is_legacy_data': True,
-            'data_source': 'athletic_net_scraper_v2'
+            'data_source': 'athletic_net'  # Must be one of: excel_import, athletic_net, manual_import, scraper
         }
         results_to_import.append(result_data)
 
