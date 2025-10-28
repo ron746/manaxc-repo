@@ -30,7 +30,8 @@ of the ManaXC project and what we're working on.
 ### ✅ Production Ready Components
 
 1. **Website** (Vercel)
-   - **Production URL**: https://manaxc.vercel.app/
+   - **Primary URL**: https://manaxc.vercel.app/
+   - **Custom Domain**: https://manaxc.com (redirects to Vercel via Cloudflare Page Rules)
    - **Deployment**: Automatic via GitHub integration
    - **Working pages**: Home, Meets, Schools, Athletes, Courses (all list and detail views)
    - **Features**: Responsive design, dynamic routes, API routes, server-side rendering

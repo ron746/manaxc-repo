@@ -1,14 +1,43 @@
-# Adding Custom Domain to Vercel
+# Domain Configuration for Vercel Deployment
 
-This guide explains how to point your custom domain `manaxc.com` to your Vercel deployment.
+This guide explains the domain setup for the ManaXC website.
 
-## Current Status
+## Current Status (As of Oct 28, 2025)
 
-- **Vercel URL**: https://manaxc.vercel.app/ ✅ (Working)
-- **Custom Domain**: manaxc.com (Currently on Cloudflare Pages)
-- **Goal**: Point manaxc.com to Vercel deployment
+- **Primary URL**: https://manaxc.vercel.app/ ✅ (Vercel deployment)
+- **Custom Domain**: manaxc.com ✅ (Redirects to Vercel)
+- **Configuration**: Cloudflare Page Rules redirect to Vercel
+- **Status**: Fully operational
 
-## Steps to Add Custom Domain
+## Current Setup: Cloudflare Redirect (Implemented)
+
+We're using Cloudflare Page Rules to redirect `manaxc.com` to `manaxc.vercel.app`. This is simpler than pointing the domain directly to Vercel.
+
+### Active Cloudflare Page Rules:
+
+**Rule 1: Root domain redirect**
+- **URL Pattern**: `*manaxc.com/*`
+- **Action**: Forwarding URL
+- **Status Code**: 302 (Temporary Redirect)
+- **Destination**: `https://manaxc.vercel.app/$1`
+
+**Rule 2: www subdomain redirect**
+- **URL Pattern**: `www.manaxc.com/*`
+- **Action**: Forwarding URL
+- **Status Code**: 302 (Temporary Redirect)
+- **Destination**: `https://manaxc.vercel.app/$1`
+
+### How It Works:
+1. User visits `manaxc.com` or `www.manaxc.com`
+2. Cloudflare redirects them to `manaxc.vercel.app`
+3. URL in browser changes to show `manaxc.vercel.app`
+4. All paths are preserved (e.g., `/meets` → `/meets`)
+
+---
+
+## Alternative: Point Domain Directly to Vercel (Not Currently Used)
+
+If you want `manaxc.com` to stay in the browser URL bar (no redirect), you can point the domain directly to Vercel:
 
 ### 1. Add Domain in Vercel Dashboard
 
@@ -120,9 +149,13 @@ Note: The Cloudflare Pages builds will keep failing anyway since we removed `out
 5. Done! Your site is live at manaxc.com
 
 **Current working URLs:**
-- ✅ https://manaxc.vercel.app/ (always works)
-- 🔄 https://manaxc.com (will work after DNS setup)
+- ✅ https://manaxc.vercel.app/ (Primary Vercel deployment)
+- ✅ https://manaxc.com (Redirects to Vercel via Cloudflare Page Rules)
+- ✅ https://www.manaxc.com (Redirects to Vercel via Cloudflare Page Rules)
+
+**Configuration Type:** Cloudflare Redirect (simple, no DNS changes needed)
 
 ---
 
 **Last Updated**: October 28, 2025
+**Status**: Production - Redirects Active
