@@ -320,7 +320,98 @@ echo "DELETE ALL DATA" | venv/bin/python3 clear_database.py
 
 ---
 
-## Latest Sprint Work (Oct 28, 2025 - Evening Sprint)
+## Latest Sprint Work (Oct 28, 2025 - Filter Enhancement Sprint)
+
+### Athletic Calendar Grade Calculation & Filter Enhancements ✅
+
+**What:** Fixed grade calculations across all pages to use proper athletic calendar (July 1 - June 30) and enhanced filtering capabilities with checkbox-driven UI
+
+**Key Changes:**
+
+1. **Grade Calculation Fix - All Pages**
+   - Implemented `getGrade()` helper function accounting for July 1 - June 30 athletic year
+   - Formula: If meet month >= 6 (July-Dec), season year = meet year + 1, else season year = meet year
+   - Grade = 12 - (grad_year - season_year)
+   - Fixed pages: School records, School records performances, Course performances
+
+2. **School Records Performances Page** (`/schools/[id]/records/performances`)
+   - Complete rewrite to use optimized `school_course_records` table
+   - Changed from complex results joins to pre-computed best performances
+   - Added sidebar with Grade Level filter (FR, SO, JR, SR) with Select All
+   - Added Courses filter with Select All
+   - Added pagination (50 results per page)
+   - Layout: 25% sidebar, 75% main content
+   - Gender toggle: Boys/Girls buttons
+
+3. **School Detail Page** (`/schools/[id]`)
+   - Added CIF Section badge (purple)
+   - Added CIF Division badge (indigo)
+   - Added League badge (cyan)
+   - Added Subleague badge (teal)
+   - Reordered filters: Gender moved above Graduation Year
+
+4. **Schools List Page** (`/schools`)
+   - Converted from dropdown to checkbox-driven filters
+   - Filter order: State → CIF Section → CIF Division → League → Subleague
+   - Each filter has "Select All" checkbox
+   - Each filter has "Blank/Unknown" checkbox with count display
+   - Moved filters above schools list
+   - Fixed search box text color to darker for better visibility
+
+5. **Season Page** (`/season`)
+   - Reorganized filter sidebar order:
+     - Season Best or Personal Best (Radio buttons)
+     - Project Times to Course (Dropdown)
+     - Gender (Boys/Girls checkboxes)
+     - CIF Section (Checkboxes with Select All)
+     - CIF Division (Checkboxes with Select All)
+     - League (Checkboxes with Select All)
+     - Subleague (Checkboxes with Select All)
+     - Schools (Checkboxes with Select All)
+   - Added null/blank value support for all metadata filters
+   - Added blank counts for each filter type
+   - Confirmed using `athlete_best_times` table for performance
+
+**Technical Implementation:**
+
+```typescript
+// Grade calculation helper
+const getGrade = (gradYear: number, meetDate: string) => {
+  const meetYear = new Date(meetDate).getFullYear()
+  const meetMonth = new Date(meetDate).getMonth()
+  const seasonYear = meetMonth >= 6 ? meetYear + 1 : meetYear
+  return 12 - (gradYear - seasonYear)
+}
+
+// Filter logic with null support
+const cifSectionMatch = selectedCifSections.size === 0 ||
+  (school.cif_section && selectedCifSections.has(school.cif_section)) ||
+  (!school.cif_section && includeCifSectionNulls)
+```
+
+**Files Changed:**
+- `/app/schools/[id]/records/page.tsx` - Added getGrade() for athletic calendar
+- `/app/schools/[id]/records/performances/page.tsx` - Complete rewrite with filters
+- `/app/schools/[id]/page.tsx` - Added CIF metadata badges, reordered filters
+- `/app/schools/page.tsx` - Converted to checkbox filters with null support
+- `/app/season/page.tsx` - Reorganized filters, added CIF metadata filters with null support
+- `/app/courses/[id]/performances/page.tsx` - Verified grade calculation
+
+**Database Tables Used:**
+- `school_course_records` - Optimized pre-computed best performances per grade/course/gender
+- `athlete_best_times` - Season-best and all-time best normalized times
+- Both tables indexed for fast lookups, avoiding complex joins
+
+**Benefits:**
+- Accurate grade levels reflecting athletic season calendar
+- Faster page loads using pre-computed optimized tables
+- Better user experience with checkbox-driven multi-select filters
+- Ability to filter by league structure and divisions
+- Explicit handling of null/blank values in filters
+
+---
+
+## Previous Sprint Work (Oct 28, 2025 - Evening Sprint)
 
 ### 1. Course Records & Team Performances ✅
 
@@ -598,11 +689,11 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 28, 2025 (Evening Sprint - Course Records & Team Performances)
-**System Status**: 🟡 INVESTIGATING - Course records data accuracy issue (Willow Glen results)
-**Current Phase**: Frontend Features (Course Records, Team Performances, Data Debugging)
+**Last Updated**: October 28, 2025 (Filter Enhancement Sprint - Athletic Calendar & Checkbox Filters)
+**System Status**: 🟢 OPERATIONAL - All grade calculations fixed, all filter enhancements complete
+**Current Phase**: Frontend Features (Filter UX, Data Accuracy, Performance Optimization)
 **Deployment**: Vercel (manaxc.vercel.app)
-**Next Session Goal**: Investigate Willow Glen data accuracy, create course performances page
+**Next Session Goal**: Review and plan next feature enhancements
 
 ---
 
