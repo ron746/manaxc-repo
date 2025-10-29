@@ -254,30 +254,53 @@ echo "DELETE ALL DATA" | venv/bin/python3 clear_database.py
 
 ## 🚨 CRITICAL ISSUES - MUST READ FIRST 🚨
 
-### Issue 1: Import Failure - 0 Results Imported (BLOCKING)
+### Issue 1: Orphaned References in athlete_best_times (BLOCKING) - Oct 29, 2025
 
-**Status:** CRITICAL - Scraper succeeded, import failed completely
+**Status:** CRITICAL - Blocking 99%+ of result imports
 
 **Details:**
+- Meet 254032 "Flat SAC" import: Created 1 meet, 9 races, 37 schools, 1,738 athletes ✅
+- Results imported: **Only 3 out of 1,314** ❌
+- 1,311 results failed with foreign key constraint violation
+- Error: `athlete_best_times_season_best_result_id_fkey` references result IDs that don't exist
+
+**Root Cause:**
+- `athlete_best_times` table contains orphaned foreign key references to deleted results
+- Database trigger fails when inserting new results, checking stale references
+- Likely caused by previous data cleanup operations that deleted results without updating best_times
+
+**Fix Script Created:**
+- Location: `/Users/ron/manaxc/manaxc-project/code/importers/FIX_ORPHANED_REFERENCES.py`
+- What it does: Finds and NULLs out orphaned references in both `season_best_result_id` and `alltime_best_result_id` columns
+- Status: Ready to run (interactive, asks for confirmation)
+
+**Next Steps:**
+1. Run `FIX_ORPHANED_REFERENCES.py` to clean up database
+2. Re-import meet 254032 to get 1,311 missing results
+3. Continue with other pending imports
+
+**Detailed Doc:** `/Users/ron/manaxc/manaxc-project/code/importers/IMPORT_ISSUE_SUMMARY.md`
+
+### Issue 2: Import Failure - 0 Results Imported (RESOLVED - See Issue 1 for new blocking issue)
+
+**Status:** RESOLVED - Was due to orphaned references (Issue 1)
+
+**Original Details:**
 - Scraper successfully collected 1633 results from 5 meets (school 1076, 2025 season)
 - Import validation passed (0 errors, 0 warnings)
 - Import ran but imported: 0 athletes, 0 races, 0 meets, 0 results
 - All 1633 results skipped with: "missing athlete/race"
 
-**Root Cause:** CSV structure vs importer expectations mismatch OR silent failure in athlete/race creation
+**Root Cause (IDENTIFIED):** Silent exception catching in import_csv_data.py lines 685-686, 702-703
+
+**Fix Applied:** Enhanced error logging to show actual error messages instead of silently failing
 
 **Files:**
-- `/Users/ron/manaxc/manaxc-project/code/importers/import_csv_data.py`
-- Scraped data: `/Users/ron/manaxc/manaxc-project/code/importers/to-be-processed/school_1076_1761665401/`
+- `/Users/ron/manaxc/manaxc-project/code/importers/import_csv_data.py` - Lines 685-686, 702-703 now log errors
 
 **Next Steps:**
-1. Check CSV structure in scraped folder
-2. Debug athlete creation logic
-3. Debug race creation logic
-4. Add verbose logging
-5. Test import stage by stage
-
-**Detailed Doc:** `/Users/ron/manaxc/manaxc-project/CRITICAL_ISSUES.md`
+1. Fix orphaned references (Issue 1)
+2. Re-run imports with improved error visibility
 
 ### Issue 2: Scraper Venue/Distance Extraction Problems
 
@@ -569,48 +592,29 @@ const grade = 12 - (athlete.grad_year - seasonYear)
 
 ---
 
-## Next Sprint Priorities (UPDATED)
+## Next Sprint Priorities
 
-### CRITICAL PRIORITY (BLOCKING):
+**See:** `/Users/ron/manaxc/manaxc-project/NEXT_SPRINT_PRIORITIES.md` for detailed sprint plan
 
-1. **Fix Import Failure** - Debug why 0/1633 results were imported
-   - Investigate `import_csv_data.py` athlete/race creation logic
-   - Check CSV structure vs expectations
-   - Add verbose logging
-   - Test stage by stage
+### Quick Summary:
 
-### HIGH PRIORITY:
+**P0 - Critical (Blocking):**
+1. Fix orphaned references in athlete_best_times (run FIX_ORPHANED_REFERENCES.py)
+2. Finish importing all pending results
 
-2. **Complete Manual Editing UI** - Required for data quality
-   - Run SQL migration `ADD_SCHOOL_FIELDS.sql` in Supabase dashboard
-   - Complete Schools section with league/subleague/division dropdowns
-   - Add Venues section (full CRUD: add, edit, delete)
-   - Add Course-venue assignment to Courses section
-   - Add Meets section for venue editing
-   - Add course distance editing
+**P1 - High Priority Features:**
+3. Test for duplicate athletes
+4. Delete operations (result, race, meet)
+5. Mark time as unofficial
+6. Fix seasons page
+7. Fix maintenance page
+8. Import single file at a time via UI
+9. Investigate why "intrasquad" is not a valid meet
 
-3. **Optimize Scraper** - Fix venue/distance extraction
-   - Debug meets 254429, 254535 specifically
-   - Fix why only Montgomery Hill Park extracted
-   - Fix Baylands course distance extraction
-   - Review `athletic_net_scraper_v2.py` venue extraction logic
-
-4. **Batch Import Schools** - Import all BVAL/Division 2 schools
-   - Check `/tmp/school_ids.txt` for results
-   - Update `batch_import_schools.py` with IDs
-   - Run batch import
-
-### MEDIUM PRIORITY (Post-Fix):
-
-5. Interactive import validation (data preview before commit)
-6. Real-time progress streaming to UI
-7. Individual athlete detail pages (`/athletes/[id]/page.tsx`)
-8. Individual school detail pages (`/schools/[id]/page.tsx`)
-
-### LOW PRIORITY:
-
-9. Athlete deduplication UI
-10. Historical Excel data migration
+**Technical Debt:**
+- Implement proper logging (Python + TypeScript)
+- Add audit logging for admin operations
+- Improve error handling across UI
 
 ---
 
@@ -658,6 +662,181 @@ const grade = 12 - (athlete.grad_year - seasonYear)
 
 ---
 
+## AI Memory Wall Strategy
+
+### The Challenge
+Claude Code sessions lose context between conversations. Without proper documentation and handoff procedures, each new session starts from scratch, wasting time re-discovering issues and losing critical context.
+
+### Session Handoff Protocol
+
+**At End of Session:**
+1. Create `SESSION_HANDOFF_YYYY-MM-DD.md` in project root
+2. Include:
+   - What was accomplished
+   - What's in progress (with file paths and line numbers)
+   - What's next
+   - Any blocking issues discovered
+   - Critical decisions made
+3. Update `NEXT_SPRINT_PRIORITIES.md` if priorities changed
+4. Create issue-specific docs for major problems (like `IMPORT_ISSUE_SUMMARY.md`)
+5. Commit and push everything to GitHub
+
+**At Start of Session:**
+1. Read `CLAUDE_PROMPT.md` (this file)
+2. Read latest `SESSION_HANDOFF_*.md`
+3. Read `NEXT_SPRINT_PRIORITIES.md`
+4. Read any issue-specific docs mentioned
+5. Check `git status` for uncommitted changes
+
+### Documentation Best Practices
+
+**Create Targeted Docs:**
+- Don't bury critical issues in long files
+- Create focused docs like `IMPORT_ISSUE_SUMMARY.md` for specific problems
+- Include: Problem, Root Cause, Fix Script, Next Steps
+- Update immediately when issue discovered (don't wait for end of session)
+
+**Use Code References:**
+- Always include file paths and line numbers
+- Example: "Fixed in import_csv_data.py:685-686"
+- Makes it easy for next AI session to find exact location
+
+**Maintain Progress Tracking:**
+- Use TodoWrite tool actively during session
+- Mark tasks completed immediately (don't batch)
+- One in_progress task at a time
+- Keep list current (remove stale items)
+
+## Logging Best Practices
+
+### Current State vs Target State
+
+**Python Import Scripts:**
+- Current: Basic print() statements
+- Target: Structured logging with timestamps and levels
+- Location: `code/importers/*.py`
+
+**Web Application:**
+- Current: Console.log statements
+- Target: Structured logging with winston/pino
+- Location: `website/app/**/*.ts`
+
+### Python Logging Implementation
+
+```python
+import logging
+from datetime import datetime
+import os
+
+# Set up logging at start of script
+log_dir = 'logs'
+os.makedirs(log_dir, exist_ok=True)
+timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+log_file = f"{log_dir}/import_{timestamp}.log"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler()  # Also print to console
+    ]
+)
+
+logger = logging.getLogger(__name__)
+
+# Usage examples
+logger.info("Starting import for meet 254032")
+logger.warning(f"School not found: {school_name}, creating new")
+logger.error(f"Failed to insert result: {error}", exc_info=True)
+logger.debug(f"Processing athlete {i}/{total}: {athlete_name}")
+```
+
+**Key Principles:**
+- Log files timestamped: `import_20251029_133045.log`
+- Include context: IDs, names, counts, values
+- Use appropriate levels:
+  - DEBUG: Verbose details for debugging
+  - INFO: Progress updates, successful operations
+  - WARNING: Recoverable issues, data quality concerns
+  - ERROR: Failed operations with exception details
+- Never silently catch exceptions - always log them
+- Log both to file AND console for live monitoring
+
+### TypeScript/Next.js Logging Implementation
+
+```typescript
+// utils/logger.ts
+import pino from 'pino';
+
+export const logger = pino({
+  level: process.env.LOG_LEVEL || 'info',
+  transport: {
+    target: 'pino-pretty',
+    options: {
+      colorize: true,
+      translateTime: 'SYS:standard'
+    }
+  }
+});
+
+// Usage in API routes
+import { logger } from '@/utils/logger';
+
+export async function POST(request: Request) {
+  const { meetId } = await request.json();
+
+  logger.info({ meetId, userId: session.user.id }, 'Starting meet deletion');
+
+  try {
+    await deleteMeet(meetId);
+    logger.info({ meetId }, 'Meet deleted successfully');
+  } catch (error) {
+    logger.error(
+      { error: error.message, stack: error.stack, meetId },
+      'Failed to delete meet'
+    );
+    throw error;
+  }
+}
+```
+
+### Database Audit Logging
+
+**Required for Admin Operations:**
+- Create `audit_log` table:
+  - id (uuid, primary key)
+  - user_id (uuid, foreign key)
+  - action (text: 'delete_result', 'delete_race', 'delete_meet', etc.)
+  - table_name (text)
+  - record_id (uuid)
+  - details (jsonb: old values, new values, etc.)
+  - timestamp (timestamptz)
+
+**Log These Operations:**
+- Delete result
+- Delete race
+- Delete meet
+- Mark time unofficial
+- Merge duplicate athletes
+- Update school metadata
+- Update course difficulty
+
+**Example:**
+```typescript
+await supabase.from('audit_log').insert({
+  user_id: session.user.id,
+  action: 'delete_meet',
+  table_name: 'meets',
+  record_id: meetId,
+  details: {
+    meet_name: meet.name,
+    races_deleted: raceCount,
+    results_deleted: resultCount
+  }
+});
+```
+
 ## Session Start Protocol
 
 When starting a new Claude session:
@@ -667,8 +846,11 @@ When starting a new Claude session:
    - Import system work? → Read `TECHNICAL_HANDOFF.md`
    - Website features? → Read `MISSING_PAGES_AND_FEATURES_ANALYSIS.md`
    - Data issues? → Read `MISSING_DATA_ANALYSIS.md`
-3. **State your goal** clearly (e.g., "I want to build the athlete detail page")
-4. **Reference this file's location** in commit messages when updating it
+3. **Read latest session handoff** (`SESSION_HANDOFF_*.md`)
+4. **Read sprint priorities** (`NEXT_SPRINT_PRIORITIES.md`)
+5. **Check for issue-specific docs** (e.g., `IMPORT_ISSUE_SUMMARY.md`)
+6. **State your goal** clearly (e.g., "I want to build the athlete detail page")
+7. **Reference this file's location** in commit messages when updating it
 
 ---
 
@@ -689,11 +871,11 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 28, 2025 (Filter Enhancement Sprint - Athletic Calendar & Checkbox Filters)
-**System Status**: 🟢 OPERATIONAL - All grade calculations fixed, all filter enhancements complete
-**Current Phase**: Frontend Features (Filter UX, Data Accuracy, Performance Optimization)
+**Last Updated**: October 29, 2025 (Database Issue Discovery & Sprint Planning)
+**System Status**: 🔴 CRITICAL ISSUE - Orphaned references blocking result imports
+**Current Phase**: Database Cleanup & Import System Fixes
 **Deployment**: Vercel (manaxc.vercel.app)
-**Next Session Goal**: Review and plan next feature enhancements
+**Next Session Goal**: Run FIX_ORPHANED_REFERENCES.py and complete pending imports
 
 ---
 

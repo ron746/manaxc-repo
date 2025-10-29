@@ -682,7 +682,8 @@ def import_csv_folder(
                     try:
                         supabase.table('results').insert(result_data).execute()
                         stats['results_inserted'] += 1
-                    except Exception:
+                    except Exception as e:
+                        print(f"      ❌ Failed to insert result: {str(e)[:100]}")
                         stats['skipped_results'] += 1
             results_to_import = []
 
@@ -698,7 +699,8 @@ def import_csv_folder(
                 try:
                     supabase.table('results').insert(result_data).execute()
                     stats['results_inserted'] += 1
-                except Exception:
+                except Exception as e:
+                    print(f"      ❌ Failed to insert result: {str(e)[:100]}")
                     stats['skipped_results'] += 1
 
     print(f"  ✅ Inserted {stats['results_inserted']} total results")
