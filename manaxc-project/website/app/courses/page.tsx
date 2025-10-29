@@ -21,6 +21,9 @@ export default function CoursesPage() {
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [jumpToPage, setJumpToPage] = useState<string>('');
+  const coursesPerPage = 50;
 
   useEffect(() => {
     const fetchCourses = async () => {
@@ -84,7 +87,19 @@ export default function CoursesPage() {
       setSortKey(key);
       setSortDirection('asc');
     }
+    setCurrentPage(1);
   };
+
+  // Reset page when search changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery]);
+
+  // Pagination
+  const totalPages = Math.ceil(filteredCourses.length / coursesPerPage);
+  const startIndex = (currentPage - 1) * coursesPerPage;
+  const endIndex = startIndex + coursesPerPage;
+  const currentCourses = filteredCourses.slice(startIndex, endIndex);
 
   const SortIcon = ({ columnKey }: { columnKey: SortKey }) => {
     if (sortKey !== columnKey) return null;
@@ -160,8 +175,12 @@ export default function CoursesPage() {
                 <tr>
                   <td colSpan={6} className="text-center p-8 text-zinc-500">Loading courses...</td>
                 </tr>
+              ) : currentCourses.length === 0 ? (
+                <tr>
+                  <td colSpan={6} className="text-center p-8 text-zinc-500">No courses found</td>
+                </tr>
               ) : (
-                filteredCourses.map((course) => (
+                currentCourses.map((course) => (
                   <tr key={course.id} className="hover:bg-cyan-50/50 transition-colors">
                     <td className="p-4">
                       <a
@@ -181,6 +200,151 @@ export default function CoursesPage() {
             </tbody>
           </table>
         </div>
+
+        {/* Intelligent Pagination */}
+        {!loading && totalPages > 1 && (
+          <div className="mt-6 bg-white rounded-xl shadow-xl border border-zinc-200 p-6">
+            <div className="flex flex-col gap-4">
+              {/* Primary Navigation */}
+              <div className="flex flex-wrap justify-center items-center gap-2">
+                {/* First Page */}
+                <button
+                  onClick={() => setCurrentPage(1)}
+                  disabled={currentPage === 1}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="First page"
+                >
+                  ««
+                </button>
+
+                {/* Back 5 */}
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 5))}
+                  disabled={currentPage <= 5}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Back 5 pages"
+                >
+                  -5
+                </button>
+
+                {/* Previous */}
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                  disabled={currentPage === 1}
+                  className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium"
+                >
+                  Previous
+                </button>
+
+                {/* Page Numbers */}
+                <div className="flex gap-2">
+                  {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
+                    let pageNum
+                    if (totalPages <= 7) {
+                      pageNum = i + 1
+                    } else if (currentPage <= 4) {
+                      pageNum = i + 1
+                    } else if (currentPage >= totalPages - 3) {
+                      pageNum = totalPages - 6 + i
+                    } else {
+                      pageNum = currentPage - 3 + i
+                    }
+
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => setCurrentPage(pageNum)}
+                        className={`px-4 py-2 rounded-lg transition-colors font-medium ${
+                          currentPage === pageNum
+                            ? 'bg-cyan-600 text-white shadow-md'
+                            : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300'
+                        }`}
+                      >
+                        {pageNum}
+                      </button>
+                    )
+                  })}
+                </div>
+
+                {/* Next */}
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                  disabled={currentPage === totalPages}
+                  className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium"
+                >
+                  Next
+                </button>
+
+                {/* Forward 5 */}
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 5))}
+                  disabled={currentPage > totalPages - 5}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Forward 5 pages"
+                >
+                  +5
+                </button>
+
+                {/* Last Page */}
+                <button
+                  onClick={() => setCurrentPage(totalPages)}
+                  disabled={currentPage === totalPages}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Last page"
+                >
+                  »»
+                </button>
+              </div>
+
+              {/* Jump to Page & Info */}
+              <div className="flex flex-wrap justify-between items-center gap-4 pt-4 border-t border-zinc-200">
+                <div className="text-sm text-zinc-600">
+                  Page <span className="font-semibold text-zinc-900">{currentPage}</span> of <span className="font-semibold text-zinc-900">{totalPages}</span>
+                  <span className="mx-2">•</span>
+                  Showing {startIndex + 1}-{Math.min(endIndex, filteredCourses.length)} of <span className="font-semibold text-zinc-900">{filteredCourses.length}</span> courses
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <label htmlFor="jumpToPage" className="text-sm font-medium text-zinc-700">
+                    Jump to page:
+                  </label>
+                  <input
+                    id="jumpToPage"
+                    type="number"
+                    min="1"
+                    max={totalPages}
+                    value={jumpToPage}
+                    onChange={(e) => setJumpToPage(e.target.value)}
+                    onKeyPress={(e) => {
+                      if (e.key === 'Enter') {
+                        const page = parseInt(jumpToPage)
+                        if (page >= 1 && page <= totalPages) {
+                          setCurrentPage(page)
+                          setJumpToPage('')
+                        }
+                      }
+                    }}
+                    placeholder={`1-${totalPages}`}
+                    className="w-20 px-3 py-2 border border-zinc-300 rounded-lg text-zinc-900 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  />
+                  <button
+                    onClick={() => {
+                      const page = parseInt(jumpToPage)
+                      if (page >= 1 && page <= totalPages) {
+                        setCurrentPage(page)
+                        setJumpToPage('')
+                      }
+                    }}
+                    disabled={!jumpToPage || parseInt(jumpToPage) < 1 || parseInt(jumpToPage) > totalPages}
+                    className="px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  >
+                    Go
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </main>
     </div>
   );

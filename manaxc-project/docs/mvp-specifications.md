@@ -32,12 +32,12 @@ Converts any XC race result on any course to a standardized track mile equivalen
 - [ ] Database of 50+ California high school XC courses with difficulty ratings
 - [ ] Algorithm that converts 5K XC time → equivalent track mile time
 - [ ] Display standardized time alongside actual race time on all athlete profiles
-- [ ] Course difficulty visualized (1-10 scale: 1 = flat/fast, 10 = hilly/slow)
+- [ ] Course difficulty visualized (1.0-2.0 scale, typical XC: 1.10-1.25, where 1.0 = track mile baseline)
 
 **Example:**
 ```
 Athlete: Sarah Johnson
-Race: Crystal Springs 5K (Difficulty: 8/10 - Very Hilly)
+Race: Crystal Springs 5K (Difficulty: 1.177 - Rolling hills)
 Actual Time: 19:30
 Standardized Mile: 5:45
 ```
@@ -288,7 +288,7 @@ Predict how fast an athlete will run on a new course based on past performances.
 **Example:**
 ```
 Athlete: Sarah Johnson
-Target Race: Woodward Park 5K (Difficulty: 6/10)
+Target Race: Woodward Park 5K (Difficulty: 1.18)
 Recent Standardized Mile: 5:45 (average of last 5 races)
 
 Predicted Time: 19:45 ± 10 seconds

@@ -5,7 +5,7 @@ import { supabase } from '@/lib/supabase/client'
 import { Search, Settings, Users, Award, Edit, ChevronLeft } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
-type AdminSection = 'courses' | 'schools' | 'athletes' | 'results' | 'meets' | null
+type AdminSection = 'courses' | 'schools' | 'athletes' | 'results' | 'meets' | 'edit-schools' | null
 
 interface Course {
   id: string
@@ -163,6 +163,7 @@ export default function AdminMaintenancePage() {
   useEffect(() => {
     if (activeSection === 'courses') loadCourses()
     if (activeSection === 'schools') loadSchools()
+    if (activeSection === 'edit-schools') loadSchools()
     if (activeSection === 'athletes') loadAthletes()
     if (activeSection === 'results') loadResults()
     if (activeSection === 'meets') loadMeets()
@@ -360,6 +361,24 @@ export default function AdminMaintenancePage() {
     }
   }
 
+  // Update school information
+  const updateSchool = async (schoolId: string, updates: Partial<School>) => {
+    const { error } = await supabase
+      .from('schools')
+      .update(updates)
+      .eq('id', schoolId)
+
+    if (!error) {
+      setSchools(schools.map(s =>
+        s.id === schoolId ? { ...s, ...updates } : s
+      ))
+      setEditingSchool(null)
+      alert('School updated successfully!')
+    } else {
+      alert('Error updating school')
+    }
+  }
+
   const filteredCourses = courses.filter(c =>
     c.name.toLowerCase().includes(courseSearch.toLowerCase()) ||
     c.location?.toLowerCase().includes(courseSearch.toLowerCase())
@@ -377,6 +396,12 @@ export default function AdminMaintenancePage() {
 
   const filteredMeets = meets.filter(m =>
     m.name.toLowerCase().includes(meetSearch.toLowerCase())
+  )
+
+  const filteredSchools = schools.filter(s =>
+    s.name.toLowerCase().includes(schoolSearch.toLowerCase()) ||
+    s.city?.toLowerCase().includes(schoolSearch.toLowerCase()) ||
+    s.league?.toLowerCase().includes(schoolSearch.toLowerCase())
   )
 
   const timeToString = (timeCs: number) => {
@@ -414,7 +439,7 @@ export default function AdminMaintenancePage() {
         <p className="text-zinc-400 mb-8">Manage courses, athletes, and race results</p>
 
         {/* Section Selection */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
           <button
             onClick={() => setActiveSection('courses')}
             className={`p-6 rounded-lg border-2 transition-all ${
@@ -426,6 +451,19 @@ export default function AdminMaintenancePage() {
             <Settings className="w-8 h-8 mb-3 mx-auto" />
             <h2 className="text-xl font-bold mb-2">Course Ratings</h2>
             <p className="text-sm opacity-80">Update difficulty ratings for courses</p>
+          </button>
+
+          <button
+            onClick={() => setActiveSection('edit-schools')}
+            className={`p-6 rounded-lg border-2 transition-all ${
+              activeSection === 'edit-schools'
+                ? 'bg-cyan-600 border-cyan-600 text-white'
+                : 'bg-zinc-800/50 border-zinc-700 text-zinc-300 hover:border-cyan-600'
+            }`}
+          >
+            <Settings className="w-8 h-8 mb-3 mx-auto" />
+            <h2 className="text-xl font-bold mb-2">Edit Schools</h2>
+            <p className="text-sm opacity-80">Update school information and league data</p>
           </button>
 
           <button
@@ -835,6 +873,226 @@ export default function AdminMaintenancePage() {
                 </tbody>
               </table>
             </div>
+          </div>
+        )}
+
+        {/* Edit Schools Section */}
+        {activeSection === 'edit-schools' && (
+          <div className="bg-zinc-800/50 rounded-lg border border-zinc-700 p-6">
+            <h2 className="text-2xl font-bold text-white mb-4">Edit School Information</h2>
+
+            <div className="mb-4 relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-400" />
+              <input
+                type="text"
+                placeholder="Search schools by name, city, or league..."
+                value={schoolSearch}
+                onChange={(e) => setSchoolSearch(e.target.value)}
+                className="w-full pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-700 rounded-lg text-white"
+              />
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="min-w-full">
+                <thead className="border-b border-zinc-700">
+                  <tr>
+                    <th className="py-3 px-4 text-left text-white font-bold">School Name</th>
+                    <th className="py-3 px-4 text-left text-white font-bold">League</th>
+                    <th className="py-3 px-4 text-left text-white font-bold">Subleague</th>
+                    <th className="py-3 px-4 text-center text-white font-bold">CIF Div</th>
+                    <th className="py-3 px-4 text-left text-white font-bold">City</th>
+                    <th className="py-3 px-4 text-center text-white font-bold">State</th>
+                    <th className="py-3 px-4 text-center text-white font-bold">Actions</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-zinc-700">
+                  {filteredSchools.map(school => (
+                    <tr key={school.id} className="hover:bg-zinc-800/30">
+                      <td className="py-3 px-4">
+                        {editingSchool?.id === school.id ? (
+                          <input
+                            type="text"
+                            defaultValue={school.name}
+                            className="w-full px-2 py-1 bg-zinc-900 border border-cyan-600 rounded text-white"
+                            onBlur={(e) => {
+                              const newName = e.target.value.trim()
+                              if (newName && newName !== school.name) {
+                                updateSchool(school.id, { name: newName })
+                              } else {
+                                setEditingSchool(null)
+                              }
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                const newName = e.currentTarget.value.trim()
+                                if (newName && newName !== school.name) {
+                                  updateSchool(school.id, { name: newName })
+                                } else {
+                                  setEditingSchool(null)
+                                }
+                              } else if (e.key === 'Escape') {
+                                setEditingSchool(null)
+                              }
+                            }}
+                          />
+                        ) : (
+                          <span className="text-cyan-400 font-semibold">{school.name}</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4">
+                        {editingSchool?.id === school.id ? (
+                          <input
+                            type="text"
+                            defaultValue={school.league || ''}
+                            placeholder="League"
+                            className="w-full px-2 py-1 bg-zinc-900 border border-cyan-600 rounded text-white"
+                            onBlur={(e) => {
+                              const newLeague = e.target.value.trim()
+                              if (newLeague !== school.league) {
+                                updateSchool(school.id, { league: newLeague || null })
+                              }
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                const newLeague = e.currentTarget.value.trim()
+                                if (newLeague !== school.league) {
+                                  updateSchool(school.id, { league: newLeague || null })
+                                }
+                              }
+                            }}
+                          />
+                        ) : (
+                          <span className="text-zinc-300">{school.league || 'N/A'}</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4">
+                        {editingSchool?.id === school.id ? (
+                          <input
+                            type="text"
+                            defaultValue={school.subleague || ''}
+                            placeholder="Subleague"
+                            className="w-full px-2 py-1 bg-zinc-900 border border-cyan-600 rounded text-white"
+                            onBlur={(e) => {
+                              const newSubleague = e.target.value.trim()
+                              if (newSubleague !== school.subleague) {
+                                updateSchool(school.id, { subleague: newSubleague || null })
+                              }
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                const newSubleague = e.currentTarget.value.trim()
+                                if (newSubleague !== school.subleague) {
+                                  updateSchool(school.id, { subleague: newSubleague || null })
+                                }
+                              }
+                            }}
+                          />
+                        ) : (
+                          <span className="text-zinc-300">{school.subleague || 'N/A'}</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        {editingSchool?.id === school.id ? (
+                          <select
+                            defaultValue={school.cif_division || ''}
+                            className="w-full px-2 py-1 bg-zinc-900 border border-cyan-600 rounded text-white"
+                            onBlur={(e) => {
+                              const newDiv = e.target.value
+                              if (newDiv !== school.cif_division) {
+                                updateSchool(school.id, { cif_division: newDiv || null })
+                              }
+                            }}
+                            onChange={(e) => {
+                              const newDiv = e.target.value
+                              if (newDiv !== school.cif_division) {
+                                updateSchool(school.id, { cif_division: newDiv || null })
+                              }
+                            }}
+                          >
+                            <option value="">-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                          </select>
+                        ) : (
+                          <span className="text-zinc-300">{school.cif_division || 'N/A'}</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4">
+                        {editingSchool?.id === school.id ? (
+                          <input
+                            type="text"
+                            defaultValue={school.city || ''}
+                            placeholder="City"
+                            className="w-full px-2 py-1 bg-zinc-900 border border-cyan-600 rounded text-white"
+                            onBlur={(e) => {
+                              const newCity = e.target.value.trim()
+                              if (newCity !== school.city) {
+                                updateSchool(school.id, { city: newCity || null })
+                              }
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                const newCity = e.currentTarget.value.trim()
+                                if (newCity !== school.city) {
+                                  updateSchool(school.id, { city: newCity || null })
+                                }
+                              }
+                            }}
+                          />
+                        ) : (
+                          <span className="text-zinc-300">{school.city || 'N/A'}</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        {editingSchool?.id === school.id ? (
+                          <input
+                            type="text"
+                            defaultValue={school.state || ''}
+                            placeholder="ST"
+                            maxLength={2}
+                            className="w-16 px-2 py-1 bg-zinc-900 border border-cyan-600 rounded text-white text-center uppercase"
+                            onBlur={(e) => {
+                              const newState = e.target.value.trim().toUpperCase()
+                              if (newState !== school.state) {
+                                updateSchool(school.id, { state: newState || null })
+                              }
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                const newState = e.currentTarget.value.trim().toUpperCase()
+                                if (newState !== school.state) {
+                                  updateSchool(school.id, { state: newState || null })
+                                }
+                              }
+                            }}
+                          />
+                        ) : (
+                          <span className="text-zinc-300">{school.state || 'N/A'}</span>
+                        )}
+                      </td>
+                      <td className="py-3 px-4 text-center">
+                        <button
+                          onClick={() => editingSchool?.id === school.id ? setEditingSchool(null) : setEditingSchool(school)}
+                          className="px-3 py-1 bg-cyan-600 hover:bg-cyan-700 text-white rounded text-sm transition-colors inline-flex items-center justify-center"
+                          title={editingSchool?.id === school.id ? "Cancel editing" : "Edit school"}
+                        >
+                          <Edit className="w-4 h-4" />
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {filteredSchools.length === 0 && (
+              <div className="text-center py-8 text-zinc-400">
+                No schools found matching your search.
+              </div>
+            )}
           </div>
         )}
 

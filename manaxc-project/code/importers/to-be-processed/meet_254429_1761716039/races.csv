@@ -1,0 +1,9 @@
+athletic_net_race_id,meet_athletic_net_id,name,gender,distance_meters,race_type,course_name
+1015889,254429,"Mens 4,000 Meters Freshmen",M,4000,Frosh,"Baylands Park, 4000 Meters"
+1015890,254429,"Mens 4,000 Meters Sophomore",M,4000,Sophomore,"Baylands Park, 4000 Meters"
+1015891,254429,"Womens 4,000 Meters Freshmen",F,4000,Frosh,"Baylands Park, 4000 Meters"
+1015892,254429,"Womens 4,000 Meters Sophomore",F,4000,Sophomore,"Baylands Park, 4000 Meters"
+1015893,254429,"Mens 4,000 Meters Junior",M,4000,Junior,"Baylands Park, 4000 Meters"
+1015894,254429,"Womens 4,000 Meters Junior",F,4000,Junior,"Baylands Park, 4000 Meters"
+1015895,254429,"Womens 4,000 Meters Senior",F,4000,Senior,"Baylands Park, 4000 Meters"
+1015896,254429,"Mens 4,000 Meters Senior",M,4000,Senior,"Baylands Park, 4000 Meters"

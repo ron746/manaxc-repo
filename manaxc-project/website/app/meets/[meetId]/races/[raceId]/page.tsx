@@ -5,17 +5,19 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { supabase } from '@/lib/supabase/client'
-import { formatTime, calculatePace, formatPace } from '@/lib/utils/time'
+import { formatTime, calculatePace, formatPace, formatDistance as formatDistanceUtil } from '@/lib/utils/time'
 
 interface Race {
   id: string
   name: string
   gender: string
   division: string | null
-  distance_meters: number
+  distance_meters: number | null
   courses: {
+    id: string
     name: string
     location: string | null
+    distance_meters: number
   } | null
   meet: {
     id: string
@@ -68,6 +70,9 @@ export default function RaceResultsPage() {
   const [results, setResults] = useState<Result[]>([])
   const [teamScores, setTeamScores] = useState<TeamScore[]>([])
   const [loading, setLoading] = useState(true)
+  const [currentPage, setCurrentPage] = useState(1)
+  const [jumpToPage, setJumpToPage] = useState<string>('')
+  const RESULTS_PER_PAGE = 75
 
   useEffect(() => {
     loadRaceData()
@@ -87,8 +92,10 @@ export default function RaceResultsPage() {
           division,
           distance_meters,
           courses (
+            id,
             name,
-            location
+            location,
+            distance_meters
           ),
           meet:meets!inner(
             id,
@@ -241,30 +248,31 @@ export default function RaceResultsPage() {
     })
   }
 
-  const formatDistance = (meters: number) => {
-    if (meters === 5000) return '5K'
-    if (meters === 3000) return '3K'
-    if (meters === 4000) return '4K'
-    const miles = meters / 1609.34
-    if (Math.abs(miles - 3) < 0.01) return '3 Miles'
-    if (Math.abs(miles - 2) < 0.01) return '2 Miles'
-    return `${miles.toFixed(2)} mi`
+  // Get the actual distance - prefer race.distance_meters, fallback to course.distance_meters
+  const getDistance = () => {
+    return race?.distance_meters || race?.courses?.distance_meters || 5000
   }
+
+  // Pagination
+  const totalPages = Math.ceil(results.length / RESULTS_PER_PAGE)
+  const startIndex = (currentPage - 1) * RESULTS_PER_PAGE
+  const endIndex = startIndex + RESULTS_PER_PAGE
+  const currentResults = results.slice(startIndex, endIndex)
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800 flex items-center justify-center">
-        <div className="text-xl font-semibold text-white">Loading race results...</div>
+      <div className="min-h-screen bg-zinc-50 flex items-center justify-center">
+        <div className="text-xl font-semibold text-zinc-900">Loading race results...</div>
       </div>
     )
   }
 
   if (!race) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800 flex items-center justify-center">
+      <div className="min-h-screen bg-zinc-50 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-white mb-4">Race not found</h1>
-          <Link href="/meets" className="text-cyan-400 hover:text-cyan-300">
+          <h1 className="text-2xl font-bold text-zinc-900 mb-4">Race not found</h1>
+          <Link href="/meets" className="text-cyan-600 hover:text-cyan-700 underline">
             Back to Meets
           </Link>
         </div>
@@ -273,64 +281,72 @@ export default function RaceResultsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800">
+    <div className="min-h-screen bg-zinc-50 font-sans">
       <div className="container mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <div className="mb-6 text-sm">
-          <Link href="/meets" className="text-cyan-400 hover:text-cyan-300">
+          <Link href="/meets" className="text-cyan-600 hover:text-cyan-700 hover:underline">
             Meets
           </Link>
-          <span className="text-zinc-500 mx-2">/</span>
-          <Link href={`/meets/${meetId}`} className="text-cyan-400 hover:text-cyan-300">
+          <span className="text-zinc-400 mx-2">/</span>
+          <Link href={`/meets/${meetId}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
             {race.meet.name}
           </Link>
-          <span className="text-zinc-500 mx-2">/</span>
-          <span className="text-zinc-300">{race.name}</span>
+          <span className="text-zinc-400 mx-2">/</span>
+          <span className="text-zinc-700">{race.name}</span>
         </div>
 
         {/* Race Header */}
-        <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-8 mb-8 border border-zinc-700">
-          <h1 className="text-4xl font-bold text-white mb-4">{race.name}</h1>
+        <div className="bg-white rounded-xl shadow-xl p-8 mb-8 border border-zinc-200">
+          <h1 className="text-4xl font-bold text-zinc-900 mb-4">{race.name}</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div>
-              <div className="text-sm text-zinc-400 mb-1">Meet</div>
-              <div className="text-white font-medium">{race.meet.name}</div>
+              <div className="text-sm text-zinc-500 mb-1">Meet</div>
+              <div className="text-zinc-900 font-medium">{race.meet.name}</div>
             </div>
 
             <div>
-              <div className="text-sm text-zinc-400 mb-1">Date</div>
-              <div className="text-white font-medium">{formatDate(race.meet.meet_date)}</div>
+              <div className="text-sm text-zinc-500 mb-1">Date</div>
+              <div className="text-zinc-900 font-medium">{formatDate(race.meet.meet_date)}</div>
             </div>
 
             <div>
-              <div className="text-sm text-zinc-400 mb-1">Distance</div>
-              <div className="text-white font-medium">{formatDistance(race.distance_meters)}</div>
+              <div className="text-sm text-zinc-500 mb-1">Distance</div>
+              <div className="text-zinc-900 font-medium">{formatDistanceUtil(getDistance())}</div>
             </div>
 
             <div>
-              <div className="text-sm text-zinc-400 mb-1">Runners</div>
-              <div className="text-white font-medium">{results.length}</div>
+              <div className="text-sm text-zinc-500 mb-1">Runners</div>
+              <div className="text-zinc-900 font-medium">{results.length}</div>
             </div>
           </div>
 
-          {race.courses && (
-            <div className="mt-4 pt-4 border-t border-zinc-700">
-              <div className="text-sm text-zinc-400">Course</div>
-              <div className="text-white font-medium">{race.courses.name}</div>
-              {race.courses.location && (
-                <div className="text-sm text-zinc-500">{race.courses.location}</div>
+          {(race.meet.venues || race.courses) && (
+            <div className="mt-4 pt-4 border-t border-zinc-200 flex justify-between">
+              {race.meet.venues && (
+                <div>
+                  <div className="text-sm text-zinc-500">Venue</div>
+                  <div className="text-zinc-900 font-medium">{race.meet.venues.name}</div>
+                  {(race.meet.venues.city || race.meet.venues.state) && (
+                    <div className="text-sm text-zinc-600">
+                      {[race.meet.venues.city, race.meet.venues.state].filter(Boolean).join(', ')}
+                    </div>
+                  )}
+                </div>
               )}
-            </div>
-          )}
-
-          {race.meet.venues && (
-            <div className="mt-4 pt-4 border-t border-zinc-700">
-              <div className="text-sm text-zinc-400">Venue</div>
-              <div className="text-white font-medium">{race.meet.venues.name}</div>
-              {(race.meet.venues.city || race.meet.venues.state) && (
-                <div className="text-sm text-zinc-500">
-                  {[race.meet.venues.city, race.meet.venues.state].filter(Boolean).join(', ')}
+              {race.courses && (
+                <div className="text-right">
+                  <div className="text-sm text-zinc-500">Course</div>
+                  <Link
+                    href={`/courses/${race.courses.id}`}
+                    className="text-cyan-600 hover:text-cyan-700 font-medium hover:underline"
+                  >
+                    {race.courses.name}
+                  </Link>
+                  {race.courses.location && (
+                    <div className="text-sm text-zinc-600">{race.courses.location}</div>
+                  )}
                 </div>
               )}
             </div>
@@ -340,35 +356,35 @@ export default function RaceResultsPage() {
         {/* Team Standings */}
         {teamScores.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-white mb-4">Team Standings</h2>
+            <h2 className="text-2xl font-bold text-zinc-900 mb-4">Team Standings</h2>
 
-            <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg shadow-xl overflow-hidden border border-zinc-700">
+            <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-zinc-200">
               <div className="overflow-x-auto">
                 <table className="min-w-full">
                   <thead>
-                    <tr className="border-b border-zinc-700 bg-zinc-900/50">
-                      <th className="py-4 px-6 text-left font-bold text-white">Place</th>
-                      <th className="py-4 px-6 text-left font-bold text-white">School</th>
-                      <th className="py-4 px-6 text-center font-bold text-white">Score</th>
-                      <th className="py-4 px-6 text-center font-bold text-white">Team Time</th>
-                      <th className="py-4 px-6 text-left font-bold text-white">Top 5 Scorers</th>
+                    <tr className="border-b-2 border-zinc-200 bg-zinc-100">
+                      <th className="py-4 px-6 text-left font-bold text-zinc-900">Place</th>
+                      <th className="py-4 px-6 text-left font-bold text-zinc-900">School</th>
+                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Score</th>
+                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Time</th>
+                      <th className="py-4 px-6 text-left font-bold text-zinc-900">Top 5 Scorers</th>
                     </tr>
                   </thead>
                   <tbody>
                     {teamScores.map((team, index) => (
                       <tr
                         key={team.school_id}
-                        className={`border-b border-zinc-700 ${
-                          index === 0 && team.is_complete ? 'bg-yellow-900/20' : ''
+                        className={`border-b border-zinc-200 hover:bg-cyan-50 transition-colors ${
+                          index === 0 && team.is_complete ? 'bg-yellow-50' : ''
                         } ${!team.is_complete ? 'opacity-60' : ''}`}
                       >
-                        <td className="py-4 px-6 font-semibold text-white">
+                        <td className="py-4 px-6 font-semibold text-zinc-900">
                           {team.is_complete ? index + 1 : '-'}
                         </td>
                         <td className="py-4 px-6">
                           <Link
                             href={`/schools/${team.school_id}`}
-                            className="text-cyan-400 hover:text-cyan-300 font-medium"
+                            className="text-cyan-600 hover:text-cyan-700 font-medium hover:underline"
                           >
                             {team.school_short_name || team.school_name}
                           </Link>
@@ -376,23 +392,23 @@ export default function RaceResultsPage() {
                             <span className="ml-2 text-xs text-zinc-500">(Incomplete)</span>
                           )}
                         </td>
-                        <td className="py-4 px-6 text-center font-bold text-cyan-400">
+                        <td className="py-4 px-6 text-center font-bold text-cyan-600">
                           {team.is_complete ? team.score : 'N/A'}
                         </td>
-                        <td className="py-4 px-6 text-center font-mono text-zinc-300">
+                        <td className="py-4 px-6 text-center font-mono text-zinc-900">
                           {team.scorers.length >= 5 ? formatTime(team.team_time_cs) : 'N/A'}
                         </td>
                         <td className="py-4 px-6">
                           <div className="flex flex-wrap gap-2">
                             {team.scorers.map((scorer, idx) => (
-                              <span key={scorer.id} className="text-zinc-300">
+                              <span key={scorer.id} className="text-zinc-900">
                                 {scorer.place_overall}
                                 {idx < team.scorers.length - 1 ? ',' : ''}
                               </span>
                             ))}
                             {team.displacement_runners.length > 0 && (
                               <>
-                                <span className="text-zinc-500">|</span>
+                                <span className="text-zinc-400">|</span>
                                 {team.displacement_runners.map((runner, idx) => (
                                   <span key={runner.id} className="text-zinc-500 text-sm">
                                     ({runner.place_overall})
@@ -410,8 +426,8 @@ export default function RaceResultsPage() {
               </div>
             </div>
 
-            <div className="mt-4 p-4 bg-zinc-800/30 rounded-lg border border-zinc-700">
-              <p className="text-sm text-zinc-400">
+            <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
+              <p className="text-sm text-zinc-700">
                 Team score is the sum of the top 5 finishers. Displacement runners (6th-7th) shown in parentheses.
               </p>
             </div>
@@ -420,39 +436,39 @@ export default function RaceResultsPage() {
 
         {/* Individual Results */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-white mb-4">Individual Results</h2>
+          <h2 className="text-2xl font-bold text-zinc-900 mb-4">Individual Results</h2>
 
-          <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg shadow-xl overflow-hidden border border-zinc-700">
+          <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-zinc-200">
             {results.length === 0 ? (
               <div className="p-12 text-center">
-                <p className="text-zinc-400 text-lg">No results found for this race</p>
+                <p className="text-zinc-500 text-lg">No results found for this race</p>
               </div>
             ) : (
               <div className="overflow-x-auto">
                 <table className="min-w-full">
                   <thead>
-                    <tr className="border-b border-zinc-700 bg-zinc-900/50">
-                      <th className="py-4 px-6 text-center font-bold text-white">Place</th>
-                      <th className="py-4 px-6 text-left font-bold text-white">Athlete</th>
-                      <th className="py-4 px-6 text-left font-bold text-white">School</th>
-                      <th className="py-4 px-6 text-center font-bold text-white">Grade</th>
-                      <th className="py-4 px-6 text-right font-bold text-white">Time</th>
-                      <th className="py-4 px-6 text-right font-bold text-white">Pace</th>
+                    <tr className="border-b-2 border-zinc-200 bg-zinc-100">
+                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Place</th>
+                      <th className="py-4 px-6 text-left font-bold text-zinc-900">Athlete</th>
+                      <th className="py-4 px-6 text-left font-bold text-zinc-900">School</th>
+                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Grade</th>
+                      <th className="py-4 px-6 text-right font-bold text-zinc-900">Time</th>
+                      <th className="py-4 px-6 text-right font-bold text-zinc-900">Pace</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {results.map((result, index) => (
+                    {currentResults.map((result, index) => (
                       <tr
                         key={result.id}
-                        className="border-b border-zinc-700 hover:bg-zinc-800/30 transition-colors"
+                        className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors"
                       >
-                        <td className="py-4 px-6 text-center font-semibold text-white">
-                          {result.place_overall || index + 1}
+                        <td className="py-4 px-6 text-center font-semibold text-zinc-900">
+                          {result.place_overall || (startIndex + index + 1)}
                         </td>
                         <td className="py-4 px-6">
                           <Link
                             href={`/athletes/${result.athlete.id}`}
-                            className="text-cyan-400 hover:text-cyan-300 font-medium"
+                            className="text-cyan-600 hover:text-cyan-700 font-medium hover:underline"
                           >
                             {result.athlete.name}
                           </Link>
@@ -460,19 +476,19 @@ export default function RaceResultsPage() {
                         <td className="py-4 px-6">
                           <Link
                             href={`/schools/${result.school.id}`}
-                            className="text-zinc-300 hover:text-cyan-300"
+                            className="text-zinc-600 hover:text-cyan-600 hover:underline"
                           >
                             {result.school.short_name || result.school.name}
                           </Link>
                         </td>
-                        <td className="py-4 px-6 text-center text-zinc-400 text-sm">
+                        <td className="py-4 px-6 text-center text-zinc-500 text-sm">
                           {getGradeLabel(result.athlete.grad_year)}
                         </td>
-                        <td className="py-4 px-6 text-right font-mono font-bold text-cyan-400">
+                        <td className="py-4 px-6 text-right font-mono font-bold text-cyan-600">
                           {formatTime(result.time_cs)}
                         </td>
-                        <td className="py-4 px-6 text-right font-mono text-zinc-400 text-sm">
-                          {formatPace(result.time_cs, race.distance_meters)}
+                        <td className="py-4 px-6 text-right font-mono text-zinc-500 text-sm">
+                          {formatPace(result.time_cs, getDistance())}
                         </td>
                       </tr>
                     ))}
@@ -482,6 +498,151 @@ export default function RaceResultsPage() {
             )}
           </div>
         </div>
+
+        {/* Intelligent Pagination */}
+        {totalPages > 1 && (
+          <div className="mt-6 bg-white rounded-xl shadow-xl border border-zinc-200 p-6">
+            <div className="flex flex-col gap-4">
+              {/* Primary Navigation */}
+              <div className="flex flex-wrap justify-center items-center gap-2">
+                {/* First Page */}
+                <button
+                  onClick={() => setCurrentPage(1)}
+                  disabled={currentPage === 1}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="First page"
+                >
+                  ««
+                </button>
+
+                {/* Back 5 */}
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 5))}
+                  disabled={currentPage <= 5}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Back 5 pages"
+                >
+                  -5
+                </button>
+
+                {/* Previous */}
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                  disabled={currentPage === 1}
+                  className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium"
+                >
+                  Previous
+                </button>
+
+                {/* Page Numbers */}
+                <div className="flex gap-2">
+                  {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
+                    let pageNum
+                    if (totalPages <= 7) {
+                      pageNum = i + 1
+                    } else if (currentPage <= 4) {
+                      pageNum = i + 1
+                    } else if (currentPage >= totalPages - 3) {
+                      pageNum = totalPages - 6 + i
+                    } else {
+                      pageNum = currentPage - 3 + i
+                    }
+
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => setCurrentPage(pageNum)}
+                        className={`px-4 py-2 rounded-lg transition-colors font-medium ${
+                          currentPage === pageNum
+                            ? 'bg-cyan-600 text-white shadow-md'
+                            : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300'
+                        }`}
+                      >
+                        {pageNum}
+                      </button>
+                    )
+                  })}
+                </div>
+
+                {/* Next */}
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                  disabled={currentPage === totalPages}
+                  className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium"
+                >
+                  Next
+                </button>
+
+                {/* Forward 5 */}
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 5))}
+                  disabled={currentPage > totalPages - 5}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Forward 5 pages"
+                >
+                  +5
+                </button>
+
+                {/* Last Page */}
+                <button
+                  onClick={() => setCurrentPage(totalPages)}
+                  disabled={currentPage === totalPages}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Last page"
+                >
+                  »»
+                </button>
+              </div>
+
+              {/* Jump to Page & Info */}
+              <div className="flex flex-wrap justify-between items-center gap-4 pt-4 border-t border-zinc-200">
+                <div className="text-sm text-zinc-600">
+                  Page <span className="font-semibold text-zinc-900">{currentPage}</span> of <span className="font-semibold text-zinc-900">{totalPages}</span>
+                  <span className="mx-2">•</span>
+                  Showing {startIndex + 1}-{Math.min(endIndex, results.length)} of <span className="font-semibold text-zinc-900">{results.length}</span> runners
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <label htmlFor="jumpToPage" className="text-sm font-medium text-zinc-700">
+                    Jump to page:
+                  </label>
+                  <input
+                    id="jumpToPage"
+                    type="number"
+                    min="1"
+                    max={totalPages}
+                    value={jumpToPage}
+                    onChange={(e) => setJumpToPage(e.target.value)}
+                    onKeyPress={(e) => {
+                      if (e.key === 'Enter') {
+                        const page = parseInt(jumpToPage)
+                        if (page >= 1 && page <= totalPages) {
+                          setCurrentPage(page)
+                          setJumpToPage('')
+                        }
+                      }
+                    }}
+                    placeholder={`1-${totalPages}`}
+                    className="w-20 px-3 py-2 border border-zinc-300 rounded-lg text-zinc-900 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                  />
+                  <button
+                    onClick={() => {
+                      const page = parseInt(jumpToPage)
+                      if (page >= 1 && page <= totalPages) {
+                        setCurrentPage(page)
+                        setJumpToPage('')
+                      }
+                    }}
+                    disabled={!jumpToPage || parseInt(jumpToPage) < 1 || parseInt(jumpToPage) > totalPages}
+                    className="px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  >
+                    Go
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

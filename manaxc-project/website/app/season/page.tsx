@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, useMemo } from 'react'
+import { useEffect, useState, useMemo, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { supabase } from '@/lib/supabase/client'
@@ -64,7 +64,7 @@ export default function SeasonPage() {
 
   // Filter states
   const [bestType, setBestType] = useState<'season' | 'alltime'>('season')
-  const [selectedGenders, setSelectedGenders] = useState<Set<'M' | 'F'>>(new Set(['M', 'F']))
+  const [selectedGenders, setSelectedGenders] = useState<Set<'M' | 'F'>>(new Set())
   const [selectedCifSections, setSelectedCifSections] = useState<Set<string>>(new Set())
   const [selectedCifDivisions, setSelectedCifDivisions] = useState<Set<string>>(new Set())
   const [selectedLeagues, setSelectedLeagues] = useState<Set<string>>(new Set())
@@ -83,6 +83,14 @@ export default function SeasonPage() {
   const [boysJumpToPage, setBoysJumpToPage] = useState<string>('')
   const [girlsJumpToPage, setGirlsJumpToPage] = useState<string>('')
   const RESULTS_PER_PAGE = 75
+
+  // Refs for indeterminate checkbox states
+  const boysCheckboxRef = useRef<HTMLInputElement>(null)
+  const girlsCheckboxRef = useRef<HTMLInputElement>(null)
+  const cifSectionCheckboxRefs = useRef<Map<string, HTMLInputElement>>(new Map())
+  const cifSectionNullCheckboxRef = useRef<HTMLInputElement>(null)
+  const cifDivisionCheckboxRefs = useRef<Map<string, HTMLInputElement>>(new Map())
+  const cifDivisionNullCheckboxRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     loadData()
@@ -143,8 +151,8 @@ export default function SeasonPage() {
         await loadSeasonResults([mostRecentSeason])
       }
 
-      // Initialize selections
-      setSelectedSchools(new Set()) // Empty - user must select schools
+      // Initialize selections - auto-select all schools
+      setSelectedSchools(new Set(schoolsList.map(s => s.id)))
       setSelectedSeasons(mostRecentSeason ? new Set([mostRecentSeason]) : new Set())
       if (coursesList.length > 0) {
         setTargetCourseId(coursesList[0].id)
@@ -161,110 +169,150 @@ export default function SeasonPage() {
       const athletes: Athlete[] = []
 
       if (isAllTime) {
-        // Load all-time best times from optimized table
+        // Load all-time best times from optimized table with pagination
         // Get the best all-time normalized time for each athlete across all seasons
-        const { data: bestTimesData } = await supabase
-          .from('athlete_best_times')
-          .select(`
-            athlete_id,
-            alltime_best_time_cs,
-            alltime_best_normalized_cs,
-            alltime_best_race_distance_meters,
-            season_year,
-            athlete:athletes!inner (
-              id,
-              name,
-              gender,
-              school:schools!inner (
+        const PAGE_SIZE = 1000
+        let page = 0
+        let hasMore = true
+
+        while (hasMore) {
+          const from = page * PAGE_SIZE
+          const to = from + PAGE_SIZE - 1
+
+          const { data: bestTimesData } = await supabase
+            .from('athlete_best_times')
+            .select(`
+              athlete_id,
+              alltime_best_time_cs,
+              alltime_best_normalized_cs,
+              alltime_best_race_distance_meters,
+              season_year,
+              athlete:athletes!inner (
                 id,
                 name,
-                cif_section,
-                cif_division,
-                league,
-                subleague
+                gender,
+                school:schools!inner (
+                  id,
+                  name,
+                  cif_section,
+                  cif_division,
+                  league,
+                  subleague
+                )
               )
-            )
-          `)
+            `)
+            .range(from, to)
 
-        // Group by athlete_id and find the absolute best across all seasons
-        const athleteMap = new Map<string, any>()
-        bestTimesData?.forEach((record: any) => {
-          const existing = athleteMap.get(record.athlete_id)
-          if (!existing || record.alltime_best_normalized_cs < existing.alltime_best_normalized_cs) {
-            athleteMap.set(record.athlete_id, record)
-          }
-        })
-
-        athleteMap.forEach((record) => {
-          const athlete = record.athlete
-          const school = athlete?.school
-
-          if (athlete && school) {
-            athletes.push({
-              id: athlete.id,
-              name: athlete.name,
-              school_id: school.id,
-              school_name: school.name,
-              school_cif_section: school.cif_section,
-              school_cif_division: school.cif_division,
-              school_league: school.league,
-              school_subleague: school.subleague,
-              gender: athlete.gender,
-              season_best_cs: record.alltime_best_time_cs,
-              normalized_time_cs: record.alltime_best_normalized_cs,
-              season_year: record.season_year,
-              race_distance_meters: record.alltime_best_race_distance_meters
+          if (!bestTimesData || bestTimesData.length === 0) {
+            hasMore = false
+          } else {
+            // Group by athlete_id and find the absolute best across all seasons
+            const athleteMap = new Map<string, any>()
+            bestTimesData.forEach((record: any) => {
+              const existing = athleteMap.get(record.athlete_id)
+              if (!existing || record.alltime_best_normalized_cs < existing.alltime_best_normalized_cs) {
+                athleteMap.set(record.athlete_id, record)
+              }
             })
+
+            athleteMap.forEach((record) => {
+              const athlete = record.athlete
+              const school = athlete?.school
+
+              if (athlete && school) {
+                athletes.push({
+                  id: athlete.id,
+                  name: athlete.name,
+                  school_id: school.id,
+                  school_name: school.name,
+                  school_cif_section: school.cif_section,
+                  school_cif_division: school.cif_division,
+                  school_league: school.league,
+                  school_subleague: school.subleague,
+                  gender: athlete.gender,
+                  season_best_cs: record.alltime_best_time_cs,
+                  normalized_time_cs: record.alltime_best_normalized_cs,
+                  season_year: record.season_year,
+                  race_distance_meters: record.alltime_best_race_distance_meters
+                })
+              }
+            })
+
+            if (bestTimesData.length < PAGE_SIZE) {
+              hasMore = false
+            } else {
+              page++
+            }
           }
-        })
+        }
       } else {
-        // Load season-best times from optimized table for selected seasons
-        const { data: bestTimesData } = await supabase
-          .from('athlete_best_times')
-          .select(`
-            athlete_id,
-            season_year,
-            season_best_time_cs,
-            season_best_normalized_cs,
-            season_best_race_distance_meters,
-            athlete:athletes!inner (
-              id,
-              name,
-              gender,
-              school:schools!inner (
+        // Load season-best times from optimized table for selected seasons with pagination
+        const PAGE_SIZE = 1000
+        let page = 0
+        let hasMore = true
+
+        while (hasMore) {
+          const from = page * PAGE_SIZE
+          const to = from + PAGE_SIZE - 1
+
+          const { data: bestTimesData } = await supabase
+            .from('athlete_best_times')
+            .select(`
+              athlete_id,
+              season_year,
+              season_best_time_cs,
+              season_best_normalized_cs,
+              season_best_race_distance_meters,
+              athlete:athletes!inner (
                 id,
                 name,
-                cif_section,
-                cif_division,
-                league,
-                subleague
+                gender,
+                school:schools!inner (
+                  id,
+                  name,
+                  cif_section,
+                  cif_division,
+                  league,
+                  subleague
+                )
               )
-            )
-          `)
-          .in('season_year', seasonYears)
+            `)
+            .in('season_year', seasonYears)
+            .range(from, to)
 
-        bestTimesData?.forEach((record: any) => {
-          const athlete = record.athlete
-          const school = athlete?.school
+          if (!bestTimesData || bestTimesData.length === 0) {
+            hasMore = false
+          } else {
+            bestTimesData.forEach((record: any) => {
+              const athlete = record.athlete
+              const school = athlete?.school
 
-          if (athlete && school) {
-            athletes.push({
-              id: athlete.id,
-              name: athlete.name,
-              school_id: school.id,
-              school_name: school.name,
-              school_cif_section: school.cif_section,
-              school_cif_division: school.cif_division,
-              school_league: school.league,
-              school_subleague: school.subleague,
-              gender: athlete.gender,
-              season_best_cs: record.season_best_time_cs,
-              normalized_time_cs: record.season_best_normalized_cs,
-              season_year: record.season_year,
-              race_distance_meters: record.season_best_race_distance_meters
+              if (athlete && school) {
+                athletes.push({
+                  id: athlete.id,
+                  name: athlete.name,
+                  school_id: school.id,
+                  school_name: school.name,
+                  school_cif_section: school.cif_section,
+                  school_cif_division: school.cif_division,
+                  school_league: school.league,
+                  school_subleague: school.subleague,
+                  gender: athlete.gender,
+                  season_best_cs: record.season_best_time_cs,
+                  normalized_time_cs: record.season_best_normalized_cs,
+                  season_year: record.season_year,
+                  race_distance_meters: record.season_best_race_distance_meters
+                })
+              }
             })
+
+            if (bestTimesData.length < PAGE_SIZE) {
+              hasMore = false
+            } else {
+              page++
+            }
           }
-        })
+        }
       }
 
       setAllAthletes(athletes)
@@ -291,33 +339,30 @@ export default function SeasonPage() {
       // For all-time, include all athletes regardless of season
       const seasonCheck = bestType === 'alltime' || selectedSeasons.has(athlete.season_year)
 
-      const cifSectionMatch = selectedCifSections.size === 0 ||
+      // Gender filter: checking boxes includes those genders, unchecked excludes them
+      // If nothing is checked, nothing is shown
+      const genderCheck = selectedGenders.has(athlete.gender as 'M' | 'F')
+
+      // CIF Section filter: if none selected, show all; if some selected, only show those
+      const cifSectionCheck = selectedCifSections.size === 0 ||
         (athlete.school_cif_section && selectedCifSections.has(athlete.school_cif_section)) ||
         (!athlete.school_cif_section && includeCifSectionNulls)
-      const cifDivisionMatch = selectedCifDivisions.size === 0 ||
+
+      // CIF Division filter: if none selected, show all; if some selected, only show those
+      const cifDivisionCheck = selectedCifDivisions.size === 0 ||
         (athlete.school_cif_division && selectedCifDivisions.has(athlete.school_cif_division)) ||
         (!athlete.school_cif_division && includeCifDivisionNulls)
-      const leagueMatch = selectedLeagues.size === 0 ||
-        (athlete.school_league && selectedLeagues.has(athlete.school_league)) ||
-        (!athlete.school_league && includeLeagueNulls)
-      const subleagueMatch = selectedSubleagues.size === 0 ||
-        (athlete.school_subleague && selectedSubleagues.has(athlete.school_subleague)) ||
-        (!athlete.school_subleague && includeSubleagueNulls)
 
       return (
-        selectedGenders.has(athlete.gender as 'M' | 'F') &&
-        cifSectionMatch &&
-        cifDivisionMatch &&
-        leagueMatch &&
-        subleagueMatch &&
+        genderCheck &&
+        cifSectionCheck &&
+        cifDivisionCheck &&
         selectedSchools.has(athlete.school_id) &&
         seasonCheck &&
         selectedAthletes.has(athlete.id)
       )
     })
-  }, [allAthletes, selectedGenders, selectedCifSections, selectedCifDivisions, selectedLeagues,
-      selectedSubleagues, includeCifSectionNulls, includeCifDivisionNulls, includeLeagueNulls,
-      includeSubleagueNulls, selectedSchools, selectedSeasons, selectedAthletes, bestType])
+  }, [allAthletes, selectedGenders, selectedCifSections, includeCifSectionNulls, selectedCifDivisions, includeCifDivisionNulls, selectedSchools, selectedSeasons, selectedAthletes, bestType])
 
   // Project times to target course
   const projectedAthletes = useMemo(() => {
@@ -647,10 +692,160 @@ export default function SeasonPage() {
     return Array.from(new Set(sections)).sort()
   }, [schools])
 
+  // Calculate which genders exist in each CIF section
+  const gendersInCifSection = useMemo(() => {
+    const map = new Map<string | null, Set<'M' | 'F'>>()
+    allAthletes.forEach(athlete => {
+      const section = athlete.school_cif_section
+      if (!map.has(section)) {
+        map.set(section, new Set())
+      }
+      map.get(section)!.add(athlete.gender as 'M' | 'F')
+    })
+    return map
+  }, [allAthletes])
+
+  // Calculate which CIF sections exist for each gender
+  const cifSectionsForGender = useMemo(() => {
+    const map = new Map<'M' | 'F', Set<string | null>>()
+    map.set('M', new Set())
+    map.set('F', new Set())
+    allAthletes.forEach(athlete => {
+      map.get(athlete.gender as 'M' | 'F')!.add(athlete.school_cif_section)
+    })
+    return map
+  }, [allAthletes])
+
+  // Check if a gender checkbox should be indeterminate
+  const isGenderIndeterminate = (gender: 'M' | 'F') => {
+    if (selectedGenders.has(gender)) return false
+    // Check if any selected CIF sections have this gender
+    if (selectedCifSections.size === 0) return false
+
+    for (const section of selectedCifSections) {
+      const genders = gendersInCifSection.get(section)
+      if (genders?.has(gender)) return true
+    }
+
+    // Check if blank/unknown has this gender
+    if (includeCifSectionNulls) {
+      const genders = gendersInCifSection.get(null)
+      if (genders?.has(gender)) return true
+    }
+
+    return false
+  }
+
+  // Check if a CIF section checkbox should be indeterminate
+  const isCifSectionIndeterminate = (section: string) => {
+    if (selectedCifSections.has(section)) return false
+    if (selectedGenders.size === 0) return false
+
+    const genders = gendersInCifSection.get(section)
+    if (!genders) return false
+
+    // Check if this section has genders that are both selected and not selected
+    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
+    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
+
+    return hasSelectedGender && hasUnselectedGender
+  }
+
+  // Check if blank/unknown CIF section should be indeterminate
+  const isCifSectionNullIndeterminate = () => {
+    if (includeCifSectionNulls) return false
+    if (selectedGenders.size === 0) return false
+
+    const genders = gendersInCifSection.get(null)
+    if (!genders) return false
+
+    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
+    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
+
+    return hasSelectedGender && hasUnselectedGender
+  }
+
+  // Set indeterminate state on gender checkboxes
+  useEffect(() => {
+    if (boysCheckboxRef.current) {
+      boysCheckboxRef.current.indeterminate = isGenderIndeterminate('M')
+    }
+    if (girlsCheckboxRef.current) {
+      girlsCheckboxRef.current.indeterminate = isGenderIndeterminate('F')
+    }
+  }, [selectedGenders, selectedCifSections, includeCifSectionNulls, gendersInCifSection])
+
+  // Set indeterminate state on CIF section checkboxes
+  useEffect(() => {
+    uniqueCifSections.forEach(section => {
+      const ref = cifSectionCheckboxRefs.current.get(section)
+      if (ref) {
+        ref.indeterminate = isCifSectionIndeterminate(section)
+      }
+    })
+    if (cifSectionNullCheckboxRef.current) {
+      cifSectionNullCheckboxRef.current.indeterminate = isCifSectionNullIndeterminate()
+    }
+  }, [selectedGenders, selectedCifSections, includeCifSectionNulls, gendersInCifSection, uniqueCifSections])
+
+  // Calculate which genders exist in each CIF division
+  const gendersInCifDivision = useMemo(() => {
+    const map = new Map<string | null, Set<'M' | 'F'>>()
+    allAthletes.forEach(athlete => {
+      const division = athlete.school_cif_division
+      if (!map.has(division)) {
+        map.set(division, new Set())
+      }
+      map.get(division)!.add(athlete.gender as 'M' | 'F')
+    })
+    return map
+  }, [allAthletes])
+
   const uniqueCifDivisions = useMemo(() => {
     const divisions = schools.map(s => s.cif_division).filter(Boolean) as string[]
     return Array.from(new Set(divisions)).sort()
   }, [schools])
+
+  // Check if a CIF division checkbox should be indeterminate
+  const isCifDivisionIndeterminate = (division: string) => {
+    if (selectedCifDivisions.has(division)) return false
+    if (selectedGenders.size === 0) return false
+
+    const genders = gendersInCifDivision.get(division)
+    if (!genders) return false
+
+    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
+    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
+
+    return hasSelectedGender && hasUnselectedGender
+  }
+
+  // Check if blank/unknown CIF division should be indeterminate
+  const isCifDivisionNullIndeterminate = () => {
+    if (includeCifDivisionNulls) return false
+    if (selectedGenders.size === 0) return false
+
+    const genders = gendersInCifDivision.get(null)
+    if (!genders) return false
+
+    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
+    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
+
+    return hasSelectedGender && hasUnselectedGender
+  }
+
+  // Set indeterminate state on CIF division checkboxes
+  useEffect(() => {
+    uniqueCifDivisions.forEach(division => {
+      const ref = cifDivisionCheckboxRefs.current.get(division)
+      if (ref) {
+        ref.indeterminate = isCifDivisionIndeterminate(division)
+      }
+    })
+    if (cifDivisionNullCheckboxRef.current) {
+      cifDivisionNullCheckboxRef.current.indeterminate = isCifDivisionNullIndeterminate()
+    }
+  }, [selectedGenders, selectedCifDivisions, includeCifDivisionNulls, gendersInCifDivision, uniqueCifDivisions])
 
   const uniqueLeagues = useMemo(() => {
     const leagues = schools.map(s => s.league).filter(Boolean) as string[]
@@ -701,6 +896,22 @@ export default function SeasonPage() {
           <aside className="lg:w-1/4 bg-white rounded-lg border-2 border-zinc-200 shadow-sm p-6 self-start">
             <h3 className="text-xl font-bold text-zinc-900 mb-6">Filters</h3>
 
+            {/* Target Course Selection */}
+            <div className="mb-6">
+              <h4 className="font-bold text-zinc-900 mb-3">Project Times to Course:</h4>
+              <select
+                value={targetCourseId}
+                onChange={(e) => setTargetCourseId(e.target.value)}
+                className="w-full bg-white text-zinc-900 font-medium border-2 border-zinc-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                {courses.map(course => (
+                  <option key={course.id} value={course.id}>
+                    {course.name} (Diff: {course.difficulty_rating.toFixed(1)})
+                  </option>
+                ))}
+              </select>
+            </div>
+
             {/* Best Time Type Selection */}
             <div className="mb-6">
               <h4 className="font-bold text-zinc-900 mb-3">Best Time Type:</h4>
@@ -726,20 +937,11 @@ export default function SeasonPage() {
               </div>
             </div>
 
-            {/* Target Course Selection */}
-            <div className="mb-6">
-              <h4 className="font-bold text-zinc-900 mb-3">Project Times to Course:</h4>
-              <select
-                value={targetCourseId}
-                onChange={(e) => setTargetCourseId(e.target.value)}
-                className="w-full bg-white text-zinc-900 font-medium border-2 border-zinc-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              >
-                {courses.map(course => (
-                  <option key={course.id} value={course.id}>
-                    {course.name} (Diff: {course.difficulty_rating.toFixed(1)})
-                  </option>
-                ))}
-              </select>
+            {/* Separator and Disclaimer */}
+            <div className="mb-6 pb-6 border-b-2 border-zinc-300">
+              <p className="text-xs text-zinc-600 italic">
+                Note: Filters below are unchecked by default. Check boxes to include results.
+              </p>
             </div>
 
             {/* Gender Filter */}
@@ -748,6 +950,7 @@ export default function SeasonPage() {
               <div className="space-y-2">
                 <label className="flex items-center space-x-2 cursor-pointer">
                   <input
+                    ref={boysCheckboxRef}
                     type="checkbox"
                     checked={selectedGenders.has('M')}
                     onChange={() => toggleGender('M')}
@@ -757,6 +960,7 @@ export default function SeasonPage() {
                 </label>
                 <label className="flex items-center space-x-2 cursor-pointer">
                   <input
+                    ref={girlsCheckboxRef}
                     type="checkbox"
                     checked={selectedGenders.has('F')}
                     onChange={() => toggleGender('F')}
@@ -775,8 +979,16 @@ export default function SeasonPage() {
                   <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
                     <input
                       type="checkbox"
-                      checked={selectedCifSections.size === uniqueCifSections.length}
-                      onChange={() => toggleAllCifSections(uniqueCifSections)}
+                      checked={selectedCifSections.size === uniqueCifSections.length && (!blankCifSectionCount || includeCifSectionNulls)}
+                      onChange={() => {
+                        if (selectedCifSections.size === uniqueCifSections.length && (!blankCifSectionCount || includeCifSectionNulls)) {
+                          setSelectedCifSections(new Set())
+                          setIncludeCifSectionNulls(false)
+                        } else {
+                          setSelectedCifSections(new Set(uniqueCifSections))
+                          if (blankCifSectionCount > 0) setIncludeCifSectionNulls(true)
+                        }
+                      }}
                       className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
                     />
                     <span className="text-zinc-600 text-xs font-medium">Select All</span>
@@ -786,6 +998,13 @@ export default function SeasonPage() {
                   {uniqueCifSections.map(section => (
                     <label key={section} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
                       <input
+                        ref={(el) => {
+                          if (el) {
+                            cifSectionCheckboxRefs.current.set(section, el)
+                          } else {
+                            cifSectionCheckboxRefs.current.delete(section)
+                          }
+                        }}
                         type="checkbox"
                         checked={selectedCifSections.has(section)}
                         onChange={() => toggleCifSection(section)}
@@ -797,6 +1016,7 @@ export default function SeasonPage() {
                   {blankCifSectionCount > 0 && (
                     <label className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
                       <input
+                        ref={cifSectionNullCheckboxRef}
                         type="checkbox"
                         checked={includeCifSectionNulls}
                         onChange={(e) => setIncludeCifSectionNulls(e.target.checked)}
@@ -817,8 +1037,16 @@ export default function SeasonPage() {
                   <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
                     <input
                       type="checkbox"
-                      checked={selectedCifDivisions.size === uniqueCifDivisions.length}
-                      onChange={() => toggleAllCifDivisions(uniqueCifDivisions)}
+                      checked={selectedCifDivisions.size === uniqueCifDivisions.length && (!blankCifDivisionCount || includeCifDivisionNulls)}
+                      onChange={() => {
+                        if (selectedCifDivisions.size === uniqueCifDivisions.length && (!blankCifDivisionCount || includeCifDivisionNulls)) {
+                          setSelectedCifDivisions(new Set())
+                          setIncludeCifDivisionNulls(false)
+                        } else {
+                          setSelectedCifDivisions(new Set(uniqueCifDivisions))
+                          if (blankCifDivisionCount > 0) setIncludeCifDivisionNulls(true)
+                        }
+                      }}
                       className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
                     />
                     <span className="text-zinc-600 text-xs font-medium">Select All</span>
@@ -828,6 +1056,13 @@ export default function SeasonPage() {
                   {uniqueCifDivisions.map(division => (
                     <label key={division} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
                       <input
+                        ref={(el) => {
+                          if (el) {
+                            cifDivisionCheckboxRefs.current.set(division, el)
+                          } else {
+                            cifDivisionCheckboxRefs.current.delete(division)
+                          }
+                        }}
                         type="checkbox"
                         checked={selectedCifDivisions.has(division)}
                         onChange={() => toggleCifDivision(division)}
@@ -839,6 +1074,7 @@ export default function SeasonPage() {
                   {blankCifDivisionCount > 0 && (
                     <label className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
                       <input
+                        ref={cifDivisionNullCheckboxRef}
                         type="checkbox"
                         checked={includeCifDivisionNulls}
                         onChange={(e) => setIncludeCifDivisionNulls(e.target.checked)}
@@ -850,119 +1086,6 @@ export default function SeasonPage() {
                 </div>
               </div>
             )}
-
-            {/* League Filter */}
-            {uniqueLeagues.length > 0 && (
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h4 className="font-bold text-zinc-900">League:</h4>
-                  <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                    <input
-                      type="checkbox"
-                      checked={selectedLeagues.size === uniqueLeagues.length}
-                      onChange={() => toggleAllLeagues(uniqueLeagues)}
-                      className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                    />
-                    <span className="text-zinc-600 text-xs font-medium">Select All</span>
-                  </label>
-                </div>
-                <div className="max-h-48 overflow-y-auto pr-2 space-y-2">
-                  {uniqueLeagues.map(league => (
-                    <label key={league} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        type="checkbox"
-                        checked={selectedLeagues.has(league)}
-                        onChange={() => toggleLeague(league)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">{league}</span>
-                    </label>
-                  ))}
-                  {blankLeagueCount > 0 && (
-                    <label className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        type="checkbox"
-                        checked={includeLeagueNulls}
-                        onChange={(e) => setIncludeLeagueNulls(e.target.checked)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">Blank/Unknown ({blankLeagueCount})</span>
-                    </label>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Subleague Filter */}
-            {uniqueSubleagues.length > 0 && (
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h4 className="font-bold text-zinc-900">Subleague:</h4>
-                  <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                    <input
-                      type="checkbox"
-                      checked={selectedSubleagues.size === uniqueSubleagues.length}
-                      onChange={() => toggleAllSubleagues(uniqueSubleagues)}
-                      className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                    />
-                    <span className="text-zinc-600 text-xs font-medium">Select All</span>
-                  </label>
-                </div>
-                <div className="max-h-48 overflow-y-auto pr-2 space-y-2">
-                  {uniqueSubleagues.map(subleague => (
-                    <label key={subleague} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        type="checkbox"
-                        checked={selectedSubleagues.has(subleague)}
-                        onChange={() => toggleSubleague(subleague)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">{subleague}</span>
-                    </label>
-                  ))}
-                  {blankSubleagueCount > 0 && (
-                    <label className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        type="checkbox"
-                        checked={includeSubleagueNulls}
-                        onChange={(e) => setIncludeSubleagueNulls(e.target.checked)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">Blank/Unknown ({blankSubleagueCount})</span>
-                    </label>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* Schools Filter */}
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-3">
-                <h4 className="font-bold text-zinc-900">Schools:</h4>
-                <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                  <input
-                    type="checkbox"
-                    checked={selectedSchools.size === schools.length}
-                    onChange={toggleAllSchools}
-                    className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                  />
-                  <span className="text-zinc-600 text-xs font-medium">Select All</span>
-                </label>
-              </div>
-              <div className="max-h-64 overflow-y-auto pr-2 space-y-2">
-                {schools.map(school => (
-                  <label key={school.id} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                    <input
-                      type="checkbox"
-                      checked={selectedSchools.has(school.id)}
-                      onChange={() => toggleSchool(school.id)}
-                      className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                    />
-                    <span className="text-zinc-700 text-sm">{school.name}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
           </aside>
 
           {/* Results Area */}

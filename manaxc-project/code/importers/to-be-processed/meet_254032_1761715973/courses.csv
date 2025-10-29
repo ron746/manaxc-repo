@@ -1,0 +1,3 @@
+athletic_net_id,name,venue_name,distance_meters,distance_display,difficulty_rating,needs_review,needs_records_scraping
+,"Gibson Ranch Regional Park, 5000 Meters",Gibson Ranch Regional Park,5000,Unknown Distance,1.135962331,TRUE,FALSE
+,"Gibson Ranch Regional Park, 2.25 Miles",Gibson Ranch Regional Park,3621,Unknown Distance,1.0804,TRUE,FALSE

@@ -89,32 +89,32 @@ export default function SchoolSeasonsPage() {
     }
   }
 
-  if (loading) return <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800 flex items-center justify-center"><div className="text-white">Loading...</div></div>
+  if (loading) return <div className="min-h-screen bg-zinc-50 flex items-center justify-center"><div className="text-xl font-semibold text-zinc-900">Loading...</div></div>
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800">
+    <div className="min-h-screen bg-zinc-50">
       <div className="container mx-auto px-6 py-8">
         <div className="mb-6 text-sm">
-          <Link href="/schools" className="text-cyan-400">Schools</Link>
-          <span className="text-zinc-500 mx-2">/</span>
-          <Link href={`/schools/${schoolId}`} className="text-cyan-400">{school?.name}</Link>
-          <span className="text-zinc-500 mx-2">/</span>
-          <span className="text-zinc-300">Seasons</span>
+          <Link href="/schools" className="text-blue-600 hover:text-blue-800 font-medium">Schools</Link>
+          <span className="text-zinc-400 mx-2">/</span>
+          <Link href={`/schools/${schoolId}`} className="text-blue-600 hover:text-blue-800 font-medium">{school?.name}</Link>
+          <span className="text-zinc-400 mx-2">/</span>
+          <span className="text-zinc-700 font-medium">Seasons</span>
         </div>
 
-        <h1 className="text-4xl font-bold text-white mb-8">{school?.name} - Season History</h1>
+        <h1 className="text-4xl font-extrabold text-zinc-900 mb-8 tracking-tight">{school?.name} - Season History</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {seasons.map(season => (
-            <Link key={season.year} href={`/schools/${schoolId}/seasons/${season.year}`} className="bg-zinc-800/50 rounded-lg p-6 border border-zinc-700 hover:border-cyan-500 transition-all hover:shadow-lg">
-              <h2 className="text-2xl font-bold text-white mb-4">{season.year} Season</h2>
-              <div className="space-y-2 text-zinc-300">
-                <div className="flex justify-between"><span>Athletes:</span><span className="font-bold">{season.athlete_count}</span></div>
-                <div className="flex justify-between"><span>Boys:</span><span className="text-blue-400 font-bold">{season.boys_count}</span></div>
-                <div className="flex justify-between"><span>Girls:</span><span className="text-pink-400 font-bold">{season.girls_count}</span></div>
-                <div className="flex justify-between"><span>Results:</span><span className="font-bold">{season.race_count}</span></div>
+            <Link key={season.year} href={`/schools/${schoolId}/seasons/${season.year}`} className="bg-white rounded-lg p-6 border-2 border-zinc-200 shadow-sm hover:border-blue-500 transition-all hover:shadow-lg">
+              <h2 className="text-2xl font-bold text-zinc-900 mb-4">{season.year} Season</h2>
+              <div className="space-y-2 text-zinc-700">
+                <div className="flex justify-between"><span>Athletes:</span><span className="font-bold text-zinc-900">{season.athlete_count}</span></div>
+                <div className="flex justify-between"><span>Boys:</span><span className="text-blue-600 font-bold">{season.boys_count}</span></div>
+                <div className="flex justify-between"><span>Girls:</span><span className="text-red-600 font-bold">{season.girls_count}</span></div>
+                <div className="flex justify-between"><span>Results:</span><span className="font-bold text-zinc-900">{season.race_count}</span></div>
                 {season.best_time_cs && (
-                  <div className="flex justify-between pt-2 border-t border-zinc-700"><span>Best Time:</span><span className="text-cyan-400 font-mono font-bold">{formatTime(season.best_time_cs)}</span></div>
+                  <div className="flex justify-between pt-2 border-t border-zinc-200"><span>Best Time:</span><span className="text-blue-600 font-mono font-bold">{formatTime(season.best_time_cs)}</span></div>
                 )}
               </div>
             </Link>

@@ -346,18 +346,18 @@ export default function MeetDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800 flex items-center justify-center">
-        <div className="text-xl font-semibold text-white">Loading meet...</div>
+      <div className="min-h-screen bg-zinc-50 flex items-center justify-center">
+        <div className="text-xl font-semibold text-zinc-900">Loading meet...</div>
       </div>
     )
   }
 
   if (!meet) {
     return (
-      <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800 flex items-center justify-center">
+      <div className="min-h-screen bg-zinc-50 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-white mb-4">Meet not found</h1>
-          <Link href="/meets" className="text-cyan-400 hover:text-cyan-300">
+          <h1 className="text-2xl font-bold text-zinc-900 mb-4">Meet not found</h1>
+          <Link href="/meets" className="text-cyan-600 hover:text-cyan-700 underline">
             Back to Meets
           </Link>
         </div>
@@ -366,27 +366,27 @@ export default function MeetDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-zinc-800">
+    <div className="min-h-screen bg-zinc-50 font-sans">
       <div className="container mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <div className="mb-6 text-sm">
-          <Link href="/meets" className="text-cyan-400 hover:text-cyan-300">
+          <Link href="/meets" className="text-cyan-600 hover:text-cyan-700 hover:underline">
             Meets
           </Link>
-          <span className="text-zinc-500 mx-2">/</span>
-          <span className="text-zinc-300">{meet.name}</span>
+          <span className="text-zinc-400 mx-2">/</span>
+          <span className="text-zinc-700">{meet.name}</span>
         </div>
 
         {/* Meet Header */}
-        <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-8 mb-8 border border-zinc-700">
+        <div className="bg-white rounded-xl shadow-xl p-8 mb-8 border border-zinc-200">
           <div className="flex items-start justify-between mb-2">
             <div>
-              <h1 className="text-4xl font-bold text-white mb-2">{meet.name}</h1>
-              <div className="text-lg text-zinc-300 mb-6">{formatDate(meet.meet_date)}</div>
+              <h1 className="text-4xl font-bold text-zinc-900 mb-2">{meet.name}</h1>
+              <div className="text-lg text-zinc-600 mb-6">{formatDate(meet.meet_date)}</div>
             </div>
             <Link
               href={`/meets/${meetId}/combined-race`}
-              className="px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg font-semibold transition-colors"
+              className="px-4 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg font-semibold transition-colors shadow-md"
             >
               Combined Race Projection
             </Link>
@@ -395,20 +395,20 @@ export default function MeetDetailPage() {
           {/* Inline stats below date */}
           <div className="flex flex-wrap gap-6 text-sm mb-6">
             <div>
-              <span className="text-zinc-400">Season:</span>{' '}
-              <span className="text-white font-medium">{meet.season_year}</span>
+              <span className="text-zinc-500">Season:</span>{' '}
+              <span className="text-zinc-900 font-medium">{meet.season_year}</span>
             </div>
             <div>
-              <span className="text-zinc-400">Type:</span>{' '}
-              <span className="text-white font-medium">{formatMeetType(meet.meet_type)}</span>
+              <span className="text-zinc-500">Type:</span>{' '}
+              <span className="text-zinc-900 font-medium">{formatMeetType(meet.meet_type)}</span>
             </div>
             <div>
-              <span className="text-zinc-400">Total Races:</span>{' '}
-              <span className="text-white font-medium">{races.length}</span>
+              <span className="text-zinc-500">Total Races:</span>{' '}
+              <span className="text-zinc-900 font-medium">{races.length}</span>
             </div>
             <div>
-              <span className="text-zinc-400">Total Participants:</span>{' '}
-              <span className="text-white font-medium">
+              <span className="text-zinc-500">Total Participants:</span>{' '}
+              <span className="text-zinc-900 font-medium">
                 {races.reduce((sum, race) => sum + race.result_count, 0)}
               </span>
             </div>
@@ -416,12 +416,12 @@ export default function MeetDetailPage() {
 
           {/* Venue */}
           <div>
-            <div className="text-sm text-zinc-400 mb-1">Venue</div>
+            <div className="text-sm text-zinc-500 mb-1">Venue</div>
             {meet.venue ? (
               <div>
-                <div className="text-white font-medium">{meet.venue.name}</div>
+                <div className="text-zinc-900 font-medium">{meet.venue.name}</div>
                 {(meet.venue.city || meet.venue.state) && (
-                  <div className="text-sm text-zinc-500">
+                  <div className="text-sm text-zinc-600">
                     {[meet.venue.city, meet.venue.state].filter(Boolean).join(', ')}
                   </div>
                 )}
@@ -435,86 +435,92 @@ export default function MeetDetailPage() {
         {/* Top Performances Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {/* Top Boys Performances */}
-          <div className="bg-gradient-to-br from-blue-900/30 to-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-blue-700/50">
-            <h2 className="text-xl font-bold text-blue-400 mb-4">Top Performances - Boys</h2>
-            {topBoysPerformances.length > 0 ? (
-              <div className="space-y-2">
-                {topBoysPerformances.map((perf, index) => (
-                  <div key={`${perf.athlete_id}-${index}`} className="flex items-center justify-between text-sm hover:bg-blue-900/20 p-2 rounded transition-colors">
-                    <div className="flex items-center gap-2 flex-1 min-w-0">
-                      <span className="text-zinc-500 font-bold w-6">{index + 1}.</span>
-                      <div className="flex-1 min-w-0">
+          <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-zinc-200">
+            <div className="bg-blue-600 px-6 py-3">
+              <h2 className="text-xl font-bold text-white">Top Performances - Boys</h2>
+            </div>
+            <div className="p-6">
+              {topBoysPerformances.length > 0 ? (
+                <div className="space-y-1">
+                  {topBoysPerformances.map((perf, index) => (
+                    <div key={`${perf.athlete_id}-${index}`} className="flex items-center justify-between text-sm hover:bg-cyan-50 p-2 rounded transition-colors">
+                      <div className="flex items-center gap-2 flex-1 min-w-0">
+                        <span className="text-zinc-400 font-bold w-6">{index + 1}.</span>
                         <Link
                           href={`/athletes/${perf.athlete_id}`}
-                          className="text-cyan-400 hover:text-cyan-300 font-medium block truncate"
+                          className="text-cyan-600 hover:text-cyan-700 font-medium hover:underline truncate"
                         >
                           {perf.athlete_name}
                         </Link>
+                        <span className="text-zinc-400">•</span>
                         <Link
                           href={`/schools/${perf.school_id}`}
-                          className="text-zinc-400 hover:text-zinc-300 text-xs block truncate"
+                          className="text-zinc-600 hover:text-cyan-600 text-xs hover:underline truncate"
                         >
                           {perf.school_name}
                         </Link>
                       </div>
+                      <div className="text-right ml-4 flex items-center gap-2">
+                        <span className="text-zinc-900 font-mono font-semibold">{formatTime(perf.time_cs)}</span>
+                        <span className="text-zinc-500 text-xs">({perf.distance_meters}m)</span>
+                      </div>
                     </div>
-                    <div className="text-right ml-2">
-                      <div className="text-white font-mono font-semibold">{formatTime(perf.time_cs)}</div>
-                      <div className="text-zinc-500 text-xs">{perf.distance_meters}m</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div className="text-zinc-500">No boys races at this meet</div>
-            )}
+                  ))}
+                </div>
+              ) : (
+                <div className="text-zinc-500">No boys races at this meet</div>
+              )}
+            </div>
           </div>
 
           {/* Top Girls Performances */}
-          <div className="bg-gradient-to-br from-pink-900/30 to-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-pink-700/50">
-            <h2 className="text-xl font-bold text-pink-400 mb-4">Top Performances - Girls</h2>
-            {topGirlsPerformances.length > 0 ? (
-              <div className="space-y-2">
-                {topGirlsPerformances.map((perf, index) => (
-                  <div key={`${perf.athlete_id}-${index}`} className="flex items-center justify-between text-sm hover:bg-pink-900/20 p-2 rounded transition-colors">
-                    <div className="flex items-center gap-2 flex-1 min-w-0">
-                      <span className="text-zinc-500 font-bold w-6">{index + 1}.</span>
-                      <div className="flex-1 min-w-0">
+          <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-zinc-200">
+            <div className="bg-pink-600 px-6 py-3">
+              <h2 className="text-xl font-bold text-white">Top Performances - Girls</h2>
+            </div>
+            <div className="p-6">
+              {topGirlsPerformances.length > 0 ? (
+                <div className="space-y-1">
+                  {topGirlsPerformances.map((perf, index) => (
+                    <div key={`${perf.athlete_id}-${index}`} className="flex items-center justify-between text-sm hover:bg-cyan-50 p-2 rounded transition-colors">
+                      <div className="flex items-center gap-2 flex-1 min-w-0">
+                        <span className="text-zinc-400 font-bold w-6">{index + 1}.</span>
                         <Link
                           href={`/athletes/${perf.athlete_id}`}
-                          className="text-cyan-400 hover:text-cyan-300 font-medium block truncate"
+                          className="text-cyan-600 hover:text-cyan-700 font-medium hover:underline truncate"
                         >
                           {perf.athlete_name}
                         </Link>
+                        <span className="text-zinc-400">•</span>
                         <Link
                           href={`/schools/${perf.school_id}`}
-                          className="text-zinc-400 hover:text-zinc-300 text-xs block truncate"
+                          className="text-zinc-600 hover:text-cyan-600 text-xs hover:underline truncate"
                         >
                           {perf.school_name}
                         </Link>
                       </div>
+                      <div className="text-right ml-4 flex items-center gap-2">
+                        <span className="text-zinc-900 font-mono font-semibold">{formatTime(perf.time_cs)}</span>
+                        <span className="text-zinc-500 text-xs">({perf.distance_meters}m)</span>
+                      </div>
                     </div>
-                    <div className="text-right ml-2">
-                      <div className="text-white font-mono font-semibold">{formatTime(perf.time_cs)}</div>
-                      <div className="text-zinc-500 text-xs">{perf.distance_meters}m</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div className="text-zinc-500">No girls races at this meet</div>
-            )}
+                  ))}
+                </div>
+              ) : (
+                <div className="text-zinc-500">No girls races at this meet</div>
+              )}
+            </div>
           </div>
         </div>
 
         {/* Races Section */}
         <div className="mb-6">
-          <h2 className="text-2xl font-bold text-white mb-4">Races</h2>
+          <h2 className="text-2xl font-bold text-zinc-900 mb-4">Races</h2>
         </div>
 
         {races.length === 0 ? (
-          <div className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-12 text-center border border-zinc-700">
-            <p className="text-zinc-400 text-lg">No races found for this meet</p>
+          <div className="bg-white rounded-xl shadow-lg p-12 text-center border border-zinc-200">
+            <p className="text-zinc-500 text-lg">No races found for this meet</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -522,12 +528,12 @@ export default function MeetDetailPage() {
               <Link
                 key={race.id}
                 href={`/meets/${meetId}/races/${race.id}`}
-                className="bg-zinc-800/50 backdrop-blur-sm rounded-lg p-6 border border-zinc-700 hover:border-cyan-500 transition-all hover:shadow-lg hover:shadow-cyan-500/20 group"
+                className="bg-zinc-50 rounded-xl shadow-lg p-6 border-2 border-zinc-300 hover:border-cyan-500 transition-all hover:shadow-xl hover:bg-white group"
               >
                 {/* Race Header */}
                 <div className="mb-4">
                   <div className="flex items-center justify-between mb-2">
-                    <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+                    <h3 className="text-xl font-bold text-zinc-900 group-hover:text-cyan-600 transition-colors">
                       {race.name}
                     </h3>
                     <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getGenderBadgeColor(race.gender)}`}>
@@ -535,46 +541,46 @@ export default function MeetDetailPage() {
                     </span>
                   </div>
                   {race.division && (
-                    <div className="text-sm text-zinc-400">{race.division}</div>
+                    <div className="text-sm text-zinc-500">{race.division}</div>
                   )}
                 </div>
 
                 {/* Race Stats */}
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-zinc-400 text-sm">Distance</span>
-                    <span className="text-white font-medium">{formatDistance(race.distance_meters)}</span>
+                    <span className="text-zinc-500 text-sm">Distance</span>
+                    <span className="text-zinc-900 font-medium">{formatDistance(race.distance_meters)}</span>
                   </div>
 
                   <div className="flex justify-between items-center">
-                    <span className="text-zinc-400 text-sm">Participants</span>
-                    <span className="text-white font-medium">{race.result_count}</span>
+                    <span className="text-zinc-500 text-sm">Participants</span>
+                    <span className="text-zinc-900 font-medium">{race.result_count}</span>
                   </div>
 
                   {race.winning_time_cs && (
                     <>
                       <div className="flex justify-between items-center">
-                        <span className="text-zinc-400 text-sm">Winning Time</span>
-                        <span className="text-cyan-400 font-bold">{formatTime(race.winning_time_cs)}</span>
+                        <span className="text-zinc-500 text-sm">Winning Time</span>
+                        <span className="text-cyan-600 font-bold">{formatTime(race.winning_time_cs)}</span>
                       </div>
 
                       {race.winning_athlete && (
                         <div className="flex justify-between items-center">
-                          <span className="text-zinc-400 text-sm">Winner</span>
-                          <span className="text-white font-medium text-sm">{race.winning_athlete}</span>
+                          <span className="text-zinc-500 text-sm">Winner</span>
+                          <span className="text-zinc-900 font-medium text-sm">{race.winning_athlete}</span>
                         </div>
                       )}
                     </>
                   )}
 
                   {race.team_winner && (
-                    <div className="mt-3 pt-3 border-t border-zinc-700/50">
+                    <div className="mt-3 pt-3 border-t border-zinc-200">
                       <div className="flex justify-between items-center">
-                        <span className="text-zinc-400 text-sm">Team Winner</span>
+                        <span className="text-zinc-500 text-sm">Team Winner</span>
                         <div className="text-right">
-                          <div className="text-cyan-400 font-bold text-sm">{race.team_winner.score} points</div>
-                          <div className="text-zinc-300 font-mono text-xs">{formatTime(race.team_winner.team_time_cs)}</div>
-                          <div className="text-white text-xs">{race.team_winner.school_name}</div>
+                          <div className="text-cyan-600 font-bold text-sm">{race.team_winner.score} points</div>
+                          <div className="text-zinc-600 font-mono text-xs">{formatTime(race.team_winner.team_time_cs)}</div>
+                          <div className="text-zinc-900 text-xs">{race.team_winner.school_name}</div>
                         </div>
                       </div>
                     </div>
@@ -582,8 +588,8 @@ export default function MeetDetailPage() {
                 </div>
 
                 {/* View Results Link */}
-                <div className="mt-4 pt-4 border-t border-zinc-700">
-                  <span className="text-cyan-400 group-hover:text-cyan-300 text-sm font-medium">
+                <div className="mt-4 pt-4 border-t border-zinc-200">
+                  <span className="text-cyan-600 group-hover:text-cyan-700 text-sm font-medium">
                     View Results →
                   </span>
                 </div>

@@ -1,0 +1,8 @@
+athletic_net_race_id,meet_athletic_net_id,name,gender,distance_meters,race_type,course_name
+1019720,256117,Mens 3 Miles Varsity,M,4828,Varsity,"Unknown Venue, 3 Miles"
+1019721,256117,Mens 3 Miles Junior Varsity,M,4828,JV,"Unknown Venue, 3 Miles"
+1019722,256117,Womens 3 Miles Varsity,F,4828,Varsity,"Unknown Venue, 3 Miles"
+1019723,256117,Womens 3 Miles Junior Varsity,F,4828,JV,"Unknown Venue, 3 Miles"
+1019724,256117,Mens 3 Miles Frosh Soph,M,4828,Frosh,"Unknown Venue, 3 Miles"
+1019725,256117,Womens 3 Miles Frosh Soph,F,4828,Frosh,"Unknown Venue, 3 Miles"
+1019726,256117,Mens 3 Miles Overflow,M,4828,Other,"Unknown Venue, 3 Miles"

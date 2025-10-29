@@ -1,0 +1,4 @@
+name,first_name,last_name,grad_year,gender,school_name,school_id,source_file
+Ethan Chen,Ethan,Chen,2029,M,Monte Vista,d969aa91-1e2f-4adb-bad1-1fd26d062fb8,/Users/ron/manaxc/manaxc-project/code/importers/processed/1761749015/meet_257747_1761716995/athletes.csv
+Ethan Xu,Ethan,Xu,2027,M,Redwood (Larkspur),1b9e972a-0efe-46e5-acc3-987ca8f0d164,/Users/ron/manaxc/manaxc-project/code/importers/processed/1761749015/meet_257747_1761716995/athletes.csv
+Melanie Martinez,Melanie,Martinez,2026,F,Salinas,11050b18-0534-4b3a-9f7d-3c3debda4992,/Users/ron/manaxc/manaxc-project/code/importers/processed/1761751017/meet_254467_1761716149/athletes.csv

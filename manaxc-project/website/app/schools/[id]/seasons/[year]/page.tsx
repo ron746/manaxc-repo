@@ -761,14 +761,14 @@ export default function SchoolSeasonDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-white">Loading season data...</div>
+      <div className="min-h-screen bg-zinc-50 flex items-center justify-center">
+        <div className="text-xl font-semibold text-zinc-900">Loading season data...</div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-zinc-50">
       <div className="container mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <div className="mb-6 text-sm">

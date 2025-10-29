@@ -1,0 +1,50 @@
+{
+  "stal_schools": [
+    "Andrew Hill",
+    "Independence",
+    "Mt. Pleasant",
+    "Pioneer",
+    "Silver Creek",
+    "Westmont"
+  ],
+  "bval_additional": [
+    "Branham",
+    "Christopher",
+    "Del Mar",
+    "Evergreen Valley",
+    "Gilroy",
+    "Gunderson",
+    "James Lick",
+    "Leigh",
+    "Leland",
+    "Lincoln",
+    "Live Oak",
+    "Oak Grove",
+    "Overfelt",
+    "Piedmont Hills",
+    "Prospect",
+    "San Jose High",
+    "Santa Teresa",
+    "Sobrato",
+    "Willow Glen",
+    "Yerba Buena"
+  ],
+  "d2_additional": [
+    "Aragon",
+    "Archbishop Mitty",
+    "Cupertino",
+    "Everett Alvarez",
+    "Fremont",
+    "Gunn",
+    "Junipero Serra",
+    "Los Gatos",
+    "Lynbrook",
+    "Mountain View",
+    "Palo Alto",
+    "Rancho San Juan",
+    "Saint Francis",
+    "Santa Clara",
+    "Sequoia",
+    "Woodside"
+  ]
+}

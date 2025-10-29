@@ -30,6 +30,7 @@ export default function MeetsPage() {
   const [currentPage, setCurrentPage] = useState(1)
   const [seasonFilter, setSeasonFilter] = useState<string>('all')
   const [meetTypeFilter, setMeetTypeFilter] = useState<string>('all')
+  const [jumpToPage, setJumpToPage] = useState<string>('')
   const meetsPerPage = 50
 
   useEffect(() => {
@@ -179,7 +180,7 @@ export default function MeetsPage() {
                   setSeasonFilter(e.target.value)
                   setCurrentPage(1)
                 }}
-                className="w-full px-4 py-2 bg-white border border-zinc-300 rounded-lg text-zinc-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 bg-white border border-zinc-300 rounded-lg text-zinc-900 font-medium focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option value="all">All Seasons</option>
                 {seasons.map(season => (
@@ -198,7 +199,7 @@ export default function MeetsPage() {
                   setMeetTypeFilter(e.target.value)
                   setCurrentPage(1)
                 }}
-                className="w-full px-4 py-2 bg-white border border-zinc-300 rounded-lg text-zinc-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 bg-white border border-zinc-300 rounded-lg text-zinc-900 font-medium focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option value="all">All Types</option>
                 {meetTypes.map(type => (
@@ -333,53 +334,148 @@ export default function MeetsPage() {
           </div>
         </div>
 
-        {/* Pagination */}
+        {/* Intelligent Pagination */}
         {totalPages > 1 && (
-          <div className="mt-6 flex justify-center items-center gap-2">
-            <button
-              onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
-              disabled={currentPage === 1}
-              className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              Previous
-            </button>
+          <div className="mt-6 bg-white rounded-lg shadow-lg border border-zinc-200 p-6">
+            <div className="flex flex-col gap-4">
+              {/* Primary Navigation */}
+              <div className="flex flex-wrap justify-center items-center gap-2">
+                {/* First Page */}
+                <button
+                  onClick={() => setCurrentPage(1)}
+                  disabled={currentPage === 1}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="First page"
+                >
+                  ««
+                </button>
 
-            <div className="flex gap-2">
-              {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                let pageNum
-                if (totalPages <= 5) {
-                  pageNum = i + 1
-                } else if (currentPage <= 3) {
-                  pageNum = i + 1
-                } else if (currentPage >= totalPages - 2) {
-                  pageNum = totalPages - 4 + i
-                } else {
-                  pageNum = currentPage - 2 + i
-                }
+                {/* Back 5 */}
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 5))}
+                  disabled={currentPage <= 5}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Back 5 pages"
+                >
+                  -5
+                </button>
 
-                return (
+                {/* Previous */}
+                <button
+                  onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
+                  disabled={currentPage === 1}
+                  className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium"
+                >
+                  Previous
+                </button>
+
+                {/* Page Numbers */}
+                <div className="flex gap-2">
+                  {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
+                    let pageNum
+                    if (totalPages <= 7) {
+                      pageNum = i + 1
+                    } else if (currentPage <= 4) {
+                      pageNum = i + 1
+                    } else if (currentPage >= totalPages - 3) {
+                      pageNum = totalPages - 6 + i
+                    } else {
+                      pageNum = currentPage - 3 + i
+                    }
+
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => setCurrentPage(pageNum)}
+                        className={`px-4 py-2 rounded-lg transition-colors font-medium ${
+                          currentPage === pageNum
+                            ? 'bg-blue-600 text-white shadow-md'
+                            : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300'
+                        }`}
+                      >
+                        {pageNum}
+                      </button>
+                    )
+                  })}
+                </div>
+
+                {/* Next */}
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
+                  disabled={currentPage === totalPages}
+                  className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium"
+                >
+                  Next
+                </button>
+
+                {/* Forward 5 */}
+                <button
+                  onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 5))}
+                  disabled={currentPage > totalPages - 5}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Forward 5 pages"
+                >
+                  +5
+                </button>
+
+                {/* Last Page */}
+                <button
+                  onClick={() => setCurrentPage(totalPages)}
+                  disabled={currentPage === totalPages}
+                  className="px-3 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  title="Last page"
+                >
+                  »»
+                </button>
+              </div>
+
+              {/* Jump to Page & Info */}
+              <div className="flex flex-wrap justify-between items-center gap-4 pt-4 border-t border-zinc-200">
+                <div className="text-sm text-zinc-600">
+                  Page <span className="font-semibold text-zinc-900">{currentPage}</span> of <span className="font-semibold text-zinc-900">{totalPages}</span>
+                  <span className="mx-2">•</span>
+                  Total: <span className="font-semibold text-zinc-900">{sortedMeets.length}</span> meets
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <label htmlFor="jumpToPage" className="text-sm font-medium text-zinc-700">
+                    Jump to page:
+                  </label>
+                  <input
+                    id="jumpToPage"
+                    type="number"
+                    min="1"
+                    max={totalPages}
+                    value={jumpToPage}
+                    onChange={(e) => setJumpToPage(e.target.value)}
+                    onKeyPress={(e) => {
+                      if (e.key === 'Enter') {
+                        const page = parseInt(jumpToPage)
+                        if (page >= 1 && page <= totalPages) {
+                          setCurrentPage(page)
+                          setJumpToPage('')
+                        }
+                      }
+                    }}
+                    placeholder={`1-${totalPages}`}
+                    className="w-20 px-3 py-2 border border-zinc-300 rounded-lg text-zinc-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  />
                   <button
-                    key={i}
-                    onClick={() => setCurrentPage(pageNum)}
-                    className={`px-4 py-2 rounded-lg transition-colors ${
-                      currentPage === pageNum
-                        ? 'bg-blue-600 text-white'
-                        : 'bg-zinc-200 text-zinc-900 hover:bg-zinc-300'
-                    }`}
+                    onClick={() => {
+                      const page = parseInt(jumpToPage)
+                      if (page >= 1 && page <= totalPages) {
+                        setCurrentPage(page)
+                        setJumpToPage('')
+                      }
+                    }}
+                    disabled={!jumpToPage || parseInt(jumpToPage) < 1 || parseInt(jumpToPage) > totalPages}
+                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm font-medium"
                   >
-                    {pageNum}
+                    Go
                   </button>
-                )
-              })}
+                </div>
+              </div>
             </div>
-
-            <button
-              onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
-              disabled={currentPage === totalPages}
-              className="px-4 py-2 bg-zinc-200 text-zinc-900 rounded-lg hover:bg-zinc-300 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              Next
-            </button>
           </div>
         )}
       </div>

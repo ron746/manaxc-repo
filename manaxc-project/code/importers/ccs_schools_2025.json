@@ -1,0 +1,712 @@
+{
+  "Bellarmine College Prep": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 3330
+  },
+  "Hollister": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 3317
+  },
+  "Milpitas": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2991
+  },
+  "Alisal": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2817
+  },
+  "Evergreen Valley": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2730
+  },
+  "Salinas": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2474
+  },
+  "Carlmont": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2381
+  },
+  "Independence": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2377
+  },
+  "Menlo-Atherton": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2376
+  },
+  "Watsonville": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2274
+  },
+  "Homestead": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2218
+  },
+  "Santa Teresa": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2207
+  },
+  "North Salinas": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2191
+  },
+  "Silver Creek": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2180
+  },
+  "Los Altos": {
+    "division": "D1",
+    "section": "CCS",
+    "enrollment": 2170
+  },
+  "Mountain View": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 2158
+  },
+  "Fremont": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 2061
+  },
+  "Everett Alvarez": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 2031
+  },
+  "Piedmont Hills": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1927
+  },
+  "Palo Alto": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1924
+  },
+  "Los Gatos": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1904
+  },
+  "Leigh": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1885
+  },
+  "Sequoia": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1882
+  },
+  "Branham": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1830
+  },
+  "Cupertino": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1781
+  },
+  "Saint Francis": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1781
+  },
+  "Junipero Serra": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1780
+  },
+  "Archbishop Mitty": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1775
+  },
+  "Westmont": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1720
+  },
+  "Santa Clara": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1716
+  },
+  "Gunn": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1692
+  },
+  "Lynbrook": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1688
+  },
+  "Rancho San Juan": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1685
+  },
+  "Aragon": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1669
+  },
+  "Woodside": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1664
+  },
+  "Andrew Hill": {
+    "division": "D2",
+    "section": "CCS",
+    "enrollment": 1642
+  },
+  "Valley Christian": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1636
+  },
+  "Monta Vista": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1620
+  },
+  "Gilroy": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1618
+  },
+  "Hillsdale": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1612
+  },
+  "Wilcox": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1612
+  },
+  "Yerba Buena": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1611
+  },
+  "San Mateo": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1602
+  },
+  "Lincoln": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1594
+  },
+  "Christopher": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1584
+  },
+  "Willow Glen": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1554
+  },
+  "Burlingame": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1548
+  },
+  "Soledad": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1518
+  },
+  "Sobrato": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1515
+  },
+  "St. Ignatius": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1491
+  },
+  "Leland": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1488
+  },
+  "Overfelt": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1474
+  },
+  "Prospect": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1470
+  },
+  "Sacred Heart Cathedral": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1435
+  },
+  "Oak Grove": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1426
+  },
+  "Monterey": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1423
+  },
+  "Pioneer": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1393
+  },
+  "Del Mar": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1355
+  },
+  "Notre Dame San Jose": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1350
+  },
+  "North Monterey County": {
+    "division": "D3",
+    "section": "CCS",
+    "enrollment": 1289
+  },
+  "Westmoor": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1282
+  },
+  "Pajaro Valley": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1279
+  },
+  "Greenfield": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1276
+  },
+  "Aptos": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1275
+  },
+  "King City": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1199
+  },
+  "Archbishop Riordan": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1193
+  },
+  "South San Francisco": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1171
+  },
+  "Santa Cruz": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1130
+  },
+  "Mills": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1123
+  },
+  "Soquel": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1122
+  },
+  "Saratoga": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1119
+  },
+  "Live Oak": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1108
+  },
+  "Mt. Pleasant": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1107
+  },
+  "Presentation": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1088
+  },
+  "El Camino": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1073
+  },
+  "Seaside": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1072
+  },
+  "Capuchino": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1058
+  },
+  "Jefferson": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1045
+  },
+  "Harbor": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 1013
+  },
+  "James Lick": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 910
+  },
+  "Half Moon Bay": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 896
+  },
+  "San Jose High": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 880
+  },
+  "Harker": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 791
+  },
+  "Carmel": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 780
+  },
+  "Gonzales": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 751
+  },
+  "Gunderson": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 746
+  },
+  "Terra Nova": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 734
+  },
+  "Marina": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 722
+  },
+  "Notre Dame Belmont": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 718
+  },
+  "Mercy": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 708
+  },
+  "Latino College Prep": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 695
+  },
+  "MacDonald": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 689
+  },
+  "San Lorenzo Valley": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 686
+  },
+  "Scotts Valley": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 645
+  },
+  "Sacred Heart Prep": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 644
+  },
+  "The Kings Academy": {
+    "division": "D4",
+    "section": "CCS",
+    "enrollment": 602
+  },
+  "Menlo School": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 593
+  },
+  "Design Tech": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 567
+  },
+  "Pacific Grove": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 553
+  },
+  "Monte Vista Christian": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 528
+  },
+  "Stevenson": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 516
+  },
+  "KIPP San Jose Collegiate": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 511
+  },
+  "University Prep Academy": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 477
+  },
+  "Oceana": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 471
+  },
+  "Castilleja": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 462
+  },
+  "Nueva": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 452
+  },
+  "Cristo Rey San Jose": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 434
+  },
+  "Palma": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 434
+  },
+  "Summit Shasta": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 427
+  },
+  "Santa Catalina": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 426
+  },
+  "Cindy Avitia": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 413
+  },
+  "BASIS Independent Silicon Valley": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 408
+  },
+  "Summit Tahoma": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 383
+  },
+  "Crystal Springs Uplands": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 350
+  },
+  "Pacific Collegiate": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 349
+  },
+  "Priory": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 321
+  },
+  "Ace Charter School": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 311
+  },
+  "KIPP Navigate College Prep": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 297
+  },
+  "Summit Prep": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 291
+  },
+  "East Palo Alto Academy": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 279
+  },
+  "Anzar": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 265
+  },
+  "Eastside College Prep": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 251
+  },
+  "CEIBA Prep Academy": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 246
+  },
+  "Luis Valdez Leadership Academy": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 225
+  },
+  "St. Francis SCP": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 213
+  },
+  "Pinewood": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 201
+  },
+  "KIPP Esperanza": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 195
+  },
+  "Stratford": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 187
+  },
+  "Kehillah Jewish": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 186
+  },
+  "Oakwood": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 175
+  },
+  "The York School": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 165
+  },
+  "Monterey Bay Academy": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 154
+  },
+  "Mid Peninsula": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 136
+  },
+  "Notre Dame Salinas": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 104
+  },
+  "Pacific Bay Christian": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 101
+  },
+  "Kirby": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 89
+  },
+  "Pescadero": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 79
+  },
+  "Thomas More": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 76
+  },
+  "Mountain View Academy": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 59
+  },
+  "San Francisco Christian": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 57
+  },
+  "Trinity Christian": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 52
+  },
+  "Mt. Madonna": {
+    "division": "D5",
+    "section": "CCS",
+    "enrollment": 42
+  }
+}

@@ -117,7 +117,7 @@ CREATE TABLE courses (
   venue TEXT, -- e.g., "Crystal Springs Golf Course"
   distance_meters INTEGER NOT NULL, -- 5000 for 5K, 4828 for 3 mile
   distance_display TEXT, -- "5K", "3 mile"
-  difficulty_rating DECIMAL(3,1) CHECK (difficulty_rating >= 1 AND difficulty_rating <= 10),
+  difficulty_rating DECIMAL(12,9) CHECK (difficulty_rating >= 1.0 AND difficulty_rating <= 2.0), -- Most XC courses: 1.10-1.25
   elevation_gain_meters INTEGER,
   surface_type TEXT, -- 'grass', 'dirt', 'mixed', 'trail'
   terrain_description TEXT, -- "Flat and fast", "Rolling hills", "Very hilly"
@@ -135,16 +135,16 @@ CREATE INDEX idx_courses_distance ON courses(distance_meters);
 
 -- Sample courses
 INSERT INTO courses (name, location, venue, distance_meters, distance_display, difficulty_rating, elevation_gain_meters, surface_type, terrain_description) VALUES
-('Crystal Springs 5K', 'Belmont, CA', 'Crystal Springs Golf Course', 5000, '5K', 8.0, 150, 'grass', 'Very hilly with significant elevation changes'),
-('Baylands 5K', 'Sunnyvale, CA', 'Baylands Park', 5000, '5K', 3.0, 20, 'mixed', 'Flat and fast on paved paths and grass'),
-('Toro Park 3 Mile', 'Salinas, CA', 'Toro Regional Park', 4828, '3 mile', 7.5, 120, 'dirt', 'Rolling hills on dirt trails');
+('Crystal Springs 5K', 'Belmont, CA', 'Crystal Springs Golf Course', 5000, '5K', 1.177163037, 150, 'grass', 'Rolling hills with moderate elevation changes'),
+('Baylands 5K', 'Sunnyvale, CA', 'Baylands Park', 5000, '5K', 1.1298165, 20, 'mixed', 'Flat and fast on paved paths and grass'),
+('Toro Park 3 Mile', 'Salinas, CA', 'Toro Regional Park', 4828, '3 mile', 1.18, 120, 'dirt', 'Rolling hills on dirt trails');
 ```
 
 **Notes:**
-- Difficulty rating is subjective but based on:
-  - Elevation gain
-  - Terrain type
-  - Typical winning times
+- Difficulty rating represents how much harder the course is than a track mile
+  - 1.0 = Track mile (theoretical baseline)
+  - Most XC courses: 1.10-1.25
+  - Based on pace per meter accounting for: elevation gain, terrain type, typical times
 - Will start with ~50 California courses
 
 ---

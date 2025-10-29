@@ -1,0 +1,176 @@
+{
+  "stal_schools": {
+    "Andrew Hill": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Mt. Pleasant": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Pioneer": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Westmont": {
+      "status": "not_found",
+      "meets": []
+    }
+  },
+  "bval_additional": {
+    "Branham": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Christopher": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Del Mar": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Evergreen Valley": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Gilroy": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Gunderson": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Independence": {
+      "status": "not_found",
+      "meets": []
+    },
+    "James Lick": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Leigh": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Leland": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Lincoln": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Live Oak": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Oak Grove": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Overfelt": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Piedmont Hills": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Prospect": {
+      "status": "not_found",
+      "meets": []
+    },
+    "San Jose High": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Santa Teresa": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Silver Creek": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Sobrato": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Willow Glen": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Yerba Buena": {
+      "status": "not_found",
+      "meets": []
+    }
+  },
+  "d2_additional": {
+    "Aragon": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Archbishop Mitty": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Cupertino": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Everett Alvarez": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Fremont": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Gunn": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Junipero Serra": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Los Gatos": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Lynbrook": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Mountain View": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Palo Alto": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Rancho San Juan": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Saint Francis": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Santa Clara": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Sequoia": {
+      "status": "not_found",
+      "meets": []
+    },
+    "Woodside": {
+      "status": "not_found",
+      "meets": []
+    }
+  }
+}

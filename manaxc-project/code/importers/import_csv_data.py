@@ -534,11 +534,18 @@ def import_csv_folder(
             print(f"  ⚠️  Skipping race {race['name']} - meet not found (looked for: {race['meet_athletic_net_id']})")
             continue
 
-        # Get course_id - races are on courses
-        # Use first course created (all races in this meet use same course)
-        course_id = list(course_id_map.values())[0] if course_id_map else None
-        if i <= 3:
-            print(f"  [DEBUG] Using course_id: {course_id}")
+        # Get course_id - look up by course_name from race, or fall back to first course
+        course_name_from_race = race.get('course_name', '').strip()
+        if course_name_from_race and course_name_from_race in course_id_map:
+            course_id = course_id_map[course_name_from_race]
+            if i <= 3:
+                print(f"  [DEBUG] Using course_id from race's course_name '{course_name_from_race}': {course_id}")
+        else:
+            # Fall back to first course (for backward compatibility with old CSVs)
+            course_id = list(course_id_map.values())[0] if course_id_map else None
+            if i <= 3:
+                print(f"  [DEBUG] Using first available course_id (fallback): {course_id}")
+
         if not course_id:
             print(f"  ⚠️  Skipping race - no course available")
             continue

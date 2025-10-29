@@ -93,6 +93,7 @@ class ScrapedRace:
     gender: str
     distance_meters: int
     race_type: str  # "Varsity", "JV", "Frosh"
+    course_name: str = ""  # Name of course this race was run on
 
 
 @dataclass
@@ -264,7 +265,7 @@ def parse_meet_date(date_str: str) -> Optional[str]:
 
 def create_driver() -> webdriver.Chrome:
     """
-    Create and configure Chrome WebDriver.
+    Create and configure Chrome WebDriver with increased timeouts for large meets.
 
     Returns:
         Configured Chrome WebDriver instance
@@ -280,7 +281,14 @@ def create_driver() -> webdriver.Chrome:
     if platform.system() == 'Darwin':
         chrome_options.binary_location = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 
-    return webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome(options=chrome_options)
+
+    # Increase timeouts for very large meets (like meet 256230)
+    driver.set_page_load_timeout(600)  # 10 minutes for page load
+    driver.set_script_timeout(600)     # 10 minutes for script execution
+    driver.implicitly_wait(30)          # 30 seconds for element finding
+
+    return driver
 
 
 # ==============================================================================
@@ -703,6 +711,10 @@ def scrape_by_meet(
 
             distance_meters = races[0].distance_meters
             course_name = f"{venue_name}, {distance_display}"
+
+            # Update all races with the course_name
+            for race in races:
+                race.course_name = course_name
 
             course = ScrapedCourse(
                 athletic_net_id=None,

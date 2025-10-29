@@ -1,0 +1,114 @@
+{
+  "schools_processed": [
+    "Andrew Hill",
+    "Independence",
+    "Mt. Pleasant",
+    "Pioneer",
+    "Silver Creek",
+    "Westmont"
+  ],
+  "total_unique_meets": 18,
+  "meet_ids": [
+    "253413",
+    "254032",
+    "254429",
+    "254444",
+    "254467",
+    "254535",
+    "255929",
+    "256117",
+    "256230",
+    "256287",
+    "257334",
+    "257746",
+    "257747",
+    "258377",
+    "263178",
+    "265306",
+    "267582",
+    "270614"
+  ],
+  "meet_urls": [
+    "https://www.athletic.net/CrossCountry/meet/253413",
+    "https://www.athletic.net/CrossCountry/meet/254032",
+    "https://www.athletic.net/CrossCountry/meet/254429",
+    "https://www.athletic.net/CrossCountry/meet/254444",
+    "https://www.athletic.net/CrossCountry/meet/254467",
+    "https://www.athletic.net/CrossCountry/meet/254535",
+    "https://www.athletic.net/CrossCountry/meet/255929",
+    "https://www.athletic.net/CrossCountry/meet/256117",
+    "https://www.athletic.net/CrossCountry/meet/256230",
+    "https://www.athletic.net/CrossCountry/meet/256287",
+    "https://www.athletic.net/CrossCountry/meet/257334",
+    "https://www.athletic.net/CrossCountry/meet/257746",
+    "https://www.athletic.net/CrossCountry/meet/257747",
+    "https://www.athletic.net/CrossCountry/meet/258377",
+    "https://www.athletic.net/CrossCountry/meet/263178",
+    "https://www.athletic.net/CrossCountry/meet/265306",
+    "https://www.athletic.net/CrossCountry/meet/267582",
+    "https://www.athletic.net/CrossCountry/meet/270614"
+  ],
+  "results_by_school": {
+    "Andrew Hill": [
+      "265306",
+      "254429",
+      "267582",
+      "254535",
+      "270614"
+    ],
+    "Independence": [
+      "256287",
+      "265306",
+      "254429",
+      "267582",
+      "257334",
+      "255929",
+      "254535",
+      "258377",
+      "270614"
+    ],
+    "Mt. Pleasant": [
+      "254467",
+      "256287",
+      "265306",
+      "253413",
+      "257746",
+      "267582",
+      "257334",
+      "255929",
+      "256117",
+      "254535",
+      "270614",
+      "254032",
+      "257747"
+    ],
+    "Pioneer": [
+      "263178",
+      "254467",
+      "265306",
+      "254429",
+      "267582",
+      "257334",
+      "255929",
+      "254535",
+      "270614",
+      "254444"
+    ],
+    "Silver Creek": [
+      "254467",
+      "265306",
+      "267582",
+      "257334",
+      "254535",
+      "270614",
+      "256230"
+    ],
+    "Westmont": [
+      "265306",
+      "254429",
+      "267582",
+      "254535",
+      "270614"
+    ]
+  }
+}

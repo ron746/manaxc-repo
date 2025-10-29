@@ -1,0 +1,3 @@
+athletic_net_id,name,venue_name,distance_meters,distance_display,difficulty_rating,needs_review,needs_records_scraping
+,"Crystal Springs, 2.95 Miles",Crystal Springs,4747,2.95 Miles,,TRUE,FALSE
+,"Crystal Springs, 2.13 Miles",Crystal Springs,4327,2.13 Miles,1.104178929,TRUE,FALSE

@@ -26,8 +26,8 @@ export async function POST(request: Request) {
     console.log(`Executing: ${scrapeCommand}`);
 
     const { stdout, stderr } = await execAsync(scrapeCommand, {
-      maxBuffer: 10 * 1024 * 1024, // 10MB buffer
-      timeout: 180000 // 3 minute timeout
+      maxBuffer: 50 * 1024 * 1024, // 50MB buffer (increased for large meets)
+      timeout: 900000 // 15 minute timeout (increased for very large meets like 256230)
     });
 
     console.log('Scraper output:', stdout);
