@@ -642,18 +642,66 @@ def import_csv_folder(
             stats['skipped_results'] += 1
             continue
 
-        # Check if result already exists (unique constraint on athlete_id, meet_id, race_id, data_source)
-        existing = supabase.table('results').select('id').eq('athlete_id', athlete_db_id).eq('meet_id', race_meet_id).eq('race_id', race_db_id).eq('data_source', 'athletic_net').execute()
+        # OPTIMIZED DUPLICATE CHECK - Time first (fast path for most results)
+        incoming_time_cs = int(result['time_cs'])
+
+        # Step 1: Check if this exact time exists in this race (fast check)
+        existing_with_time = supabase.table('results').select('id, athlete_id').eq('race_id', race_db_id).eq('time_cs', incoming_time_cs).execute()
 
         if i <= 3:
-            print(f"  [DEBUG] Existing result check returned: {len(existing.data) if existing.data else 0} results")
+            print(f"  [DEBUG] Time check ({incoming_time_cs}cs) returned: {len(existing_with_time.data) if existing_with_time.data else 0} results")
 
-        if existing.data:
+        if not existing_with_time.data:
+            # No matching time → definitely not a duplicate, proceed to insert (FAST PATH)
             if i <= 3:
-                print(f"  [DEBUG] Result {i} already exists, skipping")
-            stats['skipped_results'] += 1
-            stats['skipped_already_exists'] += 1
-            continue
+                print(f"  [DEBUG] No time match, proceeding to insert")
+        else:
+            # Step 2: Time exists, check if it's the same athlete
+            is_duplicate = False
+
+            # Get athlete info for comparison
+            athlete_record = supabase.table('athletes').select('id, athletic_net_id, slug').eq('id', athlete_db_id).execute()
+
+            if athlete_record.data:
+                incoming_athlete_net_id = athlete_record.data[0].get('athletic_net_id')
+                incoming_athlete_slug = athlete_record.data[0].get('slug')
+
+                # Check each existing result with this time
+                for existing_result in existing_with_time.data:
+                    existing_athlete_id = existing_result['athlete_id']
+
+                    # Fast check: same athlete_id?
+                    if existing_athlete_id == athlete_db_id:
+                        is_duplicate = True
+                        break
+
+                    # Get existing athlete info
+                    existing_athlete = supabase.table('athletes').select('athletic_net_id, slug').eq('id', existing_athlete_id).execute()
+
+                    if existing_athlete.data:
+                        existing_net_id = existing_athlete.data[0].get('athletic_net_id')
+                        existing_slug = existing_athlete.data[0].get('slug')
+
+                        # If both have athletic_net_id, compare those
+                        if incoming_athlete_net_id and existing_net_id:
+                            if incoming_athlete_net_id == existing_net_id:
+                                is_duplicate = True
+                                break
+                        # If no athletic_net_id, compare slugs (name-based)
+                        elif incoming_athlete_slug and existing_slug:
+                            if incoming_athlete_slug == existing_slug:
+                                is_duplicate = True
+                                break
+
+            if is_duplicate:
+                if i <= 3:
+                    print(f"  [DEBUG] Result {i} is a duplicate (same athlete, time, race), skipping")
+                stats['skipped_results'] += 1
+                stats['skipped_already_exists'] += 1
+                continue
+            else:
+                if i <= 3:
+                    print(f"  [DEBUG] Time match but different athlete (tie), proceeding to insert")
 
         if i <= 3:
             print(f"  [DEBUG] Adding result {i} to batch...")
@@ -712,6 +760,25 @@ def import_csv_folder(
             print(f"      - {stats['skipped_missing_athlete']} missing athlete")
         if stats['skipped_missing_race'] > 0:
             print(f"      - {stats['skipped_missing_race']} missing race")
+
+    # ========== UPDATE MEET RESULT COUNT ==========
+    # Update the cached result_count on the meet(s) that had results added
+    # This is necessary because triggers are disabled during bulk imports
+    if stats['results_inserted'] > 0:
+        print(f"\n🔢 Updating meet result counts...")
+        # Get unique meet IDs from the imported results
+        unique_meet_ids = set(race_to_meet_map.values())
+        for meet_db_id in unique_meet_ids:
+            try:
+                # Get current count from database
+                current_result = supabase.table('results').select('id', count='exact').eq('meet_id', meet_db_id).execute()
+                new_count = current_result.count or 0
+
+                # Update the meet's result_count
+                supabase.table('meets').update({'result_count': new_count}).eq('id', meet_db_id).execute()
+                print(f"  ✅ Updated meet {meet_db_id} result_count to {new_count}")
+            except Exception as e:
+                print(f"  ⚠️  Warning: Failed to update meet result_count: {e}")
 
     # Print final summary
     print(f"\n{'=' * 60}")

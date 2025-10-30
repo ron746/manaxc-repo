@@ -17,9 +17,10 @@ interface Meet {
     state: string | null
   } | null
   race_count: number
+  result_count: number
 }
 
-type SortField = 'meet_date' | 'name' | 'meet_type' | 'season_year' | 'venue'
+type SortField = 'meet_date' | 'name' | 'meet_type' | 'season_year' | 'venue' | 'result_count'
 type SortDirection = 'asc' | 'desc'
 
 export default function MeetsPage() {
@@ -41,7 +42,7 @@ export default function MeetsPage() {
     try {
       setLoading(true)
 
-      // Get meets with venue info and race counts
+      // Get meets with venue info, race counts, and cached result counts
       const { data: meetsData, error } = await supabase
         .from('meets')
         .select(`
@@ -50,6 +51,7 @@ export default function MeetsPage() {
           meet_date,
           season_year,
           meet_type,
+          result_count,
           venue:venues(
             name,
             city,
@@ -68,7 +70,8 @@ export default function MeetsPage() {
         season_year: meet.season_year,
         meet_type: meet.meet_type,
         venue: meet.venue as { name: string; city: string | null; state: string | null } | null,
-        race_count: meet.races?.length || 0
+        race_count: meet.races?.length || 0,
+        result_count: meet.result_count || 0
       })) || []
 
       setMeets(processedMeets)
@@ -270,6 +273,14 @@ export default function MeetsPage() {
                     Races
                   </th>
                   <th
+                    onClick={() => handleSort('result_count')}
+                    className="py-4 px-6 text-center font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
+                  >
+                    <div className="flex items-center justify-center gap-2">
+                      Results <SortIcon field="result_count" />
+                    </div>
+                  </th>
+                  <th
                     onClick={() => handleSort('season_year')}
                     className="py-4 px-6 text-center font-bold text-zinc-900 cursor-pointer hover:bg-zinc-100 transition-colors"
                   >
@@ -282,7 +293,7 @@ export default function MeetsPage() {
               <tbody>
                 {currentMeets.length === 0 ? (
                   <tr>
-                    <td colSpan={6} className="py-12 text-center text-zinc-500">
+                    <td colSpan={7} className="py-12 text-center text-zinc-500">
                       No meets found
                     </td>
                   </tr>
@@ -322,6 +333,9 @@ export default function MeetsPage() {
                       </td>
                       <td className="py-4 px-6 text-center text-zinc-700">
                         {meet.race_count}
+                      </td>
+                      <td className="py-4 px-6 text-center text-zinc-700">
+                        {meet.result_count}
                       </td>
                       <td className="py-4 px-6 text-center text-zinc-700">
                         {meet.season_year}
