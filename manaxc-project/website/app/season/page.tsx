@@ -477,7 +477,7 @@ export default function SeasonPage() {
     setLoading(true)
 
     // Extract gender from viewMode
-    const gender = viewMode.startsWith('boys-') ? 'M' : 'F'
+    const gender: 'M' | 'F' = viewMode.startsWith('boys-') ? 'M' : 'F'
 
     // Build filter object
     const filters = {
@@ -504,7 +504,7 @@ export default function SeasonPage() {
   const filteredAthletes = useMemo(() => {
     // Since we reload data when filters change, allAthletes should already be filtered
     // But to be safe during transitions, apply gender filter based on viewMode
-    const gender = viewMode.startsWith('boys-') ? 'M' : 'F'
+    const gender: 'M' | 'F' = viewMode.startsWith('boys-') ? 'M' : 'F'
     return allAthletes.filter(athlete => athlete.gender === gender)
   }, [allAthletes, viewMode])
 
