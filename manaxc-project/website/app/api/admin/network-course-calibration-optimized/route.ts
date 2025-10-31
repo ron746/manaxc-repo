@@ -38,10 +38,12 @@ export async function POST(request: Request) {
     console.log(`Anchor course has ${anchorCount} results`)
 
     // Step 3: Use optimized SQL function to get all calibrations at once
+    // Only compares courses within ±15% distance to avoid distance-effect confounding
     const { data: calibrations, error: calibError } = await supabase.rpc(
       'get_all_course_calibrations',
       {
-        anchor_course_name: ANCHOR_COURSE_NAME
+        anchor_course_name: ANCHOR_COURSE_NAME,
+        distance_tolerance_pct: 0.15
       }
     )
 

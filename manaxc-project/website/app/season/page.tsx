@@ -64,33 +64,21 @@ export default function SeasonPage() {
 
   // Filter states
   const [bestType, setBestType] = useState<'season' | 'alltime'>('season')
-  const [selectedGenders, setSelectedGenders] = useState<Set<'M' | 'F'>>(new Set())
-  const [selectedCifSections, setSelectedCifSections] = useState<Set<string>>(new Set())
+  const [raceType, setRaceType] = useState<'california' | 'section' | 'league' | 'custom'>('california')
+  const [selectedCifSection, setSelectedCifSection] = useState<string>('')
   const [selectedCifDivisions, setSelectedCifDivisions] = useState<Set<string>>(new Set())
-  const [selectedLeagues, setSelectedLeagues] = useState<Set<string>>(new Set())
-  const [selectedSubleagues, setSelectedSubleagues] = useState<Set<string>>(new Set())
-  const [includeCifSectionNulls, setIncludeCifSectionNulls] = useState(false)
-  const [includeCifDivisionNulls, setIncludeCifDivisionNulls] = useState(false)
-  const [includeLeagueNulls, setIncludeLeagueNulls] = useState(false)
-  const [includeSubleagueNulls, setIncludeSubleagueNulls] = useState(false)
+  const [selectedLeague, setSelectedLeague] = useState<string>('')
+  const [selectedSubleague, setSelectedSubleague] = useState<string>('')
   const [selectedSchools, setSelectedSchools] = useState<Set<string>>(new Set())
   const [selectedSeasons, setSelectedSeasons] = useState<Set<number>>(new Set())
   const [selectedAthletes, setSelectedAthletes] = useState<Set<string>>(new Set())
   const [targetCourseId, setTargetCourseId] = useState<string>('')
-  const [viewMode, setViewMode] = useState<'team' | 'individual'>('team')
+  const [viewMode, setViewMode] = useState<'boys-team' | 'girls-team' | 'boys-individual' | 'girls-individual'>('boys-team')
   const [boysCurrentPage, setBoysCurrentPage] = useState(1)
   const [girlsCurrentPage, setGirlsCurrentPage] = useState(1)
   const [boysJumpToPage, setBoysJumpToPage] = useState<string>('')
   const [girlsJumpToPage, setGirlsJumpToPage] = useState<string>('')
   const RESULTS_PER_PAGE = 75
-
-  // Refs for indeterminate checkbox states
-  const boysCheckboxRef = useRef<HTMLInputElement>(null)
-  const girlsCheckboxRef = useRef<HTMLInputElement>(null)
-  const cifSectionCheckboxRefs = useRef<Map<string, HTMLInputElement>>(new Map())
-  const cifSectionNullCheckboxRef = useRef<HTMLInputElement>(null)
-  const cifDivisionCheckboxRefs = useRef<Map<string, HTMLInputElement>>(new Map())
-  const cifDivisionNullCheckboxRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     loadData()
@@ -151,12 +139,14 @@ export default function SeasonPage() {
         await loadSeasonResults([mostRecentSeason])
       }
 
-      // Initialize selections - auto-select all schools
-      setSelectedSchools(new Set(schoolsList.map(s => s.id)))
+      // Initialize selections
       setSelectedSeasons(mostRecentSeason ? new Set([mostRecentSeason]) : new Set())
       if (coursesList.length > 0) {
         setTargetCourseId(coursesList[0].id)
       }
+      // Set initial race type to California State Championship
+      // This will trigger the useEffect to load data
+      setRaceType('california')
     } catch (error) {
       console.error('Error loading data:', error)
     } finally {
@@ -164,14 +154,122 @@ export default function SeasonPage() {
     }
   }
 
-  const loadSeasonResults = async (seasonYears: number[], isAllTime: boolean = false) => {
+  const loadSeasonResults = async (
+    seasonYears: number[],
+    isAllTime: boolean = false,
+    filters?: {
+      raceType: 'california' | 'section' | 'league' | 'custom'
+      gender?: 'M' | 'F'
+      cifSection?: string
+      league?: string
+      subleague?: string
+      schoolIds?: Set<string>
+      cifDivisions?: Set<string>
+    }
+  ) => {
+    try {
+      // Don't load anything if no race type is selected
+      if (!filters?.raceType) {
+        setAllAthletes([])
+        return
+      }
+
+      console.log('Loading with filters:', {
+        seasonYears,
+        isAllTime,
+        raceType: filters.raceType,
+        gender: filters.gender,
+        cifSection: filters.cifSection
+      })
+
+      const athletes: Athlete[] = []
+
+      // Use the new efficient database function that gets top 12 per school
+      const { data, error } = await supabase.rpc('get_top_athletes_per_school', {
+        p_race_type: filters.raceType,
+        p_gender: filters.gender || null,
+        p_cif_section: filters.cifSection || null,
+        p_cif_divisions: filters.cifDivisions && filters.cifDivisions.size > 0
+          ? Array.from(filters.cifDivisions)
+          : null,
+        p_league: filters.league || null,
+        p_subleague: filters.subleague || null,
+        p_school_ids: filters.schoolIds && filters.schoolIds.size > 0
+          ? Array.from(filters.schoolIds)
+          : null,
+        p_season_years: seasonYears.length > 0 ? seasonYears : null,
+        p_is_alltime: isAllTime,
+        p_top_n: 12  // Get top 12 per school to allow for alternates
+      })
+
+      if (error) {
+        console.error('Error loading athletes:', error)
+        console.error('Error message:', error?.message)
+        console.error('Error details:', JSON.stringify(error))
+        // Fall back to old method if function doesn't exist yet or any error occurs
+        // Check if error has a message property before calling includes
+        if (error?.message && (error.message.includes('function') && error.message.includes('does not exist'))) {
+          console.warn('Database function not found, using fallback method')
+          await loadSeasonResultsFallback(seasonYears, isAllTime, filters)
+          return
+        }
+        // For any RPC error, fall back to old method
+        console.warn('RPC call failed, using fallback method')
+        await loadSeasonResultsFallback(seasonYears, isAllTime, filters)
+        return
+      }
+
+      console.log('RPC returned:', data ? `${data.length} records` : 'no data', error ? `Error: ${error.message}` : '')
+
+      if (data) {
+        data.forEach((record: any) => {
+          athletes.push({
+            id: record.athlete_id,
+            name: record.athlete_name,
+            school_id: record.school_id,
+            school_name: record.school_name,
+            school_cif_section: record.school_cif_section,
+            school_cif_division: record.school_cif_division,
+            school_league: record.school_league,
+            school_subleague: record.school_subleague,
+            gender: record.athlete_gender,
+            season_best_cs: record.season_best_cs,
+            normalized_time_cs: record.normalized_time_cs,
+            season_year: record.season_year,
+            race_distance_meters: record.race_distance_meters
+          })
+        })
+      }
+
+      console.log('Setting allAthletes with', athletes.length, 'athletes')
+      setAllAthletes(athletes)
+      setSelectedAthletes(new Set(athletes.map(a => a.id)))
+    } catch (error) {
+      console.error('Error loading season results:', error)
+    }
+  }
+
+  // Fallback method using old approach (in case database function isn't deployed yet)
+  const loadSeasonResultsFallback = async (
+    seasonYears: number[],
+    isAllTime: boolean = false,
+    filters?: {
+      raceType: 'california' | 'section' | 'league' | 'custom'
+      gender?: 'M' | 'F'
+      cifSection?: string
+      league?: string
+      subleague?: string
+      schoolIds?: Set<string>
+      cifDivisions?: Set<string>
+    }
+  ) => {
     try {
       const athletes: Athlete[] = []
 
       if (isAllTime) {
         // Load all-time best times from optimized table with pagination
         // Get the best all-time normalized time for each athlete across all seasons
-        const PAGE_SIZE = 1000
+        const PAGE_SIZE = 10000  // Increased to handle large datasets
         let page = 0
         let hasMore = true
 
@@ -179,7 +277,7 @@ export default function SeasonPage() {
           const from = page * PAGE_SIZE
           const to = from + PAGE_SIZE - 1
 
-          const { data: bestTimesData } = await supabase
+          let query = supabase
             .from('athlete_best_times')
             .select(`
               athlete_id,
@@ -201,7 +299,34 @@ export default function SeasonPage() {
                 )
               )
             `)
-            .range(from, to)
+
+          // Apply gender filter
+          if (filters?.gender) {
+            query = query.eq('athlete.gender', filters.gender)
+          }
+
+          // Apply race type filters
+          if (filters?.raceType === 'california') {
+            query = query.not('athlete.school.cif_section', 'is', null)
+          } else if (filters?.raceType === 'section' && filters.cifSection) {
+            query = query.eq('athlete.school.cif_section', filters.cifSection)
+          } else if (filters?.raceType === 'league') {
+            if (filters.subleague) {
+              query = query.eq('athlete.school.subleague', filters.subleague)
+            } else if (filters.league) {
+              query = query.eq('athlete.school.league', filters.league)
+            }
+          } else if (filters?.raceType === 'custom' && filters.schoolIds && filters.schoolIds.size > 0) {
+            query = query.in('athlete.school.id', Array.from(filters.schoolIds))
+          }
+
+          // Apply CIF division filter (for California and Section races)
+          if (filters?.cifDivisions && filters.cifDivisions.size > 0 &&
+              (filters.raceType === 'california' || filters.raceType === 'section')) {
+            query = query.in('athlete.school.cif_division', Array.from(filters.cifDivisions))
+          }
+
+          const { data: bestTimesData } = await query.range(from, to)
 
           if (!bestTimesData || bestTimesData.length === 0) {
             hasMore = false
@@ -247,7 +372,7 @@ export default function SeasonPage() {
         }
       } else {
         // Load season-best times from optimized table for selected seasons with pagination
-        const PAGE_SIZE = 1000
+        const PAGE_SIZE = 10000  // Increased to handle large datasets
         let page = 0
         let hasMore = true
 
@@ -255,7 +380,7 @@ export default function SeasonPage() {
           const from = page * PAGE_SIZE
           const to = from + PAGE_SIZE - 1
 
-          const { data: bestTimesData } = await supabase
+          let query = supabase
             .from('athlete_best_times')
             .select(`
               athlete_id,
@@ -278,7 +403,34 @@ export default function SeasonPage() {
               )
             `)
             .in('season_year', seasonYears)
-            .range(from, to)
+
+          // Apply gender filter
+          if (filters?.gender) {
+            query = query.eq('athlete.gender', filters.gender)
+          }
+
+          // Apply race type filters
+          if (filters?.raceType === 'california') {
+            query = query.not('athlete.school.cif_section', 'is', null)
+          } else if (filters?.raceType === 'section' && filters.cifSection) {
+            query = query.eq('athlete.school.cif_section', filters.cifSection)
+          } else if (filters?.raceType === 'league') {
+            if (filters.subleague) {
+              query = query.eq('athlete.school.subleague', filters.subleague)
+            } else if (filters.league) {
+              query = query.eq('athlete.school.league', filters.league)
+            }
+          } else if (filters?.raceType === 'custom' && filters.schoolIds && filters.schoolIds.size > 0) {
+            query = query.in('athlete.school.id', Array.from(filters.schoolIds))
+          }
+
+          // Apply CIF division filter (for California and Section races)
+          if (filters?.cifDivisions && filters.cifDivisions.size > 0 &&
+              (filters.raceType === 'california' || filters.raceType === 'section')) {
+            query = query.in('athlete.school.cif_division', Array.from(filters.cifDivisions))
+          }
+
+          const { data: bestTimesData } = await query.range(from, to)
 
           if (!bestTimesData || bestTimesData.length === 0) {
             hasMore = false
@@ -323,46 +475,41 @@ export default function SeasonPage() {
     }
   }
 
-  // Reload results when seasons or best type changes
-  useEffect(() => {
-    if (bestType === 'alltime') {
-      loadSeasonResults([], true)
-    } else if (selectedSeasons.size > 0) {
-      loadSeasonResults(Array.from(selectedSeasons), false)
+  // Manual launch function - user clicks button to load data
+  const launchRaceProjection = async () => {
+    setLoading(true)
+
+    // Extract gender from viewMode
+    const gender = viewMode.startsWith('boys-') ? 'M' : 'F'
+
+    // Build filter object
+    const filters = {
+      raceType,
+      gender,
+      cifSection: selectedCifSection,
+      league: selectedLeague,
+      subleague: selectedSubleague,
+      schoolIds: selectedSchools,
+      cifDivisions: selectedCifDivisions
     }
-  }, [selectedSeasons, bestType])
 
-  // Filter athletes based on selections
+    if (bestType === 'alltime') {
+      await loadSeasonResults([], true, filters)
+    } else if (selectedSeasons.size > 0) {
+      await loadSeasonResults(Array.from(selectedSeasons), false, filters)
+    }
+
+    setLoading(false)
+  }
+
+  // Athletes are already filtered at database level, just pass through
+  // The only client-side filtering needed is if the data was loaded before filters changed
   const filteredAthletes = useMemo(() => {
-    return allAthletes.filter(athlete => {
-      // For season-best, only include athletes from selected seasons
-      // For all-time, include all athletes regardless of season
-      const seasonCheck = bestType === 'alltime' || selectedSeasons.has(athlete.season_year)
-
-      // Gender filter: checking boxes includes those genders, unchecked excludes them
-      // If nothing is checked, nothing is shown
-      const genderCheck = selectedGenders.has(athlete.gender as 'M' | 'F')
-
-      // CIF Section filter: if none selected, show all; if some selected, only show those
-      const cifSectionCheck = selectedCifSections.size === 0 ||
-        (athlete.school_cif_section && selectedCifSections.has(athlete.school_cif_section)) ||
-        (!athlete.school_cif_section && includeCifSectionNulls)
-
-      // CIF Division filter: if none selected, show all; if some selected, only show those
-      const cifDivisionCheck = selectedCifDivisions.size === 0 ||
-        (athlete.school_cif_division && selectedCifDivisions.has(athlete.school_cif_division)) ||
-        (!athlete.school_cif_division && includeCifDivisionNulls)
-
-      return (
-        genderCheck &&
-        cifSectionCheck &&
-        cifDivisionCheck &&
-        selectedSchools.has(athlete.school_id) &&
-        seasonCheck &&
-        selectedAthletes.has(athlete.id)
-      )
-    })
-  }, [allAthletes, selectedGenders, selectedCifSections, includeCifSectionNulls, selectedCifDivisions, includeCifDivisionNulls, selectedSchools, selectedSeasons, selectedAthletes, bestType])
+    // Since we reload data when filters change, allAthletes should already be filtered
+    // But to be safe during transitions, apply gender filter based on viewMode
+    const gender = viewMode.startsWith('boys-') ? 'M' : 'F'
+    return allAthletes.filter(athlete => athlete.gender === gender)
+  }, [allAthletes, viewMode])
 
   // Project times to target course
   const projectedAthletes = useMemo(() => {
@@ -566,16 +713,6 @@ export default function SeasonPage() {
       .sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
   }
 
-  const toggleGender = (gender: 'M' | 'F') => {
-    const newSet = new Set(selectedGenders)
-    if (newSet.has(gender)) {
-      newSet.delete(gender)
-    } else {
-      newSet.add(gender)
-    }
-    setSelectedGenders(newSet)
-  }
-
   const toggleSchool = (schoolId: string) => {
     const newSet = new Set(selectedSchools)
     if (newSet.has(schoolId)) {
@@ -594,24 +731,6 @@ export default function SeasonPage() {
     }
   }
 
-  const toggleCifSection = (section: string) => {
-    const newSet = new Set(selectedCifSections)
-    if (newSet.has(section)) {
-      newSet.delete(section)
-    } else {
-      newSet.add(section)
-    }
-    setSelectedCifSections(newSet)
-  }
-
-  const toggleAllCifSections = (uniqueSections: string[]) => {
-    if (selectedCifSections.size === uniqueSections.length) {
-      setSelectedCifSections(new Set())
-    } else {
-      setSelectedCifSections(new Set(uniqueSections))
-    }
-  }
-
   const toggleCifDivision = (division: string) => {
     const newSet = new Set(selectedCifDivisions)
     if (newSet.has(division)) {
@@ -627,42 +746,6 @@ export default function SeasonPage() {
       setSelectedCifDivisions(new Set())
     } else {
       setSelectedCifDivisions(new Set(uniqueDivisions))
-    }
-  }
-
-  const toggleLeague = (league: string) => {
-    const newSet = new Set(selectedLeagues)
-    if (newSet.has(league)) {
-      newSet.delete(league)
-    } else {
-      newSet.add(league)
-    }
-    setSelectedLeagues(newSet)
-  }
-
-  const toggleAllLeagues = (uniqueLeagues: string[]) => {
-    if (selectedLeagues.size === uniqueLeagues.length) {
-      setSelectedLeagues(new Set())
-    } else {
-      setSelectedLeagues(new Set(uniqueLeagues))
-    }
-  }
-
-  const toggleSubleague = (subleague: string) => {
-    const newSet = new Set(selectedSubleagues)
-    if (newSet.has(subleague)) {
-      newSet.delete(subleague)
-    } else {
-      newSet.add(subleague)
-    }
-    setSelectedSubleagues(newSet)
-  }
-
-  const toggleAllSubleagues = (uniqueSubleagues: string[]) => {
-    if (selectedSubleagues.size === uniqueSubleagues.length) {
-      setSelectedSubleagues(new Set())
-    } else {
-      setSelectedSubleagues(new Set(uniqueSubleagues))
     }
   }
 
@@ -692,160 +775,10 @@ export default function SeasonPage() {
     return Array.from(new Set(sections)).sort()
   }, [schools])
 
-  // Calculate which genders exist in each CIF section
-  const gendersInCifSection = useMemo(() => {
-    const map = new Map<string | null, Set<'M' | 'F'>>()
-    allAthletes.forEach(athlete => {
-      const section = athlete.school_cif_section
-      if (!map.has(section)) {
-        map.set(section, new Set())
-      }
-      map.get(section)!.add(athlete.gender as 'M' | 'F')
-    })
-    return map
-  }, [allAthletes])
-
-  // Calculate which CIF sections exist for each gender
-  const cifSectionsForGender = useMemo(() => {
-    const map = new Map<'M' | 'F', Set<string | null>>()
-    map.set('M', new Set())
-    map.set('F', new Set())
-    allAthletes.forEach(athlete => {
-      map.get(athlete.gender as 'M' | 'F')!.add(athlete.school_cif_section)
-    })
-    return map
-  }, [allAthletes])
-
-  // Check if a gender checkbox should be indeterminate
-  const isGenderIndeterminate = (gender: 'M' | 'F') => {
-    if (selectedGenders.has(gender)) return false
-    // Check if any selected CIF sections have this gender
-    if (selectedCifSections.size === 0) return false
-
-    for (const section of selectedCifSections) {
-      const genders = gendersInCifSection.get(section)
-      if (genders?.has(gender)) return true
-    }
-
-    // Check if blank/unknown has this gender
-    if (includeCifSectionNulls) {
-      const genders = gendersInCifSection.get(null)
-      if (genders?.has(gender)) return true
-    }
-
-    return false
-  }
-
-  // Check if a CIF section checkbox should be indeterminate
-  const isCifSectionIndeterminate = (section: string) => {
-    if (selectedCifSections.has(section)) return false
-    if (selectedGenders.size === 0) return false
-
-    const genders = gendersInCifSection.get(section)
-    if (!genders) return false
-
-    // Check if this section has genders that are both selected and not selected
-    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
-    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
-
-    return hasSelectedGender && hasUnselectedGender
-  }
-
-  // Check if blank/unknown CIF section should be indeterminate
-  const isCifSectionNullIndeterminate = () => {
-    if (includeCifSectionNulls) return false
-    if (selectedGenders.size === 0) return false
-
-    const genders = gendersInCifSection.get(null)
-    if (!genders) return false
-
-    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
-    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
-
-    return hasSelectedGender && hasUnselectedGender
-  }
-
-  // Set indeterminate state on gender checkboxes
-  useEffect(() => {
-    if (boysCheckboxRef.current) {
-      boysCheckboxRef.current.indeterminate = isGenderIndeterminate('M')
-    }
-    if (girlsCheckboxRef.current) {
-      girlsCheckboxRef.current.indeterminate = isGenderIndeterminate('F')
-    }
-  }, [selectedGenders, selectedCifSections, includeCifSectionNulls, gendersInCifSection])
-
-  // Set indeterminate state on CIF section checkboxes
-  useEffect(() => {
-    uniqueCifSections.forEach(section => {
-      const ref = cifSectionCheckboxRefs.current.get(section)
-      if (ref) {
-        ref.indeterminate = isCifSectionIndeterminate(section)
-      }
-    })
-    if (cifSectionNullCheckboxRef.current) {
-      cifSectionNullCheckboxRef.current.indeterminate = isCifSectionNullIndeterminate()
-    }
-  }, [selectedGenders, selectedCifSections, includeCifSectionNulls, gendersInCifSection, uniqueCifSections])
-
-  // Calculate which genders exist in each CIF division
-  const gendersInCifDivision = useMemo(() => {
-    const map = new Map<string | null, Set<'M' | 'F'>>()
-    allAthletes.forEach(athlete => {
-      const division = athlete.school_cif_division
-      if (!map.has(division)) {
-        map.set(division, new Set())
-      }
-      map.get(division)!.add(athlete.gender as 'M' | 'F')
-    })
-    return map
-  }, [allAthletes])
-
   const uniqueCifDivisions = useMemo(() => {
     const divisions = schools.map(s => s.cif_division).filter(Boolean) as string[]
     return Array.from(new Set(divisions)).sort()
   }, [schools])
-
-  // Check if a CIF division checkbox should be indeterminate
-  const isCifDivisionIndeterminate = (division: string) => {
-    if (selectedCifDivisions.has(division)) return false
-    if (selectedGenders.size === 0) return false
-
-    const genders = gendersInCifDivision.get(division)
-    if (!genders) return false
-
-    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
-    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
-
-    return hasSelectedGender && hasUnselectedGender
-  }
-
-  // Check if blank/unknown CIF division should be indeterminate
-  const isCifDivisionNullIndeterminate = () => {
-    if (includeCifDivisionNulls) return false
-    if (selectedGenders.size === 0) return false
-
-    const genders = gendersInCifDivision.get(null)
-    if (!genders) return false
-
-    const hasSelectedGender = Array.from(selectedGenders).some(g => genders.has(g))
-    const hasUnselectedGender = (['M', 'F'] as const).some(g => !selectedGenders.has(g) && genders.has(g))
-
-    return hasSelectedGender && hasUnselectedGender
-  }
-
-  // Set indeterminate state on CIF division checkboxes
-  useEffect(() => {
-    uniqueCifDivisions.forEach(division => {
-      const ref = cifDivisionCheckboxRefs.current.get(division)
-      if (ref) {
-        ref.indeterminate = isCifDivisionIndeterminate(division)
-      }
-    })
-    if (cifDivisionNullCheckboxRef.current) {
-      cifDivisionNullCheckboxRef.current.indeterminate = isCifDivisionNullIndeterminate()
-    }
-  }, [selectedGenders, selectedCifDivisions, includeCifDivisionNulls, gendersInCifDivision, uniqueCifDivisions])
 
   const uniqueLeagues = useMemo(() => {
     const leagues = schools.map(s => s.league).filter(Boolean) as string[]
@@ -857,22 +790,14 @@ export default function SeasonPage() {
     return Array.from(new Set(subleagues)).sort()
   }, [schools])
 
-  // Calculate blank counts for each filter type
-  const blankCifSectionCount = useMemo(() => {
-    return schools.filter(s => !s.cif_section).length
-  }, [schools])
-
-  const blankCifDivisionCount = useMemo(() => {
-    return schools.filter(s => !s.cif_division).length
-  }, [schools])
-
-  const blankLeagueCount = useMemo(() => {
-    return schools.filter(s => !s.league).length
-  }, [schools])
-
-  const blankSubleagueCount = useMemo(() => {
-    return schools.filter(s => !s.subleague).length
-  }, [schools])
+  // Get subleagues for selected league
+  const availableSubleagues = useMemo(() => {
+    if (!selectedLeague) return []
+    const subleagues = schools
+      .filter(s => s.league === selectedLeague && s.subleague)
+      .map(s => s.subleague as string)
+    return Array.from(new Set(subleagues)).sort()
+  }, [schools, selectedLeague])
 
   if (loading) {
     return (
@@ -894,7 +819,197 @@ export default function SeasonPage() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
           <aside className="lg:w-1/4 bg-white rounded-lg border-2 border-zinc-200 shadow-sm p-6 self-start">
-            <h3 className="text-xl font-bold text-zinc-900 mb-6">Filters</h3>
+            <h3 className="text-xl font-bold text-zinc-900 mb-6">Championship Setup</h3>
+
+            {/* Race Type Selection */}
+            <div className="mb-6">
+              <h4 className="font-bold text-zinc-900 mb-3">Race Type:</h4>
+              <div className="space-y-2">
+                <button
+                  onClick={() => {
+                    setRaceType('california')
+                    setSelectedCifDivisions(new Set())
+                  }}
+                  className={`w-full text-left px-4 py-3 rounded-lg border-2 font-medium transition-all ${
+                    raceType === 'california'
+                      ? 'bg-blue-50 border-blue-500 text-blue-700'
+                      : 'border-zinc-300 text-zinc-700 hover:border-blue-300 hover:bg-blue-50'
+                  }`}
+                >
+                  California State Championship
+                  <p className="text-xs mt-1 text-zinc-600">All schools with CIF section</p>
+                </button>
+                <button
+                  onClick={() => {
+                    setRaceType('section')
+                    setSelectedCifSection('')
+                    setSelectedCifDivisions(new Set())
+                  }}
+                  className={`w-full text-left px-4 py-3 rounded-lg border-2 font-medium transition-all ${
+                    raceType === 'section'
+                      ? 'bg-blue-50 border-blue-500 text-blue-700'
+                      : 'border-zinc-300 text-zinc-700 hover:border-blue-300 hover:bg-blue-50'
+                  }`}
+                >
+                  Section Championship
+                  <p className="text-xs mt-1 text-zinc-600">Schools in specific CIF section</p>
+                </button>
+                <button
+                  onClick={() => {
+                    setRaceType('league')
+                    setSelectedLeague('')
+                    setSelectedSubleague('')
+                  }}
+                  className={`w-full text-left px-4 py-3 rounded-lg border-2 font-medium transition-all ${
+                    raceType === 'league'
+                      ? 'bg-blue-50 border-blue-500 text-blue-700'
+                      : 'border-zinc-300 text-zinc-700 hover:border-blue-300 hover:bg-blue-50'
+                  }`}
+                >
+                  League Championship
+                  <p className="text-xs mt-1 text-zinc-600">Schools in specific league</p>
+                </button>
+                <button
+                  onClick={() => {
+                    setRaceType('custom')
+                    setSelectedSchools(new Set())
+                  }}
+                  className={`w-full text-left px-4 py-3 rounded-lg border-2 font-medium transition-all ${
+                    raceType === 'custom'
+                      ? 'bg-blue-50 border-blue-500 text-blue-700'
+                      : 'border-zinc-300 text-zinc-700 hover:border-blue-300 hover:bg-blue-50'
+                  }`}
+                >
+                  Custom Race
+                  <p className="text-xs mt-1 text-zinc-600">Select specific schools</p>
+                </button>
+              </div>
+            </div>
+
+            {/* Conditional Filters Based on Race Type */}
+            <div className="mb-6 pb-6 border-b-2 border-zinc-300">
+              {/* Section Selection for Section Championship */}
+              {raceType === 'section' && (
+                <div className="mb-4">
+                  <h4 className="font-bold text-zinc-900 mb-3">Select CIF Section:</h4>
+                  <select
+                    value={selectedCifSection}
+                    onChange={(e) => setSelectedCifSection(e.target.value)}
+                    className="w-full bg-white text-zinc-900 font-medium border-2 border-zinc-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option value="">-- Choose Section --</option>
+                    {uniqueCifSections.map(section => (
+                      <option key={section} value={section}>{section}</option>
+                    ))}
+                  </select>
+                </div>
+              )}
+
+              {/* League Selection for League Championship */}
+              {raceType === 'league' && (
+                <>
+                  <div className="mb-4">
+                    <h4 className="font-bold text-zinc-900 mb-3">Select League:</h4>
+                    <select
+                      value={selectedLeague}
+                      onChange={(e) => {
+                        setSelectedLeague(e.target.value)
+                        setSelectedSubleague('')
+                      }}
+                      className="w-full bg-white text-zinc-900 font-medium border-2 border-zinc-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    >
+                      <option value="">-- Choose League --</option>
+                      {uniqueLeagues.map(league => (
+                        <option key={league} value={league}>{league}</option>
+                      ))}
+                    </select>
+                  </div>
+                  {selectedLeague && availableSubleagues.length > 0 && (
+                    <div className="mb-4">
+                      <h4 className="font-bold text-zinc-900 mb-3">Filter by Subleague (Optional):</h4>
+                      <select
+                        value={selectedSubleague}
+                        onChange={(e) => setSelectedSubleague(e.target.value)}
+                        className="w-full bg-white text-zinc-900 font-medium border-2 border-zinc-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      >
+                        <option value="">All Subleagues</option>
+                        {availableSubleagues.map(subleague => (
+                          <option key={subleague} value={subleague}>{subleague}</option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+                </>
+              )}
+
+              {/* CIF Division Filter for California and Section races */}
+              {(raceType === 'california' || raceType === 'section') && uniqueCifDivisions.length > 0 && (
+                <div className="mb-4">
+                  <div className="flex items-center justify-between mb-3">
+                    <h4 className="font-bold text-zinc-900">Filter by CIF Division:</h4>
+                    <button
+                      onClick={() => {
+                        if (selectedCifDivisions.size === uniqueCifDivisions.length) {
+                          setSelectedCifDivisions(new Set())
+                        } else {
+                          setSelectedCifDivisions(new Set(uniqueCifDivisions))
+                        }
+                      }}
+                      className="text-xs text-blue-600 hover:text-blue-800 font-medium"
+                    >
+                      {selectedCifDivisions.size === uniqueCifDivisions.length ? 'Clear All' : 'Select All'}
+                    </button>
+                  </div>
+                  <div className="space-y-2">
+                    {uniqueCifDivisions.map(division => (
+                      <label key={division} className="flex items-center space-x-2 cursor-pointer hover:bg-blue-50 px-2 py-1 rounded">
+                        <input
+                          type="checkbox"
+                          checked={selectedCifDivisions.has(division)}
+                          onChange={() => toggleCifDivision(division)}
+                          className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
+                        />
+                        <span className="text-zinc-700 text-sm font-medium">{division}</span>
+                      </label>
+                    ))}
+                  </div>
+                  {selectedCifDivisions.size === 0 && (
+                    <p className="text-xs text-zinc-500 mt-2 italic">All divisions included</p>
+                  )}
+                </div>
+              )}
+
+              {/* School Selection for Custom Race */}
+              {raceType === 'custom' && (
+                <div className="mb-4">
+                  <div className="flex items-center justify-between mb-3">
+                    <h4 className="font-bold text-zinc-900">Select Schools:</h4>
+                    <button
+                      onClick={toggleAllSchools}
+                      className="text-xs text-blue-600 hover:text-blue-800 font-medium"
+                    >
+                      {selectedSchools.size === schools.length ? 'Clear All' : 'Select All'}
+                    </button>
+                  </div>
+                  <div className="max-h-64 overflow-y-auto pr-2 space-y-1">
+                    {schools.map(school => (
+                      <label key={school.id} className="flex items-center space-x-2 cursor-pointer hover:bg-blue-50 px-2 py-1 rounded">
+                        <input
+                          type="checkbox"
+                          checked={selectedSchools.has(school.id)}
+                          onChange={() => toggleSchool(school.id)}
+                          className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
+                        />
+                        <span className="text-zinc-700 text-sm">{school.name}</span>
+                      </label>
+                    ))}
+                  </div>
+                  <p className="text-xs text-zinc-600 mt-2">
+                    {selectedSchools.size} school{selectedSchools.size !== 1 ? 's' : ''} selected
+                  </p>
+                </div>
+              )}
+            </div>
 
             {/* Target Course Selection */}
             <div className="mb-6">
@@ -937,187 +1052,95 @@ export default function SeasonPage() {
               </div>
             </div>
 
-            {/* Separator and Disclaimer */}
-            <div className="mb-6 pb-6 border-b-2 border-zinc-300">
-              <p className="text-xs text-zinc-600 italic">
-                Note: Filters below are unchecked by default. Check boxes to include results.
-              </p>
-            </div>
-
-            {/* Gender Filter */}
+            {/* Launch Race Projection Button */}
             <div className="mb-6">
-              <h4 className="font-bold text-zinc-900 mb-3">Gender:</h4>
-              <div className="space-y-2">
-                <label className="flex items-center space-x-2 cursor-pointer">
-                  <input
-                    ref={boysCheckboxRef}
-                    type="checkbox"
-                    checked={selectedGenders.has('M')}
-                    onChange={() => toggleGender('M')}
-                    className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300 focus:ring-2 focus:ring-blue-500"
-                  />
-                  <span className="text-zinc-700 font-medium">Boys</span>
-                </label>
-                <label className="flex items-center space-x-2 cursor-pointer">
-                  <input
-                    ref={girlsCheckboxRef}
-                    type="checkbox"
-                    checked={selectedGenders.has('F')}
-                    onChange={() => toggleGender('F')}
-                    className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300 focus:ring-2 focus:ring-blue-500"
-                  />
-                  <span className="text-zinc-700 font-medium">Girls</span>
-                </label>
-              </div>
+              <button
+                onClick={launchRaceProjection}
+                disabled={!raceType || (bestType === 'season' && selectedSeasons.size === 0) || loading}
+                className={`w-full py-4 px-6 rounded-lg font-bold text-lg transition-all ${
+                  !raceType || (bestType === 'season' && selectedSeasons.size === 0) || loading
+                    ? 'bg-zinc-300 text-zinc-500 cursor-not-allowed'
+                    : 'bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800 shadow-lg hover:shadow-xl'
+                }`}
+              >
+                {loading ? (
+                  <span className="flex items-center justify-center">
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Loading...
+                  </span>
+                ) : (
+                  'Launch Race Projection'
+                )}
+              </button>
+              {(!raceType || (bestType === 'season' && selectedSeasons.size === 0)) && (
+                <p className="text-xs text-zinc-500 mt-2 text-center italic">
+                  {!raceType ? 'Select a race type above to continue' : 'Select at least one season to continue'}
+                </p>
+              )}
             </div>
-
-            {/* CIF Section Filter */}
-            {uniqueCifSections.length > 0 && (
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h4 className="font-bold text-zinc-900">CIF Section:</h4>
-                  <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                    <input
-                      type="checkbox"
-                      checked={selectedCifSections.size === uniqueCifSections.length && (!blankCifSectionCount || includeCifSectionNulls)}
-                      onChange={() => {
-                        if (selectedCifSections.size === uniqueCifSections.length && (!blankCifSectionCount || includeCifSectionNulls)) {
-                          setSelectedCifSections(new Set())
-                          setIncludeCifSectionNulls(false)
-                        } else {
-                          setSelectedCifSections(new Set(uniqueCifSections))
-                          if (blankCifSectionCount > 0) setIncludeCifSectionNulls(true)
-                        }
-                      }}
-                      className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                    />
-                    <span className="text-zinc-600 text-xs font-medium">Select All</span>
-                  </label>
-                </div>
-                <div className="max-h-48 overflow-y-auto pr-2 space-y-2">
-                  {uniqueCifSections.map(section => (
-                    <label key={section} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        ref={(el) => {
-                          if (el) {
-                            cifSectionCheckboxRefs.current.set(section, el)
-                          } else {
-                            cifSectionCheckboxRefs.current.delete(section)
-                          }
-                        }}
-                        type="checkbox"
-                        checked={selectedCifSections.has(section)}
-                        onChange={() => toggleCifSection(section)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">{section}</span>
-                    </label>
-                  ))}
-                  {blankCifSectionCount > 0 && (
-                    <label className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        ref={cifSectionNullCheckboxRef}
-                        type="checkbox"
-                        checked={includeCifSectionNulls}
-                        onChange={(e) => setIncludeCifSectionNulls(e.target.checked)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">Blank/Unknown ({blankCifSectionCount})</span>
-                    </label>
-                  )}
-                </div>
-              </div>
-            )}
-
-            {/* CIF Division Filter */}
-            {uniqueCifDivisions.length > 0 && (
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h4 className="font-bold text-zinc-900">CIF Division:</h4>
-                  <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                    <input
-                      type="checkbox"
-                      checked={selectedCifDivisions.size === uniqueCifDivisions.length && (!blankCifDivisionCount || includeCifDivisionNulls)}
-                      onChange={() => {
-                        if (selectedCifDivisions.size === uniqueCifDivisions.length && (!blankCifDivisionCount || includeCifDivisionNulls)) {
-                          setSelectedCifDivisions(new Set())
-                          setIncludeCifDivisionNulls(false)
-                        } else {
-                          setSelectedCifDivisions(new Set(uniqueCifDivisions))
-                          if (blankCifDivisionCount > 0) setIncludeCifDivisionNulls(true)
-                        }
-                      }}
-                      className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                    />
-                    <span className="text-zinc-600 text-xs font-medium">Select All</span>
-                  </label>
-                </div>
-                <div className="max-h-48 overflow-y-auto pr-2 space-y-2">
-                  {uniqueCifDivisions.map(division => (
-                    <label key={division} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        ref={(el) => {
-                          if (el) {
-                            cifDivisionCheckboxRefs.current.set(division, el)
-                          } else {
-                            cifDivisionCheckboxRefs.current.delete(division)
-                          }
-                        }}
-                        type="checkbox"
-                        checked={selectedCifDivisions.has(division)}
-                        onChange={() => toggleCifDivision(division)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">{division}</span>
-                    </label>
-                  ))}
-                  {blankCifDivisionCount > 0 && (
-                    <label className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
-                      <input
-                        ref={cifDivisionNullCheckboxRef}
-                        type="checkbox"
-                        checked={includeCifDivisionNulls}
-                        onChange={(e) => setIncludeCifDivisionNulls(e.target.checked)}
-                        className="form-checkbox h-4 w-4 text-blue-600 rounded border-zinc-300"
-                      />
-                      <span className="text-zinc-700 text-sm">Blank/Unknown ({blankCifDivisionCount})</span>
-                    </label>
-                  )}
-                </div>
-              </div>
-            )}
           </aside>
 
           {/* Results Area */}
           <div className="lg:w-3/4 space-y-8">
-            {/* View Mode Toggle */}
-            <div className="flex gap-4 mb-6">
-              <button
-                onClick={() => setViewMode('individual')}
-                className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                  viewMode === 'individual'
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
-                }`}
-              >
-                Individual Projections
-              </button>
-              <button
-                onClick={() => setViewMode('team')}
-                className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                  viewMode === 'team'
-                    ? 'bg-blue-600 text-white'
-                    : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
-                }`}
-              >
-                Team Projections
-              </button>
+            {/* View Mode Toggle with Gender */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <div className="space-y-2">
+                <h4 className="text-sm font-bold text-zinc-600 uppercase tracking-wide">Boys</h4>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => setViewMode('boys-individual')}
+                    className={`flex-1 px-4 py-3 rounded-lg font-semibold transition-colors ${
+                      viewMode === 'boys-individual'
+                        ? 'bg-blue-600 text-white shadow-md'
+                        : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
+                    }`}
+                  >
+                    Individual
+                  </button>
+                  <button
+                    onClick={() => setViewMode('boys-team')}
+                    className={`flex-1 px-4 py-3 rounded-lg font-semibold transition-colors ${
+                      viewMode === 'boys-team'
+                        ? 'bg-blue-600 text-white shadow-md'
+                        : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
+                    }`}
+                  >
+                    Team
+                  </button>
+                </div>
+              </div>
+              <div className="space-y-2">
+                <h4 className="text-sm font-bold text-zinc-600 uppercase tracking-wide">Girls</h4>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => setViewMode('girls-individual')}
+                    className={`flex-1 px-4 py-3 rounded-lg font-semibold transition-colors ${
+                      viewMode === 'girls-individual'
+                        ? 'bg-red-600 text-white shadow-md'
+                        : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-red-600 hover:text-red-600'
+                    }`}
+                  >
+                    Individual
+                  </button>
+                  <button
+                    onClick={() => setViewMode('girls-team')}
+                    className={`flex-1 px-4 py-3 rounded-lg font-semibold transition-colors ${
+                      viewMode === 'girls-team'
+                        ? 'bg-red-600 text-white shadow-md'
+                        : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-red-600 hover:text-red-600'
+                    }`}
+                  >
+                    Team
+                  </button>
+                </div>
+              </div>
             </div>
 
-            {/* Individual Results */}
-            {viewMode === 'individual' && (
-              <>
-                {selectedGenders.has('M') && (
+            {/* Boys Individual Results */}
+            {viewMode === 'boys-individual' && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-blue-50 border-b-2 border-blue-200 p-4">
                       <h2 className="text-2xl font-bold text-zinc-900">Boys Individual Projections</h2>
@@ -1210,9 +1233,10 @@ export default function SeasonPage() {
                       </div>
                     )}
                   </div>
-                )}
+            )}
 
-                {selectedGenders.has('F') && (
+            {/* Girls Individual Results */}
+            {viewMode === 'girls-individual' && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-red-50 border-b-2 border-red-200 p-4">
                       <h2 className="text-2xl font-bold text-zinc-900">Girls Individual Projections</h2>
@@ -1305,14 +1329,10 @@ export default function SeasonPage() {
                       </div>
                     )}
                   </div>
-                )}
-              </>
             )}
 
-            {/* Team Standings */}
-            {viewMode === 'team' && (
-              <>
-                {selectedGenders.has('M') && (
+            {/* Boys Team Standings */}
+            {viewMode === 'boys-team' && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-blue-50 border-b-2 border-blue-200 p-4">
                       <h2 className="text-2xl font-bold text-zinc-900">Boys Team Standings</h2>
@@ -1362,9 +1382,10 @@ export default function SeasonPage() {
                       </table>
                     </div>
                   </div>
-                )}
+            )}
 
-                {selectedGenders.has('F') && (
+            {/* Girls Team Standings */}
+            {viewMode === 'girls-team' && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-red-50 border-b-2 border-red-200 p-4">
                       <h2 className="text-2xl font-bold text-zinc-900">Girls Team Standings</h2>
@@ -1414,8 +1435,6 @@ export default function SeasonPage() {
                       </table>
                     </div>
                   </div>
-                )}
-              </>
             )}
           </div>
         </div>

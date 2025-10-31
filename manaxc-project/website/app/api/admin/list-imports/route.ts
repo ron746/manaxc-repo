@@ -14,8 +14,7 @@ export async function GET() {
     const imports = entries
       .filter(entry => entry.isDirectory())
       .map(entry => entry.name)
-      .sort()
-      .reverse(); // Most recent first
+      .sort(); // Ascending order by folder name
 
     return NextResponse.json({ imports });
 

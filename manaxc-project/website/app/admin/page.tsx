@@ -36,7 +36,7 @@ export default function AdminPage() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4 text-white">Admin Dashboard</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         <a
           href="/admin/maintenance"
           className="bg-gradient-to-br from-cyan-600 to-cyan-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-cyan-500"
@@ -51,6 +51,22 @@ export default function AdminPage() {
         >
           <h2 className="text-2xl font-bold text-white mb-2">Data Import</h2>
           <p className="text-blue-100">Import data from Athletic.net</p>
+        </a>
+
+        <a
+          href="/admin/batch"
+          className="bg-gradient-to-br from-purple-600 to-purple-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-purple-500"
+        >
+          <h2 className="text-2xl font-bold text-white mb-2">Batch Operations</h2>
+          <p className="text-purple-100">Rebuild derived tables and run batch updates</p>
+        </a>
+
+        <a
+          href="/admin/course-analysis"
+          className="bg-gradient-to-br from-orange-600 to-orange-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-orange-500"
+        >
+          <h2 className="text-2xl font-bold text-white mb-2">Course Analysis</h2>
+          <p className="text-orange-100">AI-powered difficulty rating recommendations</p>
         </a>
       </div>
 

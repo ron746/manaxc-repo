@@ -11,6 +11,17 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname, "."),
   },
+  // Prevent file watcher from monitoring import directories (prevents crashes)
+  watchOptions: {
+    ignored: [
+      '**/code/importers/**',
+      '**/to-be-processed/**',
+      '**/processed/**',
+      '**/node_modules/**',
+      '**/.git/**',
+      '**/.next/**',
+    ],
+  },
 };
 
 export default nextConfig;

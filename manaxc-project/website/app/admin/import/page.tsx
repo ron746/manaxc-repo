@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 
 type ImportLog = {
   timestamp: string;
@@ -169,13 +170,22 @@ export default function ImportPage() {
   };
 
   // Fetch available imports on mount
-  useState(() => {
+  useEffect(() => {
     fetchAvailableImports();
-  });
+  }, []);
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Meet Data Importer</h1>
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-3xl font-bold">Meet Data Importer</h1>
+        <Link
+          href="/admin/batch"
+          className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded flex items-center gap-2"
+        >
+          <span>⚡</span>
+          <span>Batch Operations</span>
+        </Link>
+      </div>
 
       {/* Scraping Section */}
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
