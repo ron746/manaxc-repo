@@ -86,14 +86,22 @@ export async function middleware(request: NextRequest) {
     userId: user.id,
     email: user.email,
     hasProfile: !!profile,
-    error: profileError?.message
+    error: profileError?.message,
+    errorCode: profileError?.code,
+    errorDetails: profileError?.details
   })
 
-  // If no admin profile, redirect to login with error
+  // If no admin profile, redirect to login with error details
   if (!profile) {
     const redirectUrl = request.nextUrl.clone()
     redirectUrl.pathname = '/admin/login'
     redirectUrl.searchParams.set('error', 'unauthorized')
+    // Add debug info to URL (will remove after fixing)
+    redirectUrl.searchParams.set('debug_uid', user.id.substring(0, 8))
+    redirectUrl.searchParams.set('debug_email', user.email || 'none')
+    if (profileError) {
+      redirectUrl.searchParams.set('debug_error', profileError.message)
+    }
     return NextResponse.redirect(redirectUrl)
   }
 

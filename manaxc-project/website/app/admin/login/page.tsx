@@ -14,6 +14,9 @@ function LoginForm() {
 
   const redirectTo = searchParams.get('redirectTo') || '/admin'
   const errorParam = searchParams.get('error')
+  const debugUid = searchParams.get('debug_uid')
+  const debugEmail = searchParams.get('debug_email')
+  const debugError = searchParams.get('debug_error')
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -77,6 +80,14 @@ function LoginForm() {
               <p className="text-red-800 font-semibold">
                 You do not have admin privileges. Please contact an administrator.
               </p>
+              {(debugUid || debugEmail || debugError) && (
+                <div className="mt-3 p-3 bg-yellow-50 border border-yellow-200 rounded text-sm">
+                  <p className="font-bold text-yellow-900 mb-1">Debug Info:</p>
+                  {debugUid && <p className="text-yellow-800">User ID: {debugUid}...</p>}
+                  {debugEmail && <p className="text-yellow-800">Email: {debugEmail}</p>}
+                  {debugError && <p className="text-yellow-800">Error: {debugError}</p>}
+                </div>
+              )}
             </div>
           )}
 
