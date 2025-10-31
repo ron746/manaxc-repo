@@ -386,24 +386,27 @@ export default function CombinedRacePage() {
 
   // Calculate individual results with team points
   const calculateIndividualResults = (gender: 'M' | 'F') => {
-    const genderResults = projectedResults
-      .filter(r => r.race_gender === gender && !excludedAthletes.has(r.id))
+    // Get all results for this gender
+    const allGenderResults = projectedResults
+      .filter(r => r.race_gender === gender)
       .sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
 
-    // Group by school to track runner positions per team
+    // Get only included results for scoring
+    const includedResults = allGenderResults.filter(r => !excludedAthletes.has(r.id))
+
+    // Group by school to track runner positions per team (only for included)
     const bySchool = new Map<string, number>()
-    genderResults.forEach(result => {
+    includedResults.forEach(result => {
       if (!bySchool.has(result.school_id)) {
         bySchool.set(result.school_id, 0)
       }
     })
 
-    // Assign team points and roles
-    // Runners 1-5 from each team score for their team
-    // Runners 6-7 from each team are displacers (get points but don't score for team)
-    // Runners 8+ from each team don't get points at all
+    // Calculate places and team points for included athletes
     let teamPoints = 1
-    const resultsWithTeamPoints = genderResults.map((result, index) => {
+    const placesMap = new Map<string, { overall_place: number, team_points: number | null, runner_role: 'scorer' | 'displacer' | 'none' }>()
+
+    includedResults.forEach((result, index) => {
       const teamRunnerCount = bySchool.get(result.school_id)!
       bySchool.set(result.school_id, teamRunnerCount + 1)
 
@@ -424,11 +427,23 @@ export default function CombinedRacePage() {
         }
       }
 
-      return {
-        ...result,
+      placesMap.set(result.id, {
         overall_place: index + 1,
         team_points: thisRunnerPoints,
         runner_role: role
+      })
+    })
+
+    // Now apply places to all athletes (excluded ones get null values)
+    const resultsWithTeamPoints = allGenderResults.map(result => {
+      const placeInfo = placesMap.get(result.id)
+
+      return {
+        ...result,
+        overall_place: placeInfo?.overall_place || null,
+        team_points: placeInfo?.team_points || null,
+        runner_role: placeInfo?.runner_role || 'none',
+        is_excluded: excludedAthletes.has(result.id)
       }
     })
 
@@ -973,35 +988,45 @@ export default function CombinedRacePage() {
                             const paceMin = Math.floor(pacePerMile / 60)
                             const paceSec = Math.floor(pacePerMile % 60)
 
+                            const isExcluded = (result as any).is_excluded
+
                             return (
-                              <tr key={result.id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                                <td className="py-4 px-6 text-center font-bold text-zinc-900">{result.overall_place}</td>
+                              <tr key={result.id} className={`border-b border-zinc-200 transition-colors ${isExcluded ? 'bg-zinc-100 opacity-60' : 'hover:bg-cyan-50'}`}>
+                                <td className={`py-4 px-6 text-center font-bold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
+                                  {isExcluded ? '—' : result.overall_place}
+                                </td>
                                 <td className="py-4 px-6">
-                                  <Link href={`/athletes/${result.athlete_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
+                                  <Link href={`/athletes/${result.athlete_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-cyan-600 hover:text-cyan-700'}`}>
                                     {result.athlete_name}
                                   </Link>
                                 </td>
                                 <td className="py-4 px-6">
-                                  <Link href={`/schools/${result.school_id}`} className="text-zinc-700 hover:text-cyan-600 hover:underline">
+                                  <Link href={`/schools/${result.school_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-zinc-700 hover:text-cyan-600'}`}>
                                     {result.school_name}
                                   </Link>
                                 </td>
-                                <td className="py-4 px-6 text-center text-zinc-700">{getGradeLabel(grade)}</td>
-                                <td className="py-4 px-6 text-center font-mono font-semibold text-zinc-900">
+                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>{getGradeLabel(grade)}</td>
+                                <td className={`py-4 px-6 text-center font-mono font-semibold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
                                   {formatTime(result.time_cs)}
                                 </td>
-                                <td className="py-4 px-6 text-center font-mono text-zinc-700">
+                                <td className={`py-4 px-6 text-center font-mono ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>
                                   {paceMin}:{paceSec.toString().padStart(2, '0')}
                                 </td>
-                                <td className="py-4 px-6 text-center">
-                                  {result.runner_role === 'scorer' && (
-                                    <span className="font-bold text-cyan-600">{result.team_points}</span>
-                                  )}
-                                  {result.runner_role === 'displacer' && (
-                                    <span className="font-semibold text-zinc-500">({result.team_points})</span>
-                                  )}
-                                  {result.runner_role === 'none' && (
+                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : ''}`}>
+                                  {isExcluded ? (
                                     <span className="text-zinc-400 text-sm">—</span>
+                                  ) : (
+                                    <>
+                                      {result.runner_role === 'scorer' && (
+                                        <span className="font-bold text-cyan-600">{result.team_points}</span>
+                                      )}
+                                      {result.runner_role === 'displacer' && (
+                                        <span className="font-semibold text-zinc-500">({result.team_points})</span>
+                                      )}
+                                      {result.runner_role === 'none' && (
+                                        <span className="text-zinc-400 text-sm">—</span>
+                                      )}
+                                    </>
                                   )}
                                 </td>
                                 <td className="py-4 px-6 text-center">
@@ -1080,35 +1105,45 @@ export default function CombinedRacePage() {
                             const paceMin = Math.floor(pacePerMile / 60)
                             const paceSec = Math.floor(pacePerMile % 60)
 
+                            const isExcluded = (result as any).is_excluded
+
                             return (
-                              <tr key={result.id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                                <td className="py-4 px-6 text-center font-bold text-zinc-900">{result.overall_place}</td>
+                              <tr key={result.id} className={`border-b border-zinc-200 transition-colors ${isExcluded ? 'bg-zinc-100 opacity-60' : 'hover:bg-cyan-50'}`}>
+                                <td className={`py-4 px-6 text-center font-bold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
+                                  {isExcluded ? '—' : result.overall_place}
+                                </td>
                                 <td className="py-4 px-6">
-                                  <Link href={`/athletes/${result.athlete_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
+                                  <Link href={`/athletes/${result.athlete_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-cyan-600 hover:text-cyan-700'}`}>
                                     {result.athlete_name}
                                   </Link>
                                 </td>
                                 <td className="py-4 px-6">
-                                  <Link href={`/schools/${result.school_id}`} className="text-zinc-700 hover:text-cyan-600 hover:underline">
+                                  <Link href={`/schools/${result.school_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-zinc-700 hover:text-cyan-600'}`}>
                                     {result.school_name}
                                   </Link>
                                 </td>
-                                <td className="py-4 px-6 text-center text-zinc-700">{getGradeLabel(grade)}</td>
-                                <td className="py-4 px-6 text-center font-mono font-semibold text-zinc-900">
+                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>{getGradeLabel(grade)}</td>
+                                <td className={`py-4 px-6 text-center font-mono font-semibold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
                                   {formatTime(result.time_cs)}
                                 </td>
-                                <td className="py-4 px-6 text-center font-mono text-zinc-700">
+                                <td className={`py-4 px-6 text-center font-mono ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>
                                   {paceMin}:{paceSec.toString().padStart(2, '0')}
                                 </td>
-                                <td className="py-4 px-6 text-center">
-                                  {result.runner_role === 'scorer' && (
-                                    <span className="font-bold text-cyan-600">{result.team_points}</span>
-                                  )}
-                                  {result.runner_role === 'displacer' && (
-                                    <span className="font-semibold text-zinc-500">({result.team_points})</span>
-                                  )}
-                                  {result.runner_role === 'none' && (
+                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : ''}`}>
+                                  {isExcluded ? (
                                     <span className="text-zinc-400 text-sm">—</span>
+                                  ) : (
+                                    <>
+                                      {result.runner_role === 'scorer' && (
+                                        <span className="font-bold text-cyan-600">{result.team_points}</span>
+                                      )}
+                                      {result.runner_role === 'displacer' && (
+                                        <span className="font-semibold text-zinc-500">({result.team_points})</span>
+                                      )}
+                                      {result.runner_role === 'none' && (
+                                        <span className="text-zinc-400 text-sm">—</span>
+                                      )}
+                                    </>
                                   )}
                                 </td>
                                 <td className="py-4 px-6 text-center">
