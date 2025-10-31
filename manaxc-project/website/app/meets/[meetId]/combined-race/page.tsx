@@ -91,6 +91,9 @@ export default function CombinedRacePage() {
   const [girlsJumpToPage, setGirlsJumpToPage] = useState<string>('')
   const RESULTS_PER_PAGE = 75
 
+  // Exclusion state for hypothetical adjustments (unchecked = excluded)
+  const [excludedAthletes, setExcludedAthletes] = useState<Set<string>>(new Set())
+
   useEffect(() => {
     loadData()
   }, [meetId])
@@ -313,7 +316,7 @@ export default function CombinedRacePage() {
   // Calculate combined standings by gender
   const calculateStandings = (gender: 'M' | 'F') => {
     const genderResults = projectedResults
-      .filter(r => r.race_gender === gender)
+      .filter(r => r.race_gender === gender && !excludedAthletes.has(r.id))
       .sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
 
     // Assign overall places
@@ -378,13 +381,13 @@ export default function CombinedRacePage() {
     })
   }
 
-  const boysStandings = useMemo(() => calculateStandings('M'), [projectedResults])
-  const girlsStandings = useMemo(() => calculateStandings('F'), [projectedResults])
+  const boysStandings = useMemo(() => calculateStandings('M'), [projectedResults, excludedAthletes])
+  const girlsStandings = useMemo(() => calculateStandings('F'), [projectedResults, excludedAthletes])
 
   // Calculate individual results with team points
   const calculateIndividualResults = (gender: 'M' | 'F') => {
     const genderResults = projectedResults
-      .filter(r => r.race_gender === gender)
+      .filter(r => r.race_gender === gender && !excludedAthletes.has(r.id))
       .sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
 
     // Group by school to track runner positions per team
@@ -432,8 +435,8 @@ export default function CombinedRacePage() {
     return resultsWithTeamPoints
   }
 
-  const boysIndividualResults = useMemo(() => calculateIndividualResults('M'), [projectedResults])
-  const girlsIndividualResults = useMemo(() => calculateIndividualResults('F'), [projectedResults])
+  const boysIndividualResults = useMemo(() => calculateIndividualResults('M'), [projectedResults, excludedAthletes])
+  const girlsIndividualResults = useMemo(() => calculateIndividualResults('F'), [projectedResults, excludedAthletes])
 
   // Pagination for boys individual results
   const boysTotalPages = Math.ceil(boysIndividualResults.length / RESULTS_PER_PAGE)
@@ -602,6 +605,35 @@ export default function CombinedRacePage() {
     } else {
       setSelectedSubleagues(new Set(uniqueSubleagues))
     }
+  }
+
+  // Toggle athlete exclusion with 7-runner limit per team
+  // Unchecked = excluded, Checked = included
+  const toggleAthleteExclusion = (resultId: string, schoolId: string, gender: 'M' | 'F') => {
+    const newExcluded = new Set(excludedAthletes)
+
+    if (newExcluded.has(resultId)) {
+      // Currently excluded, trying to include (check the box)
+      // Check 7-runner limit: count how many from this team are already included
+      const includedCount = projectedResults.filter(r =>
+        r.race_gender === gender &&
+        r.school_id === schoolId &&
+        !newExcluded.has(r.id) &&
+        r.id !== resultId // Don't count this athlete yet
+      ).length
+
+      if (includedCount < 7) {
+        // Team has fewer than 7 included, can add this one
+        newExcluded.delete(resultId)
+      }
+      // else: Team already has 7 included, don't allow adding this one (do nothing)
+    } else {
+      // Currently included, trying to exclude (uncheck the box)
+      // Excluding is always allowed
+      newExcluded.add(resultId)
+    }
+
+    setExcludedAthletes(newExcluded)
   }
 
   if (loading) {
@@ -929,6 +961,7 @@ export default function CombinedRacePage() {
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Time</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Pace</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Pts</th>
+                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Exclude</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -970,6 +1003,15 @@ export default function CombinedRacePage() {
                                   {result.runner_role === 'none' && (
                                     <span className="text-zinc-400 text-sm">—</span>
                                   )}
+                                </td>
+                                <td className="py-4 px-6 text-center">
+                                  <input
+                                    type="checkbox"
+                                    checked={!excludedAthletes.has(result.id)}
+                                    onChange={() => toggleAthleteExclusion(result.id, result.school_id, 'M')}
+                                    className="form-checkbox h-5 w-5 text-cyan-600 rounded border-zinc-300 cursor-pointer"
+                                    title={excludedAthletes.has(result.id) ? 'Include in team scoring' : 'Exclude from team scoring'}
+                                  />
                                 </td>
                               </tr>
                             )
@@ -1026,6 +1068,7 @@ export default function CombinedRacePage() {
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Time</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Pace</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Pts</th>
+                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Exclude</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -1067,6 +1110,15 @@ export default function CombinedRacePage() {
                                   {result.runner_role === 'none' && (
                                     <span className="text-zinc-400 text-sm">—</span>
                                   )}
+                                </td>
+                                <td className="py-4 px-6 text-center">
+                                  <input
+                                    type="checkbox"
+                                    checked={!excludedAthletes.has(result.id)}
+                                    onChange={() => toggleAthleteExclusion(result.id, result.school_id, 'F')}
+                                    className="form-checkbox h-5 w-5 text-cyan-600 rounded border-zinc-300 cursor-pointer"
+                                    title={excludedAthletes.has(result.id) ? 'Include in team scoring' : 'Exclude from team scoring'}
+                                  />
                                 </td>
                               </tr>
                             )
