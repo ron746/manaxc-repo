@@ -33,10 +33,10 @@ export async function POST(request: Request) {
     console.log(`Found ${anomalies?.length || 0} courses with anomalies`)
 
     // Categorize anomalies
-    const critical = anomalies?.filter(a => a.suspicion_level.startsWith('CRITICAL')) || []
-    const high = anomalies?.filter(a => a.suspicion_level.startsWith('HIGH')) || []
-    const medium = anomalies?.filter(a => a.suspicion_level.startsWith('MEDIUM')) || []
-    const low = anomalies?.filter(a => a.suspicion_level.startsWith('LOW')) || []
+    const critical = anomalies?.filter((a: any) => a.suspicion_level.startsWith('CRITICAL')) || []
+    const high = anomalies?.filter((a: any) => a.suspicion_level.startsWith('HIGH')) || []
+    const medium = anomalies?.filter((a: any) => a.suspicion_level.startsWith('MEDIUM')) || []
+    const low = anomalies?.filter((a: any) => a.suspicion_level.startsWith('LOW')) || []
 
     return NextResponse.json({
       success: true,
