@@ -74,16 +74,16 @@ export async function POST(request: Request) {
         hasMore = false
       } else {
         anchorResults = anchorResults.concat(
-          pageResults.map(r => ({
+          pageResults.map((r: any) => ({
             athlete_id: r.athlete_id,
-            athlete_name: r.athletes.name,
+            athlete_name: r.athletes?.name || 'Unknown',
             course_id: anchorCourse.id,
             course_name: anchorCourse.name,
             time_cs: r.time_cs,
             distance_meters: anchorCourse.distance_meters,
             current_difficulty: anchorCourse.difficulty_rating,
             normalized_mile_cs: (r.time_cs * METERS_PER_MILE / anchorCourse.distance_meters) / anchorCourse.difficulty_rating,
-            meet_date: r.meets.meet_date
+            meet_date: r.meets?.meet_date || ''
           }))
         )
         if (pageResults.length < PAGE_SIZE) {
@@ -150,16 +150,16 @@ export async function POST(request: Request) {
           hasMore = false
         } else {
           courseResults = courseResults.concat(
-            pageResults.map(r => ({
+            pageResults.map((r: any) => ({
               athlete_id: r.athlete_id,
-              athlete_name: r.athletes.name,
+              athlete_name: r.athletes?.name || 'Unknown',
               course_id: course.id,
               course_name: course.name,
               time_cs: r.time_cs,
               distance_meters: course.distance_meters,
               current_difficulty: course.difficulty_rating,
               normalized_mile_cs: (r.time_cs * METERS_PER_MILE / course.distance_meters) / course.difficulty_rating,
-              meet_date: r.meets.meet_date
+              meet_date: r.meets?.meet_date || ''
             }))
           )
           if (pageResults.length < PAGE_SIZE) {
