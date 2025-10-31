@@ -92,7 +92,9 @@ export default function CombinedRacePage() {
   const RESULTS_PER_PAGE = 75
 
   // Exclusion state for hypothetical adjustments (unchecked = excluded)
+  // Initialize with top 7 per team included (all others excluded)
   const [excludedAthletes, setExcludedAthletes] = useState<Set<string>>(new Set())
+  const [isInitialized, setIsInitialized] = useState(false)
 
   useEffect(() => {
     loadData()
@@ -312,6 +314,35 @@ export default function CombinedRacePage() {
       }
     })
   }, [filteredResults, targetCourseId, courses])
+
+  // Initialize excluded athletes to include only top 7 per team
+  useEffect(() => {
+    if (!isInitialized && projectedResults.length > 0) {
+      const toExclude = new Set<string>()
+
+      // Group by school and gender
+      const bySchoolGender = new Map<string, Result[]>()
+      projectedResults.forEach(result => {
+        const key = `${result.school_id}-${result.race_gender}`
+        if (!bySchoolGender.has(key)) {
+          bySchoolGender.set(key, [])
+        }
+        bySchoolGender.get(key)!.push(result)
+      })
+
+      // For each team, sort by normalized time and exclude runners 8+
+      bySchoolGender.forEach((results) => {
+        const sorted = results.sort((a, b) => a.normalized_time_cs - b.normalized_time_cs)
+        // Exclude runners 8 and beyond (keep top 7)
+        sorted.slice(7).forEach(result => {
+          toExclude.add(result.id)
+        })
+      })
+
+      setExcludedAthletes(toExclude)
+      setIsInitialized(true)
+    }
+  }, [projectedResults, isInitialized])
 
   // Calculate combined standings by gender
   const calculateStandings = (gender: 'M' | 'F') => {
@@ -960,6 +991,80 @@ export default function CombinedRacePage() {
             {/* Individual Results */}
             {viewMode === 'individual' && (
               <>
+                {/* Boys Team Scores */}
+                {selectedGenders.has('M') && boysStandings.length > 0 && (
+                  <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden mb-8">
+                    <div className="bg-blue-600 p-4">
+                      <h2 className="text-2xl font-bold text-white">Boys Team Scores</h2>
+                    </div>
+                    <div className="overflow-x-auto">
+                      <table className="min-w-full">
+                        <thead>
+                          <tr className="border-b-2 border-zinc-200 bg-zinc-100">
+                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Place</th>
+                            <th className="py-3 px-6 text-left font-bold text-zinc-900">School</th>
+                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Score</th>
+                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Avg Time</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {boysStandings.filter(team => team.is_complete).map((team, index) => (
+                            <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
+                              <td className="py-3 px-6 text-center font-bold text-zinc-900">{index + 1}</td>
+                              <td className="py-3 px-6">
+                                <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
+                                  {team.school_name}
+                                </Link>
+                              </td>
+                              <td className="py-3 px-6 text-center font-bold text-cyan-600">{team.score}</td>
+                              <td className="py-3 px-6 text-center font-mono text-zinc-900">
+                                {formatTime(Math.round(team.team_time_cs / 5))}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+
+                {/* Girls Team Scores */}
+                {selectedGenders.has('F') && girlsStandings.length > 0 && (
+                  <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden mb-8">
+                    <div className="bg-pink-600 p-4">
+                      <h2 className="text-2xl font-bold text-white">Girls Team Scores</h2>
+                    </div>
+                    <div className="overflow-x-auto">
+                      <table className="min-w-full">
+                        <thead>
+                          <tr className="border-b-2 border-zinc-200 bg-zinc-100">
+                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Place</th>
+                            <th className="py-3 px-6 text-left font-bold text-zinc-900">School</th>
+                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Score</th>
+                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Avg Time</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {girlsStandings.filter(team => team.is_complete).map((team, index) => (
+                            <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
+                              <td className="py-3 px-6 text-center font-bold text-zinc-900">{index + 1}</td>
+                              <td className="py-3 px-6">
+                                <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
+                                  {team.school_name}
+                                </Link>
+                              </td>
+                              <td className="py-3 px-6 text-center font-bold text-cyan-600">{team.score}</td>
+                              <td className="py-3 px-6 text-center font-mono text-zinc-900">
+                                {formatTime(Math.round(team.team_time_cs / 5))}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                )}
+
                 {selectedGenders.has('M') && meet && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-blue-600 p-4">
@@ -976,7 +1081,7 @@ export default function CombinedRacePage() {
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Time</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Pace</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Pts</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Exclude</th>
+                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Include</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -1093,7 +1198,7 @@ export default function CombinedRacePage() {
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Time</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Pace</th>
                             <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Pts</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Exclude</th>
+                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Include</th>
                           </tr>
                         </thead>
                         <tbody>
