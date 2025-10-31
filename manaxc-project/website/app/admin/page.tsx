@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import LogoutButton from "@/components/admin/LogoutButton";
 
 export default function AdminPage() {
   const [schoolId, setSchoolId] = useState("");
@@ -34,7 +35,10 @@ export default function AdminPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4 text-white">Admin Dashboard</h1>
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-3xl font-bold text-white">Admin Dashboard</h1>
+        <LogoutButton />
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <a
