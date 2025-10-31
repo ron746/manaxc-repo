@@ -469,7 +469,7 @@ export default function CourseAnalysisPage() {
                 {/* Saved Recommendations */}
                 {savedRecommendations[analysis.course_id] && (
                   <div className="mt-3 space-y-2">
-                    {savedRecommendations[analysis.course_id].network_calibration && (
+                    {savedRecommendations[analysis.course_id]?.network_calibration && (
                       <div className="p-3 bg-blue-50 border-2 border-blue-200 rounded">
                         <div className="flex items-center justify-between mb-2">
                           <h4 className="font-bold text-blue-900 text-sm">Network Calibration Recommendation</h4>
@@ -491,36 +491,36 @@ export default function CourseAnalysisPage() {
                         <div className="space-y-1 text-xs">
                           <div>
                             <span className="font-semibold">Recommended:</span>
-                            <span className="ml-2 font-mono">{savedRecommendations[analysis.course_id].network_calibration.recommended_difficulty.toFixed(9)}</span>
+                            <span className="ml-2 font-mono">{savedRecommendations[analysis.course_id]?.network_calibration?.recommended_difficulty?.toFixed(9) || 'N/A'}</span>
                           </div>
                           <div>
                             <span className="font-semibold">Confidence:</span>
-                            <span className="ml-2">{(savedRecommendations[analysis.course_id].network_calibration.confidence * 100).toFixed(0)}%</span>
+                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.network_calibration?.confidence ? (savedRecommendations[analysis.course_id].network_calibration.confidence * 100).toFixed(0) + '%' : 'N/A'}</span>
                           </div>
                           <div>
                             <span className="font-semibold">Shared Athletes:</span>
-                            <span className="ml-2">{savedRecommendations[analysis.course_id].network_calibration.shared_athletes_count}</span>
+                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.network_calibration?.shared_athletes_count || 'N/A'}</span>
                           </div>
                           <div>
                             <span className="font-semibold">Median Ratio:</span>
-                            <span className="ml-2">{savedRecommendations[analysis.course_id].network_calibration.median_ratio?.toFixed(4)}</span>
+                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.network_calibration?.median_ratio?.toFixed(4) || 'N/A'}</span>
                           </div>
                         </div>
                       </div>
                     )}
-                    {savedRecommendations[analysis.course_id].ai_analysis && (
+                    {savedRecommendations[analysis.course_id]?.ai_analysis && (
                       <div className="p-3 bg-purple-50 border-2 border-purple-200 rounded">
                         <div className="flex items-center justify-between mb-2">
                           <h4 className="font-bold text-purple-900 text-sm">AI Analysis Recommendation</h4>
                           <div className="flex gap-2">
                             <button
-                              onClick={() => applyRecommendation(savedRecommendations[analysis.course_id].ai_analysis!.id)}
+                              onClick={() => applyRecommendation(savedRecommendations[analysis.course_id]?.ai_analysis!.id)}
                               className="px-2 py-1 bg-green-600 text-white text-xs font-semibold rounded hover:bg-green-700"
                             >
                               Apply
                             </button>
                             <button
-                              onClick={() => dismissRecommendation(savedRecommendations[analysis.course_id].ai_analysis!.id)}
+                              onClick={() => dismissRecommendation(savedRecommendations[analysis.course_id]?.ai_analysis!.id)}
                               className="px-2 py-1 bg-zinc-500 text-white text-xs font-semibold rounded hover:bg-zinc-600"
                             >
                               Dismiss
@@ -530,17 +530,17 @@ export default function CourseAnalysisPage() {
                         <div className="space-y-1 text-xs">
                           <div>
                             <span className="font-semibold">Recommended:</span>
-                            <span className="ml-2 font-mono">{savedRecommendations[analysis.course_id].ai_analysis.recommended_difficulty.toFixed(9)}</span>
+                            <span className="ml-2 font-mono">{savedRecommendations[analysis.course_id]?.ai_analysis?.recommended_difficulty?.toFixed(9) || 'N/A'}</span>
                           </div>
                           <div>
                             <span className="font-semibold">Confidence:</span>
-                            <span className="ml-2">{(savedRecommendations[analysis.course_id].ai_analysis.confidence * 100).toFixed(0)}%</span>
+                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.ai_analysis?.confidence ? (savedRecommendations[analysis.course_id].ai_analysis.confidence * 100).toFixed(0) + '%' : 'N/A'}</span>
                           </div>
-                          {savedRecommendations[analysis.course_id].ai_analysis.reasoning?.reasoning && (
+                          {savedRecommendations[analysis.course_id]?.ai_analysis?.reasoning?.reasoning && (
                             <div className="mt-2 pt-2 border-t border-purple-200">
                               <div className="font-semibold mb-1">Reasoning:</div>
                               <ul className="space-y-0.5 pl-4">
-                                {savedRecommendations[analysis.course_id].ai_analysis.reasoning.reasoning.slice(0, 3).map((reason: string, idx: number) => (
+                                {savedRecommendations[analysis.course_id]?.ai_analysis?.reasoning?.reasoning.slice(0, 3).map((reason: string, idx: number) => (
                                   <li key={idx} className="text-zinc-700">• {reason}</li>
                                 ))}
                               </ul>
