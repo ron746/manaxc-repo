@@ -50,9 +50,21 @@ function LoginForm() {
         .eq('user_id', data.user.id)
         .single()
 
+      console.log('Admin check during login:', {
+        userId: data.user.id,
+        email: data.user.email,
+        hasAdminData: !!adminData,
+        errorCode: adminError?.code,
+        errorMessage: adminError?.message,
+        errorDetails: adminError?.details
+      })
+
       if (adminError || !adminData) {
         await supabase.auth.signOut()
-        setError('You do not have admin privileges')
+        const errorMsg = adminError
+          ? `Admin check failed: ${adminError.message} (Code: ${adminError.code}). User ID: ${data.user.id.substring(0, 8)}...`
+          : `No admin record found for user ${data.user.id.substring(0, 8)}...`
+        setError(errorMsg)
         setLoading(false)
         return
       }
