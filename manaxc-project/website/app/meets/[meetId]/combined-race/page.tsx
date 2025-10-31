@@ -85,6 +85,7 @@ export default function CombinedRacePage() {
   const [selectedSubleagues, setSelectedSubleagues] = useState<Set<string>>(new Set())
   const [targetCourseId, setTargetCourseId] = useState<string>('')
   const [viewMode, setViewMode] = useState<'team' | 'individual'>('team')
+  const [selectedGender, setSelectedGender] = useState<'M' | 'F'>('M')
   const [boysCurrentPage, setBoysCurrentPage] = useState(1)
   const [girlsCurrentPage, setGirlsCurrentPage] = useState(1)
   const [boysJumpToPage, setBoysJumpToPage] = useState<string>('')
@@ -964,6 +965,32 @@ export default function CombinedRacePage() {
 
           {/* Results Area */}
           <div className="lg:w-3/4 space-y-8">
+            {/* Gender Toggle for Individual View */}
+            {viewMode === 'individual' && (
+              <div className="flex gap-4 mb-6">
+                <button
+                  onClick={() => setSelectedGender('M')}
+                  className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
+                    selectedGender === 'M'
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
+                  }`}
+                >
+                  Boys
+                </button>
+                <button
+                  onClick={() => setSelectedGender('F')}
+                  className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
+                    selectedGender === 'F'
+                      ? 'bg-pink-600 text-white'
+                      : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-pink-600 hover:text-pink-600'
+                  }`}
+                >
+                  Girls
+                </button>
+              </div>
+            )}
+
             {/* View Mode Toggle */}
             <div className="flex gap-4 mb-6">
               <button
@@ -992,7 +1019,7 @@ export default function CombinedRacePage() {
             {viewMode === 'individual' && (
               <>
                 {/* Boys Team Scores */}
-                {selectedGenders.has('M') && boysStandings.length > 0 && (
+                {selectedGender === 'M' && boysStandings.length > 0 && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden mb-8">
                     <div className="bg-blue-600 p-4">
                       <h2 className="text-2xl font-bold text-white">Boys Team Scores</h2>
@@ -1029,7 +1056,7 @@ export default function CombinedRacePage() {
                 )}
 
                 {/* Girls Team Scores */}
-                {selectedGenders.has('F') && girlsStandings.length > 0 && (
+                {selectedGender === 'F' && girlsStandings.length > 0 && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden mb-8">
                     <div className="bg-pink-600 p-4">
                       <h2 className="text-2xl font-bold text-white">Girls Team Scores</h2>
@@ -1065,7 +1092,7 @@ export default function CombinedRacePage() {
                   </div>
                 )}
 
-                {selectedGenders.has('M') && meet && (
+                {selectedGender === 'M' && meet && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-blue-600 p-4">
                       <h2 className="text-2xl font-bold text-white">Boys Individual Projections</h2>
@@ -1182,7 +1209,7 @@ export default function CombinedRacePage() {
                   </div>
                 )}
 
-                {selectedGenders.has('F') && meet && (
+                {selectedGender === 'F' && meet && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
                     <div className="bg-pink-600 p-4">
                       <h2 className="text-2xl font-bold text-white">Girls Individual Projections</h2>
