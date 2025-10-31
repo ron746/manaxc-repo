@@ -13,12 +13,6 @@ export default function Header() {
             ManaXC
           </a>
           <div className="flex gap-6 items-center">
-            <a href="/meets" className="text-slate-600 hover:text-blue-600 transition-colors">
-              Meets
-            </a>
-            <a href="/courses" className="text-slate-600 hover:text-blue-600 transition-colors">
-              Courses
-            </a>
             {isAdmin && (
               <a
                 href="/admin"
@@ -31,6 +25,12 @@ export default function Header() {
                 Admin
               </a>
             )}
+            <a href="/meets" className="text-slate-600 hover:text-blue-600 transition-colors">
+              Meets
+            </a>
+            <a href="/courses" className="text-slate-600 hover:text-blue-600 transition-colors">
+              Courses
+            </a>
             <a href="/schools" className="text-slate-600 hover:text-blue-600 transition-colors">
               Schools
             </a>
