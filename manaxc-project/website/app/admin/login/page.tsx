@@ -69,9 +69,8 @@ function LoginForm() {
         return
       }
 
-      // Success - redirect to admin
-      router.push(redirectTo)
-      router.refresh()
+      // Success - use full page navigation to ensure cookies are sent to middleware
+      window.location.href = redirectTo
     } catch (err) {
       setError('An unexpected error occurred')
       setLoading(false)
