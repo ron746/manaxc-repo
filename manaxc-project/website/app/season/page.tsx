@@ -216,7 +216,7 @@ export default function SeasonPage() {
         return
       }
 
-      console.log('RPC returned:', data ? `${data.length} records` : 'no data', error ? `Error: ${error.message}` : '')
+      console.log('RPC returned:', data ? `${data.length} records` : 'no data')
 
       if (data) {
         data.forEach((record: any) => {
