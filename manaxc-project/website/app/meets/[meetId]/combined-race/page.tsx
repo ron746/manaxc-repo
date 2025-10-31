@@ -50,6 +50,8 @@ interface Result {
   course_id: string
   original_difficulty: number
   normalized_time_cs: number
+  is_sb: boolean
+  is_pr: boolean
 }
 
 interface TeamScore {
@@ -70,13 +72,13 @@ export default function CombinedRacePage() {
 
   const [meet, setMeet] = useState<Meet | null>(null)
   const [courses, setCourses] = useState<Course[]>([])
+  const [meetCourses, setMeetCourses] = useState<Course[]>([])
   const [schools, setSchools] = useState<School[]>([])
   const [allResults, setAllResults] = useState<Result[]>([])
   const [loading, setLoading] = useState(true)
 
   // Filter states
   const [selectedCourses, setSelectedCourses] = useState<Set<string>>(new Set())
-  const [selectedGenders, setSelectedGenders] = useState<Set<'M' | 'F'>>(new Set(['M', 'F']))
   const [selectedSchools, setSelectedSchools] = useState<Set<string>>(new Set())
   const [selectedGrades, setSelectedGrades] = useState<Set<number>>(new Set([9, 10, 11, 12]))
   const [selectedCifSections, setSelectedCifSections] = useState<Set<string>>(new Set())
@@ -84,7 +86,6 @@ export default function CombinedRacePage() {
   const [selectedLeagues, setSelectedLeagues] = useState<Set<string>>(new Set())
   const [selectedSubleagues, setSelectedSubleagues] = useState<Set<string>>(new Set())
   const [targetCourseId, setTargetCourseId] = useState<string>('')
-  const [viewMode, setViewMode] = useState<'team' | 'individual'>('team')
   const [selectedGender, setSelectedGender] = useState<'M' | 'F'>('M')
   const [boysCurrentPage, setBoysCurrentPage] = useState(1)
   const [girlsCurrentPage, setGirlsCurrentPage] = useState(1)
@@ -136,6 +137,12 @@ export default function CombinedRacePage() {
 
       if (meetData) setMeet(meetData as any)
 
+      // Load all courses from database for projection dropdown
+      const { data: allCoursesData } = await supabase
+        .from('courses')
+        .select('id, name, difficulty_rating, distance_meters')
+        .order('name')
+
       // Load all races with results
       const { data: racesData } = await supabase
         .from('races')
@@ -155,6 +162,9 @@ export default function CombinedRacePage() {
             id,
             time_cs,
             place_overall,
+            normalized_time_cs,
+            is_sb,
+            is_pr,
             athlete:athletes (
               id,
               name,
@@ -174,15 +184,24 @@ export default function CombinedRacePage() {
 
       if (!racesData) return
 
-      // Extract unique courses and schools
-      const coursesMap = new Map<string, Course>()
+      // Set all courses from database (for projection dropdown)
+      const allCoursesList = (allCoursesData || []).map(course => ({
+        id: course.id,
+        name: course.name,
+        difficulty_rating: course.difficulty_rating || 5.0,
+        distance_meters: course.distance_meters
+      }))
+      setCourses(allCoursesList)
+
+      // Extract unique courses used in this meet and schools
+      const meetCoursesMap = new Map<string, Course>()
       const schoolsMap = new Map<string, School>()
       const results: Result[] = []
 
       racesData.forEach(race => {
         const course = race.courses as any
         if (course) {
-          coursesMap.set(course.id, {
+          meetCoursesMap.set(course.id, {
             id: course.id,
             name: course.name,
             difficulty_rating: course.difficulty_rating || 5.0,
@@ -203,9 +222,6 @@ export default function CombinedRacePage() {
               subleague: result.athlete.school.subleague
             })
 
-            // Calculate normalized time (difficulty 5.0 baseline)
-            const normalizedTime = Math.round(result.time_cs * (1 - (courseDifficulty - 5.0) * 0.02))
-
             results.push({
               id: result.id,
               time_cs: result.time_cs,
@@ -223,16 +239,18 @@ export default function CombinedRacePage() {
               race_gender: race.gender,
               course_id: course?.id || '',
               original_difficulty: courseDifficulty,
-              normalized_time_cs: normalizedTime
+              normalized_time_cs: result.normalized_time_cs,
+              is_sb: result.is_sb,
+              is_pr: result.is_pr
             })
           }
         })
       })
 
-      const coursesList = Array.from(coursesMap.values())
+      const meetCoursesList = Array.from(meetCoursesMap.values())
       const schoolsList = Array.from(schoolsMap.values())
 
-      setCourses(coursesList)
+      setMeetCourses(meetCoursesList)
       setSchools(schoolsList)
       setAllResults(results)
 
@@ -249,15 +267,15 @@ export default function CombinedRacePage() {
         if (school.subleague) subleagues.add(school.subleague)
       })
 
-      // Initialize selections
-      setSelectedCourses(new Set(coursesList.map(c => c.id)))
+      // Initialize selections - only courses from this meet
+      setSelectedCourses(new Set(meetCoursesList.map(c => c.id)))
       setSelectedSchools(new Set(schoolsList.map(s => s.id)))
       setSelectedCifSections(cifSections)
       setSelectedCifDivisions(cifDivisions)
       setSelectedLeagues(leagues)
       setSelectedSubleagues(subleagues)
-      if (coursesList.length > 0) {
-        setTargetCourseId(coursesList[0].id)
+      if (allCoursesList.length > 0) {
+        setTargetCourseId(allCoursesList[0].id)
       }
     } catch (error) {
       console.error('Error loading data:', error)
@@ -284,7 +302,6 @@ export default function CombinedRacePage() {
 
       return (
         selectedCourses.has(result.course_id) &&
-        selectedGenders.has(result.race_gender as 'M' | 'F') &&
         selectedSchools.has(result.school_id) &&
         selectedGrades.has(grade) &&
         cifSectionMatch &&
@@ -293,7 +310,7 @@ export default function CombinedRacePage() {
         subleagueMatch
       )
     })
-  }, [allResults, selectedCourses, selectedGenders, selectedSchools, selectedGrades,
+  }, [allResults, selectedCourses, selectedSchools, selectedGrades,
       selectedCifSections, selectedCifDivisions, selectedLeagues, selectedSubleagues, meet])
 
   // Project times to target course
@@ -303,10 +320,15 @@ export default function CombinedRacePage() {
     const targetCourse = courses.find(c => c.id === targetCourseId)
     if (!targetCourse) return filteredResults
 
+    const METERS_PER_MILE = 1609.344
+
     return filteredResults.map(result => {
-      // Project normalized time to target course difficulty
+      // normalized_time_cs is pace per mile at difficulty 1.0
+      // Project to target course: pace * difficulty * distance_in_miles
       const projectedTime = Math.round(
-        result.normalized_time_cs / (1 - (targetCourse.difficulty_rating - 5.0) * 0.02)
+        result.normalized_time_cs *
+        targetCourse.difficulty_rating *
+        (targetCourse.distance_meters / METERS_PER_MILE)
       )
 
       return {
@@ -507,16 +529,6 @@ export default function CombinedRacePage() {
     setSelectedCourses(newSet)
   }
 
-  const toggleGender = (gender: 'M' | 'F') => {
-    const newSet = new Set(selectedGenders)
-    if (newSet.has(gender)) {
-      newSet.delete(gender)
-    } else {
-      newSet.add(gender)
-    }
-    setSelectedGenders(newSet)
-  }
-
   const toggleSchool = (schoolId: string) => {
     const newSet = new Set(selectedSchools)
     if (newSet.has(schoolId)) {
@@ -714,8 +726,6 @@ export default function CombinedRacePage() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
           <aside className="lg:w-1/4 bg-white rounded-xl shadow-xl border border-zinc-200 p-6 self-start">
-            <h3 className="text-xl font-bold text-zinc-900 mb-6">Filters</h3>
-
             {/* Target Course Selection */}
             <div className="mb-6">
               <h4 className="font-semibold text-zinc-700 mb-3">Project Times to Course:</h4>
@@ -726,17 +736,19 @@ export default function CombinedRacePage() {
               >
                 {courses.map(course => (
                   <option key={course.id} value={course.id}>
-                    {course.name} (Diff: {course.difficulty_rating.toFixed(1)})
+                    {course.name}
                   </option>
                 ))}
               </select>
             </div>
 
+            <h3 className="text-xl font-bold text-zinc-900 mb-6">Filters</h3>
+
             {/* Courses Filter */}
             <div className="mb-6">
               <h4 className="font-semibold text-zinc-700 mb-3">Include Races from Courses:</h4>
               <div className="max-h-48 overflow-y-auto pr-2 space-y-2">
-                {courses.map(course => (
+                {meetCourses.map(course => (
                   <label key={course.id} className="flex items-center space-x-2 py-1 cursor-pointer hover:bg-cyan-50 px-2 rounded">
                     <input
                       type="checkbox"
@@ -747,31 +759,6 @@ export default function CombinedRacePage() {
                     <span className="text-zinc-700 text-sm">{course.name}</span>
                   </label>
                 ))}
-              </div>
-            </div>
-
-            {/* Gender Filter */}
-            <div className="mb-6">
-              <h4 className="font-semibold text-zinc-700 mb-3">Gender:</h4>
-              <div className="space-y-2">
-                <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                  <input
-                    type="checkbox"
-                    checked={selectedGenders.has('M')}
-                    onChange={() => toggleGender('M')}
-                    className="form-checkbox h-4 w-4 text-cyan-600 rounded border-zinc-300"
-                  />
-                  <span className="text-zinc-700">Boys</span>
-                </label>
-                <label className="flex items-center space-x-2 cursor-pointer hover:bg-cyan-50 px-2 py-1 rounded">
-                  <input
-                    type="checkbox"
-                    checked={selectedGenders.has('F')}
-                    onChange={() => toggleGender('F')}
-                    className="form-checkbox h-4 w-4 text-cyan-600 rounded border-zinc-300"
-                  />
-                  <span className="text-zinc-700">Girls</span>
-                </label>
               </div>
             </div>
 
@@ -965,59 +952,31 @@ export default function CombinedRacePage() {
 
           {/* Results Area */}
           <div className="lg:w-3/4 space-y-8">
-            {/* Gender Toggle for Individual View */}
-            {viewMode === 'individual' && (
-              <div className="flex gap-4 mb-6">
-                <button
-                  onClick={() => setSelectedGender('M')}
-                  className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                    selectedGender === 'M'
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
-                  }`}
-                >
-                  Boys
-                </button>
-                <button
-                  onClick={() => setSelectedGender('F')}
-                  className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                    selectedGender === 'F'
-                      ? 'bg-pink-600 text-white'
-                      : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-pink-600 hover:text-pink-600'
-                  }`}
-                >
-                  Girls
-                </button>
-              </div>
-            )}
-
-            {/* View Mode Toggle */}
+            {/* Gender Toggle */}
             <div className="flex gap-4 mb-6">
               <button
-                onClick={() => setViewMode('individual')}
+                onClick={() => setSelectedGender('M')}
                 className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                  viewMode === 'individual'
-                    ? 'bg-cyan-600 text-white'
-                    : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-cyan-600 hover:text-cyan-600'
+                  selectedGender === 'M'
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-blue-600 hover:text-blue-600'
                 }`}
               >
-                Individual Projections
+                Boys
               </button>
               <button
-                onClick={() => setViewMode('team')}
+                onClick={() => setSelectedGender('F')}
                 className={`px-8 py-3 rounded-lg font-semibold transition-colors ${
-                  viewMode === 'team'
-                    ? 'bg-cyan-600 text-white'
-                    : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-cyan-600 hover:text-cyan-600'
+                  selectedGender === 'F'
+                    ? 'bg-pink-600 text-white'
+                    : 'bg-white text-zinc-700 border-2 border-zinc-300 hover:border-pink-600 hover:text-pink-600'
                 }`}
               >
-                Team Projections
+                Girls
               </button>
             </div>
 
             {/* Individual Results */}
-            {viewMode === 'individual' && (
-              <>
                 {/* Boys Team Scores */}
                 {selectedGender === 'M' && boysStandings.length > 0 && (
                   <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden mb-8">
@@ -1035,7 +994,12 @@ export default function CombinedRacePage() {
                           </tr>
                         </thead>
                         <tbody>
-                          {boysStandings.filter(team => team.is_complete).map((team, index) => (
+                          {boysStandings.filter(team => team.is_complete).map((team, index) => {
+                            // Check if this team's score is tied with any other team
+                            const completeBoys = boysStandings.filter(t => t.is_complete)
+                            const hasTie = completeBoys.some(t => t.school_id !== team.school_id && t.score === team.score)
+
+                            return (
                             <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
                               <td className="py-1 px-2 text-center font-bold text-zinc-900 text-sm">{index + 1}</td>
                               <td className="py-1 px-2 text-sm">
@@ -1043,12 +1007,17 @@ export default function CombinedRacePage() {
                                   {team.school_name}
                                 </Link>
                               </td>
-                              <td className="py-1 px-2 text-center font-bold text-cyan-600 text-sm">{team.score}</td>
+                              <td className="py-1 px-2 text-center font-bold text-cyan-600 text-sm">
+                                {team.score}
+                                {hasTie && team.sixth_runner_place !== undefined && (
+                                  <span className="text-xs ml-1">({team.sixth_runner_place})</span>
+                                )}
+                              </td>
                               <td className="py-1 px-2 text-center font-mono text-zinc-900 text-sm">
                                 {formatTime(team.team_time_cs)}
                               </td>
                             </tr>
-                          ))}
+                          )})}
                         </tbody>
                       </table>
                     </div>
@@ -1072,7 +1041,12 @@ export default function CombinedRacePage() {
                           </tr>
                         </thead>
                         <tbody>
-                          {girlsStandings.filter(team => team.is_complete).map((team, index) => (
+                          {girlsStandings.filter(team => team.is_complete).map((team, index) => {
+                            // Check if this team's score is tied with any other team
+                            const completeGirls = girlsStandings.filter(t => t.is_complete)
+                            const hasTie = completeGirls.some(t => t.school_id !== team.school_id && t.score === team.score)
+
+                            return (
                             <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
                               <td className="py-1 px-2 text-center font-bold text-zinc-900 text-sm">{index + 1}</td>
                               <td className="py-1 px-2 text-sm">
@@ -1080,12 +1054,17 @@ export default function CombinedRacePage() {
                                   {team.school_name}
                                 </Link>
                               </td>
-                              <td className="py-1 px-2 text-center font-bold text-cyan-600 text-sm">{team.score}</td>
+                              <td className="py-1 px-2 text-center font-bold text-cyan-600 text-sm">
+                                {team.score}
+                                {hasTie && team.sixth_runner_place !== undefined && (
+                                  <span className="text-xs ml-1">({team.sixth_runner_place})</span>
+                                )}
+                              </td>
                               <td className="py-1 px-2 text-center font-mono text-zinc-900 text-sm">
                                 {formatTime(team.team_time_cs)}
                               </td>
                             </tr>
-                          ))}
+                          )})}
                         </tbody>
                       </table>
                     </div>
@@ -1278,12 +1257,12 @@ export default function CombinedRacePage() {
                                     </>
                                   )}
                                 </td>
-                                <td className="py-4 px-6 text-center">
+                                <td className="py-1 px-2 text-center">
                                   <input
                                     type="checkbox"
                                     checked={!excludedAthletes.has(result.id)}
                                     onChange={() => toggleAthleteExclusion(result.id, result.school_id, 'F')}
-                                    className="form-checkbox h-5 w-5 text-cyan-600 rounded border-zinc-300 cursor-pointer"
+                                    className="form-checkbox h-4 w-4 text-cyan-600 rounded border-zinc-300 cursor-pointer"
                                     title={excludedAthletes.has(result.id) ? 'Include in team scoring' : 'Exclude from team scoring'}
                                   />
                                 </td>
@@ -1325,117 +1304,6 @@ export default function CombinedRacePage() {
                     )}
                   </div>
                 )}
-              </>
-            )}
-
-            {/* Team Standings */}
-            {viewMode === 'team' && (
-              <>
-          {selectedGenders.has('M') && (
-            <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
-              <div className="bg-blue-600 p-4">
-                <h2 className="text-2xl font-bold text-white">Boys Combined Standings</h2>
-              </div>
-              <div className="overflow-x-auto">
-                <table className="min-w-full">
-                  <thead>
-                    <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Place</th>
-                      <th className="py-4 px-6 text-left font-bold text-zinc-900">School</th>
-                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Score</th>
-                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Time</th>
-                      <th className="py-4 px-6 text-left font-bold text-zinc-900">Top 5 Scorers</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {boysStandings.map((team, index) => (
-                      <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                        <td className="py-4 px-6 text-center font-bold text-zinc-900">{index + 1}</td>
-                        <td className="py-4 px-6">
-                          <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
-                            {team.school_name}
-                          </Link>
-                        </td>
-                        <td className="py-4 px-6 text-center font-bold text-cyan-600">
-                          {team.is_complete ? team.score : 'Incomplete'}
-                        </td>
-                        <td className="py-4 px-6 text-center font-mono text-zinc-900">
-                          {team.is_complete ? formatTime(team.team_time_cs) : 'N/A'}
-                        </td>
-                        <td className="py-4 px-6">
-                          <div className="flex gap-2 flex-wrap">
-                            {team.scorers.map((scorer, i) => (
-                              <span key={scorer.id} className="text-zinc-700 text-sm">
-                                {i > 0 && '• '}
-                                <Link href={`/athletes/${scorer.athlete_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
-                                  {scorer.athlete_name}
-                                </Link>
-                                {' '}({(scorer as any).combined_place})
-                              </span>
-                            ))}
-                          </div>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
-
-          {selectedGenders.has('F') && (
-            <div className="bg-white rounded-xl shadow-xl border border-zinc-200 overflow-hidden">
-              <div className="bg-pink-600 p-4">
-                <h2 className="text-2xl font-bold text-white">Girls Combined Standings</h2>
-              </div>
-              <div className="overflow-x-auto">
-                <table className="min-w-full">
-                  <thead>
-                    <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Place</th>
-                      <th className="py-4 px-6 text-left font-bold text-zinc-900">School</th>
-                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Score</th>
-                      <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Time</th>
-                      <th className="py-4 px-6 text-left font-bold text-zinc-900">Top 5 Scorers</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {girlsStandings.map((team, index) => (
-                      <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                        <td className="py-4 px-6 text-center font-bold text-zinc-900">{index + 1}</td>
-                        <td className="py-4 px-6">
-                          <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
-                            {team.school_name}
-                          </Link>
-                        </td>
-                        <td className="py-4 px-6 text-center font-bold text-cyan-600">
-                          {team.is_complete ? team.score : 'Incomplete'}
-                        </td>
-                        <td className="py-4 px-6 text-center font-mono text-zinc-900">
-                          {team.is_complete ? formatTime(team.team_time_cs) : 'N/A'}
-                        </td>
-                        <td className="py-4 px-6">
-                          <div className="flex gap-2 flex-wrap">
-                            {team.scorers.map((scorer, i) => (
-                              <span key={scorer.id} className="text-zinc-700 text-sm">
-                                {i > 0 && '• '}
-                                <Link href={`/athletes/${scorer.athlete_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
-                                  {scorer.athlete_name}
-                                </Link>
-                                {' '}({(scorer as any).combined_place})
-                              </span>
-                            ))}
-                          </div>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
-              </>
-            )}
           </div>
         </div>
       </div>

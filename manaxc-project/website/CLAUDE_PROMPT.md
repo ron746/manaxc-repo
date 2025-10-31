@@ -1,6 +1,243 @@
 # ManaXC Sprint Documentation
 
-## Last Sprint Summary (2025-10-28)
+## Last Sprint Summary (2025-10-31)
+
+### What Was Accomplished
+
+1. **Combined Race Projections Page - Major Feature Enhancement**
+   - Removed Gender filter from sidebar (made redundant by Boys/Girls toggle)
+   - Added ALL courses from database to "Project Times to Course" dropdown (not just meet courses)
+   - Fixed projection formula to correctly use `normalized_time_cs` from database
+   - Changed formula from: `normalized_time_cs / (1 - (difficulty - 5.0) * 0.02)`
+   - To correct formula: `normalized_time_cs * difficulty_rating * (distance_meters / 1609.344)`
+   - Hidden difficulty ratings from public view (removed from dropdown display)
+   - Moved "Project Times to Course" above "Filters" heading for better UX
+
+2. **XC Scoring Tiebreaker Implementation**
+   - Added 6th runner place as tiebreaker display for tied team scores
+   - Shows tiebreaker in parentheses: e.g., "44 (6)" where 6 is 6th runner's place
+   - Only displays when two or more teams have identical scores
+   - Applied to both Boys and Girls team score tables
+   - Fixed condition check from `&&` to `!== undefined` to show for both tied teams
+
+3. **Combined Race UI/UX Improvements**
+   - Removed "Team Projections" tab entirely (no longer needed)
+   - Simplified navigation to just Boys/Girls toggle buttons
+   - Made Girls table formatting identical to Boys (spacing, fonts, checkbox sizes)
+   - Fixed TypeScript errors with `coursesList` references (changed to `allCoursesList`)
+   - Added `is_sb` and `is_pr` fields to Result interface
+
+4. **Database Query Enhancement**
+   - Updated results query to fetch `normalized_time_cs`, `is_sb`, `is_pr` from database
+   - Removed client-side calculation of normalized times
+   - Now uses database-calculated values for accurate projections
+   - Separated `meetCourses` (used in filters) from `courses` (all courses for projection)
+
+### Files Modified
+
+- `app/meets/[meetId]/combined-race/page.tsx` - Major overhaul of combined race projections
+- `END_OF_SESSION_JOBS.md` - **NEW FILE** - End of session best practices template
+
+### Technical Implementation Details
+
+#### Projection Formula (CORRECTED)
+```typescript
+// CRITICAL: Must match season page logic
+const METERS_PER_MILE = 1609.344
+
+const projectedTime = Math.round(
+  result.normalized_time_cs *           // Pace per mile at difficulty 1.0
+  targetCourse.difficulty_rating *       // Course difficulty multiplier
+  (targetCourse.distance_meters / METERS_PER_MILE)  // Distance in miles
+)
+```
+
+**Key Insight**: `normalized_time_cs` is stored as pace per mile at difficulty 1.0, NOT at difficulty 5.0 baseline.
+
+#### Tiebreaker Display Logic
+```typescript
+// Check if any other team has the same score
+const hasTie = completeTeams.some(t =>
+  t.school_id !== team.school_id && t.score === team.score
+)
+
+// Display 6th runner place if tie exists and 6th runner participated
+{hasTie && team.sixth_runner_place !== undefined && (
+  <span className="text-xs ml-1">({team.sixth_runner_place})</span>
+)}
+```
+
+#### State Management
+```typescript
+// Separated course lists for different purposes
+const [courses, setCourses] = useState<Course[]>([])        // All courses for projection
+const [meetCourses, setMeetCourses] = useState<Course[]>([]) // Only courses from this meet
+```
+
+### Known Issues
+
+**RESOLVED**:
+- ✅ Projection formula was using incorrect calculation
+- ✅ Difficulty ratings exposed to public (now hidden)
+- ✅ Tiebreaker only showing for first team (now shows for all tied teams)
+- ✅ Girls table formatting inconsistent with Boys (now identical)
+
+**NONE REMAINING** - All issues from session resolved
+
+### Next Sprint Priorities
+
+1. **Season Best (SB) Migration Completion**
+   - User mentioned there's a `SEASON_BEST_MIGRATION_GUIDE.md` file
+   - May need to complete migration of `is_sb` field across all data
+   - Check if backfill has been run on all existing results
+
+2. **Homepage Statistics**
+   - Need to add SB/PR statistics to homepage stats display
+   - Update `getStats()` query in `lib/supabase/queries.ts`
+   - Display counts on main landing page
+
+3. **Performance Optimization**
+   - Combined race page loads all results - may need pagination/virtualization for large meets
+   - Consider caching projected results
+   - Optimize re-renders when toggling inclusions
+
+4. **Testing & Validation**
+   - Test projection formula with known course times
+   - Verify tiebreaker logic with multiple tied teams
+   - Test with meets that have incomplete teams
+
+5. **Admin Features** (if applicable)
+   - The project has admin authentication set up
+   - May want admin-only visibility for difficulty ratings
+   - Consider admin tools for data management
+
+### Database Schema Reference
+
+#### Key Tables
+- `courses` - XC courses/venues
+- `races` - Individual races (links to course and meet)
+- `results` - Individual athlete results (links to race and athlete)
+- `athletes` - Athlete records (includes grad_year, gender, school_id)
+- `schools` - School records
+- `meets` - Meet records (links to venue)
+
+#### Important Fields
+- `results.time_cs` - Actual time in centiseconds
+- `results.normalized_time_cs` - **Pace per mile at difficulty 1.0** (in centiseconds)
+- `results.is_sb` - Boolean flag for season best
+- `results.is_pr` - Boolean flag for personal record
+- `athletes.grad_year` - Graduation year (used to calculate grade)
+- `courses.difficulty_rating` - Course difficulty multiplier (1.0 = easy, higher = harder)
+- `courses.distance_meters` - Course distance in meters
+
+#### Projection Formula Explained
+The `normalized_time_cs` field stores an athlete's pace per mile at a difficulty of 1.0. To project to a different course:
+
+1. Start with `normalized_time_cs` (pace per mile at diff 1.0)
+2. Multiply by target difficulty to adjust for course hardness
+3. Multiply by distance in miles to scale to course length
+
+Example:
+- Athlete's `normalized_time_cs` = 30000 (5:00/mile pace at diff 1.0)
+- Target course: Crystal Springs, 2.95 miles, difficulty 6.5
+- Projected time = 30000 * 6.5 * 2.95 = 575,250 cs = 95:52.50
+
+### How to Start Next Sprint
+
+1. **Check Current State**
+   ```bash
+   cd /Users/ron/manaxc/manaxc-project/website
+   git pull
+   npm run dev
+   ```
+
+2. **Visit Updated Page**
+   - Go to any meet's combined race page
+   - Test projection dropdown (should show all courses now)
+   - Test Boys/Girls toggle
+   - Look for tied team scores to verify tiebreaker display
+
+3. **Check for Season Best Migration**
+   ```bash
+   # Look for migration guide
+   find /Users/ron/manaxc -name "SEASON_BEST_MIGRATION_GUIDE.md"
+
+   # Check if is_sb field is populated
+   # Via Supabase dashboard or query
+   ```
+
+4. **Review END_OF_SESSION_JOBS.md**
+   - New file created with session close checklist
+   - Use at end of every session for consistency
+
+### Environment Info
+
+- **Tech Stack**: Next.js 16.0.0, React, TypeScript, Tailwind CSS, Supabase
+- **Database**: PostgreSQL via Supabase
+- **Deployment**: Vercel (production), localhost:3000 (development)
+- **Repository**: https://github.com/ron746/manaxc-repo.git
+- **Working Directory**: `/Users/ron/manaxc/manaxc-project/website`
+
+### Recent Commits
+
+- **Pending**: Combined race projections enhancement with course selection and tiebreaker
+- Latest: See `git log --oneline -5` for current state
+
+### Debug Commands
+
+```bash
+# Check git status
+git status
+
+# View recent commits
+git log --oneline -5
+
+# Check for running dev server
+lsof -i :3000
+
+# Check Supabase connection
+# (Open browser to Supabase dashboard)
+
+# View all markdown docs
+find . -name "*.md" -not -path "*/node_modules/*"
+```
+
+### Critical Code Locations
+
+**Projection Logic**:
+- File: `app/meets/[meetId]/combined-race/page.tsx`
+- Function: `projectedResults` useMemo (lines ~313-335)
+- Formula: `normalized_time_cs * difficulty_rating * (distance_meters / 1609.344)`
+
+**Tiebreaker Display**:
+- File: `app/meets/[meetId]/combined-race/page.tsx`
+- Boys Team Scores: lines ~997-1020
+- Girls Team Scores: lines ~1044-1067
+- Logic: Checks if any other team has same score, displays 6th runner place
+
+**Course Selection**:
+- All courses query: lines ~137-141
+- Meet courses extraction: lines ~192-205
+- Dropdown uses `courses` state (all courses)
+- Filter checkboxes use `meetCourses` state (only meet courses)
+
+### Contact Points
+
+**User Preferences**:
+- Keep difficulty ratings hidden from public
+- Show tiebreaker for tied scores
+- Project times to any course in database (not just meet courses)
+- Identical formatting between Boys and Girls sections
+
+**Key Decisions Made**:
+- Formula matches season page (user confirmed this was correct)
+- 6th runner tiebreaker only shows when scores are actually tied
+- Projection dropdown above filters (not a filter itself)
+- Gender filter removed from sidebar (redundant with top toggle)
+
+---
+
+## Previous Sprint Summary (2025-10-28)
 
 ### What Was Accomplished
 
@@ -24,170 +261,8 @@
    - Fixed 400 error on meets query by removing nested order clause
    - Enhanced visual design with consistent color scheme
 
-4. **Debug Logging**
-   - Added comprehensive console.log debugging to investigate data accuracy issues
-   - Tracks total results, Willow Glen results specifically, race groupings, and team compositions
-   - Logs help identify missing or filtered-out results
-
-### Files Modified
-
-- `app/courses/[id]/page.tsx` - Main course detail page with records and team performances
-- `app/courses/[id]/records/page.tsx` - Old records page (may need to be removed or redirected)
-- `app/courses/page.tsx` - Courses listing page
-- `app/meets/page.tsx` - Meets listing page
-- `components/layout/Header.tsx` - Navigation header
-- `lib/supabase/queries.ts` - Database queries
-
-### Technical Implementation Details
-
-#### Grade Calculation
-```typescript
-const grade = 12 - (result.athlete.grad_year - seasonYear)
-```
-
-#### Gender Filtering
-```typescript
-const boysResults = resultsData?.filter((r: any) => {
-  const raceGender = r.race?.gender
-  const athleteGender = r.athlete?.gender
-  return raceGender === 'M' || raceGender === 'Boys' || athleteGender === 'M'
-}) || []
-```
-
-#### Team Performance Algorithm
-1. Group results by race ID
-2. Within each race, group by school ID
-3. For each school in each race:
-   - Sort by time
-   - Take top 5 runners
-   - Only count if exactly 5 runners
-   - Calculate combined time (sum, not average)
-4. Sort all performances by combined time
-5. Display top 5
-
-### Known Issues
-
-1. **Data Accuracy Concern**
-   - User reported: "Willow Glen ran a much faster team time and had much faster runners on the course than is being listed"
-   - Debug logging added but not yet verified
-   - Need to check browser console for:
-     - Total results fetched
-     - Willow Glen results count and times
-     - Whether Willow Glen had 5 runners in any single race
-     - Race grouping working correctly
-
-2. **Potential Root Causes**
-   - Gender filtering may be excluding results
-   - Grade calculation may be filtering out certain athletes
-   - Race grouping might be splitting teams incorrectly
-   - Team composition requirement (exactly 5 runners) may be too strict
-   - Data may not be fully imported for certain meets
-
-### Next Sprint Priorities
-
-1. **IMMEDIATE: Investigate Data Accuracy**
-   - Visit http://localhost:3000/courses/80cbf969-ceea-4145-9565-c3c68cebe99f
-   - Check browser console for debug output
-   - Verify Willow Glen results are present in database
-   - Check if Willow Glen had complete teams (5 runners) in specific races
-   - May need to adjust filtering logic or team composition requirements
-
-2. **Create Course Performances Page**
-   - From todo list: "Create course performances page based on old project logic"
-   - Should show all individual performances on a course
-   - Filterable by gender, grade, school, season
-   - Sortable by time, date, athlete name
-
-3. **Clean Up / Remove Old Records Page**
-   - Consider removing or redirecting `app/courses/[id]/records/page.tsx`
-   - Or repurpose it for a different view
-
-4. **Remove Debug Logging (Once Issues Resolved)**
-   - All the console.log statements should be removed for production
-   - Or convert to conditional debugging based on environment variable
-
-### Database Schema Reference
-
-#### Key Tables
-- `courses` - XC courses/venues
-- `races` - Individual races (links to course and meet)
-- `results` - Individual athlete results (links to race and athlete)
-- `athletes` - Athlete records (includes grad_year, gender, school_id)
-- `schools` - School records
-- `meets` - Meet records (links to venue)
-
-#### Important Fields
-- `results.time_cs` - Time in centiseconds
-- `athletes.grad_year` - Graduation year (used to calculate grade)
-- `athletes.gender` - 'M' or 'F'
-- `races.gender` - May be 'M', 'F', 'Boys', 'Girls', or other values
-- `courses.difficulty_rating` - Course difficulty multiplier
-- `results.normalized_time_cs` - Normalized time for cross-course comparison
-
-### How to Start Next Sprint
-
-1. **Check Current State**
-   ```bash
-   cd /Users/ron/manaxc/manaxc-project/website
-   npm run dev
-   ```
-
-2. **Visit Problematic Page**
-   - Go to http://localhost:3000/courses/80cbf969-ceea-4145-9565-c3c68cebe99f
-   - Open browser console (Cmd+Option+J)
-   - Review debug output
-
-3. **Investigate Based on Console Output**
-   - If Willow Glen results are missing: Check database queries
-   - If results exist but filtered: Check gender/grade filtering logic
-   - If results exist but not enough for team: Adjust team composition logic or check data completeness
-
-4. **Tools Available**
-   - Supabase dashboard: Check data directly in database
-   - Debug scripts in `/tmp/` (may still be available)
-   - Python scripts for data investigation in project root
-
-### Environment Info
-
-- **Tech Stack**: Next.js 16.0.0, React, TypeScript, Tailwind CSS, Supabase
-- **Database**: PostgreSQL via Supabase
-- **Deployment**: Vercel (production), localhost:3000 (development)
-- **Repository**: https://github.com/ron746/manaxc-repo.git
-- **Working Directory**: `/Users/ron/manaxc/manaxc-project/website`
-
-### Recent Commits
-
-- Latest: `6f23666` - "Add course records and enhanced team performances to course detail page"
-- Previous: `1c66436` - "Fix meets pages: Change course relationship to venue"
-
-### Debug Commands
-
-```bash
-# Check git status
-git status
-
-# View recent commits
-git log --oneline -5
-
-# Check Supabase connection
-# (Open browser to Supabase dashboard)
-
-# Check for any stray process
-lsof -ti:3000
-
-# Kill dev server if needed
-pkill -f "npm run dev"
-```
-
-### Contact Points
-
-If you need to reference the old project logic for course performances:
-- Look for old implementation in git history
-- Check for any backup/reference files in project
-- User may have specific requirements based on previous system
-
 ---
 
-**Generated**: 2025-10-28
+**Generated**: 2025-10-31
 **Status**: Ready for next sprint
 **Last Modified By**: Claude Code
