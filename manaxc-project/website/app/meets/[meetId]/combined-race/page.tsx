@@ -1001,24 +1001,24 @@ export default function CombinedRacePage() {
                       <table className="min-w-full">
                         <thead>
                           <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Place</th>
-                            <th className="py-3 px-6 text-left font-bold text-zinc-900">School</th>
-                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Score</th>
-                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Avg Time</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Place</th>
+                            <th className="py-1.5 px-2 text-left font-bold text-zinc-900 text-sm">School</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Score</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Team Time</th>
                           </tr>
                         </thead>
                         <tbody>
                           {boysStandings.filter(team => team.is_complete).map((team, index) => (
                             <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                              <td className="py-3 px-6 text-center font-bold text-zinc-900">{index + 1}</td>
-                              <td className="py-3 px-6">
+                              <td className="py-1 px-2 text-center font-bold text-zinc-900 text-sm">{index + 1}</td>
+                              <td className="py-1 px-2 text-sm">
                                 <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
                                   {team.school_name}
                                 </Link>
                               </td>
-                              <td className="py-3 px-6 text-center font-bold text-cyan-600">{team.score}</td>
-                              <td className="py-3 px-6 text-center font-mono text-zinc-900">
-                                {formatTime(Math.round(team.team_time_cs / 5))}
+                              <td className="py-1 px-2 text-center font-bold text-cyan-600 text-sm">{team.score}</td>
+                              <td className="py-1 px-2 text-center font-mono text-zinc-900 text-sm">
+                                {formatTime(team.team_time_cs)}
                               </td>
                             </tr>
                           ))}
@@ -1038,23 +1038,23 @@ export default function CombinedRacePage() {
                       <table className="min-w-full">
                         <thead>
                           <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Place</th>
-                            <th className="py-3 px-6 text-left font-bold text-zinc-900">School</th>
-                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Score</th>
-                            <th className="py-3 px-6 text-center font-bold text-zinc-900">Avg Time</th>
+                            <th className="py-2 px-4 text-center font-bold text-zinc-900">Place</th>
+                            <th className="py-2 px-4 text-left font-bold text-zinc-900">School</th>
+                            <th className="py-2 px-4 text-center font-bold text-zinc-900">Score</th>
+                            <th className="py-2 px-4 text-center font-bold text-zinc-900">Avg Time</th>
                           </tr>
                         </thead>
                         <tbody>
                           {girlsStandings.filter(team => team.is_complete).map((team, index) => (
                             <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                              <td className="py-3 px-6 text-center font-bold text-zinc-900">{index + 1}</td>
-                              <td className="py-3 px-6">
+                              <td className="py-1.5 px-4 text-center font-bold text-zinc-900">{index + 1}</td>
+                              <td className="py-1.5 px-4">
                                 <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
                                   {team.school_name}
                                 </Link>
                               </td>
-                              <td className="py-3 px-6 text-center font-bold text-cyan-600">{team.score}</td>
-                              <td className="py-3 px-6 text-center font-mono text-zinc-900">
+                              <td className="py-1.5 px-4 text-center font-bold text-cyan-600">{team.score}</td>
+                              <td className="py-1.5 px-4 text-center font-mono text-zinc-900">
                                 {formatTime(Math.round(team.team_time_cs / 5))}
                               </td>
                             </tr>
@@ -1074,14 +1074,14 @@ export default function CombinedRacePage() {
                       <table className="min-w-full">
                         <thead>
                           <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Place</th>
-                            <th className="py-4 px-6 text-left font-bold text-zinc-900">Athlete</th>
-                            <th className="py-4 px-6 text-left font-bold text-zinc-900">School</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Grade</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Time</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Pace</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Pts</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Include</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Place</th>
+                            <th className="py-1.5 px-2 text-left font-bold text-zinc-900 text-sm">Athlete</th>
+                            <th className="py-1.5 px-2 text-left font-bold text-zinc-900 text-sm">School</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Grade</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Time</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Pace</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Team Pts</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Include</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -1097,27 +1097,27 @@ export default function CombinedRacePage() {
 
                             return (
                               <tr key={result.id} className={`border-b border-zinc-200 transition-colors ${isExcluded ? 'bg-zinc-100 opacity-60' : 'hover:bg-cyan-50'}`}>
-                                <td className={`py-4 px-6 text-center font-bold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
+                                <td className={`py-1 px-2 text-center font-bold text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
                                   {isExcluded ? '—' : result.overall_place}
                                 </td>
-                                <td className="py-4 px-6">
+                                <td className="py-1 px-2 text-sm">
                                   <Link href={`/athletes/${result.athlete_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-cyan-600 hover:text-cyan-700'}`}>
                                     {result.athlete_name}
                                   </Link>
                                 </td>
-                                <td className="py-4 px-6">
+                                <td className="py-1 px-2 text-sm">
                                   <Link href={`/schools/${result.school_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-zinc-700 hover:text-cyan-600'}`}>
                                     {result.school_name}
                                   </Link>
                                 </td>
-                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>{getGradeLabel(grade)}</td>
-                                <td className={`py-4 px-6 text-center font-mono font-semibold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
+                                <td className={`py-1 px-2 text-center text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>{getGradeLabel(grade)}</td>
+                                <td className={`py-1 px-2 text-center font-mono font-semibold text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
                                   {formatTime(result.time_cs)}
                                 </td>
-                                <td className={`py-4 px-6 text-center font-mono ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>
+                                <td className={`py-1 px-2 text-center font-mono text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>
                                   {paceMin}:{paceSec.toString().padStart(2, '0')}
                                 </td>
-                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : ''}`}>
+                                <td className={`py-1 px-2 text-center text-sm ${isExcluded ? 'text-zinc-400' : ''}`}>
                                   {isExcluded ? (
                                     <span className="text-zinc-400 text-sm">—</span>
                                   ) : (
@@ -1134,12 +1134,12 @@ export default function CombinedRacePage() {
                                     </>
                                   )}
                                 </td>
-                                <td className="py-4 px-6 text-center">
+                                <td className="py-1 px-2 text-center">
                                   <input
                                     type="checkbox"
                                     checked={!excludedAthletes.has(result.id)}
                                     onChange={() => toggleAthleteExclusion(result.id, result.school_id, 'M')}
-                                    className="form-checkbox h-5 w-5 text-cyan-600 rounded border-zinc-300 cursor-pointer"
+                                    className="form-checkbox h-4 w-4 text-cyan-600 rounded border-zinc-300 cursor-pointer"
                                     title={excludedAthletes.has(result.id) ? 'Include in team scoring' : 'Exclude from team scoring'}
                                   />
                                 </td>
@@ -1191,14 +1191,14 @@ export default function CombinedRacePage() {
                       <table className="min-w-full">
                         <thead>
                           <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Place</th>
-                            <th className="py-4 px-6 text-left font-bold text-zinc-900">Athlete</th>
-                            <th className="py-4 px-6 text-left font-bold text-zinc-900">School</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Grade</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Time</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Pace</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Team Pts</th>
-                            <th className="py-4 px-6 text-center font-bold text-zinc-900">Include</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Place</th>
+                            <th className="py-1.5 px-2 text-left font-bold text-zinc-900 text-sm">Athlete</th>
+                            <th className="py-1.5 px-2 text-left font-bold text-zinc-900 text-sm">School</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Grade</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Time</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Pace</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Team Pts</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Include</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -1214,27 +1214,27 @@ export default function CombinedRacePage() {
 
                             return (
                               <tr key={result.id} className={`border-b border-zinc-200 transition-colors ${isExcluded ? 'bg-zinc-100 opacity-60' : 'hover:bg-cyan-50'}`}>
-                                <td className={`py-4 px-6 text-center font-bold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
+                                <td className={`py-1 px-2 text-center font-bold text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
                                   {isExcluded ? '—' : result.overall_place}
                                 </td>
-                                <td className="py-4 px-6">
+                                <td className="py-1 px-2 text-sm">
                                   <Link href={`/athletes/${result.athlete_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-cyan-600 hover:text-cyan-700'}`}>
                                     {result.athlete_name}
                                   </Link>
                                 </td>
-                                <td className="py-4 px-6">
+                                <td className="py-1 px-2 text-sm">
                                   <Link href={`/schools/${result.school_id}`} className={`hover:underline ${isExcluded ? 'text-zinc-500' : 'text-zinc-700 hover:text-cyan-600'}`}>
                                     {result.school_name}
                                   </Link>
                                 </td>
-                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>{getGradeLabel(grade)}</td>
-                                <td className={`py-4 px-6 text-center font-mono font-semibold ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
+                                <td className={`py-1 px-2 text-center text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>{getGradeLabel(grade)}</td>
+                                <td className={`py-1 px-2 text-center font-mono font-semibold text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-900'}`}>
                                   {formatTime(result.time_cs)}
                                 </td>
-                                <td className={`py-4 px-6 text-center font-mono ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>
+                                <td className={`py-1 px-2 text-center font-mono text-sm ${isExcluded ? 'text-zinc-400' : 'text-zinc-700'}`}>
                                   {paceMin}:{paceSec.toString().padStart(2, '0')}
                                 </td>
-                                <td className={`py-4 px-6 text-center ${isExcluded ? 'text-zinc-400' : ''}`}>
+                                <td className={`py-1 px-2 text-center text-sm ${isExcluded ? 'text-zinc-400' : ''}`}>
                                   {isExcluded ? (
                                     <span className="text-zinc-400 text-sm">—</span>
                                   ) : (
