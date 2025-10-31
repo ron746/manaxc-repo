@@ -86,30 +86,48 @@ const [meetCourses, setMeetCourses] = useState<Course[]>([]) // Only courses fro
 
 ### Next Sprint Priorities
 
-1. **Season Best (SB) Migration Completion**
-   - User mentioned there's a `SEASON_BEST_MIGRATION_GUIDE.md` file
-   - May need to complete migration of `is_sb` field across all data
-   - Check if backfill has been run on all existing results
+**User's Top Priorities** (from end of session):
+1. **Clean Pages** - Continue UI/UX cleanup across site
+2. **Import Mt. Sac Results** - Add new meet data
+3. **Import D2 Team Results** - Add Division 2 data
 
-2. **Homepage Statistics**
-   - Need to add SB/PR statistics to homepage stats display
-   - Update `getStats()` query in `lib/supabase/queries.ts`
-   - Display counts on main landing page
+**Critical Feature - MUST DO**:
+1. **Hide Difficulty Ratings from Public** ⚠️
+   - **IMPORTANT**: User wants difficulty ratings completely hidden from non-admin users
+   - "I don't want anyone to see our ratings, I want them to wonder"
+   - Already hidden in combined race projections dropdown
+   - Need to audit ALL pages where difficulty_rating might display:
+     - Course detail pages
+     - Course listing pages
+     - Any stats/analytics pages
+     - Search results
+     - Anywhere courses are displayed
+   - Keep ratings visible ONLY behind admin authentication wall
+   - Consider adding admin-only "Show Difficulty" toggle for admins
 
-3. **Performance Optimization**
-   - Combined race page loads all results - may need pagination/virtualization for large meets
-   - Consider caching projected results
-   - Optimize re-renders when toggling inclusions
+**Completed from Previous List**:
+- ✅ Season Best (SB) Migration - Accomplished
+- ✅ Homepage Statistics - Accomplished
+- ✅ Testing & Validation - Projection formula tested and working
 
-4. **Testing & Validation**
-   - Test projection formula with known course times
-   - Verify tiebreaker logic with multiple tied teams
-   - Test with meets that have incomplete teams
+**Keep Top of Mind**:
+- **UI/UX Polish** - User said "good for now but keep this top of mind"
+  - Mobile responsiveness
+  - Loading states
+  - Error handling
+  - Accessibility
 
-5. **Admin Features** (if applicable)
-   - The project has admin authentication set up
-   - May want admin-only visibility for difficulty ratings
-   - Consider admin tools for data management
+**As New Data Imported, Check**:
+- Verify `is_sb` and `is_pr` fields populated correctly
+- Ensure normalized_time_cs calculated properly
+- Validate course difficulty ratings
+- Check for data completeness (5+ runners per team)
+
+**Technical Debt** (Low Priority - Address if Convenient):
+- Remove debug console.log statements from old sessions
+- Consider adding TypeScript tests for projection calculations
+- Performance optimization (if meets get very large)
+- Refactor duplicated code between Boys/Girls sections
 
 ### Database Schema Reference
 
