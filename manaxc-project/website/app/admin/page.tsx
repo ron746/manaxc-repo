@@ -36,7 +36,7 @@ export default function AdminPage() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4 text-white">Admin Dashboard</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
         <a
           href="/admin/maintenance"
           className="bg-gradient-to-br from-cyan-600 to-cyan-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-cyan-500"
@@ -67,6 +67,22 @@ export default function AdminPage() {
         >
           <h2 className="text-2xl font-bold text-white mb-2">Course Analysis</h2>
           <p className="text-orange-100">AI-powered difficulty rating recommendations</p>
+        </a>
+
+        <a
+          href="/admin/course-anomalies"
+          className="bg-gradient-to-br from-red-600 to-red-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-red-500"
+        >
+          <h2 className="text-2xl font-bold text-white mb-2">Anomaly Detection</h2>
+          <p className="text-red-100">Find courses with statistical outliers using elite runners</p>
+        </a>
+
+        <a
+          href="/admin/course-calibration"
+          className="bg-gradient-to-br from-green-600 to-green-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all border-2 border-green-500"
+        >
+          <h2 className="text-2xl font-bold text-white mb-2">Course Calibration</h2>
+          <p className="text-green-100">Manually adjust course difficulty ratings</p>
         </a>
       </div>
 

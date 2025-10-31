@@ -33,6 +33,14 @@ export default function CourseAnomaliesPage() {
   const [minAthletes, setMinAthletes] = useState(10)
   const [outlierThreshold, setOutlierThreshold] = useState(2.0)
   const [improvementPerWeek, setImprovementPerWeek] = useState(150) // 1.5 sec/mile/week
+  const [applyingCourse, setApplyingCourse] = useState<string | null>(null)
+
+  // Modal state for applying adjustments
+  const [showAdjustModal, setShowAdjustModal] = useState(false)
+  const [selectedAnomaly, setSelectedAnomaly] = useState<CourseAnomaly | null>(null)
+  const [adjustmentComment, setAdjustmentComment] = useState('')
+  const [customDifficulty, setCustomDifficulty] = useState('')
+  const [useCustomValue, setUseCustomValue] = useState(false)
 
   const runAnalysis = async () => {
     setLoading(true)
@@ -61,6 +69,80 @@ export default function CourseAnomaliesPage() {
       alert('Failed to run analysis: ' + (error instanceof Error ? error.message : 'Unknown error'))
     } finally {
       setLoading(false)
+    }
+  }
+
+  const openAdjustModal = (anomaly: CourseAnomaly) => {
+    setSelectedAnomaly(anomaly)
+    setAdjustmentComment('')
+    setCustomDifficulty(anomaly.recommended_difficulty.toFixed(9))
+    setUseCustomValue(false)
+    setShowAdjustModal(true)
+  }
+
+  const closeAdjustModal = () => {
+    setShowAdjustModal(false)
+    setSelectedAnomaly(null)
+    setAdjustmentComment('')
+    setCustomDifficulty('')
+    setUseCustomValue(false)
+  }
+
+  const applyAdjustment = async () => {
+    if (!selectedAnomaly) return
+
+    const finalDifficulty = useCustomValue
+      ? parseFloat(customDifficulty)
+      : selectedAnomaly.recommended_difficulty
+
+    if (isNaN(finalDifficulty) || finalDifficulty <= 0) {
+      alert('Invalid difficulty value')
+      return
+    }
+
+    // Manual adjustments require a comment
+    if (useCustomValue && !adjustmentComment.trim()) {
+      alert('Please provide a comment explaining the manual adjustment')
+      return
+    }
+
+    setApplyingCourse(selectedAnomaly.course_id)
+    try {
+      const response = await fetch('/api/admin/apply-difficulty-adjustment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          courseId: selectedAnomaly.course_id,
+          newDifficulty: finalDifficulty,
+          comment: adjustmentComment.trim() || null,
+          changeType: useCustomValue ? 'manual_adjustment' : 'automated_recommendation',
+          anomalyContext: {
+            elite_athlete_count: selectedAnomaly.elite_athlete_count,
+            outlier_percentage: selectedAnomaly.outlier_percentage,
+            difference_seconds_per_mile: selectedAnomaly.difference_seconds_per_mile,
+            suspicion_level: selectedAnomaly.suspicion_level
+          }
+        })
+      })
+
+      const data = await response.json()
+
+      if (!response.ok || data.error) {
+        alert(`Failed to apply adjustment: ${data.error || data.details || 'Unknown error'}`)
+        return
+      }
+
+      alert(`Difficulty updated from ${data.oldDifficulty.toFixed(6)} to ${data.newDifficulty.toFixed(6)}!\n\nRe-running analysis...`)
+
+      closeAdjustModal()
+
+      // Re-run analysis to get updated results
+      await runAnalysis()
+    } catch (error) {
+      console.error('Failed to apply adjustment:', error)
+      alert('Failed to apply adjustment: ' + (error instanceof Error ? error.message : 'Unknown error'))
+    } finally {
+      setApplyingCourse(null)
     }
   }
 
@@ -286,9 +368,28 @@ export default function CourseAnomaliesPage() {
                       </div>
                       <div>
                         <div className="text-gray-900 text-xs font-semibold mb-1">Recommended</div>
-                        <div className="font-mono font-bold text-blue-900 text-base">
-                          {anomaly.recommended_difficulty.toFixed(6)}
+                        <div className="flex items-center gap-2">
+                          <div className="font-mono font-bold text-blue-900 text-base">
+                            {anomaly.recommended_difficulty.toFixed(6)}
+                            {anomaly.recommended_difficulty < 1.0 && (
+                              <span className="ml-2 text-xs font-bold text-red-600">⚠️ IMPOSSIBLE!</span>
+                            )}
+                          </div>
+                          <button
+                            onClick={() => openAdjustModal(anomaly)}
+                            disabled={applyingCourse === anomaly.course_id}
+                            className="px-3 py-1 bg-blue-600 text-white font-bold text-xs rounded hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
+                          >
+                            {applyingCourse === anomaly.course_id ? 'Applying...' : 'Apply'}
+                          </button>
                         </div>
+                        {anomaly.recommended_difficulty < 1.0 && (
+                          <div className="mt-1 text-xs font-bold text-red-600">
+                            Difficulty {'<'} 1.0 is impossible. Check for data quality issues:
+                            <br/>• Wrong race distance assigned to course
+                            <br/>• Short course results mixed with long course
+                          </div>
+                        )}
                       </div>
                       <div>
                         <div className="text-gray-900 text-xs font-semibold mb-1">Adjustment</div>
@@ -339,6 +440,101 @@ export default function CourseAnomaliesPage() {
           </>
         )}
       </div>
+
+      {/* Adjustment Modal */}
+      {showAdjustModal && selectedAnomaly && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full p-6">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Apply Difficulty Adjustment
+            </h2>
+
+            <div className="mb-4 p-4 bg-gray-100 rounded">
+              <h3 className="font-bold text-gray-900 text-lg mb-2">{selectedAnomaly.course_name}</h3>
+              <div className="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <span className="font-semibold text-gray-900">Current Difficulty:</span>{' '}
+                  <span className="font-mono text-gray-900">{selectedAnomaly.current_difficulty.toFixed(6)}</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-gray-900">Recommended:</span>{' '}
+                  <span className="font-mono text-blue-900">{selectedAnomaly.recommended_difficulty.toFixed(6)}</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-gray-900">Adjustment:</span>{' '}
+                  <span className={`font-bold ${selectedAnomaly.difficulty_adjustment_pct < 0 ? 'text-blue-900' : 'text-orange-900'}`}>
+                    {selectedAnomaly.difficulty_adjustment_pct >= 0 ? '+' : ''}{selectedAnomaly.difficulty_adjustment_pct.toFixed(1)}%
+                  </span>
+                </div>
+                <div>
+                  <span className="font-semibold text-gray-900">Suspicion:</span>{' '}
+                  <span className="text-gray-900">{selectedAnomaly.suspicion_level.split(' - ')[0]}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Option to use custom value */}
+            <div className="mb-4">
+              <label className="flex items-center gap-2 mb-2">
+                <input
+                  type="checkbox"
+                  checked={useCustomValue}
+                  onChange={(e) => setUseCustomValue(e.target.checked)}
+                  className="w-5 h-5"
+                />
+                <span className="font-bold text-gray-900 text-base">Use custom difficulty value</span>
+              </label>
+
+              {useCustomValue && (
+                <input
+                  type="number"
+                  step="0.000001"
+                  value={customDifficulty}
+                  onChange={(e) => setCustomDifficulty(e.target.value)}
+                  className="w-full px-4 py-3 border-3 border-gray-900 rounded-md text-gray-900 font-bold text-lg bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-600"
+                  placeholder="Enter custom difficulty"
+                />
+              )}
+            </div>
+
+            {/* Comment field */}
+            <div className="mb-6">
+              <label className="block font-bold text-gray-900 text-base mb-2">
+                Comment {useCustomValue && <span className="text-red-600">*</span>}
+              </label>
+              <textarea
+                value={adjustmentComment}
+                onChange={(e) => setAdjustmentComment(e.target.value)}
+                placeholder={useCustomValue ? "Required: Explain why you're using a custom value" : "Optional: Add notes about this adjustment"}
+                className="w-full px-4 py-3 border-3 border-gray-900 rounded-md text-gray-900 font-semibold text-base bg-white focus:border-blue-600 focus:ring-2 focus:ring-blue-600 h-24"
+              />
+              <p className="text-sm text-gray-700 font-semibold mt-1">
+                {useCustomValue
+                  ? "Manual adjustments must include a comment."
+                  : "Optional: Document why you're accepting this recommendation."}
+              </p>
+            </div>
+
+            {/* Action buttons */}
+            <div className="flex gap-3 justify-end">
+              <button
+                onClick={closeAdjustModal}
+                disabled={applyingCourse === selectedAnomaly.course_id}
+                className="px-6 py-3 bg-gray-300 text-gray-900 font-bold rounded hover:bg-gray-400 disabled:bg-gray-200 disabled:cursor-not-allowed"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={applyAdjustment}
+                disabled={applyingCourse === selectedAnomaly.course_id}
+                className="px-6 py-3 bg-blue-600 text-white font-bold rounded hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
+              >
+                {applyingCourse === selectedAnomaly.course_id ? 'Applying...' : 'Apply Adjustment'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

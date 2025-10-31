@@ -1,0 +1,3 @@
+athletic_net_id,name,venue_name,distance_meters,distance_display,difficulty_rating,needs_review,needs_records_scraping
+,"Golden Gate Park, 2.13 Miles",Golden Gate Park,3427,2.13 Miles, 1.12484991200 ,TRUE,FALSE
+,"Golden Gate Park, 2.83 Miles",Golden Gate Park,4554,2.13 Miles, 1.14773396100 ,TRUE,FALSE

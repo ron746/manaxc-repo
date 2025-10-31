@@ -1,6 +1,9 @@
 -- Enhanced anomaly detection with seasonal improvement and difficulty recommendations
 -- Accounts for athletes improving ~1-2 seconds per week during the season
 
+-- Drop the old function first (return type changed from float to numeric)
+DROP FUNCTION IF EXISTS identify_course_anomalies_with_recommendations(int, float, float);
+
 CREATE OR REPLACE FUNCTION identify_course_anomalies_with_recommendations(
   min_shared_athletes int DEFAULT 10,
   outlier_threshold_std_dev float DEFAULT 2.0,
@@ -12,19 +15,19 @@ RETURNS TABLE (
   distance_meters int,
   current_difficulty numeric(12,9),
   recommended_difficulty numeric(12,9),
-  difficulty_adjustment_pct float,
+  difficulty_adjustment_pct numeric,
   elite_athlete_count int,
   athletes_with_fast_outlier int,
   athletes_with_slow_outlier int,
   total_outliers int,
-  outlier_percentage float,
-  median_normalized_cs float,
-  typical_normalized_cs float,
-  difference_cs float,
-  difference_seconds_per_mile float,
-  improvement_adjusted_diff_cs float,  -- After accounting for seasonal improvement
+  outlier_percentage numeric,
+  median_normalized_cs numeric,
+  typical_normalized_cs numeric,
+  difference_cs numeric,
+  difference_seconds_per_mile numeric,
+  improvement_adjusted_diff_cs numeric,  -- After accounting for seasonal improvement
   anomaly_direction text,
-  confidence_score float,
+  confidence_score numeric,
   suspicion_level text,
   recommendation text
 )
@@ -75,7 +78,8 @@ BEGIN
       athlete_id,
       PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY course_median_normalized_cs) as typical_normalized_cs,
       STDDEV(course_median_normalized_cs) as std_dev_cs,
-      PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY last_race_date) as typical_race_date
+      -- Convert date to epoch for percentile, then back to timestamptz
+      TO_TIMESTAMP(PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY EXTRACT(EPOCH FROM last_race_date))) as typical_race_date
     FROM athlete_course_performances_with_dates
     GROUP BY athlete_id
   ),
@@ -104,7 +108,7 @@ BEGIN
       PERCENTILE_CONT(0.5) WITHIN GROUP (
         ORDER BY
           (acp.course_median_normalized_cs - atp.typical_normalized_cs) -
-          (EXTRACT(EPOCH FROM (acp.last_race_date - atp.typical_race_date)) / (7.0 * 86400.0) * improvement_per_week_cs)
+          COALESCE((EXTRACT(EPOCH FROM (acp.last_race_date - atp.typical_race_date)) / (7.0 * 86400.0) * improvement_per_week_cs), 0)
       ) as improvement_adjusted_diff_cs,
       STDDEV(acp.course_median_normalized_cs) as course_std_dev_cs
     FROM athlete_course_performances_with_dates acp
@@ -118,21 +122,21 @@ BEGIN
     cas.distance_meters,
     cas.difficulty_rating as current_difficulty,
     -- Recommended difficulty: reverse engineer what difficulty would make anomaly = 0
-    -- If athletes are running faster (negative diff), need LOWER difficulty
-    -- Formula: current_difficulty * (typical_normalized / median_normalized)
-    (cas.difficulty_rating * (cas.typical_normalized_cs / cas.median_normalized_cs))::numeric(12,9) as recommended_difficulty,
+    -- If athletes are running faster (median < typical), need LOWER difficulty (multiply by <1.0)
+    -- Formula: current_difficulty * (median_normalized / typical_normalized)
+    (cas.difficulty_rating * (cas.median_normalized_cs / cas.typical_normalized_cs))::numeric(12,9) as recommended_difficulty,
     -- Percent adjustment needed
-    (((cas.typical_normalized_cs / cas.median_normalized_cs) - 1.0) * 100.0)::float as difficulty_adjustment_pct,
+    (((cas.median_normalized_cs / cas.typical_normalized_cs) - 1.0) * 100.0)::numeric as difficulty_adjustment_pct,
     cas.elite_athlete_count::int,
     cas.athletes_with_fast_outlier::int,
     cas.athletes_with_slow_outlier::int,
     (cas.athletes_with_fast_outlier + cas.athletes_with_slow_outlier)::int as total_outliers,
-    (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::float / cas.elite_athlete_count::float * 100.0)::float as outlier_percentage,
-    cas.median_normalized_cs::float,
-    cas.typical_normalized_cs::float,
-    (cas.median_normalized_cs - cas.typical_normalized_cs)::float as difference_cs,
-    ((cas.median_normalized_cs - cas.typical_normalized_cs) / 100.0)::float as difference_seconds_per_mile,
-    (cas.improvement_adjusted_diff_cs / 100.0)::float as improvement_adjusted_diff_seconds_per_mile,
+    (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::numeric / cas.elite_athlete_count::numeric * 100.0)::numeric as outlier_percentage,
+    cas.median_normalized_cs::numeric,
+    cas.typical_normalized_cs::numeric,
+    (cas.median_normalized_cs - cas.typical_normalized_cs)::numeric as difference_cs,
+    ((cas.median_normalized_cs - cas.typical_normalized_cs) / 100.0)::numeric as difference_seconds_per_mile,
+    (COALESCE(cas.improvement_adjusted_diff_cs, cas.median_normalized_cs - cas.typical_normalized_cs) / 100.0)::numeric as improvement_adjusted_diff_seconds_per_mile,
     CASE
       WHEN cas.athletes_with_fast_outlier > cas.athletes_with_slow_outlier * 2
         THEN 'FASTER (easier than rated)'
@@ -140,25 +144,25 @@ BEGIN
         THEN 'SLOWER (harder than rated)'
       ELSE 'MIXED (inconsistent performances)'
     END as anomaly_direction,
-    (LEAST(1.0, cas.elite_athlete_count::float / 50.0) *
-     (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::float / cas.elite_athlete_count::float))::float as confidence_score,
+    (LEAST(1.0, cas.elite_athlete_count::numeric / 50.0) *
+     (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::numeric / cas.elite_athlete_count::numeric))::numeric as confidence_score,
     CASE
-      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::float / cas.elite_athlete_count::float) > 0.50
+      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::numeric / cas.elite_athlete_count::numeric) > 0.50
         THEN 'CRITICAL - Over 50% have outlier times'
-      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::float / cas.elite_athlete_count::float) > 0.30
+      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::numeric / cas.elite_athlete_count::numeric) > 0.30
         THEN 'HIGH - 30-50% have outlier times'
-      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::float / cas.elite_athlete_count::float) > 0.15
+      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::numeric / cas.elite_athlete_count::numeric) > 0.15
         THEN 'MEDIUM - 15-30% have outlier times'
-      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::float / cas.elite_athlete_count::float) > 0.05
+      WHEN (GREATEST(cas.athletes_with_fast_outlier, cas.athletes_with_slow_outlier)::numeric / cas.elite_athlete_count::numeric) > 0.05
         THEN 'LOW - 5-15% have outlier times'
       ELSE 'NORMAL - Under 5% outliers'
     END as suspicion_level,
     -- Actionable recommendation
     CASE
-      WHEN ABS((cas.typical_normalized_cs / cas.median_normalized_cs) - 1.0) > 0.15
-        THEN 'URGENT: Adjust difficulty by ' || ROUND(((cas.typical_normalized_cs / cas.median_normalized_cs) - 1.0) * 100.0, 1)::text || '% or verify course distance'
-      WHEN ABS((cas.typical_normalized_cs / cas.median_normalized_cs) - 1.0) > 0.05
-        THEN 'Consider adjusting difficulty by ' || ROUND(((cas.typical_normalized_cs / cas.median_normalized_cs) - 1.0) * 100.0, 1)::text || '%'
+      WHEN ABS((cas.median_normalized_cs / cas.typical_normalized_cs) - 1.0) > 0.15
+        THEN 'URGENT: Adjust difficulty by ' || ROUND((((cas.median_normalized_cs / cas.typical_normalized_cs) - 1.0) * 100.0)::numeric, 1)::text || '% or verify course distance'
+      WHEN ABS((cas.median_normalized_cs / cas.typical_normalized_cs) - 1.0) > 0.05
+        THEN 'Consider adjusting difficulty by ' || ROUND((((cas.median_normalized_cs / cas.typical_normalized_cs) - 1.0) * 100.0)::numeric, 1)::text || '%'
       ELSE 'Difficulty rating appears accurate'
     END as recommendation
   FROM course_anomaly_stats cas

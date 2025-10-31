@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Abraham Lincoln (SJ)",
+    "athletic_net_id": "school_abraham_lincoln_(sj)",
+    "db_id": "add37e5a-934c-4182-a7d1-ea113f3d409b"
+  },
+  {
+    "name": "Branham",
+    "athletic_net_id": "school_branham",
+    "db_id": "52dc2d4d-17b1-4c28-92b8-a164aa43bf0a"
+  },
+  {
+    "name": "Christopher",
+    "athletic_net_id": "school_christopher",
+    "db_id": "19ef327e-4f1b-4ca4-add0-a4db12aa100e"
+  },
+  {
+    "name": "Del Mar",
+    "athletic_net_id": "school_del_mar",
+    "db_id": "af89db13-aeb2-4974-a60f-003543b10925"
+  },
+  {
+    "name": "Gilroy",
+    "athletic_net_id": "school_gilroy",
+    "db_id": "a64d6660-7f87-4b3f-aa09-acd2c0a334c7"
+  },
+  {
+    "name": "James Lick",
+    "athletic_net_id": "school_james_lick",
+    "db_id": "f76c63ec-9bd9-4664-ace9-cdbeb9605c16"
+  },
+  {
+    "name": "Leland",
+    "athletic_net_id": "school_leland",
+    "db_id": "cf951e07-7b72-438b-abca-c195ae585860"
+  },
+  {
+    "name": "Piedmont Hills",
+    "athletic_net_id": "school_piedmont_hills",
+    "db_id": "6cd460ce-1f6a-432e-b7ed-55aa56db5049"
+  },
+  {
+    "name": "Prospect",
+    "athletic_net_id": "school_prospect",
+    "db_id": "13d200d7-0755-4802-a1dd-c03401a06f1f"
+  },
+  {
+    "name": "Santa Teresa",
+    "athletic_net_id": "school_santa_teresa",
+    "db_id": "b66eb6c3-75ea-4569-aefc-0e7fbf6813d6"
+  },
+  {
+    "name": "Willow Glen",
+    "athletic_net_id": "school_willow_glen",
+    "db_id": "191de389-e6ce-4b54-b9c4-6cc95d82b826"
+  }
+]

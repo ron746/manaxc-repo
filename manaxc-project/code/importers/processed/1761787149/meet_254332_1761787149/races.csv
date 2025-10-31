@@ -1,0 +1,9 @@
+athletic_net_race_id,meet_athletic_net_id,name,gender,distance_meters,race_type,course_name
+1015481,254332,"Mens 5,000 Meters Varsity Small",M,5000,Varsity,"Woodward Park, 5000 Meters"
+1015482,254332,"Mens 5,000 Meters Varsity Large",M,5000,Varsity,"Woodward Park, 5000 Meters"
+1015483,254332,"Womens 5,000 Meters Varsity Large",F,5000,Varsity,"Woodward Park, 5000 Meters"
+1015484,254332,"Womens 5,000 Meters Varsity Small",F,5000,Varsity,"Woodward Park, 5000 Meters"
+1015485,254332,"Mens 5,000 Meters Junior Varsity",M,5000,JV,"Woodward Park, 5000 Meters"
+1015486,254332,"Womens 5,000 Meters Junior Varsity",F,5000,JV,"Woodward Park, 5000 Meters"
+1015487,254332,"Mens 5,000 Meters Frosh-Soph",M,5000,Frosh,"Woodward Park, 5000 Meters"
+1039297,254332,"Womens 5,000 Meters Frosh-Soph",F,5000,Frosh,"Woodward Park, 5000 Meters"

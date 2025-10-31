@@ -203,9 +203,6 @@ export default function SeasonPage() {
       })
 
       if (error) {
-        console.error('Error loading athletes:', error)
-        console.error('Error message:', error?.message)
-        console.error('Error details:', JSON.stringify(error))
         // Fall back to old method if function doesn't exist yet or any error occurs
         // Check if error has a message property before calling includes
         if (error?.message && (error.message.includes('function') && error.message.includes('does not exist'))) {
@@ -214,7 +211,7 @@ export default function SeasonPage() {
           return
         }
         // For any RPC error, fall back to old method
-        console.warn('RPC call failed, using fallback method')
+        console.warn('RPC call failed, using fallback method:', error?.message || JSON.stringify(error))
         await loadSeasonResultsFallback(seasonYears, isAllTime, filters)
         return
       }

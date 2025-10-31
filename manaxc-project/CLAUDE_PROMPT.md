@@ -466,7 +466,53 @@ const cifSectionMatch = selectedCifSections.size === 0 ||
 
 ---
 
-## Latest Sprint Work (Oct 31, 2025 - Course Calibration Sprint)
+## Latest Sprint Work (Nov 1, 2025 - Course Calibration Cascade Fix)
+
+### Course Calibration System Complete ✅
+
+**What:** Fixed critical cascade issue where team projections weren't updating after difficulty changes
+
+**The Problem:**
+- Manual course difficulty adjustments were working
+- Individual `normalized_time_cs` updated (via trigger) ✅
+- Course records updated (via trigger) ✅
+- `athlete_best_times` table NOT updating ❌
+- Season page team projections stayed stale
+
+**The Fix:**
+- Updated `apply-difficulty-adjustment` API to automatically call `batch_rebuild_athlete_best_times()`
+- All derived tables now update automatically when difficulty changes
+- User gets confirmation message showing rebuild status
+- Team projections update immediately without manual intervention
+
+**Reverse Difficulty Calculator Added:**
+- Enter race time (MM:SS.HH) and desired normalized time (MM:SS.HH)
+- Calculator determines needed difficulty rating
+- "Use This Value" button to apply calculated difficulty
+- Useful for calibrating courses based on known performance expectations
+
+**Season Page Fix:**
+- Removed 3 redundant console.error() calls causing "3 issues" message
+- Consolidated to single console.warn() with fallback handling
+- No more error overlay in dev mode
+
+**Files Changed:**
+- `/website/app/api/admin/apply-difficulty-adjustment/route.ts` - Added automatic rebuild
+- `/website/app/admin/course-calibration/page.tsx` - Added calculator, improved UI
+- `/website/app/season/page.tsx` - Fixed console errors
+
+**Impact:**
+- Course calibration workflow now fully automated
+- No manual batch rebuild needed after difficulty changes
+- Team projections always accurate
+- Example: Willow Glen at Crystal Springs now correctly shows ~78:00 instead of stale 76:20
+
+**Documentation Created:**
+- `SESSION_HANDOFF_2025-11-01.md` - Complete session details
+
+---
+
+## Previous Sprint Work (Oct 31, 2025 - Course Calibration Sprint)
 
 ### Malcolm Slaney Calibration Method Implementation ✅
 
@@ -993,12 +1039,12 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 31, 2025 (Course Calibration System Working)
-**System Status**: 🟢 OPERATIONAL - Network calibration running, needs refinement
-**Current Phase**: Malcolm Slaney Calibration Method - Distance Filtering Needed
+**Last Updated**: November 1, 2025 (Course Calibration Cascade Fixed)
+**System Status**: 🟢 OPERATIONAL - Manual calibration fully working with automatic cascade
+**Current Phase**: Course Calibration Complete - Ready for bulk imports
 **Deployment**: Vercel (manaxc.vercel.app)
-**Next Session Goal**: Add distance filtering to calibration, investigate outliers
-**Localhost**: http://localhost:3000/admin/network-calibration
+**Next Session Goal**: Fix school season page, import Mat. Sac + all CCS D2 schools
+**Localhost**: http://localhost:3000/admin/course-calibration
 
 ---
 

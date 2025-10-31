@@ -971,7 +971,7 @@ def write_csv_files(
     with open(races_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=[
             'athletic_net_race_id', 'meet_athletic_net_id', 'name',
-            'gender', 'distance_meters', 'race_type'
+            'gender', 'distance_meters', 'race_type', 'course_name'
         ])
         writer.writeheader()
         for race in scrape_result.races:
