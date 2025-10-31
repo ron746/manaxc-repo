@@ -14,9 +14,6 @@ function LoginForm() {
 
   const redirectTo = searchParams.get('redirectTo') || '/admin'
   const errorParam = searchParams.get('error')
-  const debugUid = searchParams.get('debug_uid')
-  const debugEmail = searchParams.get('debug_email')
-  const debugError = searchParams.get('debug_error')
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -50,21 +47,9 @@ function LoginForm() {
         .eq('user_id', data.user.id)
         .single()
 
-      console.log('Admin check during login:', {
-        userId: data.user.id,
-        email: data.user.email,
-        hasAdminData: !!adminData,
-        errorCode: adminError?.code,
-        errorMessage: adminError?.message,
-        errorDetails: adminError?.details
-      })
-
       if (adminError || !adminData) {
         await supabase.auth.signOut()
-        const errorMsg = adminError
-          ? `Admin check failed: ${adminError.message} (Code: ${adminError.code}). User ID: ${data.user.id.substring(0, 8)}...`
-          : `No admin record found for user ${data.user.id.substring(0, 8)}...`
-        setError(errorMsg)
+        setError('You do not have admin privileges. Please contact an administrator.')
         setLoading(false)
         return
       }
@@ -91,14 +76,14 @@ function LoginForm() {
               <p className="text-red-800 font-semibold">
                 You do not have admin privileges. Please contact an administrator.
               </p>
-              {(debugUid || debugEmail || debugError) && (
-                <div className="mt-3 p-3 bg-yellow-50 border border-yellow-200 rounded text-sm">
-                  <p className="font-bold text-yellow-900 mb-1">Debug Info:</p>
-                  {debugUid && <p className="text-yellow-800">User ID: {debugUid}...</p>}
-                  {debugEmail && <p className="text-yellow-800">Email: {debugEmail}</p>}
-                  {debugError && <p className="text-yellow-800">Error: {debugError}</p>}
-                </div>
-              )}
+            </div>
+          )}
+
+          {errorParam === 'server_error' && (
+            <div className="mb-4 p-4 bg-red-50 border-2 border-red-200 rounded">
+              <p className="text-red-800 font-semibold">
+                A server error occurred. Please try again or contact support.
+              </p>
             </div>
           )}
 

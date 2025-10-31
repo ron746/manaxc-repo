@@ -76,46 +76,27 @@ export async function middleware(request: NextRequest) {
     }
 
     // Check if user has admin role
-    const { data: profile, error: profileError } = await supabase
+    const { data: profile } = await supabase
       .from('admin_users')
       .select('email')
       .eq('user_id', user.id)
       .single()
 
-    // Log for debugging
-    console.log('Admin check:', {
-      userId: user.id,
-      email: user.email,
-      hasProfile: !!profile,
-      error: profileError?.message,
-      errorCode: profileError?.code,
-      errorDetails: profileError?.details
-    })
-
-    // If no admin profile, redirect to login with error details
+    // If no admin profile, redirect to login
     if (!profile) {
       const redirectUrl = request.nextUrl.clone()
       redirectUrl.pathname = '/admin/login'
       redirectUrl.searchParams.set('error', 'unauthorized')
-      // Add debug info to URL (will remove after fixing)
-      if (user.id) {
-        redirectUrl.searchParams.set('debug_uid', user.id.substring(0, 8))
-      }
-      redirectUrl.searchParams.set('debug_email', user.email || 'none')
-      if (profileError) {
-        redirectUrl.searchParams.set('debug_error', profileError.message)
-      }
       return NextResponse.redirect(redirectUrl)
     }
 
     return response
   } catch (error) {
     console.error('Middleware error:', error)
-    // On error, redirect to login with error message
+    // On error, redirect to login
     const redirectUrl = request.nextUrl.clone()
     redirectUrl.pathname = '/admin/login'
-    redirectUrl.searchParams.set('error', 'middleware_error')
-    redirectUrl.searchParams.set('debug_error', error instanceof Error ? error.message : 'Unknown error')
+    redirectUrl.searchParams.set('error', 'server_error')
     return NextResponse.redirect(redirectUrl)
   }
 }
