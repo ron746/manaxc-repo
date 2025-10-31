@@ -254,32 +254,64 @@ echo "DELETE ALL DATA" | venv/bin/python3 clear_database.py
 
 ## 🚨 CRITICAL ISSUES - MUST READ FIRST 🚨
 
-### Issue 1: Orphaned References in athlete_best_times (BLOCKING) - Oct 29, 2025
+### Issue 1: Course Calibration Needs Distance Filtering - Oct 31, 2025
 
-**Status:** CRITICAL - Blocking 99%+ of result imports
+**Status:** 🟡 HIGH PRIORITY - Calibration working but has distance-effect confounding
+
+**Current State:**
+- Network calibration API working ✅
+- Dual anchors configured (Crystal Springs 1.0, Woodward Park 0.95) ✅
+- Analyzing 23 courses with results ✅
+- **BUT:** Comparing all distances to 2.95-mile anchor (wrong)
+
+**Problem:**
+- Crystal Springs 2.13 miles shows -17.9% discrepancy
+- This captures PACING differences, not terrain difficulty
+- Function needs ±15% distance filter like Malcolm Slaney method
+
+**Fix Required:**
+Update `get_all_course_calibrations()` in `/website/supabase/migrations/20251030_optimize_course_analysis_CORRECTED.sql` to filter:
+```sql
+WHERE c.distance_meters BETWEEN
+  FLOOR(anchor_distance * 0.85) AND
+  CEIL(anchor_distance * 1.15)
+```
+
+**See:** `/Users/ron/manaxc/manaxc-project/SESSION_HANDOFF_2025-10-31.md` for full details
+
+### Issue 2: Database Triggers Must Be Re-enabled (CRITICAL) - Oct 30, 2025
+
+**Status:** 🔴 CRITICAL - Triggers currently disabled for bulk import
 
 **Details:**
-- Meet 254032 "Flat SAC" import: Created 1 meet, 9 races, 37 schools, 1,738 athletes ✅
-- Results imported: **Only 3 out of 1,314** ❌
-- 1,311 results failed with foreign key constraint violation
-- Error: `athlete_best_times_season_best_result_id_fkey` references result IDs that don't exist
+- All result triggers disabled on Oct 30, 2025 for meet 254378 bulk import
+- Import completed successfully: 4,651 out of 4,655 results (99.9%)
+- **MUST re-enable triggers before any new imports**
 
-**Root Cause:**
-- `athlete_best_times` table contains orphaned foreign key references to deleted results
-- Database trigger fails when inserting new results, checking stale references
-- Likely caused by previous data cleanup operations that deleted results without updating best_times
+**Triggers Disabled:**
+- `trigger_calculate_normalized_time_cs`
+- `update_athlete_best_times_trigger`
+- `maintain_course_records_trigger`
+- `maintain_school_hall_of_fame_trigger`
+- `maintain_school_course_records_trigger`
 
-**Fix Script Created:**
-- Location: `/Users/ron/manaxc/manaxc-project/code/importers/FIX_ORPHANED_REFERENCES.py`
-- What it does: Finds and NULLs out orphaned references in both `season_best_result_id` and `alltime_best_result_id` columns
-- Status: Ready to run (interactive, asks for confirmation)
+**Next Steps (PRIORITY 0 - Do This First Next Session):**
+1. **Re-enable triggers in Supabase SQL Editor:**
+   ```sql
+   ALTER TABLE results ENABLE TRIGGER trigger_calculate_normalized_time_cs;
+   ALTER TABLE results ENABLE TRIGGER update_athlete_best_times_trigger;
+   ALTER TABLE results ENABLE TRIGGER maintain_course_records_trigger;
+   ALTER TABLE results ENABLE TRIGGER maintain_school_hall_of_fame_trigger;
+   ALTER TABLE results ENABLE TRIGGER maintain_school_course_records_trigger;
+   ```
 
-**Next Steps:**
-1. Run `FIX_ORPHANED_REFERENCES.py` to clean up database
-2. Re-import meet 254032 to get 1,311 missing results
-3. Continue with other pending imports
+2. **Run batch rebuild of derived tables:**
+   - SQL file: `/Users/ron/manaxc/manaxc-project/code/database/batch_rebuild_derived_tables.sql`
+   - This recalculates normalized times, best times, course records for all 4,651 new results
 
-**Detailed Doc:** `/Users/ron/manaxc/manaxc-project/code/importers/IMPORT_ISSUE_SUMMARY.md`
+3. **Fix 4 missing athletes and import their results**
+
+**Detailed Doc:** `/Users/ron/manaxc/manaxc-project/SESSION_HANDOFF_2025-10-30.md`
 
 ### Issue 2: Import Failure - 0 Results Imported (RESOLVED - See Issue 1 for new blocking issue)
 
@@ -431,6 +463,96 @@ const cifSectionMatch = selectedCifSections.size === 0 ||
 - Better user experience with checkbox-driven multi-select filters
 - Ability to filter by league structure and divisions
 - Explicit handling of null/blank values in filters
+
+---
+
+## Latest Sprint Work (Oct 31, 2025 - Course Calibration Sprint)
+
+### Malcolm Slaney Calibration Method Implementation ✅
+
+**What:** Implemented network-based course difficulty calibration using Malcolm Slaney's research methodology
+
+**Key Achievements:**
+
+1. **Dual Anchor System Configured**
+   - Crystal Springs 2.95 miles: confidence 1.0 (50 years validation)
+   - Woodward Park 5000 meters: confidence 0.95 (proven elite usage)
+   - All other courses: 0.30-0.50 (single season data)
+
+2. **Network Calibration API Working**
+   - Fixed schema errors (`meets.date` → `meets.meet_date`)
+   - Fixed parameter mismatches
+   - Fixed count query syntax
+   - Admin UI at `/admin/network-calibration` operational
+
+3. **Confidence Scoring System**
+   - Formula: results (30%) + seasons (40%) + variance (20%) + shared athletes (10%)
+   - Single-season penalty: 0.00 season contribution (max ~0.40 confidence)
+   - Multi-season requirement: 5+ seasons for full credit
+
+4. **Malcolm Slaney Functions Created**
+   - `get_course_outlier_analysis()` - Time differences with athlete improvement
+   - `calculate_course_confidence()` - Data quality scoring
+   - `calculate_athlete_improvement_rate()` - Performance-based rates
+   - `get_all_course_calibrations()` - Network calibration (all courses)
+
+**Current Results (23 Courses Analyzed):**
+- 18 high confidence (>30%)
+- 5 need review (>5% discrepancy)
+- Notable outliers:
+  - Lagoon Valley Park: -27.2% (needs investigation)
+  - Crystal Springs 2.13: -17.9% (distance-effect confounding)
+  - North Monterey County: -7.8% (high confidence, likely real)
+
+**Known Issues:**
+- Distance filtering not implemented in UI function (shows all courses)
+- Crystal Springs 2.13 should be excluded from 2.95 comparison
+- Need ±15% distance tolerance like Malcolm Slaney method
+
+**Migrations Applied:**
+- `20251030_correct_malcolm_slaney_method.sql`
+- `20251030_add_course_confidence.sql`
+- `20251030_athlete_improvement_model.sql`
+- `20251030_fix_distance_comparison.sql`
+- `20251031_fix_confidence_calculation.sql`
+- `20251031_set_dual_anchors.sql`
+- `20251031_fix_outlier_analysis_ambiguity.sql`
+
+**Documentation Created:**
+- `AI_CONFIDENCE_EVOLUTION.md` - Future AI-driven learning system
+- `MALCOLM_SLANEY_CORRECT_METHOD.md` - Implementation guide
+- `COURSE_CONFIDENCE_SYSTEM.md` - Confidence calculation docs
+- `ATHLETE_IMPROVEMENT_MODEL.md` - Performance-based rates
+- `SESSION_HANDOFF_2025-10-31.md` - Full session details
+
+**Next Steps:**
+1. Add distance filtering to `get_all_course_calibrations()`
+2. Investigate Lagoon Valley Park outlier
+3. Cross-validate with Woodward Park anchor
+4. Implement elite runner filter (top 5 only)
+5. Create calibration application workflow
+
+**Files Changed:**
+- `/website/app/api/admin/network-course-calibration-optimized/route.ts`
+- `/website/supabase/migrations/` (7 new files)
+- Documentation files (4 new files)
+
+**Technical Details:**
+```typescript
+// Athlete Improvement Rates
+elite: 1.0 sec/week (< 5:20/mile)
+strong: 1.25 sec/week (5:20-6:00)
+developing: 2.0 sec/week (6:00-7:00)
+novice: 2.5 sec/week (> 7:00)
+girls: plateau/decline patterns (puberty effects)
+
+// Confidence Formula
+confidence =
+  MIN(0.30, results / 500) +
+  CASE seasons: 1=0.00, 2=0.15, 3=0.25, 5+=0.40 END +
+  CASE seasons >= 2: MAX(0.0, 0.20 - variance/2500) ELSE 0.00 END +
+  MIN(0.10, shared_athletes / 100)
+```
 
 ---
 
@@ -871,11 +993,12 @@ When starting a new Claude session:
 
 ---
 
-**Last Updated**: October 29, 2025 (Database Issue Discovery & Sprint Planning)
-**System Status**: 🔴 CRITICAL ISSUE - Orphaned references blocking result imports
-**Current Phase**: Database Cleanup & Import System Fixes
+**Last Updated**: October 31, 2025 (Course Calibration System Working)
+**System Status**: 🟢 OPERATIONAL - Network calibration running, needs refinement
+**Current Phase**: Malcolm Slaney Calibration Method - Distance Filtering Needed
 **Deployment**: Vercel (manaxc.vercel.app)
-**Next Session Goal**: Run FIX_ORPHANED_REFERENCES.py and complete pending imports
+**Next Session Goal**: Add distance filtering to calibration, investigate outliers
+**Localhost**: http://localhost:3000/admin/network-calibration
 
 ---
 
