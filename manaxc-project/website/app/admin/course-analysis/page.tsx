@@ -495,7 +495,7 @@ export default function CourseAnalysisPage() {
                           </div>
                           <div>
                             <span className="font-semibold">Confidence:</span>
-                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.network_calibration?.confidence ? (savedRecommendations[analysis.course_id].network_calibration.confidence * 100).toFixed(0) + '%' : 'N/A'}</span>
+                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.network_calibration?.confidence ? (savedRecommendations[analysis.course_id]?.network_calibration?.confidence! * 100).toFixed(0) + '%' : 'N/A'}</span>
                           </div>
                           <div>
                             <span className="font-semibold">Shared Athletes:</span>
@@ -534,7 +534,7 @@ export default function CourseAnalysisPage() {
                           </div>
                           <div>
                             <span className="font-semibold">Confidence:</span>
-                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.ai_analysis?.confidence ? (savedRecommendations[analysis.course_id].ai_analysis.confidence * 100).toFixed(0) + '%' : 'N/A'}</span>
+                            <span className="ml-2">{savedRecommendations[analysis.course_id]?.ai_analysis?.confidence ? (savedRecommendations[analysis.course_id]?.ai_analysis?.confidence! * 100).toFixed(0) + '%' : 'N/A'}</span>
                           </div>
                           {savedRecommendations[analysis.course_id]?.ai_analysis?.reasoning?.reasoning && (
                             <div className="mt-2 pt-2 border-t border-purple-200">
