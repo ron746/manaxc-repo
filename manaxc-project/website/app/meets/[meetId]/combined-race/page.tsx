@@ -1065,24 +1065,24 @@ export default function CombinedRacePage() {
                       <table className="min-w-full">
                         <thead>
                           <tr className="border-b-2 border-zinc-200 bg-zinc-100">
-                            <th className="py-2 px-4 text-center font-bold text-zinc-900">Place</th>
-                            <th className="py-2 px-4 text-left font-bold text-zinc-900">School</th>
-                            <th className="py-2 px-4 text-center font-bold text-zinc-900">Score</th>
-                            <th className="py-2 px-4 text-center font-bold text-zinc-900">Avg Time</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Place</th>
+                            <th className="py-1.5 px-2 text-left font-bold text-zinc-900 text-sm">School</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Score</th>
+                            <th className="py-1.5 px-2 text-center font-bold text-zinc-900 text-sm">Team Time</th>
                           </tr>
                         </thead>
                         <tbody>
                           {girlsStandings.filter(team => team.is_complete).map((team, index) => (
                             <tr key={team.school_id} className="border-b border-zinc-200 hover:bg-cyan-50 transition-colors">
-                              <td className="py-1.5 px-4 text-center font-bold text-zinc-900">{index + 1}</td>
-                              <td className="py-1.5 px-4">
+                              <td className="py-1 px-2 text-center font-bold text-zinc-900 text-sm">{index + 1}</td>
+                              <td className="py-1 px-2 text-sm">
                                 <Link href={`/schools/${team.school_id}`} className="text-cyan-600 hover:text-cyan-700 hover:underline">
                                   {team.school_name}
                                 </Link>
                               </td>
-                              <td className="py-1.5 px-4 text-center font-bold text-cyan-600">{team.score}</td>
-                              <td className="py-1.5 px-4 text-center font-mono text-zinc-900">
-                                {formatTime(Math.round(team.team_time_cs / 5))}
+                              <td className="py-1 px-2 text-center font-bold text-cyan-600 text-sm">{team.score}</td>
+                              <td className="py-1 px-2 text-center font-mono text-zinc-900 text-sm">
+                                {formatTime(team.team_time_cs)}
                               </td>
                             </tr>
                           ))}
