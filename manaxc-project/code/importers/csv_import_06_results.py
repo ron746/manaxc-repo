@@ -16,12 +16,18 @@ This is the most complex import with:
 - Race matching: (meet_id + Course + Division/gender) → race_id
 """
 import csv
+import os
 from datetime import datetime
 from supabase import create_client, Client
+from dotenv import load_dotenv
+from trigger_manager import TriggerManager
 
-# Supabase configuration
-SUPABASE_URL = "https://mdspteohgwkpttlmdayn.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1kc3B0ZW9oZ3drcHR0bG1kYXluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExMjE0MDQsImV4cCI6MjA3NjY5NzQwNH0.4MT_nDkJg3gtyKgbVwNY1JVgY9Kod4ixRH-r8X7BBqE"
+# Load environment variables from .env.local
+load_dotenv('/Users/ron/manaxc/.env.local')
+
+# Supabase configuration - now using service role key for trigger management
+SUPABASE_URL = os.getenv('NEXT_PUBLIC_SUPABASE_URL')
+SUPABASE_KEY = os.getenv('SUPABASE_SERVICE_ROLE_KEY')  # Service role for trigger management
 
 CSV_FILE = '/Users/ron/manaxc/manaxc-project/reference/data/westmont-xc-results - results.csv'
 
@@ -265,7 +271,7 @@ def import_results():
     existing_keys = {(row['athlete_id'], row['meet_id'], row['race_id']) for row in existing.data}
     print(f"   Found {len(existing_keys)} existing results")
 
-    # Import in batches for better performance
+    # Import in batches for better performance with trigger management
     inserted = 0
     skipped = 0
     errors = []
@@ -273,32 +279,36 @@ def import_results():
 
     print(f"\n💾 Importing {len(results)} results in batches of {batch_size}...\n")
 
-    for batch_start in range(0, len(results), batch_size):
-        batch_end = min(batch_start + batch_size, len(results))
-        batch = results[batch_start:batch_end]
+    # Use TriggerManager to disable triggers during bulk import for speed
+    with TriggerManager(supabase):
+        for batch_start in range(0, len(results), batch_size):
+            batch_end = min(batch_start + batch_size, len(results))
+            batch = results[batch_start:batch_end]
 
-        # Filter out existing results in this batch
-        new_results = []
-        for result in batch:
-            key = (result['athlete_id'], result['meet_id'], result['race_id'])
-            if key in existing_keys:
-                skipped += 1
-            else:
-                new_results.append(result)
-                existing_keys.add(key)
+            # Filter out existing results in this batch
+            new_results = []
+            for result in batch:
+                key = (result['athlete_id'], result['meet_id'], result['race_id'])
+                if key in existing_keys:
+                    skipped += 1
+                else:
+                    new_results.append(result)
+                    existing_keys.add(key)
 
-        if not new_results:
-            print(f"  ⏭️  Batch {batch_start+1:4d}-{batch_end:4d}: All existed, skipped")
-            continue
+            if not new_results:
+                print(f"  ⏭️  Batch {batch_start+1:4d}-{batch_end:4d}: All existed, skipped")
+                continue
 
-        try:
-            supabase.table('results').insert(new_results).execute()
-            inserted += len(new_results)
-            print(f"  ✅ Batch {batch_start+1:4d}-{batch_end:4d}: Imported {len(new_results)} results")
-        except Exception as e:
-            error_msg = f"Batch {batch_start+1}-{batch_end}: {str(e)}"
-            errors.append(error_msg)
-            print(f"  ❌ Batch {batch_start+1:4d}-{batch_end:4d}: ERROR: {str(e)[:50]}")
+            try:
+                supabase.table('results').insert(new_results).execute()
+                inserted += len(new_results)
+                print(f"  ✅ Batch {batch_start+1:4d}-{batch_end:4d}: Imported {len(new_results)} results")
+            except Exception as e:
+                error_msg = f"Batch {batch_start+1}-{batch_end}: {str(e)}"
+                errors.append(error_msg)
+                print(f"  ❌ Batch {batch_start+1:4d}-{batch_end:4d}: ERROR: {str(e)[:50]}")
+
+    # Triggers are automatically re-enabled and flags backfilled after the 'with' block
 
     # Summary
     print("\n" + "=" * 100)

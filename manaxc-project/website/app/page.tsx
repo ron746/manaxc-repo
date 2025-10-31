@@ -15,6 +15,9 @@ interface Meet {
   name: string
   meet_date: string
   season_year: number
+  result_count: number
+  sb_count: number
+  pr_count: number
 }
 
 export default function Home() {
@@ -161,7 +164,14 @@ export default function Home() {
                         })}
                       </p>
                     </div>
-                    <div className="text-sm font-bold text-cyan-600">{meet.season_year} Season</div>
+                    <div className="text-right">
+                      <div className="text-sm font-bold text-zinc-900">
+                        {meet.result_count.toLocaleString()} Results
+                      </div>
+                      <div className="text-xs text-zinc-600 mt-1">
+                        {meet.sb_count} SBs • {meet.pr_count} PRs
+                      </div>
+                    </div>
                   </div>
                 </a>
               ))}

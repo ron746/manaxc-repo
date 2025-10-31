@@ -5,13 +5,19 @@ Includes: schools, athletes, meets, races, results
 """
 import zipfile
 import xml.etree.ElementTree as ET
+import os
 from supabase import create_client, Client
 from datetime import datetime, timedelta
 import re
+from dotenv import load_dotenv
+from trigger_manager import TriggerManager
 
-# Supabase configuration
-SUPABASE_URL = "https://mdspteohgwkpttlmdayn.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1kc3B0ZW9oZ3drcHR0bG1kYXluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExMjE0MDQsImV4cCI6MjA3NjY5NzQwNH0.4MT_nDkJg3gtyKgbVwNY1JVgY9Kod4ixRH-r8X7BBqE"
+# Load environment variables from .env.local
+load_dotenv('/Users/ron/manaxc/.env.local')
+
+# Supabase configuration - now using service role key for trigger management
+SUPABASE_URL = os.getenv('NEXT_PUBLIC_SUPABASE_URL')
+SUPABASE_KEY = os.getenv('SUPABASE_SERVICE_ROLE_KEY')  # Service role for trigger management
 
 def parse_excel_date(excel_date_value):
     """Convert Excel date serial number to Python date"""
@@ -315,12 +321,14 @@ def import_all_results():
 
     print(f"   ✅ {len(races_cache)} races ready")
 
-    # Import results
+    # Import results with trigger management for speed
     print("\n9. Importing results...")
     imported_count = 0
     error_count = 0
 
-    for idx, result in enumerate(results_data, 1):
+    # Collect all results to import first
+    results_to_import = []
+    for result in results_data:
         meet_key = f"{result['date']}_{result['event_name']}"
 
         athlete_id = athletes_cache.get(result['athlete_name'])
@@ -331,24 +339,33 @@ def import_all_results():
             error_count += 1
             continue
 
-        try:
-            supabase.table('results').insert({
-                'athlete_id': athlete_id,
-                'meet_id': meet_id,
-                'race_id': race_id,
-                'time_cs': result['time_cs'],
-                'data_source': 'excel_import',
-                'is_legacy_data': True,
-                'validation_status': 'imported'
-            }).execute()
-            imported_count += 1
+        results_to_import.append({
+            'athlete_id': athlete_id,
+            'meet_id': meet_id,
+            'race_id': race_id,
+            'time_cs': result['time_cs'],
+            'data_source': 'excel_import',
+            'is_legacy_data': True,
+            'validation_status': 'imported'
+        })
 
-            if imported_count % 100 == 0:
+    # Use TriggerManager to disable triggers during bulk import for speed
+    batch_size = 100
+    with TriggerManager(supabase):
+        for batch_start in range(0, len(results_to_import), batch_size):
+            batch_end = min(batch_start + batch_size, len(results_to_import))
+            batch = results_to_import[batch_start:batch_end]
+
+            try:
+                supabase.table('results').insert(batch).execute()
+                imported_count += len(batch)
                 print(f"   Imported {imported_count}/{len(results_data)}...")
-        except Exception as e:
-            error_count += 1
-            if error_count <= 5:
-                print(f"   Error: {e}")
+            except Exception as e:
+                error_count += len(batch)
+                if error_count <= 5:
+                    print(f"   Error: {e}")
+
+    # Triggers are automatically re-enabled and flags backfilled after the 'with' block
 
     print(f"\n{'='*100}")
     print(f"✅ IMPORT COMPLETE!")

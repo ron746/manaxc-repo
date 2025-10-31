@@ -23,13 +23,37 @@ export async function getRecentMeets(limit = 10) {
       id,
       name,
       meet_date,
-      season_year
+      season_year,
+      result_count
     `)
     .order('meet_date', { ascending: false })
     .limit(limit)
 
   if (error) throw error
-  return data || []
+
+  // For each meet, count SBs and PRs
+  const meetsWithCounts = await Promise.all((data || []).map(async (meet) => {
+    const { count: sbCount } = await supabase
+      .from('results')
+      .select('id', { count: 'exact', head: true })
+      .eq('meet_id', meet.id)
+      .eq('is_sb', true)
+
+    const { count: prCount } = await supabase
+      .from('results')
+      .select('id', { count: 'exact', head: true })
+      .eq('meet_id', meet.id)
+      .eq('is_pr', true)
+
+    return {
+      ...meet,
+      result_count: meet.result_count || 0,
+      sb_count: sbCount || 0,
+      pr_count: prCount || 0
+    }
+  }))
+
+  return meetsWithCounts
 }
 
 export async function getCourses() {
