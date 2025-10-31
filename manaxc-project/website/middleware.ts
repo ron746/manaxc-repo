@@ -75,11 +75,19 @@ export async function middleware(request: NextRequest) {
   }
 
   // Check if user has admin role
-  const { data: profile } = await supabase
+  const { data: profile, error: profileError } = await supabase
     .from('admin_users')
     .select('email')
     .eq('user_id', user.id)
     .single()
+
+  // Log for debugging
+  console.log('Admin check:', {
+    userId: user.id,
+    email: user.email,
+    hasProfile: !!profile,
+    error: profileError?.message
+  })
 
   // If no admin profile, redirect to login with error
   if (!profile) {
