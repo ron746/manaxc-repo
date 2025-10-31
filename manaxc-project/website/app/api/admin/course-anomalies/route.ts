@@ -48,7 +48,7 @@ export async function POST(request: Request) {
         medium: medium.length,
         low: low.length,
         avgOutlierPct: anomalies?.length
-          ? (anomalies.reduce((sum, a) => sum + a.outlier_percentage, 0) / anomalies.length)
+          ? (anomalies.reduce((sum: number, a: any) => sum + a.outlier_percentage, 0) / anomalies.length)
           : 0
       }
     })
