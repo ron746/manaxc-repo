@@ -180,6 +180,30 @@ export default function Home() {
         </section>
       )}
 
+      {/* Data Attribution Section */}
+      <section className="container mx-auto px-6 py-12">
+        <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl shadow-xl p-8 md:p-12 border border-blue-200 max-w-4xl mx-auto">
+          <div className="text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-zinc-900 mb-4">
+              Powered by Athletic.net
+            </h2>
+            <p className="text-lg text-zinc-700 mb-6 max-w-2xl mx-auto leading-relaxed">
+              All meet data and race results on ManaXC are provided by <a
+                href="https://www.athletic.net"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-bold text-cyan-600 hover:text-cyan-700 underline decoration-2 underline-offset-2 transition-colors"
+              >Athletic.net</a>,
+              the premier platform for high school track and field and cross country.
+              We're grateful for their outstanding service to the running community and their support of data accessibility.
+            </p>
+            <p className="text-sm text-zinc-600 italic">
+              Thank you, Athletic.net, for making comprehensive race data available to coaches, athletes, and fans.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-zinc-900 text-white mt-16">
         <div className="container mx-auto px-6 py-8">

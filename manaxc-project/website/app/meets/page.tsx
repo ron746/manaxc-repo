@@ -31,6 +31,7 @@ export default function MeetsPage() {
   const [currentPage, setCurrentPage] = useState(1)
   const [seasonFilter, setSeasonFilter] = useState<string>('all')
   const [meetTypeFilter, setMeetTypeFilter] = useState<string>('all')
+  const [searchQuery, setSearchQuery] = useState<string>('')
   const [jumpToPage, setJumpToPage] = useState<string>('')
   const meetsPerPage = 50
 
@@ -94,11 +95,31 @@ export default function MeetsPage() {
 
   // Filter meets
   const filteredMeets = meets.filter(meet => {
+    // Season filter
     if (seasonFilter !== 'all' && meet.season_year.toString() !== seasonFilter) {
       return false
     }
+    // Meet type filter
     if (meetTypeFilter !== 'all' && meet.meet_type !== meetTypeFilter) {
       return false
+    }
+    // Search filter
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase()
+      const meetName = meet.name.toLowerCase()
+      const venueName = meet.venue?.name?.toLowerCase() || ''
+      const venueCity = meet.venue?.city?.toLowerCase() || ''
+      const venueState = meet.venue?.state?.toLowerCase() || ''
+
+      const matchesSearch =
+        meetName.includes(query) ||
+        venueName.includes(query) ||
+        venueCity.includes(query) ||
+        venueState.includes(query)
+
+      if (!matchesSearch) {
+        return false
+      }
     }
     return true
   })
@@ -170,6 +191,52 @@ export default function MeetsPage() {
           <p className="text-zinc-600">{meets.length} total meets</p>
         </div>
 
+        {/* Search Bar */}
+        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 mb-4 border border-blue-200 shadow-sm">
+          <label htmlFor="search" className="block text-sm font-medium text-zinc-700 mb-2">
+            Search Meets
+          </label>
+          <div className="relative">
+            <input
+              id="search"
+              type="text"
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value)
+                setCurrentPage(1)
+              }}
+              placeholder="Search by meet name, venue, city, or state..."
+              className="w-full px-4 py-3 pr-10 bg-white border border-zinc-300 rounded-lg text-zinc-900 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent shadow-sm"
+            />
+            {searchQuery && (
+              <button
+                onClick={() => {
+                  setSearchQuery('')
+                  setCurrentPage(1)
+                }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 transition-colors"
+                title="Clear search"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            )}
+            {!searchQuery && (
+              <div className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+            )}
+          </div>
+          {searchQuery && (
+            <p className="mt-2 text-sm text-blue-700">
+              Found {filteredMeets.length} meet{filteredMeets.length !== 1 ? 's' : ''} matching "{searchQuery}"
+            </p>
+          )}
+        </div>
+
         {/* Filters */}
         <div className="bg-zinc-50 rounded-lg p-6 mb-6 border border-zinc-200">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -214,13 +281,14 @@ export default function MeetsPage() {
             <div className="flex items-end">
               <button
                 onClick={() => {
+                  setSearchQuery('')
                   setSeasonFilter('all')
                   setMeetTypeFilter('all')
                   setCurrentPage(1)
                 }}
-                className="w-full px-4 py-2 bg-zinc-200 hover:bg-zinc-300 text-zinc-900 rounded-lg transition-colors"
+                className="w-full px-4 py-2 bg-zinc-200 hover:bg-zinc-300 text-zinc-900 rounded-lg transition-colors font-medium"
               >
-                Clear Filters
+                Clear All Filters
               </button>
             </div>
           </div>
